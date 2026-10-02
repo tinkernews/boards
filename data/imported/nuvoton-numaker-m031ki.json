@@ -1,0 +1,44 @@
+{
+  "slug": "nuvoton-numaker-m031ki",
+  "name": "NUMAKER M031KI",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nuvoton",
+  "ids": {
+    "zephyr": [
+      "numaker_m031ki"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "M031XXX",
+      "source": "zephyr:numaker_m031ki"
+    },
+    "ram": {
+      "value": "96 KB",
+      "source": "zephyr:numaker_m031ki"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:numaker_m031ki"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nuvoton/numaker_m031ki/doc/index.html",
+      "source": "zephyr:numaker_m031ki"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:numaker_m031ki",
+      "label": "Zephyr board definition (numaker_m031ki)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nuvoton/numaker_m031ki/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

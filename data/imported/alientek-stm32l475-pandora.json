@@ -1,0 +1,44 @@
+{
+  "slug": "alientek-stm32l475-pandora",
+  "name": "STM32L475 Pandora",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "alientek",
+  "ids": {
+    "zephyr": [
+      "pandora_stm32l475"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32L475XX",
+      "source": "zephyr:pandora_stm32l475"
+    },
+    "ram": {
+      "value": "128 KB",
+      "source": "zephyr:pandora_stm32l475"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:pandora_stm32l475"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/alientek/pandora_stm32l475/doc/index.html",
+      "source": "zephyr:pandora_stm32l475"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:pandora_stm32l475",
+      "label": "Zephyr board definition (pandora_stm32l475)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/alientek/pandora_stm32l475/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

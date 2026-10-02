@@ -1,0 +1,44 @@
+{
+  "slug": "cypress-psoc-63-ble-pioneer-kit",
+  "name": "PSOC 63 BLE Pioneer Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "cypress",
+  "ids": {
+    "zephyr": [
+      "cy8ckit_062_ble"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "CY8C6347",
+      "source": "zephyr:cy8ckit_062_ble"
+    },
+    "ram": {
+      "value": "288 KB",
+      "source": "zephyr:cy8ckit_062_ble"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:cy8ckit_062_ble"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/cypress/cy8ckit_062_ble/doc/index.html",
+      "source": "zephyr:cy8ckit_062_ble"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:cy8ckit_062_ble",
+      "label": "Zephyr board definition (cy8ckit_062_ble)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/cypress/cy8ckit_062_ble/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

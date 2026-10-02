@@ -1,0 +1,45 @@
+{
+  "slug": "seeed-studio-wio-wm1110-dev-kit",
+  "name": "Wio-WM1110 Dev Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "seeed",
+  "chip": "nrf52840",
+  "ids": {
+    "zephyr": [
+      "wio_wm1110_dev_kit"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52840",
+      "source": "zephyr:wio_wm1110_dev_kit"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:wio_wm1110_dev_kit"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:wio_wm1110_dev_kit"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/seeed/wio_wm1110_dev_kit/doc/index.html",
+      "source": "zephyr:wio_wm1110_dev_kit"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:wio_wm1110_dev_kit",
+      "label": "Zephyr board definition (wio_wm1110_dev_kit)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/seeed/wio_wm1110_dev_kit/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

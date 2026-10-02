@@ -1,0 +1,56 @@
+{
+  "slug": "sodaq-explorer",
+  "name": "SODAQ ExpLoRer",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sodaq",
+  "ids": {
+    "platformio": [
+      "sodaq_explorer"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "SAMD21J18A",
+      "source": "platformio:sodaq_explorer"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:sodaq_explorer"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:sodaq_explorer"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:sodaq_explorer"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "SODAQ ExpLoRer product page",
+      "url": "https://support.sodaq.com/sodaq-one/explorer/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelsam/sodaq_explorer.html",
+      "source": "platformio:sodaq_explorer"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:sodaq_explorer",
+      "label": "PlatformIO board definition (sodaq_explorer)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/sodaq_explorer.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

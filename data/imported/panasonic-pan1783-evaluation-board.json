@@ -1,0 +1,45 @@
+{
+  "slug": "panasonic-pan1783-evaluation-board",
+  "name": "PAN1783 Evaluation Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "panasonic",
+  "chip": "nrf5340",
+  "ids": {
+    "zephyr": [
+      "pan1783_evb"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF5340",
+      "source": "zephyr:pan1783_evb"
+    },
+    "ram": {
+      "value": "448 KB",
+      "source": "zephyr:pan1783_evb"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:pan1783_evb"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/panasonic/pan1783/doc/index.html",
+      "source": "zephyr:pan1783_evb"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:pan1783_evb",
+      "label": "Zephyr board definition (pan1783_evb)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/panasonic/pan1783/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

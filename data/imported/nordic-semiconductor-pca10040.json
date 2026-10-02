@@ -1,0 +1,37 @@
+{
+  "slug": "nordic-semiconductor-pca10040",
+  "name": "pca10040",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nordic-semiconductor",
+  "ids": {
+    "micropython": [
+      "PCA10040"
+    ]
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "pca10040 product page",
+      "url": "https://www.nordicsemi.com/Products/Development-hardware/nRF52-DK"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/PCA10040/",
+      "source": "micropython:pca10040"
+    }
+  ],
+  "sources": [
+    {
+      "id": "micropython:pca10040",
+      "label": "MicroPython board definition (PCA10040)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/nrf/boards/PCA10040/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

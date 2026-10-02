@@ -1,0 +1,44 @@
+{
+  "slug": "google-dragonclaw-development-board",
+  "name": "Dragonclaw Development Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "google",
+  "ids": {
+    "zephyr": [
+      "google_dragonclaw"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F412CX",
+      "source": "zephyr:google_dragonclaw"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:google_dragonclaw"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:google_dragonclaw"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/google/dragonclaw/doc/index.html",
+      "source": "zephyr:google_dragonclaw"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:google_dragonclaw",
+      "label": "Zephyr board definition (google_dragonclaw)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/google/dragonclaw/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

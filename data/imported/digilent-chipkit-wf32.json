@@ -1,0 +1,52 @@
+{
+  "slug": "digilent-chipkit-wf32",
+  "name": "Digilent chipKIT WF32",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "digilent",
+  "ids": {
+    "platformio": [
+      "chipkit_wf32"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "32MX695F512L",
+      "source": "platformio:chipkit_wf32"
+    },
+    "clock": {
+      "value": "80 MHz",
+      "source": "platformio:chipkit_wf32"
+    },
+    "upload_limits": {
+      "value": "508 KB flash, 128 KB RAM",
+      "source": "platformio:chipkit_wf32"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Digilent chipKIT WF32 product page",
+      "url": "http://store.digilentinc.com/chipkit-wf32-wifi-enabled-microntroller-board-with-uno-r3-headers/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/microchippic32/chipkit_wf32.html",
+      "source": "platformio:chipkit_wf32"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:chipkit_wf32",
+      "label": "PlatformIO board definition (chipkit_wf32)",
+      "url": "https://github.com/platformio/platform-microchippic32/blob/f6e89308da11cfe35d7534696bf01abf3f442461/boards/chipkit_wf32.json",
+      "kind": "import",
+      "revision": "f6e89308da11cfe35d7534696bf01abf3f442461"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

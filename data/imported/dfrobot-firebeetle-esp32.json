@@ -1,0 +1,59 @@
+{
+  "slug": "dfrobot-firebeetle-esp32",
+  "name": "FireBeetle-ESP32",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "dfrobot",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "firebeetle32"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:firebeetle32"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:firebeetle32"
+    },
+    "upload_limits": {
+      "value": "16 MB flash, 520 KB RAM",
+      "source": "platformio:firebeetle32"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "FireBeetle-ESP32 product page",
+      "url": "https://wiki.dfrobot.com/FireBeetle_ESP32_IOT_Microcontroller(V3.0)__Supports_Wi-Fi_&_Bluetooth__SKU__DFR0478"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/firebeetle32.html",
+      "source": "platformio:firebeetle32"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/firebeetle32.html",
+      "source": "platformio:firebeetle32"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:firebeetle32",
+      "label": "PlatformIO board definition (firebeetle32)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/firebeetle32.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

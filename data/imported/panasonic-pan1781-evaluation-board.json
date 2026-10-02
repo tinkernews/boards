@@ -1,0 +1,44 @@
+{
+  "slug": "panasonic-pan1781-evaluation-board",
+  "name": "PAN1781 Evaluation Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "panasonic",
+  "ids": {
+    "zephyr": [
+      "pan1781_evb"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "NRF52820",
+      "source": "zephyr:pan1781_evb"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:pan1781_evb"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:pan1781_evb"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/panasonic/pan1781_evb/doc/index.html",
+      "source": "zephyr:pan1781_evb"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:pan1781_evb",
+      "label": "Zephyr board definition (pan1781_evb)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/panasonic/pan1781_evb/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

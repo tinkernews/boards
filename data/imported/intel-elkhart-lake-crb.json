@@ -1,0 +1,40 @@
+{
+  "slug": "intel-elkhart-lake-crb",
+  "name": "Elkhart Lake CRB",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "intel",
+  "ids": {
+    "zephyr": [
+      "intel_ehl_crb"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ELKHART_LAKE",
+      "source": "zephyr:intel_ehl_crb"
+    },
+    "ram": {
+      "value": "2048 KB",
+      "source": "zephyr:intel_ehl_crb"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/intel/ehl/doc/index.html",
+      "source": "zephyr:intel_ehl_crb"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:intel_ehl_crb",
+      "label": "Zephyr board definition (intel_ehl_crb)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/intel/ehl/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

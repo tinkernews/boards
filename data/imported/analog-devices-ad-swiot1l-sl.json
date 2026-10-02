@@ -1,0 +1,44 @@
+{
+  "slug": "analog-devices-ad-swiot1l-sl",
+  "name": "AD-SWIOT1L-SL",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "analog-devices",
+  "ids": {
+    "zephyr": [
+      "ad_swiot1l_sl"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MAX32650",
+      "source": "zephyr:ad_swiot1l_sl"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:ad_swiot1l_sl"
+    },
+    "flash": {
+      "value": "3 MB",
+      "source": "zephyr:ad_swiot1l_sl"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/adi/ad_swiot1l_sl/doc/index.html",
+      "source": "zephyr:ad_swiot1l_sl"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:ad_swiot1l_sl",
+      "label": "Zephyr board definition (ad_swiot1l_sl)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/adi/ad_swiot1l_sl/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

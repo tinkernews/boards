@@ -1,0 +1,237 @@
+{
+  "slug": "espressif-esp32-s3-box-lite",
+  "name": "ESP32-S3 Box Lite",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "espressif",
+  "chip": "esp32-s3",
+  "ids": {
+    "circuitpython": [
+      "espressif_esp32s3_box_lite"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/espressif_esp32s3_box_lite/",
+      "source": "circuitpython:espressif_esp32s3_box_lite"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:espressif_esp32s3_box_lite",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "BOOT"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "MUTE_STATUS"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "I2S_MCLK"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "CTP_INT"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "LCD_DC"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "LCD_CS"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "LCD_MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "LCD_SCK"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "G9"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "CS",
+          "G10"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "MOSI",
+          "G11"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "CLK",
+          "G12"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "MISO",
+          "G13"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "G14"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "I2S_CODEC_DSDIN"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "I2S_ADC_SDOUT"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "I2S_SCLK"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "G21"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "G38"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "G39"
+        ]
+      },
+      {
+        "pin": "GPIO40",
+        "names": [
+          "SCL2",
+          "G40"
+        ]
+      },
+      {
+        "pin": "GPIO41",
+        "names": [
+          "SDA2",
+          "G41"
+        ]
+      },
+      {
+        "pin": "GPIO42",
+        "names": [
+          "G42"
+        ]
+      },
+      {
+        "pin": "GPIO43",
+        "names": [
+          "U0TXD",
+          "G43"
+        ]
+      },
+      {
+        "pin": "GPIO44",
+        "names": [
+          "U0RXD",
+          "G44"
+        ]
+      },
+      {
+        "pin": "GPIO45",
+        "names": [
+          "LCD_CTRL"
+        ]
+      },
+      {
+        "pin": "GPIO46",
+        "names": [
+          "PA_CTRL"
+        ]
+      },
+      {
+        "pin": "GPIO47",
+        "names": [
+          "I2S_LRCK"
+        ]
+      },
+      {
+        "pin": "GPIO48",
+        "names": [
+          "LCD_RST"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:espressif_esp32s3_box_lite",
+      "label": "CircuitPython board definition (espressif_esp32s3_box_lite)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/espressif_esp32s3_box_lite.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:espressif_esp32s3_box_lite",
+      "label": "CircuitPython pin definitions (espressif_esp32s3_box_lite)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/espressif_esp32s3_box_lite/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

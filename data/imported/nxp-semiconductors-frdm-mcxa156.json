@@ -1,0 +1,44 @@
+{
+  "slug": "nxp-semiconductors-frdm-mcxa156",
+  "name": "FRDM-MCXA156",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "ids": {
+    "zephyr": [
+      "frdm_mcxa156"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MCXA156",
+      "source": "zephyr:frdm_mcxa156"
+    },
+    "ram": {
+      "value": "128 KB",
+      "source": "zephyr:frdm_mcxa156"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:frdm_mcxa156"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nxp/frdm_mcxa156/doc/index.html",
+      "source": "zephyr:frdm_mcxa156"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:frdm_mcxa156",
+      "label": "Zephyr board definition (frdm_mcxa156)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nxp/frdm_mcxa156/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

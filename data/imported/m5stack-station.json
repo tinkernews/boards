@@ -1,0 +1,59 @@
+{
+  "slug": "m5stack-station",
+  "name": "M5Stack Station",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "m5stack",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "m5stack-station"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:m5stack-station"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:m5stack-station"
+    },
+    "upload_limits": {
+      "value": "16 MB flash, 4.31 MB RAM",
+      "source": "platformio:m5stack-station"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "M5Stack Station product page",
+      "url": "http://www.m5stack.com"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/m5stack-station.html",
+      "source": "platformio:m5stack-station"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/m5stack-station.html",
+      "source": "platformio:m5stack-station"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:m5stack-station",
+      "label": "PlatformIO board definition (m5stack-station)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/m5stack-station.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

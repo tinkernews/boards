@@ -1,0 +1,196 @@
+{
+  "slug": "raspberry-pi-400",
+  "name": "Raspberry Pi 400",
+  "tier": "curated",
+  "kind": "sbc",
+  "maker": "raspberry-pi",
+  "family": "Raspberry Pi",
+  "chip": "bcm2711",
+  "released": "2020-11",
+  "status": "current",
+  "summary": "A Raspberry Pi 4 built into a compact keyboard, with 4 GB of RAM and the 40-pin header on the back.",
+  "aliases": [
+    "Raspberry Pi 400",
+    "Pi 400"
+  ],
+  "ids": {
+    "linux": [
+      "arch/arm/boot/dts/broadcom/bcm2711-rpi-400.dts",
+      "arch/arm64/boot/dts/broadcom/bcm2711-rpi-400.dts"
+    ],
+    "armbian": [
+      "rpi4b"
+    ]
+  },
+  "review": {
+    "status": "draft"
+  },
+  "successor": "raspberry-pi-500",
+  "specs": {
+    "chip": {
+      "value": "Broadcom BCM2711",
+      "source": "rpi-docs-source"
+    },
+    "cpu": {
+      "value": "4 × Cortex-A72 (ARMv8, 64-bit)",
+      "source": "rpi-processors"
+    },
+    "clock": {
+      "value": "1.8 GHz",
+      "source": "pi400-launch"
+    },
+    "ram": {
+      "value": "4 GB",
+      "source": "rpi-docs-source"
+    },
+    "storage": {
+      "value": "microSD card",
+      "source": "rpi-docs-source"
+    },
+    "gpio": {
+      "value": "40-pin header (rear)",
+      "source": "rpi-docs-source"
+    },
+    "io_voltage": {
+      "value": "3.3 V",
+      "source": "rpi-gpio"
+    },
+    "input_voltage": {
+      "value": "5 V, 3 A via USB-C",
+      "source": "rpi-docs-source"
+    },
+    "wireless": {
+      "value": "2.4/5 GHz 802.11ac Wi-Fi; Bluetooth 5 and BLE",
+      "source": "rpi-docs-source"
+    },
+    "ethernet": {
+      "value": "Gigabit",
+      "source": "rpi-docs-source"
+    },
+    "usb": {
+      "value": "2 × USB 3.0, 1 × USB 2.0",
+      "source": "rpi-docs-source"
+    },
+    "video": {
+      "value": "2 × micro-HDMI",
+      "source": "rpi-docs-source"
+    },
+    "launch_price": {
+      "value": "US$70",
+      "source": "pi400-launch"
+    }
+  },
+  "docs": [
+    {
+      "kind": "guide",
+      "label": "Raspberry Pi hardware documentation",
+      "url": "https://www.raspberrypi.com/documentation/computers/raspberry-pi.html"
+    },
+    {
+      "kind": "product",
+      "label": "Raspberry Pi 400 product brief",
+      "url": "https://datasheets.raspberrypi.com/rpi400/raspberry-pi-400-product-brief.pdf"
+    }
+  ],
+  "software": [
+    {
+      "platform": "raspberry-pi-os",
+      "status": "supported",
+      "note": "32-bit and 64-bit images.",
+      "url": "https://www.raspberrypi.com/software/operating-systems/",
+      "source": "rpi-software"
+    }
+  ],
+  "pinout": {
+    "layout": "raspberry-pi-40-pin",
+    "source": "rpi-gpio"
+  },
+  "gotchas": [
+    {
+      "title": "3.3 V only",
+      "text": "The GPIO pins are 3.3 V. Do not connect 5 V signals or components to them.",
+      "source": "rpi-gpio"
+    },
+    {
+      "title": "Little current per pin",
+      "text": "Each GPIO pin can supply up to about 16 mA and all pins together about 50 mA; drive motors and other loads through a transistor or driver board.",
+      "source": "rpi-power"
+    }
+  ],
+  "power": {
+    "rows": [
+      {
+        "label": "Recommended supply",
+        "value": "3.0 A",
+        "source": "rpi-power"
+      },
+      {
+        "label": "USB peripheral budget",
+        "value": "1.2 A",
+        "source": "rpi-power"
+      },
+      {
+        "label": "Typical bare-board draw",
+        "value": "800 mA",
+        "source": "rpi-power"
+      }
+    ]
+  },
+  "commonsFile": "File:Raspberry Pi 400.jpg",
+  "editorial": {
+    "history": "Announced in November 2020, the Pi 400 revived the idea of the home computer in a keyboard, with a large internal heat spreader that let it run the BCM2711 at 1.8 GHz.",
+    "today": "A tidy desktop for schools and families; the rear GPIO header still takes HATs through a ribbon cable.",
+    "source": "pi400-launch"
+  },
+  "sources": [
+    {
+      "id": "rpi-docs",
+      "label": "Raspberry Pi hardware, Raspberry Pi documentation",
+      "url": "https://www.raspberrypi.com/documentation/computers/raspberry-pi.html",
+      "kind": "official"
+    },
+    {
+      "id": "rpi-docs-source",
+      "label": "Raspberry Pi hardware introduction (documentation source)",
+      "url": "https://github.com/raspberrypi/documentation/blob/master/documentation/asciidoc/computers/raspberry-pi/introduction.adoc",
+      "kind": "official"
+    },
+    {
+      "id": "rpi-processors",
+      "label": "Processors, Raspberry Pi documentation",
+      "url": "https://www.raspberrypi.com/documentation/computers/processors.html",
+      "kind": "official"
+    },
+    {
+      "id": "rpi-gpio",
+      "label": "GPIO and the 40-pin header, Raspberry Pi documentation (source)",
+      "url": "https://github.com/raspberrypi/documentation/blob/master/documentation/asciidoc/computers/raspberry-pi/gpio-on-raspberry-pi.adoc",
+      "kind": "official"
+    },
+    {
+      "id": "rpi-power",
+      "label": "Power supplies, Raspberry Pi documentation (source)",
+      "url": "https://github.com/raspberrypi/documentation/blob/master/documentation/asciidoc/computers/raspberry-pi/power-supplies.adoc",
+      "kind": "official"
+    },
+    {
+      "id": "rpi-os",
+      "label": "Raspberry Pi OS, Raspberry Pi documentation",
+      "url": "https://www.raspberrypi.com/documentation/computers/os.html",
+      "kind": "official"
+    },
+    {
+      "id": "pi400-launch",
+      "label": "Raspberry Pi 400: the $70 desktop PC, Raspberry Pi news",
+      "url": "https://www.raspberrypi.com/news/raspberry-pi-400-the-70-desktop-pc/",
+      "kind": "official"
+    },
+    {
+      "id": "rpi-software",
+      "label": "Raspberry Pi OS downloads, Raspberry Pi",
+      "url": "https://www.raspberrypi.com/software/operating-systems/",
+      "kind": "official"
+    }
+  ],
+  "updatedAt": "2026-10-01T00:00:00.000Z"
+}

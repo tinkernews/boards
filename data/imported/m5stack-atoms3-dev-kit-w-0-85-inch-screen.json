@@ -1,0 +1,149 @@
+{
+  "slug": "m5stack-atoms3-dev-kit-w-0-85-inch-screen",
+  "name": "AtomS3 Dev Kit w/ 0.85-inch Screen",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "m5stack",
+  "chip": "esp32-s3",
+  "ids": {
+    "circuitpython": [
+      "m5stack_atoms3"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/m5stack_atoms3/",
+      "source": "circuitpython:m5stack_atoms3"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:m5stack_atoms3",
+    "list": [
+      {
+        "pin": "GPIO1",
+        "names": [
+          "PORTA_SCL",
+          "A1",
+          "D1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "PORTA_SDA",
+          "A2",
+          "D2"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "IR_LED"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "A4",
+          "D5"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "A5",
+          "D6"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "A6",
+          "D7"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "A7",
+          "D8"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "LCD_CS"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "LCD_BL"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "LCD_CLK"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "LCD_MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "LCD_DC"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "LCD_RST"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "D38",
+          "IMU_SDA"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "D39",
+          "IMU_SCL"
+        ]
+      },
+      {
+        "pin": "GPIO41",
+        "names": [
+          "BTN"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:m5stack_atoms3",
+      "label": "CircuitPython board definition (m5stack_atoms3)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/m5stack_atoms3.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:m5stack_atoms3",
+      "label": "CircuitPython pin definitions (m5stack_atoms3)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/m5stack_atoms3/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

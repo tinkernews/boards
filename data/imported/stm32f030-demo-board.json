@@ -1,0 +1,44 @@
+{
+  "slug": "stm32f030-demo-board",
+  "name": "STM32F030 DEMO BOARD",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "generic",
+  "ids": {
+    "zephyr": [
+      "stm32f030_demo"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F030X6",
+      "source": "zephyr:stm32f030_demo"
+    },
+    "ram": {
+      "value": "4 KB",
+      "source": "zephyr:stm32f030_demo"
+    },
+    "flash": {
+      "value": "16 KB",
+      "source": "zephyr:stm32f030_demo"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/others/stm32f030_demo/doc/index.html",
+      "source": "zephyr:stm32f030_demo"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:stm32f030_demo",
+      "label": "Zephyr board definition (stm32f030_demo)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/others/stm32f030_demo/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

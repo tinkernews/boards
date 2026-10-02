@@ -1,0 +1,59 @@
+{
+  "slug": "rymcu-esp32-c3-devkitm-1",
+  "name": "RYMCU ESP32-C3-DevKitM-1",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "rymcu",
+  "chip": "esp32-c3",
+  "ids": {
+    "platformio": [
+      "rymcu-esp32-c3-devkitm-1"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-C3",
+      "source": "platformio:rymcu-esp32-c3-devkitm-1"
+    },
+    "clock": {
+      "value": "160 MHz",
+      "source": "platformio:rymcu-esp32-c3-devkitm-1"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:rymcu-esp32-c3-devkitm-1"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "RYMCU ESP32-C3-DevKitM-1 product page",
+      "url": "https://rymcu.com/products"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/rymcu-esp32-c3-devkitm-1.html",
+      "source": "platformio:rymcu-esp32-c3-devkitm-1"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/rymcu-esp32-c3-devkitm-1.html",
+      "source": "platformio:rymcu-esp32-c3-devkitm-1"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:rymcu-esp32-c3-devkitm-1",
+      "label": "PlatformIO board definition (rymcu-esp32-c3-devkitm-1)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/rymcu-esp32-c3-devkitm-1.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

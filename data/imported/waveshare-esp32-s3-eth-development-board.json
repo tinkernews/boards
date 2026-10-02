@@ -1,0 +1,278 @@
+{
+  "slug": "waveshare-esp32-s3-eth-development-board",
+  "name": "ESP32-S3 ETH Development Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "waveshare",
+  "chip": "esp32-s3",
+  "ids": {
+    "circuitpython": [
+      "waveshare_esp32_s3_eth"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/waveshare_esp32_s3_eth/",
+      "source": "circuitpython:waveshare_esp32_s3_eth"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:waveshare_esp32_s3_eth",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "IO0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "IO1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "IO2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "IO3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "SD_CS",
+          "IO4"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "SD_MISO",
+          "IO5"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "SD_MOSI",
+          "IO6"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "SD_CLK",
+          "IO7"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "ETH_RST",
+          "IO9"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "ETH_INT",
+          "IO10"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "ETH_MOSI",
+          "IO11"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "ETH_MISO",
+          "IO12"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "ETH_CLK",
+          "IO13"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "ETH_CS",
+          "IO14"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "IO15"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "IO16"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "IO17"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "IO18"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "IO19"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "IO20"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "NEOPIXEL",
+          "IO21"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "IO33"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "IO34"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "IO35"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "IO36"
+        ]
+      },
+      {
+        "pin": "GPIO37",
+        "names": [
+          "IO37"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "IO38"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "IO39"
+        ]
+      },
+      {
+        "pin": "GPIO40",
+        "names": [
+          "IO40"
+        ]
+      },
+      {
+        "pin": "GPIO41",
+        "names": [
+          "IO41"
+        ]
+      },
+      {
+        "pin": "GPIO42",
+        "names": [
+          "IO42"
+        ]
+      },
+      {
+        "pin": "GPIO43",
+        "names": [
+          "TX",
+          "IO43"
+        ]
+      },
+      {
+        "pin": "GPIO44",
+        "names": [
+          "RX",
+          "IO44"
+        ]
+      },
+      {
+        "pin": "GPIO45",
+        "names": [
+          "IO45"
+        ]
+      },
+      {
+        "pin": "GPIO46",
+        "names": [
+          "IO46"
+        ]
+      },
+      {
+        "pin": "GPIO47",
+        "names": [
+          "IO47"
+        ]
+      },
+      {
+        "pin": "GPIO48",
+        "names": [
+          "IO48"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:waveshare_esp32_s3_eth",
+      "label": "CircuitPython board definition (waveshare_esp32_s3_eth)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/waveshare_esp32_s3_eth.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:waveshare_esp32_s3_eth",
+      "label": "CircuitPython pin definitions (waveshare_esp32_s3_eth)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/waveshare_esp32_s3_eth/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

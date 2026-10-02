@@ -1,0 +1,41 @@
+{
+  "slug": "ezurio-rm1xx-dvk",
+  "name": "RM1xx DVK",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "ezurio",
+  "chip": "nrf51822",
+  "ids": {
+    "zephyr": [
+      "rm1xx_dvk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF51822",
+      "source": "zephyr:rm1xx_dvk"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:rm1xx_dvk"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/ezurio/rm1xx_dvk/doc/index.html",
+      "source": "zephyr:rm1xx_dvk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:rm1xx_dvk",
+      "label": "Zephyr board definition (rm1xx_dvk)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/ezurio/rm1xx_dvk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

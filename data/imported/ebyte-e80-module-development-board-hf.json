@@ -1,0 +1,44 @@
+{
+  "slug": "ebyte-e80-module-development-board-hf",
+  "name": "Ebyte E80 Module Development Board (HF)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "ebyte",
+  "ids": {
+    "zephyr": [
+      "e80_900mbl_01"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F103X8",
+      "source": "zephyr:e80_900mbl_01"
+    },
+    "ram": {
+      "value": "20 KB",
+      "source": "zephyr:e80_900mbl_01"
+    },
+    "flash": {
+      "value": "64 KB",
+      "source": "zephyr:e80_900mbl_01"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/ebyte/e80_900mbl_01/doc/index.html",
+      "source": "zephyr:e80_900mbl_01"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:e80_900mbl_01",
+      "label": "Zephyr board definition (e80_900mbl_01)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/ebyte/e80_900mbl_01/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "orange-pi-5-ultra-rk3588",
+  "name": "Orange Pi 5 Ultra RK3588",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "orange-pi",
+  "chip": "rk3588",
+  "ids": {
+    "zephyr": [
+      "orangepi_5_ultra_rk3588"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "RK3588",
+      "source": "zephyr:orangepi_5_ultra_rk3588"
+    },
+    "ram": {
+      "value": "16384 KB",
+      "source": "zephyr:orangepi_5_ultra_rk3588"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/xunlong/orangepi_5_ultra_rk3588/doc/index.html",
+      "source": "zephyr:orangepi_5_ultra_rk3588"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:orangepi_5_ultra_rk3588",
+      "label": "Zephyr board definition (orangepi_5_ultra_rk3588)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/xunlong/orangepi_5_ultra_rk3588/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

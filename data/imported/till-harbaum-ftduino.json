@@ -1,0 +1,53 @@
+{
+  "slug": "till-harbaum-ftduino",
+  "name": "ftDuino",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "till-harbaum",
+  "chip": "atmega32u4",
+  "ids": {
+    "platformio": [
+      "ftduino"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega32U4",
+      "source": "platformio:ftduino"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:ftduino"
+    },
+    "upload_limits": {
+      "value": "28 KB flash, 2.5 KB RAM",
+      "source": "platformio:ftduino"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ftDuino product page",
+      "url": "https://harbaum.github.io/ftduino/www/de/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/ftduino.html",
+      "source": "platformio:ftduino"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:ftduino",
+      "label": "PlatformIO board definition (ftduino)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/ftduino.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

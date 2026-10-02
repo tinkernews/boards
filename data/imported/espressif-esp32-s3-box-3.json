@@ -1,0 +1,256 @@
+{
+  "slug": "espressif-esp32-s3-box-3",
+  "name": "ESP32-S3-BOX-3",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "espressif",
+  "chip": "esp32-s3",
+  "aliases": [
+    "ESP32-S3 Box 3"
+  ],
+  "ids": {
+    "zephyr": [
+      "esp32s3_box3"
+    ],
+    "circuitpython": [
+      "espressif_esp32s3_box_3"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-S3",
+      "source": "zephyr:esp32s3_box3"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/espressif/esp32s3_box3/doc/index.html",
+      "source": "zephyr:esp32s3_box3"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/espressif_esp32s3_box_3/",
+      "source": "circuitpython:espressif_esp32s3_box_3"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:espressif_esp32s3_box_3",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "BOOT"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "MUTE_STATUS"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "I2S_MCLK"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "CTP_INT"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "LCD_DC"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "LCD_CS"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "LCD_MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "LCD_SCK"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "G9"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "G10"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "G11"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "G12"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "G13"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "G14"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "I2S_CODEC_DSDIN"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "I2S_ADC_SDOUT"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "I2S_SCLK"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "G21"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "G38"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "G39"
+        ]
+      },
+      {
+        "pin": "GPIO40",
+        "names": [
+          "G40",
+          "SCL2"
+        ]
+      },
+      {
+        "pin": "GPIO41",
+        "names": [
+          "G41",
+          "SDA2"
+        ]
+      },
+      {
+        "pin": "GPIO42",
+        "names": [
+          "G42"
+        ]
+      },
+      {
+        "pin": "GPIO43",
+        "names": [
+          "G43"
+        ]
+      },
+      {
+        "pin": "GPIO44",
+        "names": [
+          "G44"
+        ]
+      },
+      {
+        "pin": "GPIO45",
+        "names": [
+          "I2S_LRCK"
+        ]
+      },
+      {
+        "pin": "GPIO46",
+        "names": [
+          "PA_CTRL"
+        ]
+      },
+      {
+        "pin": "GPIO47",
+        "names": [
+          "LCD_BACKLIGHT"
+        ]
+      },
+      {
+        "pin": "GPIO48",
+        "names": [
+          "LCD_RST"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "zephyr:esp32s3_box3",
+      "label": "Zephyr board definition (esp32s3_box3)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/espressif/esp32s3_box3/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "circuitpython:espressif_esp32s3_box_3",
+      "label": "CircuitPython board definition (espressif_esp32s3_box_3)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/espressif_esp32s3_box_3.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:espressif_esp32s3_box_3",
+      "label": "CircuitPython pin definitions (espressif_esp32s3_box_3)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/espressif_esp32s3_box_3/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

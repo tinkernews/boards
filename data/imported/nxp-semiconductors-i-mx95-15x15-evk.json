@@ -1,0 +1,40 @@
+{
+  "slug": "nxp-semiconductors-i-mx95-15x15-evk",
+  "name": "i.MX95 15x15 EVK",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "ids": {
+    "zephyr": [
+      "imx95_evk_15x15"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MIMX9596",
+      "source": "zephyr:imx95_evk_15x15"
+    },
+    "ram": {
+      "value": "1024 KB",
+      "source": "zephyr:imx95_evk_15x15"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nxp/imx95_evk_15x15/doc/index.html",
+      "source": "zephyr:imx95_evk_15x15"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:imx95_evk_15x15",
+      "label": "Zephyr board definition (imx95_evk_15x15)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nxp/imx95_evk_15x15/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

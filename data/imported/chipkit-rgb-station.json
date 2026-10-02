@@ -1,0 +1,52 @@
+{
+  "slug": "chipkit-rgb-station",
+  "name": "RGB Station",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "chipkit",
+  "ids": {
+    "platformio": [
+      "rgb_station"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "32MX270F256D",
+      "source": "platformio:rgb_station"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:rgb_station"
+    },
+    "upload_limits": {
+      "value": "240 KB flash, 62 KB RAM",
+      "source": "platformio:rgb_station"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "RGB Station product page",
+      "url": "https://github.com/chipKIT32/RGB_Station"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/microchippic32/rgb_station.html",
+      "source": "platformio:rgb_station"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:rgb_station",
+      "label": "PlatformIO board definition (rgb_station)",
+      "url": "https://github.com/platformio/platform-microchippic32/blob/f6e89308da11cfe35d7534696bf01abf3f442461/boards/rgb_station.json",
+      "kind": "import",
+      "revision": "f6e89308da11cfe35d7534696bf01abf3f442461"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

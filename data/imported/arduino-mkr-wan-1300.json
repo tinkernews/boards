@@ -1,0 +1,268 @@
+{
+  "slug": "arduino-mkr-wan-1300",
+  "name": "Arduino MKR WAN 1300",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "chip": "atsamd21g18",
+  "aliases": [
+    "MKR WAN 1300"
+  ],
+  "ids": {
+    "platformio": [
+      "mkrwan1300"
+    ],
+    "circuitpython": [
+      "arduino_mkr1300"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAMD21G18",
+      "source": "platformio:mkrwan1300"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:mkrwan1300"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:mkrwan1300"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:mkrwan1300"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Arduino MKR WAN 1300 product page",
+      "url": "https://store.arduino.cc/mkr-wan-1300"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelsam/mkrwan1300.html",
+      "source": "platformio:mkrwan1300"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/arduino_mkr1300/",
+      "source": "circuitpython:arduino_mkr1300"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:arduino_mkr1300",
+    "list": [
+      {
+        "pin": "PA02",
+        "names": [
+          "A0"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "A3"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "A4"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "A5"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "A6"
+        ]
+      },
+      {
+        "pin": "PA08",
+        "names": [
+          "D11",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PA09",
+        "names": [
+          "D12",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "D2"
+        ]
+      },
+      {
+        "pin": "PA11",
+        "names": [
+          "D3"
+        ]
+      },
+      {
+        "pin": "PA12",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "PA13",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "PA14",
+        "names": [
+          "RFM9X_CS"
+        ]
+      },
+      {
+        "pin": "PA15",
+        "names": [
+          "MISO"
+        ]
+      },
+      {
+        "pin": "PA16",
+        "names": [
+          "D8"
+        ]
+      },
+      {
+        "pin": "PA17",
+        "names": [
+          "D9"
+        ]
+      },
+      {
+        "pin": "PA19",
+        "names": [
+          "D10"
+        ]
+      },
+      {
+        "pin": "PA20",
+        "names": [
+          "D6",
+          "LED"
+        ]
+      },
+      {
+        "pin": "PA21",
+        "names": [
+          "D7"
+        ]
+      },
+      {
+        "pin": "PA22",
+        "names": [
+          "D0"
+        ]
+      },
+      {
+        "pin": "PA23",
+        "names": [
+          "D1"
+        ]
+      },
+      {
+        "pin": "PA27",
+        "names": [
+          "RFM9X_RST"
+        ]
+      },
+      {
+        "pin": "PB02",
+        "names": [
+          "A1"
+        ]
+      },
+      {
+        "pin": "PB03",
+        "names": [
+          "A2"
+        ]
+      },
+      {
+        "pin": "PB08",
+        "names": [
+          "VOLTAGE_MONITOR",
+          "BATTERY"
+        ]
+      },
+      {
+        "pin": "PB09",
+        "names": [
+          "BOOT"
+        ]
+      },
+      {
+        "pin": "PB10",
+        "names": [
+          "D4"
+        ]
+      },
+      {
+        "pin": "PB11",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "PB22",
+        "names": [
+          "TX",
+          "D14"
+        ]
+      },
+      {
+        "pin": "PB23",
+        "names": [
+          "RX",
+          "D13"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "platformio:mkrwan1300",
+      "label": "PlatformIO board definition (mkrwan1300)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/mkrwan1300.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    },
+    {
+      "id": "circuitpython:arduino_mkr1300",
+      "label": "CircuitPython board definition (arduino_mkr1300)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/arduino_mkr1300.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:arduino_mkr1300",
+      "label": "CircuitPython pin definitions (arduino_mkr1300)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/arduino_mkr1300/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

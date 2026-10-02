@@ -1,0 +1,77 @@
+{
+  "slug": "olimex-olimexino-stm32",
+  "name": "OLIMEXINO-STM32",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "olimex",
+  "chip": "stm32f103cb",
+  "ids": {
+    "platformio": [
+      "olimexino"
+    ],
+    "zephyr": [
+      "olimexino_stm32"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F103CB / RB",
+      "source": "platformio:olimexino"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M3",
+      "source": "platformio:olimexino"
+    },
+    "clock": {
+      "value": "72 MHz",
+      "source": "platformio:olimexino"
+    },
+    "upload_limits": {
+      "value": "128 KB flash, 20 KB RAM",
+      "source": "platformio:olimexino"
+    },
+    "ram": {
+      "value": "20 KB",
+      "source": "zephyr:olimexino_stm32"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "OLIMEXINO-STM32 product page",
+      "url": "https://docs.zephyrproject.org/latest/boards/arm/olimexino_stm32/doc/index.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/olimexino.html",
+      "source": "platformio:olimexino"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/olimex/olimexino_stm32/doc/index.html",
+      "source": "zephyr:olimexino_stm32"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:olimexino",
+      "label": "PlatformIO board definition (olimexino)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/olimexino.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    },
+    {
+      "id": "zephyr:olimexino_stm32",
+      "label": "Zephyr board definition (olimexino_stm32)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/olimex/olimexino_stm32/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

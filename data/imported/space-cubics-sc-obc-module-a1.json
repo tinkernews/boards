@@ -1,0 +1,36 @@
+{
+  "slug": "space-cubics-sc-obc-module-a1",
+  "name": "SC-OBC Module A1",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "space-cubics",
+  "ids": {
+    "zephyr": [
+      "scobc_a1"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "DESIGNSTART_FPGA_CORTEX_M3",
+      "source": "zephyr:scobc_a1"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/sc/scobc_a1/doc/index.html",
+      "source": "zephyr:scobc_a1"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:scobc_a1",
+      "label": "Zephyr board definition (scobc_a1)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/sc/scobc_a1/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

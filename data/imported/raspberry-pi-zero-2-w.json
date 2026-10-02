@@ -1,0 +1,89 @@
+{
+  "slug": "raspberry-pi-zero-2-w",
+  "name": "Raspberry Pi Zero 2 W",
+  "tier": "imported",
+  "kind": "sbc",
+  "maker": "raspberry-pi",
+  "chip": "bcm2837",
+  "released": "2019",
+  "aliases": [
+    "Zero 2 W",
+    "Raspberry Pi"
+  ],
+  "ids": {
+    "zephyr": [
+      "rpi_zero_2w"
+    ],
+    "circuitpython": [
+      "raspberrypi_zero2w"
+    ],
+    "armbian": [
+      "rpi4b"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "BCM2837",
+      "source": "zephyr:rpi_zero_2w"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/raspberrypi/rpi_zero_2w/doc/index.html",
+      "source": "zephyr:rpi_zero_2w"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/raspberrypi_zero2w/",
+      "source": "circuitpython:raspberrypi_zero2w"
+    },
+    {
+      "platform": "armbian",
+      "status": "supported",
+      "note": "Supported by Armbian.",
+      "url": "https://github.com/armbian/build/blob/main/config/boards/rpi4b.conf",
+      "source": "armbian:rpi4b"
+    },
+    {
+      "platform": "linux-mainline",
+      "status": "supported",
+      "note": "A device tree for this board is in the mainline kernel; features may still be missing.",
+      "url": "https://github.com/torvalds/linux/blob/master/arch/arm/boot/dts/broadcom/bcm2837-rpi-zero-2-w.dts",
+      "source": "linux:bcm2837-rpi-zero-2-w.dts"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:rpi_zero_2w",
+      "label": "Zephyr board definition (rpi_zero_2w)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/raspberrypi/rpi_zero_2w/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "circuitpython:raspberrypi_zero2w",
+      "label": "CircuitPython board definition (raspberrypi_zero2w)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/raspberrypi_zero2w.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "armbian:rpi4b",
+      "label": "Armbian board configuration (rpi4b)",
+      "url": "https://github.com/armbian/build/blob/da85daa05bd260d04dac50315d7317207fd998b3/config/boards/rpi4b.conf",
+      "kind": "import",
+      "revision": "da85daa05bd260d04dac50315d7317207fd998b3"
+    },
+    {
+      "id": "linux:bcm2837-rpi-zero-2-w.dts",
+      "label": "Linux kernel device tree (bcm2837-rpi-zero-2-w.dts)",
+      "url": "https://github.com/torvalds/linux/blob/551c722f40809618230001baccf219193e22fc5a/arch/arm/boot/dts/broadcom/bcm2837-rpi-zero-2-w.dts",
+      "kind": "import",
+      "revision": "551c722f40809618230001baccf219193e22fc5a"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

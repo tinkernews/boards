@@ -1,0 +1,125 @@
+{
+  "slug": "arduino-diecimila",
+  "name": "Arduino Diecimila",
+  "tier": "curated",
+  "kind": "mcu",
+  "maker": "arduino",
+  "family": "Arduino",
+  "chip": "atmega168",
+  "released": "2007",
+  "status": "retired",
+  "summary": "The 2007 Arduino whose name means “ten thousand” in Italian, marking the boards sold: an ATmega168 with an FTDI USB chip and auto-reset.",
+  "aliases": [
+    "Arduino Diecimila"
+  ],
+  "ids": {
+    "platformio": [
+      "diecimilaatmega168"
+    ]
+  },
+  "review": {
+    "status": "draft"
+  },
+  "successor": "arduino-duemilanove",
+  "specs": {
+    "chip": {
+      "value": "Microchip (Atmel) ATmega168",
+      "source": "arduino-docs"
+    },
+    "cpu": {
+      "value": "8-bit AVR",
+      "source": "atmega168"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "arduino-docs"
+    },
+    "ram": {
+      "value": "1 KB SRAM",
+      "source": "atmega168"
+    },
+    "flash": {
+      "value": "16 KB (2 KB used by the bootloader)",
+      "source": "arduino-docs"
+    },
+    "eeprom": {
+      "value": "512 bytes",
+      "source": "atmega168"
+    },
+    "gpio": {
+      "value": "14 digital I/O (6 PWM)",
+      "source": "arduino-docs"
+    },
+    "analog": {
+      "value": "6 analog inputs (10-bit)",
+      "source": "arduino-docs"
+    },
+    "io_voltage": {
+      "value": "5 V",
+      "source": "arduino-docs"
+    },
+    "input_voltage": {
+      "value": "7–12 V recommended via barrel jack, or 5 V via USB",
+      "source": "arduino-docs"
+    },
+    "usb": {
+      "value": "USB-B via FTDI FT232RL",
+      "source": "arduino-docs"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Arduino Diecimila (retired), Arduino documentation",
+      "url": "https://docs.arduino.cc/retired/boards/arduino-diecimila/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Supported by the AVR core as “Arduino Duemilanove or Diecimila”.",
+      "url": "https://docs.arduino.cc/software/ide/",
+      "source": "arduino-docs"
+    }
+  ],
+  "gotchas": [
+    {
+      "title": "Manual power jumper",
+      "text": "Unlike later boards, the Diecimila selects USB or external power with a jumper, not automatically.",
+      "source": "wikipedia"
+    },
+    {
+      "title": "5 V logic",
+      "text": "I/O is 5 V. Sensors and modules that run at 3.3 V (most modern ones) need level shifting on their inputs.",
+      "source": "arduino-docs"
+    }
+  ],
+  "commonsFile": "File:Harvie-Arduino Diecimila-Front.jpg",
+  "editorial": {
+    "history": "The Diecimila was the first Arduino with an auto-reset circuit, so sketches uploaded without pressing the reset button, which set the workflow every later Arduino followed.",
+    "today": "A collector's board now; any Uno-compatible board runs the same sketches with twice the memory.",
+    "source": "wikipedia"
+  },
+  "sources": [
+    {
+      "id": "arduino-docs",
+      "label": "Arduino Diecimila, Arduino documentation (retired boards)",
+      "url": "https://docs.arduino.cc/retired/boards/arduino-diecimila/",
+      "kind": "official"
+    },
+    {
+      "id": "atmega168",
+      "label": "ATmega168 product page, Microchip",
+      "url": "https://www.microchip.com/en-us/product/ATmega168",
+      "kind": "official"
+    },
+    {
+      "id": "wikipedia",
+      "label": "List of Arduino boards and compatible systems, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_Arduino_boards_and_compatible_systems",
+      "kind": "reference"
+    }
+  ],
+  "updatedAt": "2026-10-01T00:00:00.000Z"
+}

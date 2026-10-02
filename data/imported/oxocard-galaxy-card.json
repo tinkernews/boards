@@ -1,0 +1,147 @@
+{
+  "slug": "oxocard-galaxy-card",
+  "name": "Oxocard Galaxy Card",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "oxocard",
+  "chip": "esp32",
+  "ids": {
+    "circuitpython": [
+      "oxocard_galaxy"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/oxocard_galaxy/",
+      "source": "circuitpython:oxocard_galaxy"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:oxocard_galaxy",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "BTN5",
+          "BUTTON",
+          "BOOT0"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "LCD_RST"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "MISO"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "LCD_CS"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "LCD_LED"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "AUDIO_SD"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "AUDIO_P"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "AUDIO_N"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "LCD_DC"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "ACC_INT1"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "ACC_INT2"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "BTN1"
+        ]
+      },
+      {
+        "pin": "GPIO37",
+        "names": [
+          "BTN2"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "BTN3"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "BTN4"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:oxocard_galaxy",
+      "label": "CircuitPython board definition (oxocard_galaxy)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/oxocard_galaxy.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:oxocard_galaxy",
+      "label": "CircuitPython pin definitions (oxocard_galaxy)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/oxocard_galaxy/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

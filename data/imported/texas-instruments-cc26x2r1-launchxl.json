@@ -1,0 +1,44 @@
+{
+  "slug": "texas-instruments-cc26x2r1-launchxl",
+  "name": "CC26x2R1 LaunchXL",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "texas-instruments",
+  "ids": {
+    "zephyr": [
+      "cc26x2r1_launchxl"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "CC2652R",
+      "source": "zephyr:cc26x2r1_launchxl"
+    },
+    "ram": {
+      "value": "80 KB",
+      "source": "zephyr:cc26x2r1_launchxl"
+    },
+    "flash": {
+      "value": "352 KB",
+      "source": "zephyr:cc26x2r1_launchxl"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/ti/cc26x2r1_launchxl/doc/index.html",
+      "source": "zephyr:cc26x2r1_launchxl"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:cc26x2r1_launchxl",
+      "label": "Zephyr board definition (cc26x2r1_launchxl)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/ti/cc26x2r1_launchxl/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

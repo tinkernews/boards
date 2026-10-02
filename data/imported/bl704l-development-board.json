@@ -1,0 +1,44 @@
+{
+  "slug": "bl704l-development-board",
+  "name": "BL704L Development Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "generic",
+  "ids": {
+    "zephyr": [
+      "bl704l_dvk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "BL704L20Q2IW",
+      "source": "zephyr:bl704l_dvk"
+    },
+    "ram": {
+      "value": "80 KB",
+      "source": "zephyr:bl704l_dvk"
+    },
+    "flash": {
+      "value": "1.48 MB",
+      "source": "zephyr:bl704l_dvk"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/others/bl704l_dvk/doc/index.html",
+      "source": "zephyr:bl704l_dvk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:bl704l_dvk",
+      "label": "Zephyr board definition (bl704l_dvk)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/others/bl704l_dvk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

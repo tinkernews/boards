@@ -1,0 +1,45 @@
+{
+  "slug": "waveshare-rp2040-matrix",
+  "name": "RP2040-Matrix",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "waveshare",
+  "chip": "rp2040",
+  "ids": {
+    "zephyr": [
+      "rp2040_matrix"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "RP2040",
+      "source": "zephyr:rp2040_matrix"
+    },
+    "ram": {
+      "value": "264 KB",
+      "source": "zephyr:rp2040_matrix"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:rp2040_matrix"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/waveshare/rp2040_matrix/doc/index.html",
+      "source": "zephyr:rp2040_matrix"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:rp2040_matrix",
+      "label": "Zephyr board definition (rp2040_matrix)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/waveshare/rp2040_matrix/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

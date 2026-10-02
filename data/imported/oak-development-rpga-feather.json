@@ -1,0 +1,232 @@
+{
+  "slug": "oak-development-rpga-feather",
+  "name": "RPGA Feather",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "oak-development",
+  "chip": "rp2040",
+  "ids": {
+    "circuitpython": [
+      "odt_rpga_feather"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/odt_rpga_feather/",
+      "source": "circuitpython:odt_rpga_feather"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:odt_rpga_feather",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "MISO"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "CS"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "F_RST"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "CDONE"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "D6",
+          "F47"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "STEMMA_SDA",
+          "TX",
+          "D8"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "STEMMA_SCL",
+          "RX",
+          "D9"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "SDA",
+          "D10",
+          "F45"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "SCL",
+          "D11",
+          "F46"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "F_MISO"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "F_CSN"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "F_SCK"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "F_MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "F2"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "F3"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "F4"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "F6"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "D20",
+          "F48"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "D21"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "D22"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "DD23"
+        ]
+      },
+      {
+        "pin": "GPIO24",
+        "names": [
+          "D24"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "D25",
+          "LED"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "D26",
+          "A0"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "D27",
+          "A1"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "D28",
+          "A2"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "A29",
+          "D3"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:odt_rpga_feather",
+      "label": "CircuitPython board definition (odt_rpga_feather)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/odt_rpga_feather.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:odt_rpga_feather",
+      "label": "CircuitPython pin definitions (odt_rpga_feather)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/odt_rpga_feather/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

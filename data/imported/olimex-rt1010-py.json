@@ -1,0 +1,37 @@
+{
+  "slug": "olimex-rt1010-py",
+  "name": "RT1010-Py",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "olimex",
+  "ids": {
+    "micropython": [
+      "OLIMEX_RT1010"
+    ]
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "RT1010-Py product page",
+      "url": "https://www.olimex.com/Products/MicroPython/RT1010-Py"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/OLIMEX_RT1010/",
+      "source": "micropython:olimex_rt1010"
+    }
+  ],
+  "sources": [
+    {
+      "id": "micropython:olimex_rt1010",
+      "label": "MicroPython board definition (OLIMEX_RT1010)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/mimxrt/boards/OLIMEX_RT1010/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

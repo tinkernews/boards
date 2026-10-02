@@ -1,0 +1,98 @@
+{
+  "slug": "adafruit-led-glasses",
+  "name": "LED Glasses",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "nrf52840",
+  "ids": {
+    "circuitpython": [
+      "adafruit_led_glasses_nrf52840"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/adafruit_led_glasses_nrf52840/",
+      "source": "circuitpython:adafruit_led_glasses_nrf52840"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:adafruit_led_glasses_nrf52840",
+    "list": [
+      {
+        "pin": "P0_00",
+        "names": [
+          "MICROPHONE_CLOCK"
+        ]
+      },
+      {
+        "pin": "P0_01",
+        "names": [
+          "ACCELEROMETER_INTERRUPT"
+        ]
+      },
+      {
+        "pin": "P0_04",
+        "names": [
+          "VOLTAGE_MONITOR",
+          "BATTERY"
+        ]
+      },
+      {
+        "pin": "P0_06",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "P0_08",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "P0_27",
+        "names": [
+          "MICROPHONE_DATA"
+        ]
+      },
+      {
+        "pin": "P0_30",
+        "names": [
+          "SWITCH"
+        ]
+      },
+      {
+        "pin": "P0_31",
+        "names": [
+          "LED"
+        ]
+      },
+      {
+        "pin": "P1_15",
+        "names": [
+          "NEOPIXEL"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:adafruit_led_glasses_nrf52840",
+      "label": "CircuitPython board definition (adafruit_led_glasses_nrf52840)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/adafruit_led_glasses_nrf52840.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:adafruit_led_glasses_nrf52840",
+      "label": "CircuitPython pin definitions (adafruit_led_glasses_nrf52840)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/nordic/boards/adafruit_led_glasses_nrf52840/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

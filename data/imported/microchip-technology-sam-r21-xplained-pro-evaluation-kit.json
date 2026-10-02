@@ -1,0 +1,44 @@
+{
+  "slug": "microchip-technology-sam-r21-xplained-pro-evaluation-kit",
+  "name": "SAM R21 Xplained Pro Evaluation Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "ids": {
+    "zephyr": [
+      "samr21_xpro"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "SAMR21G18A",
+      "source": "zephyr:samr21_xpro"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:samr21_xpro"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:samr21_xpro"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/atmel/sam0/samr21_xpro/doc/index.html",
+      "source": "zephyr:samr21_xpro"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:samr21_xpro",
+      "label": "Zephyr board definition (samr21_xpro)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/atmel/sam0/samr21_xpro/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

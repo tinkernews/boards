@@ -1,0 +1,40 @@
+{
+  "slug": "acrn-hypervisor-on-adl",
+  "name": "ACRN Hypervisor on ADL",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "project-acrn",
+  "ids": {
+    "zephyr": [
+      "acrn_adl_crb"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATOM",
+      "source": "zephyr:acrn_adl_crb"
+    },
+    "ram": {
+      "value": "8192 KB",
+      "source": "zephyr:acrn_adl_crb"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/acrn/acrn/doc/index.html",
+      "source": "zephyr:acrn_adl_crb"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:acrn_adl_crb",
+      "label": "Zephyr board definition (acrn_adl_crb)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/acrn/acrn/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

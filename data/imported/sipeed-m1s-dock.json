@@ -1,0 +1,44 @@
+{
+  "slug": "sipeed-m1s-dock",
+  "name": "Sipeed M1S Dock",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sipeed",
+  "ids": {
+    "zephyr": [
+      "m1s_dock"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "BL808C09Q2I",
+      "source": "zephyr:m1s_dock"
+    },
+    "ram": {
+      "value": "224 KB",
+      "source": "zephyr:m1s_dock"
+    },
+    "flash": {
+      "value": "7.94 MB",
+      "source": "zephyr:m1s_dock"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/sipeed/m1s_dock/doc/index.html",
+      "source": "zephyr:m1s_dock"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:m1s_dock",
+      "label": "Zephyr board definition (m1s_dock)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/sipeed/m1s_dock/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,181 @@
+{
+  "slug": "electronic-cats-bast-ble",
+  "name": "BAST BLE",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "electronic-cats",
+  "chip": "nrf52840",
+  "ids": {
+    "circuitpython": [
+      "bastble"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/bastble/",
+      "source": "circuitpython:bastble"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:bastble",
+    "list": [
+      {
+        "pin": "P0_02",
+        "names": [
+          "A0"
+        ]
+      },
+      {
+        "pin": "P0_03",
+        "names": [
+          "A3"
+        ]
+      },
+      {
+        "pin": "P0_05",
+        "names": [
+          "A2"
+        ]
+      },
+      {
+        "pin": "P0_06",
+        "names": [
+          "D9"
+        ]
+      },
+      {
+        "pin": "P0_07",
+        "names": [
+          "D13"
+        ]
+      },
+      {
+        "pin": "P0_08",
+        "names": [
+          "D11"
+        ]
+      },
+      {
+        "pin": "P0_09",
+        "names": [
+          "RX"
+        ]
+      },
+      {
+        "pin": "P0_10",
+        "names": [
+          "TX"
+        ]
+      },
+      {
+        "pin": "P0_15",
+        "names": [
+          "D8",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "P0_24",
+        "names": [
+          "LED"
+        ]
+      },
+      {
+        "pin": "P0_26",
+        "names": [
+          "D12",
+          "VBAT"
+        ]
+      },
+      {
+        "pin": "P0_28",
+        "names": [
+          "A1"
+        ]
+      },
+      {
+        "pin": "P0_29",
+        "names": [
+          "A5"
+        ]
+      },
+      {
+        "pin": "P0_30",
+        "names": [
+          "A4"
+        ]
+      },
+      {
+        "pin": "P0_31",
+        "names": [
+          "AREF"
+        ]
+      },
+      {
+        "pin": "P1_00",
+        "names": [
+          "D4",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "P1_02",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "P1_06",
+        "names": [
+          "D7",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "P1_09",
+        "names": [
+          "D10"
+        ]
+      },
+      {
+        "pin": "P1_10",
+        "names": [
+          "D3",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "P1_11",
+        "names": [
+          "D2",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "P1_13",
+        "names": [
+          "D6"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:bastble",
+      "label": "CircuitPython board definition (bastble)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/bastble.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:bastble",
+      "label": "CircuitPython pin definitions (bastble)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/nordic/boards/bastble/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

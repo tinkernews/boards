@@ -1,0 +1,30 @@
+{
+  "slug": "sean-cross-xobs-fomu",
+  "name": "Fomu",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sean-cross-xobs",
+  "ids": {
+    "circuitpython": [
+      "fomu"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/fomu/",
+      "source": "circuitpython:fomu"
+    }
+  ],
+  "sources": [
+    {
+      "id": "circuitpython:fomu",
+      "label": "CircuitPython board definition (fomu)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/fomu.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

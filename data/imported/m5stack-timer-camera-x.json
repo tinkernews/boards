@@ -1,0 +1,177 @@
+{
+  "slug": "m5stack-timer-camera-x",
+  "name": "M5Stack Timer Camera X",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "m5stack",
+  "chip": "esp32",
+  "ids": {
+    "circuitpython": [
+      "m5stack_timer_camera_x"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/m5stack_timer_camera_x/",
+      "source": "circuitpython:m5stack_timer_camera_x"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:m5stack_timer_camera_x",
+    "list": [
+      {
+        "pin": "GPIO2",
+        "names": [
+          "LED"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "G4",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "BM8563_SDA"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "G13",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "BM8563_SCL"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "RESET"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "D7"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "D9"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "PCLK"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "VSYNC"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "SSCB_SCL"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "SSCB_SDA"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "HREF"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "XCLK"
+        ]
+      },
+      {
+        "pin": "GPIO32",
+        "names": [
+          "D2"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "BAT_HOLD"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "D4"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "D3"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "D8"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "BAT_ADC"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "D6"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:m5stack_timer_camera_x",
+      "label": "CircuitPython board definition (m5stack_timer_camera_x)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/m5stack_timer_camera_x.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:m5stack_timer_camera_x",
+      "label": "CircuitPython pin definitions (m5stack_timer_camera_x)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/m5stack_timer_camera_x/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

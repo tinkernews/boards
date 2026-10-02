@@ -1,0 +1,57 @@
+{
+  "slug": "bluzdk",
+  "name": "BluzDK",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "bluzdk",
+  "chip": "nrf51822",
+  "ids": {
+    "platformio": [
+      "bluz_dk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF51822",
+      "source": "platformio:bluz_dk"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0",
+      "source": "platformio:bluz_dk"
+    },
+    "clock": {
+      "value": "32 MHz",
+      "source": "platformio:bluz_dk"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:bluz_dk"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "BluzDK product page",
+      "url": "https://bluz.io/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/nordicnrf51/bluz_dk.html",
+      "source": "platformio:bluz_dk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:bluz_dk",
+      "label": "PlatformIO board definition (bluz_dk)",
+      "url": "https://github.com/platformio/platform-nordicnrf51/blob/521963027651adfb1cd631d98767251dee254354/boards/bluz_dk.json",
+      "kind": "import",
+      "revision": "521963027651adfb1cd631d98767251dee254354"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "nxp-semiconductors-frdm-ke15z",
+  "name": "FRDM-KE15Z",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "ids": {
+    "zephyr": [
+      "frdm_ke15z"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MKE15Z7",
+      "source": "zephyr:frdm_ke15z"
+    },
+    "ram": {
+      "value": "24 KB",
+      "source": "zephyr:frdm_ke15z"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:frdm_ke15z"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nxp/frdm_ke15z/doc/index.html",
+      "source": "zephyr:frdm_ke15z"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:frdm_ke15z",
+      "label": "Zephyr board definition (frdm_ke15z)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nxp/frdm_ke15z/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

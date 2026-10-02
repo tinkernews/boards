@@ -1,0 +1,229 @@
+{
+  "slug": "sensebox-mcu",
+  "name": "senseBox MCU",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sensebox",
+  "chip": "atsamd21g18",
+  "ids": {
+    "circuitpython": [
+      "sensebox_mcu"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/sensebox_mcu/",
+      "source": "circuitpython:sensebox_mcu"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:sensebox_mcu",
+    "list": [
+      {
+        "pin": "PA02",
+        "names": [
+          "A6",
+          "D6"
+        ]
+      },
+      {
+        "pin": "PA03",
+        "names": [
+          "A5",
+          "D5"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "A1",
+          "D1"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "A2",
+          "D2"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "A3",
+          "D3"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "A4",
+          "D4"
+        ]
+      },
+      {
+        "pin": "PA08",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PA09",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "XB2_TX"
+        ]
+      },
+      {
+        "pin": "PA11",
+        "names": [
+          "XB2_RX"
+        ]
+      },
+      {
+        "pin": "PA14",
+        "names": [
+          "XB2_CS"
+        ]
+      },
+      {
+        "pin": "PA15",
+        "names": [
+          "XB2_INT"
+        ]
+      },
+      {
+        "pin": "PA16",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "PA17",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "PA18",
+        "names": [
+          "XB1_CS"
+        ]
+      },
+      {
+        "pin": "PA19",
+        "names": [
+          "MISO"
+        ]
+      },
+      {
+        "pin": "PA20",
+        "names": [
+          "D0"
+        ]
+      },
+      {
+        "pin": "PA21",
+        "names": [
+          "XB1_INT"
+        ]
+      },
+      {
+        "pin": "PA22",
+        "names": [
+          "D10",
+          "TX1",
+          "TX",
+          "XB1_TX"
+        ]
+      },
+      {
+        "pin": "PA23",
+        "names": [
+          "D11",
+          "RX1",
+          "RX",
+          "XB1_RX"
+        ]
+      },
+      {
+        "pin": "PA27",
+        "names": [
+          "D7",
+          "LED",
+          "RED_LED"
+        ]
+      },
+      {
+        "pin": "PA28",
+        "names": [
+          "D8",
+          "GREEN_LED"
+        ]
+      },
+      {
+        "pin": "PB02",
+        "names": [
+          "D9",
+          "UART_PWR"
+        ]
+      },
+      {
+        "pin": "PB03",
+        "names": [
+          "XB1_PWR"
+        ]
+      },
+      {
+        "pin": "PB08",
+        "names": [
+          "D12",
+          "TX2"
+        ]
+      },
+      {
+        "pin": "PB09",
+        "names": [
+          "D13",
+          "RX2"
+        ]
+      },
+      {
+        "pin": "PB10",
+        "names": [
+          "XB2_PWR"
+        ]
+      },
+      {
+        "pin": "PB11",
+        "names": [
+          "I2C_PWR"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:sensebox_mcu",
+      "label": "CircuitPython board definition (sensebox_mcu)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/sensebox_mcu.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:sensebox_mcu",
+      "label": "CircuitPython pin definitions (sensebox_mcu)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/sensebox_mcu/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

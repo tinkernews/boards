@@ -1,0 +1,112 @@
+{
+  "slug": "arturo182-serpente-2",
+  "name": "Serpente",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arturo182",
+  "chip": "atsamd21g18",
+  "ids": {
+    "circuitpython": [
+      "serpente"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/serpente/",
+      "source": "circuitpython:serpente"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:serpente",
+    "list": [
+      {
+        "pin": "PA04",
+        "names": [
+          "D0",
+          "A0",
+          "MOSI",
+          "TX2"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "D1",
+          "A1",
+          "SCK",
+          "RX2"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "D2",
+          "A2",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "D3",
+          "A3"
+        ]
+      },
+      {
+        "pin": "PA08",
+        "names": [
+          "D4",
+          "A4",
+          "SDA",
+          "TX"
+        ]
+      },
+      {
+        "pin": "PA09",
+        "names": [
+          "D5",
+          "A5",
+          "SCL",
+          "RX"
+        ]
+      },
+      {
+        "pin": "PA19",
+        "names": [
+          "LED_G"
+        ]
+      },
+      {
+        "pin": "PA22",
+        "names": [
+          "LED_R"
+        ]
+      },
+      {
+        "pin": "PA23",
+        "names": [
+          "LED_B"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:serpente",
+      "label": "CircuitPython board definition (serpente)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/serpente.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:serpente",
+      "label": "CircuitPython pin definitions (serpente)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/serpente/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

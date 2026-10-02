@@ -1,0 +1,171 @@
+{
+  "slug": "benjamin-shockley-figpi",
+  "name": "FigPi",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "benjamin-shockley",
+  "chip": "rp2040",
+  "ids": {
+    "circuitpython": [
+      "bwshockley_figpi"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/bwshockley_figpi/",
+      "source": "circuitpython:bwshockley_figpi"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:bwshockley_figpi",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "D13",
+          "LED"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "MISO",
+          "D9"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "D14"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "SCK",
+          "D8"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "MOSI",
+          "D10"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "SDA",
+          "D4"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "SCL",
+          "D5"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "SDA1",
+          "D18"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "SCL1",
+          "D19"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "BUTTON"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "D12"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "D11"
+        ]
+      },
+      {
+        "pin": "GPIO24",
+        "names": [
+          "TX",
+          "D6"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "RX",
+          "D7"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "A3",
+          "D3"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "A2",
+          "D2"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "A1",
+          "D1"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "A0",
+          "D0"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:bwshockley_figpi",
+      "label": "CircuitPython board definition (bwshockley_figpi)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/bwshockley_figpi.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:bwshockley_figpi",
+      "label": "CircuitPython pin definitions (bwshockley_figpi)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/bwshockley_figpi/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

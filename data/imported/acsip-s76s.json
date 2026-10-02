@@ -1,0 +1,56 @@
+{
+  "slug": "acsip-s76s",
+  "name": "ACSIP S76S",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "acsip",
+  "ids": {
+    "platformio": [
+      "acsip_s76s"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32L073RZ",
+      "source": "platformio:acsip_s76s"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:acsip_s76s"
+    },
+    "clock": {
+      "value": "32 MHz",
+      "source": "platformio:acsip_s76s"
+    },
+    "upload_limits": {
+      "value": "192 KB flash, 20 KB RAM",
+      "source": "platformio:acsip_s76s"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ACSIP S76S product page",
+      "url": "https://www.acsip.com.tw/index.php?action=products-detail&fid1=19&fid2=&fid3=&id=79"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/acsip_s76s.html",
+      "source": "platformio:acsip_s76s"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:acsip_s76s",
+      "label": "PlatformIO board definition (acsip_s76s)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/acsip_s76s.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

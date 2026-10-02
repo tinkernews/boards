@@ -1,0 +1,215 @@
+{
+  "slug": "waveshare-esp32-s3-geek",
+  "name": "ESP32-S3-GEEK",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "waveshare",
+  "chip": "esp32-s3",
+  "ids": {
+    "zephyr": [
+      "esp32s3_geek"
+    ],
+    "circuitpython": [
+      "waveshare_esp32_s3_geek"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-S3",
+      "source": "zephyr:esp32s3_geek"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/waveshare/esp32s3_geek/doc/index.html",
+      "source": "zephyr:esp32s3_geek"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/waveshare_esp32_s3_geek/",
+      "source": "circuitpython:waveshare_esp32_s3_geek"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:waveshare_esp32_s3_geek",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "GP0",
+          "BUTTON"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "GP6"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "GP7",
+          "LCD_BACKLIGHT"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "GP8",
+          "LCD_DC"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "GP9",
+          "LCD_RST"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "CS",
+          "GP10",
+          "LCD_CS"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "MOSI",
+          "GP11",
+          "LCD_MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "CLK",
+          "GP12",
+          "LCD_CLK"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "GP13"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "GP14"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "GP16",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "GP17",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "GP18"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "GP21"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "GP33"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "GP34",
+          "SD_CS"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "GP35",
+          "SD_MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "GP36",
+          "SD_SCK"
+        ]
+      },
+      {
+        "pin": "GPIO37",
+        "names": [
+          "GP37",
+          "SD_MISO"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "GP38"
+        ]
+      },
+      {
+        "pin": "GPIO43",
+        "names": [
+          "GP43",
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO44",
+        "names": [
+          "GP44",
+          "RX"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "zephyr:esp32s3_geek",
+      "label": "Zephyr board definition (esp32s3_geek)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/waveshare/esp32s3_geek/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "circuitpython:waveshare_esp32_s3_geek",
+      "label": "CircuitPython board definition (waveshare_esp32_s3_geek)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/waveshare_esp32_s3_geek.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:waveshare_esp32_s3_geek",
+      "label": "CircuitPython pin definitions (waveshare_esp32_s3_geek)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/waveshare_esp32_s3_geek/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "silicon-labs-efr32xg26-2-4-ghz-10-dbm-radio-board",
+  "name": "EFR32xG26 2.4 GHz +10 dBm Radio Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "silicon-labs",
+  "ids": {
+    "zephyr": [
+      "xg26_rb4120a"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "EFR32MG26B510F3200IM68",
+      "source": "zephyr:xg26_rb4120a"
+    },
+    "ram": {
+      "value": "512 KB",
+      "source": "zephyr:xg26_rb4120a"
+    },
+    "flash": {
+      "value": "3.13 MB",
+      "source": "zephyr:xg26_rb4120a"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/silabs/radio_boards/xg26/doc/index.html",
+      "source": "zephyr:xg26_rb4120a"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:xg26_rb4120a",
+      "label": "Zephyr board definition (xg26_rb4120a)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/silabs/radio_boards/xg26/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

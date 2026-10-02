@@ -1,0 +1,44 @@
+{
+  "slug": "nxp-semiconductors-lpcxpresso54628",
+  "name": "LPCXpresso54628",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "ids": {
+    "zephyr": [
+      "lpcxpresso54628"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "LPC54628",
+      "source": "zephyr:lpcxpresso54628"
+    },
+    "ram": {
+      "value": "160 KB",
+      "source": "zephyr:lpcxpresso54628"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:lpcxpresso54628"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nxp/lpcxpresso54628/doc/index.html",
+      "source": "zephyr:lpcxpresso54628"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:lpcxpresso54628",
+      "label": "Zephyr board definition (lpcxpresso54628)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nxp/lpcxpresso54628/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

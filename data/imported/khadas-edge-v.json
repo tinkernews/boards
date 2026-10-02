@@ -1,0 +1,40 @@
+{
+  "slug": "khadas-edge-v",
+  "name": "Edge-V",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "khadas",
+  "ids": {
+    "zephyr": [
+      "khadas_edgev"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "RK3399",
+      "source": "zephyr:khadas_edgev"
+    },
+    "ram": {
+      "value": "8192 KB",
+      "source": "zephyr:khadas_edgev"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/khadas/edgev/doc/index.html",
+      "source": "zephyr:khadas_edgev"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:khadas_edgev",
+      "label": "Zephyr board definition (khadas_edgev)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/khadas/edgev/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

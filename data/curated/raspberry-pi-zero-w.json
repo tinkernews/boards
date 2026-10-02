@@ -1,0 +1,199 @@
+{
+  "slug": "raspberry-pi-zero-w",
+  "name": "Raspberry Pi Zero W",
+  "tier": "curated",
+  "kind": "sbc",
+  "maker": "raspberry-pi",
+  "family": "Raspberry Pi",
+  "chip": "bcm2835",
+  "released": "2017-02",
+  "status": "current",
+  "summary": "The Pi Zero with 2.4 GHz Wi-Fi and Bluetooth added, for $10.",
+  "aliases": [
+    "Raspberry Pi Zero W",
+    "Raspberry Pi Zero WH",
+    "Pi Zero W",
+    "Pi Zero WH"
+  ],
+  "ids": {
+    "linux": [
+      "arch/arm/boot/dts/broadcom/bcm2835-rpi-zero-w.dts"
+    ]
+  },
+  "review": {
+    "status": "draft"
+  },
+  "predecessor": "raspberry-pi-zero",
+  "successor": "raspberry-pi-zero-2-w",
+  "specs": {
+    "storage": {
+      "value": "microSD card",
+      "source": "rpi-docs-source"
+    },
+    "io_voltage": {
+      "value": "3.3 V",
+      "source": "rpi-gpio"
+    },
+    "input_voltage": {
+      "value": "5 V via micro-USB",
+      "source": "rpi-docs-source"
+    },
+    "usb": {
+      "value": "1 × micro-USB OTG (plus a micro-USB power port)",
+      "source": "rpi-docs-source"
+    },
+    "video": {
+      "value": "Mini HDMI",
+      "source": "rpi-docs-source"
+    },
+    "dimensions": {
+      "value": "65 × 30 mm",
+      "source": "wikipedia"
+    },
+    "chip": {
+      "value": "Broadcom BCM2835",
+      "source": "rpi-docs-source"
+    },
+    "cpu": {
+      "value": "Arm1176JZF-S (ARMv6), single core",
+      "source": "rpi-processors"
+    },
+    "clock": {
+      "value": "1 GHz",
+      "source": "zerow-launch"
+    },
+    "ram": {
+      "value": "512 MB",
+      "source": "rpi-docs-source"
+    },
+    "gpio": {
+      "value": "40-pin header (pre-soldered on the WH)",
+      "source": "rpi-docs-source"
+    },
+    "wireless": {
+      "value": "2.4 GHz 802.11n Wi-Fi; Bluetooth 4.1 and BLE",
+      "source": "zerow-product"
+    },
+    "expansion": {
+      "value": "CSI camera connector",
+      "source": "rpi-docs-source"
+    },
+    "launch_price": {
+      "value": "US$10",
+      "source": "zerow-launch"
+    }
+  },
+  "docs": [
+    {
+      "kind": "guide",
+      "label": "Raspberry Pi hardware documentation",
+      "url": "https://www.raspberrypi.com/documentation/computers/raspberry-pi.html"
+    },
+    {
+      "kind": "schematic",
+      "label": "Raspberry Pi Zero W reduced schematics",
+      "url": "https://datasheets.raspberrypi.com/rpizero/raspberry-pi-zero-w-reduced-schematics.pdf"
+    }
+  ],
+  "software": [
+    {
+      "platform": "raspberry-pi-os",
+      "status": "supported",
+      "note": "32-bit image; the 64-bit image needs a 64-bit model such as the Pi 3 or later.",
+      "url": "https://www.raspberrypi.com/software/operating-systems/",
+      "source": "rpi-software"
+    }
+  ],
+  "pinout": {
+    "layout": "raspberry-pi-40-pin",
+    "source": "rpi-gpio"
+  },
+  "gotchas": [
+    {
+      "title": "3.3 V only",
+      "text": "The GPIO pins are 3.3 V. Do not connect 5 V signals or components to them.",
+      "source": "rpi-gpio"
+    },
+    {
+      "title": "Little current per pin",
+      "text": "Each GPIO pin can supply up to about 16 mA and all pins together about 50 mA; drive motors and other loads through a transistor or driver board.",
+      "source": "rpi-power"
+    }
+  ],
+  "power": {
+    "rows": [
+      {
+        "label": "Recommended supply",
+        "value": "1.2 A",
+        "source": "rpi-power"
+      },
+      {
+        "label": "USB peripheral budget",
+        "value": "Limited only by the supply, board and connector ratings",
+        "source": "rpi-power"
+      },
+      {
+        "label": "Typical bare-board draw",
+        "value": "150 mA",
+        "source": "rpi-power"
+      }
+    ]
+  },
+  "commonsFile": "File:Raspberry Pi Zero W (32974172240).jpg",
+  "editorial": {
+    "history": "Launched on the Pi's fifth birthday in February 2017, the Zero W added the wireless chip from the Pi 3 to the Zero board.",
+    "today": "Still the cheapest networked Raspberry Pi, but its single ARMv6 core is slow; the Zero 2 W fits the same cases with about five times the performance.",
+    "source": "zerow-launch"
+  },
+  "sources": [
+    {
+      "id": "rpi-docs-source",
+      "label": "Raspberry Pi hardware introduction (documentation source)",
+      "url": "https://github.com/raspberrypi/documentation/blob/master/documentation/asciidoc/computers/raspberry-pi/introduction.adoc",
+      "kind": "official"
+    },
+    {
+      "id": "rpi-processors",
+      "label": "Processors, Raspberry Pi documentation",
+      "url": "https://www.raspberrypi.com/documentation/computers/processors.html",
+      "kind": "official"
+    },
+    {
+      "id": "rpi-gpio",
+      "label": "GPIO and the 40-pin header, Raspberry Pi documentation (source)",
+      "url": "https://github.com/raspberrypi/documentation/blob/master/documentation/asciidoc/computers/raspberry-pi/gpio-on-raspberry-pi.adoc",
+      "kind": "official"
+    },
+    {
+      "id": "rpi-power",
+      "label": "Power supplies, Raspberry Pi documentation (source)",
+      "url": "https://github.com/raspberrypi/documentation/blob/master/documentation/asciidoc/computers/raspberry-pi/power-supplies.adoc",
+      "kind": "official"
+    },
+    {
+      "id": "zerow-launch",
+      "label": "Raspberry Pi Zero W joins the family, Raspberry Pi news",
+      "url": "https://www.raspberrypi.com/news/raspberry-pi-zero-w-joins-family/",
+      "kind": "official"
+    },
+    {
+      "id": "wikipedia",
+      "label": "Raspberry Pi, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Raspberry_Pi",
+      "kind": "reference"
+    },
+    {
+      "id": "rpi-software",
+      "label": "Raspberry Pi OS downloads, Raspberry Pi",
+      "url": "https://www.raspberrypi.com/software/operating-systems/",
+      "kind": "official"
+    },
+    {
+      "id": "zerow-product",
+      "label": "Raspberry Pi Zero W product page",
+      "url": "https://www.raspberrypi.com/products/raspberry-pi-zero-w/",
+      "kind": "official"
+    }
+  ],
+  "updatedAt": "2026-10-01T15:00:00.000Z"
+}

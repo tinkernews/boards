@@ -1,0 +1,81 @@
+{
+  "slug": "sifive-hifive1",
+  "name": "HiFive1",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sifive",
+  "ids": {
+    "platformio": [
+      "hifive1",
+      "hifive1-revb"
+    ],
+    "zephyr": [
+      "hifive1",
+      "hifive1_revb"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "FE310",
+      "source": "platformio:hifive1"
+    },
+    "clock": {
+      "value": "320 MHz",
+      "source": "platformio:hifive1"
+    },
+    "upload_limits": {
+      "value": "16 MB flash, 16 KB RAM",
+      "source": "platformio:hifive1"
+    },
+    "ram": {
+      "value": "16 KB",
+      "source": "zephyr:hifive1"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "HiFive1 product page",
+      "url": "https://www.sifive.com/products/hifive1/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/sifive/hifive1/doc/index.html",
+      "source": "zephyr:hifive1"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:hifive1",
+      "label": "PlatformIO board definition (hifive1)",
+      "url": "https://github.com/platformio/platform-sifive/blob/062e2eb4704e012bbd73a8f9d1e366486a0e41e4/boards/hifive1.json",
+      "kind": "import",
+      "revision": "062e2eb4704e012bbd73a8f9d1e366486a0e41e4"
+    },
+    {
+      "id": "platformio:hifive1-revb",
+      "label": "PlatformIO board definition (hifive1-revb)",
+      "url": "https://github.com/platformio/platform-sifive/blob/062e2eb4704e012bbd73a8f9d1e366486a0e41e4/boards/hifive1-revb.json",
+      "kind": "import",
+      "revision": "062e2eb4704e012bbd73a8f9d1e366486a0e41e4"
+    },
+    {
+      "id": "zephyr:hifive1",
+      "label": "Zephyr board definition (hifive1)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/sifive/hifive1/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "zephyr:hifive1_revb",
+      "label": "Zephyr board definition (hifive1_revb)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/sifive/hifive1/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

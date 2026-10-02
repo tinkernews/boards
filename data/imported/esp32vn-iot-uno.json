@@ -1,0 +1,59 @@
+{
+  "slug": "esp32vn-iot-uno",
+  "name": "ESP32vn IoT Uno",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "esp32vn",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "esp32vn-iot-uno"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:esp32vn-iot-uno"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:esp32vn-iot-uno"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:esp32vn-iot-uno"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ESP32vn IoT Uno product page",
+      "url": "https://esp32.vn/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/esp32vn-iot-uno.html",
+      "source": "platformio:esp32vn-iot-uno"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/esp32vn-iot-uno.html",
+      "source": "platformio:esp32vn-iot-uno"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:esp32vn-iot-uno",
+      "label": "PlatformIO board definition (esp32vn-iot-uno)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/esp32vn-iot-uno.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

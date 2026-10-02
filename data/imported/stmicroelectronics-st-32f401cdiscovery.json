@@ -1,0 +1,47 @@
+{
+  "slug": "stmicroelectronics-st-32f401cdiscovery",
+  "name": "ST 32F401CDISCOVERY",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "platformio": [
+      "disco_f401vc"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F401VCT6",
+      "source": "platformio:disco_f401vc"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:disco_f401vc"
+    },
+    "clock": {
+      "value": "84 MHz",
+      "source": "platformio:disco_f401vc"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 64 KB RAM",
+      "source": "platformio:disco_f401vc"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ST 32F401CDISCOVERY product page",
+      "url": "http://www.st.com/web/catalog/tools/FM116/SC959/SS1532/LN1848/PF259098"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:disco_f401vc",
+      "label": "PlatformIO board definition (disco_f401vc)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/disco_f401vc.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

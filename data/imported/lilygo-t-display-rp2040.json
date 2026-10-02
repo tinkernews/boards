@@ -1,0 +1,238 @@
+{
+  "slug": "lilygo-t-display-rp2040",
+  "name": "T-Display RP2040",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "lilygo",
+  "chip": "rp2040",
+  "ids": {
+    "circuitpython": [
+      "lilygo_t_display_rp2040"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/lilygo_t_display_rp2040/",
+      "source": "circuitpython:lilygo_t_display_rp2040"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:lilygo_t_display_rp2040",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "LCD_RESET"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "TX",
+          "GP1",
+          "LCD_DC"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "RX",
+          "GP2",
+          "LCD_CLK"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "LCD_MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "LCD_BACKLIGHT"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "LCD_CS"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "BUTTON0",
+          "BUTTON_L",
+          "GP6"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "BUTTON1",
+          "BUTTON_R",
+          "GP7"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "GP8"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "GP9"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "SCK",
+          "GP10"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "MOSI",
+          "GP11"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "MISO",
+          "GP12"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "GP13"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "SDA",
+          "GP14"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "SCL",
+          "GP15"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "GP16"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "GP17"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "GP18"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "GP19"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "GP20"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "GP21"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "TFT_POWER",
+          "GP22"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "GP23"
+        ]
+      },
+      {
+        "pin": "GPIO24",
+        "names": [
+          "GP24"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "LED",
+          "GP25"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "VOLTAGE_MONITOR"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "GP27"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "GP28"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "GP29"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:lilygo_t_display_rp2040",
+      "label": "CircuitPython board definition (lilygo_t_display_rp2040)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/lilygo_t_display_rp2040.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:lilygo_t_display_rp2040",
+      "label": "CircuitPython pin definitions (lilygo_t_display_rp2040)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/lilygo_t_display_rp2040/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

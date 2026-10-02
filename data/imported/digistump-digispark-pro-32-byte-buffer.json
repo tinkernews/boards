@@ -1,0 +1,52 @@
+{
+  "slug": "digistump-digispark-pro-32-byte-buffer",
+  "name": "Digispark Pro (32 byte buffer)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "digistump",
+  "ids": {
+    "platformio": [
+      "digispark-pro32"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATTINY167",
+      "source": "platformio:digispark-pro32"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:digispark-pro32"
+    },
+    "upload_limits": {
+      "value": "14.5 KB flash, 0.5 KB RAM",
+      "source": "platformio:digispark-pro32"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Digispark Pro (32 byte buffer) product page",
+      "url": "http://digistump.com/products/109"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/digispark-pro32.html",
+      "source": "platformio:digispark-pro32"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:digispark-pro32",
+      "label": "PlatformIO board definition (digispark-pro32)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/digispark-pro32.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

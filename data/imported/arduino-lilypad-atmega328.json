@@ -1,0 +1,53 @@
+{
+  "slug": "arduino-lilypad-atmega328",
+  "name": "Arduino LilyPad ATmega328",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "chip": "atmega328p",
+  "ids": {
+    "platformio": [
+      "lilypadatmega328"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega328P",
+      "source": "platformio:lilypadatmega328"
+    },
+    "clock": {
+      "value": "8 MHz",
+      "source": "platformio:lilypadatmega328"
+    },
+    "upload_limits": {
+      "value": "30 KB flash, 2 KB RAM",
+      "source": "platformio:lilypadatmega328"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Arduino LilyPad ATmega328 product page",
+      "url": "http://arduino.cc/en/Main/ArduinoBoardLilyPad"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/lilypadatmega328.html",
+      "source": "platformio:lilypadatmega328"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:lilypadatmega328",
+      "label": "PlatformIO board definition (lilypadatmega328)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/lilypadatmega328.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

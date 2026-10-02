@@ -1,0 +1,30 @@
+{
+  "slug": "unknown-board",
+  "name": "Unknown Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "unknown",
+  "ids": {
+    "circuitpython": [
+      "unknown"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/unknown/",
+      "source": "circuitpython:unknown"
+    }
+  ],
+  "sources": [
+    {
+      "id": "circuitpython:unknown",
+      "label": "CircuitPython board definition (unknown)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/unknown.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

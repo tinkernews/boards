@@ -1,0 +1,56 @@
+{
+  "slug": "teensy-lc",
+  "name": "Teensy LC",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "pjrc",
+  "ids": {
+    "platformio": [
+      "teensylc"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MKL26Z64",
+      "source": "platformio:teensylc"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:teensylc"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:teensylc"
+    },
+    "upload_limits": {
+      "value": "62 KB flash, 8 KB RAM",
+      "source": "platformio:teensylc"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Teensy LC product page",
+      "url": "http://www.pjrc.com/teensy/teensyLC.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/teensy/teensylc.html",
+      "source": "platformio:teensylc"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:teensylc",
+      "label": "PlatformIO board definition (teensylc)",
+      "url": "https://github.com/platformio/platform-teensy/blob/4adab0aa96d9c2bddf3cfadaf7a9820fcd13dd18/boards/teensylc.json",
+      "kind": "import",
+      "revision": "4adab0aa96d9c2bddf3cfadaf7a9820fcd13dd18"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

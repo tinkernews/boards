@@ -1,0 +1,57 @@
+{
+  "slug": "sparkfun-samd51-micromod",
+  "name": "SparkFun SAMD51 MicroMod",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sparkfun",
+  "chip": "atsamd51j20",
+  "ids": {
+    "platformio": [
+      "sparkfun_samd51_micromod"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAMD51J20",
+      "source": "platformio:sparkfun_samd51_micromod"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:sparkfun_samd51_micromod"
+    },
+    "clock": {
+      "value": "120 MHz",
+      "source": "platformio:sparkfun_samd51_micromod"
+    },
+    "upload_limits": {
+      "value": "496 KB flash, 192 KB RAM",
+      "source": "platformio:sparkfun_samd51_micromod"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "SparkFun SAMD51 MicroMod product page",
+      "url": "https://www.sparkfun.com/products/16791"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelsam/sparkfun_samd51_micromod.html",
+      "source": "platformio:sparkfun_samd51_micromod"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:sparkfun_samd51_micromod",
+      "label": "PlatformIO board definition (sparkfun_samd51_micromod)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/sparkfun_samd51_micromod.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

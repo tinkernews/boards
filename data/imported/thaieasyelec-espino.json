@@ -1,0 +1,53 @@
+{
+  "slug": "thaieasyelec-espino",
+  "name": "ThaiEasyElec ESPino",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "thaieasyelec",
+  "chip": "esp8266",
+  "ids": {
+    "platformio": [
+      "espinotee"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP8266EX",
+      "source": "platformio:espinotee"
+    },
+    "clock": {
+      "value": "80 MHz",
+      "source": "platformio:espinotee"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 80 KB RAM",
+      "source": "platformio:espinotee"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ThaiEasyElec ESPino product page",
+      "url": "http://www.thaieasyelec.com/products/wireless-modules/wifi-modules/espino-wifi-development-board-detail.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif8266/espinotee.html",
+      "source": "platformio:espinotee"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:espinotee",
+      "label": "PlatformIO board definition (espinotee)",
+      "url": "https://github.com/platformio/platform-espressif8266/blob/668c2a2e4f16bd83b6c812f1ee0605c62b3ce2d2/boards/espinotee.json",
+      "kind": "import",
+      "revision": "668c2a2e4f16bd83b6c812f1ee0605c62b3ce2d2"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "google-quincy",
+  "name": "Quincy",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "google",
+  "ids": {
+    "zephyr": [
+      "google_quincy"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "NPCX9MFP",
+      "source": "zephyr:google_quincy"
+    },
+    "ram": {
+      "value": "512 KB",
+      "source": "zephyr:google_quincy"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:google_quincy"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/google/quincy/doc/index.html",
+      "source": "zephyr:google_quincy"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:google_quincy",
+      "label": "Zephyr board definition (google_quincy)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/google/quincy/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

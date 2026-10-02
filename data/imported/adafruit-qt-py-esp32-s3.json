@@ -1,0 +1,37 @@
+{
+  "slug": "adafruit-qt-py-esp32-s3",
+  "name": "QT Py ESP32-S3",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "esp32-s3",
+  "ids": {
+    "zephyr": [
+      "adafruit_qt_py_esp32s3"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-S3",
+      "source": "zephyr:adafruit_qt_py_esp32s3"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/adafruit/qt_py_esp32s3/doc/index.html",
+      "source": "zephyr:adafruit_qt_py_esp32s3"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:adafruit_qt_py_esp32s3",
+      "label": "Zephyr board definition (adafruit_qt_py_esp32s3)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/adafruit/qt_py_esp32s3/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

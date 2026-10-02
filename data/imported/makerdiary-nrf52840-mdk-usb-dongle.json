@@ -1,0 +1,71 @@
+{
+  "slug": "makerdiary-nrf52840-mdk-usb-dongle",
+  "name": "nRF52840 MDK USB Dongle",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "makerdiary",
+  "chip": "nrf52840",
+  "aliases": [
+    "nrf52840 MDK USB Dongle"
+  ],
+  "ids": {
+    "zephyr": [
+      "nrf52840_mdk_usb_dongle"
+    ],
+    "micropython": [
+      "NRF52840_MDK_USB_DONGLE"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52840",
+      "source": "zephyr:nrf52840_mdk_usb_dongle"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:nrf52840_mdk_usb_dongle"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:nrf52840_mdk_usb_dongle"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "nRF52840 MDK USB Dongle product page",
+      "url": "https://wiki.makerdiary.com/nrf52840-mdk-usb-dongle"
+    }
+  ],
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/makerdiary/nrf52840_mdk_usb_dongle/doc/index.html",
+      "source": "zephyr:nrf52840_mdk_usb_dongle"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/NRF52840_MDK_USB_DONGLE/",
+      "source": "micropython:nrf52840_mdk_usb_dongle"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:nrf52840_mdk_usb_dongle",
+      "label": "Zephyr board definition (nrf52840_mdk_usb_dongle)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/makerdiary/nrf52840_mdk_usb_dongle/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "micropython:nrf52840_mdk_usb_dongle",
+      "label": "MicroPython board definition (NRF52840_MDK_USB_DONGLE)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/nrf/boards/NRF52840_MDK_USB_DONGLE/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

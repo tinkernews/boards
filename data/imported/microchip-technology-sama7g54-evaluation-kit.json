@@ -1,0 +1,40 @@
+{
+  "slug": "microchip-technology-sama7g54-evaluation-kit",
+  "name": "SAMA7G54 Evaluation Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "ids": {
+    "zephyr": [
+      "sama7g54_ek"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "SAMA7G54",
+      "source": "zephyr:sama7g54_ek"
+    },
+    "ram": {
+      "value": "128 KB",
+      "source": "zephyr:sama7g54_ek"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/microchip/sam/sama7g54_ek/doc/index.html",
+      "source": "zephyr:sama7g54_ek"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:sama7g54_ek",
+      "label": "Zephyr board definition (sama7g54_ek)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/microchip/sam/sama7g54_ek/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

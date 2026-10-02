@@ -1,0 +1,204 @@
+{
+  "promoted": [
+    {
+      "slug": "seeed-studio-xiao-esp32c3",
+      "at": "2026-10-01"
+    },
+    {
+      "slug": "heltec-wifi-lora-32",
+      "at": "2026-10-01"
+    },
+    {
+      "slug": "arduino-nano-rp2040-connect",
+      "at": "2026-10-01"
+    },
+    {
+      "slug": "particle-xenon",
+      "at": "2026-10-01"
+    },
+    {
+      "slug": "adafruit-feather-m4-express",
+      "at": "2026-10-01"
+    },
+    {
+      "slug": "adafruit-trinket-m0",
+      "at": "2026-10-01"
+    },
+    {
+      "slug": "arduino-nano-esp32",
+      "at": "2026-10-01"
+    },
+    {
+      "slug": "seeed-studio-xiao-esp32c6",
+      "at": "2026-10-01"
+    },
+    {
+      "slug": "unexpected-maker-feathers2",
+      "at": "2026-10-01"
+    },
+    {
+      "slug": "unexpected-maker-feathers3",
+      "at": "2026-10-01"
+    },
+    {
+      "slug": "unexpected-maker-nanos3",
+      "at": "2026-10-01"
+    },
+    {
+      "slug": "unexpected-maker-pros3",
+      "at": "2026-10-01"
+    },
+    {
+      "slug": "unexpected-maker-tinypico",
+      "at": "2026-10-01"
+    },
+    {
+      "slug": "unexpected-maker-tinys2",
+      "at": "2026-10-01"
+    },
+    {
+      "slug": "unexpected-maker-tinys3",
+      "at": "2026-10-01"
+    },
+    {
+      "slug": "adafruit-feather-esp32-s2",
+      "at": "2026-10-01"
+    },
+    {
+      "slug": "dfrobot-beetle-esp32-c3",
+      "at": "2026-10-01"
+    },
+    {
+      "slug": "seeed-studio-xiao-esp32s3",
+      "at": "2026-10-01"
+    },
+    {
+      "slug": "unexpected-maker-feathers2-neo",
+      "at": "2026-10-01"
+    },
+    {
+      "slug": "wemos-lolin-c3-mini",
+      "at": "2026-10-01"
+    },
+    {
+      "slug": "wemos-lolin-s2-mini",
+      "at": "2026-10-01"
+    },
+    {
+      "slug": "wemos-lolin-s2-pico",
+      "at": "2026-10-01"
+    },
+    {
+      "slug": "ai-thinker-esp32-cam",
+      "at": "2026-10-01"
+    },
+    {
+      "slug": "hardkernel-odroid-go",
+      "at": "2026-10-01"
+    },
+    {
+      "slug": "adafruit-feather-m0-express",
+      "at": "2026-10-01"
+    },
+    {
+      "slug": "adafruit-feather-nrf52840-express",
+      "at": "2026-10-01"
+    },
+    {
+      "slug": "arduino-mkrzero",
+      "at": "2026-10-01"
+    },
+    {
+      "slug": "arduino-nano-33-iot",
+      "at": "2026-10-01"
+    },
+    {
+      "slug": "olimex-esp32-evb",
+      "at": "2026-10-01"
+    },
+    {
+      "slug": "sparkfun-redboard-turbo",
+      "at": "2026-10-01"
+    },
+    {
+      "slug": "sparkfun-samd51-thing-plus",
+      "at": "2026-10-01"
+    },
+    {
+      "slug": "adafruit-itsybitsy-esp32",
+      "at": "2026-10-01"
+    },
+    {
+      "slug": "adafruit-qt-py-esp32-c3",
+      "at": "2026-10-01"
+    },
+    {
+      "slug": "bpi-leaf-s3",
+      "at": "2026-10-01"
+    },
+    {
+      "slug": "cytron-maker-feather-aiot-s3",
+      "at": "2026-10-01"
+    },
+    {
+      "slug": "dfrobot-firebeetle-2-esp32-s3",
+      "at": "2026-10-01"
+    },
+    {
+      "slug": "espressif-esp32-s3-box",
+      "at": "2026-10-01"
+    },
+    {
+      "slug": "lilygo-t-display-s3",
+      "at": "2026-10-01"
+    },
+    {
+      "slug": "wemos-lolin-s3",
+      "at": "2026-10-01"
+    },
+    {
+      "slug": "wemos-lolin-s3-mini",
+      "at": "2026-10-01"
+    },
+    {
+      "slug": "wemos-lolin-s3-pro",
+      "at": "2026-10-01"
+    },
+    {
+      "slug": "adafruit-feather-esp32-s2-reverse-tft",
+      "at": "2026-10-01"
+    },
+    {
+      "slug": "arduino-nano-33-ble",
+      "at": "2026-10-01"
+    },
+    {
+      "slug": "particle-argon",
+      "at": "2026-10-01"
+    },
+    {
+      "slug": "particle-boron",
+      "at": "2026-10-01"
+    },
+    {
+      "slug": "wemos-lolin32",
+      "at": "2026-10-01"
+    },
+    {
+      "slug": "adafruit-blm-badge",
+      "at": "2026-10-01"
+    },
+    {
+      "slug": "adafruit-circuit-playground-bluefruit",
+      "at": "2026-10-01"
+    },
+    {
+      "slug": "adafruit-circuit-playground-express",
+      "at": "2026-10-01"
+    },
+    {
+      "slug": "adafruit-feather-bluefruit-sense",
+      "at": "2026-10-01"
+    }
+  ]
+}

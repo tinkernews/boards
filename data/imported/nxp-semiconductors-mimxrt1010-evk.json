@@ -1,0 +1,154 @@
+{
+  "slug": "nxp-semiconductors-mimxrt1010-evk",
+  "name": "MIMXRT1010-EVK",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "aliases": [
+    "MIMXRT1010-EVK Eval Kit",
+    "MIMXRT1010_EVK"
+  ],
+  "ids": {
+    "zephyr": [
+      "mimxrt1010_evk"
+    ],
+    "circuitpython": [
+      "imxrt1010_evk"
+    ],
+    "micropython": [
+      "MIMXRT1010_EVK"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MIMXRT1011",
+      "source": "zephyr:mimxrt1010_evk"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:mimxrt1010_evk"
+    },
+    "flash": {
+      "value": "16 MB",
+      "source": "zephyr:mimxrt1010_evk"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "MIMXRT1010-EVK product page",
+      "url": "https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/i-mx-rt1010-evaluation-kit:MIMXRT1010-EVK"
+    }
+  ],
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nxp/mimxrt1010_evk/doc/index.html",
+      "source": "zephyr:mimxrt1010_evk"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/MIMXRT1010_EVK/",
+      "source": "micropython:mimxrt1010_evk"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/imxrt1010_evk/",
+      "source": "circuitpython:imxrt1010_evk"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:imxrt1010_evk",
+    "list": [
+      {
+        "pin": "GPIO_00",
+        "names": [
+          "AUDIO_INT"
+        ]
+      },
+      {
+        "pin": "GPIO_03",
+        "names": [
+          "AUDIO_RXD"
+        ]
+      },
+      {
+        "pin": "GPIO_04",
+        "names": [
+          "AUDIO_TXD"
+        ]
+      },
+      {
+        "pin": "GPIO_06",
+        "names": [
+          "AUDIO_BCLK"
+        ]
+      },
+      {
+        "pin": "GPIO_07",
+        "names": [
+          "AUDIO_SYNC"
+        ]
+      },
+      {
+        "pin": "GPIO_08",
+        "names": [
+          "AUDIO_MCLK"
+        ]
+      },
+      {
+        "pin": "GPIO_09",
+        "names": [
+          "FREELINK_RX"
+        ]
+      },
+      {
+        "pin": "GPIO_10",
+        "names": [
+          "SPDIF_IN",
+          "FREELINK_TX"
+        ]
+      },
+      {
+        "pin": "GPIO_11",
+        "names": [
+          "SPDIF_OUT"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "zephyr:mimxrt1010_evk",
+      "label": "Zephyr board definition (mimxrt1010_evk)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nxp/mimxrt1010_evk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "circuitpython:imxrt1010_evk",
+      "label": "CircuitPython board definition (imxrt1010_evk)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/imxrt1010_evk.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "micropython:mimxrt1010_evk",
+      "label": "MicroPython board definition (MIMXRT1010_EVK)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/mimxrt/boards/MIMXRT1010_EVK/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    },
+    {
+      "id": "circuitpython-pins:imxrt1010_evk",
+      "label": "CircuitPython pin definitions (imxrt1010_evk)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/mimxrt10xx/boards/imxrt1010_evk/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

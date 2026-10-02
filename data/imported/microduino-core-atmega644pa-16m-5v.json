@@ -1,0 +1,52 @@
+{
+  "slug": "microduino-core-atmega644pa-16m-5v",
+  "name": "Microduino Core+ (Atmega644PA@16M,5V)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microduino",
+  "ids": {
+    "platformio": [
+      "644pa16m"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATMEGA644P",
+      "source": "platformio:644pa16m"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:644pa16m"
+    },
+    "upload_limits": {
+      "value": "63 KB flash, 4 KB RAM",
+      "source": "platformio:644pa16m"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Microduino Core+ (Atmega644PA@16M,5V) product page",
+      "url": "http://wiki.microduinoinc.com/Microduino-Module_Core%2B"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/644pa16m.html",
+      "source": "platformio:644pa16m"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:644pa16m",
+      "label": "PlatformIO board definition (644pa16m)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/644pa16m.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

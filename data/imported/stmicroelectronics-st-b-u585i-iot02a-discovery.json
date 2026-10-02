@@ -1,0 +1,83 @@
+{
+  "slug": "stmicroelectronics-st-b-u585i-iot02a-discovery",
+  "name": "ST B-U585I-IOT02A Discovery",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "aliases": [
+    "B-U585I-IOT02A Discovery kit"
+  ],
+  "ids": {
+    "platformio": [
+      "disco_b_u585i_iot02a"
+    ],
+    "zephyr": [
+      "b_u585i_iot02a"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32U585AII6Q",
+      "source": "platformio:disco_b_u585i_iot02a"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M33",
+      "source": "platformio:disco_b_u585i_iot02a"
+    },
+    "clock": {
+      "value": "160 MHz",
+      "source": "platformio:disco_b_u585i_iot02a"
+    },
+    "upload_limits": {
+      "value": "2 MB flash, 256 KB RAM",
+      "source": "platformio:disco_b_u585i_iot02a"
+    },
+    "ram": {
+      "value": "768 KB",
+      "source": "zephyr:b_u585i_iot02a"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:b_u585i_iot02a"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ST B-U585I-IOT02A Discovery product page",
+      "url": "https://www.st.com/en/evaluation-tools/b-u585i-iot02a.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/disco_b_u585i_iot02a.html",
+      "source": "platformio:disco_b_u585i_iot02a"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/b_u585i_iot02a/doc/index.html",
+      "source": "zephyr:b_u585i_iot02a"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:disco_b_u585i_iot02a",
+      "label": "PlatformIO board definition (disco_b_u585i_iot02a)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/disco_b_u585i_iot02a.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    },
+    {
+      "id": "zephyr:b_u585i_iot02a",
+      "label": "Zephyr board definition (b_u585i_iot02a)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/b_u585i_iot02a/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

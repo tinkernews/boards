@@ -1,0 +1,57 @@
+{
+  "slug": "arduino-m0-pro-programming-debug-port",
+  "name": "Arduino M0 Pro (Programming/Debug Port)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "chip": "atsamd21g18",
+  "ids": {
+    "platformio": [
+      "mzeropro"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAMD21G18",
+      "source": "platformio:mzeropro"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:mzeropro"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:mzeropro"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:mzeropro"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Arduino M0 Pro (Programming/Debug Port) product page",
+      "url": "https://www.arduino.cc/en/Main/ArduinoBoardM0PRO"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelsam/mzeropro.html",
+      "source": "platformio:mzeropro"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:mzeropro",
+      "label": "PlatformIO board definition (mzeropro)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/mzeropro.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "nxp-semiconductors-frdm-mcxc444",
+  "name": "FRDM-MCXC444",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "ids": {
+    "zephyr": [
+      "frdm_mcxc444"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MCXC444",
+      "source": "zephyr:frdm_mcxc444"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:frdm_mcxc444"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:frdm_mcxc444"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nxp/frdm_mcxc444/doc/index.html",
+      "source": "zephyr:frdm_mcxc444"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:frdm_mcxc444",
+      "label": "Zephyr board definition (frdm_mcxc444)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nxp/frdm_mcxc444/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

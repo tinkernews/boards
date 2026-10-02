@@ -1,0 +1,275 @@
+{
+  "slug": "dfrobot-firebeetle-2-esp32-s3",
+  "name": "DFRobot Firebeetle 2 ESP32-S3",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "dfrobot",
+  "chip": "esp32-s3",
+  "aliases": [
+    "FireBeetle 2 ESP32-S3"
+  ],
+  "ids": {
+    "platformio": [
+      "dfrobot_firebeetle2_esp32s3"
+    ],
+    "circuitpython": [
+      "firebeetle2_esp32s3"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-S3",
+      "source": "platformio:dfrobot_firebeetle2_esp32s3"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:dfrobot_firebeetle2_esp32s3"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:dfrobot_firebeetle2_esp32s3"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "DFRobot Firebeetle 2 ESP32-S3 product page",
+      "url": "https://www.dfrobot.com/product-1590.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/dfrobot_firebeetle2_esp32s3.html",
+      "source": "platformio:dfrobot_firebeetle2_esp32s3"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/dfrobot_firebeetle2_esp32s3.html",
+      "source": "platformio:dfrobot_firebeetle2_esp32s3"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/firebeetle2_esp32s3/",
+      "source": "circuitpython:firebeetle2_esp32s3"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:firebeetle2_esp32s3",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "IO0",
+          "D9",
+          "BOOT"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "IO1",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "IO2",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "IO3",
+          "D2"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "IO4",
+          "A0"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "IO5",
+          "A1",
+          "CAM_PCLK"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "IO6",
+          "A2",
+          "CAM_VSYNC"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "IO7",
+          "D5"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "IO8",
+          "A3"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "IO9",
+          "D7"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "IO10",
+          "A4"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "IO11",
+          "D11"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "IO12",
+          "D12"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "IO13",
+          "IO11"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "IO14",
+          "D10"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "IO15",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "IO16",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "IO17",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "IO18",
+          "D6"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "IO21",
+          "D13",
+          "LED"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "IO38",
+          "D3"
+        ]
+      },
+      {
+        "pin": "GPIO42",
+        "names": [
+          "CAM_HREF"
+        ]
+      },
+      {
+        "pin": "GPIO43",
+        "names": [
+          "IO43",
+          "TXD"
+        ]
+      },
+      {
+        "pin": "GPIO44",
+        "names": [
+          "IO44",
+          "RXD"
+        ]
+      },
+      {
+        "pin": "GPIO45",
+        "names": [
+          "CAM_XCLK"
+        ]
+      },
+      {
+        "pin": "GPIO47",
+        "names": [
+          "IO47",
+          "D14",
+          "PWR"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "platformio:dfrobot_firebeetle2_esp32s3",
+      "label": "PlatformIO board definition (dfrobot_firebeetle2_esp32s3)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/dfrobot_firebeetle2_esp32s3.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    },
+    {
+      "id": "circuitpython:firebeetle2_esp32s3",
+      "label": "CircuitPython board definition (firebeetle2_esp32s3)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/firebeetle2_esp32s3.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:firebeetle2_esp32s3",
+      "label": "CircuitPython pin definitions (firebeetle2_esp32s3)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/firebeetle2_esp32s3/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

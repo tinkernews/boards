@@ -1,0 +1,44 @@
+{
+  "slug": "blues-swan",
+  "name": "Swan",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "blues",
+  "ids": {
+    "zephyr": [
+      "swan_r5"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32L4R5XX",
+      "source": "zephyr:swan_r5"
+    },
+    "ram": {
+      "value": "640 KB",
+      "source": "zephyr:swan_r5"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:swan_r5"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/blues/swan_r5/doc/index.html",
+      "source": "zephyr:swan_r5"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:swan_r5",
+      "label": "Zephyr board definition (swan_r5)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/blues/swan_r5/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

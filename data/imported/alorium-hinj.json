@@ -1,0 +1,53 @@
+{
+  "slug": "alorium-hinj",
+  "name": "Alorium Hinj",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "alorium",
+  "chip": "atmega328p",
+  "ids": {
+    "platformio": [
+      "alorium_hinj"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega328P",
+      "source": "platformio:alorium_hinj"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:alorium_hinj"
+    },
+    "upload_limits": {
+      "value": "31.5 KB flash, 2 KB RAM",
+      "source": "platformio:alorium_hinj"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Alorium Hinj product page",
+      "url": "https://www.aloriumtech.com/hinj/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/alorium_hinj.html",
+      "source": "platformio:alorium_hinj"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:alorium_hinj",
+      "label": "PlatformIO board definition (alorium_hinj)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/alorium_hinj.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,139 @@
+{
+  "slug": "nodemcu-devkit-v1",
+  "name": "NodeMCU DevKit 1.0 (ESP8266)",
+  "tier": "curated",
+  "kind": "mcu",
+  "maker": "nodemcu",
+  "family": "ESP8266",
+  "chip": "esp8266",
+  "released": "2015",
+  "status": "current",
+  "summary": "The open-hardware ESP8266 board that made Wi-Fi projects cheap: an ESP-12E module with USB-serial and breadboard headers.",
+  "aliases": [
+    "NodeMCU",
+    "NodeMCU v2",
+    "NodeMCU 1.0",
+    "NodeMCU ESP8266",
+    "NodeMCU DevKit",
+    "ESP-12E NodeMCU"
+  ],
+  "ids": {
+    "platformio": [
+      "nodemcuv2",
+      "nodemcu"
+    ],
+    "micropython": [
+      "ESP8266_GENERIC"
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "by": "AI-assisted source check",
+    "at": "2026-10-01"
+  },
+  "specs": {
+    "chip": {
+      "value": "Espressif ESP8266EX in an ESP-12E module",
+      "source": "nodemcu-repo"
+    },
+    "cpu": {
+      "value": "Tensilica L106, 32-bit",
+      "source": "esp8266-datasheet"
+    },
+    "clock": {
+      "value": "Up to 160 MHz",
+      "source": "esp8266-datasheet"
+    },
+    "ram": {
+      "value": "About 50 KB of heap and data RAM free for applications (Wi-Fi station connected)",
+      "source": "esp8266-datasheet"
+    },
+    "flash": {
+      "value": "4 MB",
+      "source": "nodemcu-repo"
+    },
+    "analog": {
+      "value": "1 analog input (10-bit)",
+      "source": "esp8266-datasheet",
+      "note": "0–1 V at the chip; the board's 220 kΩ/100 kΩ divider gives about 0–3.2 V on A0 (schematic in the NodeMCU repository)."
+    },
+    "io_voltage": {
+      "value": "3.3 V",
+      "source": "nodemcu-repo"
+    },
+    "wireless": {
+      "value": "2.4 GHz 802.11 b/g/n Wi-Fi",
+      "source": "esp8266-datasheet"
+    },
+    "usb": {
+      "value": "Micro-USB via a Silicon Labs CP2102 USB-to-UART bridge",
+      "source": "nodemcu-repo"
+    }
+  },
+  "docs": [
+    {
+      "kind": "schematic",
+      "label": "NodeMCU DevKit 1.0 hardware (schematic and PCB)",
+      "url": "https://github.com/nodemcu/nodemcu-devkit-v1.0"
+    },
+    {
+      "kind": "datasheet",
+      "label": "ESP8266EX datasheet",
+      "url": "https://www.espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "community",
+      "note": "ESP8266 core for Arduino, maintained by the community.",
+      "url": "https://github.com/esp8266/Arduino",
+      "source": "esp8266-arduino"
+    }
+  ],
+  "gotchas": [
+    {
+      "title": "Board labels are not GPIO numbers",
+      "text": "The D0–D8 labels on the board are not GPIO numbers: D1 is GPIO5 and D2 is GPIO4 (pin map in the NodeMCU repository).",
+      "source": "nodemcu-repo"
+    },
+    {
+      "title": "Boot-mode pins",
+      "text": "GPIO0, GPIO2 and GPIO15 select the boot mode; parts connected there can stop the board booting.",
+      "source": "esp8266-datasheet"
+    }
+  ],
+  "commonsFile": "File:NodeMCU DEVKIT 1.0.jpg",
+  "editorial": {
+    "history": "NodeMCU started in October 2014 as Lua firmware for the ESP8266, and its open-hardware DevKit made the chip easy to use on a breadboard.",
+    "today": "Still a cheap way to put a sensor on Wi-Fi. Espressif lists the ESP8266EX as not recommended for new designs, so new projects usually start on an ESP32-C3.",
+    "source": "wikipedia"
+  },
+  "sources": [
+    {
+      "id": "nodemcu-repo",
+      "label": "NodeMCU DevKit 1.0 hardware repository",
+      "url": "https://github.com/nodemcu/nodemcu-devkit-v1.0",
+      "kind": "official"
+    },
+    {
+      "id": "esp8266-datasheet",
+      "label": "ESP8266EX datasheet, Espressif",
+      "url": "https://www.espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf",
+      "kind": "official"
+    },
+    {
+      "id": "esp8266-arduino",
+      "label": "ESP8266 core for Arduino",
+      "url": "https://github.com/esp8266/Arduino",
+      "kind": "reference"
+    },
+    {
+      "id": "wikipedia",
+      "label": "NodeMCU, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/NodeMCU",
+      "kind": "reference"
+    }
+  ],
+  "updatedAt": "2026-10-01T15:00:00.000Z"
+}

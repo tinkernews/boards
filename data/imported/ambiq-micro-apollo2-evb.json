@@ -1,0 +1,44 @@
+{
+  "slug": "ambiq-micro-apollo2-evb",
+  "name": "Apollo2 EVB",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "ambiq-micro",
+  "ids": {
+    "zephyr": [
+      "apollo2_evb"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "APOLLO2",
+      "source": "zephyr:apollo2_evb"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:apollo2_evb"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:apollo2_evb"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/ambiq/apollo2_evb/doc/index.html",
+      "source": "zephyr:apollo2_evb"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:apollo2_evb",
+      "label": "Zephyr board definition (apollo2_evb)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/ambiq/apollo2_evb/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

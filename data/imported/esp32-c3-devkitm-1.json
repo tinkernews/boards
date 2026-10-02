@@ -1,0 +1,228 @@
+{
+  "slug": "esp32-c3-devkitm-1",
+  "name": "ESP32-C3-DevKitM-1",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "espressif",
+  "chip": "esp32-c3",
+  "aliases": [
+    "Espressif ESP32-C3-DevKitM-1",
+    "ESP32-C3-DevKitM",
+    "ESP32-C3-DevKitM-1-N4",
+    "ESP32-C3"
+  ],
+  "ids": {
+    "platformio": [
+      "esp32-c3-devkitm-1"
+    ],
+    "zephyr": [
+      "esp32c3_devkitm"
+    ],
+    "circuitpython": [
+      "espressif_esp32c3_devkitm_1_n4"
+    ],
+    "micropython": [
+      "ESP32_GENERIC_C3"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-C3",
+      "source": "platformio:esp32-c3-devkitm-1"
+    },
+    "clock": {
+      "value": "160 MHz",
+      "source": "platformio:esp32-c3-devkitm-1"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:esp32-c3-devkitm-1"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ESP32-C3-DevKitM-1 product page",
+      "url": "https://docs.espressif.com/projects/esp-idf/en/latest/esp32c3/hw-reference/esp32c3/user-guide-devkitm-1.html"
+    },
+    {
+      "kind": "product",
+      "label": "ESP32-C3-DevKitM-1 product page",
+      "url": "https://www.espressif.com/en/products/modules"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/esp32-c3-devkitm-1.html",
+      "source": "platformio:esp32-c3-devkitm-1"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/esp32-c3-devkitm-1.html",
+      "source": "platformio:esp32-c3-devkitm-1"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/espressif/esp32c3_devkitm/doc/index.html",
+      "source": "zephyr:esp32c3_devkitm"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/ESP32_GENERIC_C3/",
+      "source": "micropython:esp32_generic_c3"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/espressif_esp32c3_devkitm_1_n4/",
+      "source": "circuitpython:espressif_esp32c3_devkitm_1_n4"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:espressif_esp32c3_devkitm_1_n4",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "IO0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "IO1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "IO2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "IO3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "IO4",
+          "MTMS"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "IO5",
+          "MTDI"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "IO6",
+          "MTCK"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "IO7",
+          "MTDO"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "IO8",
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "IO9",
+          "BUTTON"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "IO10"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "IO18"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "IO19"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "IO20",
+          "RX"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "IO21",
+          "TX"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "platformio:esp32-c3-devkitm-1",
+      "label": "PlatformIO board definition (esp32-c3-devkitm-1)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/esp32-c3-devkitm-1.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    },
+    {
+      "id": "zephyr:esp32c3_devkitm",
+      "label": "Zephyr board definition (esp32c3_devkitm)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/espressif/esp32c3_devkitm/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "circuitpython:espressif_esp32c3_devkitm_1_n4",
+      "label": "CircuitPython board definition (espressif_esp32c3_devkitm_1_n4)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/espressif_esp32c3_devkitm_1_n4.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "micropython:esp32_generic_c3",
+      "label": "MicroPython board definition (ESP32_GENERIC_C3)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/esp32/boards/ESP32_GENERIC_C3/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    },
+    {
+      "id": "circuitpython-pins:espressif_esp32c3_devkitm_1_n4",
+      "label": "CircuitPython pin definitions (espressif_esp32c3_devkitm_1_n4)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/espressif_esp32c3_devkitm_1_n4/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

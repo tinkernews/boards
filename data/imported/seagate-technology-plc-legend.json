@@ -1,0 +1,44 @@
+{
+  "slug": "seagate-technology-plc-legend",
+  "name": "Legend",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "seagate-technology-plc",
+  "ids": {
+    "zephyr": [
+      "legend"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F070XB",
+      "source": "zephyr:legend"
+    },
+    "ram": {
+      "value": "16 KB",
+      "source": "zephyr:legend"
+    },
+    "flash": {
+      "value": "128 KB",
+      "source": "zephyr:legend"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/seagate/legend/doc/index.html",
+      "source": "zephyr:legend"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:legend",
+      "label": "Zephyr board definition (legend)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/seagate/legend/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

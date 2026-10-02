@@ -1,0 +1,44 @@
+{
+  "slug": "silicon-labs-efr32xg24-2-4-ghz-20-dbm-antenna-diversity",
+  "name": "EFR32xG24 2.4 GHz 20 dBm Antenna Diversity Radio Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "silicon-labs",
+  "ids": {
+    "zephyr": [
+      "xg24_rb4188a"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "EFR32MG24B220F1536IM48",
+      "source": "zephyr:xg24_rb4188a"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:xg24_rb4188a"
+    },
+    "flash": {
+      "value": "1.5 MB",
+      "source": "zephyr:xg24_rb4188a"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/silabs/radio_boards/xg24/doc/index.html",
+      "source": "zephyr:xg24_rb4188a"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:xg24_rb4188a",
+      "label": "Zephyr board definition (xg24_rb4188a)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/silabs/radio_boards/xg24/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,215 @@
+{
+  "slug": "nice-nano",
+  "name": "Nice!Nano",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nice-keyboards",
+  "chip": "nrf52840",
+  "ids": {
+    "circuitpython": [
+      "nice_nano"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/nice_nano/",
+      "source": "circuitpython:nice_nano"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:nice_nano",
+    "list": [
+      {
+        "pin": "P0_02",
+        "names": [
+          "P0_02",
+          "AIN0"
+        ]
+      },
+      {
+        "pin": "P0_04",
+        "names": [
+          "P0_04",
+          "AIN2",
+          "BAT_VOLT"
+        ]
+      },
+      {
+        "pin": "P0_06",
+        "names": [
+          "P0_06",
+          "TX"
+        ]
+      },
+      {
+        "pin": "P0_08",
+        "names": [
+          "P0_08",
+          "RX"
+        ]
+      },
+      {
+        "pin": "P0_09",
+        "names": [
+          "P0_09",
+          "NFC1"
+        ]
+      },
+      {
+        "pin": "P0_10",
+        "names": [
+          "P0_10",
+          "NFC2",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "P0_11",
+        "names": [
+          "P0_11"
+        ]
+      },
+      {
+        "pin": "P0_12",
+        "names": [
+          "P0_12"
+        ]
+      },
+      {
+        "pin": "P0_13",
+        "names": [
+          "P0_13",
+          "VCC_OFF"
+        ]
+      },
+      {
+        "pin": "P0_15",
+        "names": [
+          "P0_15",
+          "LED"
+        ]
+      },
+      {
+        "pin": "P0_17",
+        "names": [
+          "P0_17",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "P0_20",
+        "names": [
+          "P0_20",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "P0_22",
+        "names": [
+          "P0_22"
+        ]
+      },
+      {
+        "pin": "P0_24",
+        "names": [
+          "P0_24"
+        ]
+      },
+      {
+        "pin": "P0_26",
+        "names": [
+          "P0_26"
+        ]
+      },
+      {
+        "pin": "P0_29",
+        "names": [
+          "P0_29",
+          "AIN5"
+        ]
+      },
+      {
+        "pin": "P0_31",
+        "names": [
+          "P0_31",
+          "AIN7"
+        ]
+      },
+      {
+        "pin": "P1_00",
+        "names": [
+          "P1_00"
+        ]
+      },
+      {
+        "pin": "P1_01",
+        "names": [
+          "P1_01"
+        ]
+      },
+      {
+        "pin": "P1_02",
+        "names": [
+          "P1_02"
+        ]
+      },
+      {
+        "pin": "P1_04",
+        "names": [
+          "P1_04"
+        ]
+      },
+      {
+        "pin": "P1_06",
+        "names": [
+          "P1_06"
+        ]
+      },
+      {
+        "pin": "P1_07",
+        "names": [
+          "P1_07"
+        ]
+      },
+      {
+        "pin": "P1_11",
+        "names": [
+          "P1_11",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "P1_13",
+        "names": [
+          "P1_13",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "P1_15",
+        "names": [
+          "P1_15"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:nice_nano",
+      "label": "CircuitPython board definition (nice_nano)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/nice_nano.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:nice_nano",
+      "label": "CircuitPython pin definitions (nice_nano)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/nordic/boards/nice_nano/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

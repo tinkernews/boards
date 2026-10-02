@@ -1,0 +1,149 @@
+{
+  "slug": "raspberry-pi-pico-w",
+  "name": "Raspberry Pi Pico W",
+  "tier": "curated",
+  "kind": "mcu",
+  "maker": "raspberry-pi",
+  "family": "Raspberry Pi Pico",
+  "chip": "rp2040",
+  "released": "2022-06",
+  "status": "current",
+  "summary": "The Pico with an Infineon CYW43439 for 2.4 GHz Wi-Fi and Bluetooth, on the same footprint, for $6.",
+  "aliases": [
+    "Raspberry Pi Pico W",
+    "Pi Pico W",
+    "Pico W",
+    "Pico WH",
+    "Raspberry Pi Pico WH"
+  ],
+  "ids": {
+    "circuitpython": [
+      "raspberry_pi_pico_w"
+    ],
+    "micropython": [
+      "RPI_PICO_W"
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "by": "AI-assisted source check",
+    "at": "2026-10-01"
+  },
+  "predecessor": "raspberry-pi-pico",
+  "successor": "raspberry-pi-pico-2",
+  "specs": {
+    "chip": {
+      "value": "Raspberry Pi RP2040",
+      "source": "picow-datasheet"
+    },
+    "cpu": {
+      "value": "2 × Arm Cortex-M0+",
+      "source": "picow-datasheet"
+    },
+    "clock": {
+      "value": "Up to 133 MHz",
+      "source": "picow-datasheet"
+    },
+    "ram": {
+      "value": "264 KB SRAM",
+      "source": "picow-datasheet"
+    },
+    "flash": {
+      "value": "2 MB QSPI",
+      "source": "picow-datasheet"
+    },
+    "gpio": {
+      "value": "26 multi-function GPIO on two 20-pin edges",
+      "source": "picow-datasheet"
+    },
+    "io_voltage": {
+      "value": "3.3 V",
+      "source": "picow-datasheet"
+    },
+    "input_voltage": {
+      "value": "1.8–5.5 V on VSYS; 5 V via micro-USB",
+      "source": "picow-datasheet"
+    },
+    "wireless": {
+      "value": "2.4 GHz 802.11n Wi-Fi; Bluetooth 5.2 (Infineon CYW43439)",
+      "source": "pico-docs"
+    },
+    "usb": {
+      "value": "Micro-USB 1.1 device and host",
+      "source": "picow-datasheet"
+    },
+    "launch_price": {
+      "value": "US$6",
+      "source": "picow-launch"
+    }
+  },
+  "docs": [
+    {
+      "kind": "datasheet",
+      "label": "Raspberry Pi Pico W datasheet",
+      "url": "https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf"
+    },
+    {
+      "kind": "guide",
+      "label": "Pico-series documentation",
+      "url": "https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://www.raspberrypi.com/documentation/microcontrollers/micropython.html",
+      "source": "pico-docs"
+    }
+  ],
+  "pinout": {
+    "layout": "raspberry-pi-pico",
+    "source": "picow-datasheet"
+  },
+  "gotchas": [
+    {
+      "title": "The LED is on the wireless chip",
+      "text": "The on-board LED is driven by the CYW43439 wireless chip (WL_GPIO0), not a GPIO, so Pin(25) code from the original Pico does not light it; in MicroPython use machine.Pin('LED').",
+      "source": "picow-connect"
+    },
+    {
+      "title": "Some pins are taken by the radio",
+      "text": "GPIO23, 24, 25 and 29 are used internally to talk to the wireless chip; GPIO29 also measures VSYS/3.",
+      "source": "picow-datasheet"
+    }
+  ],
+  "commonsFile": "File:RPI PICO W 1.jpg",
+  "editorial": {
+    "history": "Released in June 2022, the Pico W put 2.4 GHz Wi-Fi on the Pico for $2 more; Bluetooth was not enabled at launch.",
+    "today": "The cheapest well-supported way to put a MicroPython or C project on Wi-Fi, from sensors to Home Assistant integrations.",
+    "source": "picow-launch"
+  },
+  "sources": [
+    {
+      "id": "picow-datasheet",
+      "label": "Raspberry Pi Pico W datasheet",
+      "url": "https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf",
+      "kind": "official"
+    },
+    {
+      "id": "pico-docs",
+      "label": "Pico-series microcontrollers, Raspberry Pi documentation",
+      "url": "https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html",
+      "kind": "official"
+    },
+    {
+      "id": "picow-launch",
+      "label": "Raspberry Pi Pico W: your $6 IoT platform, Raspberry Pi news",
+      "url": "https://www.raspberrypi.com/news/raspberry-pi-pico-w-your-6-iot-platform/",
+      "kind": "official"
+    },
+    {
+      "id": "picow-connect",
+      "label": "Connecting to the Internet with Raspberry Pi Pico W",
+      "url": "https://datasheets.raspberrypi.com/picow/connecting-to-the-internet-with-pico-w.pdf",
+      "kind": "official"
+    }
+  ],
+  "updatedAt": "2026-10-01T15:00:00.000Z"
+}

@@ -1,0 +1,238 @@
+{
+  "slug": "blues-cygnet",
+  "name": "Blues Cygnet",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "blues",
+  "aliases": [
+    "Cygnet"
+  ],
+  "ids": {
+    "platformio": [
+      "blues_cygnet"
+    ],
+    "zephyr": [
+      "cygnet"
+    ],
+    "circuitpython": [
+      "blues_cygnet"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32L433CCT6",
+      "source": "platformio:blues_cygnet"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:blues_cygnet"
+    },
+    "clock": {
+      "value": "80 MHz",
+      "source": "platformio:blues_cygnet"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 64 KB RAM",
+      "source": "platformio:blues_cygnet"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:cygnet"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:cygnet"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Blues Cygnet product page",
+      "url": "https://blues.com/feather-mcu/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/blues_cygnet.html",
+      "source": "platformio:blues_cygnet"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/blues/cygnet/doc/index.html",
+      "source": "zephyr:cygnet"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/blues_cygnet/",
+      "source": "circuitpython:blues_cygnet"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:blues_cygnet",
+    "list": [
+      {
+        "pin": "PA00",
+        "names": [
+          "A0"
+        ]
+      },
+      {
+        "pin": "PA01",
+        "names": [
+          "A1"
+        ]
+      },
+      {
+        "pin": "PA02",
+        "names": [
+          "A2"
+        ]
+      },
+      {
+        "pin": "PA03",
+        "names": [
+          "A3"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "VOLTAGE_MONITOR"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "A5"
+        ]
+      },
+      {
+        "pin": "PA08",
+        "names": [
+          "LED"
+        ]
+      },
+      {
+        "pin": "PA09",
+        "names": [
+          "TX"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "RX"
+        ]
+      },
+      {
+        "pin": "PA13",
+        "names": [
+          "MISO"
+        ]
+      },
+      {
+        "pin": "PA14",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "PB01",
+        "names": [
+          "A4"
+        ]
+      },
+      {
+        "pin": "PB04",
+        "names": [
+          "D13"
+        ]
+      },
+      {
+        "pin": "PB05",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "PB06",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "PB07",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PB08",
+        "names": [
+          "D5",
+          "SS"
+        ]
+      },
+      {
+        "pin": "PB09",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "PB14",
+        "names": [
+          "D9"
+        ]
+      },
+      {
+        "pin": "PB15",
+        "names": [
+          "D12"
+        ]
+      },
+      {
+        "pin": "PC13",
+        "names": [
+          "BUTTON_USR"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "platformio:blues_cygnet",
+      "label": "PlatformIO board definition (blues_cygnet)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/blues_cygnet.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    },
+    {
+      "id": "zephyr:cygnet",
+      "label": "Zephyr board definition (cygnet)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/blues/cygnet/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "circuitpython:blues_cygnet",
+      "label": "CircuitPython board definition (blues_cygnet)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/blues_cygnet.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:blues_cygnet",
+      "label": "CircuitPython pin definitions (blues_cygnet)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/stm/boards/blues_cygnet/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

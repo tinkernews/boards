@@ -1,0 +1,220 @@
+{
+  "slug": "adafruit-feather-stm32f405-express",
+  "name": "Feather STM32F405 Express",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "stm32f405",
+  "ids": {
+    "zephyr": [
+      "adafruit_feather_stm32f405"
+    ],
+    "circuitpython": [
+      "feather_stm32f405_express"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F405",
+      "source": "zephyr:adafruit_feather_stm32f405"
+    },
+    "ram": {
+      "value": "128 KB",
+      "source": "zephyr:adafruit_feather_stm32f405"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:adafruit_feather_stm32f405"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/adafruit/feather_stm32f405/doc/index.html",
+      "source": "zephyr:adafruit_feather_stm32f405"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/feather_stm32f405_express/",
+      "source": "circuitpython:feather_stm32f405_express"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:feather_stm32f405_express",
+    "list": [
+      {
+        "pin": "PA03",
+        "names": [
+          "VOLTAGE_MONITOR"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "A0"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "A1"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "A2"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "A3"
+        ]
+      },
+      {
+        "pin": "PB06",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "PB07",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PB08",
+        "names": [
+          "D9",
+          "CAN_RX"
+        ]
+      },
+      {
+        "pin": "PB09",
+        "names": [
+          "D10",
+          "CAN_TX"
+        ]
+      },
+      {
+        "pin": "PB10",
+        "names": [
+          "TX"
+        ]
+      },
+      {
+        "pin": "PB11",
+        "names": [
+          "RX"
+        ]
+      },
+      {
+        "pin": "PB13",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "PB14",
+        "names": [
+          "MISO"
+        ]
+      },
+      {
+        "pin": "PB15",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "PC00",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "PC01",
+        "names": [
+          "LED",
+          "D13"
+        ]
+      },
+      {
+        "pin": "PC02",
+        "names": [
+          "D12"
+        ]
+      },
+      {
+        "pin": "PC03",
+        "names": [
+          "D11"
+        ]
+      },
+      {
+        "pin": "PC04",
+        "names": [
+          "A4"
+        ]
+      },
+      {
+        "pin": "PC05",
+        "names": [
+          "A5"
+        ]
+      },
+      {
+        "pin": "PC06",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "PC07",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "PC12",
+        "names": [
+          "SDIO_CLOCK"
+        ]
+      },
+      {
+        "pin": "PD02",
+        "names": [
+          "SDIO_COMMAND"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "zephyr:adafruit_feather_stm32f405",
+      "label": "Zephyr board definition (adafruit_feather_stm32f405)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/adafruit/feather_stm32f405/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "circuitpython:feather_stm32f405_express",
+      "label": "CircuitPython board definition (feather_stm32f405_express)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/feather_stm32f405_express.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:feather_stm32f405_express",
+      "label": "CircuitPython pin definitions (feather_stm32f405_express)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/stm/boards/feather_stm32f405_express/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

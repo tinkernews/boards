@@ -1,0 +1,53 @@
+{
+  "slug": "alorium-xlr8",
+  "name": "Alorium XLR8",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "alorium",
+  "chip": "atmega328p",
+  "ids": {
+    "platformio": [
+      "alorium_xlr8"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega328P",
+      "source": "platformio:alorium_xlr8"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:alorium_xlr8"
+    },
+    "upload_limits": {
+      "value": "31.5 KB flash, 2 KB RAM",
+      "source": "platformio:alorium_xlr8"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Alorium XLR8 product page",
+      "url": "http://www.aloriumtech.com/xlr8/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/alorium_xlr8.html",
+      "source": "platformio:alorium_xlr8"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:alorium_xlr8",
+      "label": "PlatformIO board definition (alorium_xlr8)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/alorium_xlr8.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

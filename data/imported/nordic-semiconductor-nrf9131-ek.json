@@ -1,0 +1,44 @@
+{
+  "slug": "nordic-semiconductor-nrf9131-ek",
+  "name": "nRF9131 EK",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nordic-semiconductor",
+  "ids": {
+    "zephyr": [
+      "nrf9131ek"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "NRF9131",
+      "source": "zephyr:nrf9131ek"
+    },
+    "ram": {
+      "value": "88 KB",
+      "source": "zephyr:nrf9131ek"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:nrf9131ek"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nordic/nrf9131ek/doc/index.html",
+      "source": "zephyr:nrf9131ek"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:nrf9131ek",
+      "label": "Zephyr board definition (nrf9131ek)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nordic/nrf9131ek/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

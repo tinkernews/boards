@@ -1,0 +1,258 @@
+{
+  "slug": "adafruit-hallowing-m4-express",
+  "name": "HalloWing M4 Express",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "atsamd51j19",
+  "ids": {
+    "circuitpython": [
+      "hallowing_m4_express"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/hallowing_m4_express/",
+      "source": "circuitpython:hallowing_m4_express"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:hallowing_m4_express",
+    "list": [
+      {
+        "pin": "PA02",
+        "names": [
+          "A0",
+          "SPEAKER"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "A5",
+          "TOUCH4"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "A1"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "A2",
+          "TOUCH1"
+        ]
+      },
+      {
+        "pin": "PA12",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PA13",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "PA14",
+        "names": [
+          "D4"
+        ]
+      },
+      {
+        "pin": "PA15",
+        "names": [
+          "CAP_PIN"
+        ]
+      },
+      {
+        "pin": "PA16",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "PA17",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "PA18",
+        "names": [
+          "D9"
+        ]
+      },
+      {
+        "pin": "PA19",
+        "names": [
+          "D10"
+        ]
+      },
+      {
+        "pin": "PA20",
+        "names": [
+          "D11"
+        ]
+      },
+      {
+        "pin": "PA21",
+        "names": [
+          "D12"
+        ]
+      },
+      {
+        "pin": "PA22",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "PA23",
+        "names": [
+          "LED",
+          "D13"
+        ]
+      },
+      {
+        "pin": "PA27",
+        "names": [
+          "TFT_CS"
+        ]
+      },
+      {
+        "pin": "PB01",
+        "names": [
+          "VOLTAGE_MONITOR",
+          "A6",
+          "BATTERY"
+        ]
+      },
+      {
+        "pin": "PB02",
+        "names": [
+          "D3",
+          "EXTERNAL_NEOPIXEL",
+          "A9"
+        ]
+      },
+      {
+        "pin": "PB03",
+        "names": [
+          "D2",
+          "SENSE",
+          "A8"
+        ]
+      },
+      {
+        "pin": "PB04",
+        "names": [
+          "LIGHT",
+          "A7"
+        ]
+      },
+      {
+        "pin": "PB05",
+        "names": [
+          "SPEAKER_ENABLE"
+        ]
+      },
+      {
+        "pin": "PB08",
+        "names": [
+          "A4",
+          "TOUCH3"
+        ]
+      },
+      {
+        "pin": "PB09",
+        "names": [
+          "A3",
+          "TOUCH2"
+        ]
+      },
+      {
+        "pin": "PB12",
+        "names": [
+          "D1",
+          "TX"
+        ]
+      },
+      {
+        "pin": "PB13",
+        "names": [
+          "D0",
+          "RX"
+        ]
+      },
+      {
+        "pin": "PB14",
+        "names": [
+          "TFT_BACKLIGHT"
+        ]
+      },
+      {
+        "pin": "PB15",
+        "names": [
+          "ACCELEROMETER_INTERRUPT",
+          "D7"
+        ]
+      },
+      {
+        "pin": "PB16",
+        "names": [
+          "NEOPIXEL",
+          "D8"
+        ]
+      },
+      {
+        "pin": "PB22",
+        "names": [
+          "MISO"
+        ]
+      },
+      {
+        "pin": "PB23",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "PB30",
+        "names": [
+          "TFT_RESET"
+        ]
+      },
+      {
+        "pin": "PB31",
+        "names": [
+          "TFT_DC"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:hallowing_m4_express",
+      "label": "CircuitPython board definition (hallowing_m4_express)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/hallowing_m4_express.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:hallowing_m4_express",
+      "label": "CircuitPython pin definitions (hallowing_m4_express)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/hallowing_m4_express/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

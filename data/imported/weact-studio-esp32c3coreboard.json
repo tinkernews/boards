@@ -1,0 +1,59 @@
+{
+  "slug": "weact-studio-esp32c3coreboard",
+  "name": "WeAct Studio ESP32C3CoreBoard",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "weact",
+  "chip": "esp32-c3",
+  "ids": {
+    "platformio": [
+      "weactstudio_esp32c3coreboard"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-C3",
+      "source": "platformio:weactstudio_esp32c3coreboard"
+    },
+    "clock": {
+      "value": "160 MHz",
+      "source": "platformio:weactstudio_esp32c3coreboard"
+    },
+    "upload_limits": {
+      "value": "384 KB flash, 400 KB RAM",
+      "source": "platformio:weactstudio_esp32c3coreboard"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "WeAct Studio ESP32C3CoreBoard product page",
+      "url": "https://github.com/WeActStudio/WeActStudio.ESP32C3CoreBoard"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/weactstudio_esp32c3coreboard.html",
+      "source": "platformio:weactstudio_esp32c3coreboard"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/weactstudio_esp32c3coreboard.html",
+      "source": "platformio:weactstudio_esp32c3coreboard"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:weactstudio_esp32c3coreboard",
+      "label": "PlatformIO board definition (weactstudio_esp32c3coreboard)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/weactstudio_esp32c3coreboard.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

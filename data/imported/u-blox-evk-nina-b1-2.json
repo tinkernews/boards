@@ -1,0 +1,37 @@
+{
+  "slug": "u-blox-evk-nina-b1-2",
+  "name": "EVK-NINA-B1",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "u-blox",
+  "ids": {
+    "micropython": [
+      "EVK_NINA_B1"
+    ]
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "EVK-NINA-B1 product page",
+      "url": "https://www.u-blox.com/en/product/evk-nina-b1"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/EVK_NINA_B1/",
+      "source": "micropython:evk_nina_b1"
+    }
+  ],
+  "sources": [
+    {
+      "id": "micropython:evk_nina_b1",
+      "label": "MicroPython board definition (EVK_NINA_B1)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/nrf/boards/EVK_NINA_B1/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

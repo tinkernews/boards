@@ -1,0 +1,37 @@
+{
+  "slug": "weact-studio-mini-stm32h743",
+  "name": "Mini STM32H743",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "weact",
+  "ids": {
+    "micropython": [
+      "WEACTSTUDIO_MINI_STM32H743"
+    ]
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Mini STM32H743 product page",
+      "url": "https://github.com/WeActStudio/MiniSTM32H7xx"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/WEACTSTUDIO_MINI_STM32H743/",
+      "source": "micropython:weactstudio_mini_stm32h743"
+    }
+  ],
+  "sources": [
+    {
+      "id": "micropython:weactstudio_mini_stm32h743",
+      "label": "MicroPython board definition (WEACTSTUDIO_MINI_STM32H743)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/stm32/boards/WEACTSTUDIO_MINI_STM32H743/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

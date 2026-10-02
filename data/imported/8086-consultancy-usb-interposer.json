@@ -1,0 +1,140 @@
+{
+  "slug": "8086-consultancy-usb-interposer",
+  "name": "USB Interposer",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "8086-consultancy",
+  "chip": "rp2040",
+  "ids": {
+    "circuitpython": [
+      "8086_usb_interposer"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/8086_usb_interposer/",
+      "source": "circuitpython:8086_usb_interposer"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:8086_usb_interposer",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "TX",
+          "GP0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "RX",
+          "GP1"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "LED",
+          "LED_TOP_RED",
+          "GP7"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "LED_TOP_AMBER",
+          "GP8"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "BUTTON",
+          "BOOT",
+          "GP12"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "SDA",
+          "GP14"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "SCL",
+          "GP15"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "USB_HOST_DATA_PLUS"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "USB_HOST_DATA_MINUS"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "USB_HOST_5V_POWER"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "LED_BOTTOM_RED",
+          "GP22"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "LED_BOTTOM_AMBER",
+          "GP23"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "ADC_VBUS_IN",
+          "A0"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "ADC_VBUS_OUT",
+          "A1"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:8086_usb_interposer",
+      "label": "CircuitPython board definition (8086_usb_interposer)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/8086_usb_interposer.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:8086_usb_interposer",
+      "label": "CircuitPython pin definitions (8086_usb_interposer)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/8086_usb_interposer/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

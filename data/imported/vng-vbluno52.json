@@ -1,0 +1,48 @@
+{
+  "slug": "vng-vbluno52",
+  "name": "VNG VBLUno52",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "vng",
+  "chip": "nrf52832",
+  "ids": {
+    "platformio": [
+      "vbluno52"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52832",
+      "source": "platformio:vbluno52"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:vbluno52"
+    },
+    "clock": {
+      "value": "64 MHz",
+      "source": "platformio:vbluno52"
+    },
+    "upload_limits": {
+      "value": "512 KB flash, 64 KB RAM",
+      "source": "platformio:vbluno52"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "VNG VBLUno52 product page",
+      "url": "https://vngiotlab.github.io/"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:vbluno52",
+      "label": "PlatformIO board definition (vbluno52)",
+      "url": "https://github.com/platformio/platform-nordicnrf52/blob/278176a7f7ffe2d001eb93eafa271c83b38222e4/boards/vbluno52.json",
+      "kind": "import",
+      "revision": "278176a7f7ffe2d001eb93eafa271c83b38222e4"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

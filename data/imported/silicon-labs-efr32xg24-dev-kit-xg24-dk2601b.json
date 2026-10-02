@@ -1,0 +1,44 @@
+{
+  "slug": "silicon-labs-efr32xg24-dev-kit-xg24-dk2601b",
+  "name": "EFR32xG24 Dev Kit (xG24-DK2601B)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "silicon-labs",
+  "ids": {
+    "zephyr": [
+      "xg24_dk2601b"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "EFR32MG24B310F1536IM48",
+      "source": "zephyr:xg24_dk2601b"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:xg24_dk2601b"
+    },
+    "flash": {
+      "value": "1.5 MB",
+      "source": "zephyr:xg24_dk2601b"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/silabs/dev_kits/xg24_dk2601b/doc/index.html",
+      "source": "zephyr:xg24_dk2601b"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:xg24_dk2601b",
+      "label": "Zephyr board definition (xg24_dk2601b)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/silabs/dev_kits/xg24_dk2601b/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

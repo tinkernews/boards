@@ -1,0 +1,44 @@
+{
+  "slug": "stmicroelectronics-nucleo-wb05kz",
+  "name": "Nucleo WB05KZ",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "zephyr": [
+      "nucleo_wb05kz"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32WB05",
+      "source": "zephyr:nucleo_wb05kz"
+    },
+    "ram": {
+      "value": "24 KB",
+      "source": "zephyr:nucleo_wb05kz"
+    },
+    "flash": {
+      "value": "192 KB",
+      "source": "zephyr:nucleo_wb05kz"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/nucleo_wb05kz/doc/index.html",
+      "source": "zephyr:nucleo_wb05kz"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:nucleo_wb05kz",
+      "label": "Zephyr board definition (nucleo_wb05kz)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/nucleo_wb05kz/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

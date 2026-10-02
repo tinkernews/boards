@@ -1,0 +1,45 @@
+{
+  "slug": "framework-laptop-16-keyboard",
+  "name": "Framework Laptop 16 Keyboard",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "framework-computer",
+  "chip": "rp2040",
+  "ids": {
+    "zephyr": [
+      "framework_laptop16_keyboard"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "RP2040",
+      "source": "zephyr:framework_laptop16_keyboard"
+    },
+    "ram": {
+      "value": "264 KB",
+      "source": "zephyr:framework_laptop16_keyboard"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:framework_laptop16_keyboard"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/framework/laptop16_keyboard/doc/index.html",
+      "source": "zephyr:framework_laptop16_keyboard"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:framework_laptop16_keyboard",
+      "label": "Zephyr board definition (framework_laptop16_keyboard)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/framework/laptop16_keyboard/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

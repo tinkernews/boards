@@ -1,0 +1,214 @@
+{
+  "slug": "futurekeys-hexky-s2",
+  "name": "HexKy S2",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "futurekeys",
+  "chip": "esp32-s2",
+  "ids": {
+    "circuitpython": [
+      "hexky_s2"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/hexky_s2/",
+      "source": "circuitpython:hexky_s2"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:hexky_s2",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "BOOT"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "A0"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "A2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "A1"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "D4"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "D2"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "D3"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "A3"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "D6",
+          "D8"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "D7"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "VBAT_SENSE"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "A4",
+          "DAC1"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "A5",
+          "DAC2"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "SW1"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "TFT_CS"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "TFT_DC"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "GPIO37",
+        "names": [
+          "MISO"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "D13_LED"
+        ]
+      },
+      {
+        "pin": "GPIO40",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO41",
+        "names": [
+          "TFT_RST"
+        ]
+      },
+      {
+        "pin": "GPIO42",
+        "names": [
+          "SW2"
+        ]
+      },
+      {
+        "pin": "GPIO43",
+        "names": [
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO44",
+        "names": [
+          "RX"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:hexky_s2",
+      "label": "CircuitPython board definition (hexky_s2)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/hexky_s2.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:hexky_s2",
+      "label": "CircuitPython pin definitions (hexky_s2)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/hexky_s2/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

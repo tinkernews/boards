@@ -1,0 +1,59 @@
+{
+  "slug": "az-delivery-esp-32-dev-kit-c-v4",
+  "name": "AZ-Delivery ESP-32 Dev Kit C V4",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "az-delivery",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "az-delivery-devkit-v4"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:az-delivery-devkit-v4"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:az-delivery-devkit-v4"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 520 KB RAM",
+      "source": "platformio:az-delivery-devkit-v4"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "AZ-Delivery ESP-32 Dev Kit C V4 product page",
+      "url": "https://www.az-delivery.com/products/esp-32-dev-kit-c-v4"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/az-delivery-devkit-v4.html",
+      "source": "platformio:az-delivery-devkit-v4"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/az-delivery-devkit-v4.html",
+      "source": "platformio:az-delivery-devkit-v4"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:az-delivery-devkit-v4",
+      "label": "PlatformIO board definition (az-delivery-devkit-v4)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/az-delivery-devkit-v4.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

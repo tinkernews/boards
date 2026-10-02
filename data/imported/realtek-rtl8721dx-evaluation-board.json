@@ -1,0 +1,52 @@
+{
+  "slug": "realtek-rtl8721dx-evaluation-board",
+  "name": "RTL8721Dx Evaluation Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "realtek",
+  "ids": {
+    "zephyr": [
+      "pke8721daf_c13_f10",
+      "rtl872xda_evb"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "RTL8721DX",
+      "source": "zephyr:pke8721daf_c13_f10"
+    },
+    "ram": {
+      "value": "512 KB",
+      "source": "zephyr:pke8721daf_c13_f10"
+    },
+    "flash": {
+      "value": "1.92 MB",
+      "source": "zephyr:pke8721daf_c13_f10"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/realtek/pke8721daf_c13_f10/doc/index.html",
+      "source": "zephyr:pke8721daf_c13_f10"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:pke8721daf_c13_f10",
+      "label": "Zephyr board definition (pke8721daf_c13_f10)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/realtek/pke8721daf_c13_f10/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "zephyr:rtl872xda_evb",
+      "label": "Zephyr board definition (rtl872xda_evb)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/realtek/rtl872xda_evb/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

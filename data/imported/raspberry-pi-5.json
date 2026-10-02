@@ -1,0 +1,54 @@
+{
+  "slug": "raspberry-pi-5",
+  "name": "Raspberry Pi 5",
+  "tier": "imported",
+  "kind": "sbc",
+  "maker": "raspberry-pi",
+  "chip": "bcm2712",
+  "aliases": [
+    "Raspberry Pi 5 (Cortex-A76)"
+  ],
+  "ids": {
+    "zephyr": [
+      "rpi_5"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "BCM2712",
+      "source": "zephyr:rpi_5"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/raspberrypi/rpi_5/doc/index.html",
+      "source": "zephyr:rpi_5"
+    },
+    {
+      "platform": "linux-mainline",
+      "status": "supported",
+      "note": "A device tree for this board is in the mainline kernel; features may still be missing.",
+      "url": "https://github.com/torvalds/linux/blob/master/arch/arm64/boot/dts/broadcom/bcm2712-rpi-5-b.dts",
+      "source": "linux:bcm2712-rpi-5-b.dts"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:rpi_5",
+      "label": "Zephyr board definition (rpi_5)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/raspberrypi/rpi_5/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "linux:bcm2712-rpi-5-b.dts",
+      "label": "Linux kernel device tree (bcm2712-rpi-5-b.dts)",
+      "url": "https://github.com/torvalds/linux/blob/551c722f40809618230001baccf219193e22fc5a/arch/arm64/boot/dts/broadcom/bcm2712-rpi-5-b.dts",
+      "kind": "import",
+      "revision": "551c722f40809618230001baccf219193e22fc5a"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

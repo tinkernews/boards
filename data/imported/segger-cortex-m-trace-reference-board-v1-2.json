@@ -1,0 +1,45 @@
+{
+  "slug": "segger-cortex-m-trace-reference-board-v1-2",
+  "name": "Cortex-M Trace Reference Board V1.2",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "segger",
+  "chip": "stm32f407",
+  "ids": {
+    "zephyr": [
+      "segger_trb_stm32f407"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F407",
+      "source": "zephyr:segger_trb_stm32f407"
+    },
+    "ram": {
+      "value": "192 KB",
+      "source": "zephyr:segger_trb_stm32f407"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:segger_trb_stm32f407"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/segger/trb_stm32f407/doc/index.html",
+      "source": "zephyr:segger_trb_stm32f407"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:segger_trb_stm32f407",
+      "label": "Zephyr board definition (segger_trb_stm32f407)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/segger/trb_stm32f407/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "01space-esp32c3-0-42-oled",
+  "name": "ESP32C3 0.42 OLED",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "01space",
+  "chip": "esp32-c3",
+  "ids": {
+    "zephyr": [
+      "esp32c3_042_oled"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-C3",
+      "source": "zephyr:esp32c3_042_oled"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/01space/esp32c3_042_oled/doc/index.html",
+      "source": "zephyr:esp32c3_042_oled"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:esp32c3_042_oled",
+      "label": "Zephyr board definition (esp32c3_042_oled)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/01space/esp32c3_042_oled/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "core-devices-pebble-2-duo",
+  "name": "Pebble 2 Duo",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "core-devices",
+  "chip": "nrf52840",
+  "ids": {
+    "zephyr": [
+      "p2d"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52840",
+      "source": "zephyr:p2d"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:p2d"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:p2d"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/coredevices/p2d/doc/index.html",
+      "source": "zephyr:p2d"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:p2d",
+      "label": "Zephyr board definition (p2d)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/coredevices/p2d/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

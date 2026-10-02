@@ -1,0 +1,154 @@
+{
+  "slug": "j-j-studios-datum-distance",
+  "name": "datum-Distance",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "j-j-studios",
+  "chip": "atsamd21g18",
+  "ids": {
+    "circuitpython": [
+      "datum_distance"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/datum_distance/",
+      "source": "circuitpython:datum_distance"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:datum_distance",
+    "list": [
+      {
+        "pin": "PA06",
+        "names": [
+          "D8"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "D9"
+        ]
+      },
+      {
+        "pin": "PA08",
+        "names": [
+          "D4"
+        ]
+      },
+      {
+        "pin": "PA09",
+        "names": [
+          "D3"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "D1",
+          "TX"
+        ]
+      },
+      {
+        "pin": "PA11",
+        "names": [
+          "D0",
+          "RX"
+        ]
+      },
+      {
+        "pin": "PA12",
+        "names": [
+          "MISO"
+        ]
+      },
+      {
+        "pin": "PA16",
+        "names": [
+          "D11"
+        ]
+      },
+      {
+        "pin": "PA17",
+        "names": [
+          "D13",
+          "LED"
+        ]
+      },
+      {
+        "pin": "PA18",
+        "names": [
+          "D10"
+        ]
+      },
+      {
+        "pin": "PA19",
+        "names": [
+          "D12"
+        ]
+      },
+      {
+        "pin": "PA20",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "PA21",
+        "names": [
+          "D7"
+        ]
+      },
+      {
+        "pin": "PA22",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PA23",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "PA27",
+        "names": [
+          "TX_LED"
+        ]
+      },
+      {
+        "pin": "PB10",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "PB11",
+        "names": [
+          "SCK"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:datum_distance",
+      "label": "CircuitPython board definition (datum_distance)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/datum_distance.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:datum_distance",
+      "label": "CircuitPython pin definitions (datum_distance)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/datum_distance/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T11:14:32.694Z"
+}

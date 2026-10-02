@@ -1,0 +1,53 @@
+{
+  "slug": "sparkfun-serial-7-segment-display",
+  "name": "SparkFun Serial 7-Segment Display",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sparkfun",
+  "chip": "atmega328p",
+  "ids": {
+    "platformio": [
+      "sparkfun_serial7seg"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega328P",
+      "source": "platformio:sparkfun_serial7seg"
+    },
+    "clock": {
+      "value": "8 MHz",
+      "source": "platformio:sparkfun_serial7seg"
+    },
+    "upload_limits": {
+      "value": "31.5 KB flash, 2 KB RAM",
+      "source": "platformio:sparkfun_serial7seg"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "SparkFun Serial 7-Segment Display product page",
+      "url": "https://www.sparkfun.com/products/11441"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/sparkfun_serial7seg.html",
+      "source": "platformio:sparkfun_serial7seg"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:sparkfun_serial7seg",
+      "label": "PlatformIO board definition (sparkfun_serial7seg)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/sparkfun_serial7seg.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

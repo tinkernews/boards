@@ -1,0 +1,44 @@
+{
+  "slug": "stmicroelectronics-nucleo-c5a3zg",
+  "name": "Nucleo C5A3ZG",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "zephyr": [
+      "nucleo_c5a3zg"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32C5A3XX",
+      "source": "zephyr:nucleo_c5a3zg"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:nucleo_c5a3zg"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:nucleo_c5a3zg"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/nucleo_c5a3zg/doc/index.html",
+      "source": "zephyr:nucleo_c5a3zg"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:nucleo_c5a3zg",
+      "label": "Zephyr board definition (nucleo_c5a3zg)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/nucleo_c5a3zg/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

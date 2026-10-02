@@ -1,0 +1,133 @@
+{
+  "slug": "squarofumi-watchy",
+  "name": "Watchy",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "squarofumi",
+  "chip": "esp32",
+  "ids": {
+    "circuitpython": [
+      "sqfmi_watchy"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/sqfmi_watchy/",
+      "source": "circuitpython:sqfmi_watchy"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:sqfmi_watchy",
+    "list": [
+      {
+        "pin": "GPIO4",
+        "names": [
+          "BTN4"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "EPD_SS"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "EPD_RES"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "EPD_DC"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "ACC_INT_2"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "VIB"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "ACC_INT_1"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "EPD_SCK"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "EPD_BUSY"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "BTN2"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "BTN1"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "RTC_INT"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "S32K"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "VBAT"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "BTN3"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:sqfmi_watchy",
+      "label": "CircuitPython board definition (sqfmi_watchy)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/sqfmi_watchy.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:sqfmi_watchy",
+      "label": "CircuitPython pin definitions (sqfmi_watchy)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/sqfmi_watchy/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

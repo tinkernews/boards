@@ -1,0 +1,53 @@
+{
+  "slug": "arduino-lilypad-usb",
+  "name": "Arduino LilyPad USB",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "chip": "atmega32u4",
+  "ids": {
+    "platformio": [
+      "LilyPadUSB"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega32U4",
+      "source": "platformio:lilypadusb"
+    },
+    "clock": {
+      "value": "8 MHz",
+      "source": "platformio:lilypadusb"
+    },
+    "upload_limits": {
+      "value": "28 KB flash, 2.5 KB RAM",
+      "source": "platformio:lilypadusb"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Arduino LilyPad USB product page",
+      "url": "http://arduino.cc/en/Main/ArduinoBoardLilyPadUSB"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/LilyPadUSB.html",
+      "source": "platformio:lilypadusb"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:lilypadusb",
+      "label": "PlatformIO board definition (LilyPadUSB)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/LilyPadUSB.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

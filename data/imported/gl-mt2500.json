@@ -1,0 +1,40 @@
+{
+  "slug": "gl-mt2500",
+  "name": "GL-MT2500",
+  "tier": "imported",
+  "kind": "sbc",
+  "maker": "gl-inet",
+  "released": "2022",
+  "ids": {
+    "armbian": [
+      "gl-mt2500",
+      "gl-mt2500-v2"
+    ]
+  },
+  "software": [
+    {
+      "platform": "armbian",
+      "status": "community",
+      "note": "Community-maintained in Armbian.",
+      "url": "https://github.com/armbian/build/blob/main/config/boards/gl-mt2500.csc",
+      "source": "armbian:gl-mt2500"
+    }
+  ],
+  "sources": [
+    {
+      "id": "armbian:gl-mt2500",
+      "label": "Armbian board configuration (gl-mt2500)",
+      "url": "https://github.com/armbian/build/blob/da85daa05bd260d04dac50315d7317207fd998b3/config/boards/gl-mt2500.csc",
+      "kind": "import",
+      "revision": "da85daa05bd260d04dac50315d7317207fd998b3"
+    },
+    {
+      "id": "armbian:gl-mt2500-v2",
+      "label": "Armbian board configuration (gl-mt2500-v2)",
+      "url": "https://github.com/armbian/build/blob/da85daa05bd260d04dac50315d7317207fd998b3/config/boards/gl-mt2500-v2.csc",
+      "kind": "import",
+      "revision": "da85daa05bd260d04dac50315d7317207fd998b3"
+    }
+  ],
+  "updatedAt": "2026-10-01T11:14:32.694Z"
+}

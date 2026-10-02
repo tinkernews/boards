@@ -1,0 +1,354 @@
+{
+  "slug": "espressif-esp32-p4-function-ev-board",
+  "name": "ESP32-P4-Function-EV-Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "espressif",
+  "chip": "esp32-p4",
+  "ids": {
+    "zephyr": [
+      "esp32p4_function_ev_board"
+    ],
+    "circuitpython": [
+      "espressif_esp32p4_function_ev"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-P4",
+      "source": "zephyr:esp32p4_function_ev_board"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/espressif/esp32p4_function_ev_board/doc/index.html",
+      "source": "zephyr:esp32p4_function_ev_board"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/espressif_esp32p4_function_ev/",
+      "source": "circuitpython:espressif_esp32p4_function_ev"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:espressif_esp32p4_function_ev",
+    "list": [
+      {
+        "pin": "GPIO2",
+        "names": [
+          "IO2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "IO3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "IO4"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "IO5"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "C6_WAKEUP",
+          "IO6"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "I2C_SDA",
+          "IO7"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "I2C_SCL",
+          "IO8"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "I2S_DSDIN"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "I2S_LRCK"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "I2S_ASDOUT"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "I2S_SCLK"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "I2S_MCLK"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "IO20"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "IO21"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "IO22"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "IO23"
+        ]
+      },
+      {
+        "pin": "GPIO24",
+        "names": [
+          "IO24"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "IO25"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "IO26"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "IO27"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "RMII_RXDV"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "RMII_RXD0"
+        ]
+      },
+      {
+        "pin": "GPIO30",
+        "names": [
+          "RMII_RXD1"
+        ]
+      },
+      {
+        "pin": "GPIO31",
+        "names": [
+          "MDC"
+        ]
+      },
+      {
+        "pin": "GPIO32",
+        "names": [
+          "IO32"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "IO33"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "RMII_TXD0"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "RMII_TXD1"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "IO36"
+        ]
+      },
+      {
+        "pin": "GPIO37",
+        "names": [
+          "TX",
+          "IO37"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "RX",
+          "IO38"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "SD_DATA0"
+        ]
+      },
+      {
+        "pin": "GPIO40",
+        "names": [
+          "SD_DATA1"
+        ]
+      },
+      {
+        "pin": "GPIO41",
+        "names": [
+          "SD_DATA2"
+        ]
+      },
+      {
+        "pin": "GPIO42",
+        "names": [
+          "SD_DATA3"
+        ]
+      },
+      {
+        "pin": "GPIO43",
+        "names": [
+          "SD_CLK"
+        ]
+      },
+      {
+        "pin": "GPIO44",
+        "names": [
+          "SD_CMD"
+        ]
+      },
+      {
+        "pin": "GPIO45",
+        "names": [
+          "SD_PWRN"
+        ]
+      },
+      {
+        "pin": "GPIO46",
+        "names": [
+          "IO46"
+        ]
+      },
+      {
+        "pin": "GPIO47",
+        "names": [
+          "IO47"
+        ]
+      },
+      {
+        "pin": "GPIO48",
+        "names": [
+          "IO48"
+        ]
+      },
+      {
+        "pin": "GPIO49",
+        "names": [
+          "RMII_TXEN"
+        ]
+      },
+      {
+        "pin": "GPIO50",
+        "names": [
+          "RMII_CLK"
+        ]
+      },
+      {
+        "pin": "GPIO51",
+        "names": [
+          "PHY_RSTN"
+        ]
+      },
+      {
+        "pin": "GPIO52",
+        "names": [
+          "MDIO"
+        ]
+      },
+      {
+        "pin": "GPIO53",
+        "names": [
+          "PA_CTRL",
+          "IO53"
+        ]
+      },
+      {
+        "pin": "GPIO54",
+        "names": [
+          "C6_EN",
+          "IO54"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "zephyr:esp32p4_function_ev_board",
+      "label": "Zephyr board definition (esp32p4_function_ev_board)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/espressif/esp32p4_function_ev_board/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "circuitpython:espressif_esp32p4_function_ev",
+      "label": "CircuitPython board definition (espressif_esp32p4_function_ev)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/espressif_esp32p4_function_ev.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:espressif_esp32p4_function_ev",
+      "label": "CircuitPython pin definitions (espressif_esp32p4_function_ev)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/espressif_esp32p4_function_ev/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

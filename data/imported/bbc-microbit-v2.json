@@ -1,0 +1,315 @@
+{
+  "slug": "bbc-microbit-v2",
+  "name": "BBC micro:bit v2",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microbit",
+  "chip": "nrf52833",
+  "aliases": [
+    "BBC micro:bit V2",
+    "micro:bit V2",
+    "micro:bit v2"
+  ],
+  "ids": {
+    "platformio": [
+      "bbcmicrobit_v2"
+    ],
+    "zephyr": [
+      "bbc_microbit_v2"
+    ],
+    "circuitpython": [
+      "microbit_v2"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52833",
+      "source": "platformio:bbcmicrobit_v2"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:bbcmicrobit_v2"
+    },
+    "clock": {
+      "value": "64 MHz",
+      "source": "platformio:bbcmicrobit_v2"
+    },
+    "upload_limits": {
+      "value": "512 KB flash, 128 KB RAM",
+      "source": "platformio:bbcmicrobit_v2"
+    },
+    "ram": {
+      "value": "128 KB",
+      "source": "zephyr:bbc_microbit_v2"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "BBC micro:bit v2 product page",
+      "url": "https://microbit.org/new-microbit/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/nordicnrf52/bbcmicrobit_v2.html",
+      "source": "platformio:bbcmicrobit_v2"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/bbc/microbit_v2/doc/index.html",
+      "source": "zephyr:bbc_microbit_v2"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/microbit_v2/",
+      "source": "circuitpython:microbit_v2"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:microbit_v2",
+    "list": [
+      {
+        "pin": "P0_00",
+        "names": [
+          "SPEAKER"
+        ]
+      },
+      {
+        "pin": "P0_01",
+        "names": [
+          "P14",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "P0_02",
+        "names": [
+          "P0"
+        ]
+      },
+      {
+        "pin": "P0_03",
+        "names": [
+          "P1"
+        ]
+      },
+      {
+        "pin": "P0_04",
+        "names": [
+          "P2"
+        ]
+      },
+      {
+        "pin": "P0_05",
+        "names": [
+          "P16",
+          "MICROPHONE"
+        ]
+      },
+      {
+        "pin": "P0_06",
+        "names": [
+          "RX"
+        ]
+      },
+      {
+        "pin": "P0_08",
+        "names": [
+          "P19",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "P0_09",
+        "names": [
+          "P9"
+        ]
+      },
+      {
+        "pin": "P0_10",
+        "names": [
+          "P8"
+        ]
+      },
+      {
+        "pin": "P0_11",
+        "names": [
+          "P7",
+          "COL2"
+        ]
+      },
+      {
+        "pin": "P0_12",
+        "names": [
+          "P12"
+        ]
+      },
+      {
+        "pin": "P0_13",
+        "names": [
+          "P15",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "P0_14",
+        "names": [
+          "BTN_A",
+          "P5"
+        ]
+      },
+      {
+        "pin": "P0_15",
+        "names": [
+          "ROW3"
+        ]
+      },
+      {
+        "pin": "P0_16",
+        "names": [
+          "P20",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "P0_17",
+        "names": [
+          "P13",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "P0_19",
+        "names": [
+          "ROW5"
+        ]
+      },
+      {
+        "pin": "P0_20",
+        "names": [
+          "MICROPHONE_ENABLE"
+        ]
+      },
+      {
+        "pin": "P0_21",
+        "names": [
+          "ROW1"
+        ]
+      },
+      {
+        "pin": "P0_22",
+        "names": [
+          "ROW2"
+        ]
+      },
+      {
+        "pin": "P0_23",
+        "names": [
+          "BTN_B",
+          "P11"
+        ]
+      },
+      {
+        "pin": "P0_24",
+        "names": [
+          "ROW4"
+        ]
+      },
+      {
+        "pin": "P0_25",
+        "names": [
+          "INTERNAL_INTERRUPT"
+        ]
+      },
+      {
+        "pin": "P0_26",
+        "names": [
+          "INTERNAL_SCL"
+        ]
+      },
+      {
+        "pin": "P0_28",
+        "names": [
+          "P4",
+          "COL1"
+        ]
+      },
+      {
+        "pin": "P0_30",
+        "names": [
+          "P10",
+          "COL5"
+        ]
+      },
+      {
+        "pin": "P0_31",
+        "names": [
+          "P3",
+          "COL3"
+        ]
+      },
+      {
+        "pin": "P1_00",
+        "names": [
+          "INTERNAL_SDA"
+        ]
+      },
+      {
+        "pin": "P1_04",
+        "names": [
+          "LOGO"
+        ]
+      },
+      {
+        "pin": "P1_05",
+        "names": [
+          "P6",
+          "COL4"
+        ]
+      },
+      {
+        "pin": "P1_08",
+        "names": [
+          "TX"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "platformio:bbcmicrobit_v2",
+      "label": "PlatformIO board definition (bbcmicrobit_v2)",
+      "url": "https://github.com/platformio/platform-nordicnrf52/blob/278176a7f7ffe2d001eb93eafa271c83b38222e4/boards/bbcmicrobit_v2.json",
+      "kind": "import",
+      "revision": "278176a7f7ffe2d001eb93eafa271c83b38222e4"
+    },
+    {
+      "id": "zephyr:bbc_microbit_v2",
+      "label": "Zephyr board definition (bbc_microbit_v2)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/bbc/microbit_v2/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "circuitpython:microbit_v2",
+      "label": "CircuitPython board definition (microbit_v2)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/microbit_v2.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:microbit_v2",
+      "label": "CircuitPython pin definitions (microbit_v2)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/nordic/boards/microbit_v2/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

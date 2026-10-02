@@ -1,0 +1,57 @@
+{
+  "slug": "digistump-digix",
+  "name": "Digistump DigiX",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "digistump",
+  "chip": "atsam3x8e",
+  "ids": {
+    "platformio": [
+      "digix"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAM3X8E",
+      "source": "platformio:digix"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M3",
+      "source": "platformio:digix"
+    },
+    "clock": {
+      "value": "84 MHz",
+      "source": "platformio:digix"
+    },
+    "upload_limits": {
+      "value": "512 KB flash, 96 KB RAM",
+      "source": "platformio:digix"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Digistump DigiX product page",
+      "url": "http://digistump.com/products/50"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelsam/digix.html",
+      "source": "platformio:digix"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:digix",
+      "label": "PlatformIO board definition (digix)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/digix.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

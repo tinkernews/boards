@@ -1,0 +1,57 @@
+{
+  "slug": "decawave-dwm1001-module-development-board",
+  "name": "decaWave DWM1001 Module Development Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "decawave",
+  "chip": "nrf52832",
+  "ids": {
+    "platformio": [
+      "dwm1001_dev"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52832",
+      "source": "platformio:dwm1001_dev"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:dwm1001_dev"
+    },
+    "clock": {
+      "value": "64 MHz",
+      "source": "platformio:dwm1001_dev"
+    },
+    "upload_limits": {
+      "value": "512 KB flash, 64 KB RAM",
+      "source": "platformio:dwm1001_dev"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "decaWave DWM1001 Module Development Board product page",
+      "url": "https://www.decawave.com/product/dwm1001-development-board/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/nordicnrf52/dwm1001_dev.html",
+      "source": "platformio:dwm1001_dev"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:dwm1001_dev",
+      "label": "PlatformIO board definition (dwm1001_dev)",
+      "url": "https://github.com/platformio/platform-nordicnrf52/blob/278176a7f7ffe2d001eb93eafa271c83b38222e4/boards/dwm1001_dev.json",
+      "kind": "import",
+      "revision": "278176a7f7ffe2d001eb93eafa271c83b38222e4"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

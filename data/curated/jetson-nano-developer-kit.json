@@ -1,0 +1,118 @@
+{
+  "slug": "jetson-nano-developer-kit",
+  "name": "NVIDIA Jetson Nano Developer Kit",
+  "tier": "curated",
+  "kind": "sbc",
+  "maker": "nvidia",
+  "family": "NVIDIA Jetson",
+  "released": "2019-03",
+  "status": "retired",
+  "summary": "NVIDIA’s $99 AI board of 2019: four Cortex-A57 cores and a 128-core Maxwell GPU with 4 GB of RAM, for running neural networks at the edge.",
+  "aliases": [
+    "Jetson Nano",
+    "NVIDIA Jetson Nano",
+    "Jetson Nano Developer Kit",
+    "Jetson Nano 4GB"
+  ],
+  "ids": {
+    "linux": [
+      "arch/arm64/boot/dts/nvidia/tegra210-p3450-0000.dts"
+    ],
+    "armbian": [
+      "jetson-nano"
+    ]
+  },
+  "review": {
+    "status": "draft"
+  },
+  "specs": {
+    "chip": {
+      "value": "NVIDIA Tegra X1 (T210)",
+      "source": "jetson-wiki"
+    },
+    "cpu": {
+      "value": "4 × Arm Cortex-A57",
+      "source": "jetson-devkit"
+    },
+    "clock": {
+      "value": "1.43 GHz",
+      "source": "jetson-devkit"
+    },
+    "ram": {
+      "value": "4 GB LPDDR4 (a 2 GB kit followed in 2020)",
+      "source": "jetson-devkit"
+    },
+    "storage": {
+      "value": "microSD card",
+      "source": "jetson-devkit"
+    },
+    "gpu": {
+      "value": "128-core NVIDIA Maxwell",
+      "source": "jetson-devkit"
+    },
+    "gpio": {
+      "value": "40-pin header",
+      "source": "jetson-devkit"
+    },
+    "io_voltage": {
+      "value": "3.3 V",
+      "source": "jetson-devkit"
+    },
+    "ethernet": {
+      "value": "Gigabit",
+      "source": "jetson-devkit"
+    },
+    "usb": {
+      "value": "4 × USB 3.0",
+      "source": "jetson-devkit"
+    },
+    "video": {
+      "value": "HDMI and DisplayPort",
+      "source": "jetson-devkit"
+    },
+    "launch_price": {
+      "value": "US$99",
+      "source": "jetson-wiki"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Jetson Nano Developer Kit, NVIDIA",
+      "url": "https://developer.nvidia.com/embedded/jetson-nano-developer-kit"
+    }
+  ],
+  "gotchas": [
+    {
+      "title": "Stuck on an old Ubuntu",
+      "text": "Official JetPack support for the Nano stopped at the 4.x series based on Ubuntu 18.04; newer CUDA and frameworks need the Orin generation.",
+      "source": "jetson-devkit"
+    },
+    {
+      "title": "Use the barrel jack for full power",
+      "text": "Micro-USB power cannot supply the 10 W mode; a 5 V, 4 A barrel supply with the J48 jumper fitted can.",
+      "source": "jetson-devkit"
+    }
+  ],
+  "commonsFile": "File:NVIDIA Jetson Nano Developer Kit (47616885631) (cropped).jpg",
+  "editorial": {
+    "history": "Announced at NVIDIA's GTC in March 2019, the Jetson Nano brought CUDA to a $99 board and started many makers on edge AI.",
+    "today": "Usable for older models and robotics coursework; the Jetson Orin Nano is its supported successor.",
+    "source": "jetson-wiki"
+  },
+  "sources": [
+    {
+      "id": "jetson-devkit",
+      "label": "Jetson Nano Developer Kit, NVIDIA Developer",
+      "url": "https://developer.nvidia.com/embedded/jetson-nano-developer-kit",
+      "kind": "official"
+    },
+    {
+      "id": "jetson-wiki",
+      "label": "Nvidia Jetson, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jetson",
+      "kind": "reference"
+    }
+  ],
+  "updatedAt": "2026-10-01T00:00:00.000Z"
+}

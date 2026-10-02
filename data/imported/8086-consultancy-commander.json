@@ -1,0 +1,190 @@
+{
+  "slug": "8086-consultancy-commander",
+  "name": "Commander",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "8086-consultancy",
+  "chip": "atsamd21g18",
+  "ids": {
+    "circuitpython": [
+      "8086_commander"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/8086_commander/",
+      "source": "circuitpython:8086_commander"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:8086_commander",
+    "list": [
+      {
+        "pin": "PA02",
+        "names": [
+          "D5",
+          "B4"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "D16",
+          "LED3B"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "D15",
+          "LED3A"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "D14",
+          "ALERT"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "D13",
+          "LED2B"
+        ]
+      },
+      {
+        "pin": "PA08",
+        "names": [
+          "D12",
+          "LED2A"
+        ]
+      },
+      {
+        "pin": "PA09",
+        "names": [
+          "D3",
+          "B2"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "D1",
+          "TX"
+        ]
+      },
+      {
+        "pin": "PA11",
+        "names": [
+          "D0",
+          "RX"
+        ]
+      },
+      {
+        "pin": "PA12",
+        "names": [
+          "D9",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "PA13",
+        "names": [
+          "D6",
+          "CS"
+        ]
+      },
+      {
+        "pin": "PA14",
+        "names": [
+          "D11",
+          "LED1B"
+        ]
+      },
+      {
+        "pin": "PA15",
+        "names": [
+          "D10",
+          "LED1A"
+        ]
+      },
+      {
+        "pin": "PA20",
+        "names": [
+          "D2",
+          "B1"
+        ]
+      },
+      {
+        "pin": "PA22",
+        "names": [
+          "D20",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PA23",
+        "names": [
+          "D19",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "PB02",
+        "names": [
+          "D17",
+          "LED4A"
+        ]
+      },
+      {
+        "pin": "PB03",
+        "names": [
+          "D18",
+          "LED4B"
+        ]
+      },
+      {
+        "pin": "PB09",
+        "names": [
+          "D4",
+          "B3"
+        ]
+      },
+      {
+        "pin": "PB10",
+        "names": [
+          "D7",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "PB11",
+        "names": [
+          "D8",
+          "SCK"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:8086_commander",
+      "label": "CircuitPython board definition (8086_commander)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/8086_commander.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:8086_commander",
+      "label": "CircuitPython pin definitions (8086_commander)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/8086_commander/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "renesas-da14695-development-kit-usb-zephyr",
+  "name": "Renesas DA14695 Development Kit USB (Zephyr)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "renesas",
+  "ids": {
+    "circuitpython": [
+      "renesas_da14695_dk_usb"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/renesas_da14695_dk_usb/",
+      "source": "circuitpython:renesas_da14695_dk_usb"
+    }
+  ],
+  "sources": [
+    {
+      "id": "circuitpython:renesas_da14695_dk_usb",
+      "label": "CircuitPython board definition (renesas_da14695_dk_usb)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/renesas_da14695_dk_usb.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

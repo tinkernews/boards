@@ -1,0 +1,57 @@
+{
+  "slug": "adafruit-hallowing-m0",
+  "name": "Adafruit Hallowing M0",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "atsamd21g18",
+  "ids": {
+    "platformio": [
+      "adafruit_hallowing"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAMD21G18",
+      "source": "platformio:adafruit_hallowing"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:adafruit_hallowing"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:adafruit_hallowing"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:adafruit_hallowing"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Adafruit Hallowing M0 product page",
+      "url": "https://www.adafruit.com/product/3900"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelsam/adafruit_hallowing.html",
+      "source": "platformio:adafruit_hallowing"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:adafruit_hallowing",
+      "label": "PlatformIO board definition (adafruit_hallowing)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/adafruit_hallowing.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

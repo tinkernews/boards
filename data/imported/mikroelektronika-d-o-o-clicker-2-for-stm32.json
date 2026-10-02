@@ -1,0 +1,45 @@
+{
+  "slug": "mikroelektronika-d-o-o-clicker-2-for-stm32",
+  "name": "Clicker 2 for STM32",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "mikroelektronika-d-o-o",
+  "chip": "stm32f407",
+  "ids": {
+    "zephyr": [
+      "mikroe_clicker_2"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F407",
+      "source": "zephyr:mikroe_clicker_2"
+    },
+    "ram": {
+      "value": "192 KB",
+      "source": "zephyr:mikroe_clicker_2"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:mikroe_clicker_2"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/mikroe/clicker_2/doc/index.html",
+      "source": "zephyr:mikroe_clicker_2"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:mikroe_clicker_2",
+      "label": "Zephyr board definition (mikroe_clicker_2)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/mikroe/clicker_2/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "blackberry-qnx-hypervisor-virtual-machine",
+  "name": "QNX Hypervisor Virtual Machine",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "blackberry",
+  "ids": {
+    "zephyr": [
+      "qnxhv_vm"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "QNXHV_VM",
+      "source": "zephyr:qnxhv_vm"
+    },
+    "ram": {
+      "value": "131072 KB",
+      "source": "zephyr:qnxhv_vm"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/blackberry/qnxhv_vm/doc/index.html",
+      "source": "zephyr:qnxhv_vm"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:qnxhv_vm",
+      "label": "Zephyr board definition (qnxhv_vm)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/blackberry/qnxhv_vm/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

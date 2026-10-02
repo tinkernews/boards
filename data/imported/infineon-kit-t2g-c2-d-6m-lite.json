@@ -1,0 +1,44 @@
+{
+  "slug": "infineon-kit-t2g-c2-d-6m-lite",
+  "name": "Kit T2G-C2-D-6M Lite",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "infineon",
+  "ids": {
+    "zephyr": [
+      "kit_t2g_c2d6m_lite"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "CYT4DNJBZS",
+      "source": "zephyr:kit_t2g_c2d6m_lite"
+    },
+    "ram": {
+      "value": "30 KB",
+      "source": "zephyr:kit_t2g_c2d6m_lite"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:kit_t2g_c2d6m_lite"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/infineon/kit_t2g_c2d6m_lite/doc/index.html",
+      "source": "zephyr:kit_t2g_c2d6m_lite"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:kit_t2g_c2d6m_lite",
+      "label": "Zephyr board definition (kit_t2g_c2d6m_lite)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/infineon/kit_t2g_c2d6m_lite/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

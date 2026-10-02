@@ -1,0 +1,44 @@
+{
+  "slug": "analog-devices-sdp-k1",
+  "name": "SDP-K1",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "analog-devices",
+  "ids": {
+    "zephyr": [
+      "adi_sdp_k1"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F469XX",
+      "source": "zephyr:adi_sdp_k1"
+    },
+    "ram": {
+      "value": "320 KB",
+      "source": "zephyr:adi_sdp_k1"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:adi_sdp_k1"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/adi/sdp_k1/doc/index.html",
+      "source": "zephyr:adi_sdp_k1"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:adi_sdp_k1",
+      "label": "Zephyr board definition (adi_sdp_k1)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/adi/sdp_k1/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

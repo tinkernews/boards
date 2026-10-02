@@ -1,0 +1,244 @@
+{
+  "slug": "newsan-archi",
+  "name": "Archi",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "newsan",
+  "chip": "rp2040",
+  "ids": {
+    "circuitpython": [
+      "archi"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/archi/",
+      "source": "circuitpython:archi"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:archi",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "GP0",
+          "MPU_SDA"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "GP1",
+          "MPU_SCL"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "GP2",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "GP3",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "GP4",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "GP5"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "GP6",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "GP7",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "GP8",
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "GP9",
+          "RX"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "B",
+          "GP10"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "GP11"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "GP12"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "GP13"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "GP14"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "GP15"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "GP16"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "GP17"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "GP18"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "D",
+          "GP19"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "MIC_DATA",
+          "GP20"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "MIC_CLOCK",
+          "GP21"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "BUZZER",
+          "GP22"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "A",
+          "GP23"
+        ]
+      },
+      {
+        "pin": "GPIO24",
+        "names": [
+          "NEOPIXEL",
+          "GP24"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "C",
+          "GP25"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "GP26",
+          "A0"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "GP27",
+          "A1"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "GP28",
+          "A2"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "GP29",
+          "A3"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:archi",
+      "label": "CircuitPython board definition (archi)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/archi.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:archi",
+      "label": "CircuitPython pin definitions (archi)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/archi/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

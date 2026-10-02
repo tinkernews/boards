@@ -1,0 +1,211 @@
+{
+  "slug": "stackrduino-m0-pro",
+  "name": "StackRduino M0+ PRO",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stackrduino",
+  "chip": "atsamd21g18",
+  "ids": {
+    "circuitpython": [
+      "stackrduino_m0_pro"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/stackrduino_m0_pro/",
+      "source": "circuitpython:stackrduino_m0_pro"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:stackrduino_m0_pro",
+    "list": [
+      {
+        "pin": "PA02",
+        "names": [
+          "A0"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "A3"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "A4"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "D8",
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "D9"
+        ]
+      },
+      {
+        "pin": "PA08",
+        "names": [
+          "D2"
+        ]
+      },
+      {
+        "pin": "PA09",
+        "names": [
+          "D3"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "D1",
+          "TX"
+        ]
+      },
+      {
+        "pin": "PA11",
+        "names": [
+          "D0",
+          "RX"
+        ]
+      },
+      {
+        "pin": "PA12",
+        "names": [
+          "MISO"
+        ]
+      },
+      {
+        "pin": "PA13",
+        "names": [
+          "D15",
+          "CHRG_EN"
+        ]
+      },
+      {
+        "pin": "PA14",
+        "names": [
+          "D4"
+        ]
+      },
+      {
+        "pin": "PA15",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "PA16",
+        "names": [
+          "D11"
+        ]
+      },
+      {
+        "pin": "PA17",
+        "names": [
+          "D13",
+          "LED"
+        ]
+      },
+      {
+        "pin": "PA18",
+        "names": [
+          "D10"
+        ]
+      },
+      {
+        "pin": "PA19",
+        "names": [
+          "D12"
+        ]
+      },
+      {
+        "pin": "PA20",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "PA21",
+        "names": [
+          "D7"
+        ]
+      },
+      {
+        "pin": "PA22",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PA23",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "PA28",
+        "names": [
+          "D14",
+          "BUTTON"
+        ]
+      },
+      {
+        "pin": "PB02",
+        "names": [
+          "A5"
+        ]
+      },
+      {
+        "pin": "PB08",
+        "names": [
+          "A1"
+        ]
+      },
+      {
+        "pin": "PB09",
+        "names": [
+          "A2"
+        ]
+      },
+      {
+        "pin": "PB10",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "PB11",
+        "names": [
+          "SCK"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:stackrduino_m0_pro",
+      "label": "CircuitPython board definition (stackrduino_m0_pro)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/stackrduino_m0_pro.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:stackrduino_m0_pro",
+      "label": "CircuitPython pin definitions (stackrduino_m0_pro)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/stackrduino_m0_pro/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

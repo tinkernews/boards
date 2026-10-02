@@ -1,0 +1,296 @@
+{
+  "slug": "arduino-mkrzero",
+  "name": "Arduino MKRZERO",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "chip": "atsamd21g18",
+  "aliases": [
+    "Arduino MKR Zero",
+    "MKR Zero"
+  ],
+  "ids": {
+    "platformio": [
+      "mkrzero"
+    ],
+    "zephyr": [
+      "arduino_mkrzero"
+    ],
+    "circuitpython": [
+      "arduino_mkrzero"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAMD21G18",
+      "source": "platformio:mkrzero"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:mkrzero"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:mkrzero"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:mkrzero"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:arduino_mkrzero"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:arduino_mkrzero"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Arduino MKRZERO product page",
+      "url": "https://www.arduino.cc/en/Main/ArduinoBoardMKRZero"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelsam/mkrzero.html",
+      "source": "platformio:mkrzero"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/arduino/mkrzero/doc/index.html",
+      "source": "zephyr:arduino_mkrzero"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/arduino_mkrzero/",
+      "source": "circuitpython:arduino_mkrzero"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:arduino_mkrzero",
+    "list": [
+      {
+        "pin": "PA02",
+        "names": [
+          "A0"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "A3"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "A4"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "A5"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "A6"
+        ]
+      },
+      {
+        "pin": "PA08",
+        "names": [
+          "D11",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PA09",
+        "names": [
+          "D12",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "D2"
+        ]
+      },
+      {
+        "pin": "PA11",
+        "names": [
+          "D3"
+        ]
+      },
+      {
+        "pin": "PA12",
+        "names": [
+          "SD_MOSI"
+        ]
+      },
+      {
+        "pin": "PA13",
+        "names": [
+          "SD_SCK"
+        ]
+      },
+      {
+        "pin": "PA14",
+        "names": [
+          "SD_CS"
+        ]
+      },
+      {
+        "pin": "PA15",
+        "names": [
+          "SD_MISO"
+        ]
+      },
+      {
+        "pin": "PA16",
+        "names": [
+          "D8",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "PA17",
+        "names": [
+          "D9",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "PA19",
+        "names": [
+          "D10",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "PA20",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "PA21",
+        "names": [
+          "D7"
+        ]
+      },
+      {
+        "pin": "PA22",
+        "names": [
+          "D0"
+        ]
+      },
+      {
+        "pin": "PA23",
+        "names": [
+          "D1"
+        ]
+      },
+      {
+        "pin": "PA27",
+        "names": [
+          "SD_CD"
+        ]
+      },
+      {
+        "pin": "PB02",
+        "names": [
+          "A1"
+        ]
+      },
+      {
+        "pin": "PB03",
+        "names": [
+          "A2"
+        ]
+      },
+      {
+        "pin": "PB08",
+        "names": [
+          "L",
+          "LED"
+        ]
+      },
+      {
+        "pin": "PB09",
+        "names": [
+          "VOLTAGE_MONITOR",
+          "BATTERY"
+        ]
+      },
+      {
+        "pin": "PB10",
+        "names": [
+          "D4"
+        ]
+      },
+      {
+        "pin": "PB11",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "PB22",
+        "names": [
+          "D14",
+          "TX"
+        ]
+      },
+      {
+        "pin": "PB23",
+        "names": [
+          "D13",
+          "RX"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "platformio:mkrzero",
+      "label": "PlatformIO board definition (mkrzero)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/mkrzero.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    },
+    {
+      "id": "zephyr:arduino_mkrzero",
+      "label": "Zephyr board definition (arduino_mkrzero)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/arduino/mkrzero/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "circuitpython:arduino_mkrzero",
+      "label": "CircuitPython board definition (arduino_mkrzero)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/arduino_mkrzero.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:arduino_mkrzero",
+      "label": "CircuitPython pin definitions (arduino_mkrzero)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/arduino_mkrzero/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

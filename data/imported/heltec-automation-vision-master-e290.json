@@ -1,0 +1,222 @@
+{
+  "slug": "heltec-automation-vision-master-e290",
+  "name": "Vision Master E290",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "heltec",
+  "chip": "esp32-s3",
+  "ids": {
+    "circuitpython": [
+      "heltec_vision_master_e290"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/heltec_vision_master_e290/",
+      "source": "circuitpython:heltec_vision_master_e290"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:heltec_vision_master_e290",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "BUTTON0",
+          "IO0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "EPD_MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "EPD_SCK"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "EPD_CS"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "EPD_DC"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "EPD_RESET"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "EPD_BUSY"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "ADC_IN",
+          "BATTERY"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "LORA_CS"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "LORA_SCK"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "LORA_MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "LORA_MISO"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "LORA_RESET"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "LORA_BUSY"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "LORA_DIO1"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "IO17"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "VEXT_CTRL"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "BUTTON1"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "SDA",
+          "IO38"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "SCL",
+          "IO39"
+        ]
+      },
+      {
+        "pin": "GPIO40",
+        "names": [
+          "IO40"
+        ]
+      },
+      {
+        "pin": "GPIO41",
+        "names": [
+          "IO41"
+        ]
+      },
+      {
+        "pin": "GPIO42",
+        "names": [
+          "IO42"
+        ]
+      },
+      {
+        "pin": "GPIO43",
+        "names": [
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO44",
+        "names": [
+          "RX"
+        ]
+      },
+      {
+        "pin": "GPIO45",
+        "names": [
+          "LED0",
+          "IO45"
+        ]
+      },
+      {
+        "pin": "GPIO46",
+        "names": [
+          "ADC_CTRL"
+        ]
+      },
+      {
+        "pin": "GPIO47",
+        "names": [
+          "IO47"
+        ]
+      },
+      {
+        "pin": "GPIO48",
+        "names": [
+          "IO48"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:heltec_vision_master_e290",
+      "label": "CircuitPython board definition (heltec_vision_master_e290)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/heltec_vision_master_e290.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:heltec_vision_master_e290",
+      "label": "CircuitPython pin definitions (heltec_vision_master_e290)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/heltec_vision_master_e290/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

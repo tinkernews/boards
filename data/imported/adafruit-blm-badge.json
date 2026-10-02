@@ -1,0 +1,172 @@
+{
+  "slug": "adafruit-blm-badge",
+  "name": "Adafruit BLM Badge",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "atsamd21e18",
+  "aliases": [
+    "BLM Badge"
+  ],
+  "ids": {
+    "platformio": [
+      "adafruit_blm_badge"
+    ],
+    "circuitpython": [
+      "blm_badge"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAMD21E18",
+      "source": "platformio:adafruit_blm_badge"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:adafruit_blm_badge"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:adafruit_blm_badge"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:adafruit_blm_badge"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Adafruit BLM Badge product page",
+      "url": "https://www.adafruit.com/blacklivesmatter"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelsam/adafruit_blm_badge.html",
+      "source": "platformio:adafruit_blm_badge"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/blm_badge/",
+      "source": "circuitpython:blm_badge"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:blm_badge",
+    "list": [
+      {
+        "pin": "PA00",
+        "names": [
+          "TX",
+          "SDA",
+          "D5"
+        ]
+      },
+      {
+        "pin": "PA01",
+        "names": [
+          "RX",
+          "SCL",
+          "D6"
+        ]
+      },
+      {
+        "pin": "PA02",
+        "names": [
+          "CAP1",
+          "D1",
+          "A0"
+        ]
+      },
+      {
+        "pin": "PA03",
+        "names": [
+          "LED",
+          "L",
+          "D13"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "CAP2",
+          "D2",
+          "A1"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "NEOPIXEL",
+          "D14"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "CAP3",
+          "D3",
+          "A2"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "CAP4",
+          "D4",
+          "A3"
+        ]
+      },
+      {
+        "pin": "PA08",
+        "names": [
+          "MICROPHONE_DATA",
+          "D0"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "MICROPHONE_CLOCK",
+          "D7"
+        ]
+      },
+      {
+        "pin": "PA11",
+        "names": [
+          "LIGHT",
+          "A4"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "platformio:adafruit_blm_badge",
+      "label": "PlatformIO board definition (adafruit_blm_badge)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/adafruit_blm_badge.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    },
+    {
+      "id": "circuitpython:blm_badge",
+      "label": "CircuitPython board definition (blm_badge)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/blm_badge.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:blm_badge",
+      "label": "CircuitPython pin definitions (blm_badge)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/blm_badge/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

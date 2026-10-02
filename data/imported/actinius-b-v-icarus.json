@@ -1,0 +1,68 @@
+{
+  "slug": "actinius-b-v-icarus",
+  "name": "Icarus",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "actinius-b-v",
+  "chip": "nrf9160",
+  "ids": {
+    "zephyr": [
+      "actinius_icarus"
+    ],
+    "micropython": [
+      "ACTINIUS_ICARUS"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF9160",
+      "source": "zephyr:actinius_icarus"
+    },
+    "ram": {
+      "value": "88 KB",
+      "source": "zephyr:actinius_icarus"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:actinius_icarus"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Icarus product page",
+      "url": "https://www.actinius.com/icarus"
+    }
+  ],
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/actinius/icarus/doc/index.html",
+      "source": "zephyr:actinius_icarus"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/ACTINIUS_ICARUS/",
+      "source": "micropython:actinius_icarus"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:actinius_icarus",
+      "label": "Zephyr board definition (actinius_icarus)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/actinius/icarus/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "micropython:actinius_icarus",
+      "label": "MicroPython board definition (ACTINIUS_ICARUS)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/nrf/boards/ACTINIUS_ICARUS/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

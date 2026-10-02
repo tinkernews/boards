@@ -1,0 +1,84 @@
+{
+  "slug": "stmicroelectronics-st-stm32f4discovery",
+  "name": "ST STM32F4DISCOVERY",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "chip": "stm32f407",
+  "aliases": [
+    "STM32F4 Discovery"
+  ],
+  "ids": {
+    "platformio": [
+      "disco_f407vg"
+    ],
+    "zephyr": [
+      "stm32f4_disco"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F407",
+      "source": "platformio:disco_f407vg"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:disco_f407vg"
+    },
+    "clock": {
+      "value": "168 MHz",
+      "source": "platformio:disco_f407vg"
+    },
+    "upload_limits": {
+      "value": "1 MB flash, 128 KB RAM",
+      "source": "platformio:disco_f407vg"
+    },
+    "ram": {
+      "value": "128 KB",
+      "source": "zephyr:stm32f4_disco"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:stm32f4_disco"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ST STM32F4DISCOVERY product page",
+      "url": "http://www.st.com/web/catalog/tools/FM116/SC959/SS1532/LN1848/PF252419"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/disco_f407vg.html",
+      "source": "platformio:disco_f407vg"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/stm32f4_disco/doc/index.html",
+      "source": "zephyr:stm32f4_disco"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:disco_f407vg",
+      "label": "PlatformIO board definition (disco_f407vg)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/disco_f407vg.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    },
+    {
+      "id": "zephyr:stm32f4_disco",
+      "label": "Zephyr board definition (stm32f4_disco)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/stm32f4_disco/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

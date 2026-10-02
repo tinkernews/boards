@@ -1,0 +1,68 @@
+{
+  "slug": "cezerio-mini-dev-esp32c6",
+  "name": "cezerio mini dev ESP32C6",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "cezerio",
+  "chip": "esp32-c6",
+  "ids": {
+    "platformio": [
+      "cezerio_mini_dev_esp32c6"
+    ],
+    "circuitpython": [
+      "cezerio_mini_dev_ESP32C6"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-C6",
+      "source": "platformio:cezerio_mini_dev_esp32c6"
+    },
+    "clock": {
+      "value": "160 MHz",
+      "source": "platformio:cezerio_mini_dev_esp32c6"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:cezerio_mini_dev_esp32c6"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "cezerio mini dev ESP32C6 product page",
+      "url": "https://cezerio.com/cezerio_mini_dev_esp32c6"
+    }
+  ],
+  "software": [
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/cezerio_mini_dev_esp32c6.html",
+      "source": "platformio:cezerio_mini_dev_esp32c6"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/cezerio_mini_dev_ESP32C6/",
+      "source": "circuitpython:cezerio_mini_dev_esp32c6"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:cezerio_mini_dev_esp32c6",
+      "label": "PlatformIO board definition (cezerio_mini_dev_esp32c6)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/cezerio_mini_dev_esp32c6.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    },
+    {
+      "id": "circuitpython:cezerio_mini_dev_esp32c6",
+      "label": "CircuitPython board definition (cezerio_mini_dev_ESP32C6)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/cezerio_mini_dev_ESP32C6.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

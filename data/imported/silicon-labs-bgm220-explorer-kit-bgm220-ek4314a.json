@@ -1,0 +1,44 @@
+{
+  "slug": "silicon-labs-bgm220-explorer-kit-bgm220-ek4314a",
+  "name": "BGM220 Explorer Kit (BGM220-EK4314A)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "silicon-labs",
+  "ids": {
+    "zephyr": [
+      "bgm220_ek4314a"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "BGM220PC22HNA",
+      "source": "zephyr:bgm220_ek4314a"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:bgm220_ek4314a"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:bgm220_ek4314a"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/silabs/explorer_kits/xg22/doc/index.html",
+      "source": "zephyr:bgm220_ek4314a"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:bgm220_ek4314a",
+      "label": "Zephyr board definition (bgm220_ek4314a)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/silabs/explorer_kits/xg22/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "guangdong-embedsky-tq-h503a",
+  "name": "TQ H503A",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "guangdong-embedsky",
+  "ids": {
+    "zephyr": [
+      "tq_h503a"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32H503XX",
+      "source": "zephyr:tq_h503a"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:tq_h503a"
+    },
+    "flash": {
+      "value": "128 KB",
+      "source": "zephyr:tq_h503a"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/embedsky/tq_h503a/doc/index.html",
+      "source": "zephyr:tq_h503a"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:tq_h503a",
+      "label": "Zephyr board definition (tq_h503a)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/embedsky/tq_h503a/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "valetron-systems-valtrack-v4mvf",
+  "name": "Valetron Systems VALTRACK-V4MVF",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "valetron",
+  "chip": "esp32-c3",
+  "ids": {
+    "platformio": [
+      "valtrack_v4_mfw_esp32_c3"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-C3",
+      "source": "platformio:valtrack_v4_mfw_esp32_c3"
+    },
+    "clock": {
+      "value": "160 MHz",
+      "source": "platformio:valtrack_v4_mfw_esp32_c3"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:valtrack_v4_mfw_esp32_c3"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Valetron Systems VALTRACK-V4MVF product page",
+      "url": "https://www.valetron.com/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/valtrack_v4_mfw_esp32_c3.html",
+      "source": "platformio:valtrack_v4_mfw_esp32_c3"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/valtrack_v4_mfw_esp32_c3.html",
+      "source": "platformio:valtrack_v4_mfw_esp32_c3"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:valtrack_v4_mfw_esp32_c3",
+      "label": "PlatformIO board definition (valtrack_v4_mfw_esp32_c3)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/valtrack_v4_mfw_esp32_c3.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

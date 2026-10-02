@@ -1,0 +1,36 @@
+{
+  "slug": "intel-agilextm-5-soc-fpga-development-kit",
+  "name": "Agilex™ 5 SoC FPGA Development Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "intel",
+  "ids": {
+    "zephyr": [
+      "intel_socfpga_agilex5_socdk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "AGILEX5",
+      "source": "zephyr:intel_socfpga_agilex5_socdk"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/intel/socfpga/agilex5_socdk/doc/index.html",
+      "source": "zephyr:intel_socfpga_agilex5_socdk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:intel_socfpga_agilex5_socdk",
+      "label": "Zephyr board definition (intel_socfpga_agilex5_socdk)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/intel/socfpga/agilex5_socdk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

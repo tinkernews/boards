@@ -1,0 +1,53 @@
+{
+  "slug": "alorium-sno",
+  "name": "Alorium Sno",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "alorium",
+  "chip": "atmega328p",
+  "ids": {
+    "platformio": [
+      "alorium_sno"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega328P",
+      "source": "platformio:alorium_sno"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:alorium_sno"
+    },
+    "upload_limits": {
+      "value": "31.5 KB flash, 2 KB RAM",
+      "source": "platformio:alorium_sno"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Alorium Sno product page",
+      "url": "https://www.aloriumtech.com/sno/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/alorium_sno.html",
+      "source": "platformio:alorium_sno"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:alorium_sno",
+      "label": "PlatformIO board definition (alorium_sno)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/alorium_sno.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "silicon-labs-efr32fg13-2400-915-mhz-19-dbm-dual-band",
+  "name": "EFR32FG13 2400/915 MHz 19 dBm Dual Band (SLWRB4255A)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "silicon-labs",
+  "ids": {
+    "zephyr": [
+      "slwrb4255a"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "EFR32FG13P233F512GM48",
+      "source": "zephyr:slwrb4255a"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:slwrb4255a"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:slwrb4255a"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/silabs/radio_boards/slwrb4255a/doc/index.html",
+      "source": "zephyr:slwrb4255a"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:slwrb4255a",
+      "label": "Zephyr board definition (slwrb4255a)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/silabs/radio_boards/slwrb4255a/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

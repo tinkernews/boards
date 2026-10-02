@@ -1,0 +1,56 @@
+{
+  "slug": "storm32-bgc-v1-31-rc",
+  "name": "STorM32 BGC v1.31 RC",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "storm32",
+  "ids": {
+    "platformio": [
+      "storm32_v1_31_rc"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F103RCT6",
+      "source": "platformio:storm32_v1_31_rc"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M3",
+      "source": "platformio:storm32_v1_31_rc"
+    },
+    "clock": {
+      "value": "72 MHz",
+      "source": "platformio:storm32_v1_31_rc"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 48 KB RAM",
+      "source": "platformio:storm32_v1_31_rc"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "STorM32 BGC v1.31 RC product page",
+      "url": "http://www.olliw.eu/storm32bgc-wiki/STorM32_Boards#STorM32-BGC_v1.3"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/storm32_v1_31_rc.html",
+      "source": "platformio:storm32_v1_31_rc"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:storm32_v1_31_rc",
+      "label": "PlatformIO board definition (storm32_v1_31_rc)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/storm32_v1_31_rc.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

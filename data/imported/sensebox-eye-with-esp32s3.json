@@ -1,0 +1,31 @@
+{
+  "slug": "sensebox-eye-with-esp32s3",
+  "name": "senseBox-eye with ESP32S3",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sensebox",
+  "chip": "esp32-s3",
+  "ids": {
+    "circuitpython": [
+      "sensebox_eye_esp32s3"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/sensebox_eye_esp32s3/",
+      "source": "circuitpython:sensebox_eye_esp32s3"
+    }
+  ],
+  "sources": [
+    {
+      "id": "circuitpython:sensebox_eye_esp32s3",
+      "label": "CircuitPython board definition (sensebox_eye_esp32s3)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/sensebox_eye_esp32s3.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

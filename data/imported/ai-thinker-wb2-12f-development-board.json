@@ -1,0 +1,40 @@
+{
+  "slug": "ai-thinker-wb2-12f-development-board",
+  "name": "Ai-Thinker WB2-12F development board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "ai-thinker",
+  "ids": {
+    "zephyr": [
+      "ai_wb2_12f_kit"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "BL602C00Q2I",
+      "source": "zephyr:ai_wb2_12f_kit"
+    },
+    "ram": {
+      "value": "176 KB",
+      "source": "zephyr:ai_wb2_12f_kit"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/aithinker/ai_wb2_12f_kit/doc/index.html",
+      "source": "zephyr:ai_wb2_12f_kit"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:ai_wb2_12f_kit",
+      "label": "Zephyr board definition (ai_wb2_12f_kit)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/aithinker/ai_wb2_12f_kit/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

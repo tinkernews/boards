@@ -1,0 +1,44 @@
+{
+  "slug": "microchip-technology-pic32cm-jh01-curiosity-nano-touch",
+  "name": "PIC32CM JH01 Curiosity Nano+ Touch Evaluation Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "ids": {
+    "zephyr": [
+      "pic32cm_jh01_cnano"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "PIC32CM5164JH01048",
+      "source": "zephyr:pic32cm_jh01_cnano"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:pic32cm_jh01_cnano"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:pic32cm_jh01_cnano"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/microchip/pic32c/pic32cm_jh01_cnano/doc/index.html",
+      "source": "zephyr:pic32cm_jh01_cnano"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:pic32cm_jh01_cnano",
+      "label": "Zephyr board definition (pic32cm_jh01_cnano)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/microchip/pic32c/pic32cm_jh01_cnano/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

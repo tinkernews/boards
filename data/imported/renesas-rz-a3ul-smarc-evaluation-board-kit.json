@@ -1,0 +1,36 @@
+{
+  "slug": "renesas-rz-a3ul-smarc-evaluation-board-kit",
+  "name": "RZ/A3UL SMARC Evaluation Board Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "renesas",
+  "ids": {
+    "zephyr": [
+      "rza3ul_smarc"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "R9A07G063U02GBG",
+      "source": "zephyr:rza3ul_smarc"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/renesas/rza3ul_smarc/doc/index.html",
+      "source": "zephyr:rza3ul_smarc"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:rza3ul_smarc",
+      "label": "Zephyr board definition (rza3ul_smarc)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/renesas/rza3ul_smarc/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

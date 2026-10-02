@@ -1,0 +1,37 @@
+{
+  "slug": "arduino-nesso-n1",
+  "name": "Arduino Nesso N1",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "chip": "esp32-c6",
+  "ids": {
+    "zephyr": [
+      "arduino_nesso_n1"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-C6",
+      "source": "zephyr:arduino_nesso_n1"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/arduino/nesso_n1/doc/index.html",
+      "source": "zephyr:arduino_nesso_n1"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:arduino_nesso_n1",
+      "label": "Zephyr board definition (arduino_nesso_n1)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/arduino/nesso_n1/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

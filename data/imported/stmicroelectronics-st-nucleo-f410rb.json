@@ -1,0 +1,83 @@
+{
+  "slug": "stmicroelectronics-st-nucleo-f410rb",
+  "name": "ST Nucleo F410RB",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "aliases": [
+    "Nucleo F410RB"
+  ],
+  "ids": {
+    "platformio": [
+      "nucleo_f410rb"
+    ],
+    "zephyr": [
+      "nucleo_f410rb"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F410RBT6",
+      "source": "platformio:nucleo_f410rb"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:nucleo_f410rb"
+    },
+    "clock": {
+      "value": "100 MHz",
+      "source": "platformio:nucleo_f410rb"
+    },
+    "upload_limits": {
+      "value": "128 KB flash, 32 KB RAM",
+      "source": "platformio:nucleo_f410rb"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:nucleo_f410rb"
+    },
+    "flash": {
+      "value": "128 KB",
+      "source": "zephyr:nucleo_f410rb"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ST Nucleo F410RB product page",
+      "url": "https://developer.mbed.org/platforms/ST-Nucleo-F410RB/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/nucleo_f410rb.html",
+      "source": "platformio:nucleo_f410rb"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/nucleo_f410rb/doc/index.html",
+      "source": "zephyr:nucleo_f410rb"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:nucleo_f410rb",
+      "label": "PlatformIO board definition (nucleo_f410rb)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/nucleo_f410rb.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    },
+    {
+      "id": "zephyr:nucleo_f410rb",
+      "label": "Zephyr board definition (nucleo_f410rb)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/nucleo_f410rb/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

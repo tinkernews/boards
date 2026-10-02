@@ -1,0 +1,187 @@
+{
+  "slug": "esp32-devkitc",
+  "name": "ESP32-DevKitC",
+  "tier": "curated",
+  "kind": "mcu",
+  "maker": "espressif",
+  "family": "ESP32",
+  "chip": "esp32",
+  "status": "current",
+  "summary": "Espressif’s reference ESP32 board: an ESP32-WROOM or WROVER module with USB-serial and every pin on two breadboard headers.",
+  "aliases": [
+    "ESP32-DevKitC",
+    "ESP32 DevKitC",
+    "ESP32-DevKitC V4",
+    "ESP32 DevKitC V4",
+    "ESP32-DevKitC-32E",
+    "ESP32 Dev Module"
+  ],
+  "ids": {
+    "platformio": [
+      "esp32dev"
+    ],
+    "zephyr": [
+      "esp32_devkitc"
+    ],
+    "circuitpython": [
+      "espressif_esp32_devkitc_v4_wroom_32e",
+      "espressif_esp32_devkitc_v4_wrover"
+    ],
+    "micropython": [
+      "ESP32_GENERIC"
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "by": "AI-assisted source check",
+    "at": "2026-10-01"
+  },
+  "specs": {
+    "chip": {
+      "value": "Espressif ESP32 in an ESP32-WROOM-32E/UE or WROVER-E/IE module (older boards: WROOM-32/32D/32U, SOLO-1)",
+      "source": "devkitc-guide"
+    },
+    "cpu": {
+      "value": "2 × Xtensa LX6, 32-bit (1 core on the SOLO-1 version)",
+      "source": "esp32-datasheet"
+    },
+    "clock": {
+      "value": "Up to 240 MHz",
+      "source": "esp32-datasheet"
+    },
+    "ram": {
+      "value": "520 KB SRAM (plus 8 MB PSRAM on WROVER-E versions)",
+      "source": "wrovere-datasheet"
+    },
+    "flash": {
+      "value": "4, 8 or 16 MB, depending on the module",
+      "source": "wroom32e-datasheet"
+    },
+    "io_voltage": {
+      "value": "3.3 V",
+      "source": "esp32-datasheet"
+    },
+    "wireless": {
+      "value": "2.4 GHz 802.11 b/g/n Wi-Fi; Bluetooth 4.2 BR/EDR and BLE",
+      "source": "esp32-datasheet"
+    },
+    "usb": {
+      "value": "Micro-USB via a USB-to-UART bridge",
+      "source": "devkitc-guide"
+    }
+  },
+  "docs": [
+    {
+      "kind": "guide",
+      "label": "ESP32-DevKitC V4 user guide, Espressif",
+      "url": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32/esp32-devkitc/user_guide.html"
+    },
+    {
+      "kind": "datasheet",
+      "label": "ESP32 Series datasheet",
+      "url": "https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf"
+    }
+  ],
+  "software": [
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.espressif.com/projects/esp-idf/en/stable/",
+      "source": "esp-idf"
+    },
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino core for the ESP32 by Espressif.",
+      "url": "https://docs.espressif.com/projects/arduino-esp32/en/latest/",
+      "source": "esp-arduino"
+    }
+  ],
+  "gotchas": [
+    {
+      "title": "ADC2 unavailable with Wi-Fi",
+      "text": "On the original ESP32, the ADC2 channels cannot be read while Wi-Fi is running; put analog inputs on ADC1 pins (GPIO32–39).",
+      "source": "esp-idf-gpio"
+    },
+    {
+      "title": "Strapping pins",
+      "text": "Some GPIOs set the boot mode at reset (GPIO0, 2, 5, 12 and 15 on the ESP32). Pulling them the wrong way stops the board booting or flashing; GPIO12 high at boot can select the wrong flash voltage.",
+      "source": "esp32-datasheet"
+    },
+    {
+      "title": "Flash pins are off limits",
+      "text": "GPIO6 to GPIO11 connect to the module's SPI flash; avoid them, as using them can disrupt flash and PSRAM access.",
+      "source": "devkitc-guide"
+    },
+    {
+      "title": "Input-only pins",
+      "text": "GPIO34 to GPIO39 are input-only and have no internal pull-ups or pull-downs.",
+      "source": "esp32-datasheet"
+    }
+  ],
+  "power": {
+    "rows": [
+      {
+        "label": "Supply",
+        "value": "5 V via USB or the 5V pin, or 3.3 V on the 3V3 pin",
+        "source": "devkitc-guide"
+      },
+      {
+        "label": "Deep sleep (chip)",
+        "value": "About 10 µA with the RTC timer",
+        "source": "esp32-datasheet"
+      }
+    ],
+    "note": "Use one power input only: USB, the 5V pin or the 3V3 pin. The board's USB bridge, regulator and LED draw far more than the chip in deep sleep, so battery projects use bare modules or low-quiescent boards."
+  },
+  "editorial": {
+    "history": "The DevKitC is Espressif's own development board for the ESP32, whose first datasheet was published in August 2016.",
+    "today": "A good first ESP32 board: every pin is broken out, and it matches the generic “ESP32 Dev Module” setting in the Arduino core.",
+    "source": "esp32-datasheet"
+  },
+  "sources": [
+    {
+      "id": "devkitc-guide",
+      "label": "ESP32-DevKitC V4 user guide, Espressif",
+      "url": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32/esp32-devkitc/user_guide.html",
+      "kind": "official"
+    },
+    {
+      "id": "esp32-datasheet",
+      "label": "ESP32 Series datasheet, Espressif",
+      "url": "https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf",
+      "kind": "official"
+    },
+    {
+      "id": "esp-idf-gpio",
+      "label": "GPIO & RTC GPIO (ESP32), ESP-IDF Programming Guide",
+      "url": "https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/peripherals/gpio.html",
+      "kind": "official"
+    },
+    {
+      "id": "esp-idf",
+      "label": "ESP-IDF Programming Guide, Espressif",
+      "url": "https://docs.espressif.com/projects/esp-idf/en/stable/",
+      "kind": "official"
+    },
+    {
+      "id": "esp-arduino",
+      "label": "Arduino core for the ESP32, Espressif",
+      "url": "https://docs.espressif.com/projects/arduino-esp32/en/latest/",
+      "kind": "official"
+    },
+    {
+      "id": "wroom32e-datasheet",
+      "label": "ESP32-WROOM-32E & ESP32-WROOM-32UE datasheet, Espressif",
+      "url": "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf",
+      "kind": "official"
+    },
+    {
+      "id": "wrovere-datasheet",
+      "label": "ESP32-WROVER-E & ESP32-WROVER-IE datasheet, Espressif",
+      "url": "https://www.espressif.com/sites/default/files/documentation/esp32-wrover-e_esp32-wrover-ie_datasheet_en.pdf",
+      "kind": "official"
+    }
+  ],
+  "updatedAt": "2026-10-01T15:00:00.000Z"
+}

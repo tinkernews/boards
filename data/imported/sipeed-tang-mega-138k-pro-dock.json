@@ -1,0 +1,36 @@
+{
+  "slug": "sipeed-tang-mega-138k-pro-dock",
+  "name": "Tang Mega 138K Pro Dock",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sipeed",
+  "ids": {
+    "zephyr": [
+      "tang_mega_138k_pro_dock"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "AE350",
+      "source": "zephyr:tang_mega_138k_pro_dock"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/sipeed/tang_mega_138k_pro_dock/doc/index.html",
+      "source": "zephyr:tang_mega_138k_pro_dock"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:tang_mega_138k_pro_dock",
+      "label": "Zephyr board definition (tang_mega_138k_pro_dock)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/sipeed/tang_mega_138k_pro_dock/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

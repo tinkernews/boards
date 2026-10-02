@@ -1,0 +1,45 @@
+{
+  "slug": "ezurio-bl5340-dvk",
+  "name": "BL5340 DVK",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "ezurio",
+  "chip": "nrf5340",
+  "ids": {
+    "zephyr": [
+      "bl5340_dvk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF5340",
+      "source": "zephyr:bl5340_dvk"
+    },
+    "ram": {
+      "value": "448 KB",
+      "source": "zephyr:bl5340_dvk"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:bl5340_dvk"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/ezurio/bl5340_dvk/doc/index.html",
+      "source": "zephyr:bl5340_dvk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:bl5340_dvk",
+      "label": "Zephyr board definition (bl5340_dvk)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/ezurio/bl5340_dvk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

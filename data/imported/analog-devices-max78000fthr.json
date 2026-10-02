@@ -1,0 +1,44 @@
+{
+  "slug": "analog-devices-max78000fthr",
+  "name": "MAX78000FTHR",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "analog-devices",
+  "ids": {
+    "zephyr": [
+      "max78000fthr"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MAX78000",
+      "source": "zephyr:max78000fthr"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:max78000fthr"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:max78000fthr"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/adi/max78000fthr/doc/index.html",
+      "source": "zephyr:max78000fthr"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:max78000fthr",
+      "label": "Zephyr board definition (max78000fthr)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/adi/max78000fthr/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

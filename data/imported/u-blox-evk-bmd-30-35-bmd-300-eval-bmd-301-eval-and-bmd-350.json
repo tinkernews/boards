@@ -1,0 +1,45 @@
+{
+  "slug": "u-blox-evk-bmd-30-35-bmd-300-eval-bmd-301-eval-and-bmd-350",
+  "name": "EVK-BMD-30/35: BMD-300-EVAL, BMD-301-EVAL, and BMD-350-EVAL",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "u-blox",
+  "chip": "nrf52832",
+  "ids": {
+    "zephyr": [
+      "ubx_bmd300eval"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52832",
+      "source": "zephyr:ubx_bmd300eval"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:ubx_bmd300eval"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:ubx_bmd300eval"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/u-blox/ubx_bmd300eval/doc/index.html",
+      "source": "zephyr:ubx_bmd300eval"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:ubx_bmd300eval",
+      "label": "Zephyr board definition (ubx_bmd300eval)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/u-blox/ubx_bmd300eval/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

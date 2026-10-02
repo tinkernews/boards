@@ -1,0 +1,53 @@
+{
+  "slug": "microchip-technology-atmega168p-pa",
+  "name": "ATmega168P/PA",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "chip": "atmega168",
+  "ids": {
+    "platformio": [
+      "ATmega168P"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega168",
+      "source": "platformio:atmega168p"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:atmega168p"
+    },
+    "upload_limits": {
+      "value": "16 KB flash, 1 KB RAM",
+      "source": "platformio:atmega168p"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ATmega168P/PA product page",
+      "url": "https://www.microchip.com/wwwproducts/en/ATmega168P"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/ATmega168P.html",
+      "source": "platformio:atmega168p"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:atmega168p",
+      "label": "PlatformIO board definition (ATmega168P)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/ATmega168P.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

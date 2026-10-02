@@ -1,0 +1,53 @@
+{
+  "slug": "arduino-ng-or-older-atmega168",
+  "name": "Arduino NG or older ATmega168",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "chip": "atmega168",
+  "ids": {
+    "platformio": [
+      "atmegangatmega168"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega168",
+      "source": "platformio:atmegangatmega168"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:atmegangatmega168"
+    },
+    "upload_limits": {
+      "value": "14 KB flash, 1 KB RAM",
+      "source": "platformio:atmegangatmega168"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Arduino NG or older ATmega168 product page",
+      "url": "http://arduino.cc/en/main/boards"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/atmegangatmega168.html",
+      "source": "platformio:atmegangatmega168"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:atmegangatmega168",
+      "label": "PlatformIO board definition (atmegangatmega168)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/atmegangatmega168.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "hornbill-esp32-dev",
+  "name": "Hornbill ESP32 Dev",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "hornbill",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "hornbill32dev"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:hornbill32dev"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:hornbill32dev"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:hornbill32dev"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Hornbill ESP32 Dev product page",
+      "url": "https://hackaday.io/project/18997-hornbill"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/hornbill32dev.html",
+      "source": "platformio:hornbill32dev"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/hornbill32dev.html",
+      "source": "platformio:hornbill32dev"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:hornbill32dev",
+      "label": "PlatformIO board definition (hornbill32dev)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/hornbill32dev.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

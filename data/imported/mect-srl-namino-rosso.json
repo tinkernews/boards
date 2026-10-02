@@ -1,0 +1,59 @@
+{
+  "slug": "mect-srl-namino-rosso",
+  "name": "Namino Rosso",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "mect-srl",
+  "chip": "esp32-s3",
+  "ids": {
+    "platformio": [
+      "namino_rosso"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-S3",
+      "source": "platformio:namino_rosso"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:namino_rosso"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:namino_rosso"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Namino Rosso product page",
+      "url": "https://namino.cc/boards/namino-rosso"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/namino_rosso.html",
+      "source": "platformio:namino_rosso"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/namino_rosso.html",
+      "source": "platformio:namino_rosso"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:namino_rosso",
+      "label": "PlatformIO board definition (namino_rosso)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/namino_rosso.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

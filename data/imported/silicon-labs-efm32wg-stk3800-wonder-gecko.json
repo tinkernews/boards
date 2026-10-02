@@ -1,0 +1,47 @@
+{
+  "slug": "silicon-labs-efm32wg-stk3800-wonder-gecko",
+  "name": "EFM32WG-STK3800 Wonder Gecko",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "silicon-labs",
+  "ids": {
+    "platformio": [
+      "efm32wg_stk3800"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "EFM32WG990F256",
+      "source": "platformio:efm32wg_stk3800"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:efm32wg_stk3800"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:efm32wg_stk3800"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:efm32wg_stk3800"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "EFM32WG-STK3800 Wonder Gecko product page",
+      "url": "https://www.silabs.com/products/development-tools/mcu/32-bit/efm32-wonder-gecko-starter-kit"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:efm32wg_stk3800",
+      "label": "PlatformIO board definition (efm32wg_stk3800)",
+      "url": "https://github.com/platformio/platform-siliconlabsefm32/blob/0bc1a08b57de87366e56433c838ab83188fa419d/boards/efm32wg_stk3800.json",
+      "kind": "import",
+      "revision": "0bc1a08b57de87366e56433c838ab83188fa419d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

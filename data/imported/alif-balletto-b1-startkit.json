@@ -1,0 +1,36 @@
+{
+  "slug": "alif-balletto-b1-startkit",
+  "name": "Alif Balletto B1 StartKit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "alif",
+  "ids": {
+    "zephyr": [
+      "balletto_b1_sk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "AB1C1F4M51820PH0",
+      "source": "zephyr:balletto_b1_sk"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/alif/balletto_b1_sk/doc/index.html",
+      "source": "zephyr:balletto_b1_sk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:balletto_b1_sk",
+      "label": "Zephyr board definition (balletto_b1_sk)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/alif/balletto_b1_sk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

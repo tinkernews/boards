@@ -1,0 +1,59 @@
+{
+  "slug": "seeed-studio-edgebox-esp-100",
+  "name": "Seeed Studio Edgebox-ESP-100",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "seeed",
+  "chip": "esp32-s3",
+  "ids": {
+    "platformio": [
+      "edgebox-esp-100"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-S3",
+      "source": "platformio:edgebox-esp-100"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:edgebox-esp-100"
+    },
+    "upload_limits": {
+      "value": "16 MB flash, 320 KB RAM",
+      "source": "platformio:edgebox-esp-100"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Seeed Studio Edgebox-ESP-100 product page",
+      "url": "https://www.seeedstudio.com/EdgeBox-ESP-100-p-5490.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/edgebox-esp-100.html",
+      "source": "platformio:edgebox-esp-100"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/edgebox-esp-100.html",
+      "source": "platformio:edgebox-esp-100"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:edgebox-esp-100",
+      "label": "PlatformIO board definition (edgebox-esp-100)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/edgebox-esp-100.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

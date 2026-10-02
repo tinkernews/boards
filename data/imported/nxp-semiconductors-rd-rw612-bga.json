@@ -1,0 +1,44 @@
+{
+  "slug": "nxp-semiconductors-rd-rw612-bga",
+  "name": "RD-RW612-BGA",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "ids": {
+    "zephyr": [
+      "rd_rw612_bga"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "RW612",
+      "source": "zephyr:rd_rw612_bga"
+    },
+    "ram": {
+      "value": "960 KB",
+      "source": "zephyr:rd_rw612_bga"
+    },
+    "flash": {
+      "value": "64 MB",
+      "source": "zephyr:rd_rw612_bga"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nxp/rd_rw612_bga/doc/index.html",
+      "source": "zephyr:rd_rw612_bga"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:rd_rw612_bga",
+      "label": "Zephyr board definition (rd_rw612_bga)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nxp/rd_rw612_bga/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

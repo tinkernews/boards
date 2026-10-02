@@ -1,0 +1,44 @@
+{
+  "slug": "microchip-technology-mec172x-modular-card-assy6930-rev-b",
+  "name": "MEC172x Modular Card ASSY6930 (Rev. B)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "ids": {
+    "zephyr": [
+      "mec172xmodular_assy6930"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MEC172X_NSZ",
+      "source": "zephyr:mec172xmodular_assy6930"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:mec172xmodular_assy6930"
+    },
+    "flash": {
+      "value": "352 KB",
+      "source": "zephyr:mec172xmodular_assy6930"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/microchip/mec172xmodular_assy6930/doc/index.html",
+      "source": "zephyr:mec172xmodular_assy6930"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:mec172xmodular_assy6930",
+      "label": "Zephyr board definition (mec172xmodular_assy6930)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/microchip/mec172xmodular_assy6930/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

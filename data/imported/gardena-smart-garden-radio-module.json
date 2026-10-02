@@ -1,0 +1,44 @@
+{
+  "slug": "gardena-smart-garden-radio-module",
+  "name": "Smart Garden Radio Module",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "gardena",
+  "ids": {
+    "zephyr": [
+      "sgrm"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "SIM3U167",
+      "source": "zephyr:sgrm"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:sgrm"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:sgrm"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/gardena/sgrm/doc/index.html",
+      "source": "zephyr:sgrm"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:sgrm",
+      "label": "Zephyr board definition (sgrm)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/gardena/sgrm/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

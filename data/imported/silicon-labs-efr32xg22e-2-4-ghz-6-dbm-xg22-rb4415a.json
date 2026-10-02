@@ -1,0 +1,44 @@
+{
+  "slug": "silicon-labs-efr32xg22e-2-4-ghz-6-dbm-xg22-rb4415a",
+  "name": "EFR32xG22E 2.4 GHz 6 dBm (xG22-RB4415A)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "silicon-labs",
+  "ids": {
+    "zephyr": [
+      "xg22_rb4415a"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "EFR32MG22E224F512IM40",
+      "source": "zephyr:xg22_rb4415a"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:xg22_rb4415a"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:xg22_rb4415a"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/silabs/radio_boards/xg22/doc/index.html",
+      "source": "zephyr:xg22_rb4415a"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:xg22_rb4415a",
+      "label": "Zephyr board definition (xg22_rb4415a)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/silabs/radio_boards/xg22/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

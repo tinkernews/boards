@@ -1,0 +1,47 @@
+{
+  "slug": "stmicroelectronics-st-32f411ediscovery",
+  "name": "ST 32F411EDISCOVERY",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "platformio": [
+      "disco_f411ve"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F411VET6",
+      "source": "platformio:disco_f411ve"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:disco_f411ve"
+    },
+    "clock": {
+      "value": "100 MHz",
+      "source": "platformio:disco_f411ve"
+    },
+    "upload_limits": {
+      "value": "512 KB flash, 128 KB RAM",
+      "source": "platformio:disco_f411ve"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ST 32F411EDISCOVERY product page",
+      "url": "http://www.st.com/en/evaluation-tools/32f411ediscovery.html"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:disco_f411ve",
+      "label": "PlatformIO board definition (disco_f411ve)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/disco_f411ve.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

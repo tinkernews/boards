@@ -1,0 +1,40 @@
+{
+  "slug": "intel-alder-lake-rvp",
+  "name": "Alder Lake RVP",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "intel",
+  "ids": {
+    "zephyr": [
+      "intel_adl_rvp"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ALDER_LAKE",
+      "source": "zephyr:intel_adl_rvp"
+    },
+    "ram": {
+      "value": "2048 KB",
+      "source": "zephyr:intel_adl_rvp"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/intel/adl/doc/index.html",
+      "source": "zephyr:intel_adl_rvp"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:intel_adl_rvp",
+      "label": "Zephyr board definition (intel_adl_rvp)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/intel/adl/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

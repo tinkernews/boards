@@ -1,0 +1,59 @@
+{
+  "slug": "espressif-esp32-s2-saola-1",
+  "name": "Espressif ESP32-S2-Saola-1",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "espressif",
+  "chip": "esp32-s2",
+  "ids": {
+    "platformio": [
+      "esp32-s2-saola-1"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-S2",
+      "source": "platformio:esp32-s2-saola-1"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:esp32-s2-saola-1"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:esp32-s2-saola-1"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Espressif ESP32-S2-Saola-1 product page",
+      "url": "https://docs.espressif.com/projects/esp-idf/en/latest/esp32s2/hw-reference/esp32s2/user-guide-saola-1-v1.2.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/esp32-s2-saola-1.html",
+      "source": "platformio:esp32-s2-saola-1"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/esp32-s2-saola-1.html",
+      "source": "platformio:esp32-s2-saola-1"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:esp32-s2-saola-1",
+      "label": "PlatformIO board definition (esp32-s2-saola-1)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/esp32-s2-saola-1.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

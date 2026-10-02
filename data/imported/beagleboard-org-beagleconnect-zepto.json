@@ -1,0 +1,44 @@
+{
+  "slug": "beagleboard-org-beagleconnect-zepto",
+  "name": "BeagleConnect Zepto",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "beagleboard",
+  "ids": {
+    "zephyr": [
+      "beagleconnect_zepto"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MSPM0L1117",
+      "source": "zephyr:beagleconnect_zepto"
+    },
+    "ram": {
+      "value": "16 KB",
+      "source": "zephyr:beagleconnect_zepto"
+    },
+    "flash": {
+      "value": "128 KB",
+      "source": "zephyr:beagleconnect_zepto"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/beagle/beagleconnect_zepto/doc/index.html",
+      "source": "zephyr:beagleconnect_zepto"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:beagleconnect_zepto",
+      "label": "Zephyr board definition (beagleconnect_zepto)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/beagle/beagleconnect_zepto/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

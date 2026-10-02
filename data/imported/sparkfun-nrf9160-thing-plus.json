@@ -1,0 +1,45 @@
+{
+  "slug": "sparkfun-nrf9160-thing-plus",
+  "name": "nRF9160 Thing Plus",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sparkfun",
+  "chip": "nrf9160",
+  "ids": {
+    "zephyr": [
+      "sparkfun_thing_plus"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF9160",
+      "source": "zephyr:sparkfun_thing_plus"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:sparkfun_thing_plus"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:sparkfun_thing_plus"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/sparkfun/thing_plus/doc/index.html",
+      "source": "zephyr:sparkfun_thing_plus"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:sparkfun_thing_plus",
+      "label": "Zephyr board definition (sparkfun_thing_plus)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/sparkfun/thing_plus/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

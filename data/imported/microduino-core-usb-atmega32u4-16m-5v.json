@@ -1,0 +1,53 @@
+{
+  "slug": "microduino-core-usb-atmega32u4-16m-5v",
+  "name": "Microduino Core USB (ATmega32U4@16M,5V)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microduino",
+  "chip": "atmega32u4",
+  "ids": {
+    "platformio": [
+      "32u416m"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega32U4",
+      "source": "platformio:32u416m"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:32u416m"
+    },
+    "upload_limits": {
+      "value": "28 KB flash, 2.5 KB RAM",
+      "source": "platformio:32u416m"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Microduino Core USB (ATmega32U4@16M,5V) product page",
+      "url": "http://wiki.microduinoinc.com/Microduino-Module_CoreUSB"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/32u416m.html",
+      "source": "platformio:32u416m"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:32u416m",
+      "label": "PlatformIO board definition (32u416m)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/32u416m.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

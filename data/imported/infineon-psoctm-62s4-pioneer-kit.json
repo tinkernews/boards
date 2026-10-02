@@ -1,0 +1,44 @@
+{
+  "slug": "infineon-psoctm-62s4-pioneer-kit",
+  "name": "PSOC™ 62S4 Pioneer Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "infineon",
+  "ids": {
+    "zephyr": [
+      "cy8ckit_062s4"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "CY8C6244LQI_S4D92",
+      "source": "zephyr:cy8ckit_062s4"
+    },
+    "ram": {
+      "value": "128 KB",
+      "source": "zephyr:cy8ckit_062s4"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:cy8ckit_062s4"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/infineon/cy8ckit_062s4/doc/index.html",
+      "source": "zephyr:cy8ckit_062s4"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:cy8ckit_062s4",
+      "label": "Zephyr board definition (cy8ckit_062s4)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/infineon/cy8ckit_062s4/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

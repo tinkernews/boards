@@ -1,0 +1,44 @@
+{
+  "slug": "texas-instruments-mspm0g3507-launchpad",
+  "name": "MSPM0G3507 Launchpad",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "texas-instruments",
+  "ids": {
+    "zephyr": [
+      "lp_mspm0g3507"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MSPM0G3507",
+      "source": "zephyr:lp_mspm0g3507"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:lp_mspm0g3507"
+    },
+    "flash": {
+      "value": "128 KB",
+      "source": "zephyr:lp_mspm0g3507"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/ti/lp_mspm0g3507/doc/index.html",
+      "source": "zephyr:lp_mspm0g3507"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:lp_mspm0g3507",
+      "label": "Zephyr board definition (lp_mspm0g3507)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/ti/lp_mspm0g3507/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

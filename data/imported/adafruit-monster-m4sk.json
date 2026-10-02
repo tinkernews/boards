@@ -1,0 +1,124 @@
+{
+  "slug": "adafruit-monster-m4sk",
+  "name": "Adafruit MONSTER M4SK",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "atsamd51j19",
+  "aliases": [
+    "MONSTER M4SK"
+  ],
+  "ids": {
+    "platformio": [
+      "adafruit_monster_m4sk"
+    ],
+    "circuitpython": [
+      "monster_m4sk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAMD51J19",
+      "source": "platformio:adafruit_monster_m4sk"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:adafruit_monster_m4sk"
+    },
+    "clock": {
+      "value": "120 MHz",
+      "source": "platformio:adafruit_monster_m4sk"
+    },
+    "upload_limits": {
+      "value": "496 KB flash, 192 KB RAM",
+      "source": "platformio:adafruit_monster_m4sk"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Adafruit MONSTER M4SK product page",
+      "url": "https://www.adafruit.com/product/4343"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelsam/adafruit_monster_m4sk.html",
+      "source": "platformio:adafruit_monster_m4sk"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/monster_m4sk/",
+      "source": "circuitpython:monster_m4sk"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:monster_m4sk",
+    "list": [
+      {
+        "pin": "PA06",
+        "names": [
+          "RIGHT_TFT_CS"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "RIGHT_TFT_DC"
+        ]
+      },
+      {
+        "pin": "PA16",
+        "names": [
+          "MICROPHONE_CLOCK"
+        ]
+      },
+      {
+        "pin": "PA17",
+        "names": [
+          "MICROPHONE_DATA"
+        ]
+      },
+      {
+        "pin": "PB22",
+        "names": [
+          "LEFT_TFT_DC"
+        ]
+      },
+      {
+        "pin": "PB23",
+        "names": [
+          "LEFT_TFT_CS"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "platformio:adafruit_monster_m4sk",
+      "label": "PlatformIO board definition (adafruit_monster_m4sk)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/adafruit_monster_m4sk.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    },
+    {
+      "id": "circuitpython:monster_m4sk",
+      "label": "CircuitPython board definition (monster_m4sk)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/monster_m4sk.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:monster_m4sk",
+      "label": "CircuitPython pin definitions (monster_m4sk)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/monster_m4sk/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

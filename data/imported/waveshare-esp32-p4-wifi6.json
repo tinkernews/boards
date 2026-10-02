@@ -1,0 +1,45 @@
+{
+  "slug": "waveshare-esp32-p4-wifi6",
+  "name": "ESP32-P4-WIFI6",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "waveshare",
+  "chip": "esp32-p4",
+  "ids": {
+    "zephyr": [
+      "esp32p4_wifi6",
+      "esp32p4_wifi6_dev_kit"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-P4",
+      "source": "zephyr:esp32p4_wifi6"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/waveshare/esp32p4_wifi6/doc/index.html",
+      "source": "zephyr:esp32p4_wifi6"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:esp32p4_wifi6",
+      "label": "Zephyr board definition (esp32p4_wifi6)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/waveshare/esp32p4_wifi6/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "zephyr:esp32p4_wifi6_dev_kit",
+      "label": "Zephyr board definition (esp32p4_wifi6_dev_kit)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/waveshare/esp32p4_wifi6_dev_kit/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

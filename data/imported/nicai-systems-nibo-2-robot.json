@@ -1,0 +1,52 @@
+{
+  "slug": "nicai-systems-nibo-2-robot",
+  "name": "nicai-systems NIBO 2 robot",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nicai-systems",
+  "ids": {
+    "platformio": [
+      "nibo2"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATMEGA128",
+      "source": "platformio:nibo2"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:nibo2"
+    },
+    "upload_limits": {
+      "value": "128 KB flash, 4 KB RAM",
+      "source": "platformio:nibo2"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "nicai-systems NIBO 2 robot product page",
+      "url": "http://www.nicai-systems.com/en/nibo2"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/nibo2.html",
+      "source": "platformio:nibo2"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:nibo2",
+      "label": "PlatformIO board definition (nibo2)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/nibo2.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

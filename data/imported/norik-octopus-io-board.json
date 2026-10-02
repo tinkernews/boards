@@ -1,0 +1,45 @@
+{
+  "slug": "norik-octopus-io-board",
+  "name": "Octopus IO-Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "norik",
+  "chip": "nrf9160",
+  "ids": {
+    "zephyr": [
+      "octopus_io_board"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF9160",
+      "source": "zephyr:octopus_io_board"
+    },
+    "ram": {
+      "value": "88 KB",
+      "source": "zephyr:octopus_io_board"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:octopus_io_board"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/norik/octopus_io_board/doc/index.html",
+      "source": "zephyr:octopus_io_board"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:octopus_io_board",
+      "label": "Zephyr board definition (octopus_io_board)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/norik/octopus_io_board/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

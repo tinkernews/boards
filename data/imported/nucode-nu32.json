@@ -1,0 +1,45 @@
+{
+  "slug": "nucode-nu32",
+  "name": "NUCODE NU32",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nucode-co-ltd-nuworks-io",
+  "chip": "nrf52832",
+  "ids": {
+    "zephyr": [
+      "nucode_nu32"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52832",
+      "source": "zephyr:nucode_nu32"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:nucode_nu32"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:nucode_nu32"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nucode/nucode_nu32/doc/index.html",
+      "source": "zephyr:nucode_nu32"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:nucode_nu32",
+      "label": "Zephyr board definition (nucode_nu32)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nucode/nucode_nu32/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

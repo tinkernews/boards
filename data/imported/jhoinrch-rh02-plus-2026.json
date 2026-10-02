@@ -1,0 +1,44 @@
+{
+  "slug": "jhoinrch-rh02-plus-2026",
+  "name": "RH02 Plus (2026)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "jhoinrch",
+  "ids": {
+    "zephyr": [
+      "rh02_plus_2026"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32G431XX",
+      "source": "zephyr:rh02_plus_2026"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:rh02_plus_2026"
+    },
+    "flash": {
+      "value": "128 KB",
+      "source": "zephyr:rh02_plus_2026"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/jhoinrch/rh02_plus_2026/doc/index.html",
+      "source": "zephyr:rh02_plus_2026"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:rh02_plus_2026",
+      "label": "Zephyr board definition (rh02_plus_2026)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/jhoinrch/rh02_plus_2026/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

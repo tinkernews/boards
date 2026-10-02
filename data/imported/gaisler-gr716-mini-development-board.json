@@ -1,0 +1,36 @@
+{
+  "slug": "gaisler-gr716-mini-development-board",
+  "name": "GR716-MINI Development Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "gaisler",
+  "ids": {
+    "zephyr": [
+      "gr716a_mini"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "GR716A",
+      "source": "zephyr:gr716a_mini"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/gaisler/gr716a_mini/doc/index.html",
+      "source": "zephyr:gr716a_mini"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:gr716a_mini",
+      "label": "Zephyr board definition (gr716a_mini)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/gaisler/gr716a_mini/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

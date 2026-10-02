@@ -1,0 +1,56 @@
+{
+  "slug": "texas-instruments-ti-launchpad-tiva-c-w-tm4c123-80mhz",
+  "name": "TI LaunchPad (Tiva C) w/ tm4c123 (80MHz)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "texas-instruments",
+  "ids": {
+    "platformio": [
+      "lptm4c123gh6pm"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "LPTM4C123GH6PM",
+      "source": "platformio:lptm4c123gh6pm"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:lptm4c123gh6pm"
+    },
+    "clock": {
+      "value": "80 MHz",
+      "source": "platformio:lptm4c123gh6pm"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:lptm4c123gh6pm"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "TI LaunchPad (Tiva C) w/ tm4c123 (80MHz) product page",
+      "url": "http://www.ti.com/ww/en/launchpad/launchpads-connected-ek-tm4c123gxl.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/titiva/lptm4c123gh6pm.html",
+      "source": "platformio:lptm4c123gh6pm"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:lptm4c123gh6pm",
+      "label": "PlatformIO board definition (lptm4c123gh6pm)",
+      "url": "https://github.com/platformio/platform-titiva/blob/c9aed53f74280d4dbc7907f837dc65823be57592/boards/lptm4c123gh6pm.json",
+      "kind": "import",
+      "revision": "c9aed53f74280d4dbc7907f837dc65823be57592"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "silicon-labs-mgm260p-2-4-ghz-20-dbm-radio-board",
+  "name": "MGM260P 2.4 GHz +20 dBm Radio Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "silicon-labs",
+  "ids": {
+    "zephyr": [
+      "mgm260p_rb4351a"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MGM260PD32VNA",
+      "source": "zephyr:mgm260p_rb4351a"
+    },
+    "ram": {
+      "value": "512 KB",
+      "source": "zephyr:mgm260p_rb4351a"
+    },
+    "flash": {
+      "value": "3.13 MB",
+      "source": "zephyr:mgm260p_rb4351a"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/silabs/radio_boards/xg26/doc/index.html",
+      "source": "zephyr:mgm260p_rb4351a"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:mgm260p_rb4351a",
+      "label": "Zephyr board definition (mgm260p_rb4351a)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/silabs/radio_boards/xg26/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

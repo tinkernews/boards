@@ -1,0 +1,129 @@
+{
+  "slug": "cytron-motion-2350-pro",
+  "name": "Motion 2350 Pro",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "cytron",
+  "chip": "rp2350",
+  "aliases": [
+    "MOTION 2350 Pro"
+  ],
+  "ids": {
+    "zephyr": [
+      "motion_2350_pro"
+    ],
+    "circuitpython": [
+      "cytron_motion_2350_pro"
+    ],
+    "micropython": [
+      "CYTRON_MOTION_2350_PRO"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "RP2350",
+      "source": "zephyr:motion_2350_pro"
+    },
+    "ram": {
+      "value": "520 KB",
+      "source": "zephyr:motion_2350_pro"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:motion_2350_pro"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Motion 2350 Pro product page",
+      "url": "https://www.cytron.io/p-motion-2350-pro"
+    }
+  ],
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/cytron/motion_2350_pro/doc/index.html",
+      "source": "zephyr:motion_2350_pro"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/CYTRON_MOTION_2350_PRO/",
+      "source": "micropython:cytron_motion_2350_pro"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/cytron_motion_2350_pro/",
+      "source": "circuitpython:cytron_motion_2350_pro"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:cytron_motion_2350_pro",
+    "list": [
+      {
+        "pin": "GPIO16",
+        "names": [
+          "MISO"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "CS"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "VOLTAGE_MONITOR"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "zephyr:motion_2350_pro",
+      "label": "Zephyr board definition (motion_2350_pro)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/cytron/motion_2350_pro/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "circuitpython:cytron_motion_2350_pro",
+      "label": "CircuitPython board definition (cytron_motion_2350_pro)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/cytron_motion_2350_pro.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "micropython:cytron_motion_2350_pro",
+      "label": "MicroPython board definition (CYTRON_MOTION_2350_PRO)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/rp2/boards/CYTRON_MOTION_2350_PRO/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    },
+    {
+      "id": "circuitpython-pins:cytron_motion_2350_pro",
+      "label": "CircuitPython pin definitions (cytron_motion_2350_pro)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/cytron_motion_2350_pro/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

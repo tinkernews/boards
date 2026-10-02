@@ -1,0 +1,108 @@
+{
+  "slug": "bbc-microbit-v1",
+  "name": "BBC micro:bit v1",
+  "tier": "curated",
+  "kind": "mcu",
+  "maker": "microbit",
+  "family": "BBC micro:bit",
+  "chip": "nrf51822",
+  "released": "2016-03",
+  "status": "retired",
+  "summary": "The pocket-sized board given to a million UK schoolchildren in 2016: an nRF51822 with Bluetooth LE, 25 LEDs, two buttons and motion sensors.",
+  "aliases": [
+    "BBC micro:bit",
+    "micro:bit v1",
+    "micro:bit V1",
+    "BBC micro:bit v1.5",
+    "microbit v1"
+  ],
+  "ids": {
+    "platformio": [
+      "bbcmicrobit"
+    ],
+    "zephyr": [
+      "bbc_microbit"
+    ],
+    "micropython": [
+      "MICROBIT"
+    ]
+  },
+  "review": {
+    "status": "draft"
+  },
+  "successor": "bbc-microbit-v2",
+  "specs": {
+    "chip": {
+      "value": "Nordic nRF51822",
+      "source": "microbit-v1"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0",
+      "source": "microbit-v1"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "microbit-v1"
+    },
+    "ram": {
+      "value": "16 KB",
+      "source": "microbit-v1"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "microbit-v1"
+    },
+    "wireless": {
+      "value": "Bluetooth LE; 2.4 GHz micro:bit radio",
+      "source": "microbit-v1"
+    },
+    "usb": {
+      "value": "Micro-USB via an NXP KL26Z interface chip",
+      "source": "microbit-v1"
+    },
+    "input_voltage": {
+      "value": "3 V from 2 × AAA batteries or USB",
+      "source": "microbit-v1"
+    }
+  },
+  "docs": [
+    {
+      "kind": "guide",
+      "label": "micro:bit v1.5 hardware, Micro:bit Educational Foundation",
+      "url": "https://tech.microbit.org/hardware/1-5-revision/"
+    }
+  ],
+  "gotchas": [
+    {
+      "title": "16 KB of RAM",
+      "text": "MicroPython programs run out of memory quickly on the v1; larger programs need the v2.",
+      "source": "microbit-v1"
+    }
+  ],
+  "editorial": {
+    "history": "Developed by the BBC with partners and given to UK Year 7 pupils in 2016, the micro:bit was designed so a first program could light its LED grid within minutes.",
+    "today": "Still runs MakeCode programs, but new classroom kits ship the v2 with sound and a faster chip.",
+    "source": "wikipedia"
+  },
+  "sources": [
+    {
+      "id": "microbit-v1",
+      "label": "micro:bit v1.5 hardware, Micro:bit Educational Foundation",
+      "url": "https://tech.microbit.org/hardware/1-5-revision/",
+      "kind": "official"
+    },
+    {
+      "id": "microbit-hw",
+      "label": "micro:bit hardware, Micro:bit Educational Foundation",
+      "url": "https://tech.microbit.org/hardware/",
+      "kind": "official"
+    },
+    {
+      "id": "wikipedia",
+      "label": "Micro Bit, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Micro_Bit",
+      "kind": "reference"
+    }
+  ],
+  "updatedAt": "2026-10-01T00:00:00.000Z"
+}

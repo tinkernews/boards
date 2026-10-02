@@ -1,0 +1,229 @@
+{
+  "slug": "sensebox-mcu-eye",
+  "name": "senseBox MCU Eye",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sensebox",
+  "chip": "esp32-s3",
+  "ids": {
+    "circuitpython": [
+      "sensebox_mcu_eye_esp32s3"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/sensebox_mcu_eye_esp32s3/",
+      "source": "circuitpython:sensebox_mcu_eye_esp32s3"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:sensebox_mcu_eye_esp32s3",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "BUTTON",
+          "BOOT0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "SCL",
+          "D1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "SDA",
+          "D2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "SD_ENABLE"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "CAM_SDA"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "CAM_SCL"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "CAM_VSYNC"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "CAM_HREF"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "CAM_D2"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "CAM_D1"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "CAM_D3"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "CAM_D0"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "CAM_D4"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "CAM_PCLK"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "A14",
+          "D14"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "CAM_XCLK"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "CAM_D7"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "CAM_D6"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "CAM_D5"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "BUTTON_SW"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "UART_ENABLE"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "SD_MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "SD_SCLK"
+        ]
+      },
+      {
+        "pin": "GPIO40",
+        "names": [
+          "SD_MISO"
+        ]
+      },
+      {
+        "pin": "GPIO41",
+        "names": [
+          "SD_CS"
+        ]
+      },
+      {
+        "pin": "GPIO43",
+        "names": [
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO44",
+        "names": [
+          "RX"
+        ]
+      },
+      {
+        "pin": "GPIO45",
+        "names": [
+          "LED",
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO46",
+        "names": [
+          "PWDN"
+        ]
+      },
+      {
+        "pin": "GPIO48",
+        "names": [
+          "A48",
+          "D48"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:sensebox_mcu_eye_esp32s3",
+      "label": "CircuitPython board definition (sensebox_mcu_eye_esp32s3)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/sensebox_mcu_eye_esp32s3.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:sensebox_mcu_eye_esp32s3",
+      "label": "CircuitPython pin definitions (sensebox_mcu_eye_esp32s3)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/sensebox_mcu_eye_esp32s3/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

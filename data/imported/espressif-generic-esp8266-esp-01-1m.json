@@ -1,0 +1,53 @@
+{
+  "slug": "espressif-generic-esp8266-esp-01-1m",
+  "name": "Espressif Generic ESP8266 ESP-01 1M",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "espressif",
+  "chip": "esp8266",
+  "ids": {
+    "platformio": [
+      "esp01_1m"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP8266EX",
+      "source": "platformio:esp01_1m"
+    },
+    "clock": {
+      "value": "80 MHz",
+      "source": "platformio:esp01_1m"
+    },
+    "upload_limits": {
+      "value": "1 MB flash, 80 KB RAM",
+      "source": "platformio:esp01_1m"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Espressif Generic ESP8266 ESP-01 1M product page",
+      "url": "http://www.esp8266.com/wiki/doku.php?id=esp8266-module-family"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif8266/esp01_1m.html",
+      "source": "platformio:esp01_1m"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:esp01_1m",
+      "label": "PlatformIO board definition (esp01_1m)",
+      "url": "https://github.com/platformio/platform-espressif8266/blob/668c2a2e4f16bd83b6c812f1ee0605c62b3ce2d2/boards/esp01_1m.json",
+      "kind": "import",
+      "revision": "668c2a2e4f16bd83b6c812f1ee0605c62b3ce2d2"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

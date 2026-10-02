@@ -1,0 +1,86 @@
+{
+  "slug": "ttgo-t7-v1-3-mini32",
+  "name": "TTGO T7 V1.3 Mini32",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "lilygo",
+  "chip": "esp32",
+  "aliases": [
+    "TTGO T7 Mini32 V1.5"
+  ],
+  "ids": {
+    "platformio": [
+      "ttgo-t7-v13-mini32",
+      "ttgo-t7-v14-mini32"
+    ],
+    "zephyr": [
+      "ttgo_t7v1_5"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:ttgo-t7-v13-mini32"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:ttgo-t7-v13-mini32"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 1.25 MB RAM",
+      "source": "platformio:ttgo-t7-v13-mini32"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "TTGO T7 V1.3 Mini32 product page",
+      "url": "https://github.com/LilyGO/ESP32-MINI-32-V1.3"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/ttgo-t7-v13-mini32.html",
+      "source": "platformio:ttgo-t7-v13-mini32"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/ttgo-t7-v13-mini32.html",
+      "source": "platformio:ttgo-t7-v13-mini32"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/lilygo/ttgo_t7v1_5/doc/index.html",
+      "source": "zephyr:ttgo_t7v1_5"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:ttgo-t7-v13-mini32",
+      "label": "PlatformIO board definition (ttgo-t7-v13-mini32)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/ttgo-t7-v13-mini32.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    },
+    {
+      "id": "platformio:ttgo-t7-v14-mini32",
+      "label": "PlatformIO board definition (ttgo-t7-v14-mini32)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/ttgo-t7-v14-mini32.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    },
+    {
+      "id": "zephyr:ttgo_t7v1_5",
+      "label": "Zephyr board definition (ttgo_t7v1_5)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/lilygo/ttgo_t7v1_5/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

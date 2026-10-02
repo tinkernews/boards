@@ -1,0 +1,275 @@
+{
+  "slug": "pycubed-org-pycubedv05-w-mram",
+  "name": "PyCubedv05 w/MRAM",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "pycubed-org",
+  "chip": "atsamd51j19",
+  "ids": {
+    "circuitpython": [
+      "pycubed_mram_v05"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/pycubed_mram_v05/",
+      "source": "circuitpython:pycubed_mram_v05"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:pycubed_mram_v05",
+    "list": [
+      {
+        "pin": "PA02",
+        "names": [
+          "DAC0"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "EN_RF"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "AIN5"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "BATTERY"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "L1PROG"
+        ]
+      },
+      {
+        "pin": "PA12",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "PA13",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "PA14",
+        "names": [
+          "MISO"
+        ]
+      },
+      {
+        "pin": "PA15",
+        "names": [
+          "BURN2"
+        ]
+      },
+      {
+        "pin": "PA16",
+        "names": [
+          "PA16",
+          "RX2",
+          "SCL2"
+        ]
+      },
+      {
+        "pin": "PA17",
+        "names": [
+          "PA17",
+          "TX2",
+          "SDA2"
+        ]
+      },
+      {
+        "pin": "PA18",
+        "names": [
+          "VBUS_RST"
+        ]
+      },
+      {
+        "pin": "PA19",
+        "names": [
+          "PA19"
+        ]
+      },
+      {
+        "pin": "PA20",
+        "names": [
+          "PA20"
+        ]
+      },
+      {
+        "pin": "PA21",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "PA22",
+        "names": [
+          "PA22"
+        ]
+      },
+      {
+        "pin": "PA23",
+        "names": [
+          "WDT_WDI"
+        ]
+      },
+      {
+        "pin": "PA27",
+        "names": [
+          "SD_CS"
+        ]
+      },
+      {
+        "pin": "PB00",
+        "names": [
+          "RF1_RST"
+        ]
+      },
+      {
+        "pin": "PB01",
+        "names": [
+          "EN_GPS"
+        ]
+      },
+      {
+        "pin": "PB02",
+        "names": [
+          "TX"
+        ]
+      },
+      {
+        "pin": "PB03",
+        "names": [
+          "RX"
+        ]
+      },
+      {
+        "pin": "PB04",
+        "names": [
+          "RF1_IO4"
+        ]
+      },
+      {
+        "pin": "PB05",
+        "names": [
+          "RF1_IO0"
+        ]
+      },
+      {
+        "pin": "PB06",
+        "names": [
+          "RF2_IO0"
+        ]
+      },
+      {
+        "pin": "PB07",
+        "names": [
+          "RF2_IO4"
+        ]
+      },
+      {
+        "pin": "PB08",
+        "names": [
+          "CHRG"
+        ]
+      },
+      {
+        "pin": "PB09",
+        "names": [
+          "RF2_CS"
+        ]
+      },
+      {
+        "pin": "PB12",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PB13",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "PB14",
+        "names": [
+          "RF2_RST"
+        ]
+      },
+      {
+        "pin": "PB15",
+        "names": [
+          "RELAY_A"
+        ]
+      },
+      {
+        "pin": "PB16",
+        "names": [
+          "PB16"
+        ]
+      },
+      {
+        "pin": "PB17",
+        "names": [
+          "PB17"
+        ]
+      },
+      {
+        "pin": "PB22",
+        "names": [
+          "PB22"
+        ]
+      },
+      {
+        "pin": "PB23",
+        "names": [
+          "PB23"
+        ]
+      },
+      {
+        "pin": "PB30",
+        "names": [
+          "RF1_CS"
+        ]
+      },
+      {
+        "pin": "PB31",
+        "names": [
+          "BURN1"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:pycubed_mram_v05",
+      "label": "CircuitPython board definition (pycubed_mram_v05)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/pycubed_mram_v05.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:pycubed_mram_v05",
+      "label": "CircuitPython pin definitions (pycubed_mram_v05)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/pycubed_mram_v05/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

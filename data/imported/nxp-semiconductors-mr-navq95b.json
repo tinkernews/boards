@@ -1,0 +1,44 @@
+{
+  "slug": "nxp-semiconductors-mr-navq95b",
+  "name": "MR-NavQ95B",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "ids": {
+    "zephyr": [
+      "mr_navq95b"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MIMX9596",
+      "source": "zephyr:mr_navq95b"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:mr_navq95b"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:mr_navq95b"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nxp/mr_navq95b/doc/index.html",
+      "source": "zephyr:mr_navq95b"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:mr_navq95b",
+      "label": "Zephyr board definition (mr_navq95b)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nxp/mr_navq95b/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "infineon-psoctm-4100s-max-pioneer-kit",
+  "name": "PSOC™ 4100S Max pioneer kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "infineon",
+  "ids": {
+    "zephyr": [
+      "cy8ckit_041s_max"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "CY8C4149AZI_S598",
+      "source": "zephyr:cy8ckit_041s_max"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:cy8ckit_041s_max"
+    },
+    "flash": {
+      "value": "384 KB",
+      "source": "zephyr:cy8ckit_041s_max"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/infineon/cy8ckit_041s_max/doc/index.html",
+      "source": "zephyr:cy8ckit_041s_max"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:cy8ckit_041s_max",
+      "label": "Zephyr board definition (cy8ckit_041s_max)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/infineon/cy8ckit_041s_max/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "friendlyelec-nanopi-m3-nanopc-t3",
+  "name": "NanoPi M3 / NanoPC-T3",
+  "tier": "imported",
+  "kind": "sbc",
+  "maker": "friendlyelec",
+  "released": "2016",
+  "ids": {
+    "armbian": [
+      "nanopim3"
+    ]
+  },
+  "software": [
+    {
+      "platform": "armbian",
+      "status": "supported",
+      "note": "Supported by Armbian.",
+      "url": "https://github.com/armbian/build/blob/main/config/boards/nanopim3.conf",
+      "source": "armbian:nanopim3"
+    }
+  ],
+  "sources": [
+    {
+      "id": "armbian:nanopim3",
+      "label": "Armbian board configuration (nanopim3)",
+      "url": "https://github.com/armbian/build/blob/da85daa05bd260d04dac50315d7317207fd998b3/config/boards/nanopim3.conf",
+      "kind": "import",
+      "revision": "da85daa05bd260d04dac50315d7317207fd998b3"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

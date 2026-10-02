@@ -1,0 +1,86 @@
+{
+  "slug": "xinabox-cc03",
+  "name": "XinaBox CC03",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "xinabox",
+  "chip": "atsamd21g18",
+  "ids": {
+    "circuitpython": [
+      "xinabox_cc03"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/xinabox_cc03/",
+      "source": "circuitpython:xinabox_cc03"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:xinabox_cc03",
+    "list": [
+      {
+        "pin": "PA05",
+        "names": [
+          "RED",
+          "LED"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "GREEN"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "BLUE"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "TX"
+        ]
+      },
+      {
+        "pin": "PA11",
+        "names": [
+          "RX"
+        ]
+      },
+      {
+        "pin": "PA22",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PA23",
+        "names": [
+          "SCL"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:xinabox_cc03",
+      "label": "CircuitPython board definition (xinabox_cc03)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/xinabox_cc03.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:xinabox_cc03",
+      "label": "CircuitPython pin definitions (xinabox_cc03)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/xinabox_cc03/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

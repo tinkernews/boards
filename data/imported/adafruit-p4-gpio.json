@@ -1,0 +1,356 @@
+{
+  "slug": "adafruit-p4-gpio",
+  "name": "Adafruit P4 GPIO",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "esp32-p4",
+  "ids": {
+    "circuitpython": [
+      "adafruit_p4gpio"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/adafruit_p4gpio/",
+      "source": "circuitpython:adafruit_p4gpio"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:adafruit_p4gpio",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "B1_0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "B1_1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "B1_2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "B1_3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "B1_4"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "B1_5"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "B1_6"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "B1_7"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "B2_0"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "B2_1"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "B2_2"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "B2_3"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "B2_4"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "B2_5"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "B2_6"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "B2_7"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "B3_0"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "B3_1"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "B3_2"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "B3_3"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "B3_4"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "B3_5"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "B3_6"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "B3_7"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "T3_7"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "T3_6"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "T3_5"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "T3_4"
+        ]
+      },
+      {
+        "pin": "GPIO30",
+        "names": [
+          "T3_3"
+        ]
+      },
+      {
+        "pin": "GPIO31",
+        "names": [
+          "T3_2"
+        ]
+      },
+      {
+        "pin": "GPIO32",
+        "names": [
+          "T3_1"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "T3_0"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "T2_7"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "BOOT",
+          "BUTTON"
+        ]
+      },
+      {
+        "pin": "GPIO37",
+        "names": [
+          "T2_6"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "T2_5"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "T2_4"
+        ]
+      },
+      {
+        "pin": "GPIO40",
+        "names": [
+          "T2_3"
+        ]
+      },
+      {
+        "pin": "GPIO41",
+        "names": [
+          "T2_2"
+        ]
+      },
+      {
+        "pin": "GPIO42",
+        "names": [
+          "T2_1"
+        ]
+      },
+      {
+        "pin": "GPIO43",
+        "names": [
+          "T2_0"
+        ]
+      },
+      {
+        "pin": "GPIO44",
+        "names": [
+          "T1_7"
+        ]
+      },
+      {
+        "pin": "GPIO45",
+        "names": [
+          "T1_6"
+        ]
+      },
+      {
+        "pin": "GPIO46",
+        "names": [
+          "T1_5"
+        ]
+      },
+      {
+        "pin": "GPIO47",
+        "names": [
+          "T1_4"
+        ]
+      },
+      {
+        "pin": "GPIO48",
+        "names": [
+          "T1_3"
+        ]
+      },
+      {
+        "pin": "GPIO49",
+        "names": [
+          "T1_2"
+        ]
+      },
+      {
+        "pin": "GPIO50",
+        "names": [
+          "T1_1"
+        ]
+      },
+      {
+        "pin": "GPIO51",
+        "names": [
+          "T1_0"
+        ]
+      },
+      {
+        "pin": "GPIO52",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO53",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO54",
+        "names": [
+          "SCL"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:adafruit_p4gpio",
+      "label": "CircuitPython board definition (adafruit_p4gpio)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/adafruit_p4gpio.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:adafruit_p4gpio",
+      "label": "CircuitPython pin definitions (adafruit_p4gpio)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/adafruit_p4gpio/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

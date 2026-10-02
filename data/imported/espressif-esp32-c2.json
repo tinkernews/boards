@@ -1,0 +1,37 @@
+{
+  "slug": "espressif-esp32-c2",
+  "name": "ESP32-C2",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "espressif",
+  "ids": {
+    "micropython": [
+      "ESP32_GENERIC_C2"
+    ]
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ESP32-C2 product page",
+      "url": "https://www.espressif.com/en/products/modules"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/ESP32_GENERIC_C2/",
+      "source": "micropython:esp32_generic_c2"
+    }
+  ],
+  "sources": [
+    {
+      "id": "micropython:esp32_generic_c2",
+      "label": "MicroPython board definition (ESP32_GENERIC_C2)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/esp32/boards/ESP32_GENERIC_C2/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

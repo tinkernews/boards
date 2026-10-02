@@ -1,0 +1,83 @@
+{
+  "slug": "m5stack-atom",
+  "name": "M5Stack-ATOM",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "m5stack",
+  "chip": "esp32",
+  "aliases": [
+    "Atom"
+  ],
+  "ids": {
+    "platformio": [
+      "m5stack-atom"
+    ],
+    "micropython": [
+      "M5STACK_ATOM"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:m5stack-atom"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:m5stack-atom"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:m5stack-atom"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "M5Stack-ATOM product page",
+      "url": "http://www.m5stack.com"
+    },
+    {
+      "kind": "product",
+      "label": "M5Stack-ATOM product page",
+      "url": "https://shop.m5stack.com/products/atom-matrix-esp32-development-kit"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/m5stack-atom.html",
+      "source": "platformio:m5stack-atom"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/m5stack-atom.html",
+      "source": "platformio:m5stack-atom"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/M5STACK_ATOM/",
+      "source": "micropython:m5stack_atom"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:m5stack-atom",
+      "label": "PlatformIO board definition (m5stack-atom)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/m5stack-atom.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    },
+    {
+      "id": "micropython:m5stack_atom",
+      "label": "MicroPython board definition (M5STACK_ATOM)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/esp32/boards/M5STACK_ATOM/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

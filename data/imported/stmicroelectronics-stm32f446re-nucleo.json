@@ -1,0 +1,354 @@
+{
+  "slug": "stmicroelectronics-stm32f446re-nucleo",
+  "name": "STM32F446RE Nucleo",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "circuitpython": [
+      "nucleo_f446re"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/nucleo_f446re/",
+      "source": "circuitpython:nucleo_f446re"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:nucleo_f446re",
+    "list": [
+      {
+        "pin": "PA00",
+        "names": [
+          "A0",
+          "PA0"
+        ]
+      },
+      {
+        "pin": "PA01",
+        "names": [
+          "A1",
+          "PA1"
+        ]
+      },
+      {
+        "pin": "PA02",
+        "names": [
+          "D1",
+          "PA2"
+        ]
+      },
+      {
+        "pin": "PA03",
+        "names": [
+          "D0",
+          "PA3"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "A2",
+          "PA4"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "D13",
+          "PA5",
+          "LED"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "D12",
+          "PA6"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "D11",
+          "PA7"
+        ]
+      },
+      {
+        "pin": "PA08",
+        "names": [
+          "D7",
+          "PA8"
+        ]
+      },
+      {
+        "pin": "PA09",
+        "names": [
+          "D8",
+          "PA9"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "D2",
+          "PA10"
+        ]
+      },
+      {
+        "pin": "PA11",
+        "names": [
+          "PA11"
+        ]
+      },
+      {
+        "pin": "PA12",
+        "names": [
+          "PA12"
+        ]
+      },
+      {
+        "pin": "PA15",
+        "names": [
+          "PA15"
+        ]
+      },
+      {
+        "pin": "PB00",
+        "names": [
+          "A3",
+          "PB0"
+        ]
+      },
+      {
+        "pin": "PB01",
+        "names": [
+          "PB1"
+        ]
+      },
+      {
+        "pin": "PB02",
+        "names": [
+          "PB2"
+        ]
+      },
+      {
+        "pin": "PB03",
+        "names": [
+          "D3",
+          "PB3"
+        ]
+      },
+      {
+        "pin": "PB04",
+        "names": [
+          "D5",
+          "PB4"
+        ]
+      },
+      {
+        "pin": "PB05",
+        "names": [
+          "D4",
+          "PB5"
+        ]
+      },
+      {
+        "pin": "PB06",
+        "names": [
+          "D10",
+          "PB6"
+        ]
+      },
+      {
+        "pin": "PB07",
+        "names": [
+          "PB7"
+        ]
+      },
+      {
+        "pin": "PB08",
+        "names": [
+          "D15",
+          "PB8"
+        ]
+      },
+      {
+        "pin": "PB09",
+        "names": [
+          "D14",
+          "PB9"
+        ]
+      },
+      {
+        "pin": "PB10",
+        "names": [
+          "D6",
+          "PB10"
+        ]
+      },
+      {
+        "pin": "PB12",
+        "names": [
+          "PB12"
+        ]
+      },
+      {
+        "pin": "PB13",
+        "names": [
+          "PB13"
+        ]
+      },
+      {
+        "pin": "PB14",
+        "names": [
+          "PB14"
+        ]
+      },
+      {
+        "pin": "PB15",
+        "names": [
+          "PB15"
+        ]
+      },
+      {
+        "pin": "PC00",
+        "names": [
+          "A5",
+          "PC0"
+        ]
+      },
+      {
+        "pin": "PC01",
+        "names": [
+          "A4",
+          "PC1"
+        ]
+      },
+      {
+        "pin": "PC02",
+        "names": [
+          "PC2"
+        ]
+      },
+      {
+        "pin": "PC03",
+        "names": [
+          "PC3"
+        ]
+      },
+      {
+        "pin": "PC04",
+        "names": [
+          "PC4"
+        ]
+      },
+      {
+        "pin": "PC05",
+        "names": [
+          "PC5"
+        ]
+      },
+      {
+        "pin": "PC06",
+        "names": [
+          "PC6"
+        ]
+      },
+      {
+        "pin": "PC07",
+        "names": [
+          "D9",
+          "PC7"
+        ]
+      },
+      {
+        "pin": "PC08",
+        "names": [
+          "PC8"
+        ]
+      },
+      {
+        "pin": "PC09",
+        "names": [
+          "PC9"
+        ]
+      },
+      {
+        "pin": "PC10",
+        "names": [
+          "PC10"
+        ]
+      },
+      {
+        "pin": "PC11",
+        "names": [
+          "PC11"
+        ]
+      },
+      {
+        "pin": "PC12",
+        "names": [
+          "PC12"
+        ]
+      },
+      {
+        "pin": "PC13",
+        "names": [
+          "PC13",
+          "SW"
+        ]
+      },
+      {
+        "pin": "PC14",
+        "names": [
+          "PC14"
+        ]
+      },
+      {
+        "pin": "PC15",
+        "names": [
+          "PC15"
+        ]
+      },
+      {
+        "pin": "PD02",
+        "names": [
+          "PD2"
+        ]
+      },
+      {
+        "pin": "PH00",
+        "names": [
+          "PH0"
+        ]
+      },
+      {
+        "pin": "PH01",
+        "names": [
+          "PH1"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:nucleo_f446re",
+      "label": "CircuitPython board definition (nucleo_f446re)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/nucleo_f446re.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:nucleo_f446re",
+      "label": "CircuitPython pin definitions (nucleo_f446re)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/stm/boards/nucleo_f446re/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

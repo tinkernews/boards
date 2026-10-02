@@ -1,0 +1,45 @@
+{
+  "slug": "sparkfun-nrf52832-breakout",
+  "name": "nRF52832 breakout",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sparkfun",
+  "chip": "nrf52832",
+  "ids": {
+    "zephyr": [
+      "nrf52_sparkfun"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52832",
+      "source": "zephyr:nrf52_sparkfun"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:nrf52_sparkfun"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:nrf52_sparkfun"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/sparkfun/nrf52_sparkfun/doc/index.html",
+      "source": "zephyr:nrf52_sparkfun"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:nrf52_sparkfun",
+      "label": "Zephyr board definition (nrf52_sparkfun)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/sparkfun/nrf52_sparkfun/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

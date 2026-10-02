@@ -1,0 +1,44 @@
+{
+  "slug": "analog-devices-max78002evkit",
+  "name": "MAX78002EVKIT",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "analog-devices",
+  "ids": {
+    "zephyr": [
+      "max78002evkit"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MAX78002",
+      "source": "zephyr:max78002evkit"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:max78002evkit"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:max78002evkit"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/adi/max78002evkit/doc/index.html",
+      "source": "zephyr:max78002evkit"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:max78002evkit",
+      "label": "Zephyr board definition (max78002evkit)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/adi/max78002evkit/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

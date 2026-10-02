@@ -1,0 +1,40 @@
+{
+  "slug": "up-bridge-the-gap-up-squared",
+  "name": "UP Squared",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "up-bridge-the-gap",
+  "ids": {
+    "zephyr": [
+      "up_squared"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "APOLLO_LAKE",
+      "source": "zephyr:up_squared"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:up_squared"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/up-bridge-the-gap/up_squared/doc/index.html",
+      "source": "zephyr:up_squared"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:up_squared",
+      "label": "Zephyr board definition (up_squared)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/up-bridge-the-gap/up_squared/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

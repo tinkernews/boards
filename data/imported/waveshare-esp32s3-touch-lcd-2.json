@@ -1,0 +1,261 @@
+{
+  "slug": "waveshare-esp32s3-touch-lcd-2",
+  "name": "ESP32S3-TOUCH-LCD-2",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "waveshare",
+  "chip": "esp32-s3",
+  "ids": {
+    "circuitpython": [
+      "waveshare_esp32_s3_touch_lcd_2"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/waveshare_esp32_s3_touch_lcd_2/",
+      "source": "circuitpython:waveshare_esp32_s3_touch_lcd_2"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:waveshare_esp32_s3_touch_lcd_2",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "IO0",
+          "BOOT",
+          "BUTTON0",
+          "LCD_RESET"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "LCD_BACKLIGHT"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "IO2",
+          "CAM_D7"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "IMU_INT"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "IO4",
+          "CAM_HREF"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "BATTERY"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "IO6",
+          "CAM_VSYNC"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "IO7",
+          "CAM_D6"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "IO8",
+          "CAM_XCLK"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "IO9",
+          "CAM_PCLK"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "IO10",
+          "CAM_D5"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "IO11",
+          "CAM_D3"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "IO12",
+          "CAM_D0"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "IO13",
+          "CAM_D1"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "IO14",
+          "CAM_D4"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "IO15",
+          "CAM_D2"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "IO16",
+          "TWI_CLK"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "IO17",
+          "CAM_PWDN"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "IO18"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "IO19"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "IO20"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "IO21",
+          "TWI_SDA"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "GPIO40",
+        "names": [
+          "MISO"
+        ]
+      },
+      {
+        "pin": "GPIO41",
+        "names": [
+          "SD_CS"
+        ]
+      },
+      {
+        "pin": "GPIO42",
+        "names": [
+          "LCD_DC"
+        ]
+      },
+      {
+        "pin": "GPIO43",
+        "names": [
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO44",
+        "names": [
+          "RX"
+        ]
+      },
+      {
+        "pin": "GPIO45",
+        "names": [
+          "LCD_CS"
+        ]
+      },
+      {
+        "pin": "GPIO46",
+        "names": [
+          "TOUCH_INT"
+        ]
+      },
+      {
+        "pin": "GPIO47",
+        "names": [
+          "IO47",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO48",
+        "names": [
+          "IO48",
+          "SDA"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:waveshare_esp32_s3_touch_lcd_2",
+      "label": "CircuitPython board definition (waveshare_esp32_s3_touch_lcd_2)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/waveshare_esp32_s3_touch_lcd_2.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:waveshare_esp32_s3_touch_lcd_2",
+      "label": "CircuitPython pin definitions (waveshare_esp32_s3_touch_lcd_2)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/waveshare_esp32_s3_touch_lcd_2/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

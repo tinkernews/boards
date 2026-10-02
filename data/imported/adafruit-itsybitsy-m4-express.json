@@ -1,0 +1,110 @@
+{
+  "slug": "adafruit-itsybitsy-m4-express",
+  "name": "ItsyBitsy M4 Express",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "atsamd51j19",
+  "ids": {
+    "zephyr": [
+      "adafruit_itsybitsy_m4_express"
+    ],
+    "circuitpython": [
+      "itsybitsy_m4_express"
+    ],
+    "micropython": [
+      "ADAFRUIT_ITSYBITSY_M4_EXPRESS"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAMD51J19",
+      "source": "zephyr:adafruit_itsybitsy_m4_express"
+    },
+    "ram": {
+      "value": "192 KB",
+      "source": "zephyr:adafruit_itsybitsy_m4_express"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:adafruit_itsybitsy_m4_express"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ItsyBitsy M4 Express product page",
+      "url": "https://www.adafruit.com/product/3800"
+    }
+  ],
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/adafruit/itsybitsy_m4_express/doc/index.html",
+      "source": "zephyr:adafruit_itsybitsy_m4_express"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/ADAFRUIT_ITSYBITSY_M4_EXPRESS/",
+      "source": "micropython:adafruit_itsybitsy_m4_express"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/itsybitsy_m4_express/",
+      "source": "circuitpython:itsybitsy_m4_express"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:itsybitsy_m4_express",
+    "list": [
+      {
+        "pin": "PB02",
+        "names": [
+          "APA102_SCK",
+          "DOTSTAR_CLOCK"
+        ]
+      },
+      {
+        "pin": "PB03",
+        "names": [
+          "APA102_MOSI",
+          "DOTSTAR_DATA"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "zephyr:adafruit_itsybitsy_m4_express",
+      "label": "Zephyr board definition (adafruit_itsybitsy_m4_express)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/adafruit/itsybitsy_m4_express/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "circuitpython:itsybitsy_m4_express",
+      "label": "CircuitPython board definition (itsybitsy_m4_express)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/itsybitsy_m4_express.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "micropython:adafruit_itsybitsy_m4_express",
+      "label": "MicroPython board definition (ADAFRUIT_ITSYBITSY_M4_EXPRESS)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/samd/boards/ADAFRUIT_ITSYBITSY_M4_EXPRESS/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    },
+    {
+      "id": "circuitpython-pins:itsybitsy_m4_express",
+      "label": "CircuitPython pin definitions (itsybitsy_m4_express)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/itsybitsy_m4_express/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

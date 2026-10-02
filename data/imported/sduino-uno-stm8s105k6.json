@@ -1,0 +1,52 @@
+{
+  "slug": "sduino-uno-stm8s105k6",
+  "name": "sduino UNO (STM8S105K6)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sduino",
+  "ids": {
+    "platformio": [
+      "s8uno"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM8S105K6T6",
+      "source": "platformio:s8uno"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:s8uno"
+    },
+    "upload_limits": {
+      "value": "32 KB flash, 2 KB RAM",
+      "source": "platformio:s8uno"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "sduino UNO (STM8S105K6) product page",
+      "url": "https://github.com/roybaer/sduino_uno"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm8/s8uno.html",
+      "source": "platformio:s8uno"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:s8uno",
+      "label": "PlatformIO board definition (s8uno)",
+      "url": "https://github.com/platformio/platform-ststm8/blob/c6af4c1dde4024905613b08dac13a591894ea79f/boards/s8uno.json",
+      "kind": "import",
+      "revision": "c6af4c1dde4024905613b08dac13a591894ea79f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

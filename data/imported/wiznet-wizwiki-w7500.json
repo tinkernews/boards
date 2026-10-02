@@ -1,0 +1,47 @@
+{
+  "slug": "wiznet-wizwiki-w7500",
+  "name": "WIZwiki-W7500",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "wiznet",
+  "ids": {
+    "platformio": [
+      "wizwiki_w7500"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "WIZNET7500",
+      "source": "platformio:wizwiki_w7500"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0",
+      "source": "platformio:wizwiki_w7500"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:wizwiki_w7500"
+    },
+    "upload_limits": {
+      "value": "128 KB flash, 48 KB RAM",
+      "source": "platformio:wizwiki_w7500"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "WIZwiki-W7500 product page",
+      "url": "https://developer.mbed.org/platforms/WIZwiki-W7500/"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:wizwiki_w7500",
+      "label": "PlatformIO board definition (wizwiki_w7500)",
+      "url": "https://github.com/platformio/platform-wiznet7500/blob/a3071bfc661af5a15cbc4af9bc78af6eb60f4575/boards/wizwiki_w7500.json",
+      "kind": "import",
+      "revision": "a3071bfc661af5a15cbc4af9bc78af6eb60f4575"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

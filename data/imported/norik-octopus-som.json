@@ -1,0 +1,45 @@
+{
+  "slug": "norik-octopus-som",
+  "name": "Octopus SoM",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "norik",
+  "chip": "nrf9160",
+  "ids": {
+    "zephyr": [
+      "octopus_som"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF9160",
+      "source": "zephyr:octopus_som"
+    },
+    "ram": {
+      "value": "88 KB",
+      "source": "zephyr:octopus_som"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:octopus_som"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/norik/octopus_som/doc/index.html",
+      "source": "zephyr:octopus_som"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:octopus_som",
+      "label": "Zephyr board definition (octopus_som)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/norik/octopus_som/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

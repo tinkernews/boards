@@ -1,0 +1,44 @@
+{
+  "slug": "silicon-labs-efr32bg27-2-4-ghz-4-dbm-dcdc-buck-csp-bg27",
+  "name": "EFR32BG27 2.4 GHz 4 dBm DCDC Buck CSP (BG27-RB4110B)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "silicon-labs",
+  "ids": {
+    "zephyr": [
+      "bg27_rb4110b"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "EFR32BG27C320F768GJ39",
+      "source": "zephyr:bg27_rb4110b"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:bg27_rb4110b"
+    },
+    "flash": {
+      "value": "768 KB",
+      "source": "zephyr:bg27_rb4110b"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/silabs/radio_boards/xg27/doc/index.html",
+      "source": "zephyr:bg27_rb4110b"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:bg27_rb4110b",
+      "label": "Zephyr board definition (bg27_rb4110b)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/silabs/radio_boards/xg27/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

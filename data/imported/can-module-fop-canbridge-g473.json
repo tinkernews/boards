@@ -1,0 +1,44 @@
+{
+  "slug": "can-module-fop-canbridge-g473",
+  "name": "CANBRIDGE G473",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "can-module-fop",
+  "ids": {
+    "zephyr": [
+      "canbridge_g473"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32G473XX",
+      "source": "zephyr:canbridge_g473"
+    },
+    "ram": {
+      "value": "128 KB",
+      "source": "zephyr:canbridge_g473"
+    },
+    "flash": {
+      "value": "128 KB",
+      "source": "zephyr:canbridge_g473"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/canmodule/canbridge_g473/doc/index.html",
+      "source": "zephyr:canbridge_g473"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:canbridge_g473",
+      "label": "Zephyr board definition (canbridge_g473)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/canmodule/canbridge_g473/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

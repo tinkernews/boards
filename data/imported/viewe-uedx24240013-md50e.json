@@ -1,0 +1,37 @@
+{
+  "slug": "viewe-uedx24240013-md50e",
+  "name": "VIEWE UEDX24240013-MD50E",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "viewe-display",
+  "chip": "esp32-c3",
+  "ids": {
+    "zephyr": [
+      "uedx24240013_md50e"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-C3",
+      "source": "zephyr:uedx24240013_md50e"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/viewe/uedx24240013_md50e/doc/index.html",
+      "source": "zephyr:uedx24240013_md50e"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:uedx24240013_md50e",
+      "label": "Zephyr board definition (uedx24240013_md50e)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/viewe/uedx24240013_md50e/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

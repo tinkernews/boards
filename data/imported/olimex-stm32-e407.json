@@ -1,0 +1,105 @@
+{
+  "slug": "olimex-stm32-e407",
+  "name": "STM32-E407",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "olimex",
+  "chip": "stm32f407",
+  "aliases": [
+    "OLIMEX-STM32-E407"
+  ],
+  "ids": {
+    "platformio": [
+      "olimex_e407"
+    ],
+    "zephyr": [
+      "olimex_stm32_e407"
+    ],
+    "micropython": [
+      "OLIMEX_E407"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F407",
+      "source": "platformio:olimex_e407"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:olimex_e407"
+    },
+    "clock": {
+      "value": "168 MHz",
+      "source": "platformio:olimex_e407"
+    },
+    "upload_limits": {
+      "value": "1 MB flash, 128 KB RAM",
+      "source": "platformio:olimex_e407"
+    },
+    "ram": {
+      "value": "128 KB",
+      "source": "zephyr:olimex_stm32_e407"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:olimex_stm32_e407"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "STM32-E407 product page",
+      "url": "https://docs.zephyrproject.org/latest/boards/arm/olimex_stm32_e407/doc/index.html"
+    },
+    {
+      "kind": "product",
+      "label": "STM32-E407 product page",
+      "url": "https://www.olimex.com/Products/ARM/ST/STM32-E407"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/olimex_e407.html",
+      "source": "platformio:olimex_e407"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/olimex/stm32_e407/doc/index.html",
+      "source": "zephyr:olimex_stm32_e407"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/OLIMEX_E407/",
+      "source": "micropython:olimex_e407"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:olimex_e407",
+      "label": "PlatformIO board definition (olimex_e407)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/olimex_e407.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    },
+    {
+      "id": "zephyr:olimex_stm32_e407",
+      "label": "Zephyr board definition (olimex_stm32_e407)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/olimex/stm32_e407/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "micropython:olimex_e407",
+      "label": "MicroPython board definition (OLIMEX_E407)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/stm32/boards/OLIMEX_E407/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,245 @@
+{
+  "slug": "seeed-studio-xiao-nrf52840-sense",
+  "name": "Seeed Studio XIAO nRF52840 (Sense)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "seeed",
+  "chip": "nrf52840",
+  "aliases": [
+    "XIAO nRF52840 Sense"
+  ],
+  "ids": {
+    "circuitpython": [
+      "Seeed_XIAO_nRF52840_Sense"
+    ],
+    "micropython": [
+      "SEEED_XIAO_NRF52"
+    ]
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Seeed Studio XIAO nRF52840 (Sense) product page",
+      "url": "https://www.seeedstudio.com/Seeed-XIAO-BLE-Sense-nRF52840-p-5253.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/SEEED_XIAO_NRF52/",
+      "source": "micropython:seeed_xiao_nrf52"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/Seeed_XIAO_nRF52840_Sense/",
+      "source": "circuitpython:seeed_xiao_nrf52840_sense"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:seeed_xiao_nrf52840_sense",
+    "list": [
+      {
+        "pin": "P0_02",
+        "names": [
+          "A0",
+          "D0"
+        ]
+      },
+      {
+        "pin": "P0_03",
+        "names": [
+          "A1",
+          "D1"
+        ]
+      },
+      {
+        "pin": "P0_04",
+        "names": [
+          "A4",
+          "D4",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "P0_05",
+        "names": [
+          "A5",
+          "D5",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "P0_06",
+        "names": [
+          "LED_BLUE"
+        ]
+      },
+      {
+        "pin": "P0_07",
+        "names": [
+          "IMU_SDA"
+        ]
+      },
+      {
+        "pin": "P0_09",
+        "names": [
+          "NFC1"
+        ]
+      },
+      {
+        "pin": "P0_10",
+        "names": [
+          "NFC2"
+        ]
+      },
+      {
+        "pin": "P0_11",
+        "names": [
+          "IMU_INT1"
+        ]
+      },
+      {
+        "pin": "P0_13",
+        "names": [
+          "CHARGE_RATE"
+        ]
+      },
+      {
+        "pin": "P0_14",
+        "names": [
+          "READ_BATT_ENABLE"
+        ]
+      },
+      {
+        "pin": "P0_16",
+        "names": [
+          "PDM_DATA"
+        ]
+      },
+      {
+        "pin": "P0_17",
+        "names": [
+          "CHARGE_STATUS"
+        ]
+      },
+      {
+        "pin": "P0_26",
+        "names": [
+          "LED",
+          "LED_RED"
+        ]
+      },
+      {
+        "pin": "P0_27",
+        "names": [
+          "IMU_SCL"
+        ]
+      },
+      {
+        "pin": "P0_28",
+        "names": [
+          "A2",
+          "D2"
+        ]
+      },
+      {
+        "pin": "P0_29",
+        "names": [
+          "A3",
+          "D3"
+        ]
+      },
+      {
+        "pin": "P0_30",
+        "names": [
+          "LED_GREEN"
+        ]
+      },
+      {
+        "pin": "P0_31",
+        "names": [
+          "VBATT"
+        ]
+      },
+      {
+        "pin": "P1_00",
+        "names": [
+          "PDM_CLK"
+        ]
+      },
+      {
+        "pin": "P1_08",
+        "names": [
+          "IMU_PWR"
+        ]
+      },
+      {
+        "pin": "P1_10",
+        "names": [
+          "MIC_PWR"
+        ]
+      },
+      {
+        "pin": "P1_11",
+        "names": [
+          "D6",
+          "TX"
+        ]
+      },
+      {
+        "pin": "P1_12",
+        "names": [
+          "D7",
+          "RX"
+        ]
+      },
+      {
+        "pin": "P1_13",
+        "names": [
+          "D8",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "P1_14",
+        "names": [
+          "D9",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "P1_15",
+        "names": [
+          "D10",
+          "MOSI"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:seeed_xiao_nrf52840_sense",
+      "label": "CircuitPython board definition (Seeed_XIAO_nRF52840_Sense)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/Seeed_XIAO_nRF52840_Sense.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "micropython:seeed_xiao_nrf52",
+      "label": "MicroPython board definition (SEEED_XIAO_NRF52)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/nrf/boards/SEEED_XIAO_NRF52/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    },
+    {
+      "id": "circuitpython-pins:seeed_xiao_nrf52840_sense",
+      "label": "CircuitPython pin definitions (Seeed_XIAO_nRF52840_Sense)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/nordic/boards/Seeed_XIAO_nRF52840_Sense/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

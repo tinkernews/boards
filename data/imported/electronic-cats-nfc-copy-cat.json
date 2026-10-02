@@ -1,0 +1,127 @@
+{
+  "slug": "electronic-cats-nfc-copy-cat",
+  "name": "NFC Copy Cat",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "electronic-cats",
+  "chip": "atsamd21g18",
+  "ids": {
+    "circuitpython": [
+      "nfc_copy_cat"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/nfc_copy_cat/",
+      "source": "circuitpython:nfc_copy_cat"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:nfc_copy_cat",
+    "list": [
+      {
+        "pin": "PA02",
+        "names": [
+          "D2"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "D11"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "D10"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "D7"
+        ]
+      },
+      {
+        "pin": "PA08",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PA09",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "PA14",
+        "names": [
+          "LED"
+        ]
+      },
+      {
+        "pin": "PA16",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "PA17",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "PA18",
+        "names": [
+          "D18"
+        ]
+      },
+      {
+        "pin": "PA19",
+        "names": [
+          "MISO"
+        ]
+      },
+      {
+        "pin": "PA27",
+        "names": [
+          "D27"
+        ]
+      },
+      {
+        "pin": "PA28",
+        "names": [
+          "D28"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:nfc_copy_cat",
+      "label": "CircuitPython board definition (nfc_copy_cat)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/nfc_copy_cat.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:nfc_copy_cat",
+      "label": "CircuitPython pin definitions (nfc_copy_cat)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/nfc_copy_cat/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

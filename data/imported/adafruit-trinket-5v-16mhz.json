@@ -1,0 +1,53 @@
+{
+  "slug": "adafruit-trinket-5v-16mhz",
+  "name": "Adafruit Trinket 5V/16MHz",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "attiny85",
+  "ids": {
+    "platformio": [
+      "trinket5"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATtiny85",
+      "source": "platformio:trinket5"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:trinket5"
+    },
+    "upload_limits": {
+      "value": "8 KB flash, 0.5 KB RAM",
+      "source": "platformio:trinket5"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Adafruit Trinket 5V/16MHz product page",
+      "url": "http://www.adafruit.com/products/1501"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/trinket5.html",
+      "source": "platformio:trinket5"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:trinket5",
+      "label": "PlatformIO board definition (trinket5)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/trinket5.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

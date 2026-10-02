@@ -1,0 +1,44 @@
+{
+  "slug": "flysky-fs-i6s",
+  "name": "FlySky FS-i6S",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "flysky",
+  "ids": {
+    "zephyr": [
+      "fs_i6s"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F072XB",
+      "source": "zephyr:fs_i6s"
+    },
+    "ram": {
+      "value": "16 KB",
+      "source": "zephyr:fs_i6s"
+    },
+    "flash": {
+      "value": "128 KB",
+      "source": "zephyr:fs_i6s"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/flysky/fs_i6s/doc/index.html",
+      "source": "zephyr:fs_i6s"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:fs_i6s",
+      "label": "Zephyr board definition (fs_i6s)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/flysky/fs_i6s/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "digilent-openscope",
+  "name": "Digilent OpenScope",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "digilent",
+  "ids": {
+    "platformio": [
+      "openscope"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "32MZ2048EFG124",
+      "source": "platformio:openscope"
+    },
+    "clock": {
+      "value": "200 MHz",
+      "source": "platformio:openscope"
+    },
+    "upload_limits": {
+      "value": "1.98 MB flash, 512 KB RAM",
+      "source": "platformio:openscope"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Digilent OpenScope product page",
+      "url": "http://store.digilentinc.com/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/microchippic32/openscope.html",
+      "source": "platformio:openscope"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:openscope",
+      "label": "PlatformIO board definition (openscope)",
+      "url": "https://github.com/platformio/platform-microchippic32/blob/f6e89308da11cfe35d7534696bf01abf3f442461/boards/openscope.json",
+      "kind": "import",
+      "revision": "f6e89308da11cfe35d7534696bf01abf3f442461"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

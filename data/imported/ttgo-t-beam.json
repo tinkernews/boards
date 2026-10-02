@@ -1,0 +1,78 @@
+{
+  "slug": "ttgo-t-beam",
+  "name": "TTGO T-Beam",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "lilygo",
+  "chip": "esp32",
+  "aliases": [
+    "TTGO TBeam"
+  ],
+  "ids": {
+    "platformio": [
+      "ttgo-t-beam"
+    ],
+    "zephyr": [
+      "ttgo_tbeam"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:ttgo-t-beam"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:ttgo-t-beam"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 1.25 MB RAM",
+      "source": "platformio:ttgo-t-beam"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "TTGO T-Beam product page",
+      "url": "https://github.com/LilyGO/TTGO-T-Beam"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/ttgo-t-beam.html",
+      "source": "platformio:ttgo-t-beam"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/ttgo-t-beam.html",
+      "source": "platformio:ttgo-t-beam"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/lilygo/ttgo_tbeam/doc/index.html",
+      "source": "zephyr:ttgo_tbeam"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:ttgo-t-beam",
+      "label": "PlatformIO board definition (ttgo-t-beam)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/ttgo-t-beam.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    },
+    {
+      "id": "zephyr:ttgo_tbeam",
+      "label": "Zephyr board definition (ttgo_tbeam)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/lilygo/ttgo_tbeam/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

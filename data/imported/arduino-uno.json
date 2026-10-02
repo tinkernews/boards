@@ -1,0 +1,56 @@
+{
+  "slug": "arduino-uno",
+  "name": "Arduino Uno (R1–R3)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "chip": "atmega328p",
+  "aliases": [
+    "Arduino Uno"
+  ],
+  "ids": {
+    "platformio": [
+      "uno"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega328P",
+      "source": "platformio:uno"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:uno"
+    },
+    "upload_limits": {
+      "value": "31.5 KB flash, 2 KB RAM",
+      "source": "platformio:uno"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Arduino Uno (R1–R3) product page",
+      "url": "https://www.arduino.cc/en/Main/ArduinoBoardUno"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/uno.html",
+      "source": "platformio:uno"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:uno",
+      "label": "PlatformIO board definition (uno)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/uno.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "microduino-core-stm32-to-flash",
+  "name": "Microduino Core STM32 to Flash",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microduino",
+  "chip": "stm32f103cb",
+  "ids": {
+    "platformio": [
+      "microduino32_flash"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F103CB / RB",
+      "source": "platformio:microduino32_flash"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M3",
+      "source": "platformio:microduino32_flash"
+    },
+    "clock": {
+      "value": "72 MHz",
+      "source": "platformio:microduino32_flash"
+    },
+    "upload_limits": {
+      "value": "105.47 KB flash, 20 KB RAM",
+      "source": "platformio:microduino32_flash"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Microduino Core STM32 to Flash product page",
+      "url": "http://wiki.microduinoinc.com/Microduino-Module_CoreSTM32"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/microduino32_flash.html",
+      "source": "platformio:microduino32_flash"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:microduino32_flash",
+      "label": "PlatformIO board definition (microduino32_flash)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/microduino32_flash.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

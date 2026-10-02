@@ -1,0 +1,31 @@
+{
+  "slug": "yoto-player-v3",
+  "name": "Yoto Player V3",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "yoto",
+  "chip": "esp32",
+  "ids": {
+    "circuitpython": [
+      "yoto_player_v3"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/yoto_player_v3/",
+      "source": "circuitpython:yoto_player_v3"
+    }
+  ],
+  "sources": [
+    {
+      "id": "circuitpython:yoto_player_v3",
+      "label": "CircuitPython board definition (yoto_player_v3)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/yoto_player_v3.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

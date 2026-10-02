@@ -1,0 +1,48 @@
+{
+  "slug": "armstrap-eagle-512",
+  "name": "Armstrap Eagle 512",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "armstrap",
+  "chip": "stm32f407",
+  "ids": {
+    "platformio": [
+      "armstrap_eagle512"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F407",
+      "source": "platformio:armstrap_eagle512"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:armstrap_eagle512"
+    },
+    "clock": {
+      "value": "168 MHz",
+      "source": "platformio:armstrap_eagle512"
+    },
+    "upload_limits": {
+      "value": "512 KB flash, 128 KB RAM",
+      "source": "platformio:armstrap_eagle512"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Armstrap Eagle 512 product page",
+      "url": "http://docs.armstrap.org/en/latest/hardware-overview.html"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:armstrap_eagle512",
+      "label": "PlatformIO board definition (armstrap_eagle512)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/armstrap_eagle512.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

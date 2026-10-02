@@ -1,0 +1,36 @@
+{
+  "slug": "advanced-micro-devices-amd-versal-2-rpu-development-board",
+  "name": "Versal 2 RPU development board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "advanced-micro-devices-amd",
+  "ids": {
+    "zephyr": [
+      "versal2_rpu"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "AMD_VERSAL2_RPU",
+      "source": "zephyr:versal2_rpu"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/amd/versal2_rpu/doc/index.html",
+      "source": "zephyr:versal2_rpu"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:versal2_rpu",
+      "label": "Zephyr board definition (versal2_rpu)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/amd/versal2_rpu/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

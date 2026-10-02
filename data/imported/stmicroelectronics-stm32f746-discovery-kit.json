@@ -1,0 +1,637 @@
+{
+  "slug": "stmicroelectronics-stm32f746-discovery-kit",
+  "name": "STM32F746 Discovery kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "circuitpython": [
+      "stm32f746g_discovery"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/stm32f746g_discovery/",
+      "source": "circuitpython:stm32f746g_discovery"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:stm32f746g_discovery",
+    "list": [
+      {
+        "pin": "PA00",
+        "names": [
+          "A0"
+        ]
+      },
+      {
+        "pin": "PA01",
+        "names": [
+          "ETH_RMII_REF_CLK"
+        ]
+      },
+      {
+        "pin": "PA02",
+        "names": [
+          "ETH_MDIO"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "ETH_RMII_CRS_DV"
+        ]
+      },
+      {
+        "pin": "PA08",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "PA09",
+        "names": [
+          "VCP_TX"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "USB_ID"
+        ]
+      },
+      {
+        "pin": "PA11",
+        "names": [
+          "USB_DM"
+        ]
+      },
+      {
+        "pin": "PA12",
+        "names": [
+          "USB_DP"
+        ]
+      },
+      {
+        "pin": "PA15",
+        "names": [
+          "D9"
+        ]
+      },
+      {
+        "pin": "PB04",
+        "names": [
+          "D3"
+        ]
+      },
+      {
+        "pin": "PB07",
+        "names": [
+          "VCP_RX"
+        ]
+      },
+      {
+        "pin": "PB08",
+        "names": [
+          "D15",
+          "EXT_SCL"
+        ]
+      },
+      {
+        "pin": "PB09",
+        "names": [
+          "D14",
+          "EXT_SDA"
+        ]
+      },
+      {
+        "pin": "PB12",
+        "names": [
+          "CAN_RX"
+        ]
+      },
+      {
+        "pin": "PB13",
+        "names": [
+          "CAN_TX"
+        ]
+      },
+      {
+        "pin": "PB14",
+        "names": [
+          "D12"
+        ]
+      },
+      {
+        "pin": "PB15",
+        "names": [
+          "D11"
+        ]
+      },
+      {
+        "pin": "PC01",
+        "names": [
+          "ETH_MDC"
+        ]
+      },
+      {
+        "pin": "PC03",
+        "names": [
+          "SDRAM_SDCKE0"
+        ]
+      },
+      {
+        "pin": "PC04",
+        "names": [
+          "ETH_RMII_RXD0"
+        ]
+      },
+      {
+        "pin": "PC05",
+        "names": [
+          "ETH_RMII_RXD1"
+        ]
+      },
+      {
+        "pin": "PC06",
+        "names": [
+          "D1"
+        ]
+      },
+      {
+        "pin": "PC07",
+        "names": [
+          "D0"
+        ]
+      },
+      {
+        "pin": "PC08",
+        "names": [
+          "SD_D0"
+        ]
+      },
+      {
+        "pin": "PC09",
+        "names": [
+          "SD_D1"
+        ]
+      },
+      {
+        "pin": "PC10",
+        "names": [
+          "SD_D2"
+        ]
+      },
+      {
+        "pin": "PC11",
+        "names": [
+          "SD_D3"
+        ]
+      },
+      {
+        "pin": "PC12",
+        "names": [
+          "SD_CK"
+        ]
+      },
+      {
+        "pin": "PC13",
+        "names": [
+          "SD_SW"
+        ]
+      },
+      {
+        "pin": "PD00",
+        "names": [
+          "SDRAM_D2"
+        ]
+      },
+      {
+        "pin": "PD01",
+        "names": [
+          "SDRAM_D3"
+        ]
+      },
+      {
+        "pin": "PD02",
+        "names": [
+          "SD_CMD"
+        ]
+      },
+      {
+        "pin": "PD04",
+        "names": [
+          "OTG_FS_OVER_CURRENT"
+        ]
+      },
+      {
+        "pin": "PD05",
+        "names": [
+          "OTG_FS_POWER"
+        ]
+      },
+      {
+        "pin": "PD06",
+        "names": [
+          "AUDIO_INT"
+        ]
+      },
+      {
+        "pin": "PD08",
+        "names": [
+          "SDRAM_D13"
+        ]
+      },
+      {
+        "pin": "PD09",
+        "names": [
+          "SDRAM_D14"
+        ]
+      },
+      {
+        "pin": "PD10",
+        "names": [
+          "SDRAM_D15"
+        ]
+      },
+      {
+        "pin": "PD14",
+        "names": [
+          "SDRAM_D0"
+        ]
+      },
+      {
+        "pin": "PD15",
+        "names": [
+          "SDRAM_D1"
+        ]
+      },
+      {
+        "pin": "PE00",
+        "names": [
+          "SDRAM_NBL0"
+        ]
+      },
+      {
+        "pin": "PE01",
+        "names": [
+          "SDRAM_NBL1"
+        ]
+      },
+      {
+        "pin": "PE03",
+        "names": [
+          "OTG_HS_OVER_CURRENT"
+        ]
+      },
+      {
+        "pin": "PE07",
+        "names": [
+          "SDRAM_D4"
+        ]
+      },
+      {
+        "pin": "PE08",
+        "names": [
+          "SDRAM_D5"
+        ]
+      },
+      {
+        "pin": "PE09",
+        "names": [
+          "SDRAM_D6"
+        ]
+      },
+      {
+        "pin": "PE10",
+        "names": [
+          "SDRAM_D7"
+        ]
+      },
+      {
+        "pin": "PE11",
+        "names": [
+          "SDRAM_D8"
+        ]
+      },
+      {
+        "pin": "PE12",
+        "names": [
+          "SDRAM_D9"
+        ]
+      },
+      {
+        "pin": "PE13",
+        "names": [
+          "SDRAM_D10"
+        ]
+      },
+      {
+        "pin": "PE14",
+        "names": [
+          "SDRAM_D11"
+        ]
+      },
+      {
+        "pin": "PE15",
+        "names": [
+          "SDRAM_D12"
+        ]
+      },
+      {
+        "pin": "PF00",
+        "names": [
+          "SDRAM_A0"
+        ]
+      },
+      {
+        "pin": "PF01",
+        "names": [
+          "SDRAM_A1"
+        ]
+      },
+      {
+        "pin": "PF02",
+        "names": [
+          "SDRAM_A2"
+        ]
+      },
+      {
+        "pin": "PF03",
+        "names": [
+          "SDRAM_A3"
+        ]
+      },
+      {
+        "pin": "PF04",
+        "names": [
+          "SDRAM_A4"
+        ]
+      },
+      {
+        "pin": "PF05",
+        "names": [
+          "SDRAM_A5"
+        ]
+      },
+      {
+        "pin": "PF06",
+        "names": [
+          "A5"
+        ]
+      },
+      {
+        "pin": "PF07",
+        "names": [
+          "A4"
+        ]
+      },
+      {
+        "pin": "PF08",
+        "names": [
+          "A3"
+        ]
+      },
+      {
+        "pin": "PF09",
+        "names": [
+          "A2"
+        ]
+      },
+      {
+        "pin": "PF10",
+        "names": [
+          "A1"
+        ]
+      },
+      {
+        "pin": "PF11",
+        "names": [
+          "SDRAM_SDNRAS"
+        ]
+      },
+      {
+        "pin": "PF12",
+        "names": [
+          "SDRAM_A6"
+        ]
+      },
+      {
+        "pin": "PF13",
+        "names": [
+          "SDRAM_A7"
+        ]
+      },
+      {
+        "pin": "PF14",
+        "names": [
+          "SDRAM_A8"
+        ]
+      },
+      {
+        "pin": "PF15",
+        "names": [
+          "SDRAM_A9"
+        ]
+      },
+      {
+        "pin": "PG00",
+        "names": [
+          "SDRAM_A10"
+        ]
+      },
+      {
+        "pin": "PG01",
+        "names": [
+          "SDRAM_A11"
+        ]
+      },
+      {
+        "pin": "PG02",
+        "names": [
+          "ETH_RMII_RXER"
+        ]
+      },
+      {
+        "pin": "PG03",
+        "names": [
+          "EXT_RST"
+        ]
+      },
+      {
+        "pin": "PG04",
+        "names": [
+          "SDRAM_BA0"
+        ]
+      },
+      {
+        "pin": "PG05",
+        "names": [
+          "SDRAM_BA1"
+        ]
+      },
+      {
+        "pin": "PG06",
+        "names": [
+          "D2"
+        ]
+      },
+      {
+        "pin": "PG07",
+        "names": [
+          "D4"
+        ]
+      },
+      {
+        "pin": "PG08",
+        "names": [
+          "SDRAM_SDCLK"
+        ]
+      },
+      {
+        "pin": "PG11",
+        "names": [
+          "ETH_RMII_TX_EN"
+        ]
+      },
+      {
+        "pin": "PG13",
+        "names": [
+          "ETH_RMII_TXD0"
+        ]
+      },
+      {
+        "pin": "PG14",
+        "names": [
+          "ETH_RMII_TXD1"
+        ]
+      },
+      {
+        "pin": "PG15",
+        "names": [
+          "SDRAM_SDNCAS"
+        ]
+      },
+      {
+        "pin": "PH02",
+        "names": [
+          "TP1"
+        ]
+      },
+      {
+        "pin": "PH03",
+        "names": [
+          "SDRAM_SDNE0"
+        ]
+      },
+      {
+        "pin": "PH05",
+        "names": [
+          "SDRAM_SDNWE"
+        ]
+      },
+      {
+        "pin": "PH06",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "PH07",
+        "names": [
+          "AUDIO_SCL",
+          "LCD_SCL",
+          "I2C3_SCL"
+        ]
+      },
+      {
+        "pin": "PH08",
+        "names": [
+          "AUDIO_SDA",
+          "LCD_SDA",
+          "I2C3_SDA"
+        ]
+      },
+      {
+        "pin": "PH15",
+        "names": [
+          "TP3"
+        ]
+      },
+      {
+        "pin": "PI00",
+        "names": [
+          "D10"
+        ]
+      },
+      {
+        "pin": "PI01",
+        "names": [
+          "D13",
+          "LED"
+        ]
+      },
+      {
+        "pin": "PI02",
+        "names": [
+          "D8"
+        ]
+      },
+      {
+        "pin": "PI03",
+        "names": [
+          "D7"
+        ]
+      },
+      {
+        "pin": "PI08",
+        "names": [
+          "TP2"
+        ]
+      },
+      {
+        "pin": "PI11",
+        "names": [
+          "SW"
+        ]
+      },
+      {
+        "pin": "PI13",
+        "names": [
+          "LCD_INT"
+        ]
+      },
+      {
+        "pin": "PJ12",
+        "names": [
+          "USB_VBUS"
+        ]
+      },
+      {
+        "pin": "PK03",
+        "names": [
+          "LCD_BL_CTRL"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:stm32f746g_discovery",
+      "label": "CircuitPython board definition (stm32f746g_discovery)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/stm32f746g_discovery.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:stm32f746g_discovery",
+      "label": "CircuitPython pin definitions (stm32f746g_discovery)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/stm/boards/stm32f746g_discovery/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

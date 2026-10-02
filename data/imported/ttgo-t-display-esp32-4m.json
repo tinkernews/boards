@@ -1,0 +1,195 @@
+{
+  "slug": "ttgo-t-display-esp32-4m",
+  "name": "TTGO T-Display ESP32 4M",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "lilygo",
+  "chip": "esp32",
+  "ids": {
+    "circuitpython": [
+      "lilygo_ttgo_tdisplay_esp32_4m"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/lilygo_ttgo_tdisplay_esp32_4m/",
+      "source": "circuitpython:lilygo_ttgo_tdisplay_esp32_4m"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:lilygo_ttgo_tdisplay_esp32_4m",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "BUTTON0",
+          "IO0"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "IO2"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "LCD_BCKL"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "LCD_CS"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "IO12"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "IO13"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "IO15"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "LCD_D_C"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "IO17"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "LCD_CLK"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "LCD_MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "IO21"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "IO22"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "LCD_RST"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "IO25"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "IO26"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "IO27"
+        ]
+      },
+      {
+        "pin": "GPIO32",
+        "names": [
+          "IO32"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "IO33"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "BATTERY"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "BUTTON1",
+          "IO35"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "IO36"
+        ]
+      },
+      {
+        "pin": "GPIO37",
+        "names": [
+          "IO37"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "IO38"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "IO39"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:lilygo_ttgo_tdisplay_esp32_4m",
+      "label": "CircuitPython board definition (lilygo_ttgo_tdisplay_esp32_4m)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/lilygo_ttgo_tdisplay_esp32_4m.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:lilygo_ttgo_tdisplay_esp32_4m",
+      "label": "CircuitPython pin definitions (lilygo_ttgo_tdisplay_esp32_4m)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/lilygo_ttgo_tdisplay_esp32_4m/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "m5stack-fire",
+  "name": "M5Stack FIRE",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "m5stack",
+  "chip": "esp32",
+  "aliases": [
+    "Fire"
+  ],
+  "ids": {
+    "platformio": [
+      "m5stack-fire"
+    ],
+    "zephyr": [
+      "m5stack_fire"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:m5stack-fire"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:m5stack-fire"
+    },
+    "upload_limits": {
+      "value": "16 MB flash, 4.31 MB RAM",
+      "source": "platformio:m5stack-fire"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "M5Stack FIRE product page",
+      "url": "http://www.m5stack.com"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/m5stack-fire.html",
+      "source": "platformio:m5stack-fire"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/m5stack-fire.html",
+      "source": "platformio:m5stack-fire"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/m5stack/m5stack_fire/doc/index.html",
+      "source": "zephyr:m5stack_fire"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:m5stack-fire",
+      "label": "PlatformIO board definition (m5stack-fire)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/m5stack-fire.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    },
+    {
+      "id": "zephyr:m5stack_fire",
+      "label": "Zephyr board definition (m5stack_fire)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/m5stack/m5stack_fire/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

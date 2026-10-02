@@ -1,0 +1,40 @@
+{
+  "slug": "renesas-r-car-salvator-xs",
+  "name": "R-Car Salvator-XS",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "renesas",
+  "ids": {
+    "zephyr": [
+      "rcar_salvator_xs"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "R8A77961",
+      "source": "zephyr:rcar_salvator_xs"
+    },
+    "ram": {
+      "value": "512 KB",
+      "source": "zephyr:rcar_salvator_xs"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/renesas/rcar_salvator_xs/doc/index.html",
+      "source": "zephyr:rcar_salvator_xs"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:rcar_salvator_xs",
+      "label": "Zephyr board definition (rcar_salvator_xs)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/renesas/rcar_salvator_xs/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

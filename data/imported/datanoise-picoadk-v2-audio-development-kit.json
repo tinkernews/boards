@@ -1,0 +1,202 @@
+{
+  "slug": "datanoise-picoadk-v2-audio-development-kit",
+  "name": "PicoADK v2 - Audio Development Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "datanoise",
+  "chip": "rp2350",
+  "ids": {
+    "circuitpython": [
+      "datanoise_picoadk_v2"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/datanoise_picoadk_v2/",
+      "source": "circuitpython:datanoise_picoadk_v2"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:datanoise_picoadk_v2",
+    "list": [
+      {
+        "pin": "GPIO1",
+        "names": [
+          "MIDI_RX",
+          "D1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "D2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "MOSI",
+          "D3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "MISO",
+          "D4"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "CS0",
+          "D5"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "SCK",
+          "D6"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "D7"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "SDA",
+          "D8"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "SCL",
+          "D9"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "D10"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "D11"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "TX",
+          "D12"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "RX",
+          "D13"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "D14"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "I2S_DIN"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "I2S_DOUT"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "I2S_BCLK"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "I2S_LRCLK"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "I2S_MCLK"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "SDIO_CLOCK"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "SDIO_COMMAND"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "SDIO_DATA0"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "SDIO_DATA1"
+        ]
+      },
+      {
+        "pin": "GPIO24",
+        "names": [
+          "SDIO_DATA2"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "SDIO_DATA3"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:datanoise_picoadk_v2",
+      "label": "CircuitPython board definition (datanoise_picoadk_v2)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/datanoise_picoadk_v2.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:datanoise_picoadk_v2",
+      "label": "CircuitPython pin definitions (datanoise_picoadk_v2)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/datanoise_picoadk_v2/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

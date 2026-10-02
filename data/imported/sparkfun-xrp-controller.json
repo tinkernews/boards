@@ -1,0 +1,38 @@
+{
+  "slug": "sparkfun-xrp-controller",
+  "name": "XRP Controller",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sparkfun",
+  "chip": "rp2350",
+  "ids": {
+    "micropython": [
+      "SPARKFUN_XRP_CONTROLLER"
+    ]
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "XRP Controller product page",
+      "url": "https://www.sparkfun.com/sparkfun-experiential-robotics-platform-xrp-controller.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/SPARKFUN_XRP_CONTROLLER/",
+      "source": "micropython:sparkfun_xrp_controller"
+    }
+  ],
+  "sources": [
+    {
+      "id": "micropython:sparkfun_xrp_controller",
+      "label": "MicroPython board definition (SPARKFUN_XRP_CONTROLLER)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/rp2/boards/SPARKFUN_XRP_CONTROLLER/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

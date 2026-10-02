@@ -1,0 +1,57 @@
+{
+  "slug": "blackpill-f103c8-128k",
+  "name": "BlackPill F103C8 (128k)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "generic",
+  "chip": "stm32f103c8",
+  "ids": {
+    "platformio": [
+      "blackpill_f103c8_128"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F103C8",
+      "source": "platformio:blackpill_f103c8_128"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M3",
+      "source": "platformio:blackpill_f103c8_128"
+    },
+    "clock": {
+      "value": "72 MHz",
+      "source": "platformio:blackpill_f103c8_128"
+    },
+    "upload_limits": {
+      "value": "128 KB flash, 20 KB RAM",
+      "source": "platformio:blackpill_f103c8_128"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "BlackPill F103C8 (128k) product page",
+      "url": "http://www.st.com/content/st_com/en/products/microcontrollers/stm32-32-bit-arm-cortex-mcus/stm32f1-series/stm32f103/stm32f103c8.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/blackpill_f103c8_128.html",
+      "source": "platformio:blackpill_f103c8_128"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:blackpill_f103c8_128",
+      "label": "PlatformIO board definition (blackpill_f103c8_128)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/blackpill_f103c8_128.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

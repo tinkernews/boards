@@ -1,0 +1,44 @@
+{
+  "slug": "shanghai-ruiside-electronic-art-pi2",
+  "name": "ART-Pi2",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "shanghai-ruiside-electronic",
+  "ids": {
+    "zephyr": [
+      "art_pi2"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32H7R7XX",
+      "source": "zephyr:art_pi2"
+    },
+    "ram": {
+      "value": "640 KB",
+      "source": "zephyr:art_pi2"
+    },
+    "flash": {
+      "value": "64 KB",
+      "source": "zephyr:art_pi2"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/ruiside/art_pi2/doc/index.html",
+      "source": "zephyr:art_pi2"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:art_pi2",
+      "label": "Zephyr board definition (art_pi2)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/ruiside/art_pi2/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

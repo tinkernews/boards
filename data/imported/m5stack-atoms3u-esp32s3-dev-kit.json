@@ -1,0 +1,115 @@
+{
+  "slug": "m5stack-atoms3u-esp32s3-dev-kit",
+  "name": "AtomS3U ESP32S3 Dev Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "m5stack",
+  "chip": "esp32-s3",
+  "ids": {
+    "circuitpython": [
+      "m5stack_atoms3u"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/m5stack_atoms3u/",
+      "source": "circuitpython:m5stack_atoms3u"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:m5stack_atoms3u",
+    "list": [
+      {
+        "pin": "GPIO1",
+        "names": [
+          "PORTA_SCL",
+          "A1",
+          "D1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "PORTA_SDA",
+          "A2",
+          "D2"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "IR_LED"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "A14",
+          "D14"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "A17",
+          "D17"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "PDM_MIC_CLK"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "PDM_MIC_DATA"
+        ]
+      },
+      {
+        "pin": "GPIO40",
+        "names": [
+          "D40"
+        ]
+      },
+      {
+        "pin": "GPIO41",
+        "names": [
+          "BTN"
+        ]
+      },
+      {
+        "pin": "GPIO42",
+        "names": [
+          "D42"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:m5stack_atoms3u",
+      "label": "CircuitPython board definition (m5stack_atoms3u)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/m5stack_atoms3u.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:m5stack_atoms3u",
+      "label": "CircuitPython pin definitions (m5stack_atoms3u)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/m5stack_atoms3u/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

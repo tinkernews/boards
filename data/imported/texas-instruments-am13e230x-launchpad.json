@@ -1,0 +1,44 @@
+{
+  "slug": "texas-instruments-am13e230x-launchpad",
+  "name": "AM13E230X Launchpad",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "texas-instruments",
+  "ids": {
+    "zephyr": [
+      "lp_am13e230"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "AM13E23019",
+      "source": "zephyr:lp_am13e230"
+    },
+    "ram": {
+      "value": "96 KB",
+      "source": "zephyr:lp_am13e230"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:lp_am13e230"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/ti/lp_am13e230/doc/index.html",
+      "source": "zephyr:lp_am13e230"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:lp_am13e230",
+      "label": "Zephyr board definition (lp_am13e230)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/ti/lp_am13e230/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

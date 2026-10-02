@@ -1,0 +1,44 @@
+{
+  "slug": "fanke-fk7b0m1-vbt6",
+  "name": "FK7B0M1-VBT6",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "fanke",
+  "ids": {
+    "zephyr": [
+      "fk7b0m1_vbt6"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32H7B0XX",
+      "source": "zephyr:fk7b0m1_vbt6"
+    },
+    "ram": {
+      "value": "1376 KB",
+      "source": "zephyr:fk7b0m1_vbt6"
+    },
+    "flash": {
+      "value": "128 KB",
+      "source": "zephyr:fk7b0m1_vbt6"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/fanke/fk7b0m1_vbt6/doc/index.html",
+      "source": "zephyr:fk7b0m1_vbt6"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:fk7b0m1_vbt6",
+      "label": "Zephyr board definition (fk7b0m1_vbt6)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/fanke/fk7b0m1_vbt6/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

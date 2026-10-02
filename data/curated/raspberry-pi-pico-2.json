@@ -1,0 +1,139 @@
+{
+  "slug": "raspberry-pi-pico-2",
+  "name": "Raspberry Pi Pico 2",
+  "tier": "curated",
+  "kind": "mcu",
+  "maker": "raspberry-pi",
+  "family": "Raspberry Pi Pico",
+  "chip": "rp2350",
+  "released": "2024-08",
+  "status": "current",
+  "summary": "The Pico with the RP2350: Arm Cortex-M33 or RISC-V cores at 150 MHz, 520 KB of SRAM and 4 MB of flash, for $5.",
+  "aliases": [
+    "Raspberry Pi Pico 2",
+    "Pi Pico 2",
+    "Pico 2"
+  ],
+  "ids": {
+    "zephyr": [
+      "rpi_pico2"
+    ],
+    "circuitpython": [
+      "raspberry_pi_pico2"
+    ],
+    "micropython": [
+      "RPI_PICO2"
+    ]
+  },
+  "review": {
+    "status": "draft"
+  },
+  "predecessor": "raspberry-pi-pico-w",
+  "successor": "raspberry-pi-pico-2-w",
+  "specs": {
+    "chip": {
+      "value": "Raspberry Pi RP2350",
+      "source": "pico2-datasheet"
+    },
+    "cpu": {
+      "value": "2 × Arm Cortex-M33 or 2 × Hazard3 RISC-V (chosen at boot)",
+      "source": "pico2-datasheet"
+    },
+    "clock": {
+      "value": "Up to 150 MHz",
+      "source": "pico2-datasheet"
+    },
+    "ram": {
+      "value": "520 KB SRAM",
+      "source": "pico2-datasheet"
+    },
+    "flash": {
+      "value": "4 MB QSPI",
+      "source": "pico2-datasheet"
+    },
+    "gpio": {
+      "value": "26 multi-function GPIO on two 20-pin edges",
+      "source": "pico2-datasheet"
+    },
+    "io_voltage": {
+      "value": "3.3 V",
+      "source": "pico2-datasheet"
+    },
+    "input_voltage": {
+      "value": "1.8–5.5 V on VSYS; 5 V via micro-USB",
+      "source": "pico2-datasheet"
+    },
+    "usb": {
+      "value": "Micro-USB 1.1 device and host",
+      "source": "pico2-datasheet"
+    },
+    "launch_price": {
+      "value": "US$5",
+      "source": "pico2-launch"
+    }
+  },
+  "docs": [
+    {
+      "kind": "datasheet",
+      "label": "Raspberry Pi Pico 2 datasheet",
+      "url": "https://datasheets.raspberrypi.com/pico/pico-2-datasheet.pdf"
+    },
+    {
+      "kind": "datasheet",
+      "label": "RP2350 datasheet",
+      "url": "https://datasheets.raspberrypi.com/rp2350/rp2350-datasheet.pdf"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://www.raspberrypi.com/documentation/microcontrollers/micropython.html",
+      "source": "pico-docs"
+    }
+  ],
+  "pinout": {
+    "layout": "raspberry-pi-pico",
+    "source": "pico2-datasheet"
+  },
+  "gotchas": [
+    {
+      "title": "RP2350 A2 pull-down erratum",
+      "text": "Early RP2350 silicon (stepping A2) has an erratum (E9) where a GPIO input with the internal pull-down enabled can latch high; use external pull-downs on those revisions.",
+      "source": "rp2350-datasheet"
+    }
+  ],
+  "commonsFile": "File:Top view of a Raspberry Pi Pico 2 microcontroller board.jpg",
+  "editorial": {
+    "history": "Launched in August 2024, the Pico 2 kept the Pico's footprint and price point while moving to the RP2350, with faster cores, twice the SRAM and flash, and new security features.",
+    "today": "The default choice for new Pico projects; most RP2040 code ports with a rebuild.",
+    "source": "pico2-launch"
+  },
+  "sources": [
+    {
+      "id": "pico2-datasheet",
+      "label": "Raspberry Pi Pico 2 datasheet",
+      "url": "https://datasheets.raspberrypi.com/pico/pico-2-datasheet.pdf",
+      "kind": "official"
+    },
+    {
+      "id": "rp2350-datasheet",
+      "label": "RP2350 datasheet",
+      "url": "https://datasheets.raspberrypi.com/rp2350/rp2350-datasheet.pdf",
+      "kind": "official"
+    },
+    {
+      "id": "pico-docs",
+      "label": "Pico-series microcontrollers, Raspberry Pi documentation",
+      "url": "https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html",
+      "kind": "official"
+    },
+    {
+      "id": "pico2-launch",
+      "label": "Raspberry Pi Pico 2, our new $5 microcontroller board, on sale now, Raspberry Pi news",
+      "url": "https://www.raspberrypi.com/news/raspberry-pi-pico-2-our-new-5-microcontroller-board-on-sale-now/",
+      "kind": "official"
+    }
+  ],
+  "updatedAt": "2026-10-01T00:00:00.000Z"
+}

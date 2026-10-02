@@ -1,0 +1,487 @@
+{
+  "slug": "bdmicro-vina-d51",
+  "name": "VINA-D51",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "bdmicro",
+  "chip": "atsamd51j19",
+  "ids": {
+    "circuitpython": [
+      "bdmicro_vina_d51"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/bdmicro_vina_d51/",
+      "source": "circuitpython:bdmicro_vina_d51"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:bdmicro_vina_d51",
+    "list": [
+      {
+        "pin": "PA02",
+        "names": [
+          "DAC0"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "A0"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "DAC1"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "A1"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "A2"
+        ]
+      },
+      {
+        "pin": "PA12",
+        "names": [
+          "I2C1_SCL",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "PA13",
+        "names": [
+          "I2C1_SDA",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PA14",
+        "names": [
+          "D11"
+        ]
+      },
+      {
+        "pin": "PA15",
+        "names": [
+          "D12"
+        ]
+      },
+      {
+        "pin": "PA16",
+        "names": [
+          "AUX_8",
+          "AUX_UART_RX",
+          "AUX_SPI_SCK",
+          "AUX_I2C_SCL",
+          "ATW01_SCK",
+          "ESP01_RX"
+        ]
+      },
+      {
+        "pin": "PA17",
+        "names": [
+          "AUX_1",
+          "AUX_UART_TX",
+          "AUX_SPI_MOSI",
+          "AUX_I2C_SDA",
+          "ATW01_MOSI",
+          "ESP01_TX"
+        ]
+      },
+      {
+        "pin": "PA18",
+        "names": [
+          "AUX_3",
+          "AUX_UART_RTS",
+          "AUX_SPI_SS",
+          "ATW01_SS",
+          "ESP01_GPIO0"
+        ]
+      },
+      {
+        "pin": "PA19",
+        "names": [
+          "AUX_5",
+          "AUX_UART_CTS",
+          "AUX_SPI_MISO",
+          "ATW01_MISO",
+          "ESP01_GPIO2"
+        ]
+      },
+      {
+        "pin": "PA20",
+        "names": [
+          "D17",
+          "I2S_FS_0"
+        ]
+      },
+      {
+        "pin": "PA21",
+        "names": [
+          "D15",
+          "I2S_SDO"
+        ]
+      },
+      {
+        "pin": "PA22",
+        "names": [
+          "D16",
+          "I2S_SDI"
+        ]
+      },
+      {
+        "pin": "PA23",
+        "names": [
+          "LED_B",
+          "LED_STATUS"
+        ]
+      },
+      {
+        "pin": "PA27",
+        "names": [
+          "AUX_9",
+          "ATW01_WAKE"
+        ]
+      },
+      {
+        "pin": "PB00",
+        "names": [
+          "RS485_TE"
+        ]
+      },
+      {
+        "pin": "PB01",
+        "names": [
+          "RS485_RE"
+        ]
+      },
+      {
+        "pin": "PB02",
+        "names": [
+          "RS485_TX"
+        ]
+      },
+      {
+        "pin": "PB03",
+        "names": [
+          "RS485_RX"
+        ]
+      },
+      {
+        "pin": "PB04",
+        "names": [
+          "A7"
+        ]
+      },
+      {
+        "pin": "PB05",
+        "names": [
+          "A8"
+        ]
+      },
+      {
+        "pin": "PB06",
+        "names": [
+          "A9"
+        ]
+      },
+      {
+        "pin": "PB07",
+        "names": [
+          "A10"
+        ]
+      },
+      {
+        "pin": "PB08",
+        "names": [
+          "A3"
+        ]
+      },
+      {
+        "pin": "PB09",
+        "names": [
+          "A4"
+        ]
+      },
+      {
+        "pin": "PB12",
+        "names": [
+          "D13"
+        ]
+      },
+      {
+        "pin": "PB13",
+        "names": [
+          "D14"
+        ]
+      },
+      {
+        "pin": "PB14",
+        "names": [
+          "LED_R"
+        ]
+      },
+      {
+        "pin": "PB15",
+        "names": [
+          "LED_G"
+        ]
+      },
+      {
+        "pin": "PB16",
+        "names": [
+          "D18",
+          "I2S_SCK_0"
+        ]
+      },
+      {
+        "pin": "PB17",
+        "names": [
+          "D19",
+          "I2S_MCK_0"
+        ]
+      },
+      {
+        "pin": "PB18",
+        "names": [
+          "D7"
+        ]
+      },
+      {
+        "pin": "PB19",
+        "names": [
+          "D8"
+        ]
+      },
+      {
+        "pin": "PB20",
+        "names": [
+          "UART2_RX",
+          "RX",
+          "I2C2_SCL"
+        ]
+      },
+      {
+        "pin": "PB21",
+        "names": [
+          "UART2_TX",
+          "TX",
+          "I2C2_SDA"
+        ]
+      },
+      {
+        "pin": "PB22",
+        "names": [
+          "SPI1_SS",
+          "SS"
+        ]
+      },
+      {
+        "pin": "PB23",
+        "names": [
+          "SPI1_MISO",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "PB24",
+        "names": [
+          "UART1_RX"
+        ]
+      },
+      {
+        "pin": "PB25",
+        "names": [
+          "UART1_TX"
+        ]
+      },
+      {
+        "pin": "PB31",
+        "names": [
+          "D0"
+        ]
+      },
+      {
+        "pin": "PC00",
+        "names": [
+          "A11"
+        ]
+      },
+      {
+        "pin": "PC01",
+        "names": [
+          "AUX_10",
+          "ATW01_IRQ"
+        ]
+      },
+      {
+        "pin": "PC02",
+        "names": [
+          "A5"
+        ]
+      },
+      {
+        "pin": "PC03",
+        "names": [
+          "A6"
+        ]
+      },
+      {
+        "pin": "PC05",
+        "names": [
+          "LED_RX"
+        ]
+      },
+      {
+        "pin": "PC06",
+        "names": [
+          "LED_TX"
+        ]
+      },
+      {
+        "pin": "PC07",
+        "names": [
+          "LED_QSPI"
+        ]
+      },
+      {
+        "pin": "PC10",
+        "names": [
+          "AUX_11",
+          "ATW01_GPIO_3"
+        ]
+      },
+      {
+        "pin": "PC11",
+        "names": [
+          "AUX_12",
+          "ATW01_GPIO_1"
+        ]
+      },
+      {
+        "pin": "PC12",
+        "names": [
+          "D9"
+        ]
+      },
+      {
+        "pin": "PC13",
+        "names": [
+          "D10"
+        ]
+      },
+      {
+        "pin": "PC14",
+        "names": [
+          "AUX_4",
+          "ATW01_RESET",
+          "ESP01_RESET"
+        ]
+      },
+      {
+        "pin": "PC15",
+        "names": [
+          "AUX_6",
+          "ATW01_EN",
+          "ESP01_CH_PD"
+        ]
+      },
+      {
+        "pin": "PC16",
+        "names": [
+          "D1"
+        ]
+      },
+      {
+        "pin": "PC17",
+        "names": [
+          "D2"
+        ]
+      },
+      {
+        "pin": "PC18",
+        "names": [
+          "D3"
+        ]
+      },
+      {
+        "pin": "PC19",
+        "names": [
+          "D4"
+        ]
+      },
+      {
+        "pin": "PC20",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "PC21",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "PC24",
+        "names": [
+          "UART1_RTS"
+        ]
+      },
+      {
+        "pin": "PC25",
+        "names": [
+          "UART1_CTS"
+        ]
+      },
+      {
+        "pin": "PC26",
+        "names": [
+          "LED_AUX"
+        ]
+      },
+      {
+        "pin": "PC27",
+        "names": [
+          "SPI1_MOSI",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "PC28",
+        "names": [
+          "SPI1_SCK",
+          "SCK"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:bdmicro_vina_d51",
+      "label": "CircuitPython board definition (bdmicro_vina_d51)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/bdmicro_vina_d51.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:bdmicro_vina_d51",
+      "label": "CircuitPython pin definitions (bdmicro_vina_d51)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/bdmicro_vina_d51/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

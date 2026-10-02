@@ -1,0 +1,181 @@
+{
+  "slug": "sparkfun-stm32-thing-plus",
+  "name": "STM32 Thing Plus",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sparkfun",
+  "ids": {
+    "circuitpython": [
+      "sparkfun_stm32_thing_plus"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/sparkfun_stm32_thing_plus/",
+      "source": "circuitpython:sparkfun_stm32_thing_plus"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:sparkfun_stm32_thing_plus",
+    "list": [
+      {
+        "pin": "PA04",
+        "names": [
+          "A0"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "A1"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "A2"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "A3"
+        ]
+      },
+      {
+        "pin": "PB06",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "PB07",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PB08",
+        "names": [
+          "D9",
+          "CAN_RX"
+        ]
+      },
+      {
+        "pin": "PB09",
+        "names": [
+          "D10",
+          "CAN_TX"
+        ]
+      },
+      {
+        "pin": "PB10",
+        "names": [
+          "TX",
+          "D1"
+        ]
+      },
+      {
+        "pin": "PB11",
+        "names": [
+          "RX",
+          "D0"
+        ]
+      },
+      {
+        "pin": "PB13",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "PB14",
+        "names": [
+          "CIPO",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "PB15",
+        "names": [
+          "COPI",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "PC01",
+        "names": [
+          "LED",
+          "D13"
+        ]
+      },
+      {
+        "pin": "PC02",
+        "names": [
+          "D12"
+        ]
+      },
+      {
+        "pin": "PC03",
+        "names": [
+          "D11"
+        ]
+      },
+      {
+        "pin": "PC04",
+        "names": [
+          "A4"
+        ]
+      },
+      {
+        "pin": "PC05",
+        "names": [
+          "A5"
+        ]
+      },
+      {
+        "pin": "PC06",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "PC07",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "PC12",
+        "names": [
+          "SDIO_CLOCK"
+        ]
+      },
+      {
+        "pin": "PD02",
+        "names": [
+          "SDIO_COMMAND"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:sparkfun_stm32_thing_plus",
+      "label": "CircuitPython board definition (sparkfun_stm32_thing_plus)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/sparkfun_stm32_thing_plus.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:sparkfun_stm32_thing_plus",
+      "label": "CircuitPython pin definitions (sparkfun_stm32_thing_plus)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/stm/boards/sparkfun_stm32_thing_plus/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

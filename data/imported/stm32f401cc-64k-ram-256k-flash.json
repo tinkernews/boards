@@ -1,0 +1,56 @@
+{
+  "slug": "stm32f401cc-64k-ram-256k-flash",
+  "name": "STM32F401CC (64k RAM. 256k Flash)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "generic",
+  "ids": {
+    "platformio": [
+      "genericSTM32F401CC"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F401CCU6",
+      "source": "platformio:genericstm32f401cc"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:genericstm32f401cc"
+    },
+    "clock": {
+      "value": "84 MHz",
+      "source": "platformio:genericstm32f401cc"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 64 KB RAM",
+      "source": "platformio:genericstm32f401cc"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "STM32F401CC (64k RAM. 256k Flash) product page",
+      "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32f401cc.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/genericSTM32F401CC.html",
+      "source": "platformio:genericstm32f401cc"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:genericstm32f401cc",
+      "label": "PlatformIO board definition (genericSTM32F401CC)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/genericSTM32F401CC.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "arduino-nano-every",
+  "name": "Arduino Nano Every",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "chip": "atmega4809",
+  "ids": {
+    "platformio": [
+      "nano_every"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega4809",
+      "source": "platformio:nano_every"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:nano_every"
+    },
+    "upload_limits": {
+      "value": "47.5 KB flash, 6 KB RAM",
+      "source": "platformio:nano_every"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Arduino Nano Every product page",
+      "url": "https://www.arduino.cc/en/Guide/NANOEvery"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelmegaavr/nano_every.html",
+      "source": "platformio:nano_every"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:nano_every",
+      "label": "PlatformIO board definition (nano_every)",
+      "url": "https://github.com/platformio/platform-atmelmegaavr/blob/8d7678dd994dadf43062cb589deba0806fae3a2e/boards/nano_every.json",
+      "kind": "import",
+      "revision": "8d7678dd994dadf43062cb589deba0806fae3a2e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

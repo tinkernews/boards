@@ -1,0 +1,206 @@
+{
+  "slug": "m5stack-cores3-se-esp32s3-iot",
+  "name": "CoreS3 SE ESP32S3 IoT",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "m5stack",
+  "chip": "esp32-s3",
+  "ids": {
+    "circuitpython": [
+      "m5stack_cores3_se"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/m5stack_cores3_se/",
+      "source": "circuitpython:m5stack_cores3_se"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:m5stack_cores3_se",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "I2S_MASTER_CLOCK",
+          "BOOT0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "PORTA_SCL",
+          "D1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "PORTA_SDA",
+          "D2",
+          "A2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "TFT_CS"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "SDCARD_CS"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "NEOPIXEL",
+          "D5",
+          "A5"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "D6",
+          "A6"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "IR",
+          "D7",
+          "A7"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "PORTB_IN",
+          "D8",
+          "A8"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "PORTB_OUT",
+          "D9",
+          "A9"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "I2S_DATA_OUT"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "I2S_DATA_IN"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "PORTC_TX",
+          "D17",
+          "A17"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "PORTC_RX",
+          "D18",
+          "A18"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "I2C_INTERRUPT"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "I2S_WORD_SELECT"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "I2S_BIT_CLOCK"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "TFT_DC"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "TFT_SCK"
+        ]
+      },
+      {
+        "pin": "GPIO37",
+        "names": [
+          "TFT_MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO43",
+        "names": [
+          "TX",
+          "D43"
+        ]
+      },
+      {
+        "pin": "GPIO44",
+        "names": [
+          "RX",
+          "D44"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:m5stack_cores3_se",
+      "label": "CircuitPython board definition (m5stack_cores3_se)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/m5stack_cores3_se.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:m5stack_cores3_se",
+      "label": "CircuitPython pin definitions (m5stack_cores3_se)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/m5stack_cores3_se/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

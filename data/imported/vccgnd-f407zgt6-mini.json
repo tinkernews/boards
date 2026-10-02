@@ -1,0 +1,57 @@
+{
+  "slug": "vccgnd-f407zgt6-mini",
+  "name": "VCCGND F407ZGT6 Mini",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "vccgnd",
+  "chip": "stm32f407",
+  "ids": {
+    "platformio": [
+      "vccgnd_f407zg_mini"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F407",
+      "source": "platformio:vccgnd_f407zg_mini"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:vccgnd_f407zg_mini"
+    },
+    "clock": {
+      "value": "168 MHz",
+      "source": "platformio:vccgnd_f407zg_mini"
+    },
+    "upload_limits": {
+      "value": "1 MB flash, 128 KB RAM",
+      "source": "platformio:vccgnd_f407zg_mini"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "VCCGND F407ZGT6 Mini product page",
+      "url": "https://stm32-base.org/boards/STM32F407ZGT6-VCC-GND-Large"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/vccgnd_f407zg_mini.html",
+      "source": "platformio:vccgnd_f407zg_mini"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:vccgnd_f407zg_mini",
+      "label": "PlatformIO board definition (vccgnd_f407zg_mini)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/vccgnd_f407zg_mini.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

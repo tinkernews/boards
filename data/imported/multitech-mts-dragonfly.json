@@ -1,0 +1,48 @@
+{
+  "slug": "multitech-mts-dragonfly",
+  "name": "MTS Dragonfly",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "multitech",
+  "chip": "stm32f411",
+  "ids": {
+    "platformio": [
+      "mts_dragonfly_f411re"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F411",
+      "source": "platformio:mts_dragonfly_f411re"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:mts_dragonfly_f411re"
+    },
+    "clock": {
+      "value": "100 MHz",
+      "source": "platformio:mts_dragonfly_f411re"
+    },
+    "upload_limits": {
+      "value": "512 KB flash, 128 KB RAM",
+      "source": "platformio:mts_dragonfly_f411re"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "MTS Dragonfly product page",
+      "url": "https://developer.mbed.org/platforms/MTS-Dragonfly/"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:mts_dragonfly_f411re",
+      "label": "PlatformIO board definition (mts_dragonfly_f411re)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/mts_dragonfly_f411re.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

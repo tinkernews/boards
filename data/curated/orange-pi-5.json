@@ -1,0 +1,99 @@
+{
+  "slug": "orange-pi-5",
+  "name": "Orange Pi 5",
+  "tier": "curated",
+  "kind": "sbc",
+  "maker": "orange-pi",
+  "family": "Rockchip SBCs",
+  "released": "2022-12",
+  "status": "current",
+  "summary": "A low-cost RK3588S board with eight cores, up to 32 GB of RAM and an M.2 slot, in a credit-card format.",
+  "aliases": [
+    "Orange Pi 5",
+    "OrangePi 5",
+    "Orange Pi 5 RK3588S"
+  ],
+  "ids": {
+    "linux": [
+      "arch/arm64/boot/dts/rockchip/rk3588s-orangepi-5.dts"
+    ],
+    "armbian": [
+      "orangepi5"
+    ]
+  },
+  "review": {
+    "status": "draft"
+  },
+  "specs": {
+    "chip": {
+      "value": "Rockchip RK3588S",
+      "source": "opi5"
+    },
+    "cpu": {
+      "value": "4 × Cortex-A76 and 4 × Cortex-A55",
+      "source": "opi5"
+    },
+    "clock": {
+      "value": "Up to 2.4 GHz (A76), 1.8 GHz (A55)",
+      "source": "opi5"
+    },
+    "ram": {
+      "value": "4, 8, 16 or 32 GB LPDDR4/4x",
+      "source": "opi5"
+    },
+    "storage": {
+      "value": "microSD and M.2 M-key (NVMe/SATA)",
+      "source": "opi5"
+    },
+    "gpu": {
+      "value": "Mali-G610",
+      "source": "opi5"
+    },
+    "ethernet": {
+      "value": "Gigabit",
+      "source": "opi5"
+    },
+    "video": {
+      "value": "HDMI 2.1",
+      "source": "opi5"
+    },
+    "input_voltage": {
+      "value": "5 V, 4 A via USB-C",
+      "source": "opi5"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Orange Pi 5, Orange Pi",
+      "url": "http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-5.html"
+    }
+  ],
+  "gotchas": [
+    {
+      "title": "No on-board Wi-Fi",
+      "text": "The original Orange Pi 5 has no wireless; add an M.2 E-key card or USB adapter (the 5B variant includes it).",
+      "source": "opi5"
+    }
+  ],
+  "editorial": {
+    "history": "Released late 2022, the Orange Pi 5 undercut most RK3588 boards on price by using the cut-down RK3588S.",
+    "today": "Good value for a compact home server; software support is best through Armbian and the vendor images.",
+    "source": "opi5"
+  },
+  "sources": [
+    {
+      "id": "opi5",
+      "label": "Orange Pi 5, Orange Pi",
+      "url": "http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-5.html",
+      "kind": "official"
+    },
+    {
+      "id": "armbian-opi5",
+      "label": "Orange Pi 5, Armbian",
+      "url": "https://www.armbian.com/orangepi-5/",
+      "kind": "reference"
+    }
+  ],
+  "updatedAt": "2026-10-01T00:00:00.000Z"
+}

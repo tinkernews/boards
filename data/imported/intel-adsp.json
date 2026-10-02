@@ -1,0 +1,36 @@
+{
+  "slug": "intel-adsp",
+  "name": "Intel ADSP",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "intel",
+  "ids": {
+    "zephyr": [
+      "intel_adsp"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "CAVS25",
+      "source": "zephyr:intel_adsp"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/intel/adsp/doc/index.html",
+      "source": "zephyr:intel_adsp"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:intel_adsp",
+      "label": "Zephyr board definition (intel_adsp)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/intel/adsp/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,276 @@
+{
+  "slug": "circuitart-esp32s3-zero",
+  "name": "CircuitArt ESP32S3 Zero",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "circuitart",
+  "chip": "esp32-s3",
+  "ids": {
+    "circuitpython": [
+      "circuitart_zero_s3"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/circuitart_zero_s3/",
+      "source": "circuitpython:circuitart_zero_s3"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:circuitart_zero_s3",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "IO0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "IO1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "IO2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "IO3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "IO4"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "IO5",
+          "TFT_DC"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "IO6",
+          "CAMERA_DATA2"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "IO7",
+          "CAMERA_DATA3"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "IO8",
+          "CAMERA_DATA4"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "IO9",
+          "CAMERA_DATA5"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "IO10",
+          "CAMERA_DATA6"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "IO11",
+          "CAMERA_DATA7"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "IO12"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "IO13",
+          "CAMERA_DATA8"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "IO14",
+          "CAMERA_DATA9"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "IO15",
+          "CAMERA_XCLK"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "IO16",
+          "CAMERA_PCLK"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "IO17"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "IO18"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "CAM_LDO_EN",
+          "CAMERA_PWDN"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "SDA",
+          "IO33"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "SCL",
+          "IO34"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "IO35",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "IO36",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "GPIO37",
+        "names": [
+          "IO37",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "IO38",
+          "CAMERA_VSYNC"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "IO39",
+          "TFT_CS"
+        ]
+      },
+      {
+        "pin": "GPIO40",
+        "names": [
+          "IO40",
+          "TFT_RESET"
+        ]
+      },
+      {
+        "pin": "GPIO41",
+        "names": [
+          "IO41"
+        ]
+      },
+      {
+        "pin": "GPIO42",
+        "names": [
+          "CARD_CS"
+        ]
+      },
+      {
+        "pin": "GPIO43",
+        "names": [
+          "IO43",
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO44",
+        "names": [
+          "IO44",
+          "RX"
+        ]
+      },
+      {
+        "pin": "GPIO46",
+        "names": [
+          "LED"
+        ]
+      },
+      {
+        "pin": "GPIO47",
+        "names": [
+          "NEOPIXEL",
+          "CAMERA_RESET"
+        ]
+      },
+      {
+        "pin": "GPIO48",
+        "names": [
+          "CAMERA_HREF"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:circuitart_zero_s3",
+      "label": "CircuitPython board definition (circuitart_zero_s3)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/circuitart_zero_s3.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:circuitart_zero_s3",
+      "label": "CircuitPython pin definitions (circuitart_zero_s3)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/circuitart_zero_s3/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

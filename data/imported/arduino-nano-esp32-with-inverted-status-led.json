@@ -1,0 +1,209 @@
+{
+  "slug": "arduino-nano-esp32-with-inverted-status-led",
+  "name": "Nano ESP32 with inverted Status LED",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "chip": "esp32-s3",
+  "ids": {
+    "circuitpython": [
+      "arduino_nano_esp32s3_inverted_statusled"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/arduino_nano_esp32s3_inverted_statusled/",
+      "source": "circuitpython:arduino_nano_esp32s3_inverted_statusled"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:arduino_nano_esp32s3_inverted_statusled",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "B1",
+          "LED_B"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "A0",
+          "D17"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "A1",
+          "D18"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "A2",
+          "D19"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "A3",
+          "D20"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "D2"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "D3"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "D4"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "D7"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "A4",
+          "D21",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "A5",
+          "D22",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "A6",
+          "D23"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "A7",
+          "D24"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "D8"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "D9"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "D10"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "D11",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO43",
+        "names": [
+          "D1"
+        ]
+      },
+      {
+        "pin": "GPIO44",
+        "names": [
+          "D0"
+        ]
+      },
+      {
+        "pin": "GPIO45",
+        "names": [
+          "LED_G"
+        ]
+      },
+      {
+        "pin": "GPIO46",
+        "names": [
+          "B0",
+          "LED_R"
+        ]
+      },
+      {
+        "pin": "GPIO47",
+        "names": [
+          "D12",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "GPIO48",
+        "names": [
+          "D13",
+          "SCK",
+          "LED"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:arduino_nano_esp32s3_inverted_statusled",
+      "label": "CircuitPython board definition (arduino_nano_esp32s3_inverted_statusled)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/arduino_nano_esp32s3_inverted_statusled.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:arduino_nano_esp32s3_inverted_statusled",
+      "label": "CircuitPython pin definitions (arduino_nano_esp32s3_inverted_statusled)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/arduino_nano_esp32s3_inverted_statusled/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

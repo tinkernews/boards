@@ -1,0 +1,83 @@
+{
+  "slug": "olimex-esp32-poe",
+  "name": "OLIMEX ESP32-PoE",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "olimex",
+  "chip": "esp32",
+  "aliases": [
+    "ESP32 POE"
+  ],
+  "ids": {
+    "platformio": [
+      "esp32-poe"
+    ],
+    "micropython": [
+      "OLIMEX_ESP32_POE"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:esp32-poe"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:esp32-poe"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:esp32-poe"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "OLIMEX ESP32-PoE product page",
+      "url": "https://www.olimex.com/Products/IoT/ESP32/ESP32-POE/open-source-hardware"
+    },
+    {
+      "kind": "product",
+      "label": "OLIMEX ESP32-PoE product page",
+      "url": "https://www.olimex.com/Products/IoT/ESP32/ESP32-POE"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/esp32-poe.html",
+      "source": "platformio:esp32-poe"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/esp32-poe.html",
+      "source": "platformio:esp32-poe"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/OLIMEX_ESP32_POE/",
+      "source": "micropython:olimex_esp32_poe"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:esp32-poe",
+      "label": "PlatformIO board definition (esp32-poe)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/esp32-poe.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    },
+    {
+      "id": "micropython:olimex_esp32_poe",
+      "label": "MicroPython board definition (OLIMEX_ESP32_POE)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/esp32/boards/OLIMEX_ESP32_POE/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

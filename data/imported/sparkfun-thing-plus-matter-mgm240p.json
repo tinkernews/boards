@@ -1,0 +1,30 @@
+{
+  "slug": "sparkfun-thing-plus-matter-mgm240p",
+  "name": "SparkFun Thing Plus Matter MGM240P",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sparkfun",
+  "ids": {
+    "circuitpython": [
+      "sparkfun_thingplus_matter_mgm240p_brd2704a"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/sparkfun_thingplus_matter_mgm240p_brd2704a/",
+      "source": "circuitpython:sparkfun_thingplus_matter_mgm240p_brd2704a"
+    }
+  ],
+  "sources": [
+    {
+      "id": "circuitpython:sparkfun_thingplus_matter_mgm240p_brd2704a",
+      "label": "CircuitPython board definition (sparkfun_thingplus_matter_mgm240p_brd2704a)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/sparkfun_thingplus_matter_mgm240p_brd2704a.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

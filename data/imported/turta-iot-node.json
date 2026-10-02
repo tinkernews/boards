@@ -1,0 +1,59 @@
+{
+  "slug": "turta-iot-node",
+  "name": "Turta IoT Node",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "turta",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "turta_iot_node"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:turta_iot_node"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:turta_iot_node"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:turta_iot_node"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Turta IoT Node product page",
+      "url": "https://www.turta.io/en/iotnode"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/turta_iot_node.html",
+      "source": "platformio:turta_iot_node"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/turta_iot_node.html",
+      "source": "platformio:turta_iot_node"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:turta_iot_node",
+      "label": "PlatformIO board definition (turta_iot_node)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/turta_iot_node.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

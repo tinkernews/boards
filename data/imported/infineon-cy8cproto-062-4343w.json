@@ -1,0 +1,44 @@
+{
+  "slug": "infineon-cy8cproto-062-4343w",
+  "name": "CY8CPROTO-062-4343W",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "infineon",
+  "ids": {
+    "zephyr": [
+      "cy8cproto_062_4343w"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "CY8C624ABZI_S2D44",
+      "source": "zephyr:cy8cproto_062_4343w"
+    },
+    "ram": {
+      "value": "1024 KB",
+      "source": "zephyr:cy8cproto_062_4343w"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:cy8cproto_062_4343w"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/infineon/cy8cproto_062_4343w/doc/index.html",
+      "source": "zephyr:cy8cproto_062_4343w"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:cy8cproto_062_4343w",
+      "label": "Zephyr board definition (cy8cproto_062_4343w)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/infineon/cy8cproto_062_4343w/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

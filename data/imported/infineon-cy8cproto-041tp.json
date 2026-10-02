@@ -1,0 +1,44 @@
+{
+  "slug": "infineon-cy8cproto-041tp",
+  "name": "CY8CPROTO-041TP",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "infineon",
+  "ids": {
+    "zephyr": [
+      "cy8cproto_041tp"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "CY8C4147AZQ_T495",
+      "source": "zephyr:cy8cproto_041tp"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:cy8cproto_041tp"
+    },
+    "flash": {
+      "value": "128 KB",
+      "source": "zephyr:cy8cproto_041tp"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/infineon/cy8cproto_041tp/doc/index.html",
+      "source": "zephyr:cy8cproto_041tp"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:cy8cproto_041tp",
+      "label": "Zephyr board definition (cy8cproto_041tp)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/infineon/cy8cproto_041tp/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,360 @@
+{
+  "slug": "unexpected-maker-pros3",
+  "name": "Unexpected Maker PROS3",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "unexpected-maker",
+  "chip": "esp32-s3",
+  "aliases": [
+    "Unexpected Maker ProS3",
+    "ProS3"
+  ],
+  "ids": {
+    "platformio": [
+      "um_pros3"
+    ],
+    "circuitpython": [
+      "unexpectedmaker_pros3"
+    ],
+    "micropython": [
+      "UM_PROS3"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-S3",
+      "source": "platformio:um_pros3"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:um_pros3"
+    },
+    "upload_limits": {
+      "value": "16 MB flash, 320 KB RAM",
+      "source": "platformio:um_pros3"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Unexpected Maker PROS3 product page",
+      "url": "https://unexpectedmaker.com/shop/pros3"
+    },
+    {
+      "kind": "product",
+      "label": "Unexpected Maker PROS3 product page",
+      "url": "https://pros3.io"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/um_pros3.html",
+      "source": "platformio:um_pros3"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/um_pros3.html",
+      "source": "platformio:um_pros3"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/UM_PROS3/",
+      "source": "micropython:um_pros3"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/unexpectedmaker_pros3/",
+      "source": "circuitpython:unexpectedmaker_pros3"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:unexpectedmaker_pros3",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "IO0",
+          "D0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "IO1",
+          "A0",
+          "D1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "IO2",
+          "A1",
+          "D2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "IO3",
+          "A2",
+          "D3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "IO4",
+          "A3",
+          "D4"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "IO5",
+          "A4",
+          "D5"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "IO6",
+          "A5",
+          "D6"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "IO7",
+          "A6",
+          "D7"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "SDA",
+          "IO8",
+          "A7",
+          "D8"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "SCL",
+          "IO9",
+          "A8",
+          "D9"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "BATTERY",
+          "VBAT",
+          "VBAT_SENSE",
+          "VOLTAGE_MONITOR"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "IO12",
+          "A11",
+          "D12"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "IO13",
+          "A12",
+          "D13"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "IO14",
+          "A13",
+          "D14"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "IO15",
+          "A14",
+          "D15"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "IO16",
+          "A15",
+          "D16"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "NEOPIXEL_POWER",
+          "LDO2",
+          "IO17"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "IO21",
+          "D21"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "VBUS",
+          "VBUS_SENSE"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "IO34",
+          "D34"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "IO35",
+          "MOSI",
+          "MO",
+          "SDO",
+          "D35"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "IO36",
+          "SCK",
+          "D36"
+        ]
+      },
+      {
+        "pin": "GPIO37",
+        "names": [
+          "IO37",
+          "MISO",
+          "MI",
+          "SDI",
+          "D37"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "IO38",
+          "D38"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "IO39",
+          "MTCK",
+          "D39"
+        ]
+      },
+      {
+        "pin": "GPIO40",
+        "names": [
+          "IO40",
+          "MTDO",
+          "D40"
+        ]
+      },
+      {
+        "pin": "GPIO41",
+        "names": [
+          "IO41",
+          "MTDI",
+          "D41"
+        ]
+      },
+      {
+        "pin": "GPIO42",
+        "names": [
+          "IO42",
+          "MTMS",
+          "D42"
+        ]
+      },
+      {
+        "pin": "GPIO43",
+        "names": [
+          "IO43",
+          "D43",
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO44",
+        "names": [
+          "IO44",
+          "D44",
+          "RX"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "platformio:um_pros3",
+      "label": "PlatformIO board definition (um_pros3)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/um_pros3.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    },
+    {
+      "id": "circuitpython:unexpectedmaker_pros3",
+      "label": "CircuitPython board definition (unexpectedmaker_pros3)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/unexpectedmaker_pros3.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "micropython:um_pros3",
+      "label": "MicroPython board definition (UM_PROS3)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/esp32/boards/UM_PROS3/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    },
+    {
+      "id": "circuitpython-pins:unexpectedmaker_pros3",
+      "label": "CircuitPython pin definitions (unexpectedmaker_pros3)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/unexpectedmaker_pros3/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

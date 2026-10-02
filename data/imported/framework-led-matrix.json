@@ -1,0 +1,45 @@
+{
+  "slug": "framework-led-matrix",
+  "name": "Framework LED Matrix",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "framework-computer",
+  "chip": "rp2040",
+  "ids": {
+    "zephyr": [
+      "framework_ledmatrix"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "RP2040",
+      "source": "zephyr:framework_ledmatrix"
+    },
+    "ram": {
+      "value": "264 KB",
+      "source": "zephyr:framework_ledmatrix"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:framework_ledmatrix"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/framework/framework_ledmatrix/doc/index.html",
+      "source": "zephyr:framework_ledmatrix"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:framework_ledmatrix",
+      "label": "Zephyr board definition (framework_ledmatrix)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/framework/framework_ledmatrix/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

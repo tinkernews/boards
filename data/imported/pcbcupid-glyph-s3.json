@@ -1,0 +1,178 @@
+{
+  "slug": "pcbcupid-glyph-s3",
+  "name": "Pcbcupid GLYPH S3",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "pcb-cupid",
+  "chip": "esp32-s3",
+  "ids": {
+    "circuitpython": [
+      "pcbcupid_glyph_s3"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/pcbcupid_glyph_s3/",
+      "source": "circuitpython:pcbcupid_glyph_s3"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:pcbcupid_glyph_s3",
+    "list": [
+      {
+        "pin": "GPIO1",
+        "names": [
+          "A1",
+          "D1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "A2",
+          "D2"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "SDA",
+          "D4"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "SCL",
+          "D5"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "A6",
+          "D6"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "A7",
+          "D7"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "A8",
+          "D8"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "A9",
+          "D9"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "A10",
+          "D10"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "D13"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "D14"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "D15"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "D16"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "D17"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "D18"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "LED"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO37",
+        "names": [
+          "MISO"
+        ]
+      },
+      {
+        "pin": "GPIO43",
+        "names": [
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO44",
+        "names": [
+          "RX"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:pcbcupid_glyph_s3",
+      "label": "CircuitPython board definition (pcbcupid_glyph_s3)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/pcbcupid_glyph_s3.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:pcbcupid_glyph_s3",
+      "label": "CircuitPython pin definitions (pcbcupid_glyph_s3)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/pcbcupid_glyph_s3/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "nxp-semiconductors-i-mx91-evk",
+  "name": "i.MX91 EVK",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "ids": {
+    "zephyr": [
+      "imx91_evk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MIMX9131",
+      "source": "zephyr:imx91_evk"
+    },
+    "ram": {
+      "value": "1024 KB",
+      "source": "zephyr:imx91_evk"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nxp/imx91_evk/doc/index.html",
+      "source": "zephyr:imx91_evk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:imx91_evk",
+      "label": "Zephyr board definition (imx91_evk)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nxp/imx91_evk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

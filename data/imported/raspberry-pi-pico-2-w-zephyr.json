@@ -1,0 +1,30 @@
+{
+  "slug": "raspberry-pi-pico-2-w-zephyr",
+  "name": "Raspberry Pi Pico 2 W (Zephyr)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "raspberry-pi",
+  "ids": {
+    "circuitpython": [
+      "raspberrypi_rpi_pico2_w_zephyr"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/raspberrypi_rpi_pico2_w_zephyr/",
+      "source": "circuitpython:raspberrypi_rpi_pico2_w_zephyr"
+    }
+  ],
+  "sources": [
+    {
+      "id": "circuitpython:raspberrypi_rpi_pico2_w_zephyr",
+      "label": "CircuitPython board definition (raspberrypi_rpi_pico2_w_zephyr)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/raspberrypi_rpi_pico2_w_zephyr.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

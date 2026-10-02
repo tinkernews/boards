@@ -1,0 +1,40 @@
+{
+  "slug": "intel-bartlett-lake-p-crb",
+  "name": "Bartlett Lake P CRB",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "intel",
+  "ids": {
+    "zephyr": [
+      "intel_btl_s_crb"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "RAPTOR_LAKE",
+      "source": "zephyr:intel_btl_s_crb"
+    },
+    "ram": {
+      "value": "2048 KB",
+      "source": "zephyr:intel_btl_s_crb"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/intel/btl/doc/index.html",
+      "source": "zephyr:intel_btl_s_crb"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:intel_btl_s_crb",
+      "label": "Zephyr board definition (intel_btl_s_crb)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/intel/btl/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

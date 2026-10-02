@@ -1,0 +1,59 @@
+{
+  "slug": "adafruit-qt-py-esp32-s3-no-psram",
+  "name": "Adafruit QT Py ESP32-S3 No PSRAM",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "esp32-s3",
+  "ids": {
+    "platformio": [
+      "adafruit_qtpy_esp32s3_nopsram"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-S3",
+      "source": "platformio:adafruit_qtpy_esp32s3_nopsram"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:adafruit_qtpy_esp32s3_nopsram"
+    },
+    "upload_limits": {
+      "value": "8 MB flash, 320 KB RAM",
+      "source": "platformio:adafruit_qtpy_esp32s3_nopsram"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Adafruit QT Py ESP32-S3 No PSRAM product page",
+      "url": "https://www.adafruit.com/product/5426"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/adafruit_qtpy_esp32s3_nopsram.html",
+      "source": "platformio:adafruit_qtpy_esp32s3_nopsram"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/adafruit_qtpy_esp32s3_nopsram.html",
+      "source": "platformio:adafruit_qtpy_esp32s3_nopsram"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:adafruit_qtpy_esp32s3_nopsram",
+      "label": "PlatformIO board definition (adafruit_qtpy_esp32s3_nopsram)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/adafruit_qtpy_esp32s3_nopsram.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

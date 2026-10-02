@@ -1,0 +1,44 @@
+{
+  "slug": "silicon-labs-sim3u1xx-32-bit-mcu-usb-development-kit",
+  "name": "SiM3U1xx 32-bit MCU USB Development Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "silicon-labs",
+  "ids": {
+    "zephyr": [
+      "sim3u1xx_dk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "SIM3U167",
+      "source": "zephyr:sim3u1xx_dk"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:sim3u1xx_dk"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:sim3u1xx_dk"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/silabs/dev_kits/sim3u1xx_dk/doc/index.html",
+      "source": "zephyr:sim3u1xx_dk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:sim3u1xx_dk",
+      "label": "Zephyr board definition (sim3u1xx_dk)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/silabs/dev_kits/sim3u1xx_dk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

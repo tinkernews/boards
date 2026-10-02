@@ -1,0 +1,157 @@
+{
+  "slug": "adafruit-qt-py-esp32-s3-4mb-flash-2mb-psram",
+  "name": "Adafruit QT Py ESP32-S3 4MB Flash/2MB PSRAM",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "esp32-s3",
+  "ids": {
+    "circuitpython": [
+      "adafruit_qtpy_esp32s3_4mbflash_2mbpsram"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/adafruit_qtpy_esp32s3_4mbflash_2mbpsram/",
+      "source": "circuitpython:adafruit_qtpy_esp32s3_4mbflash_2mbpsram"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:adafruit_qtpy_esp32s3_4mbflash_2mbpsram",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "BUTTON",
+          "D0"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "TX",
+          "A6",
+          "D5"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "SCL",
+          "A5",
+          "D6"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "SDA",
+          "A4",
+          "D7"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "A3",
+          "D8"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "A2",
+          "D9"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "RX",
+          "A7",
+          "D16"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "A1",
+          "D17"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "A0",
+          "D18"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "MOSI",
+          "D35"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "SCK",
+          "D36"
+        ]
+      },
+      {
+        "pin": "GPIO37",
+        "names": [
+          "MISO",
+          "D37"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "NEOPIXEL_POWER"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO40",
+        "names": [
+          "SCL1",
+          "D40"
+        ]
+      },
+      {
+        "pin": "GPIO41",
+        "names": [
+          "SDA1",
+          "D41"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:adafruit_qtpy_esp32s3_4mbflash_2mbpsram",
+      "label": "CircuitPython board definition (adafruit_qtpy_esp32s3_4mbflash_2mbpsram)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/adafruit_qtpy_esp32s3_4mbflash_2mbpsram.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:adafruit_qtpy_esp32s3_4mbflash_2mbpsram",
+      "label": "CircuitPython pin definitions (adafruit_qtpy_esp32s3_4mbflash_2mbpsram)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/adafruit_qtpy_esp32s3_4mbflash_2mbpsram/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

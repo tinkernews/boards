@@ -1,0 +1,38 @@
+{
+  "slug": "george-robotics-pyboard-v1-0",
+  "name": "Pyboard v1.0",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "george-robotics",
+  "ids": {
+    "micropython": [
+      "PYBV10",
+      "PYBV11"
+    ]
+  },
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/PYBV10/",
+      "source": "micropython:pybv10"
+    }
+  ],
+  "sources": [
+    {
+      "id": "micropython:pybv10",
+      "label": "MicroPython board definition (PYBV10)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/stm32/boards/PYBV10/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    },
+    {
+      "id": "micropython:pybv11",
+      "label": "MicroPython board definition (PYBV11)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/stm32/boards/PYBV11/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

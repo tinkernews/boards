@@ -1,0 +1,78 @@
+{
+  "slug": "m5stack-core2",
+  "name": "M5Stack Core2",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "m5stack",
+  "chip": "esp32",
+  "aliases": [
+    "Core2"
+  ],
+  "ids": {
+    "platformio": [
+      "m5stack-core2"
+    ],
+    "zephyr": [
+      "m5stack_core2"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:m5stack-core2"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:m5stack-core2"
+    },
+    "upload_limits": {
+      "value": "16 MB flash, 4.31 MB RAM",
+      "source": "platformio:m5stack-core2"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "M5Stack Core2 product page",
+      "url": "http://www.m5stack.com"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/m5stack-core2.html",
+      "source": "platformio:m5stack-core2"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/m5stack-core2.html",
+      "source": "platformio:m5stack-core2"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/m5stack/m5stack_core2/doc/index.html",
+      "source": "zephyr:m5stack_core2"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:m5stack-core2",
+      "label": "PlatformIO board definition (m5stack-core2)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/m5stack-core2.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    },
+    {
+      "id": "zephyr:m5stack_core2",
+      "label": "Zephyr board definition (m5stack_core2)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/m5stack/m5stack_core2/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

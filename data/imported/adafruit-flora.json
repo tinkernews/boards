@@ -1,0 +1,53 @@
+{
+  "slug": "adafruit-flora",
+  "name": "Adafruit Flora",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "atmega32u4",
+  "ids": {
+    "platformio": [
+      "flora8"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega32U4",
+      "source": "platformio:flora8"
+    },
+    "clock": {
+      "value": "8 MHz",
+      "source": "platformio:flora8"
+    },
+    "upload_limits": {
+      "value": "28 KB flash, 2.5 KB RAM",
+      "source": "platformio:flora8"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Adafruit Flora product page",
+      "url": "http://www.adafruit.com/product/659"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/flora8.html",
+      "source": "platformio:flora8"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:flora8",
+      "label": "PlatformIO board definition (flora8)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/flora8.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

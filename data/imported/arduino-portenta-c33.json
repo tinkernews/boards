@@ -1,0 +1,104 @@
+{
+  "slug": "arduino-portenta-c33",
+  "name": "Arduino Portenta C33",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "aliases": [
+    "Portenta C33"
+  ],
+  "ids": {
+    "platformio": [
+      "portenta_c33"
+    ],
+    "zephyr": [
+      "arduino_portenta_c33"
+    ],
+    "micropython": [
+      "ARDUINO_PORTENTA_C33"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "R7FA6M5BH2CBG",
+      "source": "platformio:portenta_c33"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M33",
+      "source": "platformio:portenta_c33"
+    },
+    "clock": {
+      "value": "200 MHz",
+      "source": "platformio:portenta_c33"
+    },
+    "upload_limits": {
+      "value": "2 MB flash, 511.35 KB RAM",
+      "source": "platformio:portenta_c33"
+    },
+    "ram": {
+      "value": "512 KB",
+      "source": "zephyr:arduino_portenta_c33"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:arduino_portenta_c33"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Arduino Portenta C33 product page",
+      "url": "https://www.arduino.cc/pro/hardware-product-portenta-c33"
+    },
+    {
+      "kind": "product",
+      "label": "Arduino Portenta C33 product page",
+      "url": "https://store.arduino.cc/pages/portenta-c33"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/renesas-ra/portenta_c33.html",
+      "source": "platformio:portenta_c33"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/arduino/portenta_c33/doc/index.html",
+      "source": "zephyr:arduino_portenta_c33"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/ARDUINO_PORTENTA_C33/",
+      "source": "micropython:arduino_portenta_c33"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:portenta_c33",
+      "label": "PlatformIO board definition (portenta_c33)",
+      "url": "https://github.com/platformio/platform-renesas-ra/blob/7a2c1bcc52622fc8e123fc704c50b11c984a29de/boards/portenta_c33.json",
+      "kind": "import",
+      "revision": "7a2c1bcc52622fc8e123fc704c50b11c984a29de"
+    },
+    {
+      "id": "zephyr:arduino_portenta_c33",
+      "label": "Zephyr board definition (arduino_portenta_c33)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/arduino/portenta_c33/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "micropython:arduino_portenta_c33",
+      "label": "MicroPython board definition (ARDUINO_PORTENTA_C33)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/renesas-ra/boards/ARDUINO_PORTENTA_C33/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

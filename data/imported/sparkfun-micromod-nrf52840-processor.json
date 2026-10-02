@@ -1,0 +1,352 @@
+{
+  "slug": "sparkfun-micromod-nrf52840-processor",
+  "name": "MicroMod nRF52840 Processor",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sparkfun",
+  "chip": "nrf52840",
+  "ids": {
+    "circuitpython": [
+      "sparkfun_nrf52840_micromod"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/sparkfun_nrf52840_micromod/",
+      "source": "circuitpython:sparkfun_nrf52840_micromod"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:sparkfun_nrf52840_micromod",
+    "list": [
+      {
+        "pin": "P0_02",
+        "names": [
+          "SPI_CIPO",
+          "SPI_MISO",
+          "CIPO",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "P0_03",
+        "names": [
+          "G1",
+          "BUS1"
+        ]
+      },
+      {
+        "pin": "P0_04",
+        "names": [
+          "A1"
+        ]
+      },
+      {
+        "pin": "P0_05",
+        "names": [
+          "A0"
+        ]
+      },
+      {
+        "pin": "P0_06",
+        "names": [
+          "PWM0"
+        ]
+      },
+      {
+        "pin": "P0_07",
+        "names": [
+          "BOOT"
+        ]
+      },
+      {
+        "pin": "P0_08",
+        "names": [
+          "I2C_SDA",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "P0_09",
+        "names": [
+          "G9",
+          "ADC_DM",
+          "CAM_HSYNC"
+        ]
+      },
+      {
+        "pin": "P0_10",
+        "names": [
+          "G10",
+          "ADC_DP",
+          "CAM_VSYNC"
+        ]
+      },
+      {
+        "pin": "P0_11",
+        "names": [
+          "I2C_SCL",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "P0_13",
+        "names": [
+          "LED"
+        ]
+      },
+      {
+        "pin": "P0_14",
+        "names": [
+          "SDIO_CMD",
+          "SPI_COPI1",
+          "SPI_MOSI1"
+        ]
+      },
+      {
+        "pin": "P0_15",
+        "names": [
+          "I2C_INT"
+        ]
+      },
+      {
+        "pin": "P0_16",
+        "names": [
+          "PWM1"
+        ]
+      },
+      {
+        "pin": "P0_17",
+        "names": [
+          "G5",
+          "BUS5"
+        ]
+      },
+      {
+        "pin": "P0_18",
+        "names": [
+          "RESET"
+        ]
+      },
+      {
+        "pin": "P0_19",
+        "names": [
+          "SDIO_CLK",
+          "SPI_SCK1"
+        ]
+      },
+      {
+        "pin": "P0_20",
+        "names": [
+          "SPI_CS",
+          "CS"
+        ]
+      },
+      {
+        "pin": "P0_21",
+        "names": [
+          "SDIO_DATA0",
+          "SPI_CIPO1",
+          "SPI_MISO1"
+        ]
+      },
+      {
+        "pin": "P0_22",
+        "names": [
+          "SDIO_DATA1"
+        ]
+      },
+      {
+        "pin": "P0_23",
+        "names": [
+          "SDIO_DATA2"
+        ]
+      },
+      {
+        "pin": "P0_24",
+        "names": [
+          "I2C_SCL1"
+        ]
+      },
+      {
+        "pin": "P0_25",
+        "names": [
+          "AUD_BCLK",
+          "I2S_SCK",
+          "PCM_CLK",
+          "PDM_CLK"
+        ]
+      },
+      {
+        "pin": "P0_26",
+        "names": [
+          "AUD_LRCLK",
+          "I2S_WS",
+          "PCM_SYNC",
+          "PDM_DATA"
+        ]
+      },
+      {
+        "pin": "P0_27",
+        "names": [
+          "D0"
+        ]
+      },
+      {
+        "pin": "P0_28",
+        "names": [
+          "SPI_SCK",
+          "SCK",
+          "LED_CLK"
+        ]
+      },
+      {
+        "pin": "P0_29",
+        "names": [
+          "G0",
+          "BUS0"
+        ]
+      },
+      {
+        "pin": "P0_30",
+        "names": [
+          "BATT_VIN3"
+        ]
+      },
+      {
+        "pin": "P0_31",
+        "names": [
+          "SPI_COPI",
+          "SPI_MOSI",
+          "COPI",
+          "MOSI",
+          "LED_DAT"
+        ]
+      },
+      {
+        "pin": "P1_00",
+        "names": [
+          "SDIO_DATA3",
+          "SPI_CS1"
+        ]
+      },
+      {
+        "pin": "P1_01",
+        "names": [
+          "I2C_SDA1"
+        ]
+      },
+      {
+        "pin": "P1_02",
+        "names": [
+          "UART_RTS1"
+        ]
+      },
+      {
+        "pin": "P1_03",
+        "names": [
+          "UART_TX1",
+          "TX"
+        ]
+      },
+      {
+        "pin": "P1_04",
+        "names": [
+          "G7",
+          "BUS7"
+        ]
+      },
+      {
+        "pin": "P1_05",
+        "names": [
+          "UART_RX2"
+        ]
+      },
+      {
+        "pin": "P1_06",
+        "names": [
+          "G6",
+          "BUS6"
+        ]
+      },
+      {
+        "pin": "P1_07",
+        "names": [
+          "UART_TX2"
+        ]
+      },
+      {
+        "pin": "P1_08",
+        "names": [
+          "D1",
+          "CAM_TRIG"
+        ]
+      },
+      {
+        "pin": "P1_09",
+        "names": [
+          "UART_CTS1"
+        ]
+      },
+      {
+        "pin": "P1_10",
+        "names": [
+          "UART_RX1",
+          "RX"
+        ]
+      },
+      {
+        "pin": "P1_11",
+        "names": [
+          "G4",
+          "BUS4"
+        ]
+      },
+      {
+        "pin": "P1_12",
+        "names": [
+          "G3",
+          "BUS3"
+        ]
+      },
+      {
+        "pin": "P1_13",
+        "names": [
+          "G2",
+          "BUS2"
+        ]
+      },
+      {
+        "pin": "P1_14",
+        "names": [
+          "G8"
+        ]
+      },
+      {
+        "pin": "P1_15",
+        "names": [
+          "P3V3_EN"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:sparkfun_nrf52840_micromod",
+      "label": "CircuitPython board definition (sparkfun_nrf52840_micromod)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/sparkfun_nrf52840_micromod.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:sparkfun_nrf52840_micromod",
+      "label": "CircuitPython pin definitions (sparkfun_nrf52840_micromod)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/nordic/boards/sparkfun_nrf52840_micromod/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

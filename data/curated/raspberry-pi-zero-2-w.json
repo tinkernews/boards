@@ -1,0 +1,207 @@
+{
+  "slug": "raspberry-pi-zero-2-w",
+  "name": "Raspberry Pi Zero 2 W",
+  "tier": "curated",
+  "kind": "sbc",
+  "maker": "raspberry-pi",
+  "family": "Raspberry Pi",
+  "chip": "rp3a0",
+  "released": "2021-10",
+  "status": "current",
+  "summary": "The Zero form factor with a quad-core 64-bit RP3A0 system-in-package: Pi 3-class performance for $15.",
+  "aliases": [
+    "Raspberry Pi Zero 2 W",
+    "Raspberry Pi Zero 2",
+    "Pi Zero 2 W",
+    "Pi Zero 2W",
+    "Zero 2 W"
+  ],
+  "ids": {
+    "linux": [
+      "arch/arm/boot/dts/broadcom/bcm2837-rpi-zero-2-w.dts",
+      "arch/arm64/boot/dts/broadcom/bcm2837-rpi-zero-2-w.dts"
+    ],
+    "zephyr": [
+      "rpi_zero_2w"
+    ],
+    "armbian": [
+      "rpi4b"
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "by": "AI-assisted source check",
+    "at": "2026-10-01"
+  },
+  "predecessor": "raspberry-pi-zero-w",
+  "specs": {
+    "storage": {
+      "value": "microSD card",
+      "source": "rpi-docs-source"
+    },
+    "io_voltage": {
+      "value": "3.3 V",
+      "source": "rpi-gpio"
+    },
+    "input_voltage": {
+      "value": "5 V via micro-USB",
+      "source": "rpi-docs-source"
+    },
+    "usb": {
+      "value": "1 × micro-USB OTG (plus a micro-USB power port)",
+      "source": "zero2w-launch"
+    },
+    "video": {
+      "value": "Mini HDMI",
+      "source": "rpi-docs-source"
+    },
+    "dimensions": {
+      "value": "65 × 30 mm",
+      "source": "wikipedia"
+    },
+    "chip": {
+      "value": "Raspberry Pi RP3A0 (BCM2710A1 die plus 512 MB RAM in one package)",
+      "source": "rpi-processors"
+    },
+    "cpu": {
+      "value": "4 × Cortex-A53 (ARMv8, 64-bit)",
+      "source": "rpi-processors"
+    },
+    "clock": {
+      "value": "1 GHz",
+      "source": "rpi-processors"
+    },
+    "ram": {
+      "value": "512 MB",
+      "source": "rpi-docs-source"
+    },
+    "gpio": {
+      "value": "40-pin header, unpopulated (or pre-soldered \"with headers\")",
+      "source": "rpi-docs-source"
+    },
+    "wireless": {
+      "value": "2.4 GHz 802.11n Wi-Fi; Bluetooth 4.2 and BLE",
+      "source": "rpi-docs-source"
+    },
+    "expansion": {
+      "value": "CSI camera connector",
+      "source": "rpi-docs-source"
+    },
+    "launch_price": {
+      "value": "US$15",
+      "source": "zero2w-launch"
+    }
+  },
+  "docs": [
+    {
+      "kind": "guide",
+      "label": "Raspberry Pi hardware documentation",
+      "url": "https://www.raspberrypi.com/documentation/computers/raspberry-pi.html"
+    },
+    {
+      "kind": "product",
+      "label": "Raspberry Pi Zero 2 W product brief",
+      "url": "https://datasheets.raspberrypi.com/rpizero2/raspberry-pi-zero-2-w-product-brief.pdf"
+    },
+    {
+      "kind": "schematic",
+      "label": "Raspberry Pi Zero 2 W reduced schematics",
+      "url": "https://datasheets.raspberrypi.com/rpizero2/raspberry-pi-zero-2-w-reduced-schematics.pdf"
+    }
+  ],
+  "software": [
+    {
+      "platform": "raspberry-pi-os",
+      "status": "supported",
+      "note": "32-bit and 64-bit images.",
+      "url": "https://www.raspberrypi.com/software/operating-systems/",
+      "source": "rpi-software"
+    }
+  ],
+  "pinout": {
+    "layout": "raspberry-pi-40-pin",
+    "source": "rpi-gpio"
+  },
+  "gotchas": [
+    {
+      "title": "3.3 V only",
+      "text": "The GPIO pins are 3.3 V. Do not connect 5 V signals or components to them.",
+      "source": "rpi-gpio"
+    },
+    {
+      "title": "Little current per pin",
+      "text": "Each GPIO pin can supply up to about 16 mA and all pins together about 50 mA; drive motors and other loads through a transistor or driver board.",
+      "source": "rpi-power"
+    }
+  ],
+  "power": {
+    "rows": [
+      {
+        "label": "Recommended supply",
+        "value": "2 A",
+        "source": "rpi-power"
+      },
+      {
+        "label": "USB peripheral budget",
+        "value": "Limited only by the supply, board and connector ratings",
+        "source": "rpi-power"
+      },
+      {
+        "label": "Typical bare-board draw",
+        "value": "350 mA",
+        "source": "rpi-power"
+      }
+    ]
+  },
+  "commonsFile": "File:Raspberry Pi Zero 2 W -- 2024 -- 0008.jpg",
+  "editorial": {
+    "history": "Released in October 2021, the Zero 2 W packed the Pi 3's silicon and 512 MB of RAM into one RP3A0 package so it would fit the original Zero footprint.",
+    "today": "The best small Pi for cameras, retro handhelds, Klipper hosts and headless network gadgets, and it runs 64-bit Raspberry Pi OS.",
+    "source": "zero2w-launch"
+  },
+  "sources": [
+    {
+      "id": "rpi-docs-source",
+      "label": "Raspberry Pi hardware introduction (documentation source)",
+      "url": "https://github.com/raspberrypi/documentation/blob/master/documentation/asciidoc/computers/raspberry-pi/introduction.adoc",
+      "kind": "official"
+    },
+    {
+      "id": "rpi-processors",
+      "label": "Processors, Raspberry Pi documentation",
+      "url": "https://www.raspberrypi.com/documentation/computers/processors.html",
+      "kind": "official"
+    },
+    {
+      "id": "rpi-gpio",
+      "label": "GPIO and the 40-pin header, Raspberry Pi documentation (source)",
+      "url": "https://github.com/raspberrypi/documentation/blob/master/documentation/asciidoc/computers/raspberry-pi/gpio-on-raspberry-pi.adoc",
+      "kind": "official"
+    },
+    {
+      "id": "rpi-power",
+      "label": "Power supplies, Raspberry Pi documentation (source)",
+      "url": "https://github.com/raspberrypi/documentation/blob/master/documentation/asciidoc/computers/raspberry-pi/power-supplies.adoc",
+      "kind": "official"
+    },
+    {
+      "id": "zero2w-launch",
+      "label": "New Raspberry Pi Zero 2 W, Raspberry Pi news",
+      "url": "https://www.raspberrypi.com/news/new-raspberry-pi-zero-2-w-2/",
+      "kind": "official"
+    },
+    {
+      "id": "wikipedia",
+      "label": "Raspberry Pi, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Raspberry_Pi",
+      "kind": "reference"
+    },
+    {
+      "id": "rpi-software",
+      "label": "Raspberry Pi OS downloads, Raspberry Pi",
+      "url": "https://www.raspberrypi.com/software/operating-systems/",
+      "kind": "official"
+    }
+  ],
+  "updatedAt": "2026-10-01T15:00:00.000Z"
+}

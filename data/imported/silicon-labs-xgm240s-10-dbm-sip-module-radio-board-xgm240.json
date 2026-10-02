@@ -1,0 +1,44 @@
+{
+  "slug": "silicon-labs-xgm240s-10-dbm-sip-module-radio-board-xgm240",
+  "name": "xGM240S +10 dBm SiP Module Radio Board (xGM240-RB4318A)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "silicon-labs",
+  "ids": {
+    "zephyr": [
+      "xgm240_rb4318a"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MGM240SD22VNA",
+      "source": "zephyr:xgm240_rb4318a"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:xgm240_rb4318a"
+    },
+    "flash": {
+      "value": "1.5 MB",
+      "source": "zephyr:xgm240_rb4318a"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/silabs/radio_boards/xg24/doc/index.html",
+      "source": "zephyr:xgm240_rb4318a"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:xgm240_rb4318a",
+      "label": "Zephyr board definition (xgm240_rb4318a)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/silabs/radio_boards/xg24/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "adafruit-edgebadge",
+  "name": "EdgeBadge",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "atsamd51j19",
+  "ids": {
+    "circuitpython": [
+      "edgebadge"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/edgebadge/",
+      "source": "circuitpython:edgebadge"
+    }
+  ],
+  "sources": [
+    {
+      "id": "circuitpython:edgebadge",
+      "label": "CircuitPython board definition (edgebadge)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/edgebadge.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

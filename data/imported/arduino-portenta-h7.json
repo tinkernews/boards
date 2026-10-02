@@ -1,0 +1,70 @@
+{
+  "slug": "arduino-portenta-h7",
+  "name": "Arduino Portenta H7",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "aliases": [
+    "Portenta H7"
+  ],
+  "ids": {
+    "zephyr": [
+      "arduino_portenta_h7"
+    ],
+    "micropython": [
+      "ARDUINO_PORTENTA_H7"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32H747XX",
+      "source": "zephyr:arduino_portenta_h7"
+    },
+    "ram": {
+      "value": "288 KB",
+      "source": "zephyr:arduino_portenta_h7"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:arduino_portenta_h7"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Arduino Portenta H7 product page",
+      "url": "https://store.arduino.cc/products/portenta-h7"
+    }
+  ],
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/arduino/portenta_h7/doc/index.html",
+      "source": "zephyr:arduino_portenta_h7"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/ARDUINO_PORTENTA_H7/",
+      "source": "micropython:arduino_portenta_h7"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:arduino_portenta_h7",
+      "label": "Zephyr board definition (arduino_portenta_h7)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/arduino/portenta_h7/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "micropython:arduino_portenta_h7",
+      "label": "MicroPython board definition (ARDUINO_PORTENTA_H7)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/stm32/boards/ARDUINO_PORTENTA_H7/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

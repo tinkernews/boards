@@ -1,0 +1,44 @@
+{
+  "slug": "microchip-technology-mec17xxevb-assy6941",
+  "name": "MEC17xxEVB ASSY6941",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "ids": {
+    "zephyr": [
+      "mec_assy6941"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MEC1653B_NSZ",
+      "source": "zephyr:mec_assy6941"
+    },
+    "ram": {
+      "value": "60 KB",
+      "source": "zephyr:mec_assy6941"
+    },
+    "flash": {
+      "value": "352 KB",
+      "source": "zephyr:mec_assy6941"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/microchip/mec_assy6941/doc/index.html",
+      "source": "zephyr:mec_assy6941"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:mec_assy6941",
+      "label": "Zephyr board definition (mec_assy6941)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/microchip/mec_assy6941/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

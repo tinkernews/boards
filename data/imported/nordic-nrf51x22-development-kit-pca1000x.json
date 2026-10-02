@@ -1,0 +1,57 @@
+{
+  "slug": "nordic-nrf51x22-development-kit-pca1000x",
+  "name": "Nordic nRF51X22 Development Kit(PCA1000X)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nordic-semiconductor",
+  "chip": "nrf51822",
+  "ids": {
+    "platformio": [
+      "nrf51_dk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF51822",
+      "source": "platformio:nrf51_dk"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0",
+      "source": "platformio:nrf51_dk"
+    },
+    "clock": {
+      "value": "32 MHz",
+      "source": "platformio:nrf51_dk"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:nrf51_dk"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Nordic nRF51X22 Development Kit(PCA1000X) product page",
+      "url": "https://www.nordicsemi.com/Software-and-Tools/Development-Kits/nRF51-DK"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/nordicnrf51/nrf51_dk.html",
+      "source": "platformio:nrf51_dk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:nrf51_dk",
+      "label": "PlatformIO board definition (nrf51_dk)",
+      "url": "https://github.com/platformio/platform-nordicnrf51/blob/521963027651adfb1cd631d98767251dee254354/boards/nrf51_dk.json",
+      "kind": "import",
+      "revision": "521963027651adfb1cd631d98767251dee254354"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

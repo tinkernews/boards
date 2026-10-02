@@ -1,0 +1,44 @@
+{
+  "slug": "google-twinkie-v2",
+  "name": "Twinkie V2",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "google",
+  "ids": {
+    "zephyr": [
+      "google_twinkie_v2"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32G0B1XX",
+      "source": "zephyr:google_twinkie_v2"
+    },
+    "ram": {
+      "value": "144 KB",
+      "source": "zephyr:google_twinkie_v2"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:google_twinkie_v2"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/google/twinkie_v2/doc/index.html",
+      "source": "zephyr:google_twinkie_v2"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:google_twinkie_v2",
+      "label": "Zephyr board definition (google_twinkie_v2)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/google/twinkie_v2/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

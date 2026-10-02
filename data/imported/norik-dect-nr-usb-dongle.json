@@ -1,0 +1,44 @@
+{
+  "slug": "norik-dect-nr-usb-dongle",
+  "name": "DECT NR+ USB Dongle",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "norik",
+  "ids": {
+    "zephyr": [
+      "dect_nr_plus_usb_dongle"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "NRF9151",
+      "source": "zephyr:dect_nr_plus_usb_dongle"
+    },
+    "ram": {
+      "value": "88 KB",
+      "source": "zephyr:dect_nr_plus_usb_dongle"
+    },
+    "flash": {
+      "value": "448 KB",
+      "source": "zephyr:dect_nr_plus_usb_dongle"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/norik/dect_nr_plus_usb_dongle/doc/index.html",
+      "source": "zephyr:dect_nr_plus_usb_dongle"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:dect_nr_plus_usb_dongle",
+      "label": "Zephyr board definition (dect_nr_plus_usb_dongle)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/norik/dect_nr_plus_usb_dongle/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

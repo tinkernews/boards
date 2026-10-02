@@ -1,0 +1,52 @@
+{
+  "slug": "pontech-nofire",
+  "name": "Pontech NoFire",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "pontech",
+  "ids": {
+    "platformio": [
+      "nofire"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "32MZ2048EFG100",
+      "source": "platformio:nofire"
+    },
+    "clock": {
+      "value": "200 MHz",
+      "source": "platformio:nofire"
+    },
+    "upload_limits": {
+      "value": "1.98 MB flash, 512 KB RAM",
+      "source": "platformio:nofire"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Pontech NoFire product page",
+      "url": "http://www.pontech.com/products"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/microchippic32/nofire.html",
+      "source": "platformio:nofire"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:nofire",
+      "label": "PlatformIO board definition (nofire)",
+      "url": "https://github.com/platformio/platform-microchippic32/blob/f6e89308da11cfe35d7534696bf01abf3f442461/boards/nofire.json",
+      "kind": "import",
+      "revision": "f6e89308da11cfe35d7534696bf01abf3f442461"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "original-prusa-i3-mk3-multi-material-2-0-upgrade",
+  "name": "Original Prusa i3 MK3 Multi Material 2.0 Upgrade",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "prusa-3d",
+  "chip": "atmega32u4",
+  "ids": {
+    "platformio": [
+      "prusa_mm_control"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega32U4",
+      "source": "platformio:prusa_mm_control"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:prusa_mm_control"
+    },
+    "upload_limits": {
+      "value": "28 KB flash, 2.5 KB RAM",
+      "source": "platformio:prusa_mm_control"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Original Prusa i3 MK3 Multi Material 2.0 Upgrade product page",
+      "url": "https://shop.prusa3d.com/en/upgrades/183-original-prusa-i3-mk25smk3s-multi-material-2s-upgrade-kit-mmu2s.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/prusa_mm_control.html",
+      "source": "platformio:prusa_mm_control"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:prusa_mm_control",
+      "label": "PlatformIO board definition (prusa_mm_control)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/prusa_mm_control.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

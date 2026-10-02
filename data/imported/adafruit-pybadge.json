@@ -1,0 +1,55 @@
+{
+  "slug": "adafruit-pybadge",
+  "name": "PyBadge",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "atsamd51j19",
+  "ids": {
+    "circuitpython": [
+      "pybadge"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/pybadge/",
+      "source": "circuitpython:pybadge"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:pybadge",
+    "list": [
+      {
+        "pin": "PB05",
+        "names": [
+          "TFT_DC"
+        ]
+      },
+      {
+        "pin": "PB07",
+        "names": [
+          "TFT_CS"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:pybadge",
+      "label": "CircuitPython board definition (pybadge)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/pybadge.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:pybadge",
+      "label": "CircuitPython pin definitions (pybadge)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/pybadge/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

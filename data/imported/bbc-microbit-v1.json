@@ -1,0 +1,98 @@
+{
+  "slug": "bbc-microbit-v1",
+  "name": "BBC micro:bit v1",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microbit",
+  "chip": "nrf51822",
+  "aliases": [
+    "BBC micro:bit",
+    "micro:bit",
+    "micro:bit v1"
+  ],
+  "ids": {
+    "platformio": [
+      "bbcmicrobit"
+    ],
+    "zephyr": [
+      "bbc_microbit"
+    ],
+    "micropython": [
+      "MICROBIT"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF51822",
+      "source": "platformio:bbcmicrobit"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0",
+      "source": "platformio:bbcmicrobit"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:bbcmicrobit"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 16 KB RAM",
+      "source": "platformio:bbcmicrobit"
+    },
+    "ram": {
+      "value": "16 KB",
+      "source": "zephyr:bbc_microbit"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "BBC micro:bit v1 product page",
+      "url": "https://microbit.org/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/nordicnrf51/bbcmicrobit.html",
+      "source": "platformio:bbcmicrobit"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/bbc/microbit/doc/index.html",
+      "source": "zephyr:bbc_microbit"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/MICROBIT/",
+      "source": "micropython:microbit"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:bbcmicrobit",
+      "label": "PlatformIO board definition (bbcmicrobit)",
+      "url": "https://github.com/platformio/platform-nordicnrf51/blob/521963027651adfb1cd631d98767251dee254354/boards/bbcmicrobit.json",
+      "kind": "import",
+      "revision": "521963027651adfb1cd631d98767251dee254354"
+    },
+    {
+      "id": "zephyr:bbc_microbit",
+      "label": "Zephyr board definition (bbc_microbit)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/bbc/microbit/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "micropython:microbit",
+      "label": "MicroPython board definition (MICROBIT)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/nrf/boards/MICROBIT/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

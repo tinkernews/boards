@@ -1,0 +1,36 @@
+{
+  "slug": "arm-v2m-musca-s1",
+  "name": "V2M Musca-S1",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arm",
+  "ids": {
+    "zephyr": [
+      "v2m_musca_s1"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MUSCA_S1",
+      "source": "zephyr:v2m_musca_s1"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/arm/v2m_musca_s1/doc/index.html",
+      "source": "zephyr:v2m_musca_s1"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:v2m_musca_s1",
+      "label": "Zephyr board definition (v2m_musca_s1)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/arm/v2m_musca_s1/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

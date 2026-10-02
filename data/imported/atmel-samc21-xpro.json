@@ -1,0 +1,47 @@
+{
+  "slug": "atmel-samc21-xpro",
+  "name": "Atmel SAMC21-XPRO",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "ids": {
+    "platformio": [
+      "samc21_xpro"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "SAMC21J18A",
+      "source": "platformio:samc21_xpro"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:samc21_xpro"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:samc21_xpro"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:samc21_xpro"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Atmel SAMC21-XPRO product page",
+      "url": "https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/ATSAMC21-XPRO"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:samc21_xpro",
+      "label": "PlatformIO board definition (samc21_xpro)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/samc21_xpro.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

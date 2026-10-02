@@ -1,0 +1,44 @@
+{
+  "slug": "texas-instruments-mspm33c321a-launchpad",
+  "name": "MSPM33C321A Launchpad",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "texas-instruments",
+  "ids": {
+    "zephyr": [
+      "lp_mspm33c321a"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MSPM33C321A",
+      "source": "zephyr:lp_mspm33c321a"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:lp_mspm33c321a"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:lp_mspm33c321a"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/ti/lp_mspm33c321a/doc/index.html",
+      "source": "zephyr:lp_mspm33c321a"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:lp_mspm33c321a",
+      "label": "Zephyr board definition (lp_mspm33c321a)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/ti/lp_mspm33c321a/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

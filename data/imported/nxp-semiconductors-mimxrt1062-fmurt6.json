@@ -1,0 +1,45 @@
+{
+  "slug": "nxp-semiconductors-mimxrt1062-fmurt6",
+  "name": "MIMXRT1062-FMURT6",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "chip": "imxrt1062",
+  "ids": {
+    "zephyr": [
+      "mimxrt1062_fmurt6"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "i.MX RT1062",
+      "source": "zephyr:mimxrt1062_fmurt6"
+    },
+    "ram": {
+      "value": "768 KB",
+      "source": "zephyr:mimxrt1062_fmurt6"
+    },
+    "flash": {
+      "value": "64 MB",
+      "source": "zephyr:mimxrt1062_fmurt6"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nxp/mimxrt1062_fmurt6/doc/index.html",
+      "source": "zephyr:mimxrt1062_fmurt6"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:mimxrt1062_fmurt6",
+      "label": "Zephyr board definition (mimxrt1062_fmurt6)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nxp/mimxrt1062_fmurt6/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

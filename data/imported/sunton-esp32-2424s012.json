@@ -1,0 +1,123 @@
+{
+  "slug": "sunton-esp32-2424s012",
+  "name": "Sunton ESP32-2424S012",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sunton",
+  "chip": "esp32-c3",
+  "ids": {
+    "circuitpython": [
+      "sunton_esp32_2424S012"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/sunton_esp32_2424S012/",
+      "source": "circuitpython:sunton_esp32_2424s012"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:sunton_esp32_2424s012",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "TOUCH_INT"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "TOUCH_RST"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "MISO",
+          "LCD_DC"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "LCD_BACKLIGHT"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "IO8"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "BOOT0",
+          "BUTTON0"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "LCD_CS"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "RX"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "TX"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:sunton_esp32_2424s012",
+      "label": "CircuitPython board definition (sunton_esp32_2424S012)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/sunton_esp32_2424S012.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:sunton_esp32_2424s012",
+      "label": "CircuitPython pin definitions (sunton_esp32_2424S012)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/sunton_esp32_2424S012/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

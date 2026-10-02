@@ -1,0 +1,56 @@
+{
+  "slug": "we-oceanus-i-module",
+  "name": "WE Oceanus-I Module",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "we",
+  "ids": {
+    "platformio": [
+      "we_oceanus1"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32WLE5CCU6 ",
+      "source": "platformio:we_oceanus1"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:we_oceanus1"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:we_oceanus1"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 64 KB RAM",
+      "source": "platformio:we_oceanus1"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "WE Oceanus-I Module product page",
+      "url": "https://www.we-online.com/en/components/products/OCEANUS-I"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/we_oceanus1.html",
+      "source": "platformio:we_oceanus1"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:we_oceanus1",
+      "label": "PlatformIO board definition (we_oceanus1)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/we_oceanus1.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T11:14:32.694Z"
+}

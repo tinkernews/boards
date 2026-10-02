@@ -1,0 +1,44 @@
+{
+  "slug": "96boards-carbon",
+  "name": "Carbon",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "96boards",
+  "ids": {
+    "zephyr": [
+      "96b_carbon"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F401XE",
+      "source": "zephyr:96b_carbon"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:96b_carbon"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:96b_carbon"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/96boards/carbon/doc/index.html",
+      "source": "zephyr:96b_carbon"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:96b_carbon",
+      "label": "Zephyr board definition (96b_carbon)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/96boards/carbon/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

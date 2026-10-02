@@ -1,0 +1,44 @@
+{
+  "slug": "amd-zynq-ultrascale-mpsoc-rpu",
+  "name": "AMD Zynq UltraScale+ MPSoC RPU",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "advanced-micro-devices-amd",
+  "ids": {
+    "zephyr": [
+      "zynqmp_rpu"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ZYNQMP_RPU",
+      "source": "zephyr:zynqmp_rpu"
+    },
+    "ram": {
+      "value": "262144 KB",
+      "source": "zephyr:zynqmp_rpu"
+    },
+    "flash": {
+      "value": "512 MB",
+      "source": "zephyr:zynqmp_rpu"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/amd/zynqmp_rpu/doc/index.html",
+      "source": "zephyr:zynqmp_rpu"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:zynqmp_rpu",
+      "label": "Zephyr board definition (zynqmp_rpu)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/amd/zynqmp_rpu/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

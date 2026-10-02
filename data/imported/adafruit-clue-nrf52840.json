@@ -1,0 +1,57 @@
+{
+  "slug": "adafruit-clue-nrf52840",
+  "name": "Adafruit CLUE nRF52840",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "nrf52840",
+  "ids": {
+    "platformio": [
+      "adafruit_clue_nrf52840"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52840",
+      "source": "platformio:adafruit_clue_nrf52840"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:adafruit_clue_nrf52840"
+    },
+    "clock": {
+      "value": "64 MHz",
+      "source": "platformio:adafruit_clue_nrf52840"
+    },
+    "upload_limits": {
+      "value": "796 KB flash, 243 KB RAM",
+      "source": "platformio:adafruit_clue_nrf52840"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Adafruit CLUE nRF52840 product page",
+      "url": "https://www.adafruit.com/product/4500"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/nordicnrf52/adafruit_clue_nrf52840.html",
+      "source": "platformio:adafruit_clue_nrf52840"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:adafruit_clue_nrf52840",
+      "label": "PlatformIO board definition (adafruit_clue_nrf52840)",
+      "url": "https://github.com/platformio/platform-nordicnrf52/blob/278176a7f7ffe2d001eb93eafa271c83b38222e4/boards/adafruit_clue_nrf52840.json",
+      "kind": "import",
+      "revision": "278176a7f7ffe2d001eb93eafa271c83b38222e4"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

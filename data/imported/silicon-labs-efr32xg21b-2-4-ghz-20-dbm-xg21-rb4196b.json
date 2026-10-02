@@ -1,0 +1,44 @@
+{
+  "slug": "silicon-labs-efr32xg21b-2-4-ghz-20-dbm-xg21-rb4196b",
+  "name": "EFR32xG21B 2.4 GHz 20 dBm (xG21-RB4196B)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "silicon-labs",
+  "ids": {
+    "zephyr": [
+      "xg21_rb4196b"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "EFR32MG21B020F1024IM32",
+      "source": "zephyr:xg21_rb4196b"
+    },
+    "ram": {
+      "value": "96 KB",
+      "source": "zephyr:xg21_rb4196b"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:xg21_rb4196b"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/silabs/radio_boards/xg21/doc/index.html",
+      "source": "zephyr:xg21_rb4196b"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:xg21_rb4196b",
+      "label": "Zephyr board definition (xg21_rb4196b)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/silabs/radio_boards/xg21/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

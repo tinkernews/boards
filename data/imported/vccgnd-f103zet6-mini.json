@@ -1,0 +1,56 @@
+{
+  "slug": "vccgnd-f103zet6-mini",
+  "name": "VCCGND F103ZET6 Mini",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "vccgnd",
+  "ids": {
+    "platformio": [
+      "vccgnd_f103zet6"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F103ZET6",
+      "source": "platformio:vccgnd_f103zet6"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M3",
+      "source": "platformio:vccgnd_f103zet6"
+    },
+    "clock": {
+      "value": "72 MHz",
+      "source": "platformio:vccgnd_f103zet6"
+    },
+    "upload_limits": {
+      "value": "512 KB flash, 64 KB RAM",
+      "source": "platformio:vccgnd_f103zet6"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "VCCGND F103ZET6 Mini product page",
+      "url": "https://stm32-base.org/boards/STM32F103ZET6-VCC-GND-XLarge"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/vccgnd_f103zet6.html",
+      "source": "platformio:vccgnd_f103zet6"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:vccgnd_f103zet6",
+      "label": "PlatformIO board definition (vccgnd_f103zet6)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/vccgnd_f103zet6.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

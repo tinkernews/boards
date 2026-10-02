@@ -1,0 +1,52 @@
+{
+  "slug": "microchip-technology-avr-iot-wg-development-board",
+  "name": "AVR-IoT WG Development Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "ids": {
+    "platformio": [
+      "avr_iot_wg"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATMEGA4808",
+      "source": "platformio:avr_iot_wg"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:avr_iot_wg"
+    },
+    "upload_limits": {
+      "value": "48 KB flash, 6 KB RAM",
+      "source": "platformio:avr_iot_wg"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "AVR-IoT WG Development Board product page",
+      "url": "https://www.microchip.com/developmenttools/ProductDetails/AC164160"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelmegaavr/avr_iot_wg.html",
+      "source": "platformio:avr_iot_wg"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:avr_iot_wg",
+      "label": "PlatformIO board definition (avr_iot_wg)",
+      "url": "https://github.com/platformio/platform-atmelmegaavr/blob/8d7678dd994dadf43062cb589deba0806fae3a2e/boards/avr_iot_wg.json",
+      "kind": "import",
+      "revision": "8d7678dd994dadf43062cb589deba0806fae3a2e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

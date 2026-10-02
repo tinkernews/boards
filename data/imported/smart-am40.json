@@ -1,0 +1,32 @@
+{
+  "slug": "smart-am40",
+  "name": "SMART AM40",
+  "tier": "imported",
+  "kind": "sbc",
+  "maker": "smart",
+  "released": "2024",
+  "ids": {
+    "armbian": [
+      "smart-am40"
+    ]
+  },
+  "software": [
+    {
+      "platform": "armbian",
+      "status": "community",
+      "note": "Community-maintained in Armbian.",
+      "url": "https://github.com/armbian/build/blob/main/config/boards/smart-am40.csc",
+      "source": "armbian:smart-am40"
+    }
+  ],
+  "sources": [
+    {
+      "id": "armbian:smart-am40",
+      "label": "Armbian board configuration (smart-am40)",
+      "url": "https://github.com/armbian/build/blob/da85daa05bd260d04dac50315d7317207fd998b3/config/boards/smart-am40.csc",
+      "kind": "import",
+      "revision": "da85daa05bd260d04dac50315d7317207fd998b3"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

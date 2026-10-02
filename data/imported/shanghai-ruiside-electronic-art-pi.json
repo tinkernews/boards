@@ -1,0 +1,45 @@
+{
+  "slug": "shanghai-ruiside-electronic-art-pi",
+  "name": "ART-Pi",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "shanghai-ruiside-electronic",
+  "chip": "stm32h750",
+  "ids": {
+    "zephyr": [
+      "art_pi"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32H750",
+      "source": "zephyr:art_pi"
+    },
+    "ram": {
+      "value": "1024 KB",
+      "source": "zephyr:art_pi"
+    },
+    "flash": {
+      "value": "128 KB",
+      "source": "zephyr:art_pi"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/ruiside/art_pi/doc/index.html",
+      "source": "zephyr:art_pi"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:art_pi",
+      "label": "Zephyr board definition (art_pi)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/ruiside/art_pi/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

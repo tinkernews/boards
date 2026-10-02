@@ -1,0 +1,40 @@
+{
+  "slug": "nxp-semiconductors-i-mx93-evk",
+  "name": "i.MX93 EVK",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "ids": {
+    "zephyr": [
+      "imx93_evk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MIMX9352",
+      "source": "zephyr:imx93_evk"
+    },
+    "ram": {
+      "value": "1024 KB",
+      "source": "zephyr:imx93_evk"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nxp/imx93_evk/doc/index.html",
+      "source": "zephyr:imx93_evk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:imx93_evk",
+      "label": "Zephyr board definition (imx93_evk)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nxp/imx93_evk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

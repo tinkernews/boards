@@ -1,0 +1,37 @@
+{
+  "slug": "stmicroelectronics-discovery-kit-h747i",
+  "name": "Discovery Kit H747I",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "micropython": [
+      "STM32H747I_DISCO"
+    ]
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Discovery Kit H747I product page",
+      "url": "https://www.st.com/en/evaluation-tools/stm32h747i-disco.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/STM32H747I_DISCO/",
+      "source": "micropython:stm32h747i_disco"
+    }
+  ],
+  "sources": [
+    {
+      "id": "micropython:stm32h747i_disco",
+      "label": "MicroPython board definition (STM32H747I_DISCO)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/stm32/boards/STM32H747I_DISCO/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

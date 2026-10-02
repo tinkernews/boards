@@ -1,0 +1,57 @@
+{
+  "slug": "delta-dfbm-nq620",
+  "name": "Delta DFBM-NQ620",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "delta",
+  "chip": "nrf52832",
+  "ids": {
+    "platformio": [
+      "delta_dfbm_nq620"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52832",
+      "source": "platformio:delta_dfbm_nq620"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:delta_dfbm_nq620"
+    },
+    "clock": {
+      "value": "64 MHz",
+      "source": "platformio:delta_dfbm_nq620"
+    },
+    "upload_limits": {
+      "value": "512 KB flash, 64 KB RAM",
+      "source": "platformio:delta_dfbm_nq620"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Delta DFBM-NQ620 product page",
+      "url": "https://developer.mbed.org/platforms/Delta-DFBM-NQ620/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/nordicnrf52/delta_dfbm_nq620.html",
+      "source": "platformio:delta_dfbm_nq620"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:delta_dfbm_nq620",
+      "label": "PlatformIO board definition (delta_dfbm_nq620)",
+      "url": "https://github.com/platformio/platform-nordicnrf52/blob/278176a7f7ffe2d001eb93eafa271c83b38222e4/boards/delta_dfbm_nq620.json",
+      "kind": "import",
+      "revision": "278176a7f7ffe2d001eb93eafa271c83b38222e4"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

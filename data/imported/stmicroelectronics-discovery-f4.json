@@ -1,0 +1,30 @@
+{
+  "slug": "stmicroelectronics-discovery-f4",
+  "name": "Discovery F4",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "micropython": [
+      "STM32F4DISC"
+    ]
+  },
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/STM32F4DISC/",
+      "source": "micropython:stm32f4disc"
+    }
+  ],
+  "sources": [
+    {
+      "id": "micropython:stm32f4disc",
+      "label": "MicroPython board definition (STM32F4DISC)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/stm32/boards/STM32F4DISC/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

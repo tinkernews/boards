@@ -1,0 +1,281 @@
+{
+  "slug": "cytron-maker-uno-rp2040",
+  "name": "Cytron Maker Uno RP2040",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "cytron",
+  "chip": "rp2040",
+  "aliases": [
+    "Maker Uno RP2040"
+  ],
+  "ids": {
+    "zephyr": [
+      "maker_uno_rp2040"
+    ],
+    "circuitpython": [
+      "cytron_maker_uno_rp2040"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "RP2040",
+      "source": "zephyr:maker_uno_rp2040"
+    },
+    "ram": {
+      "value": "264 KB",
+      "source": "zephyr:maker_uno_rp2040"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:maker_uno_rp2040"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/cytron/maker_uno_rp2040/doc/index.html",
+      "source": "zephyr:maker_uno_rp2040"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/cytron_maker_uno_rp2040/",
+      "source": "circuitpython:cytron_maker_uno_rp2040"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:cytron_maker_uno_rp2040",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "GP0",
+          "D0",
+          "LED0",
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "GP1",
+          "D1",
+          "LED1",
+          "RX"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "GP2",
+          "D2",
+          "LED2",
+          "BUTTON"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "GP3",
+          "D3",
+          "LED3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "GP4",
+          "D4",
+          "LED4"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "GP5",
+          "D5",
+          "LED5"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "GP6",
+          "D6",
+          "LED6"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "GP7",
+          "D7",
+          "LED7"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "GP8",
+          "D8",
+          "LED8",
+          "BUZZER"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "GP9",
+          "D9",
+          "LED9"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "GP10",
+          "D10",
+          "LED10",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "GP11",
+          "D11",
+          "LED11",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "GP12",
+          "D12",
+          "LED12",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "GP13",
+          "D13",
+          "LED13"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "GP14",
+          "SERVO1"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "GP15",
+          "SERVO2"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "GP16",
+          "SERVO3"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "GP17",
+          "SERVO4"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "GP20",
+          "D20",
+          "LED20",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "GP21",
+          "D21",
+          "LED21",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "GP25",
+          "NEOPIXEL",
+          "RGB"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "GP26_A0",
+          "GP26",
+          "A0"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "GP27_A1",
+          "GP27",
+          "A1"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "GP28_A2",
+          "GP28",
+          "A2"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "GP29_A3",
+          "GP29",
+          "A3"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "zephyr:maker_uno_rp2040",
+      "label": "Zephyr board definition (maker_uno_rp2040)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/cytron/maker_uno_rp2040/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "circuitpython:cytron_maker_uno_rp2040",
+      "label": "CircuitPython board definition (cytron_maker_uno_rp2040)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/cytron_maker_uno_rp2040.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:cytron_maker_uno_rp2040",
+      "label": "CircuitPython pin definitions (cytron_maker_uno_rp2040)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/cytron_maker_uno_rp2040/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

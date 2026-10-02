@@ -1,0 +1,149 @@
+{
+  "slug": "warmbit-bluepixel",
+  "name": "Warmbit BluePixel",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "warmbit",
+  "chip": "nrf52840",
+  "ids": {
+    "circuitpython": [
+      "warmbit_bluepixel"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/warmbit_bluepixel/",
+      "source": "circuitpython:warmbit_bluepixel"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:warmbit_bluepixel",
+    "list": [
+      {
+        "pin": "P0_04",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "P0_06",
+        "names": [
+          "ADDON_SDA"
+        ]
+      },
+      {
+        "pin": "P0_08",
+        "names": [
+          "TX",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "P0_13",
+        "names": [
+          "D9"
+        ]
+      },
+      {
+        "pin": "P0_15",
+        "names": [
+          "D7"
+        ]
+      },
+      {
+        "pin": "P0_18",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "P0_20",
+        "names": [
+          "D2"
+        ]
+      },
+      {
+        "pin": "P0_22",
+        "names": [
+          "D1"
+        ]
+      },
+      {
+        "pin": "P0_24",
+        "names": [
+          "D0"
+        ]
+      },
+      {
+        "pin": "P0_27",
+        "names": [
+          "L",
+          "LED",
+          "YELLOW_LED"
+        ]
+      },
+      {
+        "pin": "P0_29",
+        "names": [
+          "A0"
+        ]
+      },
+      {
+        "pin": "P0_31",
+        "names": [
+          "A1"
+        ]
+      },
+      {
+        "pin": "P1_09",
+        "names": [
+          "RX",
+          "ADDON_SCL"
+        ]
+      },
+      {
+        "pin": "P1_10",
+        "names": [
+          "ACC_SDA"
+        ]
+      },
+      {
+        "pin": "P1_11",
+        "names": [
+          "ACC_SCL"
+        ]
+      },
+      {
+        "pin": "P1_13",
+        "names": [
+          "MAXTEMP_SCL"
+        ]
+      },
+      {
+        "pin": "P1_15",
+        "names": [
+          "MAXTEMP_SDA"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:warmbit_bluepixel",
+      "label": "CircuitPython board definition (warmbit_bluepixel)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/warmbit_bluepixel.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:warmbit_bluepixel",
+      "label": "CircuitPython pin definitions (warmbit_bluepixel)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/nordic/boards/warmbit_bluepixel/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,322 @@
+{
+  "slug": "arduino-nano-rp2040-connect",
+  "name": "Arduino Nano RP2040 Connect",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "chip": "rp2040",
+  "aliases": [
+    "Nano RP2040 Connect"
+  ],
+  "ids": {
+    "platformio": [
+      "nanorp2040connect"
+    ],
+    "zephyr": [
+      "arduino_nano_connect"
+    ],
+    "circuitpython": [
+      "arduino_nano_rp2040_connect"
+    ],
+    "micropython": [
+      "ARDUINO_NANO_RP2040_CONNECT"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "RP2040",
+      "source": "platformio:nanorp2040connect"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:nanorp2040connect"
+    },
+    "clock": {
+      "value": "133 MHz",
+      "source": "platformio:nanorp2040connect"
+    },
+    "upload_limits": {
+      "value": "2 MB flash, 264 KB RAM",
+      "source": "platformio:nanorp2040connect"
+    },
+    "ram": {
+      "value": "264 KB",
+      "source": "zephyr:arduino_nano_connect"
+    },
+    "flash": {
+      "value": "16 MB",
+      "source": "zephyr:arduino_nano_connect"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Arduino Nano RP2040 Connect product page",
+      "url": "https://blog.arduino.cc/2021/01/20/welcome-raspberry-pi-to-the-world-of-microcontrollers/"
+    },
+    {
+      "kind": "product",
+      "label": "Arduino Nano RP2040 Connect product page",
+      "url": "https://store-usa.arduino.cc/products/arduino-nano-rp2040-connect"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/raspberrypi/nanorp2040connect.html",
+      "source": "platformio:nanorp2040connect"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/arduino/nano_connect/doc/index.html",
+      "source": "zephyr:arduino_nano_connect"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/ARDUINO_NANO_RP2040_CONNECT/",
+      "source": "micropython:arduino_nano_rp2040_connect"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/arduino_nano_rp2040_connect/",
+      "source": "circuitpython:arduino_nano_rp2040_connect"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:arduino_nano_rp2040_connect",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "D0",
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "D1",
+          "RX"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "ESP_GPIO0"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "ESP_RESET"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "D12",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "D10"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "LED",
+          "D13",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "D11",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "MISO1"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "ESP_CS",
+          "CS1"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "ESP_BUSY"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "MOSI1"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "A4",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "A5",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "SCK1"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "D3"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "D4"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "D7"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "D8"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "D9"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "MICROPHONE_DATA"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "MICROPHONE_CLOCK"
+        ]
+      },
+      {
+        "pin": "GPIO24",
+        "names": [
+          "INT1"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "D2"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "A0"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "A1"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "A2"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "A3"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "platformio:nanorp2040connect",
+      "label": "PlatformIO board definition (nanorp2040connect)",
+      "url": "https://github.com/platformio/platform-raspberrypi/blob/6fc5dce8ef6a98a7d3a37414e29b688bdba9ddf9/boards/nanorp2040connect.json",
+      "kind": "import",
+      "revision": "6fc5dce8ef6a98a7d3a37414e29b688bdba9ddf9"
+    },
+    {
+      "id": "zephyr:arduino_nano_connect",
+      "label": "Zephyr board definition (arduino_nano_connect)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/arduino/nano_connect/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "circuitpython:arduino_nano_rp2040_connect",
+      "label": "CircuitPython board definition (arduino_nano_rp2040_connect)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/arduino_nano_rp2040_connect.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "micropython:arduino_nano_rp2040_connect",
+      "label": "MicroPython board definition (ARDUINO_NANO_RP2040_CONNECT)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/rp2/boards/ARDUINO_NANO_RP2040_CONNECT/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    },
+    {
+      "id": "circuitpython-pins:arduino_nano_rp2040_connect",
+      "label": "CircuitPython pin definitions (arduino_nano_rp2040_connect)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/arduino_nano_rp2040_connect/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

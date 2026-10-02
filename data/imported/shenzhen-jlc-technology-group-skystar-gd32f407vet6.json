@@ -1,0 +1,44 @@
+{
+  "slug": "shenzhen-jlc-technology-group-skystar-gd32f407vet6",
+  "name": "SkyStar GD32F407VET6",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "shenzhen-jlc-technology-group",
+  "ids": {
+    "zephyr": [
+      "skystar_gd32f407vet6"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "GD32F407",
+      "source": "zephyr:skystar_gd32f407vet6"
+    },
+    "ram": {
+      "value": "192 KB",
+      "source": "zephyr:skystar_gd32f407vet6"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:skystar_gd32f407vet6"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/jlc/skystar_gd32f407vet6/doc/index.html",
+      "source": "zephyr:skystar_gd32f407vet6"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:skystar_gd32f407vet6",
+      "label": "Zephyr board definition (skystar_gd32f407vet6)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/jlc/skystar_gd32f407vet6/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

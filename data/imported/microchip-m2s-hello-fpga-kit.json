@@ -1,0 +1,44 @@
+{
+  "slug": "microchip-m2s-hello-fpga-kit",
+  "name": "Microchip M2S Hello FPGA Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "ids": {
+    "zephyr": [
+      "m2s_hello_fpga_kit"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "M2S010",
+      "source": "zephyr:m2s_hello_fpga_kit"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:m2s_hello_fpga_kit"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:m2s_hello_fpga_kit"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/microchip/m2s_hello_fpga_kit/doc/index.html",
+      "source": "zephyr:m2s_hello_fpga_kit"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:m2s_hello_fpga_kit",
+      "label": "Zephyr board definition (m2s_hello_fpga_kit)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/microchip/m2s_hello_fpga_kit/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "stmicroelectronics-rhf76-052",
+  "name": "RHF76 052",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "platformio": [
+      "rhf76_052"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32L051C8T6",
+      "source": "platformio:rhf76_052"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:rhf76_052"
+    },
+    "clock": {
+      "value": "32 MHz",
+      "source": "platformio:rhf76_052"
+    },
+    "upload_limits": {
+      "value": "64 KB flash, 8 KB RAM",
+      "source": "platformio:rhf76_052"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "RHF76 052 product page",
+      "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32l051c8.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/rhf76_052.html",
+      "source": "platformio:rhf76_052"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:rhf76_052",
+      "label": "PlatformIO board definition (rhf76_052)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/rhf76_052.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

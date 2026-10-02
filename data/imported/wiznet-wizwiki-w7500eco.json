@@ -1,0 +1,47 @@
+{
+  "slug": "wiznet-wizwiki-w7500eco",
+  "name": "WIZwiki-W7500ECO",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "wiznet",
+  "ids": {
+    "platformio": [
+      "wizwiki_w7500eco"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "WIZNET7500ECO",
+      "source": "platformio:wizwiki_w7500eco"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0",
+      "source": "platformio:wizwiki_w7500eco"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:wizwiki_w7500eco"
+    },
+    "upload_limits": {
+      "value": "128 KB flash, 48 KB RAM",
+      "source": "platformio:wizwiki_w7500eco"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "WIZwiki-W7500ECO product page",
+      "url": "https://developer.mbed.org/platforms/WIZwiki-W7500ECO/"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:wizwiki_w7500eco",
+      "label": "PlatformIO board definition (wizwiki_w7500eco)",
+      "url": "https://github.com/platformio/platform-wiznet7500/blob/a3071bfc661af5a15cbc4af9bc78af6eb60f4575/boards/wizwiki_w7500eco.json",
+      "kind": "import",
+      "revision": "a3071bfc661af5a15cbc4af9bc78af6eb60f4575"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

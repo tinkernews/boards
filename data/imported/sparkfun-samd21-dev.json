@@ -1,0 +1,229 @@
+{
+  "slug": "sparkfun-samd21-dev",
+  "name": "SAMD21 Dev",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sparkfun",
+  "chip": "atsamd21g18",
+  "ids": {
+    "circuitpython": [
+      "sparkfun_samd21_dev"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/sparkfun_samd21_dev/",
+      "source": "circuitpython:sparkfun_samd21_dev"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:sparkfun_samd21_dev",
+    "list": [
+      {
+        "pin": "PA02",
+        "names": [
+          "A0"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "A3"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "A4"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "D8"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "D9"
+        ]
+      },
+      {
+        "pin": "PA08",
+        "names": [
+          "D4"
+        ]
+      },
+      {
+        "pin": "PA09",
+        "names": [
+          "D3"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "D1",
+          "TX"
+        ]
+      },
+      {
+        "pin": "PA11",
+        "names": [
+          "D0",
+          "RX"
+        ]
+      },
+      {
+        "pin": "PA12",
+        "names": [
+          "MISO"
+        ]
+      },
+      {
+        "pin": "PA13",
+        "names": [
+          "D38"
+        ]
+      },
+      {
+        "pin": "PA14",
+        "names": [
+          "D2"
+        ]
+      },
+      {
+        "pin": "PA15",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "PA16",
+        "names": [
+          "D11"
+        ]
+      },
+      {
+        "pin": "PA17",
+        "names": [
+          "D13",
+          "LED",
+          "BLUE_LED"
+        ]
+      },
+      {
+        "pin": "PA18",
+        "names": [
+          "D10"
+        ]
+      },
+      {
+        "pin": "PA19",
+        "names": [
+          "D12"
+        ]
+      },
+      {
+        "pin": "PA20",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "PA21",
+        "names": [
+          "D7"
+        ]
+      },
+      {
+        "pin": "PA22",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PA23",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "PA27",
+        "names": [
+          "GREEN_LED"
+        ]
+      },
+      {
+        "pin": "PB02",
+        "names": [
+          "A5"
+        ]
+      },
+      {
+        "pin": "PB03",
+        "names": [
+          "YELLOW_LED"
+        ]
+      },
+      {
+        "pin": "PB08",
+        "names": [
+          "A1"
+        ]
+      },
+      {
+        "pin": "PB09",
+        "names": [
+          "A2"
+        ]
+      },
+      {
+        "pin": "PB10",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "PB11",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "PB22",
+        "names": [
+          "D30",
+          "TX1"
+        ]
+      },
+      {
+        "pin": "PB23",
+        "names": [
+          "D31",
+          "RX1"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:sparkfun_samd21_dev",
+      "label": "CircuitPython board definition (sparkfun_samd21_dev)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/sparkfun_samd21_dev.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:sparkfun_samd21_dev",
+      "label": "CircuitPython pin definitions (sparkfun_samd21_dev)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/sparkfun_samd21_dev/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

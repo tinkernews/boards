@@ -1,0 +1,44 @@
+{
+  "slug": "muselab-nanoch57x",
+  "name": "MuseLab nanoCH57x",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "muselab",
+  "ids": {
+    "zephyr": [
+      "nano_ch57x"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "CH570",
+      "source": "zephyr:nano_ch57x"
+    },
+    "ram": {
+      "value": "12 KB",
+      "source": "zephyr:nano_ch57x"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:nano_ch57x"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/muselab/nano_ch57x/doc/index.html",
+      "source": "zephyr:nano_ch57x"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:nano_ch57x",
+      "label": "Zephyr board definition (nano_ch57x)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/muselab/nano_ch57x/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

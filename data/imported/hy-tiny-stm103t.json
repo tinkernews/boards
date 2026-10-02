@@ -1,0 +1,56 @@
+{
+  "slug": "hy-tiny-stm103t",
+  "name": "Tiny STM103T",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "hy",
+  "ids": {
+    "platformio": [
+      "hy_tinystm103tb"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F103TBU6",
+      "source": "platformio:hy_tinystm103tb"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M3",
+      "source": "platformio:hy_tinystm103tb"
+    },
+    "clock": {
+      "value": "72 MHz",
+      "source": "platformio:hy_tinystm103tb"
+    },
+    "upload_limits": {
+      "value": "128 KB flash, 20 KB RAM",
+      "source": "platformio:hy_tinystm103tb"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Tiny STM103T product page",
+      "url": "http://www.hotmcu.com/stm32f103tb-arm-cortex-m3-development-board-p-222.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/hy_tinystm103tb.html",
+      "source": "platformio:hy_tinystm103tb"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:hy_tinystm103tb",
+      "label": "PlatformIO board definition (hy_tinystm103tb)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/hy_tinystm103tb.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

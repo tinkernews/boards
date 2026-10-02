@@ -1,0 +1,44 @@
+{
+  "slug": "eurovibes-stm32g431-based-sertest-ng-board",
+  "name": "STM32G431 based Sertest-NG board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "eurovibes",
+  "ids": {
+    "zephyr": [
+      "eurovibes_stm32g431_sertest-ng"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32G431XX",
+      "source": "zephyr:eurovibes_stm32g431_sertest-ng"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:eurovibes_stm32g431_sertest-ng"
+    },
+    "flash": {
+      "value": "128 KB",
+      "source": "zephyr:eurovibes_stm32g431_sertest-ng"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/eurovibes/sertest-ng/doc/index.html",
+      "source": "zephyr:eurovibes_stm32g431_sertest-ng"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:eurovibes_stm32g431_sertest-ng",
+      "label": "Zephyr board definition (eurovibes_stm32g431_sertest-ng)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/eurovibes/sertest-ng/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

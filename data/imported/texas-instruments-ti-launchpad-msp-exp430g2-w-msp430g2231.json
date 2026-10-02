@@ -1,0 +1,52 @@
+{
+  "slug": "texas-instruments-ti-launchpad-msp-exp430g2-w-msp430g2231",
+  "name": "TI LaunchPad MSP-EXP430G2 w/ MSP430G2231",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "texas-instruments",
+  "ids": {
+    "platformio": [
+      "lpmsp430g2231"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MSP430G2231",
+      "source": "platformio:lpmsp430g2231"
+    },
+    "clock": {
+      "value": "1 MHz",
+      "source": "platformio:lpmsp430g2231"
+    },
+    "upload_limits": {
+      "value": "2 KB flash, 0.25 KB RAM",
+      "source": "platformio:lpmsp430g2231"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "TI LaunchPad MSP-EXP430G2 w/ MSP430G2231 product page",
+      "url": "http://www.ti.com/product/MSP430G2231"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/timsp430/lpmsp430g2231.html",
+      "source": "platformio:lpmsp430g2231"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:lpmsp430g2231",
+      "label": "PlatformIO board definition (lpmsp430g2231)",
+      "url": "https://github.com/platformio/platform-timsp430/blob/ba37e42877813fe57f29f605e7a7fe6f71c68d91/boards/lpmsp430g2231.json",
+      "kind": "import",
+      "revision": "ba37e42877813fe57f29f605e7a7fe6f71c68d91"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "u-blox-nina-w10-series",
+  "name": "u-blox NINA-W10 series",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "u-blox",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "nina_w10"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:nina_w10"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:nina_w10"
+    },
+    "upload_limits": {
+      "value": "2 MB flash, 320 KB RAM",
+      "source": "platformio:nina_w10"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "u-blox NINA-W10 series product page",
+      "url": "https://www.u-blox.com/en/product/nina-w10-series"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/nina_w10.html",
+      "source": "platformio:nina_w10"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/nina_w10.html",
+      "source": "platformio:nina_w10"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:nina_w10",
+      "label": "PlatformIO board definition (nina_w10)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/nina_w10.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

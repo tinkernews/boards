@@ -1,0 +1,59 @@
+{
+  "slug": "xinabox-cw02",
+  "name": "XinaBox CW02",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "xinabox",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "xinabox_cw02"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:xinabox_cw02"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:xinabox_cw02"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:xinabox_cw02"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "XinaBox CW02 product page",
+      "url": "https://xinabox.cc/products/cw02"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/xinabox_cw02.html",
+      "source": "platformio:xinabox_cw02"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/xinabox_cw02.html",
+      "source": "platformio:xinabox_cw02"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:xinabox_cw02",
+      "label": "PlatformIO board definition (xinabox_cw02)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/xinabox_cw02.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

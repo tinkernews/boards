@@ -1,0 +1,44 @@
+{
+  "slug": "antmicro-stm32h7-renode-reference-platform",
+  "name": "STM32H7 Renode Reference Platform",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "antmicro",
+  "ids": {
+    "zephyr": [
+      "stm32h7_renode_reference_board"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32H753XX",
+      "source": "zephyr:stm32h7_renode_reference_board"
+    },
+    "ram": {
+      "value": "512 KB",
+      "source": "zephyr:stm32h7_renode_reference_board"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:stm32h7_renode_reference_board"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/antmicro/stm32h7_renode_reference_board/doc/index.html",
+      "source": "zephyr:stm32h7_renode_reference_board"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:stm32h7_renode_reference_board",
+      "label": "Zephyr board definition (stm32h7_renode_reference_board)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/antmicro/stm32h7_renode_reference_board/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

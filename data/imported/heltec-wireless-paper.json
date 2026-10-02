@@ -1,0 +1,164 @@
+{
+  "slug": "heltec-wireless-paper",
+  "name": "Heltec Wireless Paper",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "heltec",
+  "chip": "esp32-s3",
+  "ids": {
+    "circuitpython": [
+      "heltec_wireless_paper"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/heltec_wireless_paper/",
+      "source": "circuitpython:heltec_wireless_paper"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:heltec_wireless_paper",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "BUTTON0"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "EPD_MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "EPD_SCK"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "EPD_CS"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "EPD_DC"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "EPD_RES"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "EPD_BUSY"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "LORA_CS"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "LORA_SCK"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "LORA_MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "LORA_MISO"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "LORA_RESET"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "LORA_BUSY"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "LORA_DIO1"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "LED0"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "ADC_CTRL"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "ADC_IN",
+          "BATTERY"
+        ]
+      },
+      {
+        "pin": "GPIO43",
+        "names": [
+          "DEBUG_TX"
+        ]
+      },
+      {
+        "pin": "GPIO44",
+        "names": [
+          "DEBUG_RX"
+        ]
+      },
+      {
+        "pin": "GPIO45",
+        "names": [
+          "VEXT_CTRL"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:heltec_wireless_paper",
+      "label": "CircuitPython board definition (heltec_wireless_paper)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/heltec_wireless_paper.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:heltec_wireless_paper",
+      "label": "CircuitPython pin definitions (heltec_wireless_paper)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/heltec_wireless_paper/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

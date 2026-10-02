@@ -1,0 +1,44 @@
+{
+  "slug": "stmicroelectronics-sensortile-box-pro",
+  "name": "SensorTile.box PRO",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "zephyr": [
+      "sensortile_box_pro"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32U585XX",
+      "source": "zephyr:sensortile_box_pro"
+    },
+    "ram": {
+      "value": "768 KB",
+      "source": "zephyr:sensortile_box_pro"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:sensortile_box_pro"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/sensortile_box_pro/doc/index.html",
+      "source": "zephyr:sensortile_box_pro"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:sensortile_box_pro",
+      "label": "Zephyr board definition (sensortile_box_pro)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/sensortile_box_pro/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

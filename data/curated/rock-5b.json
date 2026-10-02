@@ -1,0 +1,120 @@
+{
+  "slug": "rock-5b",
+  "name": "Radxa ROCK 5B",
+  "tier": "curated",
+  "kind": "sbc",
+  "maker": "radxa",
+  "family": "Rockchip SBCs",
+  "chip": "rk3588",
+  "released": "2022",
+  "status": "current",
+  "summary": "An RK3588 board with eight cores, up to 16 GB of RAM, 2.5 GbE and an M.2 NVMe slot: one of the fastest Arm SBCs of its generation.",
+  "aliases": [
+    "ROCK 5B",
+    "Rock 5B",
+    "Radxa ROCK 5B",
+    "Radxa Rock 5 Model B",
+    "ROCK 5 Model B"
+  ],
+  "ids": {
+    "linux": [
+      "arch/arm64/boot/dts/rockchip/rk3588-rock-5b.dts"
+    ],
+    "armbian": [
+      "rock-5b"
+    ]
+  },
+  "review": {
+    "status": "draft"
+  },
+  "specs": {
+    "chip": {
+      "value": "Rockchip RK3588",
+      "source": "radxa-docs"
+    },
+    "cpu": {
+      "value": "4 × Cortex-A76 and 4 × Cortex-A55",
+      "source": "rk3588"
+    },
+    "clock": {
+      "value": "Up to 2.4 GHz (A76), 1.8 GHz (A55)",
+      "source": "rk3588"
+    },
+    "ram": {
+      "value": "4, 8, 16 or 32 GB LPDDR4x",
+      "source": "radxa-docs"
+    },
+    "storage": {
+      "value": "microSD, eMMC socket, M.2 M-key NVMe",
+      "source": "radxa-docs"
+    },
+    "gpu": {
+      "value": "Mali-G610 MP4",
+      "source": "rk3588"
+    },
+    "gpio": {
+      "value": "40-pin header",
+      "source": "radxa-docs"
+    },
+    "ethernet": {
+      "value": "2.5 GbE",
+      "source": "radxa-docs"
+    },
+    "usb": {
+      "value": "2 × USB 3.0, 2 × USB 2.0, USB-C with DisplayPort",
+      "source": "radxa-docs"
+    },
+    "video": {
+      "value": "2 × HDMI out, 1 × HDMI in",
+      "source": "radxa-docs"
+    },
+    "input_voltage": {
+      "value": "USB-C Power Delivery (5–20 V)",
+      "source": "radxa-docs"
+    }
+  },
+  "docs": [
+    {
+      "kind": "guide",
+      "label": "ROCK 5B documentation, Radxa",
+      "url": "https://docs.radxa.com/en/rock5/rock5b"
+    },
+    {
+      "kind": "product",
+      "label": "ROCK 5B, Radxa",
+      "url": "https://radxa.com/products/rock5/5b/"
+    }
+  ],
+  "gotchas": [
+    {
+      "title": "Mainline support is still arriving",
+      "text": "Many RK3588 features (video encode, NPU, some display paths) work best on Rockchip's vendor kernel; mainline Linux support has been landing release by release.",
+      "source": "radxa-docs"
+    },
+    {
+      "title": "Fussy about USB-C chargers",
+      "text": "Some PD chargers renegotiate or reset the board at boot; Radxa recommends tested supplies.",
+      "source": "radxa-docs"
+    }
+  ],
+  "editorial": {
+    "history": "Radxa's ROCK 5B was among the first RK3588 boards in 2022, bringing eight cores and NVMe to the hobbyist SBC market.",
+    "today": "A strong home-server and NAS board where a Pi 5 runs out of RAM or I/O; check software support for the features you need.",
+    "source": "radxa-docs"
+  },
+  "sources": [
+    {
+      "id": "radxa-docs",
+      "label": "ROCK 5B documentation, Radxa",
+      "url": "https://docs.radxa.com/en/rock5/rock5b",
+      "kind": "official"
+    },
+    {
+      "id": "rk3588",
+      "label": "RK3588 product page, Rockchip",
+      "url": "https://www.rock-chips.com/a/en/products/RK35_Series/2022/0926/1660.html",
+      "kind": "official"
+    }
+  ],
+  "updatedAt": "2026-10-01T00:00:00.000Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "witte-linum-board",
+  "name": "Linum Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "witte",
+  "ids": {
+    "zephyr": [
+      "linum"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32H753XX",
+      "source": "zephyr:linum"
+    },
+    "ram": {
+      "value": "512 KB",
+      "source": "zephyr:linum"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:linum"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/witte/linum/doc/index.html",
+      "source": "zephyr:linum"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:linum",
+      "label": "Zephyr board definition (linum)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/witte/linum/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

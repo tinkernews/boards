@@ -1,0 +1,44 @@
+{
+  "slug": "stmicroelectronics-stm32f769i-discovery",
+  "name": "STM32F769I Discovery",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "zephyr": [
+      "stm32f769i_disco"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F769XX",
+      "source": "zephyr:stm32f769i_disco"
+    },
+    "ram": {
+      "value": "384 KB",
+      "source": "zephyr:stm32f769i_disco"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:stm32f769i_disco"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/stm32f769i_disco/doc/index.html",
+      "source": "zephyr:stm32f769i_disco"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:stm32f769i_disco",
+      "label": "Zephyr board definition (stm32f769i_disco)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/stm32f769i_disco/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

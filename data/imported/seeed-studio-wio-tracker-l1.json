@@ -1,0 +1,45 @@
+{
+  "slug": "seeed-studio-wio-tracker-l1",
+  "name": "Wio Tracker L1",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "seeed",
+  "chip": "nrf52840",
+  "ids": {
+    "zephyr": [
+      "wio_tracker_l1"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52840",
+      "source": "zephyr:wio_tracker_l1"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:wio_tracker_l1"
+    },
+    "flash": {
+      "value": "788 KB",
+      "source": "zephyr:wio_tracker_l1"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/seeed/wio_tracker_l1/doc/index.html",
+      "source": "zephyr:wio_tracker_l1"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:wio_tracker_l1",
+      "label": "Zephyr board definition (wio_tracker_l1)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/seeed/wio_tracker_l1/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

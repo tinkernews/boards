@@ -1,0 +1,44 @@
+{
+  "slug": "microchip-technology-mec15xxevb-assy6853",
+  "name": "MEC15xxEVB ASSY6853",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "ids": {
+    "zephyr": [
+      "mec15xxevb_assy6853"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MEC1501_HSZ",
+      "source": "zephyr:mec15xxevb_assy6853"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:mec15xxevb_assy6853"
+    },
+    "flash": {
+      "value": "224 KB",
+      "source": "zephyr:mec15xxevb_assy6853"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/microchip/mec15xxevb_assy6853/doc/index.html",
+      "source": "zephyr:mec15xxevb_assy6853"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:mec15xxevb_assy6853",
+      "label": "Zephyr board definition (mec15xxevb_assy6853)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/microchip/mec15xxevb_assy6853/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

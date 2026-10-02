@@ -1,0 +1,59 @@
+{
+  "slug": "s-odi-ultra-v1",
+  "name": "S.ODI Ultra v1",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "s-odi",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "s_odi_ultra"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:s_odi_ultra"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:s_odi_ultra"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:s_odi_ultra"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "S.ODI Ultra v1 product page",
+      "url": "https://www.espressif.com/en/products/socs/esp32"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/s_odi_ultra.html",
+      "source": "platformio:s_odi_ultra"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/s_odi_ultra.html",
+      "source": "platformio:s_odi_ultra"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:s_odi_ultra",
+      "label": "PlatformIO board definition (s_odi_ultra)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/s_odi_ultra.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

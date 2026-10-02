@@ -1,0 +1,59 @@
+{
+  "slug": "t3-foundation-deneyap-kart-g",
+  "name": "Deneyap Kart G",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "t3-foundation",
+  "chip": "esp32-c3",
+  "ids": {
+    "platformio": [
+      "deneyapkartg"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-C3",
+      "source": "platformio:deneyapkartg"
+    },
+    "clock": {
+      "value": "160 MHz",
+      "source": "platformio:deneyapkartg"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:deneyapkartg"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Deneyap Kart G product page",
+      "url": "https://magaza.deneyapkart.org/tr/product/detail/deneyap-kart-g-type-c"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/deneyapkartg.html",
+      "source": "platformio:deneyapkartg"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/deneyapkartg.html",
+      "source": "platformio:deneyapkartg"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:deneyapkartg",
+      "label": "PlatformIO board definition (deneyapkartg)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/deneyapkartg.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

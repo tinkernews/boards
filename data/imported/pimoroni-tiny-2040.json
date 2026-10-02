@@ -1,0 +1,71 @@
+{
+  "slug": "pimoroni-tiny-2040",
+  "name": "Pimoroni Tiny 2040",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "pimoroni",
+  "chip": "rp2040",
+  "aliases": [
+    "Tiny2040"
+  ],
+  "ids": {
+    "zephyr": [
+      "tiny2040"
+    ],
+    "micropython": [
+      "PIMORONI_TINY2040"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "RP2040",
+      "source": "zephyr:tiny2040"
+    },
+    "ram": {
+      "value": "264 KB",
+      "source": "zephyr:tiny2040"
+    },
+    "flash": {
+      "value": "8 MB",
+      "source": "zephyr:tiny2040"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Pimoroni Tiny 2040 product page",
+      "url": "https://shop.pimoroni.com/products/tiny-2040"
+    }
+  ],
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/pimoroni/tiny2040/doc/index.html",
+      "source": "zephyr:tiny2040"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/PIMORONI_TINY2040/",
+      "source": "micropython:pimoroni_tiny2040"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:tiny2040",
+      "label": "Zephyr board definition (tiny2040)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/pimoroni/tiny2040/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "micropython:pimoroni_tiny2040",
+      "label": "MicroPython board definition (PIMORONI_TINY2040)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/rp2/boards/PIMORONI_TINY2040/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

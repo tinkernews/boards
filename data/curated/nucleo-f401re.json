@@ -1,0 +1,105 @@
+{
+  "slug": "nucleo-f401re",
+  "name": "STM32 Nucleo-F401RE",
+  "tier": "curated",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "family": "STM32",
+  "chip": "stm32f401re",
+  "released": "2014",
+  "status": "current",
+  "summary": "ST’s low-cost STM32F401RE development board with an on-board ST-LINK debugger, Arduino Uno headers and ST morpho headers.",
+  "aliases": [
+    "Nucleo-F401RE",
+    "NUCLEO-F401RE",
+    "Nucleo F401RE"
+  ],
+  "ids": {
+    "platformio": [
+      "nucleo_f401re"
+    ],
+    "zephyr": [
+      "nucleo_f401re"
+    ],
+    "micropython": [
+      "NUCLEO_F401RE"
+    ]
+  },
+  "review": {
+    "status": "draft"
+  },
+  "specs": {
+    "chip": {
+      "value": "STMicroelectronics STM32F401RE",
+      "source": "nucleo"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4F",
+      "source": "stm32f401re"
+    },
+    "clock": {
+      "value": "84 MHz",
+      "source": "stm32f401re"
+    },
+    "ram": {
+      "value": "96 KB SRAM",
+      "source": "stm32f401re"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "stm32f401re"
+    },
+    "io_voltage": {
+      "value": "3.3 V",
+      "source": "stm32f401re"
+    },
+    "usb": {
+      "value": "Mini-USB to the on-board ST-LINK/V2-1 (debugger, virtual COM port, mass storage)",
+      "source": "nucleo"
+    },
+    "expansion": {
+      "value": "Arduino Uno V3 headers and ST morpho headers",
+      "source": "zephyr-nucleo"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "NUCLEO-F401RE, STMicroelectronics",
+      "url": "https://www.st.com/en/evaluation-tools/nucleo-f401re.html"
+    }
+  ],
+  "gotchas": [
+    {
+      "title": "Arduino headers, not Arduino voltages",
+      "text": "The headers match the Uno layout but the STM32 runs at 3.3 V; check 5 V shields before stacking them.",
+      "source": "nucleo"
+    }
+  ],
+  "editorial": {
+    "history": "Part of ST's Nucleo-64 range introduced in 2014 to make STM32 evaluation cheap, each with a detachable ST-LINK debugger.",
+    "today": "A dependable, well-supported STM32 board for learning Zephyr, Mbed-era code or bare-metal Cortex-M development.",
+    "source": "nucleo"
+  },
+  "sources": [
+    {
+      "id": "nucleo",
+      "label": "NUCLEO-F401RE, STMicroelectronics",
+      "url": "https://www.st.com/en/evaluation-tools/nucleo-f401re.html",
+      "kind": "official"
+    },
+    {
+      "id": "stm32f401re",
+      "label": "STM32F401RE product page, STMicroelectronics",
+      "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32f401re.html",
+      "kind": "official"
+    },
+    {
+      "id": "zephyr-nucleo",
+      "label": "ST Nucleo F401RE, Zephyr Project documentation",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/nucleo_f401re/doc/index.html",
+      "kind": "reference"
+    }
+  ],
+  "updatedAt": "2026-10-01T00:00:00.000Z"
+}

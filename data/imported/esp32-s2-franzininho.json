@@ -1,0 +1,37 @@
+{
+  "slug": "esp32-s2-franzininho",
+  "name": "ESP32-S2 Franzininho",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "franzininho",
+  "chip": "esp32-s2",
+  "ids": {
+    "zephyr": [
+      "esp32s2_franzininho"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-S2",
+      "source": "zephyr:esp32s2_franzininho"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/franzininho/esp32s2_franzininho/doc/index.html",
+      "source": "zephyr:esp32s2_franzininho"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:esp32s2_franzininho",
+      "label": "Zephyr board definition (esp32s2_franzininho)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/franzininho/esp32s2_franzininho/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

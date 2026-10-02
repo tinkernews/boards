@@ -1,0 +1,40 @@
+{
+  "slug": "phytec-phyboard-polis-i-mx8m-mini",
+  "name": "phyBOARD-Polis i.MX8M Mini",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "phytec",
+  "ids": {
+    "zephyr": [
+      "phyboard_polis"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MIMX8MM6",
+      "source": "zephyr:phyboard_polis"
+    },
+    "ram": {
+      "value": "1024 KB",
+      "source": "zephyr:phyboard_polis"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/phytec/phyboard_polis/doc/index.html",
+      "source": "zephyr:phyboard_polis"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:phyboard_polis",
+      "label": "Zephyr board definition (phyboard_polis)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/phytec/phyboard_polis/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

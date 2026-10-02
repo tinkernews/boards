@@ -1,0 +1,59 @@
+{
+  "slug": "hornbill-esp32-minima",
+  "name": "Hornbill ESP32 Minima",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "hornbill",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "hornbill32minima"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:hornbill32minima"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:hornbill32minima"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:hornbill32minima"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Hornbill ESP32 Minima product page",
+      "url": "https://hackaday.io/project/18997-hornbill"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/hornbill32minima.html",
+      "source": "platformio:hornbill32minima"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/hornbill32minima.html",
+      "source": "platformio:hornbill32minima"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:hornbill32minima",
+      "label": "PlatformIO board definition (hornbill32minima)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/hornbill32minima.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

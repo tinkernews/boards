@@ -1,0 +1,57 @@
+{
+  "slug": "netduino-n2",
+  "name": "N2+",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "netduino",
+  "chip": "stm32f405",
+  "ids": {
+    "platformio": [
+      "netduino2plus"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F405",
+      "source": "platformio:netduino2plus"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:netduino2plus"
+    },
+    "clock": {
+      "value": "168 MHz",
+      "source": "platformio:netduino2plus"
+    },
+    "upload_limits": {
+      "value": "1 MB flash, 128 KB RAM",
+      "source": "platformio:netduino2plus"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "N2+ product page",
+      "url": "http://developer.wildernesslabs.co/Netduino/About/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/netduino2plus.html",
+      "source": "platformio:netduino2plus"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:netduino2plus",
+      "label": "PlatformIO board definition (netduino2plus)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/netduino2plus.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

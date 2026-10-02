@@ -1,0 +1,53 @@
+{
+  "slug": "xinabox-cw01",
+  "name": "XinaBox CW01",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "xinabox",
+  "chip": "esp8266",
+  "ids": {
+    "platformio": [
+      "xinabox_cw01"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP8266EX",
+      "source": "platformio:xinabox_cw01"
+    },
+    "clock": {
+      "value": "80 MHz",
+      "source": "platformio:xinabox_cw01"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 80 KB RAM",
+      "source": "platformio:xinabox_cw01"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "XinaBox CW01 product page",
+      "url": "https://xinabox.cc/products/cw01"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif8266/xinabox_cw01.html",
+      "source": "platformio:xinabox_cw01"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:xinabox_cw01",
+      "label": "PlatformIO board definition (xinabox_cw01)",
+      "url": "https://github.com/platformio/platform-espressif8266/blob/668c2a2e4f16bd83b6c812f1ee0605c62b3ce2d2/boards/xinabox_cw01.json",
+      "kind": "import",
+      "revision": "668c2a2e4f16bd83b6c812f1ee0605c62b3ce2d2"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

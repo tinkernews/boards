@@ -1,0 +1,37 @@
+{
+  "slug": "waveshare-esp32-s3-rlcd-4-2",
+  "name": "ESP32-S3-RLCD-4.2",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "waveshare",
+  "chip": "esp32-s3",
+  "ids": {
+    "zephyr": [
+      "esp32s3_rlcd_4_2"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-S3",
+      "source": "zephyr:esp32s3_rlcd_4_2"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/waveshare/esp32s3_rlcd_4_2/doc/index.html",
+      "source": "zephyr:esp32s3_rlcd_4_2"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:esp32s3_rlcd_4_2",
+      "label": "Zephyr board definition (esp32s3_rlcd_4_2)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/waveshare/esp32s3_rlcd_4_2/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "cadence-swerv-based-boards",
+  "name": "Cadence SweRV based boards",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "cadence-design",
+  "ids": {
+    "zephyr": [
+      "cdns_swerv"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "S400",
+      "source": "zephyr:cdns_swerv"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/cdns/swerv/doc/index.html",
+      "source": "zephyr:cdns_swerv"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:cdns_swerv",
+      "label": "Zephyr board definition (cdns_swerv)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/cdns/swerv/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

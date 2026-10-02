@@ -1,0 +1,45 @@
+{
+  "slug": "qorvo-decawave-dwm3001cdk",
+  "name": "Decawave DWM3001CDK",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "qorvo",
+  "chip": "nrf52833",
+  "ids": {
+    "zephyr": [
+      "decawave_dwm3001cdk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52833",
+      "source": "zephyr:decawave_dwm3001cdk"
+    },
+    "ram": {
+      "value": "128 KB",
+      "source": "zephyr:decawave_dwm3001cdk"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:decawave_dwm3001cdk"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/qorvo/decawave_dwm3001cdk/doc/index.html",
+      "source": "zephyr:decawave_dwm3001cdk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:decawave_dwm3001cdk",
+      "label": "Zephyr board definition (decawave_dwm3001cdk)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/qorvo/decawave_dwm3001cdk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,259 @@
+{
+  "slug": "solder-party-esp32-p4-stamp-xl",
+  "name": "ESP32-P4 Stamp XL",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "solder-party",
+  "chip": "esp32-p4",
+  "ids": {
+    "circuitpython": [
+      "solderparty_esp32p4_stamp_xl"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/solderparty_esp32p4_stamp_xl/",
+      "source": "circuitpython:solderparty_esp32p4_stamp_xl"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:solderparty_esp32p4_stamp_xl",
+    "list": [
+      {
+        "pin": "GPIO6",
+        "names": [
+          "IO6"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "IO7"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "IO8"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "IO9"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "IO10"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "IO11"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "IO12"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "IO13"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "IO14"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "IO15"
+        ]
+      },
+      {
+        "pin": "GPIO24",
+        "names": [
+          "IO24"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "IO25"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "IO26"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "IO27"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "IO28"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "IO29"
+        ]
+      },
+      {
+        "pin": "GPIO30",
+        "names": [
+          "IO30"
+        ]
+      },
+      {
+        "pin": "GPIO31",
+        "names": [
+          "IO31"
+        ]
+      },
+      {
+        "pin": "GPIO32",
+        "names": [
+          "IO32"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "IO33"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "IO34"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "IO35"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "IO36"
+        ]
+      },
+      {
+        "pin": "GPIO37",
+        "names": [
+          "IO37"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "IO38"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "IO39"
+        ]
+      },
+      {
+        "pin": "GPIO40",
+        "names": [
+          "IO40"
+        ]
+      },
+      {
+        "pin": "GPIO41",
+        "names": [
+          "IO41"
+        ]
+      },
+      {
+        "pin": "GPIO42",
+        "names": [
+          "IO42"
+        ]
+      },
+      {
+        "pin": "GPIO43",
+        "names": [
+          "IO43"
+        ]
+      },
+      {
+        "pin": "GPIO44",
+        "names": [
+          "IO44"
+        ]
+      },
+      {
+        "pin": "GPIO45",
+        "names": [
+          "IO45"
+        ]
+      },
+      {
+        "pin": "GPIO46",
+        "names": [
+          "IO46"
+        ]
+      },
+      {
+        "pin": "GPIO47",
+        "names": [
+          "IO47"
+        ]
+      },
+      {
+        "pin": "GPIO48",
+        "names": [
+          "IO48"
+        ]
+      },
+      {
+        "pin": "GPIO49",
+        "names": [
+          "IO49"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:solderparty_esp32p4_stamp_xl",
+      "label": "CircuitPython board definition (solderparty_esp32p4_stamp_xl)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/solderparty_esp32p4_stamp_xl.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:solderparty_esp32p4_stamp_xl",
+      "label": "CircuitPython pin definitions (solderparty_esp32p4_stamp_xl)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/solderparty_esp32p4_stamp_xl/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

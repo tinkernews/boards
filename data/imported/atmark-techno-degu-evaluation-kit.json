@@ -1,0 +1,37 @@
+{
+  "slug": "atmark-techno-degu-evaluation-kit",
+  "name": "Degu Evaluation Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "atmark-techno",
+  "chip": "nrf52840",
+  "ids": {
+    "zephyr": [
+      "degu_evk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52840",
+      "source": "zephyr:degu_evk"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/atmarktechno/degu_evk/doc/index.html",
+      "source": "zephyr:degu_evk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:degu_evk",
+      "label": "Zephyr board definition (degu_evk)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/atmarktechno/degu_evk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

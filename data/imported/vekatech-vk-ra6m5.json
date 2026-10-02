@@ -1,0 +1,37 @@
+{
+  "slug": "vekatech-vk-ra6m5",
+  "name": "VK-RA6M5",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "vekatech",
+  "ids": {
+    "micropython": [
+      "VK_RA6M5"
+    ]
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "VK-RA6M5 product page",
+      "url": "https://vekatech.com/VK-RA6M5_docs/brochures/VK-RA6M5%20Flyer%20R2.pdf"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/VK_RA6M5/",
+      "source": "micropython:vk_ra6m5"
+    }
+  ],
+  "sources": [
+    {
+      "id": "micropython:vk_ra6m5",
+      "label": "MicroPython board definition (VK_RA6M5)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/renesas-ra/boards/VK_RA6M5/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

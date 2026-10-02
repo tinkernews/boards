@@ -1,0 +1,282 @@
+{
+  "slug": "adafruit-clue-nrf52840-express",
+  "name": "CLUE NRF52840 Express",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "nrf52840",
+  "ids": {
+    "circuitpython": [
+      "clue_nrf52840_express"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/clue_nrf52840_express/",
+      "source": "circuitpython:clue_nrf52840_express"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:clue_nrf52840_express",
+    "list": [
+      {
+        "pin": "P0_00",
+        "names": [
+          "MICROPHONE_DATA"
+        ]
+      },
+      {
+        "pin": "P0_01",
+        "names": [
+          "MICROPHONE_CLOCK"
+        ]
+      },
+      {
+        "pin": "P0_02",
+        "names": [
+          "P4",
+          "D4",
+          "A6"
+        ]
+      },
+      {
+        "pin": "P0_03",
+        "names": [
+          "P2",
+          "D2",
+          "A4"
+        ]
+      },
+      {
+        "pin": "P0_04",
+        "names": [
+          "P0",
+          "D0",
+          "A2",
+          "RX"
+        ]
+      },
+      {
+        "pin": "P0_05",
+        "names": [
+          "P1",
+          "D1",
+          "A3",
+          "TX"
+        ]
+      },
+      {
+        "pin": "P0_06",
+        "names": [
+          "P14",
+          "D14",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "P0_07",
+        "names": [
+          "P7",
+          "D7"
+        ]
+      },
+      {
+        "pin": "P0_08",
+        "names": [
+          "P13",
+          "D13",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "P0_09",
+        "names": [
+          "PROXIMITY_LIGHT_INTERRUPT"
+        ]
+      },
+      {
+        "pin": "P0_10",
+        "names": [
+          "WHITE_LEDS"
+        ]
+      },
+      {
+        "pin": "P0_12",
+        "names": [
+          "TFT_CS"
+        ]
+      },
+      {
+        "pin": "P0_13",
+        "names": [
+          "TFT_DC"
+        ]
+      },
+      {
+        "pin": "P0_14",
+        "names": [
+          "TFT_SCK"
+        ]
+      },
+      {
+        "pin": "P0_15",
+        "names": [
+          "TFT_MOSI"
+        ]
+      },
+      {
+        "pin": "P0_16",
+        "names": [
+          "P18",
+          "D18",
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "P0_24",
+        "names": [
+          "P20",
+          "D20",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "P0_25",
+        "names": [
+          "P19",
+          "D19",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "P0_26",
+        "names": [
+          "P15",
+          "D15",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "P0_27",
+        "names": [
+          "P9",
+          "D9"
+        ]
+      },
+      {
+        "pin": "P0_28",
+        "names": [
+          "P3",
+          "D3",
+          "A5"
+        ]
+      },
+      {
+        "pin": "P0_29",
+        "names": [
+          "P16",
+          "D16",
+          "A1"
+        ]
+      },
+      {
+        "pin": "P0_30",
+        "names": [
+          "P10",
+          "D10",
+          "A7"
+        ]
+      },
+      {
+        "pin": "P0_31",
+        "names": [
+          "P12",
+          "D12",
+          "A0"
+        ]
+      },
+      {
+        "pin": "P1_00",
+        "names": [
+          "SPEAKER"
+        ]
+      },
+      {
+        "pin": "P1_01",
+        "names": [
+          "P17",
+          "D17",
+          "L",
+          "LED"
+        ]
+      },
+      {
+        "pin": "P1_02",
+        "names": [
+          "P5",
+          "D5",
+          "BUTTON_A"
+        ]
+      },
+      {
+        "pin": "P1_03",
+        "names": [
+          "TFT_RESET"
+        ]
+      },
+      {
+        "pin": "P1_05",
+        "names": [
+          "TFT_BACKLIGHT"
+        ]
+      },
+      {
+        "pin": "P1_06",
+        "names": [
+          "ACCELEROMETER_GYRO_INTERRUPT"
+        ]
+      },
+      {
+        "pin": "P1_07",
+        "names": [
+          "P8",
+          "D8"
+        ]
+      },
+      {
+        "pin": "P1_09",
+        "names": [
+          "P6",
+          "D6"
+        ]
+      },
+      {
+        "pin": "P1_10",
+        "names": [
+          "P11",
+          "D11",
+          "BUTTON_B"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:clue_nrf52840_express",
+      "label": "CircuitPython board definition (clue_nrf52840_express)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/clue_nrf52840_express.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:clue_nrf52840_express",
+      "label": "CircuitPython pin definitions (clue_nrf52840_express)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/nordic/boards/clue_nrf52840_express/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

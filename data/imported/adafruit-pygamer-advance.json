@@ -1,0 +1,31 @@
+{
+  "slug": "adafruit-pygamer-advance",
+  "name": "PyGamer Advance",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "atsamd51j19",
+  "ids": {
+    "circuitpython": [
+      "pygamer_advance"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/pygamer_advance/",
+      "source": "circuitpython:pygamer_advance"
+    }
+  ],
+  "sources": [
+    {
+      "id": "circuitpython:pygamer_advance",
+      "label": "CircuitPython board definition (pygamer_advance)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/pygamer_advance.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

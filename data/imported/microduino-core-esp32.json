@@ -1,0 +1,59 @@
+{
+  "slug": "microduino-core-esp32",
+  "name": "Microduino Core ESP32",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microduino",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "microduino-core-esp32"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:microduino-core-esp32"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:microduino-core-esp32"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:microduino-core-esp32"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Microduino Core ESP32 product page",
+      "url": "https://microduinoinc.com"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/microduino-core-esp32.html",
+      "source": "platformio:microduino-core-esp32"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/microduino-core-esp32.html",
+      "source": "platformio:microduino-core-esp32"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:microduino-core-esp32",
+      "label": "PlatformIO board definition (microduino-core-esp32)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/microduino-core-esp32.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

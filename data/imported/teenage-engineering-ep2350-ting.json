@@ -1,0 +1,251 @@
+{
+  "slug": "teenage-engineering-ep2350-ting",
+  "name": "EP–2350 ting",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "teenage-engineering",
+  "chip": "rp2350",
+  "ids": {
+    "circuitpython": [
+      "teenage_engineering_ep2350"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/teenage_engineering_ep2350/",
+      "source": "circuitpython:teenage_engineering_ep2350"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:teenage_engineering_ep2350",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "GP0",
+          "LED_WHITE1",
+          "LED"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "GP1",
+          "BUTTON_BOTTOM"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "GP2",
+          "POWER_HOLD"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "GP3",
+          "BUTTON_MIDDLE"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "GP4",
+          "LED_WHITE3"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "GP5",
+          "LED_WHITE4"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "GP6",
+          "LED_WHITE2"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "GP7"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "GP8",
+          "I2S_DIN"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "GP9",
+          "I2S_DOUT"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "GP10",
+          "I2S_WS"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "GP11",
+          "I2S_BIT_CLOCK"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "GP12",
+          "I2S_MCLK"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "GP13"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "GP14",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "GP15",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "GP16",
+          "LED_RED1"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "GP17",
+          "LED_RED4"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "GP18",
+          "LED_RED3"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "GP19",
+          "HANDLE_IN"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "GP20",
+          "HANDLE_OUT"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "GP21",
+          "BUTTON_TOP"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "GP22"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "GP23"
+        ]
+      },
+      {
+        "pin": "GPIO24",
+        "names": [
+          "GP24",
+          "LED_RED2"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "GP25"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "GP26",
+          "A0"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "GP27",
+          "A1"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "GP28",
+          "A2",
+          "HANDLE_POSITION"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "GP29",
+          "A3",
+          "VOLUME"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:teenage_engineering_ep2350",
+      "label": "CircuitPython board definition (teenage_engineering_ep2350)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/teenage_engineering_ep2350.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:teenage_engineering_ep2350",
+      "label": "CircuitPython pin definitions (teenage_engineering_ep2350)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/teenage_engineering_ep2350/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

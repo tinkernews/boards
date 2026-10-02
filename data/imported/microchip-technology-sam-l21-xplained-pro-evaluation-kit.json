@@ -1,0 +1,44 @@
+{
+  "slug": "microchip-technology-sam-l21-xplained-pro-evaluation-kit",
+  "name": "SAM L21 Xplained Pro Evaluation Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "ids": {
+    "zephyr": [
+      "saml21_xpro"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "SAML21J18B",
+      "source": "zephyr:saml21_xpro"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:saml21_xpro"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:saml21_xpro"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/atmel/sam0/saml21_xpro/doc/index.html",
+      "source": "zephyr:saml21_xpro"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:saml21_xpro",
+      "label": "Zephyr board definition (saml21_xpro)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/atmel/sam0/saml21_xpro/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

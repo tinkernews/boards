@@ -1,0 +1,37 @@
+{
+  "slug": "waveshare-esp32-c6-lcd-1-47",
+  "name": "ESP32-C6 LCD 1.47\"",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "waveshare",
+  "chip": "esp32-c6",
+  "ids": {
+    "zephyr": [
+      "esp32c6_lcd_1_47"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-C6",
+      "source": "zephyr:esp32c6_lcd_1_47"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/waveshare/esp32c6_lcd_1_47/doc/index.html",
+      "source": "zephyr:esp32c6_lcd_1_47"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:esp32c6_lcd_1_47",
+      "label": "Zephyr board definition (esp32c6_lcd_1_47)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/waveshare/esp32c6_lcd_1_47/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "unknown-esp32-fm-devkit",
+  "name": "ESP32 FM DevKit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "unknown",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "fm-devkit"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:fm-devkit"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:fm-devkit"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:fm-devkit"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ESP32 FM DevKit product page",
+      "url": "https://github.com/dragon-engineer/esp32_fmdevkit"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/fm-devkit.html",
+      "source": "platformio:fm-devkit"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/fm-devkit.html",
+      "source": "platformio:fm-devkit"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:fm-devkit",
+      "label": "PlatformIO board definition (fm-devkit)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/fm-devkit.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "silicon-labs-efr32xg23-868-915-mhz-20-dbm-xg23-rb4210a",
+  "name": "EFR32xG23 868-915 MHz 20 dBm (xG23-RB4210A)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "silicon-labs",
+  "ids": {
+    "zephyr": [
+      "xg23_rb4210a"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "EFR32ZG23B020F512IM48",
+      "source": "zephyr:xg23_rb4210a"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:xg23_rb4210a"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:xg23_rb4210a"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/silabs/radio_boards/xg23_rb4210a/doc/index.html",
+      "source": "zephyr:xg23_rb4210a"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:xg23_rb4210a",
+      "label": "Zephyr board definition (xg23_rb4210a)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/silabs/radio_boards/xg23_rb4210a/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

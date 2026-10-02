@@ -1,0 +1,53 @@
+{
+  "slug": "seeed-studio-seeeduino",
+  "name": "Seeeduino",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "seeed",
+  "chip": "atmega328p",
+  "ids": {
+    "platformio": [
+      "seeeduino"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega328P",
+      "source": "platformio:seeeduino"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:seeeduino"
+    },
+    "upload_limits": {
+      "value": "31.5 KB flash, 2 KB RAM",
+      "source": "platformio:seeeduino"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Seeeduino product page",
+      "url": "https://www.seeedstudio.com/Seeeduino-V4.2-p-2517.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/seeeduino.html",
+      "source": "platformio:seeeduino"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:seeeduino",
+      "label": "PlatformIO board definition (seeeduino)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/seeeduino.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

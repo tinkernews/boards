@@ -1,0 +1,57 @@
+{
+  "slug": "leaflabs-maple-mini-original",
+  "name": "Maple Mini Original",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "leaflabs",
+  "chip": "stm32f103cb",
+  "ids": {
+    "platformio": [
+      "maple_mini_origin"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F103CB / RB",
+      "source": "platformio:maple_mini_origin"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M3",
+      "source": "platformio:maple_mini_origin"
+    },
+    "clock": {
+      "value": "72 MHz",
+      "source": "platformio:maple_mini_origin"
+    },
+    "upload_limits": {
+      "value": "108 KB flash, 20 KB RAM",
+      "source": "platformio:maple_mini_origin"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Maple Mini Original product page",
+      "url": "http://www.leaflabs.com/maple/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/maple_mini_origin.html",
+      "source": "platformio:maple_mini_origin"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:maple_mini_origin",
+      "label": "PlatformIO board definition (maple_mini_origin)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/maple_mini_origin.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

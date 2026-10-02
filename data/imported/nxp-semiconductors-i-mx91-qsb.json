@@ -1,0 +1,40 @@
+{
+  "slug": "nxp-semiconductors-i-mx91-qsb",
+  "name": "i.MX91 QSB",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "ids": {
+    "zephyr": [
+      "imx91_qsb"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MIMX9111",
+      "source": "zephyr:imx91_qsb"
+    },
+    "ram": {
+      "value": "1024 KB",
+      "source": "zephyr:imx91_qsb"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nxp/imx91_qsb/doc/index.html",
+      "source": "zephyr:imx91_qsb"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:imx91_qsb",
+      "label": "Zephyr board definition (imx91_qsb)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nxp/imx91_qsb/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

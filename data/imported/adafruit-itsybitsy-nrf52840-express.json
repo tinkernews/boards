@@ -1,0 +1,244 @@
+{
+  "slug": "adafruit-itsybitsy-nrf52840-express",
+  "name": "ItsyBitsy nRF52840 Express",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "nrf52840",
+  "aliases": [
+    "ItsyBitsy NRF52840 Express"
+  ],
+  "ids": {
+    "platformio": [
+      "adafruit_itsybitsy_nrf52840"
+    ],
+    "circuitpython": [
+      "itsybitsy_nrf52840_express"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52840",
+      "source": "platformio:adafruit_itsybitsy_nrf52840"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:adafruit_itsybitsy_nrf52840"
+    },
+    "clock": {
+      "value": "64 MHz",
+      "source": "platformio:adafruit_itsybitsy_nrf52840"
+    },
+    "upload_limits": {
+      "value": "796 KB flash, 243 KB RAM",
+      "source": "platformio:adafruit_itsybitsy_nrf52840"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ItsyBitsy nRF52840 Express product page",
+      "url": "https://www.adafruit.com/product/4062"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/nordicnrf52/adafruit_itsybitsy_nrf52840.html",
+      "source": "platformio:adafruit_itsybitsy_nrf52840"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/itsybitsy_nrf52840_express/",
+      "source": "circuitpython:itsybitsy_nrf52840_express"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:itsybitsy_nrf52840_express",
+    "list": [
+      {
+        "pin": "P0_02",
+        "names": [
+          "A4"
+        ]
+      },
+      {
+        "pin": "P0_03",
+        "names": [
+          "A5"
+        ]
+      },
+      {
+        "pin": "P0_04",
+        "names": [
+          "A0"
+        ]
+      },
+      {
+        "pin": "P0_05",
+        "names": [
+          "D10"
+        ]
+      },
+      {
+        "pin": "P0_06",
+        "names": [
+          "L",
+          "LED",
+          "BLUE_LED"
+        ]
+      },
+      {
+        "pin": "P0_07",
+        "names": [
+          "D9"
+        ]
+      },
+      {
+        "pin": "P0_08",
+        "names": [
+          "APA102_MOSI",
+          "DOTSTAR_DATA"
+        ]
+      },
+      {
+        "pin": "P0_11",
+        "names": [
+          "D12"
+        ]
+      },
+      {
+        "pin": "P0_12",
+        "names": [
+          "D13"
+        ]
+      },
+      {
+        "pin": "P0_13",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "P0_14",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "P0_15",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "P0_16",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "P0_20",
+        "names": [
+          "MISO"
+        ]
+      },
+      {
+        "pin": "P0_24",
+        "names": [
+          "D1",
+          "TX"
+        ]
+      },
+      {
+        "pin": "P0_25",
+        "names": [
+          "D0",
+          "RX"
+        ]
+      },
+      {
+        "pin": "P0_26",
+        "names": [
+          "D11"
+        ]
+      },
+      {
+        "pin": "P0_27",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "P0_28",
+        "names": [
+          "A2"
+        ]
+      },
+      {
+        "pin": "P0_29",
+        "names": [
+          "SWITCH"
+        ]
+      },
+      {
+        "pin": "P0_30",
+        "names": [
+          "A1"
+        ]
+      },
+      {
+        "pin": "P0_31",
+        "names": [
+          "A3"
+        ]
+      },
+      {
+        "pin": "P1_02",
+        "names": [
+          "D2"
+        ]
+      },
+      {
+        "pin": "P1_08",
+        "names": [
+          "D7"
+        ]
+      },
+      {
+        "pin": "P1_09",
+        "names": [
+          "APA102_SCK",
+          "DOTSTAR_CLOCK"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "platformio:adafruit_itsybitsy_nrf52840",
+      "label": "PlatformIO board definition (adafruit_itsybitsy_nrf52840)",
+      "url": "https://github.com/platformio/platform-nordicnrf52/blob/278176a7f7ffe2d001eb93eafa271c83b38222e4/boards/adafruit_itsybitsy_nrf52840.json",
+      "kind": "import",
+      "revision": "278176a7f7ffe2d001eb93eafa271c83b38222e4"
+    },
+    {
+      "id": "circuitpython:itsybitsy_nrf52840_express",
+      "label": "CircuitPython board definition (itsybitsy_nrf52840_express)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/itsybitsy_nrf52840_express.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:itsybitsy_nrf52840_express",
+      "label": "CircuitPython pin definitions (itsybitsy_nrf52840_express)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/nordic/boards/itsybitsy_nrf52840_express/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "labplus-mpython",
+  "name": "Labplus mPython",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "labplus",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "labplus_mpython"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:labplus_mpython"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:labplus_mpython"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:labplus_mpython"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Labplus mPython product page",
+      "url": "https://github.com/labplus-cn/mpython"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/labplus_mpython.html",
+      "source": "platformio:labplus_mpython"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/labplus_mpython.html",
+      "source": "platformio:labplus_mpython"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:labplus_mpython",
+      "label": "PlatformIO board definition (labplus_mpython)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/labplus_mpython.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "dh-dhsbc-stm32mp255c",
+  "name": "DHSBC STM32MP255C",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "dh",
+  "ids": {
+    "zephyr": [
+      "stm32mp255c_dhsbc"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32MP255CXX",
+      "source": "zephyr:stm32mp255c_dhsbc"
+    },
+    "ram": {
+      "value": "8192 KB",
+      "source": "zephyr:stm32mp255c_dhsbc"
+    },
+    "flash": {
+      "value": "8 MB",
+      "source": "zephyr:stm32mp255c_dhsbc"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/dh/stm32mp255c_dhsbc/doc/index.html",
+      "source": "zephyr:stm32mp255c_dhsbc"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:stm32mp255c_dhsbc",
+      "label": "Zephyr board definition (stm32mp255c_dhsbc)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/dh/stm32mp255c_dhsbc/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

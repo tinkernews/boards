@@ -1,0 +1,37 @@
+{
+  "slug": "ice-v-wireless",
+  "name": "ICE-V Wireless",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "generic",
+  "chip": "esp32-c3",
+  "ids": {
+    "zephyr": [
+      "icev_wireless"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-C3",
+      "source": "zephyr:icev_wireless"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/others/icev_wireless/doc/index.html",
+      "source": "zephyr:icev_wireless"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:icev_wireless",
+      "label": "Zephyr board definition (icev_wireless)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/others/icev_wireless/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

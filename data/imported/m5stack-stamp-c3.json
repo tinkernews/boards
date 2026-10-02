@@ -1,0 +1,37 @@
+{
+  "slug": "m5stack-stamp-c3",
+  "name": "STAMP-C3",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "m5stack",
+  "chip": "esp32-c3",
+  "ids": {
+    "zephyr": [
+      "stamp_c3"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-C3",
+      "source": "zephyr:stamp_c3"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/m5stack/stamp_c3/doc/index.html",
+      "source": "zephyr:stamp_c3"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:stamp_c3",
+      "label": "Zephyr board definition (stamp_c3)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/m5stack/stamp_c3/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

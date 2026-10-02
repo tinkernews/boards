@@ -1,0 +1,45 @@
+{
+  "slug": "nordic-semiconductor-nrf5340-dk",
+  "name": "nRF5340 DK",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nordic-semiconductor",
+  "chip": "nrf5340",
+  "ids": {
+    "zephyr": [
+      "nrf5340dk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF5340",
+      "source": "zephyr:nrf5340dk"
+    },
+    "ram": {
+      "value": "448 KB",
+      "source": "zephyr:nrf5340dk"
+    },
+    "flash": {
+      "value": "464 KB",
+      "source": "zephyr:nrf5340dk"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nordic/nrf5340dk/doc/index.html",
+      "source": "zephyr:nrf5340dk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:nrf5340dk",
+      "label": "Zephyr board definition (nrf5340dk)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nordic/nrf5340dk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

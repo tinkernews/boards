@@ -1,0 +1,227 @@
+{
+  "slug": "maple-elite-pi",
+  "name": "Maple Elite-Pi",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "maple",
+  "chip": "rp2040",
+  "ids": {
+    "circuitpython": [
+      "maple_elite_pi"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/maple_elite_pi/",
+      "source": "circuitpython:maple_elite_pi"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:maple_elite_pi",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "D0",
+          "TX",
+          "TX0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "D1",
+          "RX",
+          "RX0"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "D2",
+          "CTS0"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "D3",
+          "RTS0"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "D4",
+          "TX1"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "D5",
+          "RX1"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "D6",
+          "CTS1"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "D7",
+          "RTS1"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "D8"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "D9"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "D10_GND"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "D11_GND"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "D12",
+          "SDA",
+          "SDA0",
+          "MISO1"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "D13",
+          "SCL",
+          "SCL0",
+          "CS1"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "D14",
+          "SDA1",
+          "SCK1"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "D15",
+          "SCL1",
+          "MOSI1"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "D16"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "D20",
+          "MISO",
+          "MISO0"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "D21",
+          "CS",
+          "CS0"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "D22",
+          "SCK",
+          "SCK0"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "D23",
+          "MOSI",
+          "MOSI0"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "A0",
+          "D26",
+          "A0_D26"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "A1",
+          "D27",
+          "A1_D27"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "A2",
+          "D28"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "A3",
+          "D29"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:maple_elite_pi",
+      "label": "CircuitPython board definition (maple_elite_pi)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/maple_elite_pi.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:maple_elite_pi",
+      "label": "CircuitPython pin definitions (maple_elite_pi)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/maple_elite_pi/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

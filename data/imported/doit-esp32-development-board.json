@@ -1,0 +1,205 @@
+{
+  "slug": "doit-esp32-development-board",
+  "name": "DOIT ESP32 Development Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "doit",
+  "chip": "esp32",
+  "ids": {
+    "circuitpython": [
+      "doit_esp32_devkit_v1"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/doit_esp32_devkit_v1/",
+      "source": "circuitpython:doit_esp32_devkit_v1"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:doit_esp32_devkit_v1",
+    "list": [
+      {
+        "pin": "GPIO1",
+        "names": [
+          "RX0",
+          "D1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "D2",
+          "LED"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "TX0",
+          "D3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "D4"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "D12"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "D13"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "D14"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "D15"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "RX2",
+          "RX",
+          "D16"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "TX2",
+          "TX",
+          "D17"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "D18",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "D19",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "D21",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "D22",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "D23",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "D25"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "D26"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "D27"
+        ]
+      },
+      {
+        "pin": "GPIO32",
+        "names": [
+          "D32"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "D33"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "D34"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "D35"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "VP"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "VN"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:doit_esp32_devkit_v1",
+      "label": "CircuitPython board definition (doit_esp32_devkit_v1)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/doit_esp32_devkit_v1.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:doit_esp32_devkit_v1",
+      "label": "CircuitPython pin definitions (doit_esp32_devkit_v1)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/doit_esp32_devkit_v1/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

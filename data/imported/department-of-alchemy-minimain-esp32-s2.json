@@ -1,0 +1,59 @@
+{
+  "slug": "department-of-alchemy-minimain-esp32-s2",
+  "name": "Department of Alchemy MiniMain ESP32-S2",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "department-of-alchemy",
+  "chip": "esp32-s2",
+  "ids": {
+    "platformio": [
+      "minimain_esp32s2"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-S2",
+      "source": "platformio:minimain_esp32s2"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:minimain_esp32s2"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:minimain_esp32s2"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Department of Alchemy MiniMain ESP32-S2 product page",
+      "url": "https://github.com/DepartmentOfAlchemy/minimain-esp32-s2"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/minimain_esp32s2.html",
+      "source": "platformio:minimain_esp32s2"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/minimain_esp32s2.html",
+      "source": "platformio:minimain_esp32s2"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:minimain_esp32s2",
+      "label": "PlatformIO board definition (minimain_esp32s2)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/minimain_esp32s2.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

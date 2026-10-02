@@ -1,0 +1,52 @@
+{
+  "slug": "sparkfun-pic32-cui32-development-stick",
+  "name": "Pic32 CUI32-Development Stick",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sparkfun",
+  "ids": {
+    "platformio": [
+      "cui32"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "32MX440F512H",
+      "source": "platformio:cui32"
+    },
+    "clock": {
+      "value": "80 MHz",
+      "source": "platformio:cui32"
+    },
+    "upload_limits": {
+      "value": "508 KB flash, 32 KB RAM",
+      "source": "platformio:cui32"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Pic32 CUI32-Development Stick product page",
+      "url": "https://www.sparkfun.com/products/retired/9645"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/microchippic32/cui32.html",
+      "source": "platformio:cui32"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:cui32",
+      "label": "PlatformIO board definition (cui32)",
+      "url": "https://github.com/platformio/platform-microchippic32/blob/f6e89308da11cfe35d7534696bf01abf3f442461/boards/cui32.json",
+      "kind": "import",
+      "revision": "f6e89308da11cfe35d7534696bf01abf3f442461"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

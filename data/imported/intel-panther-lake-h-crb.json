@@ -1,0 +1,40 @@
+{
+  "slug": "intel-panther-lake-h-crb",
+  "name": "Panther Lake H CRB",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "intel",
+  "ids": {
+    "zephyr": [
+      "intel_ptl_h_crb"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "PANTHER_LAKE",
+      "source": "zephyr:intel_ptl_h_crb"
+    },
+    "ram": {
+      "value": "2048 KB",
+      "source": "zephyr:intel_ptl_h_crb"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/intel/ptl/doc/index.html",
+      "source": "zephyr:intel_ptl_h_crb"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:intel_ptl_h_crb",
+      "label": "Zephyr board definition (intel_ptl_h_crb)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/intel/ptl/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

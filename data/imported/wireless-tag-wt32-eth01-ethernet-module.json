@@ -1,0 +1,59 @@
+{
+  "slug": "wireless-tag-wt32-eth01-ethernet-module",
+  "name": "Wireless-Tag WT32-ETH01 Ethernet Module",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "wireless-tag",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "wt32-eth01"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:wt32-eth01"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:wt32-eth01"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:wt32-eth01"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Wireless-Tag WT32-ETH01 Ethernet Module product page",
+      "url": "http://www.wireless-tag.com/portfolio/wt32-eth01/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/wt32-eth01.html",
+      "source": "platformio:wt32-eth01"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/wt32-eth01.html",
+      "source": "platformio:wt32-eth01"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:wt32-eth01",
+      "label": "PlatformIO board definition (wt32-eth01)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/wt32-eth01.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

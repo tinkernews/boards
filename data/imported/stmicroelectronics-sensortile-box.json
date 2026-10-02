@@ -1,0 +1,80 @@
+{
+  "slug": "stmicroelectronics-sensortile-box",
+  "name": "SensorTile.box",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "platformio": [
+      "steval_mksboxv1"
+    ],
+    "zephyr": [
+      "sensortile_box"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32L4R9ZI",
+      "source": "platformio:steval_mksboxv1"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:steval_mksboxv1"
+    },
+    "clock": {
+      "value": "120 MHz",
+      "source": "platformio:steval_mksboxv1"
+    },
+    "upload_limits": {
+      "value": "2 MB flash, 640 KB RAM",
+      "source": "platformio:steval_mksboxv1"
+    },
+    "ram": {
+      "value": "192 KB",
+      "source": "zephyr:sensortile_box"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:sensortile_box"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "SensorTile.box product page",
+      "url": "https://www.st.com/en/evaluation-tools/steval-mksbox1v1.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/steval_mksboxv1.html",
+      "source": "platformio:steval_mksboxv1"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/sensortile_box/doc/index.html",
+      "source": "zephyr:sensortile_box"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:steval_mksboxv1",
+      "label": "PlatformIO board definition (steval_mksboxv1)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/steval_mksboxv1.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    },
+    {
+      "id": "zephyr:sensortile_box",
+      "label": "Zephyr board definition (sensortile_box)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/sensortile_box/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

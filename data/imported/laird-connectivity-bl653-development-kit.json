@@ -1,0 +1,48 @@
+{
+  "slug": "laird-connectivity-bl653-development-kit",
+  "name": "BL653 Development Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "laird-connectivity",
+  "chip": "nrf52833",
+  "ids": {
+    "platformio": [
+      "laird_bl653_dvk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52833",
+      "source": "platformio:laird_bl653_dvk"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:laird_bl653_dvk"
+    },
+    "clock": {
+      "value": "64 MHz",
+      "source": "platformio:laird_bl653_dvk"
+    },
+    "upload_limits": {
+      "value": "512 KB flash, 128 KB RAM",
+      "source": "platformio:laird_bl653_dvk"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "BL653 Development Kit product page",
+      "url": "https://www.lairdconnect.com/wireless-modules/bluetooth-modules/bluetooth-5-modules/bl653-series-bluetooth-51-802154-nfc-module"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:laird_bl653_dvk",
+      "label": "PlatformIO board definition (laird_bl653_dvk)",
+      "url": "https://github.com/platformio/platform-nordicnrf52/blob/278176a7f7ffe2d001eb93eafa271c83b38222e4/boards/laird_bl653_dvk.json",
+      "kind": "import",
+      "revision": "278176a7f7ffe2d001eb93eafa271c83b38222e4"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,255 @@
+{
+  "slug": "teenage-engineering-sp-1",
+  "name": "SP-1",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "teenage-engineering",
+  "chip": "nrf52840",
+  "ids": {
+    "circuitpython": [
+      "teenage_engineering_sp1"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/teenage_engineering_sp1/",
+      "source": "circuitpython:teenage_engineering_sp1"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:teenage_engineering_sp1",
+    "list": [
+      {
+        "pin": "P0_00",
+        "names": [
+          "LED_PLAY2"
+        ]
+      },
+      {
+        "pin": "P0_01",
+        "names": [
+          "LED_PLAY4"
+        ]
+      },
+      {
+        "pin": "P0_02",
+        "names": [
+          "LADDER1"
+        ]
+      },
+      {
+        "pin": "P0_03",
+        "names": [
+          "LADDER2"
+        ]
+      },
+      {
+        "pin": "P0_04",
+        "names": [
+          "FADER3"
+        ]
+      },
+      {
+        "pin": "P0_05",
+        "names": [
+          "FADER1"
+        ]
+      },
+      {
+        "pin": "P0_06",
+        "names": [
+          "EMMC_CLK"
+        ]
+      },
+      {
+        "pin": "P0_07",
+        "names": [
+          "EMMC_DAT0"
+        ]
+      },
+      {
+        "pin": "P0_08",
+        "names": [
+          "EMMC_CMD"
+        ]
+      },
+      {
+        "pin": "P0_09",
+        "names": [
+          "TAS_RESET"
+        ]
+      },
+      {
+        "pin": "P0_10",
+        "names": [
+          "BT_RESET"
+        ]
+      },
+      {
+        "pin": "P0_11",
+        "names": [
+          "I2S_LRCLK"
+        ]
+      },
+      {
+        "pin": "P0_12",
+        "names": [
+          "I2S_BCLK"
+        ]
+      },
+      {
+        "pin": "P0_13",
+        "names": [
+          "OSC_EN"
+        ]
+      },
+      {
+        "pin": "P0_14",
+        "names": [
+          "EMMC_VCCQ"
+        ]
+      },
+      {
+        "pin": "P0_15",
+        "names": [
+          "CS42_RESET"
+        ]
+      },
+      {
+        "pin": "P0_21",
+        "names": [
+          "CHARGE_ENABLE"
+        ]
+      },
+      {
+        "pin": "P0_22",
+        "names": [
+          "CHARGE_STATUS"
+        ]
+      },
+      {
+        "pin": "P0_24",
+        "names": [
+          "POWER_GOOD"
+        ]
+      },
+      {
+        "pin": "P0_26",
+        "names": [
+          "LED_TRACK2"
+        ]
+      },
+      {
+        "pin": "P0_27",
+        "names": [
+          "BUTTON"
+        ]
+      },
+      {
+        "pin": "P0_28",
+        "names": [
+          "VBATT",
+          "BATTERY",
+          "VOLTAGE_MONITOR"
+        ]
+      },
+      {
+        "pin": "P0_29",
+        "names": [
+          "LED_TRACK1"
+        ]
+      },
+      {
+        "pin": "P0_30",
+        "names": [
+          "FADER2"
+        ]
+      },
+      {
+        "pin": "P0_31",
+        "names": [
+          "FADER4"
+        ]
+      },
+      {
+        "pin": "P1_00",
+        "names": [
+          "CHARGE_ISET"
+        ]
+      },
+      {
+        "pin": "P1_07",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "P1_08",
+        "names": [
+          "EMMC_RESET"
+        ]
+      },
+      {
+        "pin": "P1_09",
+        "names": [
+          "I2S_DOUT"
+        ]
+      },
+      {
+        "pin": "P1_10",
+        "names": [
+          "LADDER_POWER"
+        ]
+      },
+      {
+        "pin": "P1_11",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "P1_12",
+        "names": [
+          "LED_PLAY3"
+        ]
+      },
+      {
+        "pin": "P1_13",
+        "names": [
+          "LED_PLAY1"
+        ]
+      },
+      {
+        "pin": "P1_14",
+        "names": [
+          "LED_TRACK4"
+        ]
+      },
+      {
+        "pin": "P1_15",
+        "names": [
+          "LED_TRACK3"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:teenage_engineering_sp1",
+      "label": "CircuitPython board definition (teenage_engineering_sp1)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/teenage_engineering_sp1.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:teenage_engineering_sp1",
+      "label": "CircuitPython pin definitions (teenage_engineering_sp1)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/nordic/boards/teenage_engineering_sp1/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

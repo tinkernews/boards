@@ -1,0 +1,76 @@
+{
+  "slug": "stmicroelectronics-stm32f072-eval",
+  "name": "STM32F072-EVAL",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "aliases": [
+    "STM32F072 Evaluation"
+  ],
+  "ids": {
+    "platformio": [
+      "eval_f072vb"
+    ],
+    "zephyr": [
+      "stm32f072_eval"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F072VBT6",
+      "source": "platformio:eval_f072vb"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0",
+      "source": "platformio:eval_f072vb"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:eval_f072vb"
+    },
+    "upload_limits": {
+      "value": "128 KB flash, 16 KB RAM",
+      "source": "platformio:eval_f072vb"
+    },
+    "ram": {
+      "value": "16 KB",
+      "source": "zephyr:stm32f072_eval"
+    },
+    "flash": {
+      "value": "128 KB",
+      "source": "zephyr:stm32f072_eval"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "STM32F072-EVAL product page",
+      "url": "https://www.st.com/en/evaluation-tools/stm32072b-eval.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/stm32f072_eval/doc/index.html",
+      "source": "zephyr:stm32f072_eval"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:eval_f072vb",
+      "label": "PlatformIO board definition (eval_f072vb)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/eval_f072vb.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    },
+    {
+      "id": "zephyr:stm32f072_eval",
+      "label": "Zephyr board definition (stm32f072_eval)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/stm32f072_eval/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

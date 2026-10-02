@@ -1,0 +1,44 @@
+{
+  "slug": "holyiot-25008",
+  "name": "HOLYIOT 25008",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "holyiot",
+  "ids": {
+    "zephyr": [
+      "holyiot_25008"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "NRF54L15",
+      "source": "zephyr:holyiot_25008"
+    },
+    "ram": {
+      "value": "188 KB",
+      "source": "zephyr:holyiot_25008"
+    },
+    "flash": {
+      "value": "1.39 MB",
+      "source": "zephyr:holyiot_25008"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/holyiot/holyiot_25008/doc/index.html",
+      "source": "zephyr:holyiot_25008"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:holyiot_25008",
+      "label": "Zephyr board definition (holyiot_25008)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/holyiot/holyiot_25008/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

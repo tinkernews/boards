@@ -1,0 +1,44 @@
+{
+  "slug": "nxp-semiconductors-mcxw23-evk",
+  "name": "MCXW23-EVK",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "ids": {
+    "zephyr": [
+      "mcxw23_evk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MCXW236",
+      "source": "zephyr:mcxw23_evk"
+    },
+    "ram": {
+      "value": "128 KB",
+      "source": "zephyr:mcxw23_evk"
+    },
+    "flash": {
+      "value": "1016 KB",
+      "source": "zephyr:mcxw23_evk"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nxp/mcxw23_evk/doc/index.html",
+      "source": "zephyr:mcxw23_evk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:mcxw23_evk",
+      "label": "Zephyr board definition (mcxw23_evk)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nxp/mcxw23_evk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

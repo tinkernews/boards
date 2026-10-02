@@ -1,0 +1,45 @@
+{
+  "slug": "croxel-cx1825-nrf52840",
+  "name": "CX1825 nRF52840",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "croxel",
+  "chip": "nrf52840",
+  "ids": {
+    "zephyr": [
+      "croxel_cx1825"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52840",
+      "source": "zephyr:croxel_cx1825"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:croxel_cx1825"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:croxel_cx1825"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/croxel/croxel_cx1825/doc/index.html",
+      "source": "zephyr:croxel_cx1825"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:croxel_cx1825",
+      "label": "Zephyr board definition (croxel_cx1825)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/croxel/croxel_cx1825/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

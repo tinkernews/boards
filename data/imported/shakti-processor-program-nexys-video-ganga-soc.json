@@ -1,0 +1,36 @@
+{
+  "slug": "shakti-processor-program-nexys-video-ganga-soc",
+  "name": "Nexys Video (Ganga SoC)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "shakti-processor-program",
+  "ids": {
+    "zephyr": [
+      "nexys_ganga"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "GANGA",
+      "source": "zephyr:nexys_ganga"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/shakti/nexys_ganga/doc/index.html",
+      "source": "zephyr:nexys_ganga"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:nexys_ganga",
+      "label": "Zephyr board definition (nexys_ganga)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/shakti/nexys_ganga/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

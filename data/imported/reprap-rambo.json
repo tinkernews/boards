@@ -1,0 +1,53 @@
+{
+  "slug": "reprap-rambo",
+  "name": "RepRap RAMBo",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "reprap",
+  "chip": "atmega2560",
+  "ids": {
+    "platformio": [
+      "reprap_rambo"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega2560",
+      "source": "platformio:reprap_rambo"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:reprap_rambo"
+    },
+    "upload_limits": {
+      "value": "252 KB flash, 8 KB RAM",
+      "source": "platformio:reprap_rambo"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "RepRap RAMBo product page",
+      "url": "http://reprap.org/wiki/Rambo"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/reprap_rambo.html",
+      "source": "platformio:reprap_rambo"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:reprap_rambo",
+      "label": "PlatformIO board definition (reprap_rambo)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/reprap_rambo.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

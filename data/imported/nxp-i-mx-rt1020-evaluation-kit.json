@@ -1,0 +1,47 @@
+{
+  "slug": "nxp-i-mx-rt1020-evaluation-kit",
+  "name": "NXP i.MX RT1020 Evaluation Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "ids": {
+    "platformio": [
+      "mimxrt1020_evk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MIMXRT1021DAG5A",
+      "source": "platformio:mimxrt1020_evk"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M7",
+      "source": "platformio:mimxrt1020_evk"
+    },
+    "clock": {
+      "value": "500 MHz",
+      "source": "platformio:mimxrt1020_evk"
+    },
+    "upload_limits": {
+      "value": "8 MB flash, 32 MB RAM",
+      "source": "platformio:mimxrt1020_evk"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "NXP i.MX RT1020 Evaluation Kit product page",
+      "url": "https://www.nxp.com/design/development-boards/i.mx-evaluation-and-development-boards/i.mx-rt1020-evaluation-kit:MIMXRT1020-EVK"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:mimxrt1020_evk",
+      "label": "PlatformIO board definition (mimxrt1020_evk)",
+      "url": "https://github.com/platformio/platform-nxpimxrt/blob/21cb8e0c45e6c26d2e582b2b9e129465e6095c0a/boards/mimxrt1020_evk.json",
+      "kind": "import",
+      "revision": "21cb8e0c45e6c26d2e582b2b9e129465e6095c0a"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

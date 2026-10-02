@@ -1,0 +1,44 @@
+{
+  "slug": "silicon-labs-efr32bg22-explorer-kit-bg22-ek4108a",
+  "name": "EFR32BG22 Explorer Kit (BG22-EK4108A)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "silicon-labs",
+  "ids": {
+    "zephyr": [
+      "bg22_ek4108a"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "EFR32BG22C224F512IM40",
+      "source": "zephyr:bg22_ek4108a"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:bg22_ek4108a"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:bg22_ek4108a"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/silabs/explorer_kits/xg22/doc/index.html",
+      "source": "zephyr:bg22_ek4108a"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:bg22_ek4108a",
+      "label": "Zephyr board definition (bg22_ek4108a)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/silabs/explorer_kits/xg22/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

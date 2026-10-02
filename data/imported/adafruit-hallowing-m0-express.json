@@ -1,0 +1,228 @@
+{
+  "slug": "adafruit-hallowing-m0-express",
+  "name": "HalloWing M0 Express",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "atsamd21g18",
+  "ids": {
+    "circuitpython": [
+      "hallowing_m0_express"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/hallowing_m0_express/",
+      "source": "circuitpython:hallowing_m0_express"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:hallowing_m0_express",
+    "list": [
+      {
+        "pin": "PA00",
+        "names": [
+          "TFT_BACKLIGHT"
+        ]
+      },
+      {
+        "pin": "PA01",
+        "names": [
+          "TFT_CS"
+        ]
+      },
+      {
+        "pin": "PA02",
+        "names": [
+          "A0",
+          "SPEAKER"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "A3",
+          "TOUCH3"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "A4",
+          "TOUCH2"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "A5",
+          "TOUCH1"
+        ]
+      },
+      {
+        "pin": "PA08",
+        "names": [
+          "D4",
+          "EXTERNAL_NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "PA09",
+        "names": [
+          "D0",
+          "RX"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "D1",
+          "TX"
+        ]
+      },
+      {
+        "pin": "PA11",
+        "names": [
+          "D3",
+          "SENSE"
+        ]
+      },
+      {
+        "pin": "PA12",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "PA14",
+        "names": [
+          "ACCELEROMETER_INTERRUPT"
+        ]
+      },
+      {
+        "pin": "PA15",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "PA16",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PA17",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "PA18",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "PA19",
+        "names": [
+          "D9"
+        ]
+      },
+      {
+        "pin": "PA20",
+        "names": [
+          "D10"
+        ]
+      },
+      {
+        "pin": "PA21",
+        "names": [
+          "D11"
+        ]
+      },
+      {
+        "pin": "PA22",
+        "names": [
+          "D12"
+        ]
+      },
+      {
+        "pin": "PA23",
+        "names": [
+          "LED",
+          "D13"
+        ]
+      },
+      {
+        "pin": "PA27",
+        "names": [
+          "TFT_RESET"
+        ]
+      },
+      {
+        "pin": "PA28",
+        "names": [
+          "TFT_DC"
+        ]
+      },
+      {
+        "pin": "PB02",
+        "names": [
+          "BATTERY"
+        ]
+      },
+      {
+        "pin": "PB03",
+        "names": [
+          "MISO"
+        ]
+      },
+      {
+        "pin": "PB08",
+        "names": [
+          "A1",
+          "LIGHT"
+        ]
+      },
+      {
+        "pin": "PB09",
+        "names": [
+          "A2",
+          "TOUCH4"
+        ]
+      },
+      {
+        "pin": "PB22",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "PB23",
+        "names": [
+          "SCK"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:hallowing_m0_express",
+      "label": "CircuitPython board definition (hallowing_m0_express)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/hallowing_m0_express.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:hallowing_m0_express",
+      "label": "CircuitPython pin definitions (hallowing_m0_express)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/hallowing_m0_express/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

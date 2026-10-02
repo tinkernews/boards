@@ -1,0 +1,57 @@
+{
+  "slug": "taida-century-nrf52-mini-board",
+  "name": "Taida Century nRF52 mini board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "taida-century",
+  "chip": "nrf52832",
+  "ids": {
+    "platformio": [
+      "stct_nrf52_minidev"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52832",
+      "source": "platformio:stct_nrf52_minidev"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:stct_nrf52_minidev"
+    },
+    "clock": {
+      "value": "64 MHz",
+      "source": "platformio:stct_nrf52_minidev"
+    },
+    "upload_limits": {
+      "value": "512 KB flash, 64 KB RAM",
+      "source": "platformio:stct_nrf52_minidev"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Taida Century nRF52 mini board product page",
+      "url": "http://taida-century.com/en/index.asp"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/nordicnrf52/stct_nrf52_minidev.html",
+      "source": "platformio:stct_nrf52_minidev"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:stct_nrf52_minidev",
+      "label": "PlatformIO board definition (stct_nrf52_minidev)",
+      "url": "https://github.com/platformio/platform-nordicnrf52/blob/278176a7f7ffe2d001eb93eafa271c83b38222e4/boards/stct_nrf52_minidev.json",
+      "kind": "import",
+      "revision": "278176a7f7ffe2d001eb93eafa271c83b38222e4"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

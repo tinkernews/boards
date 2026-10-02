@@ -1,0 +1,47 @@
+{
+  "slug": "nxp-mbed-lpc1768",
+  "name": "NXP mbed LPC1768",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "ids": {
+    "platformio": [
+      "lpc1768"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "LPC1768",
+      "source": "platformio:lpc1768"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M3",
+      "source": "platformio:lpc1768"
+    },
+    "clock": {
+      "value": "96 MHz",
+      "source": "platformio:lpc1768"
+    },
+    "upload_limits": {
+      "value": "512 KB flash, 64 KB RAM",
+      "source": "platformio:lpc1768"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "NXP mbed LPC1768 product page",
+      "url": "http://developer.mbed.org/platforms/mbed-LPC1768/"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:lpc1768",
+      "label": "PlatformIO board definition (lpc1768)",
+      "url": "https://github.com/platformio/platform-nxplpc/blob/7fe287fac83ec5cfcf8b5ec7e36d43b5a17cace8/boards/lpc1768.json",
+      "kind": "import",
+      "revision": "7fe287fac83ec5cfcf8b5ec7e36d43b5a17cace8"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

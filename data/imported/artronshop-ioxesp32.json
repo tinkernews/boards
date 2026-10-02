@@ -1,0 +1,59 @@
+{
+  "slug": "artronshop-ioxesp32",
+  "name": "ArtronShop IOXESP32",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "artronshop",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "ioxesp32"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:ioxesp32"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:ioxesp32"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:ioxesp32"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ArtronShop IOXESP32 product page",
+      "url": "https://docs.ioxesp32.com/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/ioxesp32.html",
+      "source": "platformio:ioxesp32"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/ioxesp32.html",
+      "source": "platformio:ioxesp32"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:ioxesp32",
+      "label": "PlatformIO board definition (ioxesp32)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/ioxesp32.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "silicon-labs-siwx917-wi-fi-6-and-bluetooth-le-dev-kit",
+  "name": "SiWx917 Wi-Fi 6 and Bluetooth LE Dev Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "silicon-labs",
+  "ids": {
+    "circuitpython": [
+      "silabs_siwx917_dk2605a"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/silabs_siwx917_dk2605a/",
+      "source": "circuitpython:silabs_siwx917_dk2605a"
+    }
+  ],
+  "sources": [
+    {
+      "id": "circuitpython:silabs_siwx917_dk2605a",
+      "label": "CircuitPython board definition (silabs_siwx917_dk2605a)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/silabs_siwx917_dk2605a.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

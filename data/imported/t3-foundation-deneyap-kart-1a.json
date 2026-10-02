@@ -1,0 +1,67 @@
+{
+  "slug": "t3-foundation-deneyap-kart-1a",
+  "name": "Deneyap Kart 1A",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "t3-foundation",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "deneyapkart1A",
+      "deneyapkart1Av2"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:deneyapkart1a"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:deneyapkart1a"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:deneyapkart1a"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Deneyap Kart 1A product page",
+      "url": "https://magaza.deneyapkart.org/tr/product/detail/deneyap-kart-1a"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/deneyapkart1A.html",
+      "source": "platformio:deneyapkart1a"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/deneyapkart1A.html",
+      "source": "platformio:deneyapkart1a"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:deneyapkart1a",
+      "label": "PlatformIO board definition (deneyapkart1A)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/deneyapkart1A.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    },
+    {
+      "id": "platformio:deneyapkart1av2",
+      "label": "PlatformIO board definition (deneyapkart1Av2)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/deneyapkart1Av2.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

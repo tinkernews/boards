@@ -1,0 +1,32 @@
+{
+  "slug": "allwinner-tanix-tx6s",
+  "name": "Tanix TX6s",
+  "tier": "imported",
+  "kind": "sbc",
+  "maker": "allwinner",
+  "released": "2020",
+  "ids": {
+    "armbian": [
+      "tanix-tx6s"
+    ]
+  },
+  "software": [
+    {
+      "platform": "armbian",
+      "status": "supported",
+      "note": "Supported by Armbian.",
+      "url": "https://github.com/armbian/build/blob/main/config/boards/tanix-tx6s.conf",
+      "source": "armbian:tanix-tx6s"
+    }
+  ],
+  "sources": [
+    {
+      "id": "armbian:tanix-tx6s",
+      "label": "Armbian board configuration (tanix-tx6s)",
+      "url": "https://github.com/armbian/build/blob/da85daa05bd260d04dac50315d7317207fd998b3/config/boards/tanix-tx6s.conf",
+      "kind": "import",
+      "revision": "da85daa05bd260d04dac50315d7317207fd998b3"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

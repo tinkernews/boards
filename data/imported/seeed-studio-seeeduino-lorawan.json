@@ -1,0 +1,57 @@
+{
+  "slug": "seeed-studio-seeeduino-lorawan",
+  "name": "Seeeduino LoRaWAN",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "seeed",
+  "chip": "atsamd21g18",
+  "ids": {
+    "platformio": [
+      "seeeduino_lorawan"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAMD21G18",
+      "source": "platformio:seeeduino_lorawan"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:seeeduino_lorawan"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:seeeduino_lorawan"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:seeeduino_lorawan"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Seeeduino LoRaWAN product page",
+      "url": "http://wiki.seeedstudio.com/Seeeduino_LoRAWAN/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelsam/seeeduino_lorawan.html",
+      "source": "platformio:seeeduino_lorawan"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:seeeduino_lorawan",
+      "label": "PlatformIO board definition (seeeduino_lorawan)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/seeeduino_lorawan.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "atmel-atsamw25-xpro",
+  "name": "Atmel ATSAMW25-XPRO",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "chip": "atsamd21g18",
+  "ids": {
+    "platformio": [
+      "samd21g18a"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAMD21G18",
+      "source": "platformio:samd21g18a"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:samd21g18a"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:samd21g18a"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:samd21g18a"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Atmel ATSAMW25-XPRO product page",
+      "url": "https://www.microchip.com/en-us/development-tool/atsamw25-xpro"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelsam/samd21g18a.html",
+      "source": "platformio:samd21g18a"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:samd21g18a",
+      "label": "PlatformIO board definition (samd21g18a)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/samd21g18a.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "gigadevice-gd32f450i-eval",
+  "name": "GD32F450I-EVAL",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "gigadevice",
+  "ids": {
+    "zephyr": [
+      "gd32f450i_eval"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "GD32F450",
+      "source": "zephyr:gd32f450i_eval"
+    },
+    "ram": {
+      "value": "112 KB",
+      "source": "zephyr:gd32f450i_eval"
+    },
+    "flash": {
+      "value": "3 MB",
+      "source": "zephyr:gd32f450i_eval"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/gd/gd32f450i_eval/doc/index.html",
+      "source": "zephyr:gd32f450i_eval"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:gd32f450i_eval",
+      "label": "Zephyr board definition (gd32f450i_eval)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/gd/gd32f450i_eval/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

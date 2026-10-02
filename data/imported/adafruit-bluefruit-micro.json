@@ -1,0 +1,53 @@
+{
+  "slug": "adafruit-bluefruit-micro",
+  "name": "Adafruit Bluefruit Micro",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "atmega32u4",
+  "ids": {
+    "platformio": [
+      "bluefruitmicro"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega32U4",
+      "source": "platformio:bluefruitmicro"
+    },
+    "clock": {
+      "value": "8 MHz",
+      "source": "platformio:bluefruitmicro"
+    },
+    "upload_limits": {
+      "value": "28 KB flash, 2.5 KB RAM",
+      "source": "platformio:bluefruitmicro"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Adafruit Bluefruit Micro product page",
+      "url": "https://www.adafruit.com/products/2661"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/bluefruitmicro.html",
+      "source": "platformio:bluefruitmicro"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:bluefruitmicro",
+      "label": "PlatformIO board definition (bluefruitmicro)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/bluefruitmicro.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

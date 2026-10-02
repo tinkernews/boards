@@ -1,0 +1,44 @@
+{
+  "slug": "silicon-labs-efr32xg24-explorer-kit-xg24-ek2703a",
+  "name": "EFR32xG24 Explorer Kit (xG24-EK2703A)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "silicon-labs",
+  "ids": {
+    "zephyr": [
+      "xg24_ek2703a"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "EFR32MG24B210F1536IM48",
+      "source": "zephyr:xg24_ek2703a"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:xg24_ek2703a"
+    },
+    "flash": {
+      "value": "1.5 MB",
+      "source": "zephyr:xg24_ek2703a"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/silabs/dev_kits/xg24_ek2703a/doc/index.html",
+      "source": "zephyr:xg24_ek2703a"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:xg24_ek2703a",
+      "label": "Zephyr board definition (xg24_ek2703a)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/silabs/dev_kits/xg24_ek2703a/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

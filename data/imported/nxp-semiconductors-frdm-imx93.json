@@ -1,0 +1,40 @@
+{
+  "slug": "nxp-semiconductors-frdm-imx93",
+  "name": "FRDM-IMX93",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "ids": {
+    "zephyr": [
+      "frdm_imx93"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MIMX9352",
+      "source": "zephyr:frdm_imx93"
+    },
+    "ram": {
+      "value": "1024 KB",
+      "source": "zephyr:frdm_imx93"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nxp/frdm_imx93/doc/index.html",
+      "source": "zephyr:frdm_imx93"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:frdm_imx93",
+      "label": "Zephyr board definition (frdm_imx93)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nxp/frdm_imx93/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

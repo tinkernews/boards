@@ -1,0 +1,259 @@
+{
+  "slug": "seeed-studio-seeeduino-wio-terminal",
+  "name": "Seeeduino Wio Terminal",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "seeed",
+  "chip": "atsamd51j19",
+  "ids": {
+    "platformio": [
+      "seeed_wio_terminal"
+    ],
+    "circuitpython": [
+      "seeeduino_wio_terminal"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAMD51J19",
+      "source": "platformio:seeed_wio_terminal"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:seeed_wio_terminal"
+    },
+    "clock": {
+      "value": "120 MHz",
+      "source": "platformio:seeed_wio_terminal"
+    },
+    "upload_limits": {
+      "value": "496 KB flash, 192 KB RAM",
+      "source": "platformio:seeed_wio_terminal"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Seeeduino Wio Terminal product page",
+      "url": "https://www.seeedstudio.com/Wio-Terminal-p-4509.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelsam/seeed_wio_terminal.html",
+      "source": "platformio:seeed_wio_terminal"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/seeeduino_wio_terminal/",
+      "source": "circuitpython:seeeduino_wio_terminal"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:seeeduino_wio_terminal",
+    "list": [
+      {
+        "pin": "PA04",
+        "names": [
+          "A6",
+          "D6"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "A8",
+          "D8"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "A2",
+          "D2"
+        ]
+      },
+      {
+        "pin": "PA12",
+        "names": [
+          "GYROSCOPE_SCL"
+        ]
+      },
+      {
+        "pin": "PA13",
+        "names": [
+          "GYROSCOPE_SDA"
+        ]
+      },
+      {
+        "pin": "PA15",
+        "names": [
+          "D13",
+          "LED"
+        ]
+      },
+      {
+        "pin": "PA16",
+        "names": [
+          "D10",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "PA17",
+        "names": [
+          "D9",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PB00",
+        "names": [
+          "MISO"
+        ]
+      },
+      {
+        "pin": "PB01",
+        "names": [
+          "CS"
+        ]
+      },
+      {
+        "pin": "PB02",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "PB03",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "PB04",
+        "names": [
+          "A3",
+          "D3"
+        ]
+      },
+      {
+        "pin": "PB05",
+        "names": [
+          "A4",
+          "D4"
+        ]
+      },
+      {
+        "pin": "PB06",
+        "names": [
+          "A5",
+          "D5"
+        ]
+      },
+      {
+        "pin": "PB07",
+        "names": [
+          "A7",
+          "D7"
+        ]
+      },
+      {
+        "pin": "PB08",
+        "names": [
+          "A0",
+          "D0"
+        ]
+      },
+      {
+        "pin": "PB09",
+        "names": [
+          "A1",
+          "D1"
+        ]
+      },
+      {
+        "pin": "PB21",
+        "names": [
+          "TFT_CS"
+        ]
+      },
+      {
+        "pin": "PB26",
+        "names": [
+          "TX"
+        ]
+      },
+      {
+        "pin": "PB27",
+        "names": [
+          "RX"
+        ]
+      },
+      {
+        "pin": "PC05",
+        "names": [
+          "TFT_BACKLIGHT"
+        ]
+      },
+      {
+        "pin": "PC06",
+        "names": [
+          "TFT_DC"
+        ]
+      },
+      {
+        "pin": "PC07",
+        "names": [
+          "TFT_RESET"
+        ]
+      },
+      {
+        "pin": "PC19",
+        "names": [
+          "SD_CS"
+        ]
+      },
+      {
+        "pin": "PC21",
+        "names": [
+          "GYROSCOPE_INT"
+        ]
+      },
+      {
+        "pin": "PD21",
+        "names": [
+          "SD_DET"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "platformio:seeed_wio_terminal",
+      "label": "PlatformIO board definition (seeed_wio_terminal)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/seeed_wio_terminal.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    },
+    {
+      "id": "circuitpython:seeeduino_wio_terminal",
+      "label": "CircuitPython board definition (seeeduino_wio_terminal)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/seeeduino_wio_terminal.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:seeeduino_wio_terminal",
+      "label": "CircuitPython pin definitions (seeeduino_wio_terminal)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/seeeduino_wio_terminal/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

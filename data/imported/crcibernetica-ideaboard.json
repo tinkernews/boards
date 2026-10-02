@@ -1,0 +1,249 @@
+{
+  "slug": "crcibernetica-ideaboard",
+  "name": "CRCibernetica IdeaBoard",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "crcibernetica",
+  "chip": "esp32",
+  "ids": {
+    "circuitpython": [
+      "crcibernetica-ideaboard"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/crcibernetica-ideaboard/",
+      "source": "circuitpython:crcibernetica-ideaboard"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:crcibernetica-ideaboard",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "IO0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "IO1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "IO2",
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "IO3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "IO4"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "IO5"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "IO6"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "IO7"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "IO8"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "IO9"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "IO10"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "IO11"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "IO12"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "IO13"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "IO14"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "IO15"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "IO16",
+          "RX"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "IO17",
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "IO18",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "IO19",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "IO20"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "IO21",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "IO22",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "IO23",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "IO25"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "IO26"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "IO27"
+        ]
+      },
+      {
+        "pin": "GPIO32",
+        "names": [
+          "IO32"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "IO33"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "IO34"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "IO35"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "IO36"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "IO39"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:crcibernetica-ideaboard",
+      "label": "CircuitPython board definition (crcibernetica-ideaboard)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/crcibernetica-ideaboard.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:crcibernetica-ideaboard",
+      "label": "CircuitPython pin definitions (crcibernetica-ideaboard)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/crcibernetica-ideaboard/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

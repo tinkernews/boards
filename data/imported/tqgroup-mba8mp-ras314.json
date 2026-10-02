@@ -1,0 +1,49 @@
+{
+  "slug": "tqgroup-mba8mp-ras314",
+  "name": "MBa8MP-RAS314",
+  "tier": "imported",
+  "kind": "sbc",
+  "maker": "tqgroup",
+  "released": "2024",
+  "ids": {
+    "armbian": [
+      "mba8mpxl-ras314"
+    ],
+    "linux": [
+      "arch/arm64/boot/dts/freescale/imx8mp-tqma8mpql-mba8mp-ras314.dts"
+    ]
+  },
+  "software": [
+    {
+      "platform": "armbian",
+      "status": "supported",
+      "note": "Supported by Armbian.",
+      "url": "https://github.com/armbian/build/blob/main/config/boards/mba8mpxl-ras314.conf",
+      "source": "armbian:mba8mpxl-ras314"
+    },
+    {
+      "platform": "linux-mainline",
+      "status": "supported",
+      "note": "A device tree for this board is in the mainline kernel; features may still be missing.",
+      "url": "https://github.com/torvalds/linux/blob/master/arch/arm64/boot/dts/freescale/imx8mp-tqma8mpql-mba8mp-ras314.dts",
+      "source": "linux:imx8mp-tqma8mpql-mba8mp-ras314.dts"
+    }
+  ],
+  "sources": [
+    {
+      "id": "armbian:mba8mpxl-ras314",
+      "label": "Armbian board configuration (mba8mpxl-ras314)",
+      "url": "https://github.com/armbian/build/blob/da85daa05bd260d04dac50315d7317207fd998b3/config/boards/mba8mpxl-ras314.conf",
+      "kind": "import",
+      "revision": "da85daa05bd260d04dac50315d7317207fd998b3"
+    },
+    {
+      "id": "linux:imx8mp-tqma8mpql-mba8mp-ras314.dts",
+      "label": "Linux kernel device tree (imx8mp-tqma8mpql-mba8mp-ras314.dts)",
+      "url": "https://github.com/torvalds/linux/blob/551c722f40809618230001baccf219193e22fc5a/arch/arm64/boot/dts/freescale/imx8mp-tqma8mpql-mba8mp-ras314.dts",
+      "kind": "import",
+      "revision": "551c722f40809618230001baccf219193e22fc5a"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

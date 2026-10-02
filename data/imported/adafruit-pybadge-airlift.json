@@ -1,0 +1,31 @@
+{
+  "slug": "adafruit-pybadge-airlift",
+  "name": "PyBadge AirLift",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "atsamd51j19",
+  "ids": {
+    "circuitpython": [
+      "pybadge_airlift"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/pybadge_airlift/",
+      "source": "circuitpython:pybadge_airlift"
+    }
+  ],
+  "sources": [
+    {
+      "id": "circuitpython:pybadge_airlift",
+      "label": "CircuitPython board definition (pybadge_airlift)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/pybadge_airlift.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

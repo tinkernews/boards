@@ -1,0 +1,59 @@
+{
+  "slug": "logisenses-senses-weizen",
+  "name": "LOGISENSES Senses Weizen",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "logisenses",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "sensesiot_weizen"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:sensesiot_weizen"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:sensesiot_weizen"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:sensesiot_weizen"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "LOGISENSES Senses Weizen product page",
+      "url": "https://www.logisenses.com/index.php/product/senses-weizen/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/sensesiot_weizen.html",
+      "source": "platformio:sensesiot_weizen"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/sensesiot_weizen.html",
+      "source": "platformio:sensesiot_weizen"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:sensesiot_weizen",
+      "label": "PlatformIO board definition (sensesiot_weizen)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/sensesiot_weizen.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

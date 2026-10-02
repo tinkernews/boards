@@ -1,0 +1,44 @@
+{
+  "slug": "silicon-labs-siwx917-wi-fi-6-and-bluetooth-le-8-mb-flash-8",
+  "name": "SiWx917 Wi-Fi 6 and Bluetooth LE 8 MB Flash + 8 MB ext PSRAM Radio Board (SiWx91x-RB4342A)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "silicon-labs",
+  "ids": {
+    "zephyr": [
+      "siwx917_rb4342a"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "SIWG917M111MGTBA",
+      "source": "zephyr:siwx917_rb4342a"
+    },
+    "ram": {
+      "value": "8864 KB",
+      "source": "zephyr:siwx917_rb4342a"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:siwx917_rb4342a"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/silabs/radio_boards/siwx917/doc/index.html",
+      "source": "zephyr:siwx917_rb4342a"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:siwx917_rb4342a",
+      "label": "Zephyr board definition (siwx917_rb4342a)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/silabs/radio_boards/siwx917/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

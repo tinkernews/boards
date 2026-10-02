@@ -1,0 +1,232 @@
+{
+  "slug": "unexpected-maker-omgs3",
+  "name": "Unexpected Maker OMGS3",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "unexpected-maker",
+  "chip": "esp32-s3",
+  "aliases": [
+    "OMGS3"
+  ],
+  "ids": {
+    "circuitpython": [
+      "unexpectedmaker_omgs3"
+    ],
+    "micropython": [
+      "UM_OMGS3"
+    ]
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Unexpected Maker OMGS3 product page",
+      "url": "https://omgs3.io"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/UM_OMGS3/",
+      "source": "micropython:um_omgs3"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/unexpectedmaker_omgs3/",
+      "source": "circuitpython:unexpectedmaker_omgs3"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:unexpectedmaker_omgs3",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "IO0",
+          "D0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "IO1",
+          "A0",
+          "D1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "IO2",
+          "A1",
+          "D2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "IO3",
+          "A2",
+          "D3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "IO4",
+          "A3",
+          "D4"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "IO5",
+          "A4",
+          "D5"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "IO6",
+          "A5",
+          "D6"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "IO7",
+          "A6",
+          "D7"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "SDA",
+          "IO8",
+          "A7",
+          "D8"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "SCL",
+          "IO9",
+          "A8",
+          "D9"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "IO10",
+          "A9",
+          "D10"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "IO11",
+          "A10",
+          "D11"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "IO12",
+          "A11",
+          "D12"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "IO13",
+          "A12",
+          "D13"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "IO14",
+          "A13",
+          "D14"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "IO21",
+          "FG_INT"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "VBUS",
+          "VBUS_SENSE"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "NEOPIXEL_POWER"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO43",
+        "names": [
+          "IO43",
+          "D43",
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO44",
+        "names": [
+          "IO44",
+          "D44",
+          "RX"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:unexpectedmaker_omgs3",
+      "label": "CircuitPython board definition (unexpectedmaker_omgs3)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/unexpectedmaker_omgs3.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "micropython:um_omgs3",
+      "label": "MicroPython board definition (UM_OMGS3)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/esp32/boards/UM_OMGS3/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    },
+    {
+      "id": "circuitpython-pins:unexpectedmaker_omgs3",
+      "label": "CircuitPython pin definitions (unexpectedmaker_omgs3)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/unexpectedmaker_omgs3/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

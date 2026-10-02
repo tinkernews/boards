@@ -1,0 +1,253 @@
+{
+  "slug": "invector-labs-challenger-rp2040-lora",
+  "name": "Challenger RP2040 LoRa",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "invector-labs",
+  "chip": "rp2040",
+  "ids": {
+    "circuitpython": [
+      "challenger_rp2040_lora"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/challenger_rp2040_lora/",
+      "source": "circuitpython:challenger_rp2040_lora"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:challenger_rp2040_lora",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "SDA",
+          "GP0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "SCL",
+          "GP1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "D5",
+          "GP2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "D6",
+          "GP3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "D9",
+          "GP4"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "D10",
+          "GP5"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "D11",
+          "GP6"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "D12",
+          "GP7"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "D13",
+          "GP8"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "RFM95W_CS",
+          "GP9"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "RFM95W_SCK",
+          "GP10"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "RFM95W_SDO",
+          "GP11"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "RFM95W_SDI",
+          "GP12"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "RFM95W_RST",
+          "GP13",
+          "D14"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "RFM95W_DIO0",
+          "GP14",
+          "D15"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "RFM95W_DIO1",
+          "GP15",
+          "D16"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "D0",
+          "TX",
+          "GP16"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "D1",
+          "RX",
+          "GP17"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "RFM95W_DIO2",
+          "GP18",
+          "D17"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "A4",
+          "GP19"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "MISO",
+          "GP20"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "A5",
+          "GP21"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "SCK",
+          "GP22"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "MOSI",
+          "GP23"
+        ]
+      },
+      {
+        "pin": "GPIO24",
+        "names": [
+          "LED",
+          "GP24",
+          "D18"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "A0",
+          "GP26"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "A1",
+          "GP27"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "A2",
+          "GP28"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "A3",
+          "GP29"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:challenger_rp2040_lora",
+      "label": "CircuitPython board definition (challenger_rp2040_lora)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/challenger_rp2040_lora.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:challenger_rp2040_lora",
+      "label": "CircuitPython pin definitions (challenger_rp2040_lora)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/challenger_rp2040_lora/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

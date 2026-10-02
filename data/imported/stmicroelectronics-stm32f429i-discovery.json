@@ -1,0 +1,44 @@
+{
+  "slug": "stmicroelectronics-stm32f429i-discovery",
+  "name": "STM32F429I Discovery",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "zephyr": [
+      "stm32f429i_disc1"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F429XX",
+      "source": "zephyr:stm32f429i_disc1"
+    },
+    "ram": {
+      "value": "192 KB",
+      "source": "zephyr:stm32f429i_disc1"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:stm32f429i_disc1"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/stm32f429i_disc1/doc/index.html",
+      "source": "zephyr:stm32f429i_disc1"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:stm32f429i_disc1",
+      "label": "Zephyr board definition (stm32f429i_disc1)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/stm32f429i_disc1/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

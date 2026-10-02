@@ -1,0 +1,37 @@
+{
+  "slug": "george-robotics-pyboard-d-series-sf6",
+  "name": "Pyboard D-series SF6",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "george-robotics",
+  "ids": {
+    "micropython": [
+      "PYBD_SF6"
+    ]
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Pyboard D-series SF6 product page",
+      "url": "https://store.micropython.org/product/PYBD-SF6-W4F2"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/PYBD_SF6/",
+      "source": "micropython:pybd_sf6"
+    }
+  ],
+  "sources": [
+    {
+      "id": "micropython:pybd_sf6",
+      "label": "MicroPython board definition (PYBD_SF6)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/stm32/boards/PYBD_SF6/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

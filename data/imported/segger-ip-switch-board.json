@@ -1,0 +1,76 @@
+{
+  "slug": "segger-ip-switch-board",
+  "name": "SEGGER IP Switch Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "segger",
+  "aliases": [
+    "IP Switch Board"
+  ],
+  "ids": {
+    "platformio": [
+      "segger_ip_switch"
+    ],
+    "zephyr": [
+      "ip_k66f"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MK66FN2M0VMD18",
+      "source": "platformio:segger_ip_switch"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:segger_ip_switch"
+    },
+    "clock": {
+      "value": "180 MHz",
+      "source": "platformio:segger_ip_switch"
+    },
+    "upload_limits": {
+      "value": "2 MB flash, 256 KB RAM",
+      "source": "platformio:segger_ip_switch"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:ip_k66f"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:ip_k66f"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "SEGGER IP Switch Board product page",
+      "url": "https://www.segger.com/evaluate-our-software/segger/embosip-switch-board/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/segger/ip_k66f/doc/index.html",
+      "source": "zephyr:ip_k66f"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:segger_ip_switch",
+      "label": "PlatformIO board definition (segger_ip_switch)",
+      "url": "https://github.com/platformio/platform-freescalekinetis/blob/9447848c3779190452d56181b8d941b94804cbe9/boards/segger_ip_switch.json",
+      "kind": "import",
+      "revision": "9447848c3779190452d56181b8d941b94804cbe9"
+    },
+    {
+      "id": "zephyr:ip_k66f",
+      "label": "Zephyr board definition (ip_k66f)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/segger/ip_k66f/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

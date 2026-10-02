@@ -1,0 +1,44 @@
+{
+  "slug": "nuvoton-npck3m8k-evb",
+  "name": "NPCK3M8K_EVB",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nuvoton",
+  "ids": {
+    "zephyr": [
+      "npck3m8k_evb"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "NPCK3M8K",
+      "source": "zephyr:npck3m8k_evb"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:npck3m8k_evb"
+    },
+    "flash": {
+      "value": "192 KB",
+      "source": "zephyr:npck3m8k_evb"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nuvoton/npck3m8k_evb/doc/index.html",
+      "source": "zephyr:npck3m8k_evb"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:npck3m8k_evb",
+      "label": "Zephyr board definition (npck3m8k_evb)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nuvoton/npck3m8k_evb/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

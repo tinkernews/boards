@@ -1,0 +1,57 @@
+{
+  "slug": "arduino-m0-pro-native-usb-port",
+  "name": "Arduino M0 Pro (Native USB Port)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "chip": "atsamd21g18",
+  "ids": {
+    "platformio": [
+      "mzeroproUSB"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAMD21G18",
+      "source": "platformio:mzeroprousb"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:mzeroprousb"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:mzeroprousb"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:mzeroprousb"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Arduino M0 Pro (Native USB Port) product page",
+      "url": "https://www.arduino.cc/en/Main/ArduinoBoardM0PRO"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelsam/mzeroproUSB.html",
+      "source": "platformio:mzeroprousb"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:mzeroprousb",
+      "label": "PlatformIO board definition (mzeroproUSB)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/mzeroproUSB.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

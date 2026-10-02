@@ -1,0 +1,56 @@
+{
+  "slug": "weact-studio-ministm32h743vitx",
+  "name": "WeAct Studio MiniSTM32H743VITX",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "weact",
+  "ids": {
+    "platformio": [
+      "weact_mini_h743vitx"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32H743VIT6",
+      "source": "platformio:weact_mini_h743vitx"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M7",
+      "source": "platformio:weact_mini_h743vitx"
+    },
+    "clock": {
+      "value": "480 MHz",
+      "source": "platformio:weact_mini_h743vitx"
+    },
+    "upload_limits": {
+      "value": "2 MB flash, 512 KB RAM",
+      "source": "platformio:weact_mini_h743vitx"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "WeAct Studio MiniSTM32H743VITX product page",
+      "url": "https://github.com/WeActStudio/MiniSTM32H7xx"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/weact_mini_h743vitx.html",
+      "source": "platformio:weact_mini_h743vitx"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:weact_mini_h743vitx",
+      "label": "PlatformIO board definition (weact_mini_h743vitx)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/weact_mini_h743vitx.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

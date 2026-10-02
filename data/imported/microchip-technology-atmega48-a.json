@@ -1,0 +1,52 @@
+{
+  "slug": "microchip-technology-atmega48-a",
+  "name": "ATmega48/A",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "ids": {
+    "platformio": [
+      "ATmega48"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATMEGA48",
+      "source": "platformio:atmega48"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:atmega48"
+    },
+    "upload_limits": {
+      "value": "4 KB flash, 0.5 KB RAM",
+      "source": "platformio:atmega48"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ATmega48/A product page",
+      "url": "https://www.microchip.com/wwwproducts/en/ATmega48"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/ATmega48.html",
+      "source": "platformio:atmega48"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:atmega48",
+      "label": "PlatformIO board definition (ATmega48)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/ATmega48.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

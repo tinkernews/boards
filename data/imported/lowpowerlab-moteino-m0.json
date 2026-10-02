@@ -1,0 +1,57 @@
+{
+  "slug": "lowpowerlab-moteino-m0",
+  "name": "Moteino M0",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "lowpowerlab",
+  "chip": "atsamd21g18",
+  "ids": {
+    "platformio": [
+      "moteino_zero"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAMD21G18",
+      "source": "platformio:moteino_zero"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:moteino_zero"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:moteino_zero"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:moteino_zero"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Moteino M0 product page",
+      "url": "https://lowpowerlab.com/shop/product/184"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelsam/moteino_zero.html",
+      "source": "platformio:moteino_zero"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:moteino_zero",
+      "label": "PlatformIO board definition (moteino_zero)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/moteino_zero.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,218 @@
+{
+  "slug": "pimoroni-badger-2350",
+  "name": "Badger 2350",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "pimoroni",
+  "chip": "rp2350",
+  "ids": {
+    "circuitpython": [
+      "pimoroni_badger2350"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/pimoroni_badger2350/",
+      "source": "circuitpython:pimoroni_badger2350"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:pimoroni_badger2350",
+    "list": [
+      {
+        "pin": "CYW2",
+        "names": [
+          "CHARGE_STAT"
+        ]
+      },
+      {
+        "pin": "GPIO0",
+        "names": [
+          "GP0",
+          "LED",
+          "LED0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "GP1",
+          "LED1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "GP2",
+          "LED2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "GP3",
+          "LED3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "GP4",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "GP5",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "GP6",
+          "SW_DOWN"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "GP7",
+          "SW_A"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "GP9",
+          "SW_B"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "GP10",
+          "SW_C"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "GP11",
+          "SW_UP"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "GP12",
+          "VBUS_SENSE"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "GP13",
+          "RTC_ALARM"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "GP14",
+          "SW_RESET"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "GP15",
+          "SW_INT"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "GP16",
+          "INKY_BUSY"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "GP17",
+          "INKY_CS"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "GP18",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "GP19",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "GP20",
+          "INKY_DC"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "GP21",
+          "INKY_RST"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "GP22",
+          "SW_HOME"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "GP26",
+          "VBAT_SENSE"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "GP28",
+          "SENSE_1V1"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:pimoroni_badger2350",
+      "label": "CircuitPython board definition (pimoroni_badger2350)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/pimoroni_badger2350.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:pimoroni_badger2350",
+      "label": "CircuitPython pin definitions (pimoroni_badger2350)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/pimoroni_badger2350/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

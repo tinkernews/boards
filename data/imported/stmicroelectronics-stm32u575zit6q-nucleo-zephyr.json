@@ -1,0 +1,30 @@
+{
+  "slug": "stmicroelectronics-stm32u575zit6q-nucleo-zephyr",
+  "name": "STM32U575ZIT6Q Nucleo (Zephyr)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "circuitpython": [
+      "st_nucleo_u575zi_q"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/st_nucleo_u575zi_q/",
+      "source": "circuitpython:st_nucleo_u575zi_q"
+    }
+  ],
+  "sources": [
+    {
+      "id": "circuitpython:st_nucleo_u575zi_q",
+      "label": "CircuitPython board definition (st_nucleo_u575zi_q)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/st_nucleo_u575zi_q.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "yoto-mini-2024-edition",
+  "name": "Yoto Mini (2024 Edition)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "yoto",
+  "chip": "esp32",
+  "ids": {
+    "circuitpython": [
+      "yoto_mini_2024"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/yoto_mini_2024/",
+      "source": "circuitpython:yoto_mini_2024"
+    }
+  ],
+  "sources": [
+    {
+      "id": "circuitpython:yoto_mini_2024",
+      "label": "CircuitPython board definition (yoto_mini_2024)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/yoto_mini_2024.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "renesas-ra4t1-motor-control-kit",
+  "name": "RA4T1 Motor Control Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "renesas",
+  "ids": {
+    "zephyr": [
+      "mck_ra4t1"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "R7FA4T1BB3CFM",
+      "source": "zephyr:mck_ra4t1"
+    },
+    "ram": {
+      "value": "40 KB",
+      "source": "zephyr:mck_ra4t1"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:mck_ra4t1"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/renesas/mck_ra4t1/doc/index.html",
+      "source": "zephyr:mck_ra4t1"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:mck_ra4t1",
+      "label": "Zephyr board definition (mck_ra4t1)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/renesas/mck_ra4t1/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

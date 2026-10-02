@@ -1,0 +1,45 @@
+{
+  "slug": "u-blox-evk-bmd-34-48-bmd-380-eval",
+  "name": "EVK-BMD-34/48: BMD-380-EVAL",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "u-blox",
+  "chip": "nrf52840",
+  "ids": {
+    "zephyr": [
+      "ubx_bmd380eval"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52840",
+      "source": "zephyr:ubx_bmd380eval"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:ubx_bmd380eval"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:ubx_bmd380eval"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/u-blox/ubx_bmd380eval/doc/index.html",
+      "source": "zephyr:ubx_bmd380eval"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:ubx_bmd380eval",
+      "label": "Zephyr board definition (ubx_bmd380eval)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/u-blox/ubx_bmd380eval/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

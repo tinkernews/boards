@@ -1,0 +1,76 @@
+{
+  "slug": "nxp-lpcxpresso55s16",
+  "name": "NXP LPCXpresso55S16",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "aliases": [
+    "LPCXpresso55S16"
+  ],
+  "ids": {
+    "platformio": [
+      "lpcxpresso55s16"
+    ],
+    "zephyr": [
+      "lpcxpresso55s16"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "LPC55S16",
+      "source": "platformio:lpcxpresso55s16"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M33",
+      "source": "platformio:lpcxpresso55s16"
+    },
+    "clock": {
+      "value": "150 MHz",
+      "source": "platformio:lpcxpresso55s16"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 96 KB RAM",
+      "source": "platformio:lpcxpresso55s16"
+    },
+    "ram": {
+      "value": "96 KB",
+      "source": "zephyr:lpcxpresso55s16"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:lpcxpresso55s16"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "NXP LPCXpresso55S16 product page",
+      "url": "https://www.nxp.com/design/development-boards/lpcxpresso-boards/lpcxpresso55s16-development-board:LPC55S16-EVK"
+    }
+  ],
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nxp/lpcxpresso55s16/doc/index.html",
+      "source": "zephyr:lpcxpresso55s16"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:lpcxpresso55s16",
+      "label": "PlatformIO board definition (lpcxpresso55s16)",
+      "url": "https://github.com/platformio/platform-nxplpc/blob/7fe287fac83ec5cfcf8b5ec7e36d43b5a17cace8/boards/lpcxpresso55s16.json",
+      "kind": "import",
+      "revision": "7fe287fac83ec5cfcf8b5ec7e36d43b5a17cace8"
+    },
+    {
+      "id": "zephyr:lpcxpresso55s16",
+      "label": "Zephyr board definition (lpcxpresso55s16)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nxp/lpcxpresso55s16/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

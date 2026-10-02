@@ -1,0 +1,30 @@
+{
+  "slug": "silicon-labs-efr32xg24-dev-kit",
+  "name": "EFR32xG24 Dev Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "silicon-labs",
+  "ids": {
+    "circuitpython": [
+      "silabs_devkit_xg24_brd2601b"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/silabs_devkit_xg24_brd2601b/",
+      "source": "circuitpython:silabs_devkit_xg24_brd2601b"
+    }
+  ],
+  "sources": [
+    {
+      "id": "circuitpython:silabs_devkit_xg24_brd2601b",
+      "label": "CircuitPython board definition (silabs_devkit_xg24_brd2601b)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/silabs_devkit_xg24_brd2601b.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

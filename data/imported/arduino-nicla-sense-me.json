@@ -1,0 +1,81 @@
+{
+  "slug": "arduino-nicla-sense-me",
+  "name": "Arduino Nicla Sense ME",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "chip": "nrf52832",
+  "ids": {
+    "platformio": [
+      "nicla_sense_me"
+    ],
+    "zephyr": [
+      "arduino_nicla_sense_me"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52832",
+      "source": "platformio:nicla_sense_me"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:nicla_sense_me"
+    },
+    "clock": {
+      "value": "64 MHz",
+      "source": "platformio:nicla_sense_me"
+    },
+    "upload_limits": {
+      "value": "515.25 KB flash, 62.78 KB RAM",
+      "source": "platformio:nicla_sense_me"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:arduino_nicla_sense_me"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:arduino_nicla_sense_me"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Arduino Nicla Sense ME product page",
+      "url": "https://docs.arduino.cc/hardware/nicla-sense-me"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/nordicnrf52/nicla_sense_me.html",
+      "source": "platformio:nicla_sense_me"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/arduino/nicla_sense_me/doc/index.html",
+      "source": "zephyr:arduino_nicla_sense_me"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:nicla_sense_me",
+      "label": "PlatformIO board definition (nicla_sense_me)",
+      "url": "https://github.com/platformio/platform-nordicnrf52/blob/278176a7f7ffe2d001eb93eafa271c83b38222e4/boards/nicla_sense_me.json",
+      "kind": "import",
+      "revision": "278176a7f7ffe2d001eb93eafa271c83b38222e4"
+    },
+    {
+      "id": "zephyr:arduino_nicla_sense_me",
+      "label": "Zephyr board definition (arduino_nicla_sense_me)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/arduino/nicla_sense_me/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

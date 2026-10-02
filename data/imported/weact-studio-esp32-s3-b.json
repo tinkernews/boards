@@ -1,0 +1,37 @@
+{
+  "slug": "weact-studio-esp32-s3-b",
+  "name": "ESP32-S3-B",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "weact",
+  "chip": "esp32-s3",
+  "ids": {
+    "zephyr": [
+      "weact_esp32s3_b"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-S3",
+      "source": "zephyr:weact_esp32s3_b"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/weact/esp32s3_b/doc/index.html",
+      "source": "zephyr:weact_esp32s3_b"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:weact_esp32s3_b",
+      "label": "Zephyr board definition (weact_esp32s3_b)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/weact/esp32s3_b/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

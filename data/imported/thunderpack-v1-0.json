@@ -1,0 +1,64 @@
+{
+  "slug": "thunderpack-v1-0",
+  "name": "ThunderPack v1.0",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "thunderpack",
+  "ids": {
+    "platformio": [
+      "thunder_pack",
+      "thunder_pack_f411"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32L072KZ",
+      "source": "platformio:thunder_pack"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:thunder_pack"
+    },
+    "clock": {
+      "value": "32 MHz",
+      "source": "platformio:thunder_pack"
+    },
+    "upload_limits": {
+      "value": "192 KB flash, 20 KB RAM",
+      "source": "platformio:thunder_pack"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ThunderPack v1.0 product page",
+      "url": "https://github.com/jgillick/ThunderPack"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/thunder_pack.html",
+      "source": "platformio:thunder_pack"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:thunder_pack",
+      "label": "PlatformIO board definition (thunder_pack)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/thunder_pack.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    },
+    {
+      "id": "platformio:thunder_pack_f411",
+      "label": "PlatformIO board definition (thunder_pack_f411)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/thunder_pack_f411.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

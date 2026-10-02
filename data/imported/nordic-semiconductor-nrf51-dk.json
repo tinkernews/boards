@@ -1,0 +1,45 @@
+{
+  "slug": "nordic-semiconductor-nrf51-dk",
+  "name": "nRF51 DK",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nordic-semiconductor",
+  "chip": "nrf51822",
+  "ids": {
+    "zephyr": [
+      "nrf51dk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF51822",
+      "source": "zephyr:nrf51dk"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:nrf51dk"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:nrf51dk"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nordic/nrf51dk/doc/index.html",
+      "source": "zephyr:nrf51dk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:nrf51dk",
+      "label": "Zephyr board definition (nrf51dk)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nordic/nrf51dk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

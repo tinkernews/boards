@@ -1,0 +1,261 @@
+{
+  "slug": "flipper-zero-wifi-dev",
+  "name": "Flipper Zero WiFi Dev",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "flipper-zero",
+  "chip": "esp32-s2",
+  "ids": {
+    "circuitpython": [
+      "flipperzero_wifi_dev"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/flipperzero_wifi_dev/",
+      "source": "circuitpython:flipperzero_wifi_dev"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:flipperzero_wifi_dev",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "IO0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "IO1",
+          "SCL",
+          "ADC1_CH0"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "IO2",
+          "SDA",
+          "ADC1_CH1"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "IO3",
+          "ADC1_CH2"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "IO4",
+          "BLUE_LED",
+          "ADC1_CH3"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "IO5",
+          "GREEN_LED",
+          "ADC1_CH4"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "IO6",
+          "RED_LED",
+          "ADC1_CH5"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "IO7",
+          "ADC1_CH6"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "IO8",
+          "ADC1_CH7"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "IO9",
+          "ADC1_CH8"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "IO10",
+          "ADC1_CH9"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "IO11",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "IO12",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "IO13",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "IO14"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "IO15"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "IO16"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "IO17",
+          "DAC1"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "IO18",
+          "DAC2"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "IO21"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "IO26"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "IO33"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "IO34"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "IO35"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "IO36"
+        ]
+      },
+      {
+        "pin": "GPIO37",
+        "names": [
+          "IO37"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "IO38"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "IO39"
+        ]
+      },
+      {
+        "pin": "GPIO40",
+        "names": [
+          "IO40"
+        ]
+      },
+      {
+        "pin": "GPIO41",
+        "names": [
+          "IO41"
+        ]
+      },
+      {
+        "pin": "GPIO42",
+        "names": [
+          "IO42"
+        ]
+      },
+      {
+        "pin": "GPIO43",
+        "names": [
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO44",
+        "names": [
+          "RX"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:flipperzero_wifi_dev",
+      "label": "CircuitPython board definition (flipperzero_wifi_dev)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/flipperzero_wifi_dev.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:flipperzero_wifi_dev",
+      "label": "CircuitPython pin definitions (flipperzero_wifi_dev)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/flipperzero_wifi_dev/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

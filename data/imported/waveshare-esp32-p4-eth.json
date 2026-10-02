@@ -1,0 +1,37 @@
+{
+  "slug": "waveshare-esp32-p4-eth",
+  "name": "Waveshare ESP32-P4-ETH",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "waveshare",
+  "chip": "esp32-p4",
+  "ids": {
+    "zephyr": [
+      "waveshare_esp32p4_eth"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-P4",
+      "source": "zephyr:waveshare_esp32p4_eth"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/waveshare/esp32p4_eth/doc/index.html",
+      "source": "zephyr:waveshare_esp32p4_eth"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:waveshare_esp32p4_eth",
+      "label": "Zephyr board definition (waveshare_esp32p4_eth)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/waveshare/esp32p4_eth/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

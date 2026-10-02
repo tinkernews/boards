@@ -1,0 +1,189 @@
+{
+  "slug": "pimoroni-picosystem",
+  "name": "PicoSystem",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "pimoroni",
+  "chip": "rp2040",
+  "ids": {
+    "circuitpython": [
+      "pimoroni_picosystem"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/pimoroni_picosystem/",
+      "source": "circuitpython:pimoroni_picosystem"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:pimoroni_picosystem",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "TX",
+          "GP0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "RX",
+          "GP1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "VBUS_DETECT"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "LCD_RESET"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "LCD_CS"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "LCD_SCLK"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "LCD_MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "LCD_VSYNC"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "LCD_DC"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "AUDIO"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "BACKLIGHT"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "LED_G"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "LED_R"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "LED_B"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "SW_Y"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "SW_X"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "SW_A"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "SW_B"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "SW_DOWN"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "SW_RIGHT"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "SW_LEFT"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "SW_UP"
+        ]
+      },
+      {
+        "pin": "GPIO24",
+        "names": [
+          "CHARGE_STAT"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "BAT_SENSE"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:pimoroni_picosystem",
+      "label": "CircuitPython board definition (pimoroni_picosystem)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/pimoroni_picosystem.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:pimoroni_picosystem",
+      "label": "CircuitPython pin definitions (pimoroni_picosystem)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/pimoroni_picosystem/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

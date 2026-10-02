@@ -1,0 +1,183 @@
+{
+  "slug": "pimoroni-plasma-2350",
+  "name": "Plasma 2350",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "pimoroni",
+  "chip": "rp2350",
+  "ids": {
+    "circuitpython": [
+      "pimoroni_plasma2350"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/pimoroni_plasma2350/",
+      "source": "circuitpython:pimoroni_plasma2350"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:pimoroni_plasma2350",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "GP0",
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "GP1",
+          "RX"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "SPICE_BL",
+          "TFT_BACKLIGHT"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "SPICE_RX",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "SPICE_CS"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "SPICE_SCK",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "SPICE_TX",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "SW_A",
+          "BUTTON"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "CLK",
+          "GP14"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "DATA",
+          "GP15"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "LED_R"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "LED_G"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "LED_B"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "INT",
+          "GP19"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "SDA",
+          "GP20"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "SCL",
+          "GP21"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "SW_BOOT",
+          "BOOT",
+          "USER_SW"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "GP26_A0",
+          "GP26",
+          "A0"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "GP27_A1",
+          "GP27",
+          "A1"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "GP28_A2",
+          "GP28",
+          "A2"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:pimoroni_plasma2350",
+      "label": "CircuitPython board definition (pimoroni_plasma2350)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/pimoroni_plasma2350.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:pimoroni_plasma2350",
+      "label": "CircuitPython pin definitions (pimoroni_plasma2350)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/pimoroni_plasma2350/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

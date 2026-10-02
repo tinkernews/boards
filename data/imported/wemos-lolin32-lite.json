@@ -1,0 +1,78 @@
+{
+  "slug": "wemos-lolin32-lite",
+  "name": "WEMOS LOLIN32 Lite",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "wemos",
+  "chip": "esp32",
+  "aliases": [
+    "Wemos Lolin32 Lite"
+  ],
+  "ids": {
+    "platformio": [
+      "lolin32_lite"
+    ],
+    "zephyr": [
+      "lolin32_lite"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:lolin32_lite"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:lolin32_lite"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:lolin32_lite"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "WEMOS LOLIN32 Lite product page",
+      "url": "https://diyprojects.io/wemos-lolin32-lite-compact-revision-lolin32-4-90/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/lolin32_lite.html",
+      "source": "platformio:lolin32_lite"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/lolin32_lite.html",
+      "source": "platformio:lolin32_lite"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/wemos/lolin32_lite/doc/index.html",
+      "source": "zephyr:lolin32_lite"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:lolin32_lite",
+      "label": "PlatformIO board definition (lolin32_lite)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/lolin32_lite.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    },
+    {
+      "id": "zephyr:lolin32_lite",
+      "label": "Zephyr board definition (lolin32_lite)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/wemos/lolin32_lite/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

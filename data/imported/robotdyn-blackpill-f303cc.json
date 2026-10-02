@@ -1,0 +1,56 @@
+{
+  "slug": "robotdyn-blackpill-f303cc",
+  "name": "BlackPill F303CC",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "robotdyn",
+  "ids": {
+    "platformio": [
+      "robotdyn_blackpill_f303cc"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F303CCT6",
+      "source": "platformio:robotdyn_blackpill_f303cc"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:robotdyn_blackpill_f303cc"
+    },
+    "clock": {
+      "value": "72 MHz",
+      "source": "platformio:robotdyn_blackpill_f303cc"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 40 KB RAM",
+      "source": "platformio:robotdyn_blackpill_f303cc"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "BlackPill F303CC product page",
+      "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32f303cc.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/robotdyn_blackpill_f303cc.html",
+      "source": "platformio:robotdyn_blackpill_f303cc"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:robotdyn_blackpill_f303cc",
+      "label": "PlatformIO board definition (robotdyn_blackpill_f303cc)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/robotdyn_blackpill_f303cc.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

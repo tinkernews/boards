@@ -1,0 +1,44 @@
+{
+  "slug": "barth-elektronik-stg-800-lococube-mini-plc",
+  "name": "STG-800 lococube mini-PLC",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "barth-elektronik",
+  "ids": {
+    "zephyr": [
+      "stg_800"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F091XC",
+      "source": "zephyr:stg_800"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:stg_800"
+    },
+    "flash": {
+      "value": "100 KB",
+      "source": "zephyr:stg_800"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/barth/stg_800/doc/index.html",
+      "source": "zephyr:stg_800"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:stg_800",
+      "label": "Zephyr board definition (stg_800)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/barth/stg_800/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

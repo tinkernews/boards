@@ -1,0 +1,53 @@
+{
+  "slug": "sodaq-ndogo",
+  "name": "SODAQ Ndogo",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sodaq",
+  "chip": "atmega1284p",
+  "ids": {
+    "platformio": [
+      "sodaq_ndogo"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega1284P",
+      "source": "platformio:sodaq_ndogo"
+    },
+    "clock": {
+      "value": "8 MHz",
+      "source": "platformio:sodaq_ndogo"
+    },
+    "upload_limits": {
+      "value": "127 KB flash, 16 KB RAM",
+      "source": "platformio:sodaq_ndogo"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "SODAQ Ndogo product page",
+      "url": "http://support.sodaq.com/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/sodaq_ndogo.html",
+      "source": "platformio:sodaq_ndogo"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:sodaq_ndogo",
+      "label": "PlatformIO board definition (sodaq_ndogo)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/sodaq_ndogo.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

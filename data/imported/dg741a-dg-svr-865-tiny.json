@@ -1,0 +1,32 @@
+{
+  "slug": "dg741a-dg-svr-865-tiny",
+  "name": "DG SVR 865 Tiny",
+  "tier": "imported",
+  "kind": "sbc",
+  "maker": "dg741a",
+  "released": "2023",
+  "ids": {
+    "armbian": [
+      "dg-svr-865-tiny"
+    ]
+  },
+  "software": [
+    {
+      "platform": "armbian",
+      "status": "supported",
+      "note": "Supported by Armbian.",
+      "url": "https://github.com/armbian/build/blob/main/config/boards/dg-svr-865-tiny.conf",
+      "source": "armbian:dg-svr-865-tiny"
+    }
+  ],
+  "sources": [
+    {
+      "id": "armbian:dg-svr-865-tiny",
+      "label": "Armbian board configuration (dg-svr-865-tiny)",
+      "url": "https://github.com/armbian/build/blob/da85daa05bd260d04dac50315d7317207fd998b3/config/boards/dg-svr-865-tiny.conf",
+      "kind": "import",
+      "revision": "da85daa05bd260d04dac50315d7317207fd998b3"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

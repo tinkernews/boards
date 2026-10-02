@@ -1,0 +1,52 @@
+{
+  "slug": "texas-instruments-ti-launchpad-msp-exp430fr5994lp",
+  "name": "TI LaunchPad MSP-EXP430FR5994LP",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "texas-instruments",
+  "ids": {
+    "platformio": [
+      "lpmsp430fr5994"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MSP430FR5994",
+      "source": "platformio:lpmsp430fr5994"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:lpmsp430fr5994"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 4 KB RAM",
+      "source": "platformio:lpmsp430fr5994"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "TI LaunchPad MSP-EXP430FR5994LP product page",
+      "url": "http://www.ti.com/product/MSP430FR5994"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/timsp430/lpmsp430fr5994.html",
+      "source": "platformio:lpmsp430fr5994"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:lpmsp430fr5994",
+      "label": "PlatformIO board definition (lpmsp430fr5994)",
+      "url": "https://github.com/platformio/platform-timsp430/blob/ba37e42877813fe57f29f605e7a7fe6f71c68d91/boards/lpmsp430fr5994.json",
+      "kind": "import",
+      "revision": "ba37e42877813fe57f29f605e7a7fe6f71c68d91"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

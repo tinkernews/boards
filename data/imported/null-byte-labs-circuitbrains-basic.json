@@ -1,0 +1,31 @@
+{
+  "slug": "null-byte-labs-circuitbrains-basic",
+  "name": "CircuitBrains Basic",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "null-byte-labs",
+  "chip": "atsamd21g18",
+  "ids": {
+    "circuitpython": [
+      "circuitbrains_basic_m0"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/circuitbrains_basic_m0/",
+      "source": "circuitpython:circuitbrains_basic_m0"
+    }
+  ],
+  "sources": [
+    {
+      "id": "circuitpython:circuitbrains_basic_m0",
+      "label": "CircuitPython board definition (circuitbrains_basic_m0)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/circuitbrains_basic_m0.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

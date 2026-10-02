@@ -1,0 +1,52 @@
+{
+  "slug": "fubarino-sd-1-5",
+  "name": "Fubarino SD (1.5)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "fubarino",
+  "ids": {
+    "platformio": [
+      "fubarino_sd"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "32MX795F512H",
+      "source": "platformio:fubarino_sd"
+    },
+    "clock": {
+      "value": "80 MHz",
+      "source": "platformio:fubarino_sd"
+    },
+    "upload_limits": {
+      "value": "508 KB flash, 128 KB RAM",
+      "source": "platformio:fubarino_sd"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Fubarino SD (1.5) product page",
+      "url": "http://fubarino.org/sd/index.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/microchippic32/fubarino_sd.html",
+      "source": "platformio:fubarino_sd"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:fubarino_sd",
+      "label": "PlatformIO board definition (fubarino_sd)",
+      "url": "https://github.com/platformio/platform-microchippic32/blob/f6e89308da11cfe35d7534696bf01abf3f442461/boards/fubarino_sd.json",
+      "kind": "import",
+      "revision": "f6e89308da11cfe35d7534696bf01abf3f442461"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

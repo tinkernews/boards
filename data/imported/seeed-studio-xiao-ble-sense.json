@@ -1,0 +1,45 @@
+{
+  "slug": "seeed-studio-xiao-ble-sense",
+  "name": "XIAO BLE (Sense)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "seeed",
+  "chip": "nrf52840",
+  "ids": {
+    "zephyr": [
+      "xiao_ble"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52840",
+      "source": "zephyr:xiao_ble"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:xiao_ble"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:xiao_ble"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/seeed/xiao_ble/doc/index.html",
+      "source": "zephyr:xiao_ble"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:xiao_ble",
+      "label": "Zephyr board definition (xiao_ble)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/seeed/xiao_ble/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

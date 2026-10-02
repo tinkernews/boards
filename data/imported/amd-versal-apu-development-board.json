@@ -1,0 +1,36 @@
+{
+  "slug": "amd-versal-apu-development-board",
+  "name": "AMD Versal APU Development Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "advanced-micro-devices-amd",
+  "ids": {
+    "zephyr": [
+      "versal_apu"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "VERSAL_APU",
+      "source": "zephyr:versal_apu"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/amd/versal_apu/doc/index.html",
+      "source": "zephyr:versal_apu"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:versal_apu",
+      "label": "Zephyr board definition (versal_apu)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/amd/versal_apu/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

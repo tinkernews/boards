@@ -1,0 +1,211 @@
+{
+  "slug": "adafruit-funhouse-wifi-home-automation-development-board",
+  "name": "FunHouse - WiFi Home Automation Development Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "esp32-s2",
+  "ids": {
+    "circuitpython": [
+      "adafruit_funhouse"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/adafruit_funhouse/",
+      "source": "circuitpython:adafruit_funhouse"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:adafruit_funhouse",
+    "list": [
+      {
+        "pin": "GPIO1",
+        "names": [
+          "A2"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "A1"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "BUTTON_DOWN"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "BUTTON_SELECT"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "BUTTON_UP"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "CAP6"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "CAP7"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "CAP8"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "CAP9"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "CAP10"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "CAP11"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "CAP12"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "CAP13"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "DOTSTAR_DATA"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "DOTSTAR_CLOCK"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "PIR_SENSE"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "A0"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "LIGHT"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "TFT_BACKLIGHT"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "TFT_MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "TFT_SCK"
+        ]
+      },
+      {
+        "pin": "GPIO37",
+        "names": [
+          "LED"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "TFT_DC"
+        ]
+      },
+      {
+        "pin": "GPIO40",
+        "names": [
+          "TFT_CS"
+        ]
+      },
+      {
+        "pin": "GPIO41",
+        "names": [
+          "TFT_RESET"
+        ]
+      },
+      {
+        "pin": "GPIO42",
+        "names": [
+          "SPEAKER"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:adafruit_funhouse",
+      "label": "CircuitPython board definition (adafruit_funhouse)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/adafruit_funhouse.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:adafruit_funhouse",
+      "label": "CircuitPython pin definitions (adafruit_funhouse)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/adafruit_funhouse/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

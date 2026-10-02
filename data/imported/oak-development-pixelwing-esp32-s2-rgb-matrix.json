@@ -1,0 +1,31 @@
+{
+  "slug": "oak-development-pixelwing-esp32-s2-rgb-matrix",
+  "name": "PixelWing ESP32-S2 RGB Matrix",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "oak-development",
+  "chip": "esp32-s2",
+  "ids": {
+    "circuitpython": [
+      "odt_pixelwing_esp32_s2"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/odt_pixelwing_esp32_s2/",
+      "source": "circuitpython:odt_pixelwing_esp32_s2"
+    }
+  ],
+  "sources": [
+    {
+      "id": "circuitpython:odt_pixelwing_esp32_s2",
+      "label": "CircuitPython board definition (odt_pixelwing_esp32_s2)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/odt_pixelwing_esp32_s2.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

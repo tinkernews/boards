@@ -1,0 +1,40 @@
+{
+  "slug": "microchip-technology-m2gl025-mi-v",
+  "name": "M2GL025 Mi-V",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "ids": {
+    "zephyr": [
+      "m2gl025_miv"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MIV",
+      "source": "zephyr:m2gl025_miv"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:m2gl025_miv"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/microchip/m2gl025_miv/doc/index.html",
+      "source": "zephyr:m2gl025_miv"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:m2gl025_miv",
+      "label": "Zephyr board definition (m2gl025_miv)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/microchip/m2gl025_miv/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

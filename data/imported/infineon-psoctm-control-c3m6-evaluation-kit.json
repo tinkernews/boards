@@ -1,0 +1,44 @@
+{
+  "slug": "infineon-psoctm-control-c3m6-evaluation-kit",
+  "name": "PSOC™ Control C3M6 Evaluation Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "infineon",
+  "ids": {
+    "zephyr": [
+      "kit_psc3m6_evk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "PSC3M6GES3AHQ1",
+      "source": "zephyr:kit_psc3m6_evk"
+    },
+    "ram": {
+      "value": "128 KB",
+      "source": "zephyr:kit_psc3m6_evk"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:kit_psc3m6_evk"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/infineon/kit_psc3m6_evk/doc/index.html",
+      "source": "zephyr:kit_psc3m6_evk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:kit_psc3m6_evk",
+      "label": "Zephyr board definition (kit_psc3m6_evk)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/infineon/kit_psc3m6_evk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

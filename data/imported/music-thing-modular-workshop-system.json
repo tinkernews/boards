@@ -1,0 +1,256 @@
+{
+  "slug": "music-thing-modular-workshop-system",
+  "name": "Music Thing Modular Workshop System",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "music-thing-modular",
+  "chip": "rp2040",
+  "ids": {
+    "circuitpython": [
+      "mtm_computer"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/mtm_computer/",
+      "source": "circuitpython:mtm_computer"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:mtm_computer",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "UART_TX",
+          "GP0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "UART_RX",
+          "GP1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "PULSE_1_IN",
+          "GP2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "PULSE_2_IN",
+          "GP3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "NORM_PROBE",
+          "GP4"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "ID0",
+          "GP5"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "ID1",
+          "GP6"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "ID2",
+          "GP7"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "PULSE_1_OUT",
+          "GP8"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "PULSE_2_OUT",
+          "GP9"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "LED1",
+          "GP10"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "LED2",
+          "GP11"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "LED3",
+          "GP12"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "LED4",
+          "GP13"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "LED5",
+          "GP14"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "LED6",
+          "GP15"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "EEPROM_SDA",
+          "GP16"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "EEPROM_SCL",
+          "GP17"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "DAC_SCK",
+          "GP18"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "DAC_SDI",
+          "GP19"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "GP20"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "DAC_CS",
+          "GP21"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "CV_2_OUT",
+          "GP22"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "CV_1_OUT",
+          "GP23"
+        ]
+      },
+      {
+        "pin": "GPIO24",
+        "names": [
+          "MUX_A",
+          "GP24"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "MUX_B",
+          "GP25"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "AUDIO_R_IN",
+          "A0",
+          "GP26"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "AUDIO_L_IN",
+          "A1",
+          "GP27"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "MUX_1",
+          "A2",
+          "GP28"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "MUX_2",
+          "A3",
+          "GP29"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:mtm_computer",
+      "label": "CircuitPython board definition (mtm_computer)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/mtm_computer.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:mtm_computer",
+      "label": "CircuitPython pin definitions (mtm_computer)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/mtm_computer/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

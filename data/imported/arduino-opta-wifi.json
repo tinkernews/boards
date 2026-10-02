@@ -1,0 +1,37 @@
+{
+  "slug": "arduino-opta-wifi",
+  "name": "Opta WiFi",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "ids": {
+    "micropython": [
+      "ARDUINO_OPTA"
+    ]
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Opta WiFi product page",
+      "url": "https://store.arduino.cc/products/opta-wifi"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/ARDUINO_OPTA/",
+      "source": "micropython:arduino_opta"
+    }
+  ],
+  "sources": [
+    {
+      "id": "micropython:arduino_opta",
+      "label": "MicroPython board definition (ARDUINO_OPTA)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/stm32/boards/ARDUINO_OPTA/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "phytec-phyboard-electra-am64x-m4f-core",
+  "name": "phyBOARD-Electra AM64x M4F Core",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "phytec",
+  "ids": {
+    "zephyr": [
+      "phyboard_electra"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "AM6442",
+      "source": "zephyr:phyboard_electra"
+    },
+    "ram": {
+      "value": "192 KB",
+      "source": "zephyr:phyboard_electra"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/phytec/phyboard_electra/doc/index.html",
+      "source": "zephyr:phyboard_electra"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:phyboard_electra",
+      "label": "Zephyr board definition (phyboard_electra)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/phytec/phyboard_electra/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

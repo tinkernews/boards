@@ -1,0 +1,37 @@
+{
+  "slug": "mchobby-garatronic-pybstick26-f411",
+  "name": "GARATRONIC_PYBSTICK26_F411",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "mchobby",
+  "ids": {
+    "micropython": [
+      "GARATRONIC_PYBSTICK26_F411"
+    ]
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "GARATRONIC_PYBSTICK26_F411 product page",
+      "url": "https://shop.mchobby.be/product.php?id_product=1844"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/GARATRONIC_PYBSTICK26_F411/",
+      "source": "micropython:garatronic_pybstick26_f411"
+    }
+  ],
+  "sources": [
+    {
+      "id": "micropython:garatronic_pybstick26_f411",
+      "label": "MicroPython board definition (GARATRONIC_PYBSTICK26_F411)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/stm32/boards/GARATRONIC_PYBSTICK26_F411/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

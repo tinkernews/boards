@@ -1,0 +1,44 @@
+{
+  "slug": "nxp-semiconductors-frdm-mcxn947",
+  "name": "FRDM-MCXN947",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "ids": {
+    "zephyr": [
+      "frdm_mcxn947"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MCXN947",
+      "source": "zephyr:frdm_mcxn947"
+    },
+    "ram": {
+      "value": "320 KB",
+      "source": "zephyr:frdm_mcxn947"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:frdm_mcxn947"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nxp/frdm_mcxn947/doc/index.html",
+      "source": "zephyr:frdm_mcxn947"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:frdm_mcxn947",
+      "label": "Zephyr board definition (frdm_mcxn947)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nxp/frdm_mcxn947/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

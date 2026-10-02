@@ -1,0 +1,252 @@
+{
+  "slug": "damien-george-pyboard",
+  "name": "Pyboard",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "damien-george",
+  "ids": {
+    "circuitpython": [
+      "pyboard_v11"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/pyboard_v11/",
+      "source": "circuitpython:pyboard_v11"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:pyboard_v11",
+    "list": [
+      {
+        "pin": "PA00",
+        "names": [
+          "X1"
+        ]
+      },
+      {
+        "pin": "PA01",
+        "names": [
+          "X2"
+        ]
+      },
+      {
+        "pin": "PA02",
+        "names": [
+          "X3"
+        ]
+      },
+      {
+        "pin": "PA03",
+        "names": [
+          "X4"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "X5"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "X6"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "X7"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "X8"
+        ]
+      },
+      {
+        "pin": "PA13",
+        "names": [
+          "P5",
+          "LED4"
+        ]
+      },
+      {
+        "pin": "PA14",
+        "names": [
+          "P4",
+          "LED3"
+        ]
+      },
+      {
+        "pin": "PA15",
+        "names": [
+          "P3",
+          "LED2"
+        ]
+      },
+      {
+        "pin": "PB00",
+        "names": [
+          "Y11"
+        ]
+      },
+      {
+        "pin": "PB01",
+        "names": [
+          "Y12"
+        ]
+      },
+      {
+        "pin": "PB03",
+        "names": [
+          "X17"
+        ]
+      },
+      {
+        "pin": "PB04",
+        "names": [
+          "P2",
+          "LED1"
+        ]
+      },
+      {
+        "pin": "PB06",
+        "names": [
+          "X9",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "PB07",
+        "names": [
+          "X10",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PB08",
+        "names": [
+          "Y3"
+        ]
+      },
+      {
+        "pin": "PB09",
+        "names": [
+          "Y4"
+        ]
+      },
+      {
+        "pin": "PB10",
+        "names": [
+          "Y9"
+        ]
+      },
+      {
+        "pin": "PB11",
+        "names": [
+          "Y10"
+        ]
+      },
+      {
+        "pin": "PB12",
+        "names": [
+          "Y5"
+        ]
+      },
+      {
+        "pin": "PB13",
+        "names": [
+          "Y6"
+        ]
+      },
+      {
+        "pin": "PB14",
+        "names": [
+          "Y7"
+        ]
+      },
+      {
+        "pin": "PB15",
+        "names": [
+          "Y8"
+        ]
+      },
+      {
+        "pin": "PC00",
+        "names": [
+          "X19"
+        ]
+      },
+      {
+        "pin": "PC01",
+        "names": [
+          "X20"
+        ]
+      },
+      {
+        "pin": "PC02",
+        "names": [
+          "X21"
+        ]
+      },
+      {
+        "pin": "PC03",
+        "names": [
+          "X22"
+        ]
+      },
+      {
+        "pin": "PC04",
+        "names": [
+          "X11"
+        ]
+      },
+      {
+        "pin": "PC05",
+        "names": [
+          "X12"
+        ]
+      },
+      {
+        "pin": "PC06",
+        "names": [
+          "Y1"
+        ]
+      },
+      {
+        "pin": "PC07",
+        "names": [
+          "Y2"
+        ]
+      },
+      {
+        "pin": "PC13",
+        "names": [
+          "X18"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:pyboard_v11",
+      "label": "CircuitPython board definition (pyboard_v11)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/pyboard_v11.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:pyboard_v11",
+      "label": "CircuitPython pin definitions (pyboard_v11)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/stm/boards/pyboard_v11/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,65 @@
+{
+  "slug": "sifive-hifive-unleashed",
+  "name": "HiFive Unleashed",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sifive",
+  "ids": {
+    "platformio": [
+      "hifive-unleashed"
+    ],
+    "zephyr": [
+      "hifive_unleashed"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "FU540",
+      "source": "platformio:hifive-unleashed"
+    },
+    "clock": {
+      "value": "1.5 GHz",
+      "source": "platformio:hifive-unleashed"
+    },
+    "upload_limits": {
+      "value": "32 MB flash, 8192 MB RAM",
+      "source": "platformio:hifive-unleashed"
+    },
+    "ram": {
+      "value": "3840 KB",
+      "source": "zephyr:hifive_unleashed"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "HiFive Unleashed product page",
+      "url": "https://www.sifive.com/boards/hifive-unleashed"
+    }
+  ],
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/sifive/hifive_unleashed/doc/index.html",
+      "source": "zephyr:hifive_unleashed"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:hifive-unleashed",
+      "label": "PlatformIO board definition (hifive-unleashed)",
+      "url": "https://github.com/platformio/platform-sifive/blob/062e2eb4704e012bbd73a8f9d1e366486a0e41e4/boards/hifive-unleashed.json",
+      "kind": "import",
+      "revision": "062e2eb4704e012bbd73a8f9d1e366486a0e41e4"
+    },
+    {
+      "id": "zephyr:hifive_unleashed",
+      "label": "Zephyr board definition (hifive_unleashed)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/sifive/hifive_unleashed/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

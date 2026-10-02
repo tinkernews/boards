@@ -1,0 +1,258 @@
+{
+  "slug": "unexpected-maker-tinypico-nano",
+  "name": "Unexpected Maker TinyPICO NANO",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "unexpected-maker",
+  "chip": "esp32",
+  "ids": {
+    "circuitpython": [
+      "unexpectedmaker_tinypico_nano"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/unexpectedmaker_tinypico_nano/",
+      "source": "circuitpython:unexpectedmaker_tinypico_nano"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:unexpectedmaker_tinypico_nano",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "IO0",
+          "D0",
+          "A0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "IO2",
+          "D2",
+          "A2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "RX"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "IO4",
+          "D4",
+          "A4"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "IO5",
+          "D5",
+          "A5"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "IO9",
+          "D9"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "IO12",
+          "D12",
+          "A12"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "IO13",
+          "D13",
+          "A13"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "IO14",
+          "D14",
+          "A14"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "IO15",
+          "D15",
+          "A15"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "IO18",
+          "SCK",
+          "D18"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "IO19",
+          "MISO",
+          "SDI",
+          "D19"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "SDA",
+          "IO21",
+          "D21"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "SCL",
+          "IO22",
+          "D22"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "IO23",
+          "MOSI",
+          "SDO",
+          "D23"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "IO25",
+          "D25",
+          "A25",
+          "DAC1"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "IO26",
+          "D26",
+          "A26",
+          "DAC2"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "IO27",
+          "D27",
+          "A27"
+        ]
+      },
+      {
+        "pin": "GPIO32",
+        "names": [
+          "IO32",
+          "D32",
+          "A32"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "IO33",
+          "D33",
+          "A33"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "IO34",
+          "D34",
+          "A34"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "IO35",
+          "D35",
+          "A35"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "IO36",
+          "D36",
+          "A36"
+        ]
+      },
+      {
+        "pin": "GPIO37",
+        "names": [
+          "IO37",
+          "D37",
+          "A37"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "IO38",
+          "D38",
+          "A38"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "IO39",
+          "D39",
+          "A39"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:unexpectedmaker_tinypico_nano",
+      "label": "CircuitPython board definition (unexpectedmaker_tinypico_nano)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/unexpectedmaker_tinypico_nano.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:unexpectedmaker_tinypico_nano",
+      "label": "CircuitPython pin definitions (unexpectedmaker_tinypico_nano)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/unexpectedmaker_tinypico_nano/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "sqfmi-watchy-v2-0",
+  "name": "SQFMI Watchy v2.0",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sqfmi",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "watchy"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:watchy"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:watchy"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:watchy"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "SQFMI Watchy v2.0 product page",
+      "url": "https://watchy.sqfmi.com/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/watchy.html",
+      "source": "platformio:watchy"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/watchy.html",
+      "source": "platformio:watchy"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:watchy",
+      "label": "PlatformIO board definition (watchy)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/watchy.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

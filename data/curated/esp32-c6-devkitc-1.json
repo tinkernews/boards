@@ -1,0 +1,131 @@
+{
+  "slug": "esp32-c6-devkitc-1",
+  "name": "ESP32-C6-DevKitC-1",
+  "tier": "curated",
+  "kind": "mcu",
+  "maker": "espressif",
+  "family": "ESP32",
+  "chip": "esp32-c6",
+  "released": "2023",
+  "status": "current",
+  "summary": "Espressif’s ESP32-C6 board: Wi-Fi 6, Bluetooth LE 5 and an 802.15.4 radio for Thread and Zigbee on one RISC-V chip.",
+  "aliases": [
+    "ESP32-C6-DevKitC-1",
+    "ESP32-C6 DevKitC-1",
+    "ESP32-C6-DevKitC"
+  ],
+  "ids": {
+    "platformio": [
+      "esp32-c6-devkitc-1"
+    ],
+    "circuitpython": [
+      "espressif_esp32c6_devkitc_1_n8"
+    ],
+    "micropython": [
+      "ESP32_GENERIC_C6"
+    ]
+  },
+  "review": {
+    "status": "draft"
+  },
+  "specs": {
+    "chip": {
+      "value": "Espressif ESP32-C6 in an ESP32-C6-WROOM-1 module",
+      "source": "c6-guide"
+    },
+    "cpu": {
+      "value": "RISC-V high-power core plus a low-power RISC-V core",
+      "source": "c6-datasheet"
+    },
+    "clock": {
+      "value": "Up to 160 MHz (low-power core up to 20 MHz)",
+      "source": "c6-datasheet"
+    },
+    "ram": {
+      "value": "512 KB high-power SRAM, 16 KB low-power SRAM",
+      "source": "c6-datasheet"
+    },
+    "flash": {
+      "value": "8 MB",
+      "source": "c6-guide"
+    },
+    "io_voltage": {
+      "value": "3.3 V",
+      "source": "c6-datasheet"
+    },
+    "wireless": {
+      "value": "Wi-Fi 6 (2.4 GHz 802.11ax); Bluetooth LE 5; IEEE 802.15.4 (Thread, Zigbee)",
+      "source": "c6-datasheet"
+    },
+    "usb": {
+      "value": "Two USB-C ports: USB serial/JTAG and USB-to-UART",
+      "source": "c6-guide"
+    }
+  },
+  "docs": [
+    {
+      "kind": "guide",
+      "label": "ESP32-C6-DevKitC-1 user guide, Espressif",
+      "url": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32c6/esp32-c6-devkitc-1/user_guide.html"
+    },
+    {
+      "kind": "datasheet",
+      "label": "ESP32-C6 Series datasheet",
+      "url": "https://www.espressif.com/sites/default/files/documentation/esp32-c6_datasheet_en.pdf"
+    }
+  ],
+  "software": [
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.espressif.com/projects/esp-idf/en/stable/",
+      "source": "esp-idf"
+    },
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino core for the ESP32 by Espressif.",
+      "url": "https://docs.espressif.com/projects/arduino-esp32/en/latest/",
+      "source": "esp-arduino"
+    }
+  ],
+  "gotchas": [
+    {
+      "title": "802.15.4 and Wi-Fi share the radio",
+      "text": "Thread or Zigbee and Wi-Fi coexist by time-sharing one 2.4 GHz radio; heavy Wi-Fi traffic affects the mesh network.",
+      "source": "c6-datasheet"
+    }
+  ],
+  "editorial": {
+    "history": "Released in 2023, the C6 was Espressif's first chip with Wi-Fi 6 and an 802.15.4 radio, aimed at Matter smart-home devices.",
+    "today": "A good pick for Matter, Thread and Zigbee experiments that also need Wi-Fi.",
+    "source": "c6-guide"
+  },
+  "sources": [
+    {
+      "id": "c6-guide",
+      "label": "ESP32-C6-DevKitC-1 user guide, Espressif",
+      "url": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32c6/esp32-c6-devkitc-1/user_guide.html",
+      "kind": "official"
+    },
+    {
+      "id": "c6-datasheet",
+      "label": "ESP32-C6 Series datasheet, Espressif",
+      "url": "https://www.espressif.com/sites/default/files/documentation/esp32-c6_datasheet_en.pdf",
+      "kind": "official"
+    },
+    {
+      "id": "esp-idf",
+      "label": "ESP-IDF Programming Guide, Espressif",
+      "url": "https://docs.espressif.com/projects/esp-idf/en/stable/",
+      "kind": "official"
+    },
+    {
+      "id": "esp-arduino",
+      "label": "Arduino core for the ESP32, Espressif",
+      "url": "https://docs.espressif.com/projects/arduino-esp32/en/latest/",
+      "kind": "official"
+    }
+  ],
+  "updatedAt": "2026-10-01T00:00:00.000Z"
+}

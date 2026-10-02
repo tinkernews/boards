@@ -1,0 +1,44 @@
+{
+  "slug": "telink-tlsr9518adk80d",
+  "name": "TLSR9518ADK80D",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "telink",
+  "ids": {
+    "zephyr": [
+      "tlsr9518adk80d"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "TLSR9518",
+      "source": "zephyr:tlsr9518adk80d"
+    },
+    "ram": {
+      "value": "128 KB",
+      "source": "zephyr:tlsr9518adk80d"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:tlsr9518adk80d"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/telink/tlsr9518adk80d/doc/index.html",
+      "source": "zephyr:tlsr9518adk80d"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:tlsr9518adk80d",
+      "label": "Zephyr board definition (tlsr9518adk80d)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/telink/tlsr9518adk80d/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

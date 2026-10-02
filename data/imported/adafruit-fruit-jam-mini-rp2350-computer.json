@@ -1,0 +1,191 @@
+{
+  "slug": "adafruit-fruit-jam-mini-rp2350-computer",
+  "name": "Fruit Jam - Mini RP2350 Computer",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "rp2350",
+  "ids": {
+    "circuitpython": [
+      "adafruit_fruit_jam"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/adafruit_fruit_jam/",
+      "source": "circuitpython:adafruit_fruit_jam"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:adafruit_fruit_jam",
+    "list": [
+      {
+        "pin": "GPIO1",
+        "names": [
+          "USB_HOST_DATA_PLUS"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "USB_HOST_DATA_MINUS"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "ESP_BUSY"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "TX",
+          "ESP_TX"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "RX",
+          "ESP_RX"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "USB_HOST_5V_POWER"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "CKN"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "CKP"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "D0N"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "D0P"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "D1N"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "D1P"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "D2N"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "D2P"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "ESP_RESET",
+          "PERIPH_RESET"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "ESP_IRQ",
+          "I2S_IRQ"
+        ]
+      },
+      {
+        "pin": "GPIO24",
+        "names": [
+          "I2S_DIN"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "I2S_MCLK"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "I2S_BCLK"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "I2S_WS"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "MISO"
+        ]
+      },
+      {
+        "pin": "GPIO30",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "GPIO31",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO46",
+        "names": [
+          "ESP_CS"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:adafruit_fruit_jam",
+      "label": "CircuitPython board definition (adafruit_fruit_jam)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/adafruit_fruit_jam.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:adafruit_fruit_jam",
+      "label": "CircuitPython pin definitions (adafruit_fruit_jam)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/adafruit_fruit_jam/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

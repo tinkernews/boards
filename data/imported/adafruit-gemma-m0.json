@@ -1,0 +1,135 @@
+{
+  "slug": "adafruit-gemma-m0",
+  "name": "Adafruit Gemma M0",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "atsamd21e18",
+  "aliases": [
+    "Gemma M0"
+  ],
+  "ids": {
+    "platformio": [
+      "adafruit_gemma_m0"
+    ],
+    "circuitpython": [
+      "gemma_m0"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAMD21E18",
+      "source": "platformio:adafruit_gemma_m0"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:adafruit_gemma_m0"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:adafruit_gemma_m0"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:adafruit_gemma_m0"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Adafruit Gemma M0 product page",
+      "url": "https://www.adafruit.com/product/3501"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelsam/adafruit_gemma_m0.html",
+      "source": "platformio:adafruit_gemma_m0"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/gemma_m0/",
+      "source": "circuitpython:gemma_m0"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:gemma_m0",
+    "list": [
+      {
+        "pin": "PA00",
+        "names": [
+          "APA102_MOSI",
+          "DOTSTAR_DATA"
+        ]
+      },
+      {
+        "pin": "PA01",
+        "names": [
+          "APA102_SCK",
+          "DOTSTAR_CLOCK"
+        ]
+      },
+      {
+        "pin": "PA02",
+        "names": [
+          "A0",
+          "D1"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "A2",
+          "D0",
+          "TX",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "A1",
+          "D2",
+          "RX",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "PA23",
+        "names": [
+          "LED",
+          "L",
+          "D13"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "platformio:adafruit_gemma_m0",
+      "label": "PlatformIO board definition (adafruit_gemma_m0)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/adafruit_gemma_m0.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    },
+    {
+      "id": "circuitpython:gemma_m0",
+      "label": "CircuitPython board definition (gemma_m0)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/gemma_m0.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:gemma_m0",
+      "label": "CircuitPython pin definitions (gemma_m0)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/gemma_m0/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "silicon-labs-efm32pg23-pro-kit-pg23-pk2504a",
+  "name": "EFM32PG23 Pro Kit (PG23-PK2504A)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "silicon-labs",
+  "ids": {
+    "zephyr": [
+      "pg23_pk2504a"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "EFM32PG23B310F512IM48",
+      "source": "zephyr:pg23_pk2504a"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:pg23_pk2504a"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:pg23_pk2504a"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/silabs/dev_kits/pg23_pk2504a/doc/index.html",
+      "source": "zephyr:pg23_pk2504a"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:pg23_pk2504a",
+      "label": "Zephyr board definition (pg23_pk2504a)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/silabs/dev_kits/pg23_pk2504a/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

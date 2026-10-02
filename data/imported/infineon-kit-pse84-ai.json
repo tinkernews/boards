@@ -1,0 +1,37 @@
+{
+  "slug": "infineon-kit-pse84-ai",
+  "name": "KIT_PSE84_AI",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "infineon",
+  "ids": {
+    "micropython": [
+      "KIT_PSE84_AI"
+    ]
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "KIT_PSE84_AI product page",
+      "url": "https://www.infineon.com/evaluation-board/kit-pse84-ai"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/KIT_PSE84_AI/",
+      "source": "micropython:kit_pse84_ai"
+    }
+  ],
+  "sources": [
+    {
+      "id": "micropython:kit_pse84_ai",
+      "label": "MicroPython board definition (KIT_PSE84_AI)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/psoc-edge/boards/KIT_PSE84_AI/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

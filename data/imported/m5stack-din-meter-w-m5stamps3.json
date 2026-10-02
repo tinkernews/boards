@@ -1,0 +1,159 @@
+{
+  "slug": "m5stack-din-meter-w-m5stamps3",
+  "name": "M5Stack Din Meter w/ M5StampS3",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "m5stack",
+  "chip": "esp32-s3",
+  "ids": {
+    "circuitpython": [
+      "m5stack_dinmeter"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/m5stack_dinmeter/",
+      "source": "circuitpython:m5stack_dinmeter"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:m5stack_dinmeter",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "BUTTON",
+          "BOOT0",
+          "D0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "PORTB_IN",
+          "D1",
+          "A1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "PORTB_OUT",
+          "D2",
+          "A2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "SPEAKER"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "TFT_DC"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "TFT_CS"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "TFT_RESET"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "TFT_BACKLIGHT"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "PORTA_SDA",
+          "D13"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "PORTA_SCL",
+          "D15"
+        ]
+      },
+      {
+        "pin": "GPIO40",
+        "names": [
+          "ENC_B"
+        ]
+      },
+      {
+        "pin": "GPIO41",
+        "names": [
+          "ENC_A"
+        ]
+      },
+      {
+        "pin": "GPIO42",
+        "names": [
+          "KNOB_BUTTON"
+        ]
+      },
+      {
+        "pin": "GPIO46",
+        "names": [
+          "POWER_HOLD"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:m5stack_dinmeter",
+      "label": "CircuitPython board definition (m5stack_dinmeter)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/m5stack_dinmeter.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:m5stack_dinmeter",
+      "label": "CircuitPython pin definitions (m5stack_dinmeter)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/m5stack_dinmeter/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "benjamin-shockley-mini-sam-m4",
+  "name": "Mini SAM M4",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "benjamin-shockley",
+  "chip": "atsamd51j19",
+  "ids": {
+    "circuitpython": [
+      "mini_sam_m4"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/mini_sam_m4/",
+      "source": "circuitpython:mini_sam_m4"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:mini_sam_m4",
+    "list": [
+      {
+        "pin": "PB02",
+        "names": [
+          "APA102_SCK"
+        ]
+      },
+      {
+        "pin": "PB03",
+        "names": [
+          "APA102_MOSI"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:mini_sam_m4",
+      "label": "CircuitPython board definition (mini_sam_m4)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/mini_sam_m4.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:mini_sam_m4",
+      "label": "CircuitPython pin definitions (mini_sam_m4)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/mini_sam_m4/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

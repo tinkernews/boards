@@ -1,0 +1,31 @@
+{
+  "slug": "adafruit-feather-radiofruit-zigbee",
+  "name": "Feather Radiofruit Zigbee",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "atsamd21g18",
+  "ids": {
+    "circuitpython": [
+      "feather_radiofruit_zigbee"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/feather_radiofruit_zigbee/",
+      "source": "circuitpython:feather_radiofruit_zigbee"
+    }
+  ],
+  "sources": [
+    {
+      "id": "circuitpython:feather_radiofruit_zigbee",
+      "label": "CircuitPython board definition (feather_radiofruit_zigbee)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/feather_radiofruit_zigbee.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

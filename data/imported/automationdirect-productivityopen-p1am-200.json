@@ -1,0 +1,31 @@
+{
+  "slug": "automationdirect-productivityopen-p1am-200",
+  "name": "ProductivityOpen P1AM-200",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "automationdirect",
+  "chip": "atsamd51j19",
+  "ids": {
+    "circuitpython": [
+      "p1am_200"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/p1am_200/",
+      "source": "circuitpython:p1am_200"
+    }
+  ],
+  "sources": [
+    {
+      "id": "circuitpython:p1am_200",
+      "label": "CircuitPython board definition (p1am_200)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/p1am_200.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

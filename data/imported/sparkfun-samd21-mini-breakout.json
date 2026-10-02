@@ -1,0 +1,57 @@
+{
+  "slug": "sparkfun-samd21-mini-breakout",
+  "name": "SparkFun SAMD21 Mini Breakout",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sparkfun",
+  "chip": "atsamd21g18",
+  "ids": {
+    "platformio": [
+      "sparkfun_samd21_mini_usb"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAMD21G18",
+      "source": "platformio:sparkfun_samd21_mini_usb"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:sparkfun_samd21_mini_usb"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:sparkfun_samd21_mini_usb"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:sparkfun_samd21_mini_usb"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "SparkFun SAMD21 Mini Breakout product page",
+      "url": "https://www.sparkfun.com/products/13664"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelsam/sparkfun_samd21_mini_usb.html",
+      "source": "platformio:sparkfun_samd21_mini_usb"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:sparkfun_samd21_mini_usb",
+      "label": "PlatformIO board definition (sparkfun_samd21_mini_usb)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/sparkfun_samd21_mini_usb.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "alientek-dnesp32s3b",
+  "name": "DNESP32S3B",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "alientek",
+  "chip": "esp32-s3",
+  "ids": {
+    "zephyr": [
+      "dnesp32s3b"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-S3",
+      "source": "zephyr:dnesp32s3b"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/alientek/dnesp32s3b/doc/index.html",
+      "source": "zephyr:dnesp32s3b"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:dnesp32s3b",
+      "label": "Zephyr board definition (dnesp32s3b)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/alientek/dnesp32s3b/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

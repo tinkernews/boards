@@ -1,0 +1,44 @@
+{
+  "slug": "microchip-technology-sam4l-ek",
+  "name": "SAM4L-EK",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "ids": {
+    "zephyr": [
+      "sam4l_ek"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "SAM4LC4C",
+      "source": "zephyr:sam4l_ek"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:sam4l_ek"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:sam4l_ek"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/atmel/sam/sam4l_ek/doc/index.html",
+      "source": "zephyr:sam4l_ek"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:sam4l_ek",
+      "label": "Zephyr board definition (sam4l_ek)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/atmel/sam/sam4l_ek/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

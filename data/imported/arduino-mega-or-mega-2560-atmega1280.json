@@ -1,0 +1,52 @@
+{
+  "slug": "arduino-mega-or-mega-2560-atmega1280",
+  "name": "Arduino Mega or Mega 2560 ATmega1280",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "ids": {
+    "platformio": [
+      "megaatmega1280"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATMEGA1280",
+      "source": "platformio:megaatmega1280"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:megaatmega1280"
+    },
+    "upload_limits": {
+      "value": "124 KB flash, 8 KB RAM",
+      "source": "platformio:megaatmega1280"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Arduino Mega or Mega 2560 ATmega1280 product page",
+      "url": "https://www.arduino.cc/en/Main/ArduinoBoardMega2560"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/megaatmega1280.html",
+      "source": "platformio:megaatmega1280"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:megaatmega1280",
+      "label": "PlatformIO board definition (megaatmega1280)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/megaatmega1280.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

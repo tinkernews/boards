@@ -1,0 +1,44 @@
+{
+  "slug": "arduino-giga-r1-wifi",
+  "name": "Arduino GIGA R1 WiFi",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "ids": {
+    "zephyr": [
+      "arduino_giga_r1"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32H747XX",
+      "source": "zephyr:arduino_giga_r1"
+    },
+    "ram": {
+      "value": "288 KB",
+      "source": "zephyr:arduino_giga_r1"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:arduino_giga_r1"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/arduino/giga_r1/doc/index.html",
+      "source": "zephyr:arduino_giga_r1"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:arduino_giga_r1",
+      "label": "Zephyr board definition (arduino_giga_r1)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/arduino/giga_r1/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "friendlyelec-nanopi-m5",
+  "name": "NanoPi M5",
+  "tier": "imported",
+  "kind": "sbc",
+  "maker": "friendlyelec",
+  "released": "2023",
+  "ids": {
+    "armbian": [
+      "nanopi-m5"
+    ],
+    "linux": [
+      "arch/arm64/boot/dts/rockchip/rk3576-nanopi-m5.dts"
+    ]
+  },
+  "software": [
+    {
+      "platform": "armbian",
+      "status": "supported",
+      "note": "Supported by Armbian.",
+      "url": "https://github.com/armbian/build/blob/main/config/boards/nanopi-m5.conf",
+      "source": "armbian:nanopi-m5"
+    },
+    {
+      "platform": "linux-mainline",
+      "status": "supported",
+      "note": "A device tree for this board is in the mainline kernel; features may still be missing.",
+      "url": "https://github.com/torvalds/linux/blob/master/arch/arm64/boot/dts/rockchip/rk3576-nanopi-m5.dts",
+      "source": "linux:rk3576-nanopi-m5.dts"
+    }
+  ],
+  "sources": [
+    {
+      "id": "armbian:nanopi-m5",
+      "label": "Armbian board configuration (nanopi-m5)",
+      "url": "https://github.com/armbian/build/blob/da85daa05bd260d04dac50315d7317207fd998b3/config/boards/nanopi-m5.conf",
+      "kind": "import",
+      "revision": "da85daa05bd260d04dac50315d7317207fd998b3"
+    },
+    {
+      "id": "linux:rk3576-nanopi-m5.dts",
+      "label": "Linux kernel device tree (rk3576-nanopi-m5.dts)",
+      "url": "https://github.com/torvalds/linux/blob/551c722f40809618230001baccf219193e22fc5a/arch/arm64/boot/dts/rockchip/rk3576-nanopi-m5.dts",
+      "kind": "import",
+      "revision": "551c722f40809618230001baccf219193e22fc5a"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

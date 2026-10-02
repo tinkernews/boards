@@ -1,0 +1,36 @@
+{
+  "slug": "alif-ensemble-e8-ai-ml-appkit",
+  "name": "Alif Ensemble E8 AI/ML AppKit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "alif",
+  "ids": {
+    "zephyr": [
+      "ensemble_e8_ak"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "AE822FA0E5597BS0",
+      "source": "zephyr:ensemble_e8_ak"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/alif/ensemble_e8_ak/doc/index.html",
+      "source": "zephyr:ensemble_e8_ak"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:ensemble_e8_ak",
+      "label": "Zephyr board definition (ensemble_e8_ak)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/alif/ensemble_e8_ak/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

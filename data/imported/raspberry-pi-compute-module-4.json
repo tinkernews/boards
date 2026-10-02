@@ -1,0 +1,30 @@
+{
+  "slug": "raspberry-pi-compute-module-4",
+  "name": "Compute Module 4",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "raspberry-pi",
+  "ids": {
+    "circuitpython": [
+      "raspberrypi_cm4"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/raspberrypi_cm4/",
+      "source": "circuitpython:raspberrypi_cm4"
+    }
+  ],
+  "sources": [
+    {
+      "id": "circuitpython:raspberrypi_cm4",
+      "label": "CircuitPython board definition (raspberrypi_cm4)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/raspberrypi_cm4.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

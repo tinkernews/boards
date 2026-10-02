@@ -1,0 +1,268 @@
+{
+  "slug": "mixly-mixgo-ce-serial",
+  "name": "MixGo CE Serial",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "mixly",
+  "chip": "esp32-s2",
+  "ids": {
+    "circuitpython": [
+      "mixgo_ce_serial"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/mixgo_ce_serial/",
+      "source": "circuitpython:mixgo_ce_serial"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:mixgo_ce_serial",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "IO0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "IO1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "IO2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "IO3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "IO4"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "IO5"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "IO6"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "IO7"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "IO8"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "IO9"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "IO10"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "IO11"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "IO12"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "IO13"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "IO14"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "IO15"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "IO16"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "IO17"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "IO18"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "IO19"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "IO20"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "IO21"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "IO26"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "IO33"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "IO34"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "IO35"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "IO36"
+        ]
+      },
+      {
+        "pin": "GPIO37",
+        "names": [
+          "IO37"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "IO38"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "IO39"
+        ]
+      },
+      {
+        "pin": "GPIO40",
+        "names": [
+          "IO40"
+        ]
+      },
+      {
+        "pin": "GPIO41",
+        "names": [
+          "IO41"
+        ]
+      },
+      {
+        "pin": "GPIO42",
+        "names": [
+          "IO42"
+        ]
+      },
+      {
+        "pin": "GPIO43",
+        "names": [
+          "TX",
+          "IO43"
+        ]
+      },
+      {
+        "pin": "GPIO44",
+        "names": [
+          "RX",
+          "IO44"
+        ]
+      },
+      {
+        "pin": "GPIO45",
+        "names": [
+          "IO45",
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO46",
+        "names": [
+          "IO46"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:mixgo_ce_serial",
+      "label": "CircuitPython board definition (mixgo_ce_serial)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/mixgo_ce_serial.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:mixgo_ce_serial",
+      "label": "CircuitPython pin definitions (mixgo_ce_serial)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/mixgo_ce_serial/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

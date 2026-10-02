@@ -1,0 +1,191 @@
+{
+  "slug": "espressif-esp32-s3-eye",
+  "name": "ESP32-S3-EYE",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "espressif",
+  "chip": "esp32-s3",
+  "ids": {
+    "zephyr": [
+      "esp32s3_eye"
+    ],
+    "circuitpython": [
+      "espressif_esp32s3_eye"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-S3",
+      "source": "zephyr:esp32s3_eye"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/espressif/esp32s3_eye/doc/index.html",
+      "source": "zephyr:esp32s3_eye"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/espressif_esp32s3_eye/",
+      "source": "circuitpython:espressif_esp32s3_eye"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:espressif_esp32s3_eye",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "BOOT"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "BUTTONS"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "MIC_SDO"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "IO3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "CAMERA_VSYNC"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "CAMERA_HREF"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "CAMERA_PCLK"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "BATTERY"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "CAMERA_XCLK"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "MOSI1"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "SCK1"
+        ]
+      },
+      {
+        "pin": "GPIO40",
+        "names": [
+          "MISO1"
+        ]
+      },
+      {
+        "pin": "GPIO41",
+        "names": [
+          "MIC_SCK"
+        ]
+      },
+      {
+        "pin": "GPIO42",
+        "names": [
+          "MIC_WS"
+        ]
+      },
+      {
+        "pin": "GPIO43",
+        "names": [
+          "LCD_DC"
+        ]
+      },
+      {
+        "pin": "GPIO44",
+        "names": [
+          "LCD_CS"
+        ]
+      },
+      {
+        "pin": "GPIO47",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO48",
+        "names": [
+          "BACKLIGHT"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "zephyr:esp32s3_eye",
+      "label": "Zephyr board definition (esp32s3_eye)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/espressif/esp32s3_eye/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "circuitpython:espressif_esp32s3_eye",
+      "label": "CircuitPython board definition (espressif_esp32s3_eye)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/espressif_esp32s3_eye.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:espressif_esp32s3_eye",
+      "label": "CircuitPython pin definitions (espressif_esp32s3_eye)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/espressif_esp32s3_eye/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

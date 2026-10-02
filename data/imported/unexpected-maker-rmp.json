@@ -1,0 +1,59 @@
+{
+  "slug": "unexpected-maker-rmp",
+  "name": "Unexpected Maker RMP",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "unexpected-maker",
+  "chip": "esp32-s2",
+  "ids": {
+    "platformio": [
+      "um_rmp"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-S2",
+      "source": "platformio:um_rmp"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:um_rmp"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:um_rmp"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Unexpected Maker RMP product page",
+      "url": "https://unexpectedmaker.com/esp32s2"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/um_rmp.html",
+      "source": "platformio:um_rmp"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/um_rmp.html",
+      "source": "platformio:um_rmp"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:um_rmp",
+      "label": "PlatformIO board definition (um_rmp)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/um_rmp.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

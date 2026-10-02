@@ -1,0 +1,40 @@
+{
+  "slug": "intel-integrated-sensor-hub-ish-5-6-0",
+  "name": "Integrated Sensor Hub (ISH) 5.6.0",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "intel",
+  "ids": {
+    "zephyr": [
+      "intel_ish_5_6_0"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "INTEL_ISH_5_6_0",
+      "source": "zephyr:intel_ish_5_6_0"
+    },
+    "ram": {
+      "value": "640 KB",
+      "source": "zephyr:intel_ish_5_6_0"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/intel/ish/doc/index.html",
+      "source": "zephyr:intel_ish_5_6_0"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:intel_ish_5_6_0",
+      "label": "Zephyr board definition (intel_ish_5_6_0)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/intel/ish/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

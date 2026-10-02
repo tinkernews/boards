@@ -1,0 +1,44 @@
+{
+  "slug": "nxp-semiconductors-frdm-imxrt1152",
+  "name": "FRDM-IMXRT1152",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "ids": {
+    "zephyr": [
+      "frdm_imxrt1152"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MIMXRT1152",
+      "source": "zephyr:frdm_imxrt1152"
+    },
+    "ram": {
+      "value": "32768 KB",
+      "source": "zephyr:frdm_imxrt1152"
+    },
+    "flash": {
+      "value": "64 MB",
+      "source": "zephyr:frdm_imxrt1152"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nxp/frdm_imxrt1152/doc/index.html",
+      "source": "zephyr:frdm_imxrt1152"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:frdm_imxrt1152",
+      "label": "Zephyr board definition (frdm_imxrt1152)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nxp/frdm_imxrt1152/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

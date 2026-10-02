@@ -1,0 +1,63 @@
+{
+  "slug": "stmicroelectronics-nucleo-u5a5zj-q",
+  "name": "Nucleo U5A5ZJ Q",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "aliases": [
+    "Nucleo U5A5ZJ_Q"
+  ],
+  "ids": {
+    "zephyr": [
+      "nucleo_u5a5zj_q"
+    ],
+    "micropython": [
+      "NUCLEO_U5A5ZJ_Q"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32U5A5XX",
+      "source": "zephyr:nucleo_u5a5zj_q"
+    },
+    "ram": {
+      "value": "2496 KB",
+      "source": "zephyr:nucleo_u5a5zj_q"
+    },
+    "flash": {
+      "value": "4 MB",
+      "source": "zephyr:nucleo_u5a5zj_q"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/nucleo_u5a5zj_q/doc/index.html",
+      "source": "zephyr:nucleo_u5a5zj_q"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/NUCLEO_U5A5ZJ_Q/",
+      "source": "micropython:nucleo_u5a5zj_q"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:nucleo_u5a5zj_q",
+      "label": "Zephyr board definition (nucleo_u5a5zj_q)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/nucleo_u5a5zj_q/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "micropython:nucleo_u5a5zj_q",
+      "label": "MicroPython board definition (NUCLEO_U5A5ZJ_Q)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/stm32/boards/NUCLEO_U5A5ZJ_Q/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

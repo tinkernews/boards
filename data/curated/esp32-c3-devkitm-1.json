@@ -1,0 +1,134 @@
+{
+  "slug": "esp32-c3-devkitm-1",
+  "name": "ESP32-C3-DevKitM-1",
+  "tier": "curated",
+  "kind": "mcu",
+  "maker": "espressif",
+  "family": "ESP32",
+  "chip": "esp32-c3",
+  "released": "2021",
+  "status": "current",
+  "summary": "Espressif’s small RISC-V ESP32-C3 board with Wi-Fi and Bluetooth LE 5 on an ESP32-C3-MINI-1 module.",
+  "aliases": [
+    "ESP32-C3-DevKitM-1",
+    "ESP32-C3 DevKitM-1",
+    "ESP32-C3-DevKitM"
+  ],
+  "ids": {
+    "platformio": [
+      "esp32-c3-devkitm-1"
+    ],
+    "zephyr": [
+      "esp32c3_devkitm"
+    ],
+    "circuitpython": [
+      "espressif_esp32c3_devkitm_1_n4"
+    ],
+    "micropython": [
+      "ESP32_GENERIC_C3"
+    ]
+  },
+  "review": {
+    "status": "draft"
+  },
+  "specs": {
+    "chip": {
+      "value": "Espressif ESP32-C3 in an ESP32-C3-MINI-1 module",
+      "source": "c3-guide"
+    },
+    "cpu": {
+      "value": "RISC-V, 32-bit, single core",
+      "source": "c3-datasheet"
+    },
+    "clock": {
+      "value": "Up to 160 MHz",
+      "source": "c3-datasheet"
+    },
+    "ram": {
+      "value": "400 KB SRAM",
+      "source": "c3-datasheet"
+    },
+    "flash": {
+      "value": "4 MB",
+      "source": "c3-guide"
+    },
+    "io_voltage": {
+      "value": "3.3 V",
+      "source": "c3-datasheet"
+    },
+    "wireless": {
+      "value": "2.4 GHz 802.11 b/g/n Wi-Fi; Bluetooth LE 5",
+      "source": "c3-datasheet"
+    },
+    "usb": {
+      "value": "Micro-USB via a USB-to-UART bridge",
+      "source": "c3-guide"
+    }
+  },
+  "docs": [
+    {
+      "kind": "guide",
+      "label": "ESP32-C3-DevKitM-1 user guide, Espressif",
+      "url": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32c3/esp32-c3-devkitm-1/user_guide.html"
+    },
+    {
+      "kind": "datasheet",
+      "label": "ESP32-C3 Series datasheet",
+      "url": "https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf"
+    }
+  ],
+  "software": [
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.espressif.com/projects/esp-idf/en/stable/",
+      "source": "esp-idf"
+    },
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino core for the ESP32 by Espressif.",
+      "url": "https://docs.espressif.com/projects/arduino-esp32/en/latest/",
+      "source": "esp-arduino"
+    }
+  ],
+  "gotchas": [
+    {
+      "title": "Single core",
+      "text": "Unlike the ESP32, the C3 has one core; code that pinned tasks to core 1 needs changes.",
+      "source": "c3-datasheet"
+    }
+  ],
+  "editorial": {
+    "history": "Espressif's first RISC-V chip, launched in 2020–21 as a cheaper, more secure replacement for the ESP8266 class of devices.",
+    "today": "A cost-effective Wi-Fi/BLE node for sensors and smart-home devices.",
+    "source": "c3-guide"
+  },
+  "sources": [
+    {
+      "id": "c3-guide",
+      "label": "ESP32-C3-DevKitM-1 user guide, Espressif",
+      "url": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32c3/esp32-c3-devkitm-1/user_guide.html",
+      "kind": "official"
+    },
+    {
+      "id": "c3-datasheet",
+      "label": "ESP32-C3 Series datasheet, Espressif",
+      "url": "https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf",
+      "kind": "official"
+    },
+    {
+      "id": "esp-idf",
+      "label": "ESP-IDF Programming Guide, Espressif",
+      "url": "https://docs.espressif.com/projects/esp-idf/en/stable/",
+      "kind": "official"
+    },
+    {
+      "id": "esp-arduino",
+      "label": "Arduino core for the ESP32, Espressif",
+      "url": "https://docs.espressif.com/projects/arduino-esp32/en/latest/",
+      "kind": "official"
+    }
+  ],
+  "updatedAt": "2026-10-01T00:00:00.000Z"
+}

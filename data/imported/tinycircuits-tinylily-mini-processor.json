@@ -1,0 +1,53 @@
+{
+  "slug": "tinycircuits-tinylily-mini-processor",
+  "name": "TinyCircuits TinyLily Mini Processor",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "tinycircuits",
+  "chip": "atmega328p",
+  "ids": {
+    "platformio": [
+      "tinylily"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega328P",
+      "source": "platformio:tinylily"
+    },
+    "clock": {
+      "value": "8 MHz",
+      "source": "platformio:tinylily"
+    },
+    "upload_limits": {
+      "value": "30 KB flash, 2 KB RAM",
+      "source": "platformio:tinylily"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "TinyCircuits TinyLily Mini Processor product page",
+      "url": "https://tiny-circuits.com/tiny-lily-mini-processor.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/tinylily.html",
+      "source": "platformio:tinylily"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:tinylily",
+      "label": "PlatformIO board definition (tinylily)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/tinylily.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "we-ophelia-iv-ev",
+  "name": "Ophelia-IV EV",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "we",
+  "ids": {
+    "zephyr": [
+      "ophelia4ev"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "NRF54L15",
+      "source": "zephyr:ophelia4ev"
+    },
+    "ram": {
+      "value": "188 KB",
+      "source": "zephyr:ophelia4ev"
+    },
+    "flash": {
+      "value": "1.39 MB",
+      "source": "zephyr:ophelia4ev"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/we/ophelia4ev/doc/index.html",
+      "source": "zephyr:ophelia4ev"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:ophelia4ev",
+      "label": "Zephyr board definition (ophelia4ev)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/we/ophelia4ev/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

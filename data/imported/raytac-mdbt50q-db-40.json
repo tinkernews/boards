@@ -1,0 +1,371 @@
+{
+  "slug": "raytac-mdbt50q-db-40",
+  "name": "MDBT50Q-DB-40",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "raytac",
+  "chip": "nrf52840",
+  "ids": {
+    "zephyr": [
+      "raytac_mdbt50q_db_40"
+    ],
+    "circuitpython": [
+      "raytac_mdbt50q-db-40"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52840",
+      "source": "zephyr:raytac_mdbt50q_db_40"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:raytac_mdbt50q_db_40"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:raytac_mdbt50q_db_40"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/raytac/mdbt50q_db_40/doc/index.html",
+      "source": "zephyr:raytac_mdbt50q_db_40"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/raytac_mdbt50q-db-40/",
+      "source": "circuitpython:raytac_mdbt50q-db-40"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:raytac_mdbt50q-db-40",
+    "list": [
+      {
+        "pin": "P0_02",
+        "names": [
+          "P0_02",
+          "AIN_0"
+        ]
+      },
+      {
+        "pin": "P0_03",
+        "names": [
+          "P0_03",
+          "AIN_1"
+        ]
+      },
+      {
+        "pin": "P0_04",
+        "names": [
+          "P0_04",
+          "AIN_2"
+        ]
+      },
+      {
+        "pin": "P0_05",
+        "names": [
+          "P0_05",
+          "AIN_3",
+          "RTS"
+        ]
+      },
+      {
+        "pin": "P0_06",
+        "names": [
+          "P0_06",
+          "TX"
+        ]
+      },
+      {
+        "pin": "P0_07",
+        "names": [
+          "P0_07",
+          "CTS"
+        ]
+      },
+      {
+        "pin": "P0_08",
+        "names": [
+          "P0_08",
+          "RX"
+        ]
+      },
+      {
+        "pin": "P0_09",
+        "names": [
+          "P0_09",
+          "NFC_1"
+        ]
+      },
+      {
+        "pin": "P0_10",
+        "names": [
+          "P0_10",
+          "NFC_2"
+        ]
+      },
+      {
+        "pin": "P0_11",
+        "names": [
+          "P0_11",
+          "SW1"
+        ]
+      },
+      {
+        "pin": "P0_12",
+        "names": [
+          "P0_12",
+          "SW2"
+        ]
+      },
+      {
+        "pin": "P0_13",
+        "names": [
+          "P0_13",
+          "LED_G"
+        ]
+      },
+      {
+        "pin": "P0_14",
+        "names": [
+          "P0_14",
+          "LED_R"
+        ]
+      },
+      {
+        "pin": "P0_15",
+        "names": [
+          "P0_15",
+          "LED_B"
+        ]
+      },
+      {
+        "pin": "P0_16",
+        "names": [
+          "P0_16",
+          "LED_4"
+        ]
+      },
+      {
+        "pin": "P0_17",
+        "names": [
+          "P0_17"
+        ]
+      },
+      {
+        "pin": "P0_18",
+        "names": [
+          "P0_18"
+        ]
+      },
+      {
+        "pin": "P0_19",
+        "names": [
+          "P0_19"
+        ]
+      },
+      {
+        "pin": "P0_20",
+        "names": [
+          "P0_20"
+        ]
+      },
+      {
+        "pin": "P0_21",
+        "names": [
+          "P0_21"
+        ]
+      },
+      {
+        "pin": "P0_22",
+        "names": [
+          "P0_22"
+        ]
+      },
+      {
+        "pin": "P0_23",
+        "names": [
+          "P0_23"
+        ]
+      },
+      {
+        "pin": "P0_24",
+        "names": [
+          "P0_24",
+          "SW3"
+        ]
+      },
+      {
+        "pin": "P0_25",
+        "names": [
+          "P0_25",
+          "SW4"
+        ]
+      },
+      {
+        "pin": "P0_26",
+        "names": [
+          "P0_26"
+        ]
+      },
+      {
+        "pin": "P0_27",
+        "names": [
+          "P0_27"
+        ]
+      },
+      {
+        "pin": "P0_28",
+        "names": [
+          "P0_28",
+          "AIN_4"
+        ]
+      },
+      {
+        "pin": "P0_29",
+        "names": [
+          "P0_29",
+          "AIN_5"
+        ]
+      },
+      {
+        "pin": "P0_30",
+        "names": [
+          "P0_30",
+          "AIN_6"
+        ]
+      },
+      {
+        "pin": "P0_31",
+        "names": [
+          "P0_31",
+          "AIN_7"
+        ]
+      },
+      {
+        "pin": "P1_00",
+        "names": [
+          "P1_00"
+        ]
+      },
+      {
+        "pin": "P1_01",
+        "names": [
+          "P1_01"
+        ]
+      },
+      {
+        "pin": "P1_02",
+        "names": [
+          "P1_02"
+        ]
+      },
+      {
+        "pin": "P1_03",
+        "names": [
+          "P1_03"
+        ]
+      },
+      {
+        "pin": "P1_04",
+        "names": [
+          "P1_04"
+        ]
+      },
+      {
+        "pin": "P1_05",
+        "names": [
+          "P1_05"
+        ]
+      },
+      {
+        "pin": "P1_06",
+        "names": [
+          "P1_06"
+        ]
+      },
+      {
+        "pin": "P1_07",
+        "names": [
+          "P1_07"
+        ]
+      },
+      {
+        "pin": "P1_08",
+        "names": [
+          "P1_08"
+        ]
+      },
+      {
+        "pin": "P1_09",
+        "names": [
+          "P1_09"
+        ]
+      },
+      {
+        "pin": "P1_10",
+        "names": [
+          "P1_10"
+        ]
+      },
+      {
+        "pin": "P1_11",
+        "names": [
+          "P1_11"
+        ]
+      },
+      {
+        "pin": "P1_12",
+        "names": [
+          "P1_12"
+        ]
+      },
+      {
+        "pin": "P1_13",
+        "names": [
+          "P1_13"
+        ]
+      },
+      {
+        "pin": "P1_14",
+        "names": [
+          "P1_14"
+        ]
+      },
+      {
+        "pin": "P1_15",
+        "names": [
+          "P1_15"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "zephyr:raytac_mdbt50q_db_40",
+      "label": "Zephyr board definition (raytac_mdbt50q_db_40)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/raytac/mdbt50q_db_40/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "circuitpython:raytac_mdbt50q-db-40",
+      "label": "CircuitPython board definition (raytac_mdbt50q-db-40)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/raytac_mdbt50q-db-40.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:raytac_mdbt50q-db-40",
+      "label": "CircuitPython pin definitions (raytac_mdbt50q-db-40)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/nordic/boards/raytac_mdbt50q-db-40/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

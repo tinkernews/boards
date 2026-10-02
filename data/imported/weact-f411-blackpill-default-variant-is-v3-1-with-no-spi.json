@@ -1,0 +1,38 @@
+{
+  "slug": "weact-f411-blackpill-default-variant-is-v3-1-with-no-spi",
+  "name": "WeAct F411 'blackpill'. Default variant is v3.1 with no SPI Flash.",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "weact",
+  "chip": "stm32f411",
+  "ids": {
+    "micropython": [
+      "WEACT_F411_BLACKPILL"
+    ]
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "WeAct F411 'blackpill'. Default variant is v3.1 with no SPI Flash. product page",
+      "url": "https://github.com/WeActStudio/WeActStudio.MiniSTM32F4x1"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/WEACT_F411_BLACKPILL/",
+      "source": "micropython:weact_f411_blackpill"
+    }
+  ],
+  "sources": [
+    {
+      "id": "micropython:weact_f411_blackpill",
+      "label": "MicroPython board definition (WEACT_F411_BLACKPILL)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/stm32/boards/WEACT_F411_BLACKPILL/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

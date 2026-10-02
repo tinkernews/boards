@@ -1,0 +1,52 @@
+{
+  "slug": "microchip-technology-atmega644-a",
+  "name": "ATmega644/A",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "ids": {
+    "platformio": [
+      "ATmega644A"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATMEGA644A",
+      "source": "platformio:atmega644a"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:atmega644a"
+    },
+    "upload_limits": {
+      "value": "64 KB flash, 4 KB RAM",
+      "source": "platformio:atmega644a"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ATmega644/A product page",
+      "url": "https://www.microchip.com/wwwproducts/en/ATmega644a"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/ATmega644A.html",
+      "source": "platformio:atmega644a"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:atmega644a",
+      "label": "PlatformIO board definition (ATmega644A)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/ATmega644A.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

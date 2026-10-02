@@ -1,0 +1,84 @@
+{
+  "slug": "stmicroelectronics-st-nucleo-f103rb",
+  "name": "ST Nucleo F103RB",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "chip": "stm32f103cb",
+  "aliases": [
+    "Nucleo F103RB"
+  ],
+  "ids": {
+    "platformio": [
+      "nucleo_f103rb"
+    ],
+    "zephyr": [
+      "nucleo_f103rb"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F103CB / RB",
+      "source": "platformio:nucleo_f103rb"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M3",
+      "source": "platformio:nucleo_f103rb"
+    },
+    "clock": {
+      "value": "72 MHz",
+      "source": "platformio:nucleo_f103rb"
+    },
+    "upload_limits": {
+      "value": "128 KB flash, 20 KB RAM",
+      "source": "platformio:nucleo_f103rb"
+    },
+    "ram": {
+      "value": "20 KB",
+      "source": "zephyr:nucleo_f103rb"
+    },
+    "flash": {
+      "value": "128 KB",
+      "source": "zephyr:nucleo_f103rb"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ST Nucleo F103RB product page",
+      "url": "https://developer.mbed.org/platforms/ST-Nucleo-F103RB/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/nucleo_f103rb.html",
+      "source": "platformio:nucleo_f103rb"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/nucleo_f103rb/doc/index.html",
+      "source": "zephyr:nucleo_f103rb"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:nucleo_f103rb",
+      "label": "PlatformIO board definition (nucleo_f103rb)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/nucleo_f103rb.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    },
+    {
+      "id": "zephyr:nucleo_f103rb",
+      "label": "Zephyr board definition (nucleo_f103rb)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/nucleo_f103rb/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

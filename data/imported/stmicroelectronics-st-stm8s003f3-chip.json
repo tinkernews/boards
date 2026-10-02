@@ -1,0 +1,52 @@
+{
+  "slug": "stmicroelectronics-st-stm8s003f3-chip",
+  "name": "ST STM8S003F3 chip",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "platformio": [
+      "stm8s003f3"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM8S003F3P6",
+      "source": "platformio:stm8s003f3"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:stm8s003f3"
+    },
+    "upload_limits": {
+      "value": "8 KB flash, 1 KB RAM",
+      "source": "platformio:stm8s003f3"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ST STM8S003F3 chip product page",
+      "url": "https://www.st.com/resource/en/datasheet/stm8s003f3.pdf"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm8/stm8s003f3.html",
+      "source": "platformio:stm8s003f3"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:stm8s003f3",
+      "label": "PlatformIO board definition (stm8s003f3)",
+      "url": "https://github.com/platformio/platform-ststm8/blob/c6af4c1dde4024905613b08dac13a591894ea79f/boards/stm8s003f3.json",
+      "kind": "import",
+      "revision": "c6af4c1dde4024905613b08dac13a591894ea79f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

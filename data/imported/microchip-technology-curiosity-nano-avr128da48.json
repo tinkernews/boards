@@ -1,0 +1,52 @@
+{
+  "slug": "microchip-technology-curiosity-nano-avr128da48",
+  "name": "Curiosity Nano AVR128DA48",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "ids": {
+    "platformio": [
+      "curiosity_nano_da"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "AVR128DA48",
+      "source": "platformio:curiosity_nano_da"
+    },
+    "clock": {
+      "value": "24 MHz",
+      "source": "platformio:curiosity_nano_da"
+    },
+    "upload_limits": {
+      "value": "128 KB flash, 16 KB RAM",
+      "source": "platformio:curiosity_nano_da"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Curiosity Nano AVR128DA48 product page",
+      "url": "https://www.microchip.com/developmenttools/ProductDetails/DM164151"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelmegaavr/curiosity_nano_da.html",
+      "source": "platformio:curiosity_nano_da"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:curiosity_nano_da",
+      "label": "PlatformIO board definition (curiosity_nano_da)",
+      "url": "https://github.com/platformio/platform-atmelmegaavr/blob/8d7678dd994dadf43062cb589deba0806fae3a2e/boards/curiosity_nano_da.json",
+      "kind": "import",
+      "revision": "8d7678dd994dadf43062cb589deba0806fae3a2e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "infineon-psoctm-edge-e84-ai-evaluation-kit",
+  "name": "PSOC™ Edge E84 AI Evaluation Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "infineon",
+  "ids": {
+    "zephyr": [
+      "kit_pse84_ai"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "PSE846GPS2DBZC4A",
+      "source": "zephyr:kit_pse84_ai"
+    },
+    "ram": {
+      "value": "5120 KB",
+      "source": "zephyr:kit_pse84_ai"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/infineon/kit_pse84_ai/doc/index.html",
+      "source": "zephyr:kit_pse84_ai"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:kit_pse84_ai",
+      "label": "Zephyr board definition (kit_pse84_ai)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/infineon/kit_pse84_ai/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

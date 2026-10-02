@@ -1,0 +1,36 @@
+{
+  "slug": "nxp-semiconductors-i-mx-8quadmax-multisensory-enablement-kit",
+  "name": "i.MX 8QuadMax Multisensory Enablement Kit (MEK)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "ids": {
+    "zephyr": [
+      "imx8qm_mek"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MIMX8QM6",
+      "source": "zephyr:imx8qm_mek"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nxp/imx8qm_mek/doc/index.html",
+      "source": "zephyr:imx8qm_mek"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:imx8qm_mek",
+      "label": "Zephyr board definition (imx8qm_mek)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nxp/imx8qm_mek/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

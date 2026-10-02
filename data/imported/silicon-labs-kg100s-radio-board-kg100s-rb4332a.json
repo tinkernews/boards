@@ -1,0 +1,44 @@
+{
+  "slug": "silicon-labs-kg100s-radio-board-kg100s-rb4332a",
+  "name": "KG100S Radio board (KG100S-RB4332A)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "silicon-labs",
+  "ids": {
+    "zephyr": [
+      "kg100s_rb4332a"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "EFR32BG21B010F1024IM32",
+      "source": "zephyr:kg100s_rb4332a"
+    },
+    "ram": {
+      "value": "96 KB",
+      "source": "zephyr:kg100s_rb4332a"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:kg100s_rb4332a"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/silabs/radio_boards/kg100s_rb4332a/doc/index.html",
+      "source": "zephyr:kg100s_rb4332a"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:kg100s_rb4332a",
+      "label": "Zephyr board definition (kg100s_rb4332a)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/silabs/radio_boards/kg100s_rb4332a/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

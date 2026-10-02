@@ -1,0 +1,53 @@
+{
+  "slug": "adafruit-feather-32u4",
+  "name": "Adafruit Feather 32u4",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "atmega32u4",
+  "ids": {
+    "platformio": [
+      "feather32u4"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega32U4",
+      "source": "platformio:feather32u4"
+    },
+    "clock": {
+      "value": "8 MHz",
+      "source": "platformio:feather32u4"
+    },
+    "upload_limits": {
+      "value": "28 KB flash, 2.5 KB RAM",
+      "source": "platformio:feather32u4"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Adafruit Feather 32u4 product page",
+      "url": "https://learn.adafruit.com/adafruit-feather-32u4-bluefruit-le/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/feather32u4.html",
+      "source": "platformio:feather32u4"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:feather32u4",
+      "label": "PlatformIO board definition (feather32u4)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/feather32u4.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

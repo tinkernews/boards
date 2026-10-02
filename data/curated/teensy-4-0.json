@@ -1,0 +1,115 @@
+{
+  "slug": "teensy-4-0",
+  "name": "Teensy 4.0",
+  "tier": "curated",
+  "kind": "mcu",
+  "maker": "pjrc",
+  "family": "Teensy",
+  "chip": "imxrt1062",
+  "released": "2019-08",
+  "status": "current",
+  "summary": "A 600 MHz Arm Cortex-M7 on a 35 × 18 mm board: one of the fastest Arduino-compatible microcontrollers.",
+  "aliases": [
+    "Teensy 4.0",
+    "Teensy 4"
+  ],
+  "ids": {
+    "platformio": [
+      "teensy40"
+    ],
+    "circuitpython": [
+      "teensy40"
+    ],
+    "micropython": [
+      "TEENSY40"
+    ]
+  },
+  "review": {
+    "status": "draft"
+  },
+  "successor": "teensy-4-1",
+  "specs": {
+    "chip": {
+      "value": "NXP i.MX RT1062",
+      "source": "teensy40"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M7",
+      "source": "nxp-rt1060"
+    },
+    "clock": {
+      "value": "600 MHz",
+      "source": "teensy40"
+    },
+    "ram": {
+      "value": "1024 KB",
+      "source": "teensy40"
+    },
+    "flash": {
+      "value": "2 MB (64 KB reserved)",
+      "source": "teensy40"
+    },
+    "io_voltage": {
+      "value": "3.3 V, not 5 V tolerant",
+      "source": "teensy40"
+    },
+    "usb": {
+      "value": "Micro-USB, 480 Mbit/s",
+      "source": "teensy40"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Teensy 4.0, PJRC",
+      "url": "https://www.pjrc.com/store/teensy40.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Teensyduino add-on for the Arduino IDE.",
+      "url": "https://www.pjrc.com/teensy/td_download.html",
+      "source": "pjrc"
+    }
+  ],
+  "gotchas": [
+    {
+      "title": "3.3 V only",
+      "text": "Teensy 4 pins are not 5 V tolerant, unlike some earlier Teensy boards.",
+      "source": "teensy40"
+    },
+    {
+      "title": "It gets warm at 600 MHz",
+      "text": "The chip runs warm at full speed; PJRC documents a slower clock setting for low-power use.",
+      "source": "teensy40"
+    }
+  ],
+  "editorial": {
+    "history": "Released in August 2019, the Teensy 4.0 brought a 600 MHz crossover processor to a tiny board at under $20.",
+    "today": "The go-to for audio processing, MIDI and fast control loops with Arduino code.",
+    "source": "teensy40"
+  },
+  "sources": [
+    {
+      "id": "teensy40",
+      "label": "Teensy 4.0, PJRC",
+      "url": "https://www.pjrc.com/store/teensy40.html",
+      "kind": "official"
+    },
+    {
+      "id": "pjrc",
+      "label": "Teensy, PJRC",
+      "url": "https://www.pjrc.com/teensy/",
+      "kind": "official"
+    },
+    {
+      "id": "nxp-rt1060",
+      "label": "i.MX RT1060 crossover MCU, NXP",
+      "url": "https://www.nxp.com/products/processors-and-microcontrollers/arm-microcontrollers/i-mx-rt-crossover-mcus/i-mx-rt1060-crossover-mcu-with-arm-cortex-m7-core:i.MX-RT1060",
+      "kind": "official"
+    }
+  ],
+  "updatedAt": "2026-10-01T00:00:00.000Z"
+}

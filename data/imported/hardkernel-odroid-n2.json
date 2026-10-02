@@ -1,0 +1,32 @@
+{
+  "slug": "hardkernel-odroid-n2",
+  "name": "Odroid N2",
+  "tier": "imported",
+  "kind": "sbc",
+  "maker": "hardkernel",
+  "released": "2019",
+  "ids": {
+    "armbian": [
+      "odroidn2"
+    ]
+  },
+  "software": [
+    {
+      "platform": "armbian",
+      "status": "supported",
+      "note": "Supported by Armbian.",
+      "url": "https://github.com/armbian/build/blob/main/config/boards/odroidn2.conf",
+      "source": "armbian:odroidn2"
+    }
+  ],
+  "sources": [
+    {
+      "id": "armbian:odroidn2",
+      "label": "Armbian board configuration (odroidn2)",
+      "url": "https://github.com/armbian/build/blob/da85daa05bd260d04dac50315d7317207fd998b3/config/boards/odroidn2.conf",
+      "kind": "import",
+      "revision": "da85daa05bd260d04dac50315d7317207fd998b3"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

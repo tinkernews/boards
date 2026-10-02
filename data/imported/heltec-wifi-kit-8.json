@@ -1,0 +1,53 @@
+{
+  "slug": "heltec-wifi-kit-8",
+  "name": "Heltec Wifi kit 8",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "heltec",
+  "chip": "esp8266",
+  "ids": {
+    "platformio": [
+      "heltec_wifi_kit_8"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP8266EX",
+      "source": "platformio:heltec_wifi_kit_8"
+    },
+    "clock": {
+      "value": "80 MHz",
+      "source": "platformio:heltec_wifi_kit_8"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 80 KB RAM",
+      "source": "platformio:heltec_wifi_kit_8"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Heltec Wifi kit 8 product page",
+      "url": "http://www.heltec.cn/project/wifi_kit_8/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif8266/heltec_wifi_kit_8.html",
+      "source": "platformio:heltec_wifi_kit_8"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:heltec_wifi_kit_8",
+      "label": "PlatformIO board definition (heltec_wifi_kit_8)",
+      "url": "https://github.com/platformio/platform-espressif8266/blob/668c2a2e4f16bd83b6c812f1ee0605c62b3ce2d2/boards/heltec_wifi_kit_8.json",
+      "kind": "import",
+      "revision": "668c2a2e4f16bd83b6c812f1ee0605c62b3ce2d2"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

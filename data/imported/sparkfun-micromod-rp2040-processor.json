@@ -1,0 +1,280 @@
+{
+  "slug": "sparkfun-micromod-rp2040-processor",
+  "name": "MicroMod RP2040 Processor",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sparkfun",
+  "chip": "rp2040",
+  "ids": {
+    "circuitpython": [
+      "sparkfun_micromod_rp2040"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/sparkfun_micromod_rp2040/",
+      "source": "circuitpython:sparkfun_micromod_rp2040"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:sparkfun_micromod_rp2040",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "UART_TX1",
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "UART_RX1",
+          "RX"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "UART_CTS1",
+          "AUD_LRCLK",
+          "I2S_WS",
+          "PCM_SYNC",
+          "PDM_DATA"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "UART_RTS1",
+          "AUD_BCLK",
+          "I2S_SCK",
+          "PCM_CLK",
+          "PDM_CLK"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "I2C_SDA",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "I2C_SCL",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "D0"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "D1",
+          "CAM_TRIG"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "UART_TX2",
+          "I2C_INT"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "UART_RX2",
+          "SDIO_DATA3",
+          "SPI_CS1"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "SDIO_DATA2",
+          "AUD_OUT",
+          "I2S_OUT",
+          "PCM_OUT",
+          "CAM_MCLK"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "SDIO_DATA1",
+          "AUD_IN",
+          "I2S_IN",
+          "PCM_IN",
+          "CAM_PCLK"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "SDIO_DATA0",
+          "SPI_CIPO1",
+          "SPI_MISO1"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "PWM0"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "SDIO_CLK",
+          "SPI_SCK1"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "SDIO_CMD",
+          "SPI_COPI1",
+          "SPI_MOSI1"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "G0",
+          "BUS0"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "G1",
+          "BUS1"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "G2",
+          "BUS2"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "G3",
+          "BUS3"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "SPI_CIPO",
+          "SPI_MISO",
+          "CIPO",
+          "MISO",
+          "G4",
+          "BUS4"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "SPI_CS",
+          "CS",
+          "G5",
+          "BUS5"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "SPI_SCK",
+          "SCK",
+          "LED_CLK",
+          "G6",
+          "BUS6"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "SPI_COPI",
+          "SPI_MOSI",
+          "COPI",
+          "MOSI",
+          "LED_DAT",
+          "G7",
+          "BUS7"
+        ]
+      },
+      {
+        "pin": "GPIO24",
+        "names": [
+          "AUD_MCLK",
+          "PWM1"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "LED",
+          "G10",
+          "ADC_DP",
+          "CAM_VSYNC"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "A0"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "A1"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "G9",
+          "ADC_DM",
+          "CAM_HSYNC"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "BATT_VIN3"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:sparkfun_micromod_rp2040",
+      "label": "CircuitPython board definition (sparkfun_micromod_rp2040)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/sparkfun_micromod_rp2040.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:sparkfun_micromod_rp2040",
+      "label": "CircuitPython pin definitions (sparkfun_micromod_rp2040)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/sparkfun_micromod_rp2040/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

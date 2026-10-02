@@ -1,0 +1,37 @@
+{
+  "slug": "ebyte-eora-hub-900tb-module-test-kit",
+  "name": "Ebyte EoRa-HUB-900TB Module Test Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "ebyte",
+  "chip": "esp32-s3",
+  "ids": {
+    "zephyr": [
+      "eora_hub_900tb"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-S3",
+      "source": "zephyr:eora_hub_900tb"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/ebyte/eora_hub_900tb/doc/index.html",
+      "source": "zephyr:eora_hub_900tb"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:eora_hub_900tb",
+      "label": "Zephyr board definition (eora_hub_900tb)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/ebyte/eora_hub_900tb/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

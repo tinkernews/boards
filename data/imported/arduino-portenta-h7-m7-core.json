@@ -1,0 +1,56 @@
+{
+  "slug": "arduino-portenta-h7-m7-core",
+  "name": "Arduino Portenta H7 (M7 core)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "ids": {
+    "platformio": [
+      "portenta_h7_m7"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32H747XIH6",
+      "source": "platformio:portenta_h7_m7"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M7",
+      "source": "platformio:portenta_h7_m7"
+    },
+    "clock": {
+      "value": "480 MHz",
+      "source": "platformio:portenta_h7_m7"
+    },
+    "upload_limits": {
+      "value": "768 KB flash, 511.35 KB RAM",
+      "source": "platformio:portenta_h7_m7"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Arduino Portenta H7 (M7 core) product page",
+      "url": "https://www.arduino.cc/pro/hardware/product/portenta-h7"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/portenta_h7_m7.html",
+      "source": "platformio:portenta_h7_m7"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:portenta_h7_m7",
+      "label": "PlatformIO board definition (portenta_h7_m7)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/portenta_h7_m7.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

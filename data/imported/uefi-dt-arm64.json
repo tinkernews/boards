@@ -1,0 +1,32 @@
+{
+  "slug": "uefi-dt-arm64",
+  "name": "UEFI/DT arm64",
+  "tier": "imported",
+  "kind": "sbc",
+  "maker": "generic",
+  "released": "2026",
+  "ids": {
+    "armbian": [
+      "uefi-arm64-dt"
+    ]
+  },
+  "software": [
+    {
+      "platform": "armbian",
+      "status": "supported",
+      "note": "Supported by Armbian.",
+      "url": "https://github.com/armbian/build/blob/main/config/boards/uefi-arm64-dt.conf",
+      "source": "armbian:uefi-arm64-dt"
+    }
+  ],
+  "sources": [
+    {
+      "id": "armbian:uefi-arm64-dt",
+      "label": "Armbian board configuration (uefi-arm64-dt)",
+      "url": "https://github.com/armbian/build/blob/da85daa05bd260d04dac50315d7317207fd998b3/config/boards/uefi-arm64-dt.conf",
+      "kind": "import",
+      "revision": "da85daa05bd260d04dac50315d7317207fd998b3"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

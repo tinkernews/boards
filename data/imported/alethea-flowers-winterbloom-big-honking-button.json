@@ -1,0 +1,79 @@
+{
+  "slug": "alethea-flowers-winterbloom-big-honking-button",
+  "name": "Winterbloom Big Honking Button",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "alethea-flowers",
+  "chip": "atsamd21g18",
+  "ids": {
+    "circuitpython": [
+      "winterbloom_big_honking_button"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/winterbloom_big_honking_button/",
+      "source": "circuitpython:winterbloom_big_honking_button"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:winterbloom_big_honking_button",
+    "list": [
+      {
+        "pin": "PA02",
+        "names": [
+          "HONK_OUT"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "BUTTON"
+        ]
+      },
+      {
+        "pin": "PA11",
+        "names": [
+          "GATE_OUT"
+        ]
+      },
+      {
+        "pin": "PA14",
+        "names": [
+          "GATE_IN"
+        ]
+      },
+      {
+        "pin": "PB08",
+        "names": [
+          "PITCH_IN"
+        ]
+      },
+      {
+        "pin": "PB10",
+        "names": [
+          "V5"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:winterbloom_big_honking_button",
+      "label": "CircuitPython board definition (winterbloom_big_honking_button)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/winterbloom_big_honking_button.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:winterbloom_big_honking_button",
+      "label": "CircuitPython pin definitions (winterbloom_big_honking_button)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/winterbloom_big_honking_button/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

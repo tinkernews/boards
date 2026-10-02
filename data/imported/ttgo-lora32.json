@@ -1,0 +1,60 @@
+{
+  "slug": "ttgo-lora32",
+  "name": "TTGO LoRa32",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "lilygo",
+  "chip": "esp32",
+  "ids": {
+    "zephyr": [
+      "ttgo_lora32"
+    ],
+    "micropython": [
+      "LILYGO_TTGO_LORA32"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "zephyr:ttgo_lora32"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "TTGO LoRa32 product page",
+      "url": "https://www.lilygo.cc/products/lora3"
+    }
+  ],
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/lilygo/ttgo_lora32/doc/index.html",
+      "source": "zephyr:ttgo_lora32"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/LILYGO_TTGO_LORA32/",
+      "source": "micropython:lilygo_ttgo_lora32"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:ttgo_lora32",
+      "label": "Zephyr board definition (ttgo_lora32)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/lilygo/ttgo_lora32/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "micropython:lilygo_ttgo_lora32",
+      "label": "MicroPython board definition (LILYGO_TTGO_LORA32)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/esp32/boards/LILYGO_TTGO_LORA32/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,216 @@
+{
+  "slug": "tinkeringtech-scoutmakes-azul",
+  "name": "ScoutMakes Azul",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "tinkeringtech",
+  "chip": "nrf52840",
+  "ids": {
+    "circuitpython": [
+      "tinkeringtech_scoutmakes_azul"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/tinkeringtech_scoutmakes_azul/",
+      "source": "circuitpython:tinkeringtech_scoutmakes_azul"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:tinkeringtech_scoutmakes_azul",
+    "list": [
+      {
+        "pin": "P0_02",
+        "names": [
+          "A4"
+        ]
+      },
+      {
+        "pin": "P0_03",
+        "names": [
+          "A5"
+        ]
+      },
+      {
+        "pin": "P0_04",
+        "names": [
+          "A0"
+        ]
+      },
+      {
+        "pin": "P0_05",
+        "names": [
+          "A1"
+        ]
+      },
+      {
+        "pin": "P0_06",
+        "names": [
+          "D11"
+        ]
+      },
+      {
+        "pin": "P0_07",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "P0_08",
+        "names": [
+          "D12"
+        ]
+      },
+      {
+        "pin": "P0_09",
+        "names": [
+          "NFC1"
+        ]
+      },
+      {
+        "pin": "P0_10",
+        "names": [
+          "NFC2",
+          "D2"
+        ]
+      },
+      {
+        "pin": "P0_11",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "P0_12",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "P0_13",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "P0_14",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "P0_15",
+        "names": [
+          "MISO"
+        ]
+      },
+      {
+        "pin": "P0_16",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "P0_24",
+        "names": [
+          "RX"
+        ]
+      },
+      {
+        "pin": "P0_25",
+        "names": [
+          "TX"
+        ]
+      },
+      {
+        "pin": "P0_26",
+        "names": [
+          "D9"
+        ]
+      },
+      {
+        "pin": "P0_27",
+        "names": [
+          "D10"
+        ]
+      },
+      {
+        "pin": "P0_28",
+        "names": [
+          "A3"
+        ]
+      },
+      {
+        "pin": "P0_29",
+        "names": [
+          "VOLTAGE_MONITOR",
+          "BATTERY"
+        ]
+      },
+      {
+        "pin": "P0_30",
+        "names": [
+          "A2"
+        ]
+      },
+      {
+        "pin": "P0_31",
+        "names": [
+          "AREF"
+        ]
+      },
+      {
+        "pin": "P1_02",
+        "names": [
+          "SWITCH"
+        ]
+      },
+      {
+        "pin": "P1_08",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "P1_09",
+        "names": [
+          "D13"
+        ]
+      },
+      {
+        "pin": "P1_10",
+        "names": [
+          "BLUE_LED"
+        ]
+      },
+      {
+        "pin": "P1_15",
+        "names": [
+          "L",
+          "RED_LED",
+          "LED",
+          "D3"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:tinkeringtech_scoutmakes_azul",
+      "label": "CircuitPython board definition (tinkeringtech_scoutmakes_azul)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/tinkeringtech_scoutmakes_azul.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:tinkeringtech_scoutmakes_azul",
+      "label": "CircuitPython pin definitions (tinkeringtech_scoutmakes_azul)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/nordic/boards/tinkeringtech_scoutmakes_azul/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

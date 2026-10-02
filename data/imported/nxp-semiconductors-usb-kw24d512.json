@@ -1,0 +1,44 @@
+{
+  "slug": "nxp-semiconductors-usb-kw24d512",
+  "name": "USB-KW24D512",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "ids": {
+    "zephyr": [
+      "usb_kw24d512"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MKW24D5",
+      "source": "zephyr:usb_kw24d512"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:usb_kw24d512"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:usb_kw24d512"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nxp/usb_kw24d512/doc/index.html",
+      "source": "zephyr:usb_kw24d512"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:usb_kw24d512",
+      "label": "Zephyr board definition (usb_kw24d512)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nxp/usb_kw24d512/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "seagate-technology-plc-firecuda-gaming-ssd-faze-board",
+  "name": "FireCuda Gaming SSD (FaZe) board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "seagate-technology-plc",
+  "ids": {
+    "zephyr": [
+      "faze"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "LPC11U67",
+      "source": "zephyr:faze"
+    },
+    "ram": {
+      "value": "16 KB",
+      "source": "zephyr:faze"
+    },
+    "flash": {
+      "value": "128 KB",
+      "source": "zephyr:faze"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/seagate/faze/doc/index.html",
+      "source": "zephyr:faze"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:faze",
+      "label": "Zephyr board definition (faze)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/seagate/faze/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

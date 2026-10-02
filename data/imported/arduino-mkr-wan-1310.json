@@ -1,0 +1,57 @@
+{
+  "slug": "arduino-mkr-wan-1310",
+  "name": "Arduino MKR WAN 1310",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "chip": "atsamd21g18",
+  "ids": {
+    "platformio": [
+      "mkrwan1310"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAMD21G18",
+      "source": "platformio:mkrwan1310"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:mkrwan1310"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:mkrwan1310"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:mkrwan1310"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Arduino MKR WAN 1310 product page",
+      "url": "https://store.arduino.cc/mkr-wan-1310"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelsam/mkrwan1310.html",
+      "source": "platformio:mkrwan1310"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:mkrwan1310",
+      "label": "PlatformIO board definition (mkrwan1310)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/mkrwan1310.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

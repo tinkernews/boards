@@ -1,0 +1,45 @@
+{
+  "slug": "we-proteus-iii-ev",
+  "name": "Proteus-III-EV",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "we",
+  "chip": "nrf52840",
+  "ids": {
+    "zephyr": [
+      "we_proteus3ev"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52840",
+      "source": "zephyr:we_proteus3ev"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:we_proteus3ev"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:we_proteus3ev"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/we/proteus3ev/doc/index.html",
+      "source": "zephyr:we_proteus3ev"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:we_proteus3ev",
+      "label": "Zephyr board definition (we_proteus3ev)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/we/proteus3ev/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

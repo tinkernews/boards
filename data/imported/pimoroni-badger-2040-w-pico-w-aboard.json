@@ -1,0 +1,230 @@
+{
+  "slug": "pimoroni-badger-2040-w-pico-w-aboard",
+  "name": "Badger 2040 W (Pico W Aboard)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "pimoroni",
+  "chip": "rp2040",
+  "ids": {
+    "circuitpython": [
+      "pimoroni_badger2040w"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/pimoroni_badger2040w/",
+      "source": "circuitpython:pimoroni_badger2040w"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:pimoroni_badger2040w",
+    "list": [
+      {
+        "pin": "CYW0",
+        "names": [
+          "LED"
+        ]
+      },
+      {
+        "pin": "CYW1",
+        "names": [
+          "SMPS_MODE"
+        ]
+      },
+      {
+        "pin": "CYW2",
+        "names": [
+          "VBUS_SENSE"
+        ]
+      },
+      {
+        "pin": "GPIO0",
+        "names": [
+          "TX",
+          "GP0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "RX",
+          "GP1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "GP2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "GP3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "GP6"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "GP7"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "RTC_ALARM"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "GP9"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "EN_3V3"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "SW_DOWN"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "SW_A"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "SW_B"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "SW_C"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "SW_UP"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "MISO"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "INKY_CS"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "INKY_DC"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "INKY_RST"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "USER_LED"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "INKY_BUSY"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "GP27_A1",
+          "GP27",
+          "A1"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "GP28_A2",
+          "GP28",
+          "A2"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "VOLTAGE_MONITOR",
+          "A3"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:pimoroni_badger2040w",
+      "label": "CircuitPython board definition (pimoroni_badger2040w)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/pimoroni_badger2040w.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:pimoroni_badger2040w",
+      "label": "CircuitPython pin definitions (pimoroni_badger2040w)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/pimoroni_badger2040w/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

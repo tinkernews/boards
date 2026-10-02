@@ -1,0 +1,59 @@
+{
+  "slug": "wemos-lolin-d32-pro",
+  "name": "WEMOS LOLIN D32 PRO",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "wemos",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "lolin_d32_pro"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:lolin_d32_pro"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:lolin_d32_pro"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:lolin_d32_pro"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "WEMOS LOLIN D32 PRO product page",
+      "url": "https://www.wemos.cc/en/latest/d32/d32_pro.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/lolin_d32_pro.html",
+      "source": "platformio:lolin_d32_pro"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/lolin_d32_pro.html",
+      "source": "platformio:lolin_d32_pro"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:lolin_d32_pro",
+      "label": "PlatformIO board definition (lolin_d32_pro)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/lolin_d32_pro.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "openhw-group-digilent-cv64a6-on-genesys-2",
+  "name": "Digilent CV64A6 on Genesys 2",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "openhw-group",
+  "ids": {
+    "zephyr": [
+      "cv64a6_genesys_2"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "CV64A6",
+      "source": "zephyr:cv64a6_genesys_2"
+    },
+    "ram": {
+      "value": "1048576 KB",
+      "source": "zephyr:cv64a6_genesys_2"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/openhwgroup/cv64a6_genesys_2/doc/index.html",
+      "source": "zephyr:cv64a6_genesys_2"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:cv64a6_genesys_2",
+      "label": "Zephyr board definition (cv64a6_genesys_2)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/openhwgroup/cv64a6_genesys_2/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "96boards-argonkey-steval-mki187v1",
+  "name": "96Boards Argonkey (STEVAL-MKI187V1)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "96boards",
+  "ids": {
+    "platformio": [
+      "b96b_argonkey"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F412CG",
+      "source": "platformio:b96b_argonkey"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:b96b_argonkey"
+    },
+    "clock": {
+      "value": "100 MHz",
+      "source": "platformio:b96b_argonkey"
+    },
+    "upload_limits": {
+      "value": "1 MB flash, 256 KB RAM",
+      "source": "platformio:b96b_argonkey"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "96Boards Argonkey (STEVAL-MKI187V1) product page",
+      "url": "https://www.st.com/en/evaluation-tools/steval-mki187v1.html"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:b96b_argonkey",
+      "label": "PlatformIO board definition (b96b_argonkey)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/b96b_argonkey.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

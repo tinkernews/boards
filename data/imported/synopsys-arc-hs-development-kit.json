@@ -1,0 +1,36 @@
+{
+  "slug": "synopsys-arc-hs-development-kit",
+  "name": "ARC HS Development Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "synopsys",
+  "ids": {
+    "zephyr": [
+      "hsdk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ARC_HSDK",
+      "source": "zephyr:hsdk"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/snps/hsdk/doc/index.html",
+      "source": "zephyr:hsdk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:hsdk",
+      "label": "Zephyr board definition (hsdk)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/snps/hsdk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

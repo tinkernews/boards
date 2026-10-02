@@ -1,0 +1,237 @@
+{
+  "slug": "weact-studio-stm32f411ce-black-pill-with-flash",
+  "name": "STM32F411CE Black Pill with Flash",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "weact",
+  "ids": {
+    "circuitpython": [
+      "stm32f411ce_blackpill_with_flash"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/stm32f411ce_blackpill_with_flash/",
+      "source": "circuitpython:stm32f411ce_blackpill_with_flash"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:stm32f411ce_blackpill_with_flash",
+    "list": [
+      {
+        "pin": "PA00",
+        "names": [
+          "A0"
+        ]
+      },
+      {
+        "pin": "PA01",
+        "names": [
+          "A1"
+        ]
+      },
+      {
+        "pin": "PA02",
+        "names": [
+          "A2"
+        ]
+      },
+      {
+        "pin": "PA03",
+        "names": [
+          "A3"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "A4"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "A5"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "A6"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "A7"
+        ]
+      },
+      {
+        "pin": "PA08",
+        "names": [
+          "A8"
+        ]
+      },
+      {
+        "pin": "PA09",
+        "names": [
+          "A9"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "A10"
+        ]
+      },
+      {
+        "pin": "PA11",
+        "names": [
+          "A11"
+        ]
+      },
+      {
+        "pin": "PA12",
+        "names": [
+          "A12"
+        ]
+      },
+      {
+        "pin": "PA15",
+        "names": [
+          "A15"
+        ]
+      },
+      {
+        "pin": "PB00",
+        "names": [
+          "B0"
+        ]
+      },
+      {
+        "pin": "PB01",
+        "names": [
+          "B1"
+        ]
+      },
+      {
+        "pin": "PB02",
+        "names": [
+          "B2"
+        ]
+      },
+      {
+        "pin": "PB03",
+        "names": [
+          "B3"
+        ]
+      },
+      {
+        "pin": "PB04",
+        "names": [
+          "B4"
+        ]
+      },
+      {
+        "pin": "PB05",
+        "names": [
+          "B5"
+        ]
+      },
+      {
+        "pin": "PB06",
+        "names": [
+          "B6",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "PB07",
+        "names": [
+          "B7",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PB08",
+        "names": [
+          "B8"
+        ]
+      },
+      {
+        "pin": "PB09",
+        "names": [
+          "B9"
+        ]
+      },
+      {
+        "pin": "PB10",
+        "names": [
+          "B10"
+        ]
+      },
+      {
+        "pin": "PB12",
+        "names": [
+          "B12"
+        ]
+      },
+      {
+        "pin": "PB13",
+        "names": [
+          "B13"
+        ]
+      },
+      {
+        "pin": "PB14",
+        "names": [
+          "B14"
+        ]
+      },
+      {
+        "pin": "PB15",
+        "names": [
+          "B15"
+        ]
+      },
+      {
+        "pin": "PC13",
+        "names": [
+          "C13",
+          "LED"
+        ]
+      },
+      {
+        "pin": "PC14",
+        "names": [
+          "C14"
+        ]
+      },
+      {
+        "pin": "PC15",
+        "names": [
+          "C15"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:stm32f411ce_blackpill_with_flash",
+      "label": "CircuitPython board definition (stm32f411ce_blackpill_with_flash)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/stm32f411ce_blackpill_with_flash.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:stm32f411ce_blackpill_with_flash",
+      "label": "CircuitPython pin definitions (stm32f411ce_blackpill_with_flash)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/stm/boards/stm32f411ce_blackpill_with_flash/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

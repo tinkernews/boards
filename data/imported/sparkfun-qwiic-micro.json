@@ -1,0 +1,57 @@
+{
+  "slug": "sparkfun-qwiic-micro",
+  "name": "SparkFun Qwiic Micro",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sparkfun",
+  "chip": "atsamd21e18",
+  "ids": {
+    "platformio": [
+      "sparkfun_qwiic_micro_samd21e"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAMD21E18",
+      "source": "platformio:sparkfun_qwiic_micro_samd21e"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:sparkfun_qwiic_micro_samd21e"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:sparkfun_qwiic_micro_samd21e"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:sparkfun_qwiic_micro_samd21e"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "SparkFun Qwiic Micro product page",
+      "url": "https://www.sparkfun.com/products/15423"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelsam/sparkfun_qwiic_micro_samd21e.html",
+      "source": "platformio:sparkfun_qwiic_micro_samd21e"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:sparkfun_qwiic_micro_samd21e",
+      "label": "PlatformIO board definition (sparkfun_qwiic_micro_samd21e)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/sparkfun_qwiic_micro_samd21e.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

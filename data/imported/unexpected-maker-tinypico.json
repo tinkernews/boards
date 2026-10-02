@@ -1,0 +1,261 @@
+{
+  "slug": "unexpected-maker-tinypico",
+  "name": "Unexpected Maker TinyPICO",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "unexpected-maker",
+  "chip": "esp32",
+  "aliases": [
+    "TinyPICO"
+  ],
+  "ids": {
+    "platformio": [
+      "tinypico"
+    ],
+    "circuitpython": [
+      "unexpectedmaker_tinypico"
+    ],
+    "micropython": [
+      "UM_TINYPICO"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:tinypico"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:tinypico"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:tinypico"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Unexpected Maker TinyPICO product page",
+      "url": "https://www.tinypico.com"
+    },
+    {
+      "kind": "product",
+      "label": "Unexpected Maker TinyPICO product page",
+      "url": "https://www.tinypico.com/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/tinypico.html",
+      "source": "platformio:tinypico"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/tinypico.html",
+      "source": "platformio:tinypico"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/UM_TINYPICO/",
+      "source": "micropython:um_tinypico"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/unexpectedmaker_tinypico/",
+      "source": "circuitpython:unexpectedmaker_tinypico"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:unexpectedmaker_tinypico",
+    "list": [
+      {
+        "pin": "GPIO2",
+        "names": [
+          "APA102_MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "IO4",
+          "D4",
+          "A4"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "IO5",
+          "D5",
+          "A5"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "VBUS",
+          "VBUS_SENSE"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "APA102_SCK"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "APA102_PWR"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "IO14",
+          "D14",
+          "A14"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "IO15",
+          "D15",
+          "A15"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "IO18",
+          "SCK",
+          "D18"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "IO19",
+          "MISO",
+          "SDI",
+          "D19"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "SDA",
+          "IO21",
+          "D21"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "SCL",
+          "IO22",
+          "D22"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "IO23",
+          "MOSI",
+          "SDO",
+          "D23"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "IO25",
+          "D25",
+          "A25",
+          "DAC1"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "IO26",
+          "D26",
+          "A26",
+          "DAC2"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "IO27",
+          "D27",
+          "A27"
+        ]
+      },
+      {
+        "pin": "GPIO32",
+        "names": [
+          "IO32",
+          "D32",
+          "A32"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "IO33",
+          "D33",
+          "A33"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "BATTERY",
+          "VBAT",
+          "VBAT_SENSE",
+          "VOLTAGE_MONITOR"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "platformio:tinypico",
+      "label": "PlatformIO board definition (tinypico)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/tinypico.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    },
+    {
+      "id": "circuitpython:unexpectedmaker_tinypico",
+      "label": "CircuitPython board definition (unexpectedmaker_tinypico)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/unexpectedmaker_tinypico.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "micropython:um_tinypico",
+      "label": "MicroPython board definition (UM_TINYPICO)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/esp32/boards/UM_TINYPICO/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    },
+    {
+      "id": "circuitpython-pins:unexpectedmaker_tinypico",
+      "label": "CircuitPython pin definitions (unexpectedmaker_tinypico)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/unexpectedmaker_tinypico/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

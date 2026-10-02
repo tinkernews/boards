@@ -1,0 +1,45 @@
+{
+  "slug": "pro-micro-nrf52840",
+  "name": "Pro Micro nRF52840",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "generic",
+  "chip": "nrf52840",
+  "ids": {
+    "zephyr": [
+      "promicro_nrf52840"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52840",
+      "source": "zephyr:promicro_nrf52840"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:promicro_nrf52840"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:promicro_nrf52840"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/others/promicro_nrf52840/doc/index.html",
+      "source": "zephyr:promicro_nrf52840"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:promicro_nrf52840",
+      "label": "Zephyr board definition (promicro_nrf52840)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/others/promicro_nrf52840/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

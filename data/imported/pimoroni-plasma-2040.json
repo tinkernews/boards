@@ -1,0 +1,144 @@
+{
+  "slug": "pimoroni-plasma-2040",
+  "name": "Plasma 2040",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "pimoroni",
+  "chip": "rp2040",
+  "ids": {
+    "circuitpython": [
+      "pimoroni_plasma2040"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/pimoroni_plasma2040/",
+      "source": "circuitpython:pimoroni_plasma2040"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:pimoroni_plasma2040",
+    "list": [
+      {
+        "pin": "GPIO12",
+        "names": [
+          "SW_A"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "SW_B"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "CLK",
+          "GP14"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "DATA",
+          "GP15"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "LED_R"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "LED_G"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "LED_B"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "INT",
+          "GP19"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "SDA",
+          "GP20"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "SCL",
+          "GP21"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "USER_SW"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "GP26_A0",
+          "GP26",
+          "A0"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "GP27_A1",
+          "GP27",
+          "A1"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "GP28_A2",
+          "GP28",
+          "A2"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "CURRENT_SENSE"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:pimoroni_plasma2040",
+      "label": "CircuitPython board definition (pimoroni_plasma2040)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/pimoroni_plasma2040.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:pimoroni_plasma2040",
+      "label": "CircuitPython pin definitions (pimoroni_plasma2040)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/pimoroni_plasma2040/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

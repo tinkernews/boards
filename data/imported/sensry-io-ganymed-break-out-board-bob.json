@@ -1,0 +1,36 @@
+{
+  "slug": "sensry-io-ganymed-break-out-board-bob",
+  "name": "Ganymed Break-Out-Board (BOB)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sensry-io",
+  "ids": {
+    "zephyr": [
+      "ganymed_bob"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "SY120_GBM",
+      "source": "zephyr:ganymed_bob"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/sensry/ganymed_bob/doc/index.html",
+      "source": "zephyr:ganymed_bob"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:ganymed_bob",
+      "label": "Zephyr board definition (ganymed_bob)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/sensry/ganymed_bob/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

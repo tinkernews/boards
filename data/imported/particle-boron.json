@@ -1,0 +1,342 @@
+{
+  "slug": "particle-boron",
+  "name": "Particle Boron",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "particle",
+  "chip": "nrf52840",
+  "aliases": [
+    "Boron"
+  ],
+  "ids": {
+    "platformio": [
+      "particle_boron"
+    ],
+    "zephyr": [
+      "particle_boron"
+    ],
+    "circuitpython": [
+      "particle_boron"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52840",
+      "source": "platformio:particle_boron"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:particle_boron"
+    },
+    "clock": {
+      "value": "64 MHz",
+      "source": "platformio:particle_boron"
+    },
+    "upload_limits": {
+      "value": "796 KB flash, 243 KB RAM",
+      "source": "platformio:particle_boron"
+    },
+    "ram": {
+      "value": "512 KB",
+      "source": "zephyr:particle_boron"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:particle_boron"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Particle Boron product page",
+      "url": "https://docs.particle.io/boron"
+    }
+  ],
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/particle/boron/doc/index.html",
+      "source": "zephyr:particle_boron"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/particle_boron/",
+      "source": "circuitpython:particle_boron"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:particle_boron",
+    "list": [
+      {
+        "pin": "P0_02",
+        "names": [
+          "UBLOX_POWER_MONITOR"
+        ]
+      },
+      {
+        "pin": "P0_03",
+        "names": [
+          "A0"
+        ]
+      },
+      {
+        "pin": "P0_04",
+        "names": [
+          "A1"
+        ]
+      },
+      {
+        "pin": "P0_05",
+        "names": [
+          "POWER_INTERRUPT"
+        ]
+      },
+      {
+        "pin": "P0_06",
+        "names": [
+          "D9",
+          "TX"
+        ]
+      },
+      {
+        "pin": "P0_07",
+        "names": [
+          "ANTENNA_SWITCH"
+        ]
+      },
+      {
+        "pin": "P0_08",
+        "names": [
+          "D10",
+          "RX"
+        ]
+      },
+      {
+        "pin": "P0_09",
+        "names": [
+          "NFC1"
+        ]
+      },
+      {
+        "pin": "P0_10",
+        "names": [
+          "NFC2"
+        ]
+      },
+      {
+        "pin": "P0_11",
+        "names": [
+          "MODE"
+        ]
+      },
+      {
+        "pin": "P0_12",
+        "names": [
+          "UBLOX_RESET"
+        ]
+      },
+      {
+        "pin": "P0_13",
+        "names": [
+          "RGB_LED_RED"
+        ]
+      },
+      {
+        "pin": "P0_14",
+        "names": [
+          "RGB_LED_GREEN"
+        ]
+      },
+      {
+        "pin": "P0_15",
+        "names": [
+          "RGB_LED_BLUE"
+        ]
+      },
+      {
+        "pin": "P0_16",
+        "names": [
+          "UBLOX_POWER_ON"
+        ]
+      },
+      {
+        "pin": "P0_24",
+        "names": [
+          "POWER_I2C_SDA"
+        ]
+      },
+      {
+        "pin": "P0_25",
+        "names": [
+          "UBLOX_POWER_ENABLE"
+        ]
+      },
+      {
+        "pin": "P0_26",
+        "names": [
+          "D0",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "P0_27",
+        "names": [
+          "D1",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "P0_28",
+        "names": [
+          "A2"
+        ]
+      },
+      {
+        "pin": "P0_29",
+        "names": [
+          "A3"
+        ]
+      },
+      {
+        "pin": "P0_30",
+        "names": [
+          "A4"
+        ]
+      },
+      {
+        "pin": "P0_31",
+        "names": [
+          "A5"
+        ]
+      },
+      {
+        "pin": "P1_01",
+        "names": [
+          "D2"
+        ]
+      },
+      {
+        "pin": "P1_02",
+        "names": [
+          "D3"
+        ]
+      },
+      {
+        "pin": "P1_03",
+        "names": [
+          "D8"
+        ]
+      },
+      {
+        "pin": "P1_04",
+        "names": [
+          "UBLOX_RX"
+        ]
+      },
+      {
+        "pin": "P1_05",
+        "names": [
+          "UBLOX_TX"
+        ]
+      },
+      {
+        "pin": "P1_06",
+        "names": [
+          "UBLOX_CTS"
+        ]
+      },
+      {
+        "pin": "P1_07",
+        "names": [
+          "UBLOX_RTS"
+        ]
+      },
+      {
+        "pin": "P1_08",
+        "names": [
+          "D4"
+        ]
+      },
+      {
+        "pin": "P1_09",
+        "names": [
+          "POWER_I2C_SCL"
+        ]
+      },
+      {
+        "pin": "P1_10",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "P1_11",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "P1_12",
+        "names": [
+          "D7",
+          "BLUE_LED",
+          "LED"
+        ]
+      },
+      {
+        "pin": "P1_13",
+        "names": [
+          "D12",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "P1_14",
+        "names": [
+          "D11",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "P1_15",
+        "names": [
+          "D13",
+          "SCK"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "platformio:particle_boron",
+      "label": "PlatformIO board definition (particle_boron)",
+      "url": "https://github.com/platformio/platform-nordicnrf52/blob/278176a7f7ffe2d001eb93eafa271c83b38222e4/boards/particle_boron.json",
+      "kind": "import",
+      "revision": "278176a7f7ffe2d001eb93eafa271c83b38222e4"
+    },
+    {
+      "id": "zephyr:particle_boron",
+      "label": "Zephyr board definition (particle_boron)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/particle/boron/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "circuitpython:particle_boron",
+      "label": "CircuitPython board definition (particle_boron)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/particle_boron.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:particle_boron",
+      "label": "CircuitPython pin definitions (particle_boron)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/nordic/boards/particle_boron/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

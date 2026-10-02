@@ -1,0 +1,59 @@
+{
+  "slug": "smart-bee-motion-mini",
+  "name": "Smart Bee Motion Mini",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "smart-bee",
+  "chip": "esp32-c3",
+  "ids": {
+    "platformio": [
+      "bee_motion_mini"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-C3",
+      "source": "platformio:bee_motion_mini"
+    },
+    "clock": {
+      "value": "160 MHz",
+      "source": "platformio:bee_motion_mini"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:bee_motion_mini"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Smart Bee Motion Mini product page",
+      "url": "https://github.com/strid3r21/BeeMotionMini"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/bee_motion_mini.html",
+      "source": "platformio:bee_motion_mini"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/bee_motion_mini.html",
+      "source": "platformio:bee_motion_mini"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:bee_motion_mini",
+      "label": "PlatformIO board definition (bee_motion_mini)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/bee_motion_mini.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

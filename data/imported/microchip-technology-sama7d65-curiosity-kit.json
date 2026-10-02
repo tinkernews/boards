@@ -1,0 +1,40 @@
+{
+  "slug": "microchip-technology-sama7d65-curiosity-kit",
+  "name": "SAMA7D65 Curiosity Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "ids": {
+    "zephyr": [
+      "sama7d65_curiosity"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "SAMA7D65",
+      "source": "zephyr:sama7d65_curiosity"
+    },
+    "ram": {
+      "value": "128 KB",
+      "source": "zephyr:sama7d65_curiosity"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/microchip/sam/sama7d65_curiosity/doc/index.html",
+      "source": "zephyr:sama7d65_curiosity"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:sama7d65_curiosity",
+      "label": "Zephyr board definition (sama7d65_curiosity)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/microchip/sam/sama7d65_curiosity/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

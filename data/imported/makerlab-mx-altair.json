@@ -1,0 +1,52 @@
+{
+  "slug": "makerlab-mx-altair",
+  "name": "Altair",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "makerlab-mx",
+  "ids": {
+    "platformio": [
+      "altair"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATMEGA256RFR2",
+      "source": "platformio:altair"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:altair"
+    },
+    "upload_limits": {
+      "value": "248 KB flash, 32 KB RAM",
+      "source": "platformio:altair"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Altair product page",
+      "url": "http://www.aquila.io/en"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/altair.html",
+      "source": "platformio:altair"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:altair",
+      "label": "PlatformIO board definition (altair)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/altair.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

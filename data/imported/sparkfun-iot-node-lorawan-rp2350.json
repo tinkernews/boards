@@ -1,0 +1,38 @@
+{
+  "slug": "sparkfun-iot-node-lorawan-rp2350",
+  "name": "IoT Node LoRaWAN RP2350",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sparkfun",
+  "chip": "rp2350",
+  "ids": {
+    "micropython": [
+      "SPARKFUN_IOTNODE_LORAWAN_RP2350"
+    ]
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "IoT Node LoRaWAN RP2350 product page",
+      "url": "https://www.sparkfun.com/products/26060"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/SPARKFUN_IOTNODE_LORAWAN_RP2350/",
+      "source": "micropython:sparkfun_iotnode_lorawan_rp2350"
+    }
+  ],
+  "sources": [
+    {
+      "id": "micropython:sparkfun_iotnode_lorawan_rp2350",
+      "label": "MicroPython board definition (SPARKFUN_IOTNODE_LORAWAN_RP2350)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/rp2/boards/SPARKFUN_IOTNODE_LORAWAN_RP2350/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

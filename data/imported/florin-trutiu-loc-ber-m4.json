@@ -1,0 +1,55 @@
+{
+  "slug": "florin-trutiu-loc-ber-m4",
+  "name": "LoC BeR M4",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "florin-trutiu",
+  "chip": "atsamd51j19",
+  "ids": {
+    "circuitpython": [
+      "loc_ber_m4_base_board"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/loc_ber_m4_base_board/",
+      "source": "circuitpython:loc_ber_m4_base_board"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:loc_ber_m4_base_board",
+    "list": [
+      {
+        "pin": "PB02",
+        "names": [
+          "APA102_SCK"
+        ]
+      },
+      {
+        "pin": "PB03",
+        "names": [
+          "APA102_MOSI"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:loc_ber_m4_base_board",
+      "label": "CircuitPython board definition (loc_ber_m4_base_board)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/loc_ber_m4_base_board.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:loc_ber_m4_base_board",
+      "label": "CircuitPython pin definitions (loc_ber_m4_base_board)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/loc_ber_m4_base_board/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "stmicroelectronics-nucleo-8s208rb",
+  "name": "NUCLEO-8S208RB",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "platformio": [
+      "nucleo_8s208rb"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM8S208RBT6",
+      "source": "platformio:nucleo_8s208rb"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:nucleo_8s208rb"
+    },
+    "upload_limits": {
+      "value": "128 KB flash, 6 KB RAM",
+      "source": "platformio:nucleo_8s208rb"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "NUCLEO-8S208RB product page",
+      "url": "https://www.st.com/en/evaluation-tools/nucleo-8s208rb.html"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:nucleo_8s208rb",
+      "label": "PlatformIO board definition (nucleo_8s208rb)",
+      "url": "https://github.com/platformio/platform-ststm8/blob/c6af4c1dde4024905613b08dac13a591894ea79f/boards/nucleo_8s208rb.json",
+      "kind": "import",
+      "revision": "c6af4c1dde4024905613b08dac13a591894ea79f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

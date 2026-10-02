@@ -1,0 +1,242 @@
+{
+  "slug": "elecrow-crowpanel-3-5",
+  "name": "Elecrow CrowPanel 3.5",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "elecrow",
+  "chip": "esp32",
+  "ids": {
+    "circuitpython": [
+      "elecrow_crowpanel_3.5"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/elecrow_crowpanel_3.5/",
+      "source": "circuitpython:elecrow_crowpanel_3.5"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:elecrow_crowpanel_3.5",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "IO0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "IO1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "TFT_DC",
+          "IO2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "IO3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "IO4"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "SD_CS",
+          "IO5"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "IO6"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "IO7"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "IO8"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "IO9"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "IO10"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "IO11"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "TFT_MISO",
+          "TP_CS_ALT",
+          "IO12"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "TFT_MOSI",
+          "IO13"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "TFT_CLK",
+          "IO14"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "TFT_CS",
+          "IO15"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "SCK",
+          "IO18"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "MISO",
+          "IO19"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "SCL",
+          "IO21"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "SDA",
+          "IO22"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "MOSI",
+          "IO23"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "GPIO1",
+          "IO25"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "SPEAK",
+          "IO26"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "TFT_BACKLIGHT",
+          "IO27"
+        ]
+      },
+      {
+        "pin": "GPIO32",
+        "names": [
+          "GPIO2",
+          "IO32"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "TP_CS",
+          "TFT_MISO_ALT",
+          "IO33"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "IO34"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "IO35"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "TP_IRQ",
+          "IO36"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "IO39"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:elecrow_crowpanel_3.5",
+      "label": "CircuitPython board definition (elecrow_crowpanel_3.5)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/elecrow_crowpanel_3.5.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:elecrow_crowpanel_3.5",
+      "label": "CircuitPython pin definitions (elecrow_crowpanel_3.5)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/elecrow_crowpanel_3.5/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

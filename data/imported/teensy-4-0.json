@@ -1,0 +1,137 @@
+{
+  "slug": "teensy-4-0",
+  "name": "Teensy 4.0",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "pjrc",
+  "chip": "imxrt1062",
+  "ids": {
+    "platformio": [
+      "teensy40"
+    ],
+    "zephyr": [
+      "teensy40"
+    ],
+    "circuitpython": [
+      "teensy40"
+    ],
+    "micropython": [
+      "TEENSY40"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "i.MX RT1062",
+      "source": "platformio:teensy40"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M7",
+      "source": "platformio:teensy40"
+    },
+    "clock": {
+      "value": "600 MHz",
+      "source": "platformio:teensy40"
+    },
+    "upload_limits": {
+      "value": "1.94 MB flash, 512 KB RAM",
+      "source": "platformio:teensy40"
+    },
+    "ram": {
+      "value": "768 KB",
+      "source": "zephyr:teensy40"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:teensy40"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Teensy 4.0 product page",
+      "url": "https://www.pjrc.com/store/teensy40.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/teensy/teensy40.html",
+      "source": "platformio:teensy40"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/pjrc/teensy4/doc/index.html",
+      "source": "zephyr:teensy40"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/TEENSY40/",
+      "source": "micropython:teensy40"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/teensy40/",
+      "source": "circuitpython:teensy40"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:teensy40",
+    "list": [
+      {
+        "pin": "USB_OTG2_DN",
+        "names": [
+          "USB_HOST_DM"
+        ]
+      },
+      {
+        "pin": "USB_OTG2_DP",
+        "names": [
+          "USB_HOST_DP"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "platformio:teensy40",
+      "label": "PlatformIO board definition (teensy40)",
+      "url": "https://github.com/platformio/platform-teensy/blob/4adab0aa96d9c2bddf3cfadaf7a9820fcd13dd18/boards/teensy40.json",
+      "kind": "import",
+      "revision": "4adab0aa96d9c2bddf3cfadaf7a9820fcd13dd18"
+    },
+    {
+      "id": "zephyr:teensy40",
+      "label": "Zephyr board definition (teensy40)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/pjrc/teensy4/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "circuitpython:teensy40",
+      "label": "CircuitPython board definition (teensy40)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/teensy40.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "micropython:teensy40",
+      "label": "MicroPython board definition (TEENSY40)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/mimxrt/boards/TEENSY40/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    },
+    {
+      "id": "circuitpython-pins:teensy40",
+      "label": "CircuitPython pin definitions (teensy40)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/mimxrt10xx/boards/teensy40/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

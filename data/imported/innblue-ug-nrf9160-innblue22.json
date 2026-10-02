@@ -1,0 +1,45 @@
+{
+  "slug": "innblue-ug-nrf9160-innblue22",
+  "name": "nRF9160 INNBLUE22",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "innblue-ug",
+  "chip": "nrf9160",
+  "ids": {
+    "zephyr": [
+      "innblue22"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF9160",
+      "source": "zephyr:innblue22"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:innblue22"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:innblue22"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/innblue/innblue22/doc/index.html",
+      "source": "zephyr:innblue22"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:innblue22",
+      "label": "Zephyr board definition (innblue22)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/innblue/innblue22/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

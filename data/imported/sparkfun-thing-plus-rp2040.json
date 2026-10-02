@@ -1,0 +1,222 @@
+{
+  "slug": "sparkfun-thing-plus-rp2040",
+  "name": "Thing Plus - RP2040",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sparkfun",
+  "chip": "rp2040",
+  "ids": {
+    "circuitpython": [
+      "sparkfun_thing_plus_rp2040"
+    ],
+    "micropython": [
+      "SPARKFUN_THINGPLUS"
+    ]
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Thing Plus - RP2040 product page",
+      "url": "https://www.sparkfun.com/products/17745"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/SPARKFUN_THINGPLUS/",
+      "source": "micropython:sparkfun_thingplus"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/sparkfun_thing_plus_rp2040/",
+      "source": "circuitpython:sparkfun_thing_plus_rp2040"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:sparkfun_thing_plus_rp2040",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "D0",
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "D1",
+          "RX"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "D2",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "D3",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "D4",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "D6",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "D7",
+          "D23",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "SD_CS"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "SD_MISO"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "SD_SCK"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "SD_MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "D16"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "D17"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "D18"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "D19"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "D20"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "D21"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "D22"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "LED"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "A0",
+          "D26"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "A1",
+          "D27"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "A2",
+          "D28"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "A3",
+          "D29"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:sparkfun_thing_plus_rp2040",
+      "label": "CircuitPython board definition (sparkfun_thing_plus_rp2040)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/sparkfun_thing_plus_rp2040.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "micropython:sparkfun_thingplus",
+      "label": "MicroPython board definition (SPARKFUN_THINGPLUS)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/rp2/boards/SPARKFUN_THINGPLUS/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    },
+    {
+      "id": "circuitpython-pins:sparkfun_thing_plus_rp2040",
+      "label": "CircuitPython pin definitions (sparkfun_thing_plus_rp2040)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/sparkfun_thing_plus_rp2040/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

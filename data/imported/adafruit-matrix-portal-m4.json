@@ -1,0 +1,94 @@
+{
+  "slug": "adafruit-matrix-portal-m4",
+  "name": "Adafruit Matrix Portal M4",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "atsamd51j19",
+  "aliases": [
+    "MatrixPortal M4"
+  ],
+  "ids": {
+    "platformio": [
+      "adafruit_matrix_portal_m4"
+    ],
+    "circuitpython": [
+      "matrixportal_m4"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAMD51J19",
+      "source": "platformio:adafruit_matrix_portal_m4"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:adafruit_matrix_portal_m4"
+    },
+    "clock": {
+      "value": "120 MHz",
+      "source": "platformio:adafruit_matrix_portal_m4"
+    },
+    "upload_limits": {
+      "value": "496 KB flash, 192 KB RAM",
+      "source": "platformio:adafruit_matrix_portal_m4"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Adafruit Matrix Portal M4 product page",
+      "url": "https://www.adafruit.com/product/4745"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelsam/adafruit_matrix_portal_m4.html",
+      "source": "platformio:adafruit_matrix_portal_m4"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/matrixportal_m4/",
+      "source": "circuitpython:matrixportal_m4"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:matrixportal_m4",
+    "list": [
+      {
+        "pin": "PA27",
+        "names": [
+          "ACCELEROMETER_INTERRUPT"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "platformio:adafruit_matrix_portal_m4",
+      "label": "PlatformIO board definition (adafruit_matrix_portal_m4)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/adafruit_matrix_portal_m4.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    },
+    {
+      "id": "circuitpython:matrixportal_m4",
+      "label": "CircuitPython board definition (matrixportal_m4)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/matrixportal_m4.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:matrixportal_m4",
+      "label": "CircuitPython pin definitions (matrixportal_m4)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/matrixportal_m4/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

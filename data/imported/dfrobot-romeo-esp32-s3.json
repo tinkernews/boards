@@ -1,0 +1,59 @@
+{
+  "slug": "dfrobot-romeo-esp32-s3",
+  "name": "DFRobot Romeo ESP32-S3",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "dfrobot",
+  "chip": "esp32-s3",
+  "ids": {
+    "platformio": [
+      "dfrobot_romeo_esp32s3"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-S3",
+      "source": "platformio:dfrobot_romeo_esp32s3"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:dfrobot_romeo_esp32s3"
+    },
+    "upload_limits": {
+      "value": "16 MB flash, 320 KB RAM",
+      "source": "platformio:dfrobot_romeo_esp32s3"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "DFRobot Romeo ESP32-S3 product page",
+      "url": "https://wiki.dfrobot.com/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/dfrobot_romeo_esp32s3.html",
+      "source": "platformio:dfrobot_romeo_esp32s3"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/dfrobot_romeo_esp32s3.html",
+      "source": "platformio:dfrobot_romeo_esp32s3"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:dfrobot_romeo_esp32s3",
+      "label": "PlatformIO board definition (dfrobot_romeo_esp32s3)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/dfrobot_romeo_esp32s3.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

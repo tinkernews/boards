@@ -1,0 +1,37 @@
+{
+  "slug": "m5stack-papercolor",
+  "name": "PaperColor",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "m5stack",
+  "chip": "esp32-s3",
+  "ids": {
+    "zephyr": [
+      "m5stack_paper_color"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-S3",
+      "source": "zephyr:m5stack_paper_color"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/m5stack/m5stack_paper_color/doc/index.html",
+      "source": "zephyr:m5stack_paper_color"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:m5stack_paper_color",
+      "label": "Zephyr board definition (m5stack_paper_color)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/m5stack/m5stack_paper_color/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "stmicroelectronics-b-l4s5i-iot01a-discovery-kit",
+  "name": "B-L4S5I-IOT01A Discovery kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "zephyr": [
+      "b_l4s5i_iot01a"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32L4S5XX",
+      "source": "zephyr:b_l4s5i_iot01a"
+    },
+    "ram": {
+      "value": "192 KB",
+      "source": "zephyr:b_l4s5i_iot01a"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:b_l4s5i_iot01a"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/b_l4s5i_iot01a/doc/index.html",
+      "source": "zephyr:b_l4s5i_iot01a"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:b_l4s5i_iot01a",
+      "label": "Zephyr board definition (b_l4s5i_iot01a)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/b_l4s5i_iot01a/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

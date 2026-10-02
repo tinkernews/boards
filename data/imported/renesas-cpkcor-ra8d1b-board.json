@@ -1,0 +1,44 @@
+{
+  "slug": "renesas-cpkcor-ra8d1b-board",
+  "name": "CPKCOR RA8D1B board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "renesas",
+  "ids": {
+    "zephyr": [
+      "cpkcor_ra8d1b"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "R7FA8D1BHECBD",
+      "source": "zephyr:cpkcor_ra8d1b"
+    },
+    "ram": {
+      "value": "1024 KB",
+      "source": "zephyr:cpkcor_ra8d1b"
+    },
+    "flash": {
+      "value": "1.97 MB",
+      "source": "zephyr:cpkcor_ra8d1b"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/renesas/cpkcor_ra8d1b/doc/index.html",
+      "source": "zephyr:cpkcor_ra8d1b"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:cpkcor_ra8d1b",
+      "label": "Zephyr board definition (cpkcor_ra8d1b)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/renesas/cpkcor_ra8d1b/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

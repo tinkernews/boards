@@ -1,0 +1,40 @@
+{
+  "slug": "texas-instruments-sk-am62-evaluation-board",
+  "name": "SK-AM62 Evaluation board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "texas-instruments",
+  "ids": {
+    "zephyr": [
+      "sk_am62"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "AM6254",
+      "source": "zephyr:sk_am62"
+    },
+    "ram": {
+      "value": "1024 KB",
+      "source": "zephyr:sk_am62"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/ti/sk_am62/doc/index.html",
+      "source": "zephyr:sk_am62"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:sk_am62",
+      "label": "Zephyr board definition (sk_am62)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/ti/sk_am62/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "infineon-xmc47-relax-kit",
+  "name": "XMC47-RELAX-KIT",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "infineon",
+  "ids": {
+    "zephyr": [
+      "xmc47_relax_kit"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "XMC4700",
+      "source": "zephyr:xmc47_relax_kit"
+    },
+    "ram": {
+      "value": "352 KB",
+      "source": "zephyr:xmc47_relax_kit"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:xmc47_relax_kit"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/infineon/xmc47_relax_kit/doc/index.html",
+      "source": "zephyr:xmc47_relax_kit"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:xmc47_relax_kit",
+      "label": "Zephyr board definition (xmc47_relax_kit)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/infineon/xmc47_relax_kit/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

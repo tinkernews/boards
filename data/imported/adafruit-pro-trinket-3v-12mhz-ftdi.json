@@ -1,0 +1,53 @@
+{
+  "slug": "adafruit-pro-trinket-3v-12mhz-ftdi",
+  "name": "Adafruit Pro Trinket 3V/12MHz (FTDI)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "atmega328p",
+  "ids": {
+    "platformio": [
+      "protrinket3ftdi"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega328P",
+      "source": "platformio:protrinket3ftdi"
+    },
+    "clock": {
+      "value": "12 MHz",
+      "source": "platformio:protrinket3ftdi"
+    },
+    "upload_limits": {
+      "value": "28 KB flash, 2 KB RAM",
+      "source": "platformio:protrinket3ftdi"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Adafruit Pro Trinket 3V/12MHz (FTDI) product page",
+      "url": "http://www.adafruit.com/products/2010"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/protrinket3ftdi.html",
+      "source": "platformio:protrinket3ftdi"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:protrinket3ftdi",
+      "label": "PlatformIO board definition (protrinket3ftdi)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/protrinket3ftdi.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

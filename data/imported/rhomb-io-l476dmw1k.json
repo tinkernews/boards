@@ -1,0 +1,47 @@
+{
+  "slug": "rhomb-io-l476dmw1k",
+  "name": "L476DMW1K",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "rhomb-io",
+  "ids": {
+    "platformio": [
+      "rhombio_l476dmw1k"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32L476VGT6",
+      "source": "platformio:rhombio_l476dmw1k"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:rhombio_l476dmw1k"
+    },
+    "clock": {
+      "value": "80 MHz",
+      "source": "platformio:rhombio_l476dmw1k"
+    },
+    "upload_limits": {
+      "value": "1 MB flash, 128 KB RAM",
+      "source": "platformio:rhombio_l476dmw1k"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "L476DMW1K product page",
+      "url": "https://os.mbed.com/platforms/RHOMBIO-L476DMW1K/"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:rhombio_l476dmw1k",
+      "label": "PlatformIO board definition (rhombio_l476dmw1k)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/rhombio_l476dmw1k.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

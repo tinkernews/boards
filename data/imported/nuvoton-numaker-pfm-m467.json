@@ -1,0 +1,44 @@
+{
+  "slug": "nuvoton-numaker-pfm-m467",
+  "name": "NUMAKER PFM M467",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nuvoton",
+  "ids": {
+    "zephyr": [
+      "numaker_pfm_m467"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "M467",
+      "source": "zephyr:numaker_pfm_m467"
+    },
+    "ram": {
+      "value": "512 KB",
+      "source": "zephyr:numaker_pfm_m467"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:numaker_pfm_m467"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nuvoton/numaker_pfm_m467/doc/index.html",
+      "source": "zephyr:numaker_pfm_m467"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:numaker_pfm_m467",
+      "label": "Zephyr board definition (numaker_pfm_m467)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nuvoton/numaker_pfm_m467/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

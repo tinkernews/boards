@@ -1,0 +1,32 @@
+{
+  "slug": "orangepi-3-lts",
+  "name": "OrangePi 3 LTS",
+  "tier": "imported",
+  "kind": "sbc",
+  "maker": "orange-pi",
+  "released": "2021",
+  "ids": {
+    "armbian": [
+      "orangepi3-lts"
+    ]
+  },
+  "software": [
+    {
+      "platform": "armbian",
+      "status": "supported",
+      "note": "Supported by Armbian.",
+      "url": "https://github.com/armbian/build/blob/main/config/boards/orangepi3-lts.conf",
+      "source": "armbian:orangepi3-lts"
+    }
+  ],
+  "sources": [
+    {
+      "id": "armbian:orangepi3-lts",
+      "label": "Armbian board configuration (orangepi3-lts)",
+      "url": "https://github.com/armbian/build/blob/da85daa05bd260d04dac50315d7317207fd998b3/config/boards/orangepi3-lts.conf",
+      "kind": "import",
+      "revision": "da85daa05bd260d04dac50315d7317207fd998b3"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

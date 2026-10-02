@@ -1,0 +1,199 @@
+{
+  "slug": "radomir-dopieralski-game-s3",
+  "name": "µGame S3",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "radomir-dopieralski",
+  "chip": "esp32-s3",
+  "ids": {
+    "circuitpython": [
+      "deshipu_ugame_s3"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/deshipu_ugame_s3/",
+      "source": "circuitpython:deshipu_ugame_s3"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:deshipu_ugame_s3",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "BUTTON_X"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "BUTTON_LEFT"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "BUTTON_UP"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "P3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "P4"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "P5"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "P6"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "P7"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "BATTERY"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "TFT_DC"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "TFT_CS"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "TFT_MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "TFT_SCK"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "TFT_RESET"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "LIGHT"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "AUDIO_BCLK"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "AUDIO_LRCLK"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "AUDIO_DATA"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "AUDIO_GAIN"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "TFT_BACKLIGHT"
+        ]
+      },
+      {
+        "pin": "GPIO41",
+        "names": [
+          "BUTTON_DOWN"
+        ]
+      },
+      {
+        "pin": "GPIO42",
+        "names": [
+          "BUTTON_RIGHT"
+        ]
+      },
+      {
+        "pin": "GPIO43",
+        "names": [
+          "P1"
+        ]
+      },
+      {
+        "pin": "GPIO44",
+        "names": [
+          "P2"
+        ]
+      },
+      {
+        "pin": "GPIO47",
+        "names": [
+          "BUTTON_Z"
+        ]
+      },
+      {
+        "pin": "GPIO48",
+        "names": [
+          "BUTTON_O"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:deshipu_ugame_s3",
+      "label": "CircuitPython board definition (deshipu_ugame_s3)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/deshipu_ugame_s3.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:deshipu_ugame_s3",
+      "label": "CircuitPython pin definitions (deshipu_ugame_s3)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/deshipu_ugame_s3/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

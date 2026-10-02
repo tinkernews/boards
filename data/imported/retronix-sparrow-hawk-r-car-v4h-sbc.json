@@ -1,0 +1,36 @@
+{
+  "slug": "retronix-sparrow-hawk-r-car-v4h-sbc",
+  "name": "Sparrow Hawk R-Car V4H SBC",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "retronix",
+  "ids": {
+    "zephyr": [
+      "sparrowhawk_rcar_v4h"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "R8A779G0",
+      "source": "zephyr:sparrowhawk_rcar_v4h"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/retronix/sparrowhawk_rcar_v4h/doc/index.html",
+      "source": "zephyr:sparrowhawk_rcar_v4h"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:sparrowhawk_rcar_v4h",
+      "label": "Zephyr board definition (sparrowhawk_rcar_v4h)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/retronix/sparrowhawk_rcar_v4h/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

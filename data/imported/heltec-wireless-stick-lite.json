@@ -1,0 +1,78 @@
+{
+  "slug": "heltec-wireless-stick-lite",
+  "name": "Heltec Wireless Stick Lite",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "heltec",
+  "chip": "esp32",
+  "aliases": [
+    "Wireless Stick Lite (V3)"
+  ],
+  "ids": {
+    "platformio": [
+      "heltec_wireless_stick_lite"
+    ],
+    "zephyr": [
+      "heltec_wireless_stick_lite_v3"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:heltec_wireless_stick_lite"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:heltec_wireless_stick_lite"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:heltec_wireless_stick_lite"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Heltec Wireless Stick Lite product page",
+      "url": "https://heltec.org/project/wireless-stick-lite/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/heltec_wireless_stick_lite.html",
+      "source": "platformio:heltec_wireless_stick_lite"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/heltec_wireless_stick_lite.html",
+      "source": "platformio:heltec_wireless_stick_lite"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/heltec/heltec_wireless_stick_lite_v3/doc/index.html",
+      "source": "zephyr:heltec_wireless_stick_lite_v3"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:heltec_wireless_stick_lite",
+      "label": "PlatformIO board definition (heltec_wireless_stick_lite)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/heltec_wireless_stick_lite.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    },
+    {
+      "id": "zephyr:heltec_wireless_stick_lite_v3",
+      "label": "Zephyr board definition (heltec_wireless_stick_lite_v3)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/heltec/heltec_wireless_stick_lite_v3/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "adafruit-itsybitsy-3v-8mhz",
+  "name": "Adafruit ItsyBitsy 3V/8MHz",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "atmega32u4",
+  "ids": {
+    "platformio": [
+      "itsybitsy32u4_3V"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega32U4",
+      "source": "platformio:itsybitsy32u4_3v"
+    },
+    "clock": {
+      "value": "8 MHz",
+      "source": "platformio:itsybitsy32u4_3v"
+    },
+    "upload_limits": {
+      "value": "28 KB flash, 2.5 KB RAM",
+      "source": "platformio:itsybitsy32u4_3v"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Adafruit ItsyBitsy 3V/8MHz product page",
+      "url": "https://www.adafruit.com/product/3675"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/itsybitsy32u4_3V.html",
+      "source": "platformio:itsybitsy32u4_3v"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:itsybitsy32u4_3v",
+      "label": "PlatformIO board definition (itsybitsy32u4_3V)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/itsybitsy32u4_3V.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "teensy-2-0",
+  "name": "Teensy 2.0",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "pjrc",
+  "chip": "atmega32u4",
+  "ids": {
+    "platformio": [
+      "teensy2",
+      "teensy2pp"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega32U4",
+      "source": "platformio:teensy2"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:teensy2"
+    },
+    "upload_limits": {
+      "value": "31.5 KB flash, 2.5 KB RAM",
+      "source": "platformio:teensy2"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Teensy 2.0 product page",
+      "url": "https://www.pjrc.com/store/teensy.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/teensy/teensy2.html",
+      "source": "platformio:teensy2"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:teensy2",
+      "label": "PlatformIO board definition (teensy2)",
+      "url": "https://github.com/platformio/platform-teensy/blob/4adab0aa96d9c2bddf3cfadaf7a9820fcd13dd18/boards/teensy2.json",
+      "kind": "import",
+      "revision": "4adab0aa96d9c2bddf3cfadaf7a9820fcd13dd18"
+    },
+    {
+      "id": "platformio:teensy2pp",
+      "label": "PlatformIO board definition (teensy2pp)",
+      "url": "https://github.com/platformio/platform-teensy/blob/4adab0aa96d9c2bddf3cfadaf7a9820fcd13dd18/boards/teensy2pp.json",
+      "kind": "import",
+      "revision": "4adab0aa96d9c2bddf3cfadaf7a9820fcd13dd18"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

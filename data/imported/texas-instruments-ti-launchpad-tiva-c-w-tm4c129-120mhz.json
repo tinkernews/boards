@@ -1,0 +1,56 @@
+{
+  "slug": "texas-instruments-ti-launchpad-tiva-c-w-tm4c129-120mhz",
+  "name": "TI LaunchPad (Tiva C) w/ tm4c129 (120MHz)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "texas-instruments",
+  "ids": {
+    "platformio": [
+      "lptm4c1294ncpdt"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "LPTM4C1294NCPDT",
+      "source": "platformio:lptm4c1294ncpdt"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:lptm4c1294ncpdt"
+    },
+    "clock": {
+      "value": "120 MHz",
+      "source": "platformio:lptm4c1294ncpdt"
+    },
+    "upload_limits": {
+      "value": "1 MB flash, 256 KB RAM",
+      "source": "platformio:lptm4c1294ncpdt"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "TI LaunchPad (Tiva C) w/ tm4c129 (120MHz) product page",
+      "url": "http://www.ti.com/ww/en/launchpad/launchpads-connected-ek-tm4c1294xl.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/titiva/lptm4c1294ncpdt.html",
+      "source": "platformio:lptm4c1294ncpdt"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:lptm4c1294ncpdt",
+      "label": "PlatformIO board definition (lptm4c1294ncpdt)",
+      "url": "https://github.com/platformio/platform-titiva/blob/c9aed53f74280d4dbc7907f837dc65823be57592/boards/lptm4c1294ncpdt.json",
+      "kind": "import",
+      "revision": "c9aed53f74280d4dbc7907f837dc65823be57592"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

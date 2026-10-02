@@ -1,0 +1,43 @@
+{
+  "slug": "atmel-at90pwm316",
+  "name": "Atmel AT90PWM316",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "ids": {
+    "platformio": [
+      "at90pwm316"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "AT90PWM316",
+      "source": "platformio:at90pwm316"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:at90pwm316"
+    },
+    "upload_limits": {
+      "value": "16 KB flash, 1 KB RAM",
+      "source": "platformio:at90pwm316"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Atmel AT90PWM316 product page",
+      "url": "http://www.microchip.com/wwwproducts/en/AT90PWM316"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:at90pwm316",
+      "label": "PlatformIO board definition (at90pwm316)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/at90pwm316.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

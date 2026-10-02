@@ -1,0 +1,45 @@
+{
+  "slug": "shenzhen-feikaite-swiftio-feather",
+  "name": "SwiftIO Feather",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "shenzhen-feikaite",
+  "chip": "imxrt1062",
+  "ids": {
+    "zephyr": [
+      "mm_feather"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "i.MX RT1062",
+      "source": "zephyr:mm_feather"
+    },
+    "ram": {
+      "value": "32768 KB",
+      "source": "zephyr:mm_feather"
+    },
+    "flash": {
+      "value": "8 MB",
+      "source": "zephyr:mm_feather"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/madmachine/mm_feather/doc/index.html",
+      "source": "zephyr:mm_feather"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:mm_feather",
+      "label": "Zephyr board definition (mm_feather)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/madmachine/mm_feather/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

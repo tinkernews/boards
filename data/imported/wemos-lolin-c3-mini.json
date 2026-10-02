@@ -1,0 +1,214 @@
+{
+  "slug": "wemos-lolin-c3-mini",
+  "name": "WEMOS LOLIN C3 Mini",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "wemos",
+  "chip": "esp32-c3",
+  "aliases": [
+    "LOLIN C3 Mini",
+    "C3 mini"
+  ],
+  "ids": {
+    "platformio": [
+      "lolin_c3_mini"
+    ],
+    "circuitpython": [
+      "lolin_c3_mini"
+    ],
+    "micropython": [
+      "LOLIN_C3_MINI"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-C3",
+      "source": "platformio:lolin_c3_mini"
+    },
+    "clock": {
+      "value": "160 MHz",
+      "source": "platformio:lolin_c3_mini"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:lolin_c3_mini"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "WEMOS LOLIN C3 Mini product page",
+      "url": "https://www.wemos.cc/en/latest/c3/c3_mini.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/lolin_c3_mini.html",
+      "source": "platformio:lolin_c3_mini"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/lolin_c3_mini.html",
+      "source": "platformio:lolin_c3_mini"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/LOLIN_C3_MINI/",
+      "source": "micropython:lolin_c3_mini"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/lolin_c3_mini/",
+      "source": "circuitpython:lolin_c3_mini"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:lolin_c3_mini",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "IO0",
+          "A0",
+          "D0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "IO1",
+          "A1",
+          "D1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "IO2",
+          "A2",
+          "D2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "IO3",
+          "A3",
+          "D3",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "IO4",
+          "A4",
+          "D4",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "IO5",
+          "A5",
+          "D5",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "IO6",
+          "D6",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "IO7",
+          "D7",
+          "LED",
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "IO8",
+          "D8"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "IO9",
+          "BOOT0",
+          "BUTTON"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "IO10",
+          "D10",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "IO20",
+          "A7",
+          "RX"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "IO21",
+          "A6",
+          "TX"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "platformio:lolin_c3_mini",
+      "label": "PlatformIO board definition (lolin_c3_mini)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/lolin_c3_mini.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    },
+    {
+      "id": "circuitpython:lolin_c3_mini",
+      "label": "CircuitPython board definition (lolin_c3_mini)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/lolin_c3_mini.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "micropython:lolin_c3_mini",
+      "label": "MicroPython board definition (LOLIN_C3_MINI)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/esp32/boards/LOLIN_C3_MINI/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    },
+    {
+      "id": "circuitpython-pins:lolin_c3_mini",
+      "label": "CircuitPython pin definitions (lolin_c3_mini)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/lolin_c3_mini/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

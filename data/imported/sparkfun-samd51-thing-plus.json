@@ -1,0 +1,238 @@
+{
+  "slug": "sparkfun-samd51-thing-plus",
+  "name": "SparkFun SAMD51 Thing Plus",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sparkfun",
+  "chip": "atsamd51j20",
+  "aliases": [
+    "SAMD51 Thing Plus"
+  ],
+  "ids": {
+    "platformio": [
+      "sparkfun_samd51_thing_plus"
+    ],
+    "circuitpython": [
+      "sparkfun_samd51_thing_plus"
+    ],
+    "micropython": [
+      "SPARKFUN_SAMD51_THING_PLUS"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAMD51J20",
+      "source": "platformio:sparkfun_samd51_thing_plus"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:sparkfun_samd51_thing_plus"
+    },
+    "clock": {
+      "value": "120 MHz",
+      "source": "platformio:sparkfun_samd51_thing_plus"
+    },
+    "upload_limits": {
+      "value": "496 KB flash, 192 KB RAM",
+      "source": "platformio:sparkfun_samd51_thing_plus"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "SparkFun SAMD51 Thing Plus product page",
+      "url": "https://www.sparkfun.com/products/14713"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelsam/sparkfun_samd51_thing_plus.html",
+      "source": "platformio:sparkfun_samd51_thing_plus"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/SPARKFUN_SAMD51_THING_PLUS/",
+      "source": "micropython:sparkfun_samd51_thing_plus"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/sparkfun_samd51_thing_plus/",
+      "source": "circuitpython:sparkfun_samd51_thing_plus"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:sparkfun_samd51_thing_plus",
+    "list": [
+      {
+        "pin": "PA02",
+        "names": [
+          "A0"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "A3"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "A4"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "D4"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "D9"
+        ]
+      },
+      {
+        "pin": "PA12",
+        "names": [
+          "TX",
+          "D1"
+        ]
+      },
+      {
+        "pin": "PA13",
+        "names": [
+          "RX",
+          "D0"
+        ]
+      },
+      {
+        "pin": "PA15",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "PA16",
+        "names": [
+          "D11"
+        ]
+      },
+      {
+        "pin": "PA17",
+        "names": [
+          "D13",
+          "LED"
+        ]
+      },
+      {
+        "pin": "PA18",
+        "names": [
+          "D10"
+        ]
+      },
+      {
+        "pin": "PA19",
+        "names": [
+          "D12"
+        ]
+      },
+      {
+        "pin": "PA20",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "PA22",
+        "names": [
+          "SDA",
+          "D20"
+        ]
+      },
+      {
+        "pin": "PA23",
+        "names": [
+          "SCL",
+          "D21"
+        ]
+      },
+      {
+        "pin": "PB02",
+        "names": [
+          "A5"
+        ]
+      },
+      {
+        "pin": "PB08",
+        "names": [
+          "A1"
+        ]
+      },
+      {
+        "pin": "PB09",
+        "names": [
+          "A2"
+        ]
+      },
+      {
+        "pin": "PB11",
+        "names": [
+          "MISO",
+          "D22"
+        ]
+      },
+      {
+        "pin": "PB12",
+        "names": [
+          "MOSI",
+          "D23"
+        ]
+      },
+      {
+        "pin": "PB13",
+        "names": [
+          "SCK",
+          "D24"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "platformio:sparkfun_samd51_thing_plus",
+      "label": "PlatformIO board definition (sparkfun_samd51_thing_plus)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/sparkfun_samd51_thing_plus.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    },
+    {
+      "id": "circuitpython:sparkfun_samd51_thing_plus",
+      "label": "CircuitPython board definition (sparkfun_samd51_thing_plus)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/sparkfun_samd51_thing_plus.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "micropython:sparkfun_samd51_thing_plus",
+      "label": "MicroPython board definition (SPARKFUN_SAMD51_THING_PLUS)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/samd/boards/SPARKFUN_SAMD51_THING_PLUS/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    },
+    {
+      "id": "circuitpython-pins:sparkfun_samd51_thing_plus",
+      "label": "CircuitPython pin definitions (sparkfun_samd51_thing_plus)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/sparkfun_samd51_thing_plus/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,219 @@
+{
+  "slug": "raspberry-pi-zero",
+  "name": "Raspberry Pi Zero",
+  "tier": "curated",
+  "kind": "sbc",
+  "maker": "raspberry-pi",
+  "family": "Raspberry Pi",
+  "chip": "bcm2835",
+  "released": "2015-11",
+  "status": "current",
+  "summary": "The $5 Raspberry Pi: a BCM2835 at 1 GHz with 512 MB of RAM on a 65 × 30 mm board.",
+  "aliases": [
+    "Raspberry Pi Zero",
+    "Pi Zero",
+    "RPi Zero"
+  ],
+  "ids": {
+    "linux": [
+      "arch/arm/boot/dts/broadcom/bcm2835-rpi-zero.dts"
+    ]
+  },
+  "review": {
+    "status": "draft"
+  },
+  "successor": "raspberry-pi-zero-w",
+  "specs": {
+    "storage": {
+      "value": "microSD card",
+      "source": "rpi-docs-source"
+    },
+    "io_voltage": {
+      "value": "3.3 V",
+      "source": "rpi-gpio"
+    },
+    "input_voltage": {
+      "value": "5 V via micro-USB",
+      "source": "rpi-docs-source"
+    },
+    "usb": {
+      "value": "1 × micro-USB OTG (plus a micro-USB power port)",
+      "source": "rpi-docs-source"
+    },
+    "video": {
+      "value": "Mini HDMI",
+      "source": "rpi-docs-source"
+    },
+    "dimensions": {
+      "value": "65 × 30 mm",
+      "source": "wikipedia"
+    },
+    "chip": {
+      "value": "Broadcom BCM2835",
+      "source": "rpi-docs-source"
+    },
+    "cpu": {
+      "value": "Arm1176JZF-S (ARMv6), single core",
+      "source": "rpi-processors"
+    },
+    "clock": {
+      "value": "1 GHz",
+      "source": "zero-launch"
+    },
+    "ram": {
+      "value": "512 MB",
+      "source": "rpi-docs-source"
+    },
+    "gpio": {
+      "value": "40-pin header, unpopulated",
+      "source": "rpi-docs-source"
+    },
+    "expansion": {
+      "value": "CSI camera connector from version 1.3",
+      "source": "rpi-docs-source"
+    },
+    "launch_price": {
+      "value": "US$5",
+      "source": "zero-launch"
+    }
+  },
+  "revisions": [
+    {
+      "name": "Version 1.2",
+      "released": "2015-11",
+      "changes": "Launch version, no camera connector.",
+      "source": "rpi-docs-source"
+    },
+    {
+      "name": "Version 1.3",
+      "released": "2016-05",
+      "changes": "Added the 22-pin CSI camera connector.",
+      "source": "rpi-docs-source"
+    }
+  ],
+  "docs": [
+    {
+      "kind": "guide",
+      "label": "Raspberry Pi hardware documentation",
+      "url": "https://www.raspberrypi.com/documentation/computers/raspberry-pi.html"
+    },
+    {
+      "kind": "schematic",
+      "label": "Raspberry Pi Zero reduced schematics",
+      "url": "https://datasheets.raspberrypi.com/rpizero/raspberry-pi-zero-reduced-schematics.pdf"
+    }
+  ],
+  "software": [
+    {
+      "platform": "raspberry-pi-os",
+      "status": "supported",
+      "note": "32-bit image; the 64-bit image needs a 64-bit model such as the Pi 3 or later.",
+      "url": "https://www.raspberrypi.com/software/operating-systems/",
+      "source": "rpi-software"
+    }
+  ],
+  "pinout": {
+    "layout": "raspberry-pi-40-pin",
+    "source": "rpi-gpio",
+    "note": "Header unpopulated: solder pins or buy the WH/with-headers version"
+  },
+  "gotchas": [
+    {
+      "title": "Mini HDMI and micro-USB OTG",
+      "text": "You need a mini-HDMI adapter and a USB OTG adapter (or hub) to connect a screen and a keyboard.",
+      "source": "rpi-docs-source"
+    },
+    {
+      "title": "3.3 V only",
+      "text": "The GPIO pins are 3.3 V. Do not connect 5 V signals or components to them.",
+      "source": "rpi-gpio"
+    },
+    {
+      "title": "Little current per pin",
+      "text": "Each GPIO pin can supply up to about 16 mA and all pins together about 50 mA; drive motors and other loads through a transistor or driver board.",
+      "source": "rpi-power"
+    }
+  ],
+  "power": {
+    "rows": [
+      {
+        "label": "Recommended supply",
+        "value": "1.2 A",
+        "source": "rpi-power"
+      },
+      {
+        "label": "USB peripheral budget",
+        "value": "Limited only by the supply, board and connector ratings",
+        "source": "rpi-power"
+      },
+      {
+        "label": "Typical bare-board draw",
+        "value": "100 mA",
+        "source": "rpi-power"
+      }
+    ]
+  },
+  "commonsFile": "File:Raspberry-Pi-Zero-FL.jpg",
+  "editorial": {
+    "history": "Given away on the cover of The MagPi magazine on launch day in November 2015, the Zero shrank a full Linux computer to 65 × 30 mm at $5.",
+    "today": "Excellent for low-power, single-purpose builds; for anything networked, the Zero W or Zero 2 W saves a USB adapter.",
+    "source": "zero-launch"
+  },
+  "sources": [
+    {
+      "id": "rpi-docs",
+      "label": "Raspberry Pi hardware, Raspberry Pi documentation",
+      "url": "https://www.raspberrypi.com/documentation/computers/raspberry-pi.html",
+      "kind": "official"
+    },
+    {
+      "id": "rpi-docs-source",
+      "label": "Raspberry Pi hardware introduction (documentation source)",
+      "url": "https://github.com/raspberrypi/documentation/blob/master/documentation/asciidoc/computers/raspberry-pi/introduction.adoc",
+      "kind": "official"
+    },
+    {
+      "id": "rpi-processors",
+      "label": "Processors, Raspberry Pi documentation",
+      "url": "https://www.raspberrypi.com/documentation/computers/processors.html",
+      "kind": "official"
+    },
+    {
+      "id": "rpi-gpio",
+      "label": "GPIO and the 40-pin header, Raspberry Pi documentation (source)",
+      "url": "https://github.com/raspberrypi/documentation/blob/master/documentation/asciidoc/computers/raspberry-pi/gpio-on-raspberry-pi.adoc",
+      "kind": "official"
+    },
+    {
+      "id": "rpi-power",
+      "label": "Power supplies, Raspberry Pi documentation (source)",
+      "url": "https://github.com/raspberrypi/documentation/blob/master/documentation/asciidoc/computers/raspberry-pi/power-supplies.adoc",
+      "kind": "official"
+    },
+    {
+      "id": "rpi-os",
+      "label": "Raspberry Pi OS, Raspberry Pi documentation",
+      "url": "https://www.raspberrypi.com/documentation/computers/os.html",
+      "kind": "official"
+    },
+    {
+      "id": "zero-launch",
+      "label": "Raspberry Pi Zero: the $5 computer, Raspberry Pi news",
+      "url": "https://www.raspberrypi.com/news/raspberry-pi-zero/",
+      "kind": "official"
+    },
+    {
+      "id": "wikipedia",
+      "label": "Raspberry Pi, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Raspberry_Pi",
+      "kind": "reference"
+    },
+    {
+      "id": "rpi-software",
+      "label": "Raspberry Pi OS downloads, Raspberry Pi",
+      "url": "https://www.raspberrypi.com/software/operating-systems/",
+      "kind": "official"
+    }
+  ],
+  "updatedAt": "2026-10-01T00:00:00.000Z"
+}

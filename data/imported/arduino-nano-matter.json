@@ -1,0 +1,44 @@
+{
+  "slug": "arduino-nano-matter",
+  "name": "Arduino Nano Matter",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "ids": {
+    "zephyr": [
+      "arduino_nano_matter"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MGM240SD22VNA",
+      "source": "zephyr:arduino_nano_matter"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:arduino_nano_matter"
+    },
+    "flash": {
+      "value": "1.5 MB",
+      "source": "zephyr:arduino_nano_matter"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/arduino/nano_matter/doc/index.html",
+      "source": "zephyr:arduino_nano_matter"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:arduino_nano_matter",
+      "label": "Zephyr board definition (arduino_nano_matter)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/arduino/nano_matter/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

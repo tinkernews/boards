@@ -1,0 +1,59 @@
+{
+  "slug": "vintlabs-esp32-devkit",
+  "name": "VintLabs ESP32 Devkit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "vintlabs",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "vintlabs-devkit-v1"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:vintlabs-devkit-v1"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:vintlabs-devkit-v1"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:vintlabs-devkit-v1"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "VintLabs ESP32 Devkit product page",
+      "url": "https://www.vintlabs.com/product/vintlabs-esp32-wroom32-iot-8x2a-pwm-driver-development-kit-4mb-flash-wifi-bluetooth/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/vintlabs-devkit-v1.html",
+      "source": "platformio:vintlabs-devkit-v1"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/vintlabs-devkit-v1.html",
+      "source": "platformio:vintlabs-devkit-v1"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:vintlabs-devkit-v1",
+      "label": "PlatformIO board definition (vintlabs-devkit-v1)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/vintlabs-devkit-v1.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

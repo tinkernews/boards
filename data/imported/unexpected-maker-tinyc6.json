@@ -1,0 +1,233 @@
+{
+  "slug": "unexpected-maker-tinyc6",
+  "name": "Unexpected Maker TinyC6",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "unexpected-maker",
+  "chip": "esp32-c6",
+  "aliases": [
+    "TinyC6"
+  ],
+  "ids": {
+    "circuitpython": [
+      "unexpectedmaker_tinyc6"
+    ],
+    "micropython": [
+      "UM_TINYC6"
+    ]
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Unexpected Maker TinyC6 product page",
+      "url": "https://tinyc6.io"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/UM_TINYC6/",
+      "source": "micropython:um_tinyc6"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/unexpectedmaker_tinyc6/",
+      "source": "circuitpython:unexpectedmaker_tinyc6"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:unexpectedmaker_tinyc6",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "IO0",
+          "A0",
+          "D0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "IO1",
+          "A1",
+          "D1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "IO2",
+          "A2",
+          "D2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "IO3",
+          "A3",
+          "D3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "BATTERY",
+          "VBAT",
+          "VBAT_SENSE",
+          "VOLTAGE_MONITOR"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "IO5",
+          "A5",
+          "D5"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "IO6",
+          "A6",
+          "D6",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "IO7",
+          "D7",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "IO8",
+          "D8"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "IO9",
+          "D9"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "VBUS",
+          "VBUS_SENSE"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "IO11",
+          "D11"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "IO15",
+          "D15"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "IO16",
+          "D16",
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "IO17",
+          "D17",
+          "RX"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "IO18",
+          "D18"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "IO19",
+          "D19",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "IO20",
+          "D20",
+          "MISO",
+          "MI",
+          "SDI"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "IO21",
+          "D21",
+          "MOSI",
+          "MO",
+          "SDO"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "NEOPIXEL_POWER"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "NEOPIXEL"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:unexpectedmaker_tinyc6",
+      "label": "CircuitPython board definition (unexpectedmaker_tinyc6)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/unexpectedmaker_tinyc6.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "micropython:um_tinyc6",
+      "label": "MicroPython board definition (UM_TINYC6)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/esp32/boards/UM_TINYC6/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    },
+    {
+      "id": "circuitpython-pins:unexpectedmaker_tinyc6",
+      "label": "CircuitPython pin definitions (unexpectedmaker_tinyc6)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/unexpectedmaker_tinyc6/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

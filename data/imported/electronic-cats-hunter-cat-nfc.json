@@ -1,0 +1,146 @@
+{
+  "slug": "electronic-cats-hunter-cat-nfc",
+  "name": "Hunter Cat NFC",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "electronic-cats",
+  "chip": "atsamd21g18",
+  "ids": {
+    "circuitpython": [
+      "huntercat_nfc"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/huntercat_nfc/",
+      "source": "circuitpython:huntercat_nfc"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:huntercat_nfc",
+    "list": [
+      {
+        "pin": "PA00",
+        "names": [
+          "D0",
+          "LED"
+        ]
+      },
+      {
+        "pin": "PA01",
+        "names": [
+          "D1"
+        ]
+      },
+      {
+        "pin": "PA02",
+        "names": [
+          "D2"
+        ]
+      },
+      {
+        "pin": "PA03",
+        "names": [
+          "A0",
+          "D3"
+        ]
+      },
+      {
+        "pin": "PA08",
+        "names": [
+          "D8",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PA09",
+        "names": [
+          "D9",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "D10"
+        ]
+      },
+      {
+        "pin": "PA11",
+        "names": [
+          "D11"
+        ]
+      },
+      {
+        "pin": "PA14",
+        "names": [
+          "D14"
+        ]
+      },
+      {
+        "pin": "PA15",
+        "names": [
+          "D15"
+        ]
+      },
+      {
+        "pin": "PA16",
+        "names": [
+          "D16"
+        ]
+      },
+      {
+        "pin": "PA17",
+        "names": [
+          "D17"
+        ]
+      },
+      {
+        "pin": "PA18",
+        "names": [
+          "D18",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "PA19",
+        "names": [
+          "D19",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "PA22",
+        "names": [
+          "D22",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "PA27",
+        "names": [
+          "D27"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:huntercat_nfc",
+      "label": "CircuitPython board definition (huntercat_nfc)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/huntercat_nfc.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:huntercat_nfc",
+      "label": "CircuitPython pin definitions (huntercat_nfc)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/huntercat_nfc/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

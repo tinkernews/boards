@@ -1,0 +1,38 @@
+{
+  "slug": "pololu-zumo-2040-robot",
+  "name": "Zumo 2040 Robot",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "pololu",
+  "chip": "rp2040",
+  "ids": {
+    "micropython": [
+      "POLOLU_ZUMO_2040_ROBOT"
+    ]
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Zumo 2040 Robot product page",
+      "url": "https://www.pololu.com/zumo"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/POLOLU_ZUMO_2040_ROBOT/",
+      "source": "micropython:pololu_zumo_2040_robot"
+    }
+  ],
+  "sources": [
+    {
+      "id": "micropython:pololu_zumo_2040_robot",
+      "label": "MicroPython board definition (POLOLU_ZUMO_2040_ROBOT)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/rp2/boards/POLOLU_ZUMO_2040_ROBOT/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

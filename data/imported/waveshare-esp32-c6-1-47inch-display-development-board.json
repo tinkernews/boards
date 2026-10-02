@@ -1,0 +1,177 @@
+{
+  "slug": "waveshare-esp32-c6-1-47inch-display-development-board",
+  "name": "ESP32-C6 1.47inch Display Development Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "waveshare",
+  "chip": "esp32-c6",
+  "ids": {
+    "circuitpython": [
+      "waveshare_esp32_c6_lcd_1_47"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/waveshare_esp32_c6_lcd_1_47/",
+      "source": "circuitpython:waveshare_esp32_c6_lcd_1_47"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:waveshare_esp32_c6_lcd_1_47",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "A0",
+          "IO0",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "A1",
+          "IO1",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "A2",
+          "IO2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "A3",
+          "IO3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "A4",
+          "IO4",
+          "SD_CS"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "A5",
+          "IO5",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "IO6"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "IO7"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "IO8",
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "BUTTON",
+          "IO9"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "TFT_CS"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "TFT_DC"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "TX",
+          "IO16"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "RX",
+          "IO17"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "IO18"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "IO19"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "IO20"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "TFT_RESET"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "TFT_BACKLIGHT"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "IO23"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:waveshare_esp32_c6_lcd_1_47",
+      "label": "CircuitPython board definition (waveshare_esp32_c6_lcd_1_47)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/waveshare_esp32_c6_lcd_1_47.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:waveshare_esp32_c6_lcd_1_47",
+      "label": "CircuitPython pin definitions (waveshare_esp32_c6_lcd_1_47)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/waveshare_esp32_c6_lcd_1_47/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

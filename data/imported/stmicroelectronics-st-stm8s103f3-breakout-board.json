@@ -1,0 +1,52 @@
+{
+  "slug": "stmicroelectronics-st-stm8s103f3-breakout-board",
+  "name": "ST STM8S103F3 Breakout Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "platformio": [
+      "stm8sblue"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM8S103F3P6",
+      "source": "platformio:stm8sblue"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:stm8sblue"
+    },
+    "upload_limits": {
+      "value": "8 KB flash, 1 KB RAM",
+      "source": "platformio:stm8sblue"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ST STM8S103F3 Breakout Board product page",
+      "url": "https://tenbaht.github.io/sduino/hardware/stm8blue/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm8/stm8sblue.html",
+      "source": "platformio:stm8sblue"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:stm8sblue",
+      "label": "PlatformIO board definition (stm8sblue)",
+      "url": "https://github.com/platformio/platform-ststm8/blob/c6af4c1dde4024905613b08dac13a591894ea79f/boards/stm8sblue.json",
+      "kind": "import",
+      "revision": "c6af4c1dde4024905613b08dac13a591894ea79f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "malyan-m200-v2",
+  "name": "M200 V2",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "malyan",
+  "ids": {
+    "platformio": [
+      "malyanm200_f070cb",
+      "malyanm200_f103cb"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F070CBT6",
+      "source": "platformio:malyanm200_f070cb"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0",
+      "source": "platformio:malyanm200_f070cb"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:malyanm200_f070cb"
+    },
+    "upload_limits": {
+      "value": "120 KB flash, 14.81 KB RAM",
+      "source": "platformio:malyanm200_f070cb"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "M200 V2 product page",
+      "url": "http://malyansys.com/en/product/fdm-series/m200-v2/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/malyanm200_f070cb.html",
+      "source": "platformio:malyanm200_f070cb"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:malyanm200_f070cb",
+      "label": "PlatformIO board definition (malyanm200_f070cb)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/malyanm200_f070cb.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    },
+    {
+      "id": "platformio:malyanm200_f103cb",
+      "label": "PlatformIO board definition (malyanm200_f103cb)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/malyanm200_f103cb.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

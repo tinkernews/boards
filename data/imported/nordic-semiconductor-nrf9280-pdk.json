@@ -1,0 +1,44 @@
+{
+  "slug": "nordic-semiconductor-nrf9280-pdk",
+  "name": "nRF9280 PDK",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nordic-semiconductor",
+  "ids": {
+    "zephyr": [
+      "nrf9280pdk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "NRF9280",
+      "source": "zephyr:nrf9280pdk"
+    },
+    "ram": {
+      "value": "512 KB",
+      "source": "zephyr:nrf9280pdk"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:nrf9280pdk"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nordic/nrf9280pdk/doc/index.html",
+      "source": "zephyr:nrf9280pdk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:nrf9280pdk",
+      "label": "Zephyr board definition (nrf9280pdk)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nordic/nrf9280pdk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

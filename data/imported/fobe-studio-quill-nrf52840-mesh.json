@@ -1,0 +1,45 @@
+{
+  "slug": "fobe-studio-quill-nrf52840-mesh",
+  "name": "Quill nRF52840 Mesh",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "fobe-studio",
+  "chip": "nrf52840",
+  "ids": {
+    "zephyr": [
+      "quill_nrf52840_mesh"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52840",
+      "source": "zephyr:quill_nrf52840_mesh"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:quill_nrf52840_mesh"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:quill_nrf52840_mesh"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/fobe/quill_nrf52840_mesh/doc/index.html",
+      "source": "zephyr:quill_nrf52840_mesh"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:quill_nrf52840_mesh",
+      "label": "Zephyr board definition (quill_nrf52840_mesh)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/fobe/quill_nrf52840_mesh/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "pololu-a-star-32u4",
+  "name": "Pololu A-Star 32U4",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "pololu",
+  "chip": "atmega32u4",
+  "ids": {
+    "platformio": [
+      "a-star32U4"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega32U4",
+      "source": "platformio:a-star32u4"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:a-star32u4"
+    },
+    "upload_limits": {
+      "value": "28 KB flash, 2.5 KB RAM",
+      "source": "platformio:a-star32u4"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Pololu A-Star 32U4 product page",
+      "url": "https://www.pololu.com/category/149/a-star-programmable-controllers"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/a-star32U4.html",
+      "source": "platformio:a-star32u4"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:a-star32u4",
+      "label": "PlatformIO board definition (a-star32U4)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/a-star32U4.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "semtech-namote72",
+  "name": "NAMote72",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "semtech",
+  "ids": {
+    "platformio": [
+      "mote_l152rc"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32L152RC",
+      "source": "platformio:mote_l152rc"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M3",
+      "source": "platformio:mote_l152rc"
+    },
+    "clock": {
+      "value": "32 MHz",
+      "source": "platformio:mote_l152rc"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:mote_l152rc"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "NAMote72 product page",
+      "url": "https://developer.mbed.org/platforms/NAMote-72/"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:mote_l152rc",
+      "label": "PlatformIO board definition (mote_l152rc)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/mote_l152rc.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

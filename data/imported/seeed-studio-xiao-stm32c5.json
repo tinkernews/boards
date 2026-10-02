@@ -1,0 +1,44 @@
+{
+  "slug": "seeed-studio-xiao-stm32c5",
+  "name": "XIAO STM32C5",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "seeed",
+  "ids": {
+    "zephyr": [
+      "xiao_stm32c5"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32C5A3XX",
+      "source": "zephyr:xiao_stm32c5"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:xiao_stm32c5"
+    },
+    "flash": {
+      "value": "488 KB",
+      "source": "zephyr:xiao_stm32c5"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/seeed/xiao_stm32c5/doc/index.html",
+      "source": "zephyr:xiao_stm32c5"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:xiao_stm32c5",
+      "label": "Zephyr board definition (xiao_stm32c5)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/seeed/xiao_stm32c5/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

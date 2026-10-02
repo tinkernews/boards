@@ -1,0 +1,44 @@
+{
+  "slug": "aesc-silicon-elemrv-flask-h",
+  "name": "ElemRV Flask-H",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "aesc-silicon",
+  "ids": {
+    "zephyr": [
+      "elemrv_flask_h"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ELEMRV_H",
+      "source": "zephyr:elemrv_flask_h"
+    },
+    "ram": {
+      "value": "8 KB",
+      "source": "zephyr:elemrv_flask_h"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:elemrv_flask_h"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/aesc/elemrv_flask_h/doc/index.html",
+      "source": "zephyr:elemrv_flask_h"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:elemrv_flask_h",
+      "label": "Zephyr board definition (elemrv_flask_h)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/aesc/elemrv_flask_h/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

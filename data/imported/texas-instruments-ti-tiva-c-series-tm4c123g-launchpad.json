@@ -1,0 +1,44 @@
+{
+  "slug": "texas-instruments-ti-tiva-c-series-tm4c123g-launchpad",
+  "name": "TI Tiva C Series TM4C123G LaunchPad",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "texas-instruments",
+  "ids": {
+    "zephyr": [
+      "tm4c123gxl"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "TI_TM4C123GH6PM",
+      "source": "zephyr:tm4c123gxl"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:tm4c123gxl"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:tm4c123gxl"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/ti/tm4c123gxl/doc/index.html",
+      "source": "zephyr:tm4c123gxl"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:tm4c123gxl",
+      "label": "Zephyr board definition (tm4c123gxl)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/ti/tm4c123gxl/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

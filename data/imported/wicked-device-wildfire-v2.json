@@ -1,0 +1,61 @@
+{
+  "slug": "wicked-device-wildfire-v2",
+  "name": "Wicked Device WildFire V2",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "wicked-device",
+  "chip": "atmega1284p",
+  "ids": {
+    "platformio": [
+      "wildfirev2",
+      "wildfirev3"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega1284P",
+      "source": "platformio:wildfirev2"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:wildfirev2"
+    },
+    "upload_limits": {
+      "value": "120 KB flash, 16 KB RAM",
+      "source": "platformio:wildfirev2"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Wicked Device WildFire V2 product page",
+      "url": "http://shop.wickeddevice.com/resources/wildfire/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/wildfirev2.html",
+      "source": "platformio:wildfirev2"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:wildfirev2",
+      "label": "PlatformIO board definition (wildfirev2)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/wildfirev2.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    },
+    {
+      "id": "platformio:wildfirev3",
+      "label": "PlatformIO board definition (wildfirev3)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/wildfirev3.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

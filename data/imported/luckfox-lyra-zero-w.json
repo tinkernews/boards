@@ -1,0 +1,32 @@
+{
+  "slug": "luckfox-lyra-zero-w",
+  "name": "Luckfox Lyra Zero W",
+  "tier": "imported",
+  "kind": "sbc",
+  "maker": "shenzhen-luckfox",
+  "released": "2025",
+  "ids": {
+    "armbian": [
+      "luckfox-lyra-zero-w"
+    ]
+  },
+  "software": [
+    {
+      "platform": "armbian",
+      "status": "community",
+      "note": "Community-maintained in Armbian.",
+      "url": "https://github.com/armbian/build/blob/main/config/boards/luckfox-lyra-zero-w.csc",
+      "source": "armbian:luckfox-lyra-zero-w"
+    }
+  ],
+  "sources": [
+    {
+      "id": "armbian:luckfox-lyra-zero-w",
+      "label": "Armbian board configuration (luckfox-lyra-zero-w)",
+      "url": "https://github.com/armbian/build/blob/da85daa05bd260d04dac50315d7317207fd998b3/config/boards/luckfox-lyra-zero-w.csc",
+      "kind": "import",
+      "revision": "da85daa05bd260d04dac50315d7317207fd998b3"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,76 @@
+{
+  "slug": "stmicroelectronics-st-nucleo-f334r8",
+  "name": "ST Nucleo F334R8",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "aliases": [
+    "Nucleo F334R8"
+  ],
+  "ids": {
+    "platformio": [
+      "nucleo_f334r8"
+    ],
+    "zephyr": [
+      "nucleo_f334r8"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F334R8T6",
+      "source": "platformio:nucleo_f334r8"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:nucleo_f334r8"
+    },
+    "clock": {
+      "value": "72 MHz",
+      "source": "platformio:nucleo_f334r8"
+    },
+    "upload_limits": {
+      "value": "64 KB flash, 16 KB RAM",
+      "source": "platformio:nucleo_f334r8"
+    },
+    "ram": {
+      "value": "12 KB",
+      "source": "zephyr:nucleo_f334r8"
+    },
+    "flash": {
+      "value": "64 KB",
+      "source": "zephyr:nucleo_f334r8"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ST Nucleo F334R8 product page",
+      "url": "https://developer.mbed.org/platforms/ST-Nucleo-F334R8/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/nucleo_f334r8/doc/index.html",
+      "source": "zephyr:nucleo_f334r8"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:nucleo_f334r8",
+      "label": "PlatformIO board definition (nucleo_f334r8)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/nucleo_f334r8.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    },
+    {
+      "id": "zephyr:nucleo_f334r8",
+      "label": "Zephyr board definition (nucleo_f334r8)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/nucleo_f334r8/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

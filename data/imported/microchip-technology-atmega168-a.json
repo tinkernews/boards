@@ -1,0 +1,53 @@
+{
+  "slug": "microchip-technology-atmega168-a",
+  "name": "ATmega168/A",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "chip": "atmega168",
+  "ids": {
+    "platformio": [
+      "ATmega168"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega168",
+      "source": "platformio:atmega168"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:atmega168"
+    },
+    "upload_limits": {
+      "value": "16 KB flash, 1 KB RAM",
+      "source": "platformio:atmega168"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ATmega168/A product page",
+      "url": "https://www.microchip.com/wwwproducts/en/ATmega168"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/ATmega168.html",
+      "source": "platformio:atmega168"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:atmega168",
+      "label": "PlatformIO board definition (ATmega168)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/ATmega168.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

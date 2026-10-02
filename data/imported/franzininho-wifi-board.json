@@ -1,0 +1,67 @@
+{
+  "slug": "franzininho-wifi-board",
+  "name": "Franzininho WiFi Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "franzininho",
+  "chip": "esp32-s2",
+  "ids": {
+    "platformio": [
+      "esp32-s2-franzininho",
+      "franzininho_wifi_esp32s2"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-S2",
+      "source": "platformio:esp32-s2-franzininho"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:esp32-s2-franzininho"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:esp32-s2-franzininho"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Franzininho WiFi Board product page",
+      "url": "https://github.com/Franzininho/Franzininho-WIFI"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/esp32-s2-franzininho.html",
+      "source": "platformio:esp32-s2-franzininho"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/esp32-s2-franzininho.html",
+      "source": "platformio:esp32-s2-franzininho"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:esp32-s2-franzininho",
+      "label": "PlatformIO board definition (esp32-s2-franzininho)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/esp32-s2-franzininho.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    },
+    {
+      "id": "platformio:franzininho_wifi_esp32s2",
+      "label": "PlatformIO board definition (franzininho_wifi_esp32s2)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/franzininho_wifi_esp32s2.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

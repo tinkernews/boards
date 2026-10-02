@@ -1,0 +1,124 @@
+{
+  "slug": "raspberry-pi-pico-2-w",
+  "name": "Raspberry Pi Pico 2 W",
+  "tier": "curated",
+  "kind": "mcu",
+  "maker": "raspberry-pi",
+  "family": "Raspberry Pi Pico",
+  "chip": "rp2350",
+  "released": "2024-11",
+  "status": "current",
+  "summary": "The Pico 2 with 2.4 GHz Wi-Fi and Bluetooth 5.2 from the CYW43439, on the same footprint.",
+  "aliases": [
+    "Raspberry Pi Pico 2 W",
+    "Pi Pico 2 W",
+    "Pico 2 W",
+    "Pico 2W"
+  ],
+  "ids": {
+    "circuitpython": [
+      "raspberry_pi_pico2_w"
+    ],
+    "micropython": [
+      "RPI_PICO2_W"
+    ]
+  },
+  "review": {
+    "status": "draft"
+  },
+  "predecessor": "raspberry-pi-pico-2",
+  "specs": {
+    "chip": {
+      "value": "Raspberry Pi RP2350",
+      "source": "pico2w-datasheet"
+    },
+    "cpu": {
+      "value": "2 × Arm Cortex-M33 or 2 × Hazard3 RISC-V (chosen at boot)",
+      "source": "pico2w-datasheet"
+    },
+    "clock": {
+      "value": "Up to 150 MHz",
+      "source": "pico2w-datasheet"
+    },
+    "ram": {
+      "value": "520 KB SRAM",
+      "source": "pico2w-datasheet"
+    },
+    "flash": {
+      "value": "4 MB QSPI",
+      "source": "pico2w-datasheet"
+    },
+    "gpio": {
+      "value": "26 multi-function GPIO on two 20-pin edges",
+      "source": "pico2w-datasheet"
+    },
+    "io_voltage": {
+      "value": "3.3 V",
+      "source": "pico2w-datasheet"
+    },
+    "wireless": {
+      "value": "2.4 GHz 802.11n Wi-Fi; Bluetooth 5.2",
+      "source": "pico-docs"
+    },
+    "usb": {
+      "value": "Micro-USB 1.1 device and host",
+      "source": "pico2w-datasheet"
+    },
+    "launch_price": {
+      "value": "US$7",
+      "source": "pico2w-launch"
+    }
+  },
+  "docs": [
+    {
+      "kind": "datasheet",
+      "label": "Raspberry Pi Pico 2 W datasheet",
+      "url": "https://datasheets.raspberrypi.com/picow/pico-2-w-datasheet.pdf"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://www.raspberrypi.com/documentation/microcontrollers/micropython.html",
+      "source": "pico-docs"
+    }
+  ],
+  "pinout": {
+    "layout": "raspberry-pi-pico",
+    "source": "pico2w-datasheet"
+  },
+  "gotchas": [
+    {
+      "title": "The LED is on the wireless chip",
+      "text": "As on the Pico W, the on-board LED is driven by the wireless chip, not a GPIO.",
+      "source": "pico2w-datasheet"
+    }
+  ],
+  "editorial": {
+    "history": "The wireless version of the Pico 2 followed in November 2024.",
+    "today": "The pick for new Wi-Fi or Bluetooth microcontroller projects in the Pico ecosystem.",
+    "source": "pico2w-launch"
+  },
+  "sources": [
+    {
+      "id": "pico2w-datasheet",
+      "label": "Raspberry Pi Pico 2 W datasheet",
+      "url": "https://datasheets.raspberrypi.com/picow/pico-2-w-datasheet.pdf",
+      "kind": "official"
+    },
+    {
+      "id": "pico-docs",
+      "label": "Pico-series microcontrollers, Raspberry Pi documentation",
+      "url": "https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html",
+      "kind": "official"
+    },
+    {
+      "id": "pico2w-launch",
+      "label": "Raspberry Pi Pico 2 W on sale now, Raspberry Pi news",
+      "url": "https://www.raspberrypi.com/news/raspberry-pi-pico-2-w-on-sale-now/",
+      "kind": "official"
+    }
+  ],
+  "updatedAt": "2026-10-01T00:00:00.000Z"
+}

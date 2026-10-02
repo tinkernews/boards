@@ -1,0 +1,187 @@
+{
+  "slug": "raspberry-pi-500",
+  "name": "Raspberry Pi 500",
+  "tier": "curated",
+  "kind": "sbc",
+  "maker": "raspberry-pi",
+  "family": "Raspberry Pi",
+  "chip": "bcm2712",
+  "released": "2024-12",
+  "status": "current",
+  "summary": "A Raspberry Pi 5 with 8 GB of RAM built into a keyboard, the successor to the Pi 400.",
+  "aliases": [
+    "Raspberry Pi 500",
+    "Pi 500"
+  ],
+  "ids": {
+    "armbian": [
+      "rpi4b"
+    ]
+  },
+  "review": {
+    "status": "draft"
+  },
+  "predecessor": "raspberry-pi-400",
+  "specs": {
+    "chip": {
+      "value": "Broadcom BCM2712",
+      "source": "rpi-docs-source"
+    },
+    "cpu": {
+      "value": "4 × Cortex-A76 (ARMv8.2, 64-bit)",
+      "source": "rpi-processors"
+    },
+    "clock": {
+      "value": "2.4 GHz",
+      "source": "rpi-processors"
+    },
+    "ram": {
+      "value": "8 GB",
+      "source": "rpi-docs-source"
+    },
+    "storage": {
+      "value": "microSD card",
+      "source": "rpi-docs-source"
+    },
+    "gpio": {
+      "value": "40-pin header (rear)",
+      "source": "rpi-docs-source"
+    },
+    "io_voltage": {
+      "value": "3.3 V",
+      "source": "rpi-gpio"
+    },
+    "input_voltage": {
+      "value": "5 V, 5 A via USB-C (5 V, 3 A with a 600 mA USB limit)",
+      "source": "rpi-docs-source"
+    },
+    "wireless": {
+      "value": "2.4/5 GHz 802.11ac Wi-Fi 5; Bluetooth 5 and BLE",
+      "source": "rpi-docs-source"
+    },
+    "ethernet": {
+      "value": "Gigabit",
+      "source": "rpi-docs-source"
+    },
+    "usb": {
+      "value": "2 × USB 3.0, 1 × USB 2.0",
+      "source": "rpi-docs-source"
+    },
+    "video": {
+      "value": "2 × micro-HDMI",
+      "source": "rpi-docs-source"
+    },
+    "launch_price": {
+      "value": "US$90",
+      "source": "pi500-launch"
+    }
+  },
+  "docs": [
+    {
+      "kind": "guide",
+      "label": "Raspberry Pi hardware documentation",
+      "url": "https://www.raspberrypi.com/documentation/computers/raspberry-pi.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "raspberry-pi-os",
+      "status": "supported",
+      "note": "32-bit and 64-bit images.",
+      "url": "https://www.raspberrypi.com/software/operating-systems/",
+      "source": "rpi-software"
+    }
+  ],
+  "pinout": {
+    "layout": "raspberry-pi-40-pin",
+    "source": "rpi-gpio"
+  },
+  "gotchas": [
+    {
+      "title": "3.3 V only",
+      "text": "The GPIO pins are 3.3 V. Do not connect 5 V signals or components to them.",
+      "source": "rpi-gpio"
+    },
+    {
+      "title": "Little current per pin",
+      "text": "Each GPIO pin can supply up to about 16 mA and all pins together about 50 mA; drive motors and other loads through a transistor or driver board.",
+      "source": "rpi-power"
+    }
+  ],
+  "power": {
+    "rows": [
+      {
+        "label": "Recommended supply",
+        "value": "5.0 A",
+        "source": "rpi-power"
+      },
+      {
+        "label": "USB peripheral budget",
+        "value": "1.6 A (600 mA with a 3 A supply)",
+        "source": "rpi-power"
+      },
+      {
+        "label": "Typical bare-board draw",
+        "value": "800 mA",
+        "source": "rpi-power"
+      }
+    ]
+  },
+  "commonsFile": "File:DEV-27445-RPi-500-Keyboard-Front.jpg",
+  "editorial": {
+    "history": "Released in December 2024 alongside the Raspberry Pi Monitor, the Pi 500 brought Pi 5 performance to the keyboard form factor with a large internal heatsink.",
+    "today": "The simplest complete Raspberry Pi desktop: plug in a monitor and power, and the GPIO header on the back still takes HATs via a ribbon cable.",
+    "source": "pi500-launch"
+  },
+  "sources": [
+    {
+      "id": "rpi-docs",
+      "label": "Raspberry Pi hardware, Raspberry Pi documentation",
+      "url": "https://www.raspberrypi.com/documentation/computers/raspberry-pi.html",
+      "kind": "official"
+    },
+    {
+      "id": "rpi-docs-source",
+      "label": "Raspberry Pi hardware introduction (documentation source)",
+      "url": "https://github.com/raspberrypi/documentation/blob/master/documentation/asciidoc/computers/raspberry-pi/introduction.adoc",
+      "kind": "official"
+    },
+    {
+      "id": "rpi-processors",
+      "label": "Processors, Raspberry Pi documentation",
+      "url": "https://www.raspberrypi.com/documentation/computers/processors.html",
+      "kind": "official"
+    },
+    {
+      "id": "rpi-gpio",
+      "label": "GPIO and the 40-pin header, Raspberry Pi documentation (source)",
+      "url": "https://github.com/raspberrypi/documentation/blob/master/documentation/asciidoc/computers/raspberry-pi/gpio-on-raspberry-pi.adoc",
+      "kind": "official"
+    },
+    {
+      "id": "rpi-power",
+      "label": "Power supplies, Raspberry Pi documentation (source)",
+      "url": "https://github.com/raspberrypi/documentation/blob/master/documentation/asciidoc/computers/raspberry-pi/power-supplies.adoc",
+      "kind": "official"
+    },
+    {
+      "id": "rpi-os",
+      "label": "Raspberry Pi OS, Raspberry Pi documentation",
+      "url": "https://www.raspberrypi.com/documentation/computers/os.html",
+      "kind": "official"
+    },
+    {
+      "id": "pi500-launch",
+      "label": "Raspberry Pi 500 and Raspberry Pi Monitor on sale now, Raspberry Pi news",
+      "url": "https://www.raspberrypi.com/news/raspberry-pi-500-and-raspberry-pi-monitor-on-sale-now/",
+      "kind": "official"
+    },
+    {
+      "id": "rpi-software",
+      "label": "Raspberry Pi OS downloads, Raspberry Pi",
+      "url": "https://www.raspberrypi.com/software/operating-systems/",
+      "kind": "official"
+    }
+  ],
+  "updatedAt": "2026-10-01T00:00:00.000Z"
+}

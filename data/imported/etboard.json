@@ -1,0 +1,59 @@
+{
+  "slug": "etboard",
+  "name": "ETBoard",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "etboard",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "etboard"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:etboard"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:etboard"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:etboard"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ETBoard product page",
+      "url": "http://et.ketri.re.kr"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/etboard.html",
+      "source": "platformio:etboard"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/etboard.html",
+      "source": "platformio:etboard"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:etboard",
+      "label": "PlatformIO board definition (etboard)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/etboard.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

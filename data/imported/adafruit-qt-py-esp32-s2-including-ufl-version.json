@@ -1,0 +1,158 @@
+{
+  "slug": "adafruit-qt-py-esp32-s2-including-ufl-version",
+  "name": "Adafruit QT Py ESP32-S2 (including uFL version)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "esp32-s2",
+  "ids": {
+    "circuitpython": [
+      "adafruit_qtpy_esp32s2"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/adafruit_qtpy_esp32s2/",
+      "source": "circuitpython:adafruit_qtpy_esp32s2"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:adafruit_qtpy_esp32s2",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "BUTTON",
+          "BOOT0",
+          "D0"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "TX",
+          "D5",
+          "A6"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "SCL",
+          "D6",
+          "A5"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "SDA",
+          "D7",
+          "A4"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "A3",
+          "D8"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "A2",
+          "D9"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "RX",
+          "D16",
+          "A7"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "A1",
+          "D17"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "A0",
+          "D18"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "MOSI",
+          "D35"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "SCK",
+          "D36"
+        ]
+      },
+      {
+        "pin": "GPIO37",
+        "names": [
+          "MISO",
+          "D37"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "NEOPIXEL_POWER"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO40",
+        "names": [
+          "SCL1",
+          "D40"
+        ]
+      },
+      {
+        "pin": "GPIO41",
+        "names": [
+          "SDA1",
+          "D41"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:adafruit_qtpy_esp32s2",
+      "label": "CircuitPython board definition (adafruit_qtpy_esp32s2)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/adafruit_qtpy_esp32s2.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:adafruit_qtpy_esp32s2",
+      "label": "CircuitPython pin definitions (adafruit_qtpy_esp32s2)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/adafruit_qtpy_esp32s2/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

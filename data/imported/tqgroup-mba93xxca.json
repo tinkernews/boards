@@ -1,0 +1,49 @@
+{
+  "slug": "tqgroup-mba93xxca",
+  "name": "MBa93xxCA",
+  "tier": "imported",
+  "kind": "sbc",
+  "maker": "tqgroup",
+  "released": "2026",
+  "ids": {
+    "armbian": [
+      "mba93xxca-tqma93xx"
+    ],
+    "linux": [
+      "arch/arm64/boot/dts/freescale/imx93-tqma9352-mba93xxca.dts"
+    ]
+  },
+  "software": [
+    {
+      "platform": "armbian",
+      "status": "supported",
+      "note": "Supported by Armbian.",
+      "url": "https://github.com/armbian/build/blob/main/config/boards/mba93xxca-tqma93xx.conf",
+      "source": "armbian:mba93xxca-tqma93xx"
+    },
+    {
+      "platform": "linux-mainline",
+      "status": "supported",
+      "note": "A device tree for this board is in the mainline kernel; features may still be missing.",
+      "url": "https://github.com/torvalds/linux/blob/master/arch/arm64/boot/dts/freescale/imx93-tqma9352-mba93xxca.dts",
+      "source": "linux:imx93-tqma9352-mba93xxca.dts"
+    }
+  ],
+  "sources": [
+    {
+      "id": "armbian:mba93xxca-tqma93xx",
+      "label": "Armbian board configuration (mba93xxca-tqma93xx)",
+      "url": "https://github.com/armbian/build/blob/da85daa05bd260d04dac50315d7317207fd998b3/config/boards/mba93xxca-tqma93xx.conf",
+      "kind": "import",
+      "revision": "da85daa05bd260d04dac50315d7317207fd998b3"
+    },
+    {
+      "id": "linux:imx93-tqma9352-mba93xxca.dts",
+      "label": "Linux kernel device tree (imx93-tqma9352-mba93xxca.dts)",
+      "url": "https://github.com/torvalds/linux/blob/551c722f40809618230001baccf219193e22fc5a/arch/arm64/boot/dts/freescale/imx93-tqma9352-mba93xxca.dts",
+      "kind": "import",
+      "revision": "551c722f40809618230001baccf219193e22fc5a"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

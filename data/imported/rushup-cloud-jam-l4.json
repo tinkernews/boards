@@ -1,0 +1,47 @@
+{
+  "slug": "rushup-cloud-jam-l4",
+  "name": "RushUp Cloud-JAM L4",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "rushup",
+  "ids": {
+    "platformio": [
+      "cloud_jam_l4"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32L476RGT6",
+      "source": "platformio:cloud_jam_l4"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:cloud_jam_l4"
+    },
+    "clock": {
+      "value": "80 MHz",
+      "source": "platformio:cloud_jam_l4"
+    },
+    "upload_limits": {
+      "value": "1 MB flash, 128 KB RAM",
+      "source": "platformio:cloud_jam_l4"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "RushUp Cloud-JAM L4 product page",
+      "url": "https://developer.mbed.org/platforms/ST-Nucleo-L476RG/"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:cloud_jam_l4",
+      "label": "PlatformIO board definition (cloud_jam_l4)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/cloud_jam_l4.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

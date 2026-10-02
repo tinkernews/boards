@@ -1,0 +1,37 @@
+{
+  "slug": "kincony-kc868-a8",
+  "name": "KC868-A8",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "kincony",
+  "chip": "esp32",
+  "ids": {
+    "zephyr": [
+      "kincony_kc868_a8"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "zephyr:kincony_kc868_a8"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/kincony/kincony_kc868_a8/doc/index.html",
+      "source": "zephyr:kincony_kc868_a8"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:kincony_kc868_a8",
+      "label": "Zephyr board definition (kincony_kc868_a8)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/kincony/kincony_kc868_a8/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "doctors-of-intelligence-dt-bl10-coexistence-module",
+  "name": "DT-BL10 coexistence Module Development Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "doctors-of-intelligence",
+  "ids": {
+    "zephyr": [
+      "dt_bl10_devkit"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "BL602C20Q2I",
+      "source": "zephyr:dt_bl10_devkit"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:dt_bl10_devkit"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/doiting/dt_bl10_devkit/doc/index.html",
+      "source": "zephyr:dt_bl10_devkit"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:dt_bl10_devkit",
+      "label": "Zephyr board definition (dt_bl10_devkit)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/doiting/dt_bl10_devkit/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

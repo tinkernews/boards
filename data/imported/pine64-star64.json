@@ -1,0 +1,32 @@
+{
+  "slug": "pine64-star64",
+  "name": "Star64",
+  "tier": "imported",
+  "kind": "sbc",
+  "maker": "pine64",
+  "released": "2022",
+  "ids": {
+    "armbian": [
+      "star64"
+    ]
+  },
+  "software": [
+    {
+      "platform": "armbian",
+      "status": "dropped",
+      "note": "End of support in Armbian.",
+      "url": "https://github.com/armbian/build/blob/main/config/boards/star64.eos",
+      "source": "armbian:star64"
+    }
+  ],
+  "sources": [
+    {
+      "id": "armbian:star64",
+      "label": "Armbian board configuration (star64)",
+      "url": "https://github.com/armbian/build/blob/da85daa05bd260d04dac50315d7317207fd998b3/config/boards/star64.eos",
+      "kind": "import",
+      "revision": "da85daa05bd260d04dac50315d7317207fd998b3"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

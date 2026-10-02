@@ -1,0 +1,59 @@
+{
+  "slug": "roboheart-hercules",
+  "name": "RoboHeart Hercules",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "roboheart",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "roboheart_hercules"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:roboheart_hercules"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:roboheart_hercules"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:roboheart_hercules"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "RoboHeart Hercules product page",
+      "url": "https://roboheart.de/en_gb/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/roboheart_hercules.html",
+      "source": "platformio:roboheart_hercules"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/roboheart_hercules.html",
+      "source": "platformio:roboheart_hercules"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:roboheart_hercules",
+      "label": "PlatformIO board definition (roboheart_hercules)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/roboheart_hercules.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

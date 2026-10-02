@@ -1,0 +1,37 @@
+{
+  "slug": "soldered-inkplate-6color",
+  "name": "Inkplate 6Color",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "soldered",
+  "chip": "esp32",
+  "ids": {
+    "zephyr": [
+      "inkplate_6color"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "zephyr:inkplate_6color"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/solderedelectronics/inkplate_6color/doc/index.html",
+      "source": "zephyr:inkplate_6color"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:inkplate_6color",
+      "label": "Zephyr board definition (inkplate_6color)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/solderedelectronics/inkplate_6color/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

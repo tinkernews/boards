@@ -1,0 +1,115 @@
+{
+  "slug": "8086-consultancy-rp2040-interfacer",
+  "name": "RP2040 Interfacer",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "8086-consultancy",
+  "chip": "rp2040",
+  "ids": {
+    "circuitpython": [
+      "8086_rp2040_interfacer"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/8086_rp2040_interfacer/",
+      "source": "circuitpython:8086_rp2040_interfacer"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:8086_rp2040_interfacer",
+    "list": [
+      {
+        "pin": "GPIO12",
+        "names": [
+          "TX",
+          "GP12"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "RX",
+          "GP13"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "LED_UART",
+          "GP14"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "LED",
+          "GP16"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "LED_STQW",
+          "GP17"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "PULL_SDA",
+          "GP18"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "PULL_SCL",
+          "GP19"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "BUTTON",
+          "GP23"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "SDA",
+          "GP26",
+          "A0"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "SCL",
+          "GP27",
+          "A1"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:8086_rp2040_interfacer",
+      "label": "CircuitPython board definition (8086_rp2040_interfacer)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/8086_rp2040_interfacer.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:8086_rp2040_interfacer",
+      "label": "CircuitPython pin definitions (8086_rp2040_interfacer)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/8086_rp2040_interfacer/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

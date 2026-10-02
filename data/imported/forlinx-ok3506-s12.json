@@ -1,0 +1,32 @@
+{
+  "slug": "forlinx-ok3506-s12",
+  "name": "ForLinx OK3506-S12",
+  "tier": "imported",
+  "kind": "sbc",
+  "maker": "forlinx",
+  "released": "2025",
+  "ids": {
+    "armbian": [
+      "forlinx-ok3506-s12"
+    ]
+  },
+  "software": [
+    {
+      "platform": "armbian",
+      "status": "community",
+      "note": "Community-maintained in Armbian.",
+      "url": "https://github.com/armbian/build/blob/main/config/boards/forlinx-ok3506-s12.csc",
+      "source": "armbian:forlinx-ok3506-s12"
+    }
+  ],
+  "sources": [
+    {
+      "id": "armbian:forlinx-ok3506-s12",
+      "label": "Armbian board configuration (forlinx-ok3506-s12)",
+      "url": "https://github.com/armbian/build/blob/da85daa05bd260d04dac50315d7317207fd998b3/config/boards/forlinx-ok3506-s12.csc",
+      "kind": "import",
+      "revision": "da85daa05bd260d04dac50315d7317207fd998b3"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

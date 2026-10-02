@@ -1,0 +1,32 @@
+{
+  "slug": "cubietech-cubieboard-2",
+  "name": "Cubieboard 2",
+  "tier": "imported",
+  "kind": "sbc",
+  "maker": "cubietech",
+  "released": "2012",
+  "ids": {
+    "armbian": [
+      "cubieboard2"
+    ]
+  },
+  "software": [
+    {
+      "platform": "armbian",
+      "status": "community",
+      "note": "Community-maintained in Armbian.",
+      "url": "https://github.com/armbian/build/blob/main/config/boards/cubieboard2.csc",
+      "source": "armbian:cubieboard2"
+    }
+  ],
+  "sources": [
+    {
+      "id": "armbian:cubieboard2",
+      "label": "Armbian board configuration (cubieboard2)",
+      "url": "https://github.com/armbian/build/blob/da85daa05bd260d04dac50315d7317207fd998b3/config/boards/cubieboard2.csc",
+      "kind": "import",
+      "revision": "da85daa05bd260d04dac50315d7317207fd998b3"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

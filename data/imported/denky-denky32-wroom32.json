@@ -1,0 +1,59 @@
+{
+  "slug": "denky-denky32-wroom32",
+  "name": "Denky32 (WROOM32)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "denky",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "denky32"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:denky32"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:denky32"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:denky32"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Denky32 (WROOM32) product page",
+      "url": "https://en.wikipedia.org/wiki/ESP32"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/denky32.html",
+      "source": "platformio:denky32"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/denky32.html",
+      "source": "platformio:denky32"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:denky32",
+      "label": "PlatformIO board definition (denky32)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/denky32.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

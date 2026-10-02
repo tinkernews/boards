@@ -1,0 +1,53 @@
+{
+  "slug": "controllino-mega",
+  "name": "Controllino Mega",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "controllino",
+  "chip": "atmega2560",
+  "ids": {
+    "platformio": [
+      "controllino_mega"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega2560",
+      "source": "platformio:controllino_mega"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:controllino_mega"
+    },
+    "upload_limits": {
+      "value": "248 KB flash, 8 KB RAM",
+      "source": "platformio:controllino_mega"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Controllino Mega product page",
+      "url": "https://www.controllino.com/product/controllino-mega/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/controllino_mega.html",
+      "source": "platformio:controllino_mega"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:controllino_mega",
+      "label": "PlatformIO board definition (controllino_mega)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/controllino_mega.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

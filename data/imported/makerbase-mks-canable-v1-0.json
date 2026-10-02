@@ -1,0 +1,52 @@
+{
+  "slug": "makerbase-mks-canable-v1-0",
+  "name": "MKS CANable V1.0",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "makerbase",
+  "ids": {
+    "zephyr": [
+      "mks_canable_v10",
+      "mks_canable_v20"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F072X8",
+      "source": "zephyr:mks_canable_v10"
+    },
+    "ram": {
+      "value": "16 KB",
+      "source": "zephyr:mks_canable_v10"
+    },
+    "flash": {
+      "value": "64 KB",
+      "source": "zephyr:mks_canable_v10"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/makerbase/mks_canable_v10/doc/index.html",
+      "source": "zephyr:mks_canable_v10"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:mks_canable_v10",
+      "label": "Zephyr board definition (mks_canable_v10)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/makerbase/mks_canable_v10/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "zephyr:mks_canable_v20",
+      "label": "Zephyr board definition (mks_canable_v20)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/makerbase/mks_canable_v20/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "renesas-rz-a3m-evaluation-kit",
+  "name": "RZ/A3M Evaluation Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "renesas",
+  "ids": {
+    "zephyr": [
+      "rza3m_ek"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "R9A07G066M04GBG",
+      "source": "zephyr:rza3m_ek"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/renesas/rza3m_ek/doc/index.html",
+      "source": "zephyr:rza3m_ek"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:rza3m_ek",
+      "label": "Zephyr board definition (rza3m_ek)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/renesas/rza3m_ek/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

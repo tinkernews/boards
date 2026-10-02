@@ -1,0 +1,187 @@
+{
+  "slug": "sparkfun-pro-nrf52840-mini",
+  "name": "Pro nRF52840 Mini",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sparkfun",
+  "chip": "nrf52840",
+  "ids": {
+    "circuitpython": [
+      "sparkfun_nrf52840_mini"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/sparkfun_nrf52840_mini/",
+      "source": "circuitpython:sparkfun_nrf52840_mini"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:sparkfun_nrf52840_mini",
+    "list": [
+      {
+        "pin": "P0_02",
+        "names": [
+          "D10",
+          "A0"
+        ]
+      },
+      {
+        "pin": "P0_03",
+        "names": [
+          "D11",
+          "A1",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "P0_04",
+        "names": [
+          "D17",
+          "A2"
+        ]
+      },
+      {
+        "pin": "P0_05",
+        "names": [
+          "D16",
+          "A3"
+        ]
+      },
+      {
+        "pin": "P0_07",
+        "names": [
+          "LED1"
+        ]
+      },
+      {
+        "pin": "P0_08",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "P0_09",
+        "names": [
+          "D8"
+        ]
+      },
+      {
+        "pin": "P0_10",
+        "names": [
+          "D9"
+        ]
+      },
+      {
+        "pin": "P0_11",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "P0_13",
+        "names": [
+          "BUTTON1"
+        ]
+      },
+      {
+        "pin": "P0_15",
+        "names": [
+          "RX"
+        ]
+      },
+      {
+        "pin": "P0_17",
+        "names": [
+          "D1",
+          "TX"
+        ]
+      },
+      {
+        "pin": "P0_19",
+        "names": [
+          "D3"
+        ]
+      },
+      {
+        "pin": "P0_20",
+        "names": [
+          "D4"
+        ]
+      },
+      {
+        "pin": "P0_21",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "P0_22",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "P0_23",
+        "names": [
+          "D7"
+        ]
+      },
+      {
+        "pin": "P0_28",
+        "names": [
+          "D15",
+          "A4"
+        ]
+      },
+      {
+        "pin": "P0_29",
+        "names": [
+          "D14",
+          "A5"
+        ]
+      },
+      {
+        "pin": "P0_30",
+        "names": [
+          "D13",
+          "A6",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "P0_31",
+        "names": [
+          "D12",
+          "A7",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "P1_15",
+        "names": [
+          "D0"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:sparkfun_nrf52840_mini",
+      "label": "CircuitPython board definition (sparkfun_nrf52840_mini)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/sparkfun_nrf52840_mini.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:sparkfun_nrf52840_mini",
+      "label": "CircuitPython pin definitions (sparkfun_nrf52840_mini)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/nordic/boards/sparkfun_nrf52840_mini/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

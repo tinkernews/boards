@@ -1,0 +1,40 @@
+{
+  "slug": "intel-nova-lake-rvp",
+  "name": "Nova Lake RVP",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "intel",
+  "ids": {
+    "zephyr": [
+      "intel_nvl_s_rvp"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "NOVA_LAKE",
+      "source": "zephyr:intel_nvl_s_rvp"
+    },
+    "ram": {
+      "value": "2048 KB",
+      "source": "zephyr:intel_nvl_s_rvp"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/intel/nvl/doc/index.html",
+      "source": "zephyr:intel_nvl_s_rvp"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:intel_nvl_s_rvp",
+      "label": "Zephyr board definition (intel_nvl_s_rvp)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/intel/nvl/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "ambiq-micro-apollo3-blue-plus-evb",
+  "name": "Apollo3 Blue Plus EVB",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "ambiq-micro",
+  "ids": {
+    "zephyr": [
+      "apollo3p_evb"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "APOLLO3P_BLUE",
+      "source": "zephyr:apollo3p_evb"
+    },
+    "ram": {
+      "value": "768 KB",
+      "source": "zephyr:apollo3p_evb"
+    },
+    "flash": {
+      "value": "1.95 MB",
+      "source": "zephyr:apollo3p_evb"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/ambiq/apollo3p_evb/doc/index.html",
+      "source": "zephyr:apollo3p_evb"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:apollo3p_evb",
+      "label": "Zephyr board definition (apollo3p_evb)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/ambiq/apollo3p_evb/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

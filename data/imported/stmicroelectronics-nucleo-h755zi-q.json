@@ -1,0 +1,44 @@
+{
+  "slug": "stmicroelectronics-nucleo-h755zi-q",
+  "name": "Nucleo H755ZI-Q",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "zephyr": [
+      "nucleo_h755zi_q"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32H755XX",
+      "source": "zephyr:nucleo_h755zi_q"
+    },
+    "ram": {
+      "value": "128 KB",
+      "source": "zephyr:nucleo_h755zi_q"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:nucleo_h755zi_q"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/nucleo_h755zi_q/doc/index.html",
+      "source": "zephyr:nucleo_h755zi_q"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:nucleo_h755zi_q",
+      "label": "Zephyr board definition (nucleo_h755zi_q)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/nucleo_h755zi_q/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

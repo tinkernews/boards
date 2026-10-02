@@ -1,0 +1,149 @@
+{
+  "slug": "oak-development-cast-away-rp2040",
+  "name": "CAST-AWAY RP2040",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "oak-development",
+  "chip": "rp2040",
+  "ids": {
+    "circuitpython": [
+      "odt_cast_away_rp2040"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/odt_cast_away_rp2040/",
+      "source": "circuitpython:odt_cast_away_rp2040"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:odt_cast_away_rp2040",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "D0",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "D1",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "D2",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "D3",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "D4",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "D12"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "D13"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "D14",
+          "RX"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "D15",
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "D16"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "D17"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "D26",
+          "A0"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "D27",
+          "A1"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "D28",
+          "A2"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:odt_cast_away_rp2040",
+      "label": "CircuitPython board definition (odt_cast_away_rp2040)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/odt_cast_away_rp2040.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:odt_cast_away_rp2040",
+      "label": "CircuitPython pin definitions (odt_cast_away_rp2040)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/odt_cast_away_rp2040/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

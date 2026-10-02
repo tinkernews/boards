@@ -1,0 +1,44 @@
+{
+  "slug": "fysetc-ucan",
+  "name": "UCAN",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "fysetc",
+  "ids": {
+    "zephyr": [
+      "ucan"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F072XB",
+      "source": "zephyr:ucan"
+    },
+    "ram": {
+      "value": "16 KB",
+      "source": "zephyr:ucan"
+    },
+    "flash": {
+      "value": "128 KB",
+      "source": "zephyr:ucan"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/fysetc/ucan/doc/index.html",
+      "source": "zephyr:ucan"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:ucan",
+      "label": "Zephyr board definition (ucan)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/fysetc/ucan/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

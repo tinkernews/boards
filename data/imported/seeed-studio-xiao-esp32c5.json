@@ -1,0 +1,59 @@
+{
+  "slug": "seeed-studio-xiao-esp32c5",
+  "name": "XIAO ESP32C5",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "seeed",
+  "ids": {
+    "zephyr": [
+      "xiao_esp32c5"
+    ],
+    "micropython": [
+      "SEEED_XIAO_ESP32C5"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32C5",
+      "source": "zephyr:xiao_esp32c5"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "XIAO ESP32C5 product page",
+      "url": "https://wiki.seeedstudio.com/xiao_esp32c5_getting_started/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/seeed/xiao_esp32c5/doc/index.html",
+      "source": "zephyr:xiao_esp32c5"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/SEEED_XIAO_ESP32C5/",
+      "source": "micropython:seeed_xiao_esp32c5"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:xiao_esp32c5",
+      "label": "Zephyr board definition (xiao_esp32c5)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/seeed/xiao_esp32c5/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "micropython:seeed_xiao_esp32c5",
+      "label": "MicroPython board definition (SEEED_XIAO_ESP32C5)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/esp32/boards/SEEED_XIAO_ESP32C5/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

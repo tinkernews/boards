@@ -1,0 +1,57 @@
+{
+  "slug": "redbearlab-blend-2",
+  "name": "RedBearLab Blend 2",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "redbearlab",
+  "chip": "nrf52832",
+  "ids": {
+    "platformio": [
+      "redbear_blend2"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52832",
+      "source": "platformio:redbear_blend2"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:redbear_blend2"
+    },
+    "clock": {
+      "value": "64 MHz",
+      "source": "platformio:redbear_blend2"
+    },
+    "upload_limits": {
+      "value": "512 KB flash, 64 KB RAM",
+      "source": "platformio:redbear_blend2"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "RedBearLab Blend 2 product page",
+      "url": "https://redbear.cc/product/ble/blend-2.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/nordicnrf52/redbear_blend2.html",
+      "source": "platformio:redbear_blend2"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:redbear_blend2",
+      "label": "PlatformIO board definition (redbear_blend2)",
+      "url": "https://github.com/platformio/platform-nordicnrf52/blob/278176a7f7ffe2d001eb93eafa271c83b38222e4/boards/redbear_blend2.json",
+      "kind": "import",
+      "revision": "278176a7f7ffe2d001eb93eafa271c83b38222e4"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

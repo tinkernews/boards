@@ -1,0 +1,48 @@
+{
+  "slug": "sakura-io-evaluation-board",
+  "name": "sakura.io Evaluation Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sakura-io",
+  "chip": "stm32f411",
+  "ids": {
+    "platformio": [
+      "sakuraio_evb_01"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F411",
+      "source": "platformio:sakuraio_evb_01"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:sakuraio_evb_01"
+    },
+    "clock": {
+      "value": "100 MHz",
+      "source": "platformio:sakuraio_evb_01"
+    },
+    "upload_limits": {
+      "value": "1 MB flash, 128 KB RAM",
+      "source": "platformio:sakuraio_evb_01"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "sakura.io Evaluation Board product page",
+      "url": "https://os.mbed.com/platforms/SAKURAIO_EVB_01/"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:sakuraio_evb_01",
+      "label": "PlatformIO board definition (sakuraio_evb_01)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/sakuraio_evb_01.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

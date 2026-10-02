@@ -1,0 +1,44 @@
+{
+  "slug": "infineon-psoctm-control-c3m5-connectivity-card-2",
+  "name": "PSOC™ Control C3M5 Connectivity Card 2",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "infineon",
+  "ids": {
+    "zephyr": [
+      "kit_psc3m5_cc2"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "PSC3M5FDS2AFQ1",
+      "source": "zephyr:kit_psc3m5_cc2"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:kit_psc3m5_cc2"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:kit_psc3m5_cc2"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/infineon/kit_psc3m5_cc2/doc/index.html",
+      "source": "zephyr:kit_psc3m5_cc2"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:kit_psc3m5_cc2",
+      "label": "Zephyr board definition (kit_psc3m5_cc2)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/infineon/kit_psc3m5_cc2/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

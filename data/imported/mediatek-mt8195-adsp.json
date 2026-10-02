@@ -1,0 +1,36 @@
+{
+  "slug": "mediatek-mt8195-adsp",
+  "name": "MT8195 ADSP",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "mediatek",
+  "ids": {
+    "zephyr": [
+      "mt8195"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MT8195",
+      "source": "zephyr:mt8195"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/mediatek/mt8195/doc/index.html",
+      "source": "zephyr:mt8195"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:mt8195",
+      "label": "Zephyr board definition (mt8195)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/mediatek/mt8195/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

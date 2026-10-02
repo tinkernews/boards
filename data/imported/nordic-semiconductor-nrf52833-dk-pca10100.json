@@ -1,0 +1,255 @@
+{
+  "slug": "nordic-semiconductor-nrf52833-dk-pca10100",
+  "name": "nRF52833 DK (PCA10100)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nordic-semiconductor",
+  "chip": "nrf52840",
+  "ids": {
+    "circuitpython": [
+      "pca10100"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/pca10100/",
+      "source": "circuitpython:pca10100"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:pca10100",
+    "list": [
+      {
+        "pin": "P0_00",
+        "names": [
+          "D14"
+        ]
+      },
+      {
+        "pin": "P0_01",
+        "names": [
+          "D15"
+        ]
+      },
+      {
+        "pin": "P0_05",
+        "names": [
+          "D16"
+        ]
+      },
+      {
+        "pin": "P0_06",
+        "names": [
+          "D17"
+        ]
+      },
+      {
+        "pin": "P0_07",
+        "names": [
+          "D18"
+        ]
+      },
+      {
+        "pin": "P0_08",
+        "names": [
+          "D19"
+        ]
+      },
+      {
+        "pin": "P0_09",
+        "names": [
+          "NFC1",
+          "D20"
+        ]
+      },
+      {
+        "pin": "P0_10",
+        "names": [
+          "NFC2",
+          "D21"
+        ]
+      },
+      {
+        "pin": "P0_11",
+        "names": [
+          "D22",
+          "BUTTON1",
+          "BUTTON1_DEFAULT"
+        ]
+      },
+      {
+        "pin": "P0_12",
+        "names": [
+          "D23",
+          "BUTTON2",
+          "BUTTON2_DEFAULT"
+        ]
+      },
+      {
+        "pin": "P0_13",
+        "names": [
+          "D24",
+          "LED1"
+        ]
+      },
+      {
+        "pin": "P0_14",
+        "names": [
+          "D25",
+          "LED2"
+        ]
+      },
+      {
+        "pin": "P0_15",
+        "names": [
+          "D26",
+          "LED3"
+        ]
+      },
+      {
+        "pin": "P0_16",
+        "names": [
+          "D27",
+          "LED4"
+        ]
+      },
+      {
+        "pin": "P0_17",
+        "names": [
+          "D8"
+        ]
+      },
+      {
+        "pin": "P0_18",
+        "names": [
+          "D28"
+        ]
+      },
+      {
+        "pin": "P0_19",
+        "names": [
+          "D9"
+        ]
+      },
+      {
+        "pin": "P0_20",
+        "names": [
+          "D10"
+        ]
+      },
+      {
+        "pin": "P0_21",
+        "names": [
+          "D11"
+        ]
+      },
+      {
+        "pin": "P0_22",
+        "names": [
+          "D12"
+        ]
+      },
+      {
+        "pin": "P0_23",
+        "names": [
+          "D13"
+        ]
+      },
+      {
+        "pin": "P0_24",
+        "names": [
+          "D29",
+          "BUTTON3"
+        ]
+      },
+      {
+        "pin": "P0_25",
+        "names": [
+          "D30",
+          "BUTTON4"
+        ]
+      },
+      {
+        "pin": "P1_00",
+        "names": [
+          "D31"
+        ]
+      },
+      {
+        "pin": "P1_01",
+        "names": [
+          "D0"
+        ]
+      },
+      {
+        "pin": "P1_02",
+        "names": [
+          "D1"
+        ]
+      },
+      {
+        "pin": "P1_03",
+        "names": [
+          "D2"
+        ]
+      },
+      {
+        "pin": "P1_04",
+        "names": [
+          "D3"
+        ]
+      },
+      {
+        "pin": "P1_05",
+        "names": [
+          "D4"
+        ]
+      },
+      {
+        "pin": "P1_06",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "P1_07",
+        "names": [
+          "D6",
+          "BUTTON1_OPTIONAL"
+        ]
+      },
+      {
+        "pin": "P1_08",
+        "names": [
+          "D7",
+          "BUTTON2_OPTIONAL"
+        ]
+      },
+      {
+        "pin": "P1_09",
+        "names": [
+          "D32"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:pca10100",
+      "label": "CircuitPython board definition (pca10100)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/pca10100.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:pca10100",
+      "label": "CircuitPython pin definitions (pca10100)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/nordic/boards/pca10100/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

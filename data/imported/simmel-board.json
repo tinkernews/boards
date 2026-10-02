@@ -1,0 +1,87 @@
+{
+  "slug": "simmel-board",
+  "name": "Simmel Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "simmel-project",
+  "chip": "nrf52840",
+  "ids": {
+    "circuitpython": [
+      "simmel"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/simmel/",
+      "source": "circuitpython:simmel"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:simmel",
+    "list": [
+      {
+        "pin": "P0_06",
+        "names": [
+          "LED"
+        ]
+      },
+      {
+        "pin": "P0_08",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "P0_09",
+        "names": [
+          "SPI_MOSI",
+          "NFC1"
+        ]
+      },
+      {
+        "pin": "P0_10",
+        "names": [
+          "SPI_SCK",
+          "NFC2"
+        ]
+      },
+      {
+        "pin": "P1_04",
+        "names": [
+          "SPI_MISO"
+        ]
+      },
+      {
+        "pin": "P1_06",
+        "names": [
+          "SPI_CSN"
+        ]
+      },
+      {
+        "pin": "P1_09",
+        "names": [
+          "SDA"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:simmel",
+      "label": "CircuitPython board definition (simmel)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/simmel.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:simmel",
+      "label": "CircuitPython pin definitions (simmel)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/nordic/boards/simmel/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

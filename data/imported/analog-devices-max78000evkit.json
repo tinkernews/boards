@@ -1,0 +1,44 @@
+{
+  "slug": "analog-devices-max78000evkit",
+  "name": "MAX78000EVKIT",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "analog-devices",
+  "ids": {
+    "zephyr": [
+      "max78000evkit"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MAX78000",
+      "source": "zephyr:max78000evkit"
+    },
+    "ram": {
+      "value": "48 KB",
+      "source": "zephyr:max78000evkit"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:max78000evkit"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/adi/max78000evkit/doc/index.html",
+      "source": "zephyr:max78000evkit"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:max78000evkit",
+      "label": "Zephyr board definition (max78000evkit)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/adi/max78000evkit/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

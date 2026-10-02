@@ -1,0 +1,59 @@
+{
+  "slug": "mh-et-live-esp32minikit",
+  "name": "MH ET LIVE ESP32MiniKit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "mh-et-live",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "mhetesp32minikit"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:mhetesp32minikit"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:mhetesp32minikit"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:mhetesp32minikit"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "MH ET LIVE ESP32MiniKit product page",
+      "url": "http://forum.mhetlive.com"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/mhetesp32minikit.html",
+      "source": "platformio:mhetesp32minikit"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/mhetesp32minikit.html",
+      "source": "platformio:mhetesp32minikit"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:mhetesp32minikit",
+      "label": "PlatformIO board definition (mhetesp32minikit)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/mhetesp32minikit.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "laird-connectivity-bl652-development-kit",
+  "name": "BL652 Development Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "laird-connectivity",
+  "chip": "nrf52832",
+  "ids": {
+    "platformio": [
+      "laird_bl652_dvk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52832",
+      "source": "platformio:laird_bl652_dvk"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:laird_bl652_dvk"
+    },
+    "clock": {
+      "value": "64 MHz",
+      "source": "platformio:laird_bl652_dvk"
+    },
+    "upload_limits": {
+      "value": "512 KB flash, 64 KB RAM",
+      "source": "platformio:laird_bl652_dvk"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "BL652 Development Kit product page",
+      "url": "https://www.lairdconnect.com/wireless-modules/bluetooth-modules/bluetooth-5-modules/bl652-series-bluetooth-v5-nfc"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:laird_bl652_dvk",
+      "label": "PlatformIO board definition (laird_bl652_dvk)",
+      "url": "https://github.com/platformio/platform-nordicnrf52/blob/278176a7f7ffe2d001eb93eafa271c83b38222e4/boards/laird_bl652_dvk.json",
+      "kind": "import",
+      "revision": "278176a7f7ffe2d001eb93eafa271c83b38222e4"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

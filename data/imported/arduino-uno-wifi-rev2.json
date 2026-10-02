@@ -1,0 +1,53 @@
+{
+  "slug": "arduino-uno-wifi-rev2",
+  "name": "Arduino Uno WiFi Rev2",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "chip": "atmega4809",
+  "ids": {
+    "platformio": [
+      "uno_wifi_rev2"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega4809",
+      "source": "platformio:uno_wifi_rev2"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:uno_wifi_rev2"
+    },
+    "upload_limits": {
+      "value": "47.5 KB flash, 6 KB RAM",
+      "source": "platformio:uno_wifi_rev2"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Arduino Uno WiFi Rev2 product page",
+      "url": "https://www.arduino.cc/en/Guide/ArduinoUnoWiFiRev2"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelmegaavr/uno_wifi_rev2.html",
+      "source": "platformio:uno_wifi_rev2"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:uno_wifi_rev2",
+      "label": "PlatformIO board definition (uno_wifi_rev2)",
+      "url": "https://github.com/platformio/platform-atmelmegaavr/blob/8d7678dd994dadf43062cb589deba0806fae3a2e/boards/uno_wifi_rev2.json",
+      "kind": "import",
+      "revision": "8d7678dd994dadf43062cb589deba0806fae3a2e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

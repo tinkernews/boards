@@ -1,0 +1,85 @@
+{
+  "slug": "adafruit-qualia-esp32-s3-for-ttl-rgb-666-displays",
+  "name": "Qualia ESP32-S3 for TTL RGB-666 Displays",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "esp32-s3",
+  "ids": {
+    "circuitpython": [
+      "adafruit_qualia_s3_rgb666"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/adafruit_qualia_s3_rgb666/",
+      "source": "circuitpython:adafruit_qualia_s3_rgb666"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:adafruit_qualia_s3_rgb666",
+    "list": [
+      {
+        "pin": "GPIO1",
+        "names": [
+          "dclk"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "de"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "CS"
+        ]
+      },
+      {
+        "pin": "GPIO41",
+        "names": [
+          "hsync"
+        ]
+      },
+      {
+        "pin": "GPIO42",
+        "names": [
+          "vsync"
+        ]
+      },
+      {
+        "pin": "GPIO43",
+        "names": [
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO44",
+        "names": [
+          "RX"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:adafruit_qualia_s3_rgb666",
+      "label": "CircuitPython board definition (adafruit_qualia_s3_rgb666)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/adafruit_qualia_s3_rgb666.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:adafruit_qualia_s3_rgb666",
+      "label": "CircuitPython pin definitions (adafruit_qualia_s3_rgb666)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/adafruit_qualia_s3_rgb666/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

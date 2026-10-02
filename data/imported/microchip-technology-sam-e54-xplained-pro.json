@@ -1,0 +1,92 @@
+{
+  "slug": "microchip-technology-sam-e54-xplained-pro",
+  "name": "SAM E54 Xplained Pro",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "ids": {
+    "zephyr": [
+      "sam_e54_xpro",
+      "same54_xpro"
+    ],
+    "circuitpython": [
+      "same54_xplained"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAME54P20A",
+      "source": "zephyr:sam_e54_xpro"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:sam_e54_xpro"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:sam_e54_xpro"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/microchip/sam/sam_e54_xpro/doc/index.html",
+      "source": "zephyr:sam_e54_xpro"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/same54_xplained/",
+      "source": "circuitpython:same54_xplained"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:same54_xplained",
+    "list": [
+      {
+        "pin": "PA20",
+        "names": [
+          "SDIO_COMMAND"
+        ]
+      },
+      {
+        "pin": "PA21",
+        "names": [
+          "SDIO_CLOCK"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "zephyr:sam_e54_xpro",
+      "label": "Zephyr board definition (sam_e54_xpro)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/microchip/sam/sam_e54_xpro/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "zephyr:same54_xpro",
+      "label": "Zephyr board definition (same54_xpro)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/atmel/sam0/same54_xpro/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "circuitpython:same54_xplained",
+      "label": "CircuitPython board definition (same54_xplained)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/same54_xplained.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:same54_xplained",
+      "label": "CircuitPython pin definitions (same54_xplained)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/same54_xplained/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

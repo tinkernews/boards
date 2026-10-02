@@ -1,0 +1,53 @@
+{
+  "slug": "redbearlab-blend-micro-3-3v-16mhz-overclock",
+  "name": "RedBearLab Blend Micro 3.3V/16MHz (overclock)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "redbearlab",
+  "chip": "atmega32u4",
+  "ids": {
+    "platformio": [
+      "blendmicro16"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega32U4",
+      "source": "platformio:blendmicro16"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:blendmicro16"
+    },
+    "upload_limits": {
+      "value": "28 KB flash, 2.5 KB RAM",
+      "source": "platformio:blendmicro16"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "RedBearLab Blend Micro 3.3V/16MHz (overclock) product page",
+      "url": "http://redbearlab.com/blendmicro/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/blendmicro16.html",
+      "source": "platformio:blendmicro16"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:blendmicro16",
+      "label": "PlatformIO board definition (blendmicro16)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/blendmicro16.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

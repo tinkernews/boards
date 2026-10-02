@@ -1,0 +1,48 @@
+{
+  "slug": "laird-connectivity-pinnacle-100-dvk",
+  "name": "Laird Connectivity Pinnacle 100 DVK",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "laird-connectivity",
+  "chip": "nrf52840",
+  "ids": {
+    "platformio": [
+      "laird_pinnacle_100_dvk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52840",
+      "source": "platformio:laird_pinnacle_100_dvk"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:laird_pinnacle_100_dvk"
+    },
+    "clock": {
+      "value": "64 MHz",
+      "source": "platformio:laird_pinnacle_100_dvk"
+    },
+    "upload_limits": {
+      "value": "1 MB flash, 256 KB RAM",
+      "source": "platformio:laird_pinnacle_100_dvk"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Laird Connectivity Pinnacle 100 DVK product page",
+      "url": "https://www.lairdconnect.com/wireless-modules/cellular-solutions/pinnacle-100-cellular-modem"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:laird_pinnacle_100_dvk",
+      "label": "PlatformIO board definition (laird_pinnacle_100_dvk)",
+      "url": "https://github.com/platformio/platform-nordicnrf52/blob/278176a7f7ffe2d001eb93eafa271c83b38222e4/boards/laird_pinnacle_100_dvk.json",
+      "kind": "import",
+      "revision": "278176a7f7ffe2d001eb93eafa271c83b38222e4"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "microchip-technology-generic-samd21j18",
+  "name": "Generic SAMD21J18",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "chip": "atsamd21g18",
+  "ids": {
+    "micropython": [
+      "SAMD_GENERIC_D21X18"
+    ]
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Generic SAMD21J18 product page",
+      "url": "https://www.microchip.com/en-us/products/microcontrollers-and-microprocessors/32-bit-mcus/sam-32-bit-mcus/sam-d"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/SAMD_GENERIC_D21X18/",
+      "source": "micropython:samd_generic_d21x18"
+    }
+  ],
+  "sources": [
+    {
+      "id": "micropython:samd_generic_d21x18",
+      "label": "MicroPython board definition (SAMD_GENERIC_D21X18)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/samd/boards/SAMD_GENERIC_D21X18/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

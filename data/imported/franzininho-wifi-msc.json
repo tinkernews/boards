@@ -1,0 +1,59 @@
+{
+  "slug": "franzininho-wifi-msc",
+  "name": "Franzininho WiFi MSC",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "franzininho",
+  "chip": "esp32-s2",
+  "ids": {
+    "platformio": [
+      "franzininho_wifi_msc_esp32s2"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-S2",
+      "source": "platformio:franzininho_wifi_msc_esp32s2"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:franzininho_wifi_msc_esp32s2"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:franzininho_wifi_msc_esp32s2"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Franzininho WiFi MSC product page",
+      "url": "https://docs.franzininho.com.br/docs/franzininho-wifi/franzininho-wifi/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/franzininho_wifi_msc_esp32s2.html",
+      "source": "platformio:franzininho_wifi_msc_esp32s2"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/franzininho_wifi_msc_esp32s2.html",
+      "source": "platformio:franzininho_wifi_msc_esp32s2"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:franzininho_wifi_msc_esp32s2",
+      "label": "PlatformIO board definition (franzininho_wifi_msc_esp32s2)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/franzininho_wifi_msc_esp32s2.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

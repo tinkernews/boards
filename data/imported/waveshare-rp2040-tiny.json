@@ -1,0 +1,180 @@
+{
+  "slug": "waveshare-rp2040-tiny",
+  "name": "RP2040-Tiny",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "waveshare",
+  "chip": "rp2040",
+  "ids": {
+    "circuitpython": [
+      "waveshare_rp2040_tiny"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/waveshare_rp2040_tiny/",
+      "source": "circuitpython:waveshare_rp2040_tiny"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:waveshare_rp2040_tiny",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "GP0",
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "GP1",
+          "RX"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "GP2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "GP3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "GP4"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "GP5"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "GP6"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "GP7"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "GP8"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "GP9"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "GP10"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "GP11"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "GP12"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "GP13"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "GP14"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "GP15"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "GP16",
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "GP26_A0",
+          "GP26",
+          "A0"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "GP27_A1",
+          "GP27",
+          "A1"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "GP28_A2",
+          "GP28",
+          "A2"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "GP29_A3",
+          "GP29",
+          "A3"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:waveshare_rp2040_tiny",
+      "label": "CircuitPython board definition (waveshare_rp2040_tiny)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/waveshare_rp2040_tiny.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:waveshare_rp2040_tiny",
+      "label": "CircuitPython pin definitions (waveshare_rp2040_tiny)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/waveshare_rp2040_tiny/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

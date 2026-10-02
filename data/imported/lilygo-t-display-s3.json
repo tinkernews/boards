@@ -1,0 +1,284 @@
+{
+  "slug": "lilygo-t-display-s3",
+  "name": "LilyGo T-Display-S3",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "lilygo",
+  "chip": "esp32-s3",
+  "aliases": [
+    "T-Display S3"
+  ],
+  "ids": {
+    "platformio": [
+      "lilygo-t-display-s3"
+    ],
+    "circuitpython": [
+      "lilygo_tdisplay_s3"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-S3",
+      "source": "platformio:lilygo-t-display-s3"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:lilygo-t-display-s3"
+    },
+    "upload_limits": {
+      "value": "16 MB flash, 320 KB RAM",
+      "source": "platformio:lilygo-t-display-s3"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "LilyGo T-Display-S3 product page",
+      "url": "https://www.lilygo.cc/products/t-display-s3"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/lilygo-t-display-s3.html",
+      "source": "platformio:lilygo-t-display-s3"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/lilygo-t-display-s3.html",
+      "source": "platformio:lilygo-t-display-s3"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/lilygo_tdisplay_s3/",
+      "source": "circuitpython:lilygo_tdisplay_s3"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:lilygo_tdisplay_s3",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "BUTTON0",
+          "IO0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "IO1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "IO2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "IO3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "BATTERY"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "LCD_RST"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "LCD_CS"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "LCD_DC"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "LCD_WR"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "LCD_RD"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "IO10"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "IO11"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "IO12"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "IO13"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "BUTTON1",
+          "IO14"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "LCD_POWER_ON"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "IO16",
+          "TOUCH_INT"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "IO17",
+          "TOUCH_SCL"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "IO18",
+          "TOUCH_SDA"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "IO21",
+          "TOUCH_RES"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "LCD_BCKL"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "LCD_D0"
+        ]
+      },
+      {
+        "pin": "GPIO40",
+        "names": [
+          "LCD_D1"
+        ]
+      },
+      {
+        "pin": "GPIO41",
+        "names": [
+          "LCD_D2"
+        ]
+      },
+      {
+        "pin": "GPIO42",
+        "names": [
+          "LCD_D3"
+        ]
+      },
+      {
+        "pin": "GPIO43",
+        "names": [
+          "IO43",
+          "STEMMA_SDA"
+        ]
+      },
+      {
+        "pin": "GPIO44",
+        "names": [
+          "IO44",
+          "STEMMA_SCL"
+        ]
+      },
+      {
+        "pin": "GPIO45",
+        "names": [
+          "LCD_D4"
+        ]
+      },
+      {
+        "pin": "GPIO46",
+        "names": [
+          "LCD_D5"
+        ]
+      },
+      {
+        "pin": "GPIO47",
+        "names": [
+          "LCD_D6"
+        ]
+      },
+      {
+        "pin": "GPIO48",
+        "names": [
+          "LCD_D7"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "platformio:lilygo-t-display-s3",
+      "label": "PlatformIO board definition (lilygo-t-display-s3)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/lilygo-t-display-s3.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    },
+    {
+      "id": "circuitpython:lilygo_tdisplay_s3",
+      "label": "CircuitPython board definition (lilygo_tdisplay_s3)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/lilygo_tdisplay_s3.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:lilygo_tdisplay_s3",
+      "label": "CircuitPython pin definitions (lilygo_tdisplay_s3)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/lilygo_tdisplay_s3/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

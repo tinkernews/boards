@@ -1,0 +1,44 @@
+{
+  "slug": "silicon-labs-efr32xg24-2-4-ghz-10-dbm-xg24-rb4186c",
+  "name": "EFR32xG24 2.4 GHz 10 dBm (xG24-RB4186C)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "silicon-labs",
+  "ids": {
+    "zephyr": [
+      "xg24_rb4186c"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "EFR32MG24B210F1536IM48",
+      "source": "zephyr:xg24_rb4186c"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:xg24_rb4186c"
+    },
+    "flash": {
+      "value": "1.5 MB",
+      "source": "zephyr:xg24_rb4186c"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/silabs/radio_boards/xg24/doc/index.html",
+      "source": "zephyr:xg24_rb4186c"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:xg24_rb4186c",
+      "label": "Zephyr board definition (xg24_rb4186c)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/silabs/radio_boards/xg24/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

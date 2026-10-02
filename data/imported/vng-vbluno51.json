@@ -1,0 +1,48 @@
+{
+  "slug": "vng-vbluno51",
+  "name": "VNG VBLUNO51",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "vng",
+  "chip": "nrf51822",
+  "ids": {
+    "platformio": [
+      "vbluno51"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF51822",
+      "source": "platformio:vbluno51"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0",
+      "source": "platformio:vbluno51"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:vbluno51"
+    },
+    "upload_limits": {
+      "value": "128 KB flash, 32 KB RAM",
+      "source": "platformio:vbluno51"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "VNG VBLUNO51 product page",
+      "url": "https://vngiotlab.github.io/vbluno/mydoc_introduction.html"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:vbluno51",
+      "label": "PlatformIO board definition (vbluno51)",
+      "url": "https://github.com/platformio/platform-nordicnrf51/blob/521963027651adfb1cd631d98767251dee254354/boards/vbluno51.json",
+      "kind": "import",
+      "revision": "521963027651adfb1cd631d98767251dee254354"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

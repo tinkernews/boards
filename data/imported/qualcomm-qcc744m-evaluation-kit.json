@@ -1,0 +1,40 @@
+{
+  "slug": "qualcomm-qcc744m-evaluation-kit",
+  "name": "QCC744M Evaluation Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "qualcomm",
+  "ids": {
+    "zephyr": [
+      "qcc744m_evk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "BL618M05Q2I",
+      "source": "zephyr:qcc744m_evk"
+    },
+    "ram": {
+      "value": "320 KB",
+      "source": "zephyr:qcc744m_evk"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/qcom/qcc744m_evk/doc/index.html",
+      "source": "zephyr:qcc744m_evk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:qcc744m_evk",
+      "label": "Zephyr board definition (qcc744m_evk)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/qcom/qcc744m_evk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

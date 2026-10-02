@@ -1,0 +1,44 @@
+{
+  "slug": "silicon-labs-efm32-pearl-gecko-slstk3401a",
+  "name": "EFM32 Pearl Gecko (SLSTK3401A)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "silicon-labs",
+  "ids": {
+    "zephyr": [
+      "slstk3401a"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "EFM32PG1B200F256GM48",
+      "source": "zephyr:slstk3401a"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:slstk3401a"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:slstk3401a"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/silabs/starter_kits/slstk3401a/doc/index.html",
+      "source": "zephyr:slstk3401a"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:slstk3401a",
+      "label": "Zephyr board definition (slstk3401a)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/silabs/starter_kits/slstk3401a/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "phytec-phyboard-atlas-i-mx-rt1170",
+  "name": "phyBOARD-Atlas i.MX RT1170",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "phytec",
+  "ids": {
+    "zephyr": [
+      "phyboard_atlas"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MIMXRT1176",
+      "source": "zephyr:phyboard_atlas"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:phyboard_atlas"
+    },
+    "flash": {
+      "value": "16 MB",
+      "source": "zephyr:phyboard_atlas"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/phytec/phyboard_atlas/doc/index.html",
+      "source": "zephyr:phyboard_atlas"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:phyboard_atlas",
+      "label": "Zephyr board definition (phyboard_atlas)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/phytec/phyboard_atlas/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

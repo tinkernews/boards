@@ -1,0 +1,165 @@
+{
+  "slug": "seeed-studio-xiao-esp32-s3-trmnl-diy-kit",
+  "name": "Seeed Studio XIAO ESP32-S3 TRMNL DIY Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "seeed",
+  "chip": "esp32-s3",
+  "ids": {
+    "circuitpython": [
+      "seeed_xiao_esp32_s3_trmnl_diy_kit"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/seeed_xiao_esp32_s3_trmnl_diy_kit/",
+      "source": "circuitpython:seeed_xiao_esp32_s3_trmnl_diy_kit"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:seeed_xiao_esp32_s3_trmnl_diy_kit",
+    "list": [
+      {
+        "pin": "GPIO1",
+        "names": [
+          "BAT_ADC"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "BTN1"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "BTN2"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "EDP_BUSY"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "BTN3"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "ADC_EN"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "SPI0_CLK"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "SPI0_MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "EDP_DC"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "SPI1_MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "SPI1_MISO"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "SPI1_CLK"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "LED"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "EDP_RES"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "SPI1_CS0"
+        ]
+      },
+      {
+        "pin": "GPIO40",
+        "names": [
+          "SPI1_CS1"
+        ]
+      },
+      {
+        "pin": "GPIO41",
+        "names": [
+          "D14",
+          "RX"
+        ]
+      },
+      {
+        "pin": "GPIO42",
+        "names": [
+          "D15",
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO43",
+        "names": [
+          "PWR_EN"
+        ]
+      },
+      {
+        "pin": "GPIO44",
+        "names": [
+          "SPI0_CS"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:seeed_xiao_esp32_s3_trmnl_diy_kit",
+      "label": "CircuitPython board definition (seeed_xiao_esp32_s3_trmnl_diy_kit)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/seeed_xiao_esp32_s3_trmnl_diy_kit.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:seeed_xiao_esp32_s3_trmnl_diy_kit",
+      "label": "CircuitPython pin definitions (seeed_xiao_esp32_s3_trmnl_diy_kit)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/seeed_xiao_esp32_s3_trmnl_diy_kit/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "sainsmart-due-programming-port",
+  "name": "SainSmart Due (Programming Port)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sainsmart",
+  "chip": "atsam3x8e",
+  "ids": {
+    "platformio": [
+      "sainSmartDue"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAM3X8E",
+      "source": "platformio:sainsmartdue"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M3",
+      "source": "platformio:sainsmartdue"
+    },
+    "clock": {
+      "value": "84 MHz",
+      "source": "platformio:sainsmartdue"
+    },
+    "upload_limits": {
+      "value": "512 KB flash, 96 KB RAM",
+      "source": "platformio:sainsmartdue"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "SainSmart Due (Programming Port) product page",
+      "url": "http://www.sainsmart.com/arduino/control-boards/sainsmart-due-atmel-sam3x8e-arm-cortex-m3-board-black.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelsam/sainSmartDue.html",
+      "source": "platformio:sainsmartdue"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:sainsmartdue",
+      "label": "PlatformIO board definition (sainSmartDue)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/sainSmartDue.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "seeed-arch-max",
+  "name": "Seeed Arch Max",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "seeed",
+  "chip": "stm32f407",
+  "ids": {
+    "platformio": [
+      "seeedArchMax"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F407",
+      "source": "platformio:seeedarchmax"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:seeedarchmax"
+    },
+    "clock": {
+      "value": "168 MHz",
+      "source": "platformio:seeedarchmax"
+    },
+    "upload_limits": {
+      "value": "512 KB flash, 192 KB RAM",
+      "source": "platformio:seeedarchmax"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Seeed Arch Max product page",
+      "url": "https://developer.mbed.org/platforms/Seeed-Arch-Max/"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:seeedarchmax",
+      "label": "PlatformIO board definition (seeedArchMax)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/seeedArchMax.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

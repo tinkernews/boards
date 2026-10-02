@@ -1,0 +1,112 @@
+{
+  "slug": "thingpulse-pendrive-s3",
+  "name": "ThingPulse Pendrive S3",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "thingpulse",
+  "chip": "esp32-s3",
+  "ids": {
+    "circuitpython": [
+      "thingpulse_pendrive_s3"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/thingpulse_pendrive_s3/",
+      "source": "circuitpython:thingpulse_pendrive_s3"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:thingpulse_pendrive_s3",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "BUTTON",
+          "BOOT0",
+          "D0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "D1",
+          "TouchIn"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "D5",
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "D33"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "D34",
+          "CS"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "D35",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "D36",
+          "SCLK"
+        ]
+      },
+      {
+        "pin": "GPIO37",
+        "names": [
+          "D37",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "D38"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "TX",
+          "D39"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:thingpulse_pendrive_s3",
+      "label": "CircuitPython board definition (thingpulse_pendrive_s3)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/thingpulse_pendrive_s3.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:thingpulse_pendrive_s3",
+      "label": "CircuitPython pin definitions (thingpulse_pendrive_s3)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/thingpulse_pendrive_s3/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

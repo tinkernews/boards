@@ -1,0 +1,367 @@
+{
+  "slug": "nordic-semiconductor-nrf52840-dk-pca10056",
+  "name": "nRF52840 DK (PCA10056)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nordic-semiconductor",
+  "chip": "nrf52840",
+  "ids": {
+    "circuitpython": [
+      "pca10056"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/pca10056/",
+      "source": "circuitpython:pca10056"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:pca10056",
+    "list": [
+      {
+        "pin": "P0_00",
+        "names": [
+          "P0_00"
+        ]
+      },
+      {
+        "pin": "P0_01",
+        "names": [
+          "P0_01"
+        ]
+      },
+      {
+        "pin": "P0_02",
+        "names": [
+          "P0_02"
+        ]
+      },
+      {
+        "pin": "P0_03",
+        "names": [
+          "P0_03",
+          "A0"
+        ]
+      },
+      {
+        "pin": "P0_04",
+        "names": [
+          "P0_04",
+          "A1"
+        ]
+      },
+      {
+        "pin": "P0_05",
+        "names": [
+          "P0_05"
+        ]
+      },
+      {
+        "pin": "P0_06",
+        "names": [
+          "P0_06"
+        ]
+      },
+      {
+        "pin": "P0_07",
+        "names": [
+          "P0_07"
+        ]
+      },
+      {
+        "pin": "P0_08",
+        "names": [
+          "P0_08"
+        ]
+      },
+      {
+        "pin": "P0_09",
+        "names": [
+          "P0_09"
+        ]
+      },
+      {
+        "pin": "P0_10",
+        "names": [
+          "P0_10"
+        ]
+      },
+      {
+        "pin": "P0_11",
+        "names": [
+          "P0_11",
+          "BUTTON1"
+        ]
+      },
+      {
+        "pin": "P0_12",
+        "names": [
+          "P0_12",
+          "BUTTON2"
+        ]
+      },
+      {
+        "pin": "P0_13",
+        "names": [
+          "P0_13",
+          "L",
+          "LED1"
+        ]
+      },
+      {
+        "pin": "P0_14",
+        "names": [
+          "P0_14",
+          "LED2"
+        ]
+      },
+      {
+        "pin": "P0_15",
+        "names": [
+          "P0_15",
+          "LED3"
+        ]
+      },
+      {
+        "pin": "P0_16",
+        "names": [
+          "P0_16",
+          "LED4"
+        ]
+      },
+      {
+        "pin": "P0_17",
+        "names": [
+          "P0_17"
+        ]
+      },
+      {
+        "pin": "P0_18",
+        "names": [
+          "P0_18"
+        ]
+      },
+      {
+        "pin": "P0_19",
+        "names": [
+          "P0_19"
+        ]
+      },
+      {
+        "pin": "P0_20",
+        "names": [
+          "P0_20"
+        ]
+      },
+      {
+        "pin": "P0_21",
+        "names": [
+          "P0_21"
+        ]
+      },
+      {
+        "pin": "P0_22",
+        "names": [
+          "P0_22"
+        ]
+      },
+      {
+        "pin": "P0_23",
+        "names": [
+          "P0_23"
+        ]
+      },
+      {
+        "pin": "P0_24",
+        "names": [
+          "P0_24",
+          "BUTTON3"
+        ]
+      },
+      {
+        "pin": "P0_25",
+        "names": [
+          "P0_25",
+          "BUTTON4"
+        ]
+      },
+      {
+        "pin": "P0_26",
+        "names": [
+          "P0_26",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "P0_27",
+        "names": [
+          "P0_27",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "P0_28",
+        "names": [
+          "P0_28",
+          "A2"
+        ]
+      },
+      {
+        "pin": "P0_29",
+        "names": [
+          "P0_29",
+          "A3"
+        ]
+      },
+      {
+        "pin": "P0_30",
+        "names": [
+          "P0_30",
+          "A4"
+        ]
+      },
+      {
+        "pin": "P0_31",
+        "names": [
+          "P0_31",
+          "A5"
+        ]
+      },
+      {
+        "pin": "P1_00",
+        "names": [
+          "P1_00"
+        ]
+      },
+      {
+        "pin": "P1_01",
+        "names": [
+          "P1_01",
+          "D0",
+          "RX"
+        ]
+      },
+      {
+        "pin": "P1_02",
+        "names": [
+          "P1_02",
+          "D1",
+          "TX"
+        ]
+      },
+      {
+        "pin": "P1_03",
+        "names": [
+          "P1_03",
+          "D2"
+        ]
+      },
+      {
+        "pin": "P1_04",
+        "names": [
+          "P1_04",
+          "D3"
+        ]
+      },
+      {
+        "pin": "P1_05",
+        "names": [
+          "P1_05",
+          "D4"
+        ]
+      },
+      {
+        "pin": "P1_06",
+        "names": [
+          "P1_06",
+          "D5"
+        ]
+      },
+      {
+        "pin": "P1_07",
+        "names": [
+          "P1_07",
+          "D6"
+        ]
+      },
+      {
+        "pin": "P1_08",
+        "names": [
+          "P1_08",
+          "D7"
+        ]
+      },
+      {
+        "pin": "P1_09",
+        "names": [
+          "P1_09"
+        ]
+      },
+      {
+        "pin": "P1_10",
+        "names": [
+          "P1_10",
+          "D8"
+        ]
+      },
+      {
+        "pin": "P1_11",
+        "names": [
+          "P1_11",
+          "D9"
+        ]
+      },
+      {
+        "pin": "P1_12",
+        "names": [
+          "P1_12",
+          "D10"
+        ]
+      },
+      {
+        "pin": "P1_13",
+        "names": [
+          "P1_13",
+          "D11",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "P1_14",
+        "names": [
+          "P1_14",
+          "D12",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "P1_15",
+        "names": [
+          "P1_15",
+          "D13",
+          "SCK"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:pca10056",
+      "label": "CircuitPython board definition (pca10056)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/pca10056.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:pca10056",
+      "label": "CircuitPython pin definitions (pca10056)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/nordic/boards/pca10056/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

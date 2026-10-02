@@ -1,0 +1,41 @@
+{
+  "slug": "vngiotlab-nrf51-vbluno51",
+  "name": "nRF51-VBLUno51",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "vngiotlab",
+  "chip": "nrf51822",
+  "ids": {
+    "zephyr": [
+      "nrf51_vbluno51"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF51822",
+      "source": "zephyr:nrf51_vbluno51"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:nrf51_vbluno51"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/vngiotlab/nrf51_vbluno51/doc/index.html",
+      "source": "zephyr:nrf51_vbluno51"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:nrf51_vbluno51",
+      "label": "Zephyr board definition (nrf51_vbluno51)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/vngiotlab/nrf51_vbluno51/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

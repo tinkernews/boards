@@ -1,0 +1,44 @@
+{
+  "slug": "silicon-labs-efm32-wonder-gecko-efm32wg-stk3800",
+  "name": "EFM32 Wonder Gecko (EFM32WG-STK3800)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "silicon-labs",
+  "ids": {
+    "zephyr": [
+      "efm32wg_stk3800"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "EFM32WG990F256",
+      "source": "zephyr:efm32wg_stk3800"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:efm32wg_stk3800"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:efm32wg_stk3800"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/silabs/starter_kits/efm32wg_stk3800/doc/index.html",
+      "source": "zephyr:efm32wg_stk3800"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:efm32wg_stk3800",
+      "label": "Zephyr board definition (efm32wg_stk3800)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/silabs/starter_kits/efm32wg_stk3800/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

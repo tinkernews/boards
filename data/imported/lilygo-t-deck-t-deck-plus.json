@@ -1,0 +1,37 @@
+{
+  "slug": "lilygo-t-deck-t-deck-plus",
+  "name": "LilyGO T-Deck / T-Deck Plus",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "lilygo",
+  "chip": "esp32-s3",
+  "ids": {
+    "zephyr": [
+      "t_deck"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-S3",
+      "source": "zephyr:t_deck"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/lilygo/t_deck/doc/index.html",
+      "source": "zephyr:t_deck"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:t_deck",
+      "label": "Zephyr board definition (t_deck)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/lilygo/t_deck/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

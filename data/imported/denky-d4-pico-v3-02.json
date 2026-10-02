@@ -1,0 +1,59 @@
+{
+  "slug": "denky-d4-pico-v3-02",
+  "name": "Denky D4 (PICO-V3-02)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "denky",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "denky_d4"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:denky_d4"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:denky_d4"
+    },
+    "upload_limits": {
+      "value": "8 MB flash, 320 KB RAM",
+      "source": "platformio:denky_d4"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Denky D4 (PICO-V3-02) product page",
+      "url": "https://en.wikipedia.org/wiki/ESP32"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/denky_d4.html",
+      "source": "platformio:denky_d4"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/denky_d4.html",
+      "source": "platformio:denky_d4"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:denky_d4",
+      "label": "PlatformIO board definition (denky_d4)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/denky_d4.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

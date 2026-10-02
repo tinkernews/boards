@@ -1,0 +1,53 @@
+{
+  "slug": "adafruit-circuit-playground-classic",
+  "name": "Adafruit Circuit Playground Classic",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "atmega32u4",
+  "ids": {
+    "platformio": [
+      "circuitplay_classic"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega32U4",
+      "source": "platformio:circuitplay_classic"
+    },
+    "clock": {
+      "value": "8 MHz",
+      "source": "platformio:circuitplay_classic"
+    },
+    "upload_limits": {
+      "value": "28 KB flash, 2.5 KB RAM",
+      "source": "platformio:circuitplay_classic"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Adafruit Circuit Playground Classic product page",
+      "url": "http://www.adafruit.com/product/3000"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/circuitplay_classic.html",
+      "source": "platformio:circuitplay_classic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:circuitplay_classic",
+      "label": "PlatformIO board definition (circuitplay_classic)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/circuitplay_classic.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

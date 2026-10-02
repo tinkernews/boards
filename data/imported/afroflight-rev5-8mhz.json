@@ -1,0 +1,57 @@
+{
+  "slug": "afroflight-rev5-8mhz",
+  "name": "AfroFlight Rev5 (8MHz)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "afroflight",
+  "chip": "stm32f103cb",
+  "ids": {
+    "platformio": [
+      "afroflight_f103cb"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F103CB / RB",
+      "source": "platformio:afroflight_f103cb"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M3",
+      "source": "platformio:afroflight_f103cb"
+    },
+    "clock": {
+      "value": "72 MHz",
+      "source": "platformio:afroflight_f103cb"
+    },
+    "upload_limits": {
+      "value": "128 KB flash, 20 KB RAM",
+      "source": "platformio:afroflight_f103cb"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "AfroFlight Rev5 (8MHz) product page",
+      "url": "https://www.dronetrest.com/t/naze-32-revision-6-flight-controller-guide/1605"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/afroflight_f103cb.html",
+      "source": "platformio:afroflight_f103cb"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:afroflight_f103cb",
+      "label": "PlatformIO board definition (afroflight_f103cb)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/afroflight_f103cb.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "nxp-semiconductors-frdm-k22f",
+  "name": "FRDM-K22F",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "ids": {
+    "zephyr": [
+      "frdm_k22f"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MK22F51212",
+      "source": "zephyr:frdm_k22f"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:frdm_k22f"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nxp/frdm_k22f/doc/index.html",
+      "source": "zephyr:frdm_k22f"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:frdm_k22f",
+      "label": "Zephyr board definition (frdm_k22f)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nxp/frdm_k22f/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

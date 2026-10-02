@@ -1,0 +1,272 @@
+{
+  "slug": "microchip-technology-sam-e51-curiosity-nano",
+  "name": "SAM E51 Curiosity Nano",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "ids": {
+    "circuitpython": [
+      "microchip_curiosity_circuitpython"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/microchip_curiosity_circuitpython/",
+      "source": "circuitpython:microchip_curiosity_circuitpython"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:microchip_curiosity_circuitpython",
+    "list": [
+      {
+        "pin": "PA02",
+        "names": [
+          "DAC"
+        ]
+      },
+      {
+        "pin": "PA03",
+        "names": [
+          "VREF"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "LCD_MOSI"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "LCD_SCK"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "LCD_BL"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "LCD_CS"
+        ]
+      },
+      {
+        "pin": "PA12",
+        "names": [
+          "BLE_TX"
+        ]
+      },
+      {
+        "pin": "PA13",
+        "names": [
+          "BLE_RX"
+        ]
+      },
+      {
+        "pin": "PA14",
+        "names": [
+          "BLE_CLR"
+        ]
+      },
+      {
+        "pin": "PA15",
+        "names": [
+          "D0"
+        ]
+      },
+      {
+        "pin": "PA16",
+        "names": [
+          "SD_MOSI"
+        ]
+      },
+      {
+        "pin": "PA17",
+        "names": [
+          "SD_SCK"
+        ]
+      },
+      {
+        "pin": "PA18",
+        "names": [
+          "SD_MISO"
+        ]
+      },
+      {
+        "pin": "PA19",
+        "names": [
+          "SD_CS"
+        ]
+      },
+      {
+        "pin": "PA20",
+        "names": [
+          "D1"
+        ]
+      },
+      {
+        "pin": "PA21",
+        "names": [
+          "D2"
+        ]
+      },
+      {
+        "pin": "PA22",
+        "names": [
+          "DEBUG_TX"
+        ]
+      },
+      {
+        "pin": "PA23",
+        "names": [
+          "DEBUG_RX"
+        ]
+      },
+      {
+        "pin": "PA27",
+        "names": [
+          "D3"
+        ]
+      },
+      {
+        "pin": "PB00",
+        "names": [
+          "MISO",
+          "D8",
+          "IMU_INT"
+        ]
+      },
+      {
+        "pin": "PB01",
+        "names": [
+          "CS",
+          "D9",
+          "IMU_ADDR"
+        ]
+      },
+      {
+        "pin": "PB02",
+        "names": [
+          "MOSI",
+          "D10"
+        ]
+      },
+      {
+        "pin": "PB03",
+        "names": [
+          "SCK",
+          "D11"
+        ]
+      },
+      {
+        "pin": "PB04",
+        "names": [
+          "A0"
+        ]
+      },
+      {
+        "pin": "PB05",
+        "names": [
+          "A1"
+        ]
+      },
+      {
+        "pin": "PB06",
+        "names": [
+          "A2"
+        ]
+      },
+      {
+        "pin": "PB07",
+        "names": [
+          "A3"
+        ]
+      },
+      {
+        "pin": "PB08",
+        "names": [
+          "A4"
+        ]
+      },
+      {
+        "pin": "PB09",
+        "names": [
+          "A5",
+          "CAP1"
+        ]
+      },
+      {
+        "pin": "PB14",
+        "names": [
+          "D4"
+        ]
+      },
+      {
+        "pin": "PB15",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "PB16",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "PB17",
+        "names": [
+          "D7"
+        ]
+      },
+      {
+        "pin": "PB22",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "PB23",
+        "names": [
+          "LED",
+          "D13"
+        ]
+      },
+      {
+        "pin": "PB30",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "PB31",
+        "names": [
+          "SDA"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:microchip_curiosity_circuitpython",
+      "label": "CircuitPython board definition (microchip_curiosity_circuitpython)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/microchip_curiosity_circuitpython.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:microchip_curiosity_circuitpython",
+      "label": "CircuitPython pin definitions (microchip_curiosity_circuitpython)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/microchip_curiosity_circuitpython/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

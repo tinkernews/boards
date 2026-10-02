@@ -1,0 +1,99 @@
+{
+  "slug": "stmicroelectronics-st-nucleo-l073rz",
+  "name": "ST Nucleo L073RZ",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "aliases": [
+    "Nucleo L073RZ"
+  ],
+  "ids": {
+    "platformio": [
+      "nucleo_l073rz"
+    ],
+    "zephyr": [
+      "nucleo_l073rz"
+    ],
+    "micropython": [
+      "NUCLEO_L073RZ"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32L073RZ",
+      "source": "platformio:nucleo_l073rz"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:nucleo_l073rz"
+    },
+    "clock": {
+      "value": "32 MHz",
+      "source": "platformio:nucleo_l073rz"
+    },
+    "upload_limits": {
+      "value": "192 KB flash, 20 KB RAM",
+      "source": "platformio:nucleo_l073rz"
+    },
+    "ram": {
+      "value": "20 KB",
+      "source": "zephyr:nucleo_l073rz"
+    },
+    "flash": {
+      "value": "192 KB",
+      "source": "zephyr:nucleo_l073rz"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ST Nucleo L073RZ product page",
+      "url": "https://developer.mbed.org/platforms/ST-Nucleo-L073RZ/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/nucleo_l073rz.html",
+      "source": "platformio:nucleo_l073rz"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/nucleo_l073rz/doc/index.html",
+      "source": "zephyr:nucleo_l073rz"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/NUCLEO_L073RZ/",
+      "source": "micropython:nucleo_l073rz"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:nucleo_l073rz",
+      "label": "PlatformIO board definition (nucleo_l073rz)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/nucleo_l073rz.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    },
+    {
+      "id": "zephyr:nucleo_l073rz",
+      "label": "Zephyr board definition (nucleo_l073rz)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/nucleo_l073rz/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "micropython:nucleo_l073rz",
+      "label": "MicroPython board definition (NUCLEO_L073RZ)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/stm32/boards/NUCLEO_L073RZ/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

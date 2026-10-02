@@ -1,0 +1,44 @@
+{
+  "slug": "nxp-semiconductors-frdm-ke17z512",
+  "name": "FRDM-KE17Z512",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "ids": {
+    "zephyr": [
+      "frdm_ke17z512"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MKE17Z9",
+      "source": "zephyr:frdm_ke17z512"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:frdm_ke17z512"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:frdm_ke17z512"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nxp/frdm_ke17z512/doc/index.html",
+      "source": "zephyr:frdm_ke17z512"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:frdm_ke17z512",
+      "label": "Zephyr board definition (frdm_ke17z512)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nxp/frdm_ke17z512/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

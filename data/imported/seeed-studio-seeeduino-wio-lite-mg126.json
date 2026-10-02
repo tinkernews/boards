@@ -1,0 +1,57 @@
+{
+  "slug": "seeed-studio-seeeduino-wio-lite-mg126",
+  "name": "Seeeduino Wio Lite MG126",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "seeed",
+  "chip": "atsamd21g18",
+  "ids": {
+    "platformio": [
+      "seeed_wio_lite_mg126"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAMD21G18",
+      "source": "platformio:seeed_wio_lite_mg126"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:seeed_wio_lite_mg126"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:seeed_wio_lite_mg126"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:seeed_wio_lite_mg126"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Seeeduino Wio Lite MG126 product page",
+      "url": "https://www.seeedstudio.com/Wio-Lite-MG126-p-4189.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelsam/seeed_wio_lite_mg126.html",
+      "source": "platformio:seeed_wio_lite_mg126"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:seeed_wio_lite_mg126",
+      "label": "PlatformIO board definition (seeed_wio_lite_mg126)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/seeed_wio_lite_mg126.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

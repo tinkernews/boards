@@ -1,0 +1,53 @@
+{
+  "slug": "amperka-wifi-slot",
+  "name": "WiFi Slot",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "amperka",
+  "chip": "esp8266",
+  "ids": {
+    "platformio": [
+      "wifi_slot"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP8266EX",
+      "source": "platformio:wifi_slot"
+    },
+    "clock": {
+      "value": "80 MHz",
+      "source": "platformio:wifi_slot"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 80 KB RAM",
+      "source": "platformio:wifi_slot"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "WiFi Slot product page",
+      "url": "https://amperka.ru/product/wifi-slot"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif8266/wifi_slot.html",
+      "source": "platformio:wifi_slot"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:wifi_slot",
+      "label": "PlatformIO board definition (wifi_slot)",
+      "url": "https://github.com/platformio/platform-espressif8266/blob/668c2a2e4f16bd83b6c812f1ee0605c62b3ce2d2/boards/wifi_slot.json",
+      "kind": "import",
+      "revision": "668c2a2e4f16bd83b6c812f1ee0605c62b3ce2d2"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

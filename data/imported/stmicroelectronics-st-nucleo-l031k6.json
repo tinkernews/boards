@@ -1,0 +1,83 @@
+{
+  "slug": "stmicroelectronics-st-nucleo-l031k6",
+  "name": "ST Nucleo L031K6",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "aliases": [
+    "Nucleo L031K6"
+  ],
+  "ids": {
+    "platformio": [
+      "nucleo_l031k6"
+    ],
+    "zephyr": [
+      "nucleo_l031k6"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32L031K6T6",
+      "source": "platformio:nucleo_l031k6"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:nucleo_l031k6"
+    },
+    "clock": {
+      "value": "32 MHz",
+      "source": "platformio:nucleo_l031k6"
+    },
+    "upload_limits": {
+      "value": "32 KB flash, 8 KB RAM",
+      "source": "platformio:nucleo_l031k6"
+    },
+    "ram": {
+      "value": "8 KB",
+      "source": "zephyr:nucleo_l031k6"
+    },
+    "flash": {
+      "value": "32 KB",
+      "source": "zephyr:nucleo_l031k6"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ST Nucleo L031K6 product page",
+      "url": "https://developer.mbed.org/platforms/ST-Nucleo-L031K6/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/nucleo_l031k6.html",
+      "source": "platformio:nucleo_l031k6"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/nucleo_l031k6/doc/index.html",
+      "source": "zephyr:nucleo_l031k6"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:nucleo_l031k6",
+      "label": "PlatformIO board definition (nucleo_l031k6)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/nucleo_l031k6.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    },
+    {
+      "id": "zephyr:nucleo_l031k6",
+      "label": "Zephyr board definition (nucleo_l031k6)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/nucleo_l031k6/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

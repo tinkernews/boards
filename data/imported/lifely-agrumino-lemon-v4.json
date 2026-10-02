@@ -1,0 +1,53 @@
+{
+  "slug": "lifely-agrumino-lemon-v4",
+  "name": "Lifely Agrumino Lemon v4",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "lifely-cc",
+  "chip": "esp8266",
+  "ids": {
+    "platformio": [
+      "agruminolemon"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP8266EX",
+      "source": "platformio:agruminolemon"
+    },
+    "clock": {
+      "value": "80 MHz",
+      "source": "platformio:agruminolemon"
+    },
+    "upload_limits": {
+      "value": "2 MB flash, 80 KB RAM",
+      "source": "platformio:agruminolemon"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Lifely Agrumino Lemon v4 product page",
+      "url": "https://www.lifely.cc/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif8266/agruminolemon.html",
+      "source": "platformio:agruminolemon"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:agruminolemon",
+      "label": "PlatformIO board definition (agruminolemon)",
+      "url": "https://github.com/platformio/platform-espressif8266/blob/668c2a2e4f16bd83b6c812f1ee0605c62b3ce2d2/boards/agruminolemon.json",
+      "kind": "import",
+      "revision": "668c2a2e4f16bd83b6c812f1ee0605c62b3ce2d2"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

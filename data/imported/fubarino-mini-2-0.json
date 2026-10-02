@@ -1,0 +1,52 @@
+{
+  "slug": "fubarino-mini-2-0",
+  "name": "Mini 2.0",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "fubarino",
+  "ids": {
+    "platformio": [
+      "fubarino_mini_20"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "32MX270F256D",
+      "source": "platformio:fubarino_mini_20"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:fubarino_mini_20"
+    },
+    "upload_limits": {
+      "value": "240 KB flash, 62 KB RAM",
+      "source": "platformio:fubarino_mini_20"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Mini 2.0 product page",
+      "url": "http://fubarino.org/mini/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/microchippic32/fubarino_mini_20.html",
+      "source": "platformio:fubarino_mini_20"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:fubarino_mini_20",
+      "label": "PlatformIO board definition (fubarino_mini_20)",
+      "url": "https://github.com/platformio/platform-microchippic32/blob/f6e89308da11cfe35d7534696bf01abf3f442461/boards/fubarino_mini_20.json",
+      "kind": "import",
+      "revision": "f6e89308da11cfe35d7534696bf01abf3f442461"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

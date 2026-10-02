@@ -1,0 +1,53 @@
+{
+  "slug": "sparkfun-fio-v3-3-3v-8mhz",
+  "name": "SparkFun Fio V3 3.3V/8MHz",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sparkfun",
+  "chip": "atmega32u4",
+  "ids": {
+    "platformio": [
+      "sparkfun_fiov3"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega32U4",
+      "source": "platformio:sparkfun_fiov3"
+    },
+    "clock": {
+      "value": "8 MHz",
+      "source": "platformio:sparkfun_fiov3"
+    },
+    "upload_limits": {
+      "value": "28 KB flash, 2.5 KB RAM",
+      "source": "platformio:sparkfun_fiov3"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "SparkFun Fio V3 3.3V/8MHz product page",
+      "url": "https://www.sparkfun.com/products/11520"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/sparkfun_fiov3.html",
+      "source": "platformio:sparkfun_fiov3"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:sparkfun_fiov3",
+      "label": "PlatformIO board definition (sparkfun_fiov3)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/sparkfun_fiov3.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

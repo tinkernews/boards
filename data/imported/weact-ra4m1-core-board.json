@@ -1,0 +1,45 @@
+{
+  "slug": "weact-ra4m1-core-board",
+  "name": "WeAct RA4M1 Core Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "weact",
+  "chip": "ra4m1",
+  "ids": {
+    "zephyr": [
+      "weact_ra4m1_core"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "Renesas RA4M1",
+      "source": "zephyr:weact_ra4m1_core"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:weact_ra4m1_core"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:weact_ra4m1_core"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/weact/ra4m1_core/doc/index.html",
+      "source": "zephyr:weact_ra4m1_core"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:weact_ra4m1_core",
+      "label": "Zephyr board definition (weact_ra4m1_core)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/weact/ra4m1_core/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

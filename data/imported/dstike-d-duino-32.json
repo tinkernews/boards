@@ -1,0 +1,59 @@
+{
+  "slug": "dstike-d-duino-32",
+  "name": "D-duino-32",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "dstike",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "d-duino-32"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:d-duino-32"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:d-duino-32"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:d-duino-32"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "D-duino-32 product page",
+      "url": "https://www.tindie.com/products/lspoplove/dstike-d-duino-32-v3/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/d-duino-32.html",
+      "source": "platformio:d-duino-32"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/d-duino-32.html",
+      "source": "platformio:d-duino-32"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:d-duino-32",
+      "label": "PlatformIO board definition (d-duino-32)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/d-duino-32.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

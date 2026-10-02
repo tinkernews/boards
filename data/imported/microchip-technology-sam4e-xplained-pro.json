@@ -1,0 +1,44 @@
+{
+  "slug": "microchip-technology-sam4e-xplained-pro",
+  "name": "SAM4E Xplained Pro",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "ids": {
+    "zephyr": [
+      "sam4e_xpro"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "SAM4E16E",
+      "source": "zephyr:sam4e_xpro"
+    },
+    "ram": {
+      "value": "128 KB",
+      "source": "zephyr:sam4e_xpro"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:sam4e_xpro"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/atmel/sam/sam4e_xpro/doc/index.html",
+      "source": "zephyr:sam4e_xpro"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:sam4e_xpro",
+      "label": "Zephyr board definition (sam4e_xpro)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/atmel/sam/sam4e_xpro/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

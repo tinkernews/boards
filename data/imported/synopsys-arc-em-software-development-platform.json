@@ -1,0 +1,40 @@
+{
+  "slug": "synopsys-arc-em-software-development-platform",
+  "name": "ARC EM Software Development Platform",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "synopsys",
+  "ids": {
+    "zephyr": [
+      "emsdp"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "EMSDP_EM4",
+      "source": "zephyr:emsdp"
+    },
+    "ram": {
+      "value": "128 KB",
+      "source": "zephyr:emsdp"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/snps/emsdp/doc/index.html",
+      "source": "zephyr:emsdp"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:emsdp",
+      "label": "Zephyr board definition (emsdp)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/snps/emsdp/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

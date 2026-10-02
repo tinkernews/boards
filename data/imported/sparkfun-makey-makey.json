@@ -1,0 +1,53 @@
+{
+  "slug": "sparkfun-makey-makey",
+  "name": "SparkFun Makey Makey",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sparkfun",
+  "chip": "atmega32u4",
+  "ids": {
+    "platformio": [
+      "sparkfun_makeymakey"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega32U4",
+      "source": "platformio:sparkfun_makeymakey"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:sparkfun_makeymakey"
+    },
+    "upload_limits": {
+      "value": "28 KB flash, 2.5 KB RAM",
+      "source": "platformio:sparkfun_makeymakey"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "SparkFun Makey Makey product page",
+      "url": "https://www.sparkfun.com/products/11511"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/sparkfun_makeymakey.html",
+      "source": "platformio:sparkfun_makeymakey"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:sparkfun_makeymakey",
+      "label": "PlatformIO board definition (sparkfun_makeymakey)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/sparkfun_makeymakey.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T11:14:32.694Z"
+}

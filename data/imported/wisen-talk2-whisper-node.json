@@ -1,0 +1,53 @@
+{
+  "slug": "wisen-talk2-whisper-node",
+  "name": "Talk2 Whisper Node",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "wisen",
+  "chip": "atmega328p",
+  "ids": {
+    "platformio": [
+      "whispernode"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega328P",
+      "source": "platformio:whispernode"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:whispernode"
+    },
+    "upload_limits": {
+      "value": "31.5 KB flash, 2 KB RAM",
+      "source": "platformio:whispernode"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Talk2 Whisper Node product page",
+      "url": "https://wisen.com.au/store/products/whisper-node-avr/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/whispernode.html",
+      "source": "platformio:whispernode"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:whispernode",
+      "label": "PlatformIO board definition (whispernode)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/whispernode.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

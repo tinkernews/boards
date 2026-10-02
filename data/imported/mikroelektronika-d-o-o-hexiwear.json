@@ -1,0 +1,36 @@
+{
+  "slug": "mikroelektronika-d-o-o-hexiwear",
+  "name": "Hexiwear",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "mikroelektronika-d-o-o",
+  "ids": {
+    "zephyr": [
+      "hexiwear"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MK64F12",
+      "source": "zephyr:hexiwear"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/mikroe/hexiwear/doc/index.html",
+      "source": "zephyr:hexiwear"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:hexiwear",
+      "label": "Zephyr board definition (hexiwear)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/mikroe/hexiwear/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

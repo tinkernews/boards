@@ -1,0 +1,45 @@
+{
+  "slug": "contextual-advanced-ble-cell",
+  "name": "Advanced BLE Cell",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "contextual",
+  "chip": "nrf52840",
+  "ids": {
+    "zephyr": [
+      "contextualelectronics_abc"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52840",
+      "source": "zephyr:contextualelectronics_abc"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:contextualelectronics_abc"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:contextualelectronics_abc"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/contextualelectronics/abc/doc/index.html",
+      "source": "zephyr:contextualelectronics_abc"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:contextualelectronics_abc",
+      "label": "Zephyr board definition (contextualelectronics_abc)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/contextualelectronics/abc/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

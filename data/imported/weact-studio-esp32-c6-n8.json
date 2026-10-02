@@ -1,0 +1,170 @@
+{
+  "slug": "weact-studio-esp32-c6-n8",
+  "name": "WeAct Studio ESP32-C6 N8",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "weact",
+  "chip": "esp32-c6",
+  "ids": {
+    "circuitpython": [
+      "weact_esp32c6_n8"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/weact_esp32c6_n8/",
+      "source": "circuitpython:weact_esp32c6_n8"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:weact_esp32c6_n8",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "IO0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "IO1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "IO2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "IO3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "IO4"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "IO5"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "IO6"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "IO7"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "IO8",
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "IO9"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "IO10"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "IO11"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "IO15"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "RX"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "IO18"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "IO19"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "IO20"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "IO21"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "IO22"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "IO23"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:weact_esp32c6_n8",
+      "label": "CircuitPython board definition (weact_esp32c6_n8)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/weact_esp32c6_n8.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:weact_esp32c6_n8",
+      "label": "CircuitPython pin definitions (weact_esp32c6_n8)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/weact_esp32c6_n8/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

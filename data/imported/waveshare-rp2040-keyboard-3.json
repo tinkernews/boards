@@ -1,0 +1,45 @@
+{
+  "slug": "waveshare-rp2040-keyboard-3",
+  "name": "RP2040-Keyboard-3",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "waveshare",
+  "chip": "rp2040",
+  "ids": {
+    "zephyr": [
+      "rp2040_keyboard_3"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "RP2040",
+      "source": "zephyr:rp2040_keyboard_3"
+    },
+    "ram": {
+      "value": "264 KB",
+      "source": "zephyr:rp2040_keyboard_3"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:rp2040_keyboard_3"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/waveshare/rp2040_keyboard_3/doc/index.html",
+      "source": "zephyr:rp2040_keyboard_3"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:rp2040_keyboard_3",
+      "label": "Zephyr board definition (rp2040_keyboard_3)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/waveshare/rp2040_keyboard_3/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

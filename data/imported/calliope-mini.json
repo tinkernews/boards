@@ -1,0 +1,65 @@
+{
+  "slug": "calliope-mini",
+  "name": "Calliope mini",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "calliope",
+  "chip": "nrf51822",
+  "ids": {
+    "platformio": [
+      "calliope_mini",
+      "calliopemini_v3"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF51822",
+      "source": "platformio:calliope_mini"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0",
+      "source": "platformio:calliope_mini"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:calliope_mini"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 16 KB RAM",
+      "source": "platformio:calliope_mini"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Calliope mini product page",
+      "url": "https://calliope.cc"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/nordicnrf51/calliope_mini.html",
+      "source": "platformio:calliope_mini"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:calliope_mini",
+      "label": "PlatformIO board definition (calliope_mini)",
+      "url": "https://github.com/platformio/platform-nordicnrf51/blob/521963027651adfb1cd631d98767251dee254354/boards/calliope_mini.json",
+      "kind": "import",
+      "revision": "521963027651adfb1cd631d98767251dee254354"
+    },
+    {
+      "id": "platformio:calliopemini_v3",
+      "label": "PlatformIO board definition (calliopemini_v3)",
+      "url": "https://github.com/platformio/platform-nordicnrf52/blob/278176a7f7ffe2d001eb93eafa271c83b38222e4/boards/calliopemini_v3.json",
+      "kind": "import",
+      "revision": "278176a7f7ffe2d001eb93eafa271c83b38222e4"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

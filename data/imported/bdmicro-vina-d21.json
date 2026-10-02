@@ -1,0 +1,31 @@
+{
+  "slug": "bdmicro-vina-d21",
+  "name": "Vina-D21",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "bdmicro",
+  "chip": "atsamd21g18",
+  "ids": {
+    "circuitpython": [
+      "bdmicro_vina_d21"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/bdmicro_vina_d21/",
+      "source": "circuitpython:bdmicro_vina_d21"
+    }
+  ],
+  "sources": [
+    {
+      "id": "circuitpython:bdmicro_vina_d21",
+      "label": "CircuitPython board definition (bdmicro_vina_d21)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/bdmicro_vina_d21.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

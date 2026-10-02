@@ -1,0 +1,40 @@
+{
+  "slug": "pine64-pinecone-bl602-evaluation-board",
+  "name": "PineCone BL602 Evaluation Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "pine64",
+  "ids": {
+    "zephyr": [
+      "pinecone"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "BL602C20Q2I",
+      "source": "zephyr:pinecone"
+    },
+    "ram": {
+      "value": "176 KB",
+      "source": "zephyr:pinecone"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/pine64/pinecone/doc/index.html",
+      "source": "zephyr:pinecone"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:pinecone",
+      "label": "Zephyr board definition (pinecone)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/pine64/pinecone/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

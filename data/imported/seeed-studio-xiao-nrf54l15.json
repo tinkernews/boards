@@ -1,0 +1,44 @@
+{
+  "slug": "seeed-studio-xiao-nrf54l15",
+  "name": "XIAO NRF54L15",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "seeed",
+  "ids": {
+    "zephyr": [
+      "xiao_nrf54l15"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "NRF54L15",
+      "source": "zephyr:xiao_nrf54l15"
+    },
+    "ram": {
+      "value": "188 KB",
+      "source": "zephyr:xiao_nrf54l15"
+    },
+    "flash": {
+      "value": "1.39 MB",
+      "source": "zephyr:xiao_nrf54l15"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/seeed/xiao_nrf54l15/doc/index.html",
+      "source": "zephyr:xiao_nrf54l15"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:xiao_nrf54l15",
+      "label": "Zephyr board definition (xiao_nrf54l15)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/seeed/xiao_nrf54l15/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,203 @@
+{
+  "slug": "adafruit-qt-py-rp2040",
+  "name": "QT Py RP2040",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "rp2040",
+  "ids": {
+    "zephyr": [
+      "adafruit_qt_py_rp2040"
+    ],
+    "circuitpython": [
+      "adafruit_qtpy_rp2040"
+    ],
+    "micropython": [
+      "ADAFRUIT_QTPY_RP2040"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "RP2040",
+      "source": "zephyr:adafruit_qt_py_rp2040"
+    },
+    "ram": {
+      "value": "264 KB",
+      "source": "zephyr:adafruit_qt_py_rp2040"
+    },
+    "flash": {
+      "value": "8 MB",
+      "source": "zephyr:adafruit_qt_py_rp2040"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "QT Py RP2040 product page",
+      "url": "https://www.adafruit.com/product/4900"
+    }
+  ],
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/adafruit/qt_py_rp2040/doc/index.html",
+      "source": "zephyr:adafruit_qt_py_rp2040"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/ADAFRUIT_QTPY_RP2040/",
+      "source": "micropython:adafruit_qtpy_rp2040"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/adafruit_qtpy_rp2040/",
+      "source": "circuitpython:adafruit_qtpy_rp2040"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:adafruit_qtpy_rp2040",
+    "list": [
+      {
+        "pin": "GPIO3",
+        "names": [
+          "MOSI",
+          "D10"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "MISO",
+          "D9"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "RX",
+          "D7"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "SCK",
+          "D8"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "NEOPIXEL_POWER"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "TX",
+          "D6"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "BUTTON"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "SDA1"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "SCL1"
+        ]
+      },
+      {
+        "pin": "GPIO24",
+        "names": [
+          "SDA",
+          "D4"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "SCL",
+          "D5"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "A3",
+          "D3"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "A2",
+          "D2"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "A1",
+          "D1"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "A0",
+          "D0"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "zephyr:adafruit_qt_py_rp2040",
+      "label": "Zephyr board definition (adafruit_qt_py_rp2040)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/adafruit/qt_py_rp2040/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "circuitpython:adafruit_qtpy_rp2040",
+      "label": "CircuitPython board definition (adafruit_qtpy_rp2040)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/adafruit_qtpy_rp2040.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "micropython:adafruit_qtpy_rp2040",
+      "label": "MicroPython board definition (ADAFRUIT_QTPY_RP2040)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/rp2/boards/ADAFRUIT_QTPY_RP2040/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    },
+    {
+      "id": "circuitpython-pins:adafruit_qtpy_rp2040",
+      "label": "CircuitPython pin definitions (adafruit_qtpy_rp2040)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/adafruit_qtpy_rp2040/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

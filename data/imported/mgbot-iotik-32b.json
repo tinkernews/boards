@@ -1,0 +1,59 @@
+{
+  "slug": "mgbot-iotik-32b",
+  "name": "MGBOT IOTIK 32B",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "mgbot",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "mgbot-iotik32b"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:mgbot-iotik32b"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:mgbot-iotik32b"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:mgbot-iotik32b"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "MGBOT IOTIK 32B product page",
+      "url": "http://iotik.ru/en/iotik32b/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/mgbot-iotik32b.html",
+      "source": "platformio:mgbot-iotik32b"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/mgbot-iotik32b.html",
+      "source": "platformio:mgbot-iotik32b"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:mgbot-iotik32b",
+      "label": "PlatformIO board definition (mgbot-iotik32b)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/mgbot-iotik32b.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

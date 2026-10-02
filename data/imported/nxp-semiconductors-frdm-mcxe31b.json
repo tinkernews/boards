@@ -1,0 +1,44 @@
+{
+  "slug": "nxp-semiconductors-frdm-mcxe31b",
+  "name": "FRDM-MCXE31B",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "ids": {
+    "zephyr": [
+      "frdm_mcxe31b"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MCXE31B",
+      "source": "zephyr:frdm_mcxe31b"
+    },
+    "ram": {
+      "value": "288 KB",
+      "source": "zephyr:frdm_mcxe31b"
+    },
+    "flash": {
+      "value": "4 MB",
+      "source": "zephyr:frdm_mcxe31b"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nxp/frdm_mcxe31b/doc/index.html",
+      "source": "zephyr:frdm_mcxe31b"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:frdm_mcxe31b",
+      "label": "Zephyr board definition (frdm_mcxe31b)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nxp/frdm_mcxe31b/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

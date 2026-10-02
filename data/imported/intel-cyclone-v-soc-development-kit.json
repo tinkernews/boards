@@ -1,0 +1,36 @@
+{
+  "slug": "intel-cyclone-v-soc-development-kit",
+  "name": "Cyclone® V SoC Development Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "intel",
+  "ids": {
+    "zephyr": [
+      "cyclonev_socdk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "CYCLONEV",
+      "source": "zephyr:cyclonev_socdk"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/intel/socfpga_std/cyclonev_socdk/doc/index.html",
+      "source": "zephyr:cyclonev_socdk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:cyclonev_socdk",
+      "label": "Zephyr board definition (cyclonev_socdk)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/intel/socfpga_std/cyclonev_socdk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

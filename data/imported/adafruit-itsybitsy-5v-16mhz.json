@@ -1,0 +1,53 @@
+{
+  "slug": "adafruit-itsybitsy-5v-16mhz",
+  "name": "Adafruit ItsyBitsy 5V/16MHz",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "atmega32u4",
+  "ids": {
+    "platformio": [
+      "itsybitsy32u4_5V"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega32U4",
+      "source": "platformio:itsybitsy32u4_5v"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:itsybitsy32u4_5v"
+    },
+    "upload_limits": {
+      "value": "28 KB flash, 2.5 KB RAM",
+      "source": "platformio:itsybitsy32u4_5v"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Adafruit ItsyBitsy 5V/16MHz product page",
+      "url": "https://www.adafruit.com/product/3677"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/itsybitsy32u4_5V.html",
+      "source": "platformio:itsybitsy32u4_5v"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:itsybitsy32u4_5v",
+      "label": "PlatformIO board definition (itsybitsy32u4_5V)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/itsybitsy32u4_5V.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "antmicro-myra-sip-baseboard",
+  "name": "Myra SiP Baseboard",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "antmicro",
+  "ids": {
+    "zephyr": [
+      "myra_sip_baseboard"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MYRA",
+      "source": "zephyr:myra_sip_baseboard"
+    },
+    "ram": {
+      "value": "128 KB",
+      "source": "zephyr:myra_sip_baseboard"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:myra_sip_baseboard"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/antmicro/myra_sip_baseboard/doc/index.html",
+      "source": "zephyr:myra_sip_baseboard"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:myra_sip_baseboard",
+      "label": "Zephyr board definition (myra_sip_baseboard)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/antmicro/myra_sip_baseboard/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "arduino-mkr-gsm-1400",
+  "name": "Arduino MKR GSM 1400",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "chip": "atsamd21g18",
+  "ids": {
+    "platformio": [
+      "mkrgsm1400"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAMD21G18",
+      "source": "platformio:mkrgsm1400"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:mkrgsm1400"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:mkrgsm1400"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:mkrgsm1400"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Arduino MKR GSM 1400 product page",
+      "url": "https://store.arduino.cc/mkr-gsm-1400"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelsam/mkrgsm1400.html",
+      "source": "platformio:mkrgsm1400"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:mkrgsm1400",
+      "label": "PlatformIO board definition (mkrgsm1400)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/mkrgsm1400.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

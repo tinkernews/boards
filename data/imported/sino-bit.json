@@ -1,0 +1,57 @@
+{
+  "slug": "sino-bit",
+  "name": "Sino:Bit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sino-bit",
+  "chip": "nrf51822",
+  "ids": {
+    "platformio": [
+      "Sinobit"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF51822",
+      "source": "platformio:sinobit"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0",
+      "source": "platformio:sinobit"
+    },
+    "clock": {
+      "value": "32 MHz",
+      "source": "platformio:sinobit"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:sinobit"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Sino:Bit product page",
+      "url": "https://github.com/sinobitorg/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/nordicnrf51/Sinobit.html",
+      "source": "platformio:sinobit"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:sinobit",
+      "label": "PlatformIO board definition (Sinobit)",
+      "url": "https://github.com/platformio/platform-nordicnrf51/blob/521963027651adfb1cd631d98767251dee254354/boards/Sinobit.json",
+      "kind": "import",
+      "revision": "521963027651adfb1cd631d98767251dee254354"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

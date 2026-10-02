@@ -1,0 +1,53 @@
+{
+  "slug": "microduino-core-atmega328p-8m-3-3v",
+  "name": "Microduino Core (Atmega328P@8M,3.3V)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microduino",
+  "chip": "atmega328p",
+  "ids": {
+    "platformio": [
+      "328p8m"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega328P",
+      "source": "platformio:328p8m"
+    },
+    "clock": {
+      "value": "8 MHz",
+      "source": "platformio:328p8m"
+    },
+    "upload_limits": {
+      "value": "31.5 KB flash, 2 KB RAM",
+      "source": "platformio:328p8m"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Microduino Core (Atmega328P@8M,3.3V) product page",
+      "url": "http://wiki.microduinoinc.com/Microduino-Module_Core"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/328p8m.html",
+      "source": "platformio:328p8m"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:328p8m",
+      "label": "PlatformIO board definition (328p8m)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/328p8m.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

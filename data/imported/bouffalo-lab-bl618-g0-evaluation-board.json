@@ -1,0 +1,44 @@
+{
+  "slug": "bouffalo-lab-bl618-g0-evaluation-board",
+  "name": "Bouffalo Lab BL618 G0 evaluation board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "bouffalo-lab-nanjing",
+  "ids": {
+    "zephyr": [
+      "bl618g0"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "BL618M05Q2I",
+      "source": "zephyr:bl618g0"
+    },
+    "ram": {
+      "value": "480 KB",
+      "source": "zephyr:bl618g0"
+    },
+    "flash": {
+      "value": "3.94 MB",
+      "source": "zephyr:bl618g0"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/bflb/bl61x/bl618g0/doc/index.html",
+      "source": "zephyr:bl618g0"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:bl618g0",
+      "label": "Zephyr board definition (bl618g0)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/bflb/bl61x/bl618g0/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "silicon-labs-efr32fg1-2400-868-mhz-13-dbm-dual-band",
+  "name": "EFR32FG1 2400/868 MHz 13 dBm Dual Band (SLWRB4250B)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "silicon-labs",
+  "ids": {
+    "zephyr": [
+      "slwrb4250b"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "EFR32FG1P133F256GM48",
+      "source": "zephyr:slwrb4250b"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:slwrb4250b"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:slwrb4250b"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/silabs/radio_boards/slwrb4250b/doc/index.html",
+      "source": "zephyr:slwrb4250b"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:slwrb4250b",
+      "label": "Zephyr board definition (slwrb4250b)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/silabs/radio_boards/slwrb4250b/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

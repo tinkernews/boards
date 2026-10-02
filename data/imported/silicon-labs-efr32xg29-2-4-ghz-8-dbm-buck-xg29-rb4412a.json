@@ -1,0 +1,44 @@
+{
+  "slug": "silicon-labs-efr32xg29-2-4-ghz-8-dbm-buck-xg29-rb4412a",
+  "name": "EFR32xG29 2.4 GHz 8 dBm Buck (xG29-RB4412A)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "silicon-labs",
+  "ids": {
+    "zephyr": [
+      "xg29_rb4412a"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "EFR32MG29B140F1024IM40",
+      "source": "zephyr:xg29_rb4412a"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:xg29_rb4412a"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:xg29_rb4412a"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/silabs/radio_boards/xg29/doc/index.html",
+      "source": "zephyr:xg29_rb4412a"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:xg29_rb4412a",
+      "label": "Zephyr board definition (xg29_rb4412a)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/silabs/radio_boards/xg29/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

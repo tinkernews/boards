@@ -1,0 +1,44 @@
+{
+  "slug": "gigadevice-gd32a503v-eval",
+  "name": "GD32A503V-EVAL",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "gigadevice",
+  "ids": {
+    "zephyr": [
+      "gd32a503v_eval"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "GD32A503",
+      "source": "zephyr:gd32a503v_eval"
+    },
+    "ram": {
+      "value": "48 KB",
+      "source": "zephyr:gd32a503v_eval"
+    },
+    "flash": {
+      "value": "384 KB",
+      "source": "zephyr:gd32a503v_eval"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/gd/gd32a503v_eval/doc/index.html",
+      "source": "zephyr:gd32a503v_eval"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:gd32a503v_eval",
+      "label": "Zephyr board definition (gd32a503v_eval)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/gd/gd32a503v_eval/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

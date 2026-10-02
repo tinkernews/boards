@@ -1,0 +1,100 @@
+{
+  "slug": "olimex-esp32-evb",
+  "name": "OLIMEX ESP32-EVB",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "olimex",
+  "chip": "esp32",
+  "aliases": [
+    "ESP32-EVB",
+    "ESP32 EVB"
+  ],
+  "ids": {
+    "platformio": [
+      "esp32-evb"
+    ],
+    "zephyr": [
+      "olimex_esp32_evb"
+    ],
+    "micropython": [
+      "OLIMEX_ESP32_EVB"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:esp32-evb"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:esp32-evb"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:esp32-evb"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "OLIMEX ESP32-EVB product page",
+      "url": "https://www.olimex.com/Products/IoT/ESP32-EVB/open-source-hardware"
+    },
+    {
+      "kind": "product",
+      "label": "OLIMEX ESP32-EVB product page",
+      "url": "https://www.olimex.com/Products/IoT/ESP32/ESP32-EVB"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/esp32-evb.html",
+      "source": "platformio:esp32-evb"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/esp32-evb.html",
+      "source": "platformio:esp32-evb"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/olimex/olimex_esp32_evb/doc/index.html",
+      "source": "zephyr:olimex_esp32_evb"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/OLIMEX_ESP32_EVB/",
+      "source": "micropython:olimex_esp32_evb"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:esp32-evb",
+      "label": "PlatformIO board definition (esp32-evb)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/esp32-evb.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    },
+    {
+      "id": "zephyr:olimex_esp32_evb",
+      "label": "Zephyr board definition (olimex_esp32_evb)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/olimex/olimex_esp32_evb/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "micropython:olimex_esp32_evb",
+      "label": "MicroPython board definition (OLIMEX_ESP32_EVB)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/esp32/boards/OLIMEX_ESP32_EVB/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

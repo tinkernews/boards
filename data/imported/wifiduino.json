@@ -1,0 +1,53 @@
+{
+  "slug": "wifiduino",
+  "name": "WiFiduino",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "wifiduino",
+  "chip": "esp8266",
+  "ids": {
+    "platformio": [
+      "wifiduino"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP8266EX",
+      "source": "platformio:wifiduino"
+    },
+    "clock": {
+      "value": "80 MHz",
+      "source": "platformio:wifiduino"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 80 KB RAM",
+      "source": "platformio:wifiduino"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "WiFiduino product page",
+      "url": "https://www.facebook.com/WifiDuino/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif8266/wifiduino.html",
+      "source": "platformio:wifiduino"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:wifiduino",
+      "label": "PlatformIO board definition (wifiduino)",
+      "url": "https://github.com/platformio/platform-espressif8266/blob/668c2a2e4f16bd83b6c812f1ee0605c62b3ce2d2/boards/wifiduino.json",
+      "kind": "import",
+      "revision": "668c2a2e4f16bd83b6c812f1ee0605c62b3ce2d2"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

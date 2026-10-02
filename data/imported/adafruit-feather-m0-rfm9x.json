@@ -1,0 +1,186 @@
+{
+  "slug": "adafruit-feather-m0-rfm9x",
+  "name": "Feather M0 RFM9x",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "atsamd21g18",
+  "ids": {
+    "circuitpython": [
+      "feather_m0_rfm9x"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/feather_m0_rfm9x/",
+      "source": "circuitpython:feather_m0_rfm9x"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:feather_m0_rfm9x",
+    "list": [
+      {
+        "pin": "PA02",
+        "names": [
+          "A0"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "A3"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "A4"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "RFM9X_CS"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "D9",
+          "VOLTAGE_MONITOR",
+          "BATTERY"
+        ]
+      },
+      {
+        "pin": "PA08",
+        "names": [
+          "RFM9X_RST"
+        ]
+      },
+      {
+        "pin": "PA09",
+        "names": [
+          "RFM9X_D0"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "D1",
+          "TX"
+        ]
+      },
+      {
+        "pin": "PA11",
+        "names": [
+          "D0",
+          "RX"
+        ]
+      },
+      {
+        "pin": "PA12",
+        "names": [
+          "MISO"
+        ]
+      },
+      {
+        "pin": "PA15",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "PA16",
+        "names": [
+          "D11"
+        ]
+      },
+      {
+        "pin": "PA17",
+        "names": [
+          "LED",
+          "D13"
+        ]
+      },
+      {
+        "pin": "PA18",
+        "names": [
+          "D10"
+        ]
+      },
+      {
+        "pin": "PA19",
+        "names": [
+          "D12"
+        ]
+      },
+      {
+        "pin": "PA20",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "PA22",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PA23",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "PB02",
+        "names": [
+          "A5"
+        ]
+      },
+      {
+        "pin": "PB08",
+        "names": [
+          "A1"
+        ]
+      },
+      {
+        "pin": "PB09",
+        "names": [
+          "A2"
+        ]
+      },
+      {
+        "pin": "PB10",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "PB11",
+        "names": [
+          "SCK"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:feather_m0_rfm9x",
+      "label": "CircuitPython board definition (feather_m0_rfm9x)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/feather_m0_rfm9x.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:feather_m0_rfm9x",
+      "label": "CircuitPython pin definitions (feather_m0_rfm9x)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/feather_m0_rfm9x/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

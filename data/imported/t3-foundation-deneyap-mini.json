@@ -1,0 +1,67 @@
+{
+  "slug": "t3-foundation-deneyap-mini",
+  "name": "Deneyap Mini",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "t3-foundation",
+  "chip": "esp32-s2",
+  "ids": {
+    "platformio": [
+      "deneyapmini",
+      "deneyapminiv2"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-S2",
+      "source": "platformio:deneyapmini"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:deneyapmini"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:deneyapmini"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Deneyap Mini product page",
+      "url": "https://magaza.deneyapkart.org/tr/product/detail/deneyap-mini"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/deneyapmini.html",
+      "source": "platformio:deneyapmini"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/deneyapmini.html",
+      "source": "platformio:deneyapmini"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:deneyapmini",
+      "label": "PlatformIO board definition (deneyapmini)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/deneyapmini.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    },
+    {
+      "id": "platformio:deneyapminiv2",
+      "label": "PlatformIO board definition (deneyapminiv2)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/deneyapminiv2.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

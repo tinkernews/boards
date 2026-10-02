@@ -1,0 +1,275 @@
+{
+  "slug": "robotics-masters-robo-hat-mm1-m4",
+  "name": "Robo HAT MM1 M4",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "robotics-masters",
+  "chip": "atsamd51j19",
+  "ids": {
+    "circuitpython": [
+      "robohatmm1_m4"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/robohatmm1_m4/",
+      "source": "circuitpython:robohatmm1_m4"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:robohatmm1_m4",
+    "list": [
+      {
+        "pin": "PA00",
+        "names": [
+          "SDA1"
+        ]
+      },
+      {
+        "pin": "PA01",
+        "names": [
+          "SCL1"
+        ]
+      },
+      {
+        "pin": "PA02",
+        "names": [
+          "VOLTAGE_MONITOR",
+          "BATTERY"
+        ]
+      },
+      {
+        "pin": "PA03",
+        "names": [
+          "POWER_OFF",
+          "POWER_DISABLE"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "RCC4",
+          "UART_TX"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "RCC3",
+          "UART_RX"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "RCC2",
+          "UART_CTS"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "RCC1",
+          "UART_RTS"
+        ]
+      },
+      {
+        "pin": "PA08",
+        "names": [
+          "SERVO8",
+          "GROVE_SDA",
+          "GROVE_TX",
+          "GROVE_D0",
+          "GROVE_A0"
+        ]
+      },
+      {
+        "pin": "PA09",
+        "names": [
+          "SERVO7",
+          "GROVE_SCL",
+          "GROVE_RX",
+          "GROVE_D1",
+          "GROVE_A1"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "SERVO6"
+        ]
+      },
+      {
+        "pin": "PA11",
+        "names": [
+          "SERVO5"
+        ]
+      },
+      {
+        "pin": "PA12",
+        "names": [
+          "FLASH_MOSI"
+        ]
+      },
+      {
+        "pin": "PA13",
+        "names": [
+          "FLASH_SCK"
+        ]
+      },
+      {
+        "pin": "PA14",
+        "names": [
+          "FLASH_MISO"
+        ]
+      },
+      {
+        "pin": "PA15",
+        "names": [
+          "FLASH_CS"
+        ]
+      },
+      {
+        "pin": "PA16",
+        "names": [
+          "TX1",
+          "PI_TX"
+        ]
+      },
+      {
+        "pin": "PA17",
+        "names": [
+          "RX1",
+          "PI_RX"
+        ]
+      },
+      {
+        "pin": "PA18",
+        "names": [
+          "SERVO1"
+        ]
+      },
+      {
+        "pin": "PA19",
+        "names": [
+          "SERVO2"
+        ]
+      },
+      {
+        "pin": "PA20",
+        "names": [
+          "SERVO3"
+        ]
+      },
+      {
+        "pin": "PA21",
+        "names": [
+          "SERVO4"
+        ]
+      },
+      {
+        "pin": "PA22",
+        "names": [
+          "SDA",
+          "PI_SDA"
+        ]
+      },
+      {
+        "pin": "PA23",
+        "names": [
+          "SCL",
+          "PI_SCL"
+        ]
+      },
+      {
+        "pin": "PA27",
+        "names": [
+          "POWER_ON",
+          "POWER_ENABLE",
+          "BUTTON"
+        ]
+      },
+      {
+        "pin": "PA30",
+        "names": [
+          "PI_GP25",
+          "SWCLK"
+        ]
+      },
+      {
+        "pin": "PA31",
+        "names": [
+          "PI_GP24",
+          "SWDIO"
+        ]
+      },
+      {
+        "pin": "PB02",
+        "names": [
+          "GPS_TX"
+        ]
+      },
+      {
+        "pin": "PB03",
+        "names": [
+          "GPS_RX"
+        ]
+      },
+      {
+        "pin": "PB08",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "PB09",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "PB10",
+        "names": [
+          "SS"
+        ]
+      },
+      {
+        "pin": "PB11",
+        "names": [
+          "MISO"
+        ]
+      },
+      {
+        "pin": "PB22",
+        "names": [
+          "LED"
+        ]
+      },
+      {
+        "pin": "PB23",
+        "names": [
+          "NEOPIXEL"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:robohatmm1_m4",
+      "label": "CircuitPython board definition (robohatmm1_m4)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/robohatmm1_m4.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:robohatmm1_m4",
+      "label": "CircuitPython pin definitions (robohatmm1_m4)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/robohatmm1_m4/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

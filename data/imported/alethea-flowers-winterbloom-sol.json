@@ -1,0 +1,97 @@
+{
+  "slug": "alethea-flowers-winterbloom-sol",
+  "name": "Winterbloom Sol",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "alethea-flowers",
+  "chip": "atsamd51j19",
+  "ids": {
+    "circuitpython": [
+      "winterbloom_sol"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/winterbloom_sol/",
+      "source": "circuitpython:winterbloom_sol"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:winterbloom_sol",
+    "list": [
+      {
+        "pin": "PA17",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "PA18",
+        "names": [
+          "DAC_CS"
+        ]
+      },
+      {
+        "pin": "PA20",
+        "names": [
+          "G1"
+        ]
+      },
+      {
+        "pin": "PA21",
+        "names": [
+          "G2"
+        ]
+      },
+      {
+        "pin": "PA22",
+        "names": [
+          "G3"
+        ]
+      },
+      {
+        "pin": "PA23",
+        "names": [
+          "G4"
+        ]
+      },
+      {
+        "pin": "PB03",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "PB22",
+        "names": [
+          "MISO"
+        ]
+      },
+      {
+        "pin": "PB23",
+        "names": [
+          "MOSI"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:winterbloom_sol",
+      "label": "CircuitPython board definition (winterbloom_sol)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/winterbloom_sol.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:winterbloom_sol",
+      "label": "CircuitPython pin definitions (winterbloom_sol)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/winterbloom_sol/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

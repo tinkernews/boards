@@ -1,0 +1,44 @@
+{
+  "slug": "nxp-semiconductors-frdm-k82f",
+  "name": "FRDM-K82F",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "ids": {
+    "zephyr": [
+      "frdm_k82f"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MK82F25615",
+      "source": "zephyr:frdm_k82f"
+    },
+    "ram": {
+      "value": "192 KB",
+      "source": "zephyr:frdm_k82f"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:frdm_k82f"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nxp/frdm_k82f/doc/index.html",
+      "source": "zephyr:frdm_k82f"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:frdm_k82f",
+      "label": "Zephyr board definition (frdm_k82f)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nxp/frdm_k82f/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

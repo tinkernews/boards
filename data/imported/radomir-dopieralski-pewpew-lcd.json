@@ -1,0 +1,151 @@
+{
+  "slug": "radomir-dopieralski-pewpew-lcd",
+  "name": "PewPew LCD",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "radomir-dopieralski",
+  "chip": "atsamd21g18",
+  "ids": {
+    "circuitpython": [
+      "pewpew_lcd"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/pewpew_lcd/",
+      "source": "circuitpython:pewpew_lcd"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:pewpew_lcd",
+    "list": [
+      {
+        "pin": "PA00",
+        "names": [
+          "P3"
+        ]
+      },
+      {
+        "pin": "PA01",
+        "names": [
+          "P4"
+        ]
+      },
+      {
+        "pin": "PA02",
+        "names": [
+          "P5"
+        ]
+      },
+      {
+        "pin": "PA03",
+        "names": [
+          "P6"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "P7"
+        ]
+      },
+      {
+        "pin": "PA09",
+        "names": [
+          "RIGHT"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "DOWN"
+        ]
+      },
+      {
+        "pin": "PA11",
+        "names": [
+          "LEFT"
+        ]
+      },
+      {
+        "pin": "PA14",
+        "names": [
+          "UP"
+        ]
+      },
+      {
+        "pin": "PA15",
+        "names": [
+          "X"
+        ]
+      },
+      {
+        "pin": "PA16",
+        "names": [
+          "O"
+        ]
+      },
+      {
+        "pin": "PA17",
+        "names": [
+          "CS"
+        ]
+      },
+      {
+        "pin": "PA18",
+        "names": [
+          "RST"
+        ]
+      },
+      {
+        "pin": "PA19",
+        "names": [
+          "DC"
+        ]
+      },
+      {
+        "pin": "PA22",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "PA23",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "PA30",
+        "names": [
+          "P1"
+        ]
+      },
+      {
+        "pin": "PA31",
+        "names": [
+          "P2"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:pewpew_lcd",
+      "label": "CircuitPython board definition (pewpew_lcd)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/pewpew_lcd.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:pewpew_lcd",
+      "label": "CircuitPython pin definitions (pewpew_lcd)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/pewpew_lcd/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

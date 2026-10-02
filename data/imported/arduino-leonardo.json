@@ -1,0 +1,53 @@
+{
+  "slug": "arduino-leonardo",
+  "name": "Arduino Leonardo",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "chip": "atmega32u4",
+  "ids": {
+    "platformio": [
+      "leonardo"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega32U4",
+      "source": "platformio:leonardo"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:leonardo"
+    },
+    "upload_limits": {
+      "value": "28 KB flash, 2.5 KB RAM",
+      "source": "platformio:leonardo"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Arduino Leonardo product page",
+      "url": "https://www.arduino.cc/en/Main/ArduinoBoardLeonardo"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/leonardo.html",
+      "source": "platformio:leonardo"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:leonardo",
+      "label": "PlatformIO board definition (leonardo)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/leonardo.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "stmicroelectronics-nucleo-n657x0-q",
+  "name": "Nucleo N657X0-Q",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "zephyr": [
+      "nucleo_n657x0_q"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32N657XX",
+      "source": "zephyr:nucleo_n657x0_q"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/nucleo_n657x0_q/doc/index.html",
+      "source": "zephyr:nucleo_n657x0_q"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:nucleo_n657x0_q",
+      "label": "Zephyr board definition (nucleo_n657x0_q)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/nucleo_n657x0_q/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

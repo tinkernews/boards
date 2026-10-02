@@ -1,0 +1,36 @@
+{
+  "slug": "space-cubics-sc-obc-module-v1",
+  "name": "SC-OBC Module V1",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "space-cubics",
+  "ids": {
+    "zephyr": [
+      "scobc_v1"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "VERSAL_RPU",
+      "source": "zephyr:scobc_v1"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/sc/scobc_v1/doc/index.html",
+      "source": "zephyr:scobc_v1"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:scobc_v1",
+      "label": "Zephyr board definition (scobc_v1)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/sc/scobc_v1/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

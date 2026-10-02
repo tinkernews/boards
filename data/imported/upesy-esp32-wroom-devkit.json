@@ -1,0 +1,59 @@
+{
+  "slug": "upesy-esp32-wroom-devkit",
+  "name": "uPesy ESP32 Wroom DevKit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "upesy",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "upesy_wroom"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:upesy_wroom"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:upesy_wroom"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:upesy_wroom"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "uPesy ESP32 Wroom DevKit product page",
+      "url": "https://www.upesy.fr/products/upesy-esp32-wroom-devkit-board"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/upesy_wroom.html",
+      "source": "platformio:upesy_wroom"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/upesy_wroom.html",
+      "source": "platformio:upesy_wroom"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:upesy_wroom",
+      "label": "PlatformIO board definition (upesy_wroom)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/upesy_wroom.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

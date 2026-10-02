@@ -1,0 +1,78 @@
+{
+  "slug": "adafruit-metro-esp32-s3",
+  "name": "Adafruit Metro ESP32-S3",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "esp32-s3",
+  "aliases": [
+    "Metro ESP32-S3"
+  ],
+  "ids": {
+    "platformio": [
+      "adafruit_metro_esp32s3"
+    ],
+    "circuitpython": [
+      "adafruit_metro_esp32s3"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-S3",
+      "source": "platformio:adafruit_metro_esp32s3"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:adafruit_metro_esp32s3"
+    },
+    "upload_limits": {
+      "value": "16 MB flash, 320 KB RAM",
+      "source": "platformio:adafruit_metro_esp32s3"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Adafruit Metro ESP32-S3 product page",
+      "url": "https://www.adafruit.com/product/5500"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/adafruit_metro_esp32s3.html",
+      "source": "platformio:adafruit_metro_esp32s3"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/adafruit_metro_esp32s3.html",
+      "source": "platformio:adafruit_metro_esp32s3"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/adafruit_metro_esp32s3/",
+      "source": "circuitpython:adafruit_metro_esp32s3"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:adafruit_metro_esp32s3",
+      "label": "PlatformIO board definition (adafruit_metro_esp32s3)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/adafruit_metro_esp32s3.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    },
+    {
+      "id": "circuitpython:adafruit_metro_esp32s3",
+      "label": "CircuitPython board definition (adafruit_metro_esp32s3)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/adafruit_metro_esp32s3.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

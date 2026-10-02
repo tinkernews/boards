@@ -1,0 +1,314 @@
+{
+  "slug": "labs-blip",
+  "name": "Labs Blip",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "electronut-labs",
+  "chip": "nrf52840",
+  "aliases": [
+    "Blip"
+  ],
+  "ids": {
+    "zephyr": [
+      "nrf52840_blip"
+    ],
+    "circuitpython": [
+      "electronut_labs_blip"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52840",
+      "source": "zephyr:nrf52840_blip"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/electronut/nrf52840_blip/doc/index.html",
+      "source": "zephyr:nrf52840_blip"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/electronut_labs_blip/",
+      "source": "circuitpython:electronut_labs_blip"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:electronut_labs_blip",
+    "list": [
+      {
+        "pin": "P0_02",
+        "names": [
+          "D2"
+        ]
+      },
+      {
+        "pin": "P0_03",
+        "names": [
+          "A0",
+          "D3"
+        ]
+      },
+      {
+        "pin": "P0_04",
+        "names": [
+          "A1",
+          "D4"
+        ]
+      },
+      {
+        "pin": "P0_05",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "P0_06",
+        "names": [
+          "D6",
+          "TX"
+        ]
+      },
+      {
+        "pin": "P0_07",
+        "names": [
+          "D7"
+        ]
+      },
+      {
+        "pin": "P0_08",
+        "names": [
+          "D8",
+          "RX"
+        ]
+      },
+      {
+        "pin": "P0_09",
+        "names": [
+          "NFC1"
+        ]
+      },
+      {
+        "pin": "P0_10",
+        "names": [
+          "NFC2"
+        ]
+      },
+      {
+        "pin": "P0_11",
+        "names": [
+          "D11",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "P0_12",
+        "names": [
+          "D12",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "P0_13",
+        "names": [
+          "GREEN_LED"
+        ]
+      },
+      {
+        "pin": "P0_14",
+        "names": [
+          "L",
+          "RED_LED",
+          "LED"
+        ]
+      },
+      {
+        "pin": "P0_15",
+        "names": [
+          "BLUE_LED"
+        ]
+      },
+      {
+        "pin": "P0_16",
+        "names": [
+          "D16"
+        ]
+      },
+      {
+        "pin": "P0_17",
+        "names": [
+          "CS"
+        ]
+      },
+      {
+        "pin": "P0_18",
+        "names": [
+          "RESET"
+        ]
+      },
+      {
+        "pin": "P0_19",
+        "names": [
+          "D19"
+        ]
+      },
+      {
+        "pin": "P0_20",
+        "names": [
+          "D20"
+        ]
+      },
+      {
+        "pin": "P0_21",
+        "names": [
+          "D21"
+        ]
+      },
+      {
+        "pin": "P0_22",
+        "names": [
+          "D22"
+        ]
+      },
+      {
+        "pin": "P0_23",
+        "names": [
+          "D23"
+        ]
+      },
+      {
+        "pin": "P0_24",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "P0_25",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "P0_26",
+        "names": [
+          "D26"
+        ]
+      },
+      {
+        "pin": "P0_27",
+        "names": [
+          "D27"
+        ]
+      },
+      {
+        "pin": "P0_28",
+        "names": [
+          "A2",
+          "D28"
+        ]
+      },
+      {
+        "pin": "P0_29",
+        "names": [
+          "A3",
+          "D29"
+        ]
+      },
+      {
+        "pin": "P0_30",
+        "names": [
+          "A4",
+          "D30"
+        ]
+      },
+      {
+        "pin": "P0_31",
+        "names": [
+          "A5",
+          "D31"
+        ]
+      },
+      {
+        "pin": "P1_00",
+        "names": [
+          "D32"
+        ]
+      },
+      {
+        "pin": "P1_01",
+        "names": [
+          "D33"
+        ]
+      },
+      {
+        "pin": "P1_02",
+        "names": [
+          "MISO"
+        ]
+      },
+      {
+        "pin": "P1_03",
+        "names": [
+          "D35"
+        ]
+      },
+      {
+        "pin": "P1_04",
+        "names": [
+          "D36"
+        ]
+      },
+      {
+        "pin": "P1_05",
+        "names": [
+          "D37"
+        ]
+      },
+      {
+        "pin": "P1_06",
+        "names": [
+          "D38"
+        ]
+      },
+      {
+        "pin": "P1_07",
+        "names": [
+          "BUTTON"
+        ]
+      },
+      {
+        "pin": "P1_08",
+        "names": [
+          "D40"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "zephyr:nrf52840_blip",
+      "label": "Zephyr board definition (nrf52840_blip)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/electronut/nrf52840_blip/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "circuitpython:electronut_labs_blip",
+      "label": "CircuitPython board definition (electronut_labs_blip)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/electronut_labs_blip.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:electronut_labs_blip",
+      "label": "CircuitPython pin definitions (electronut_labs_blip)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/nordic/boards/electronut_labs_blip/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

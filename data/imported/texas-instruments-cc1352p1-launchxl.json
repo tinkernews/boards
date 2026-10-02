@@ -1,0 +1,44 @@
+{
+  "slug": "texas-instruments-cc1352p1-launchxl",
+  "name": "CC1352P1 LaunchXL",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "texas-instruments",
+  "ids": {
+    "zephyr": [
+      "cc1352p1_launchxl"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "CC1352P",
+      "source": "zephyr:cc1352p1_launchxl"
+    },
+    "ram": {
+      "value": "80 KB",
+      "source": "zephyr:cc1352p1_launchxl"
+    },
+    "flash": {
+      "value": "352 KB",
+      "source": "zephyr:cc1352p1_launchxl"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/ti/cc1352p1_launchxl/doc/index.html",
+      "source": "zephyr:cc1352p1_launchxl"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:cc1352p1_launchxl",
+      "label": "Zephyr board definition (cc1352p1_launchxl)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/ti/cc1352p1_launchxl/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

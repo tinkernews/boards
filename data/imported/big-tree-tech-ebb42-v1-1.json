@@ -1,0 +1,56 @@
+{
+  "slug": "big-tree-tech-ebb42-v1-1",
+  "name": "Big Tree Tech EBB42 V1.1",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "big-tree-tech",
+  "ids": {
+    "platformio": [
+      "btt_ebb42_v1_1"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32G0B1RET6",
+      "source": "platformio:btt_ebb42_v1_1"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:btt_ebb42_v1_1"
+    },
+    "clock": {
+      "value": "64 MHz",
+      "source": "platformio:btt_ebb42_v1_1"
+    },
+    "upload_limits": {
+      "value": "128 KB flash, 144 KB RAM",
+      "source": "platformio:btt_ebb42_v1_1"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Big Tree Tech EBB42 V1.1 product page",
+      "url": "https://github.com/bigtreetech/EBB/tree/master/EBB%20CAN%20V1.1%20(STM32G0B1)/EBB42%20CAN%20V1.1"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/btt_ebb42_v1_1.html",
+      "source": "platformio:btt_ebb42_v1_1"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:btt_ebb42_v1_1",
+      "label": "PlatformIO board definition (btt_ebb42_v1_1)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/btt_ebb42_v1_1.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

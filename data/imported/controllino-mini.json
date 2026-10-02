@@ -1,0 +1,53 @@
+{
+  "slug": "controllino-mini",
+  "name": "Controllino Mini",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "controllino",
+  "chip": "atmega328p",
+  "ids": {
+    "platformio": [
+      "controllino_mini"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega328P",
+      "source": "platformio:controllino_mini"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:controllino_mini"
+    },
+    "upload_limits": {
+      "value": "31.5 KB flash, 2 KB RAM",
+      "source": "platformio:controllino_mini"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Controllino Mini product page",
+      "url": "https://www.controllino.com/product/controllino-mini/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/controllino_mini.html",
+      "source": "platformio:controllino_mini"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:controllino_mini",
+      "label": "PlatformIO board definition (controllino_mini)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/controllino_mini.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

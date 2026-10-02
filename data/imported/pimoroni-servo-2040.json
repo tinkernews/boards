@@ -1,0 +1,233 @@
+{
+  "slug": "pimoroni-servo-2040",
+  "name": "Servo 2040",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "pimoroni",
+  "chip": "rp2040",
+  "ids": {
+    "circuitpython": [
+      "pimoroni_servo2040"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/pimoroni_servo2040/",
+      "source": "circuitpython:pimoroni_servo2040"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:pimoroni_servo2040",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "SERVO_1"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "SERVO_2"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "SERVO_3"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "SERVO_4"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "SERVO_5"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "SERVO_6"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "SERVO_7"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "SERVO_8"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "SERVO_9"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "SERVO_10"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "SERVO_11"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "SERVO_12"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "SERVO_13"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "SERVO_14"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "SERVO_15"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "SERVO_16"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "SERVO_17"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "SERVO_18"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "NEOPIXEL",
+          "LED_DATA"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "INT",
+          "GP19"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "SDA",
+          "GP20"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "SCL",
+          "GP21"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "ADC_ADDR_0"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "USER_SW"
+        ]
+      },
+      {
+        "pin": "GPIO24",
+        "names": [
+          "ADC_ADDR_1"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "ADC_ADDR_2"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "GP26_A0",
+          "GP26",
+          "A0"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "GP27_A1",
+          "GP27",
+          "A1"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "GP28_A2",
+          "GP28",
+          "A2"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "SHARED_ADC"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:pimoroni_servo2040",
+      "label": "CircuitPython board definition (pimoroni_servo2040)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/pimoroni_servo2040.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:pimoroni_servo2040",
+      "label": "CircuitPython pin definitions (pimoroni_servo2040)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/pimoroni_servo2040/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

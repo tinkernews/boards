@@ -1,0 +1,44 @@
+{
+  "slug": "shanghai-ruiside-electronic-ra8d1-vision-board",
+  "name": "RA8D1 Vision Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "shanghai-ruiside-electronic",
+  "ids": {
+    "zephyr": [
+      "ra8d1_vision_board"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "R7FA8D1BHECBD",
+      "source": "zephyr:ra8d1_vision_board"
+    },
+    "ram": {
+      "value": "1024 KB",
+      "source": "zephyr:ra8d1_vision_board"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:ra8d1_vision_board"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/ruiside/ra8d1_vision_board/doc/index.html",
+      "source": "zephyr:ra8d1_vision_board"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:ra8d1_vision_board",
+      "label": "Zephyr board definition (ra8d1_vision_board)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/ruiside/ra8d1_vision_board/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

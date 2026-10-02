@@ -1,0 +1,45 @@
+{
+  "slug": "stmicroelectronics-stm32f411e-discovery",
+  "name": "STM32F411E Discovery",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "chip": "stm32f411",
+  "ids": {
+    "zephyr": [
+      "stm32f411e_disco"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F411",
+      "source": "zephyr:stm32f411e_disco"
+    },
+    "ram": {
+      "value": "128 KB",
+      "source": "zephyr:stm32f411e_disco"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:stm32f411e_disco"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/stm32f411e_disco/doc/index.html",
+      "source": "zephyr:stm32f411e_disco"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:stm32f411e_disco",
+      "label": "Zephyr board definition (stm32f411e_disco)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/stm32f411e_disco/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

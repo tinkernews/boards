@@ -1,0 +1,257 @@
+{
+  "slug": "adafruit-circuit-playground-express",
+  "name": "Adafruit Circuit Playground Express",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "atsamd21g18",
+  "aliases": [
+    "Circuit Playground Express"
+  ],
+  "ids": {
+    "platformio": [
+      "adafruit_circuitplayground_m0"
+    ],
+    "circuitpython": [
+      "circuitplayground_express"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAMD21G18",
+      "source": "platformio:adafruit_circuitplayground_m0"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:adafruit_circuitplayground_m0"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:adafruit_circuitplayground_m0"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:adafruit_circuitplayground_m0"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Adafruit Circuit Playground Express product page",
+      "url": "https://www.adafruit.com/product/3333"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelsam/adafruit_circuitplayground_m0.html",
+      "source": "platformio:adafruit_circuitplayground_m0"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/circuitplayground_express/",
+      "source": "circuitpython:circuitplayground_express"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:circuitplayground_express",
+    "list": [
+      {
+        "pin": "PA00",
+        "names": [
+          "ACCELEROMETER_SDA"
+        ]
+      },
+      {
+        "pin": "PA01",
+        "names": [
+          "ACCELEROMETER_SCL"
+        ]
+      },
+      {
+        "pin": "PA02",
+        "names": [
+          "A0",
+          "D12",
+          "SPEAKER"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "IR_PROXIMITY"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "A1",
+          "D6",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "A2",
+          "D9",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "A3",
+          "D10",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "PA08",
+        "names": [
+          "MICROPHONE_DATA"
+        ]
+      },
+      {
+        "pin": "PA09",
+        "names": [
+          "TEMPERATURE",
+          "A9"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "MICROPHONE_CLOCK"
+        ]
+      },
+      {
+        "pin": "PA11",
+        "names": [
+          "LIGHT",
+          "A8"
+        ]
+      },
+      {
+        "pin": "PA12",
+        "names": [
+          "REMOTEIN",
+          "IR_RX"
+        ]
+      },
+      {
+        "pin": "PA13",
+        "names": [
+          "ACCELEROMETER_INTERRUPT"
+        ]
+      },
+      {
+        "pin": "PA14",
+        "names": [
+          "BUTTON_B",
+          "D5"
+        ]
+      },
+      {
+        "pin": "PA15",
+        "names": [
+          "SLIDE_SWITCH",
+          "D7"
+        ]
+      },
+      {
+        "pin": "PA17",
+        "names": [
+          "LED",
+          "D13"
+        ]
+      },
+      {
+        "pin": "PA23",
+        "names": [
+          "REMOTEOUT",
+          "IR_TX"
+        ]
+      },
+      {
+        "pin": "PA28",
+        "names": [
+          "BUTTON_A",
+          "D4"
+        ]
+      },
+      {
+        "pin": "PA30",
+        "names": [
+          "SPEAKER_ENABLE"
+        ]
+      },
+      {
+        "pin": "PB02",
+        "names": [
+          "A5",
+          "D2",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PB03",
+        "names": [
+          "A4",
+          "D3",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "PB08",
+        "names": [
+          "A7",
+          "D1",
+          "TX"
+        ]
+      },
+      {
+        "pin": "PB09",
+        "names": [
+          "A6",
+          "D0",
+          "RX"
+        ]
+      },
+      {
+        "pin": "PB23",
+        "names": [
+          "NEOPIXEL",
+          "D8"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "platformio:adafruit_circuitplayground_m0",
+      "label": "PlatformIO board definition (adafruit_circuitplayground_m0)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/adafruit_circuitplayground_m0.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    },
+    {
+      "id": "circuitpython:circuitplayground_express",
+      "label": "CircuitPython board definition (circuitplayground_express)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/circuitplayground_express.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:circuitplayground_express",
+      "label": "CircuitPython pin definitions (circuitplayground_express)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/circuitplayground_express/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

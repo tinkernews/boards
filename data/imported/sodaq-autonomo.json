@@ -1,0 +1,56 @@
+{
+  "slug": "sodaq-autonomo",
+  "name": "SODAQ Autonomo",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sodaq",
+  "ids": {
+    "platformio": [
+      "sodaq_autonomo"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "SAMD21J18A",
+      "source": "platformio:sodaq_autonomo"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:sodaq_autonomo"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:sodaq_autonomo"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:sodaq_autonomo"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "SODAQ Autonomo product page",
+      "url": "https://support.sodaq.com/autonom%D0%BE/features-autonomo/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelsam/sodaq_autonomo.html",
+      "source": "platformio:sodaq_autonomo"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:sodaq_autonomo",
+      "label": "PlatformIO board definition (sodaq_autonomo)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/sodaq_autonomo.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,323 @@
+{
+  "slug": "raspberry-pi-pico",
+  "name": "Raspberry Pi Pico",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "raspberry-pi",
+  "chip": "rp2040",
+  "aliases": [
+    "Pico"
+  ],
+  "ids": {
+    "platformio": [
+      "pico"
+    ],
+    "zephyr": [
+      "rpi_pico"
+    ],
+    "circuitpython": [
+      "raspberry_pi_pico"
+    ],
+    "micropython": [
+      "RPI_PICO"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "RP2040",
+      "source": "platformio:pico"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:pico"
+    },
+    "clock": {
+      "value": "133 MHz",
+      "source": "platformio:pico"
+    },
+    "upload_limits": {
+      "value": "2 MB flash, 264 KB RAM",
+      "source": "platformio:pico"
+    },
+    "ram": {
+      "value": "264 KB",
+      "source": "zephyr:rpi_pico"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:rpi_pico"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Raspberry Pi Pico product page",
+      "url": "https://www.raspberrypi.org/products/raspberry-pi-pico/"
+    },
+    {
+      "kind": "product",
+      "label": "Raspberry Pi Pico product page",
+      "url": "https://www.raspberrypi.com/products/raspberry-pi-pico/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/raspberrypi/pico.html",
+      "source": "platformio:pico"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/raspberrypi/rpi_pico/doc/index.html",
+      "source": "zephyr:rpi_pico"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/RPI_PICO/",
+      "source": "micropython:rpi_pico"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/raspberry_pi_pico/",
+      "source": "circuitpython:raspberry_pi_pico"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:raspberry_pi_pico",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "GP0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "GP1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "GP2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "GP3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "GP4"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "GP5"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "GP6"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "GP7"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "GP8"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "GP9"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "GP10"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "GP11"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "GP12"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "GP13"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "GP14"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "GP15"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "GP16"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "GP17"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "GP18"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "GP19"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "GP20"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "GP21"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "GP22"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "SMPS_MODE",
+          "GP23"
+        ]
+      },
+      {
+        "pin": "GPIO24",
+        "names": [
+          "VBUS_SENSE",
+          "GP24"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "LED",
+          "GP25"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "GP26_A0",
+          "GP26",
+          "A0"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "GP27_A1",
+          "GP27",
+          "A1"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "GP28_A2",
+          "GP28",
+          "A2"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "A3",
+          "VOLTAGE_MONITOR"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "platformio:pico",
+      "label": "PlatformIO board definition (pico)",
+      "url": "https://github.com/platformio/platform-raspberrypi/blob/6fc5dce8ef6a98a7d3a37414e29b688bdba9ddf9/boards/pico.json",
+      "kind": "import",
+      "revision": "6fc5dce8ef6a98a7d3a37414e29b688bdba9ddf9"
+    },
+    {
+      "id": "zephyr:rpi_pico",
+      "label": "Zephyr board definition (rpi_pico)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/raspberrypi/rpi_pico/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "circuitpython:raspberry_pi_pico",
+      "label": "CircuitPython board definition (raspberry_pi_pico)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/raspberry_pi_pico.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "micropython:rpi_pico",
+      "label": "MicroPython board definition (RPI_PICO)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/rp2/boards/RPI_PICO/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    },
+    {
+      "id": "circuitpython-pins:raspberry_pi_pico",
+      "label": "CircuitPython pin definitions (raspberry_pi_pico)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/raspberry_pi_pico/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

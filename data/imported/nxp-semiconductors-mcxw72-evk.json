@@ -1,0 +1,44 @@
+{
+  "slug": "nxp-semiconductors-mcxw72-evk",
+  "name": "MCXW72-EVK",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "ids": {
+    "zephyr": [
+      "mcxw72_evk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MCXW727C",
+      "source": "zephyr:mcxw72_evk"
+    },
+    "ram": {
+      "value": "264 KB",
+      "source": "zephyr:mcxw72_evk"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:mcxw72_evk"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nxp/mcxw72_evk/doc/index.html",
+      "source": "zephyr:mcxw72_evk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:mcxw72_evk",
+      "label": "Zephyr board definition (mcxw72_evk)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nxp/mcxw72_evk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "diymore-f407vg",
+  "name": "F407VG",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "diymore",
+  "chip": "stm32f407",
+  "ids": {
+    "platformio": [
+      "diymore_f407vgt"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F407",
+      "source": "platformio:diymore_f407vgt"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:diymore_f407vgt"
+    },
+    "clock": {
+      "value": "168 MHz",
+      "source": "platformio:diymore_f407vgt"
+    },
+    "upload_limits": {
+      "value": "1 MB flash, 128 KB RAM",
+      "source": "platformio:diymore_f407vgt"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "F407VG product page",
+      "url": "https://www.st.com/en/microcontrollers/stm32f407vg.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/diymore_f407vgt.html",
+      "source": "platformio:diymore_f407vgt"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:diymore_f407vgt",
+      "label": "PlatformIO board definition (diymore_f407vgt)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/diymore_f407vgt.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

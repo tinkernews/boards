@@ -1,0 +1,61 @@
+{
+  "slug": "adafruit-metro-rp2040",
+  "name": "Metro RP2040",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "rp2040",
+  "ids": {
+    "zephyr": [
+      "adafruit_metro_rp2040"
+    ],
+    "circuitpython": [
+      "adafruit_metro_rp2040"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "RP2040",
+      "source": "zephyr:adafruit_metro_rp2040"
+    },
+    "ram": {
+      "value": "264 KB",
+      "source": "zephyr:adafruit_metro_rp2040"
+    },
+    "flash": {
+      "value": "16 MB",
+      "source": "zephyr:adafruit_metro_rp2040"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/adafruit/metro_rp2040/doc/index.html",
+      "source": "zephyr:adafruit_metro_rp2040"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/adafruit_metro_rp2040/",
+      "source": "circuitpython:adafruit_metro_rp2040"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:adafruit_metro_rp2040",
+      "label": "Zephyr board definition (adafruit_metro_rp2040)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/adafruit/metro_rp2040/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "circuitpython:adafruit_metro_rp2040",
+      "label": "CircuitPython board definition (adafruit_metro_rp2040)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/adafruit_metro_rp2040.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

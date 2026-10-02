@@ -1,0 +1,40 @@
+{
+  "slug": "texas-instruments-ti-am243x-launchpad",
+  "name": "TI AM243x LaunchPad",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "texas-instruments",
+  "ids": {
+    "zephyr": [
+      "lp_am243"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "AM2434",
+      "source": "zephyr:lp_am243"
+    },
+    "ram": {
+      "value": "192 KB",
+      "source": "zephyr:lp_am243"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/ti/lp_am243/doc/index.html",
+      "source": "zephyr:lp_am243"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:lp_am243",
+      "label": "Zephyr board definition (lp_am243)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/ti/lp_am243/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

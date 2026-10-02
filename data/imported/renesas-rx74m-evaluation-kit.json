@@ -1,0 +1,44 @@
+{
+  "slug": "renesas-rx74m-evaluation-kit",
+  "name": "RX74M Evaluation Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "renesas",
+  "ids": {
+    "zephyr": [
+      "ek_rx74m"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "R5K574MCB4AE",
+      "source": "zephyr:ek_rx74m"
+    },
+    "ram": {
+      "value": "1664 KB",
+      "source": "zephyr:ek_rx74m"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:ek_rx74m"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/renesas/ek_rx74m/doc/index.html",
+      "source": "zephyr:ek_rx74m"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:ek_rx74m",
+      "label": "Zephyr board definition (ek_rx74m)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/renesas/ek_rx74m/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

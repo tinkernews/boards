@@ -1,0 +1,340 @@
+{
+  "slug": "espressif-esp32-s2-kaluga-dev-kit-v1-2-featuring-wrover",
+  "name": "ESP32-S2 Kaluga Dev Kit (v1.2) featuring WROVER",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "espressif",
+  "chip": "esp32-s2",
+  "ids": {
+    "circuitpython": [
+      "espressif_kaluga_1",
+      "espressif_kaluga_1.3"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/espressif_kaluga_1/",
+      "source": "circuitpython:espressif_kaluga_1"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:espressif_kaluga_1",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "IO0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "IO1",
+          "CAMERA_XCLK",
+          "TOUCH1",
+          "AUDIO_I2S0_SDI"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "IO2",
+          "CAMERA_VSYNC",
+          "TOUCH2",
+          "LCD_TP_IRQ"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "IO3",
+          "CAMERA_HREF",
+          "TOUCH3",
+          "AUDIO_I2S0_SDO"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "IO4",
+          "TOUCH4",
+          "LCD_TP_BUSY"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "IO5",
+          "TOUCH5",
+          "AUDIO_RST"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "IO6",
+          "TOUCH6",
+          "BT_ARRAY_ADC",
+          "LCD_BL_CTR",
+          "AUDIO_BT_ADC"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "IO7",
+          "CAMERA_SIOC",
+          "TOUCH7",
+          "SCL",
+          "AUDIO_SCL"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "IO8",
+          "CAMERA_SIOD",
+          "TOUCH8",
+          "SDA",
+          "LCD_MISO",
+          "AUDIO_SDA"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "IO9",
+          "TOUCH9",
+          "LCD_MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "IO10",
+          "TOUCH10",
+          "AUDIO_PA_CTRL"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "IO11",
+          "TOUCH11",
+          "LCD_CS"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "IO12",
+          "TOUCH12",
+          "AUDIO_I2S1_SDO"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "IO13",
+          "TOUCH13",
+          "LCD_D_C"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "IO14",
+          "TOUCH14"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "IO15",
+          "LCD_CLK"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "IO16",
+          "LCD_RST"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "IO17",
+          "AUDIO_I2S1_LRCK_DAC1"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "IO18",
+          "AUDIO_I2S1_BCLK_DAC2"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "IO19"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "IO20"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "IO21",
+          "CAMERA_D8",
+          "AUDIO_I2S0_LRCK"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "IO26"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "IO33",
+          "CAMERA_PCLK",
+          "LCD_TP_CS",
+          "AUDIO_SPI_CS"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "IO34",
+          "AUDIO_WAKE_INT"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "IO35",
+          "AUDIO_I2S1_MCLK"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "IO36"
+        ]
+      },
+      {
+        "pin": "GPIO37",
+        "names": [
+          "IO37"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "IO38",
+          "CAMERA_D9",
+          "LCD_TP_SCK",
+          "AUDIO_SPI_SCK"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "IO39",
+          "CAMERA_D6",
+          "AUDIO_I2S0_BCLK"
+        ]
+      },
+      {
+        "pin": "GPIO40",
+        "names": [
+          "IO40",
+          "CAMERA_D7",
+          "LCD_TP_MOSI",
+          "AUDIO_SPI_MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO41",
+        "names": [
+          "IO41",
+          "CAMERA_D4",
+          "AUDIO_I2S0_MCLK"
+        ]
+      },
+      {
+        "pin": "GPIO42",
+        "names": [
+          "IO42",
+          "CAMERA_D5",
+          "LCD_TP_MISO",
+          "AUDIO_SPI_MISO"
+        ]
+      },
+      {
+        "pin": "GPIO43",
+        "names": [
+          "TX",
+          "IO43"
+        ]
+      },
+      {
+        "pin": "GPIO44",
+        "names": [
+          "RX",
+          "IO44"
+        ]
+      },
+      {
+        "pin": "GPIO45",
+        "names": [
+          "IO45",
+          "NEOPIXEL",
+          "CAMERA_D3"
+        ]
+      },
+      {
+        "pin": "GPIO46",
+        "names": [
+          "IO46",
+          "CAMERA_D2",
+          "AUDIO_I2S1_SDI"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:espressif_kaluga_1",
+      "label": "CircuitPython board definition (espressif_kaluga_1)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/espressif_kaluga_1.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython:espressif_kaluga_1.3",
+      "label": "CircuitPython board definition (espressif_kaluga_1.3)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/espressif_kaluga_1.3.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:espressif_kaluga_1",
+      "label": "CircuitPython pin definitions (espressif_kaluga_1)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/espressif_kaluga_1/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

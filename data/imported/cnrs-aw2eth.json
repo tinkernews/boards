@@ -1,0 +1,59 @@
+{
+  "slug": "cnrs-aw2eth",
+  "name": "CNRS AW2ETH",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "cnrs",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "cnrs_aw2eth"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:cnrs_aw2eth"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:cnrs_aw2eth"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:cnrs_aw2eth"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "CNRS AW2ETH product page",
+      "url": "https://en.wikipedia.org/wiki/ESP32"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/cnrs_aw2eth.html",
+      "source": "platformio:cnrs_aw2eth"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/cnrs_aw2eth.html",
+      "source": "platformio:cnrs_aw2eth"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:cnrs_aw2eth",
+      "label": "PlatformIO board definition (cnrs_aw2eth)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/cnrs_aw2eth.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

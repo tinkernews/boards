@@ -1,0 +1,45 @@
+{
+  "slug": "adafruit-itsybitsy-nrf52840",
+  "name": "ItsyBitsy nRF52840",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "nrf52840",
+  "ids": {
+    "zephyr": [
+      "adafruit_itsybitsy"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52840",
+      "source": "zephyr:adafruit_itsybitsy"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:adafruit_itsybitsy"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:adafruit_itsybitsy"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/adafruit/itsybitsy/doc/index.html",
+      "source": "zephyr:adafruit_itsybitsy"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:adafruit_itsybitsy",
+      "label": "Zephyr board definition (adafruit_itsybitsy)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/adafruit/itsybitsy/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

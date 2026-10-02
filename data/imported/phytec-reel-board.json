@@ -1,0 +1,85 @@
+{
+  "slug": "phytec-reel-board",
+  "name": "PHYTEC reel board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "phytec",
+  "chip": "nrf52840",
+  "aliases": [
+    "reel board"
+  ],
+  "ids": {
+    "platformio": [
+      "reel_board",
+      "reel_board_v2"
+    ],
+    "zephyr": [
+      "reel_board"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52840",
+      "source": "platformio:reel_board"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:reel_board"
+    },
+    "clock": {
+      "value": "64 MHz",
+      "source": "platformio:reel_board"
+    },
+    "upload_limits": {
+      "value": "1 MB flash, 256 KB RAM",
+      "source": "platformio:reel_board"
+    },
+    "ram": {
+      "value": "512 KB",
+      "source": "zephyr:reel_board"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:reel_board"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "PHYTEC reel board product page",
+      "url": "https://www.phytec.eu/reelboard"
+    }
+  ],
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/phytec/reel_board/doc/index.html",
+      "source": "zephyr:reel_board"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:reel_board",
+      "label": "PlatformIO board definition (reel_board)",
+      "url": "https://github.com/platformio/platform-nordicnrf52/blob/278176a7f7ffe2d001eb93eafa271c83b38222e4/boards/reel_board.json",
+      "kind": "import",
+      "revision": "278176a7f7ffe2d001eb93eafa271c83b38222e4"
+    },
+    {
+      "id": "platformio:reel_board_v2",
+      "label": "PlatformIO board definition (reel_board_v2)",
+      "url": "https://github.com/platformio/platform-nordicnrf52/blob/278176a7f7ffe2d001eb93eafa271c83b38222e4/boards/reel_board_v2.json",
+      "kind": "import",
+      "revision": "278176a7f7ffe2d001eb93eafa271c83b38222e4"
+    },
+    {
+      "id": "zephyr:reel_board",
+      "label": "Zephyr board definition (reel_board)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/phytec/reel_board/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

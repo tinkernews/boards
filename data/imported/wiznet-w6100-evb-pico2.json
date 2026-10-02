@@ -1,0 +1,45 @@
+{
+  "slug": "wiznet-w6100-evb-pico2",
+  "name": "W6100-EVB-Pico2",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "wiznet",
+  "chip": "rp2350",
+  "ids": {
+    "zephyr": [
+      "w6100_evb_pico2"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "RP2350",
+      "source": "zephyr:w6100_evb_pico2"
+    },
+    "ram": {
+      "value": "520 KB",
+      "source": "zephyr:w6100_evb_pico2"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:w6100_evb_pico2"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/wiznet/w6100_evb_pico2/doc/index.html",
+      "source": "zephyr:w6100_evb_pico2"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:w6100_evb_pico2",
+      "label": "Zephyr board definition (w6100_evb_pico2)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/wiznet/w6100_evb_pico2/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

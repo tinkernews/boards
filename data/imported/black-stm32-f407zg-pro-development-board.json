@@ -1,0 +1,45 @@
+{
+  "slug": "black-stm32-f407zg-pro-development-board",
+  "name": "Black STM32 F407ZG Pro Development Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "generic",
+  "chip": "stm32f407",
+  "ids": {
+    "zephyr": [
+      "black_f407zg_pro"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F407",
+      "source": "zephyr:black_f407zg_pro"
+    },
+    "ram": {
+      "value": "192 KB",
+      "source": "zephyr:black_f407zg_pro"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:black_f407zg_pro"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/others/black_f407zg_pro/doc/index.html",
+      "source": "zephyr:black_f407zg_pro"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:black_f407zg_pro",
+      "label": "Zephyr board definition (black_f407zg_pro)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/others/black_f407zg_pro/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

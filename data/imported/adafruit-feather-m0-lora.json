@@ -1,0 +1,45 @@
+{
+  "slug": "adafruit-feather-m0-lora",
+  "name": "Feather M0 LoRa",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "atsamd21g18",
+  "ids": {
+    "zephyr": [
+      "adafruit_feather_m0_lora"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAMD21G18",
+      "source": "zephyr:adafruit_feather_m0_lora"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:adafruit_feather_m0_lora"
+    },
+    "flash": {
+      "value": "232 KB",
+      "source": "zephyr:adafruit_feather_m0_lora"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/adafruit/feather_m0_lora/doc/index.html",
+      "source": "zephyr:adafruit_feather_m0_lora"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:adafruit_feather_m0_lora",
+      "label": "Zephyr board definition (adafruit_feather_m0_lora)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/adafruit/feather_m0_lora/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

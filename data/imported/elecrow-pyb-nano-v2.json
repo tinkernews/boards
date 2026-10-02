@@ -1,0 +1,230 @@
+{
+  "slug": "elecrow-pyb-nano-v2",
+  "name": "PYB Nano v2",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "elecrow",
+  "ids": {
+    "circuitpython": [
+      "pyb_nano_v2"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/pyb_nano_v2/",
+      "source": "circuitpython:pyb_nano_v2"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:pyb_nano_v2",
+    "list": [
+      {
+        "pin": "PA00",
+        "names": [
+          "X0",
+          "LED_RED"
+        ]
+      },
+      {
+        "pin": "PA01",
+        "names": [
+          "X1",
+          "LED_GREEN"
+        ]
+      },
+      {
+        "pin": "PA02",
+        "names": [
+          "X2",
+          "TX2",
+          "LED_YELLOW"
+        ]
+      },
+      {
+        "pin": "PA03",
+        "names": [
+          "X3",
+          "RX2",
+          "LED_BLUE"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "X4"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "X5",
+          "SCK1"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "X6",
+          "MISO1"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "X7",
+          "MOSI1"
+        ]
+      },
+      {
+        "pin": "PA08",
+        "names": [
+          "X15",
+          "SCL3"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "Y10"
+        ]
+      },
+      {
+        "pin": "PA13",
+        "names": [
+          "Y9"
+        ]
+      },
+      {
+        "pin": "PA14",
+        "names": [
+          "Y8"
+        ]
+      },
+      {
+        "pin": "PA15",
+        "names": [
+          "Y7"
+        ]
+      },
+      {
+        "pin": "PB00",
+        "names": [
+          "X8"
+        ]
+      },
+      {
+        "pin": "PB01",
+        "names": [
+          "X9"
+        ]
+      },
+      {
+        "pin": "PB03",
+        "names": [
+          "Y6",
+          "SDA2"
+        ]
+      },
+      {
+        "pin": "PB04",
+        "names": [
+          "Y5",
+          "SDA3"
+        ]
+      },
+      {
+        "pin": "PB05",
+        "names": [
+          "Y4"
+        ]
+      },
+      {
+        "pin": "PB06",
+        "names": [
+          "Y3",
+          "RX1"
+        ]
+      },
+      {
+        "pin": "PB07",
+        "names": [
+          "Y2",
+          "TX1"
+        ]
+      },
+      {
+        "pin": "PB08",
+        "names": [
+          "Y1",
+          "SCL1"
+        ]
+      },
+      {
+        "pin": "PB09",
+        "names": [
+          "Y0",
+          "SDA1"
+        ]
+      },
+      {
+        "pin": "PB10",
+        "names": [
+          "X10",
+          "SCL2"
+        ]
+      },
+      {
+        "pin": "PB12",
+        "names": [
+          "X11"
+        ]
+      },
+      {
+        "pin": "PB13",
+        "names": [
+          "X12",
+          "SCK2"
+        ]
+      },
+      {
+        "pin": "PB14",
+        "names": [
+          "X13",
+          "MISO2"
+        ]
+      },
+      {
+        "pin": "PB15",
+        "names": [
+          "X14",
+          "MOSI2"
+        ]
+      },
+      {
+        "pin": "PC13",
+        "names": [
+          "SW"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:pyb_nano_v2",
+      "label": "CircuitPython board definition (pyb_nano_v2)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/pyb_nano_v2.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:pyb_nano_v2",
+      "label": "CircuitPython pin definitions (pyb_nano_v2)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/stm/boards/pyb_nano_v2/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

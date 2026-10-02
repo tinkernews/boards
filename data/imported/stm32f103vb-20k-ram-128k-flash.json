@@ -1,0 +1,56 @@
+{
+  "slug": "stm32f103vb-20k-ram-128k-flash",
+  "name": "STM32F103VB (20k RAM. 128k Flash)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "generic",
+  "ids": {
+    "platformio": [
+      "genericSTM32F103VB"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F103VBT6",
+      "source": "platformio:genericstm32f103vb"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M3",
+      "source": "platformio:genericstm32f103vb"
+    },
+    "clock": {
+      "value": "72 MHz",
+      "source": "platformio:genericstm32f103vb"
+    },
+    "upload_limits": {
+      "value": "128 KB flash, 20 KB RAM",
+      "source": "platformio:genericstm32f103vb"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "STM32F103VB (20k RAM. 128k Flash) product page",
+      "url": "http://www.st.com/en/microcontrollers/stm32f103vb.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/genericSTM32F103VB.html",
+      "source": "platformio:genericstm32f103vb"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:genericstm32f103vb",
+      "label": "PlatformIO board definition (genericSTM32F103VB)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/genericSTM32F103VB.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

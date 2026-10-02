@@ -1,0 +1,59 @@
+{
+  "slug": "doit-esp32-devkit-v1",
+  "name": "DOIT ESP32 DEVKIT V1",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "doit",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "esp32doit-devkit-v1"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:esp32doit-devkit-v1"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:esp32doit-devkit-v1"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:esp32doit-devkit-v1"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "DOIT ESP32 DEVKIT V1 product page",
+      "url": "http://www.doit.am/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/esp32doit-devkit-v1.html",
+      "source": "platformio:esp32doit-devkit-v1"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/esp32doit-devkit-v1.html",
+      "source": "platformio:esp32doit-devkit-v1"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:esp32doit-devkit-v1",
+      "label": "PlatformIO board definition (esp32doit-devkit-v1)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/esp32doit-devkit-v1.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

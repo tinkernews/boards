@@ -1,0 +1,181 @@
+{
+  "slug": "labs-papyr",
+  "name": "Labs Papyr",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "electronut-labs",
+  "chip": "nrf52840",
+  "aliases": [
+    "Papyr"
+  ],
+  "ids": {
+    "zephyr": [
+      "nrf52840_papyr"
+    ],
+    "circuitpython": [
+      "electronut_labs_papyr"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52840",
+      "source": "zephyr:nrf52840_papyr"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/electronut/nrf52840_papyr/doc/index.html",
+      "source": "zephyr:nrf52840_papyr"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/electronut_labs_papyr/",
+      "source": "circuitpython:electronut_labs_papyr"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:electronut_labs_papyr",
+    "list": [
+      {
+        "pin": "P0_02",
+        "names": [
+          "RES"
+        ]
+      },
+      {
+        "pin": "P0_03",
+        "names": [
+          "BUSY"
+        ]
+      },
+      {
+        "pin": "P0_05",
+        "names": [
+          "A5",
+          "D5",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "P0_06",
+        "names": [
+          "A6",
+          "D6",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "P0_07",
+        "names": [
+          "D7",
+          "RX"
+        ]
+      },
+      {
+        "pin": "P0_08",
+        "names": [
+          "D8",
+          "TX"
+        ]
+      },
+      {
+        "pin": "P0_09",
+        "names": [
+          "NFC1"
+        ]
+      },
+      {
+        "pin": "P0_10",
+        "names": [
+          "NFC2"
+        ]
+      },
+      {
+        "pin": "P0_11",
+        "names": [
+          "EINK_EN"
+        ]
+      },
+      {
+        "pin": "P0_13",
+        "names": [
+          "D13",
+          "GREEN_LED"
+        ]
+      },
+      {
+        "pin": "P0_14",
+        "names": [
+          "D14",
+          "L",
+          "LED",
+          "RED_LED"
+        ]
+      },
+      {
+        "pin": "P0_15",
+        "names": [
+          "D15",
+          "BLUE_LED"
+        ]
+      },
+      {
+        "pin": "P0_28",
+        "names": [
+          "DC"
+        ]
+      },
+      {
+        "pin": "P0_29",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "P0_30",
+        "names": [
+          "CS"
+        ]
+      },
+      {
+        "pin": "P0_31",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "P1_01",
+        "names": [
+          "MISO"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "zephyr:nrf52840_papyr",
+      "label": "Zephyr board definition (nrf52840_papyr)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/electronut/nrf52840_papyr/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "circuitpython:electronut_labs_papyr",
+      "label": "CircuitPython board definition (electronut_labs_papyr)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/electronut_labs_papyr.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:electronut_labs_papyr",
+      "label": "CircuitPython pin definitions (electronut_labs_papyr)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/nordic/boards/electronut_labs_papyr/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "synaptics-sr100-rdk",
+  "name": "SR100 RDK",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "synaptics",
+  "ids": {
+    "zephyr": [
+      "sr100_rdk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "SR100",
+      "source": "zephyr:sr100_rdk"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/syna/sr100/doc/index.html",
+      "source": "zephyr:sr100_rdk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:sr100_rdk",
+      "label": "Zephyr board definition (sr100_rdk)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/syna/sr100/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

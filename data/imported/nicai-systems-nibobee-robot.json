@@ -1,0 +1,52 @@
+{
+  "slug": "nicai-systems-nibobee-robot",
+  "name": "nicai-systems NIBObee robot",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nicai-systems",
+  "ids": {
+    "platformio": [
+      "nibobee"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATMEGA16",
+      "source": "platformio:nibobee"
+    },
+    "clock": {
+      "value": "15 MHz",
+      "source": "platformio:nibobee"
+    },
+    "upload_limits": {
+      "value": "16 KB flash, 1 KB RAM",
+      "source": "platformio:nibobee"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "nicai-systems NIBObee robot product page",
+      "url": "http://www.nicai-systems.com/en/nibobee"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/nibobee.html",
+      "source": "platformio:nibobee"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:nibobee",
+      "label": "PlatformIO board definition (nibobee)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/nibobee.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,204 @@
+{
+  "slug": "invector-labs-challenger-840-ble",
+  "name": "Challenger 840 BLE",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "invector-labs",
+  "chip": "nrf52840",
+  "ids": {
+    "circuitpython": [
+      "challenger_840"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/challenger_840/",
+      "source": "circuitpython:challenger_840"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:challenger_840",
+    "list": [
+      {
+        "pin": "P0_02",
+        "names": [
+          "A4"
+        ]
+      },
+      {
+        "pin": "P0_03",
+        "names": [
+          "A5"
+        ]
+      },
+      {
+        "pin": "P0_04",
+        "names": [
+          "A0"
+        ]
+      },
+      {
+        "pin": "P0_05",
+        "names": [
+          "A1"
+        ]
+      },
+      {
+        "pin": "P0_06",
+        "names": [
+          "D13"
+        ]
+      },
+      {
+        "pin": "P0_07",
+        "names": [
+          "D12"
+        ]
+      },
+      {
+        "pin": "P0_11",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "P0_12",
+        "names": [
+          "SCL",
+          "BLUE_LED"
+        ]
+      },
+      {
+        "pin": "P0_13",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "P0_15",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "P0_17",
+        "names": [
+          "MISO"
+        ]
+      },
+      {
+        "pin": "P0_19",
+        "names": [
+          "SWITCH"
+        ]
+      },
+      {
+        "pin": "P0_21",
+        "names": [
+          "RX",
+          "D0"
+        ]
+      },
+      {
+        "pin": "P0_23",
+        "names": [
+          "TX",
+          "D1"
+        ]
+      },
+      {
+        "pin": "P0_26",
+        "names": [
+          "LED",
+          "L"
+        ]
+      },
+      {
+        "pin": "P0_27",
+        "names": [
+          "D11"
+        ]
+      },
+      {
+        "pin": "P0_28",
+        "names": [
+          "A2"
+        ]
+      },
+      {
+        "pin": "P0_29",
+        "names": [
+          "A3"
+        ]
+      },
+      {
+        "pin": "P0_30",
+        "names": [
+          "VOLTAGE_MONITOR",
+          "BATTERY"
+        ]
+      },
+      {
+        "pin": "P0_31",
+        "names": [
+          "AREF"
+        ]
+      },
+      {
+        "pin": "P1_08",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "P1_09",
+        "names": [
+          "LDO_CONTROL"
+        ]
+      },
+      {
+        "pin": "P1_10",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "P1_13",
+        "names": [
+          "D9"
+        ]
+      },
+      {
+        "pin": "P1_14",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "P1_15",
+        "names": [
+          "D10"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:challenger_840",
+      "label": "CircuitPython board definition (challenger_840)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/challenger_840.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:challenger_840",
+      "label": "CircuitPython pin definitions (challenger_840)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/nordic/boards/challenger_840/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

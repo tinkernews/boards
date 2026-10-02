@@ -1,0 +1,44 @@
+{
+  "slug": "element14-a-premier-farnell-company-warp7-next-generation",
+  "name": "WaRP7 - Next Generation IoT and Wearable Development Platform",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "element14-a-premier-farnell-company",
+  "ids": {
+    "zephyr": [
+      "warp7"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MCIMX7D",
+      "source": "zephyr:warp7"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:warp7"
+    },
+    "flash": {
+      "value": "32 KB",
+      "source": "zephyr:warp7"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/element14/warp7/doc/index.html",
+      "source": "zephyr:warp7"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:warp7",
+      "label": "Zephyr board definition (warp7)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/element14/warp7/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

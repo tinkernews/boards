@@ -1,0 +1,41 @@
+{
+  "slug": "arduino-uno-r4-minima-wifi",
+  "name": "Arduino UNO R4 Minima/WiFi",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "chip": "ra4m1",
+  "ids": {
+    "zephyr": [
+      "arduino_uno_r4"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "Renesas RA4M1",
+      "source": "zephyr:arduino_uno_r4"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:arduino_uno_r4"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/arduino/uno_r4/doc/index.html",
+      "source": "zephyr:arduino_uno_r4"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:arduino_uno_r4",
+      "label": "Zephyr board definition (arduino_uno_r4)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/arduino/uno_r4/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

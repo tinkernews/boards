@@ -1,0 +1,247 @@
+{
+  "slug": "vidi-x-v1-1",
+  "name": "VIDI X V1.1",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "vidi",
+  "chip": "esp32",
+  "ids": {
+    "circuitpython": [
+      "vidi_x"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/vidi_x/",
+      "source": "circuitpython:vidi_x"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:vidi_x",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "VOLUME",
+          "EXP9",
+          "GPIO0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "TX",
+          "EXP16",
+          "GPIO1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "STATUS",
+          "EXP8",
+          "GPIO2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "RX",
+          "EXP14",
+          "GPIO3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "VSPI_CS2",
+          "EXP10",
+          "TOUCH_CS",
+          "GPIO4"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "VSPI_CS0",
+          "EXP11",
+          "LCD_CS",
+          "GPIO5"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "TOUCH_IRQ",
+          "EXP20",
+          "GPIO12"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "MENU",
+          "EXP17",
+          "GPIO13"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "MIC",
+          "EXP19",
+          "GPIO14"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "IRTX",
+          "EXP7",
+          "GPIO15"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "VSPI_SCK",
+          "EXP12",
+          "TOUCH_SCK",
+          "LCD_SCK",
+          "SD_SCK",
+          "GPIO18"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "VSPI_MISO",
+          "EXP13",
+          "TOUCH_MISO",
+          "LCD_MISO",
+          "SD_MISO",
+          "GPIO19",
+          "TOUCH_MOSI",
+          "LCD_MOSI",
+          "SD_MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "LCD_DC",
+          "EXP15",
+          "GPIO21"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "VSPI_CS1",
+          "EXP18",
+          "SD_CS",
+          "GPIO22"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "VSPI_MOSI",
+          "EXP28",
+          "GPIO23"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "IRRX",
+          "SPEAKER_IN",
+          "GPIO25"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "TEMP",
+          "RGB_LED",
+          "GPIO26"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "SELECT",
+          "EXP22",
+          "GPIO27"
+        ]
+      },
+      {
+        "pin": "GPIO32",
+        "names": [
+          "BTN_A",
+          "EXP23",
+          "GPIO32"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "BTN_B",
+          "EXP21",
+          "GPIO33"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "BTN_L_R",
+          "EXP25",
+          "GPIO34"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "BTN_UP_DOWN",
+          "EXP24",
+          "GPIO35"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "ADC_BAT",
+          "EXP27",
+          "GPIO36"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "START",
+          "EXP26",
+          "GPIO39"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:vidi_x",
+      "label": "CircuitPython board definition (vidi_x)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/vidi_x.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:vidi_x",
+      "label": "CircuitPython pin definitions (vidi_x)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/vidi_x/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

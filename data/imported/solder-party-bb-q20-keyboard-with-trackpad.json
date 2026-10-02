@@ -1,0 +1,187 @@
+{
+  "slug": "solder-party-bb-q20-keyboard-with-trackpad",
+  "name": "BB Q20 Keyboard with trackpad",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "solder-party",
+  "chip": "rp2040",
+  "ids": {
+    "circuitpython": [
+      "solderparty_bbq20kbd"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/solderparty_bbq20kbd/",
+      "source": "circuitpython:solderparty_bbq20kbd"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:solderparty_bbq20kbd",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "INT"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "ROW1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "ROW2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "ROW3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "ROW4"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "ROW5"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "ROW6"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "ROW7"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "COL1"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "COL2"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "BTN1"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "COL6"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "COL5"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "COL4"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "COL3"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "TP_RESET"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "TP_MOTION"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO24",
+        "names": [
+          "TP_SHUTDOWN"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "BACKLIGHT"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "PERIPHERAL_SDA"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "PERIPHERAL_SCL"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:solderparty_bbq20kbd",
+      "label": "CircuitPython board definition (solderparty_bbq20kbd)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/solderparty_bbq20kbd.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:solderparty_bbq20kbd",
+      "label": "CircuitPython pin definitions (solderparty_bbq20kbd)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/solderparty_bbq20kbd/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

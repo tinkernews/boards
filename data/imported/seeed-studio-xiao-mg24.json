@@ -1,0 +1,44 @@
+{
+  "slug": "seeed-studio-xiao-mg24",
+  "name": "XIAO MG24",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "seeed",
+  "ids": {
+    "zephyr": [
+      "xiao_mg24"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "EFR32MG24B220F1536IM48",
+      "source": "zephyr:xiao_mg24"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:xiao_mg24"
+    },
+    "flash": {
+      "value": "1.5 MB",
+      "source": "zephyr:xiao_mg24"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/seeed/xiao_mg24/doc/index.html",
+      "source": "zephyr:xiao_mg24"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:xiao_mg24",
+      "label": "Zephyr board definition (xiao_mg24)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/seeed/xiao_mg24/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

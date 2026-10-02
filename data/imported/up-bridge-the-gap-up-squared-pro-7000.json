@@ -1,0 +1,40 @@
+{
+  "slug": "up-bridge-the-gap-up-squared-pro-7000",
+  "name": "UP Squared Pro 7000",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "up-bridge-the-gap",
+  "ids": {
+    "zephyr": [
+      "up_squared_pro_7000"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ALDER_LAKE",
+      "source": "zephyr:up_squared_pro_7000"
+    },
+    "ram": {
+      "value": "2048 KB",
+      "source": "zephyr:up_squared_pro_7000"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/up-bridge-the-gap/up_squared_pro_7000/doc/index.html",
+      "source": "zephyr:up_squared_pro_7000"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:up_squared_pro_7000",
+      "label": "Zephyr board definition (up_squared_pro_7000)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/up-bridge-the-gap/up_squared_pro_7000/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

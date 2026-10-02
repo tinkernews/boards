@@ -1,0 +1,32 @@
+{
+  "slug": "ebyte-ecb41-pge",
+  "name": "EByte ECB41-PGE",
+  "tier": "imported",
+  "kind": "sbc",
+  "maker": "ebyte",
+  "released": "2025",
+  "ids": {
+    "armbian": [
+      "ebyte-ecb41-pge"
+    ]
+  },
+  "software": [
+    {
+      "platform": "armbian",
+      "status": "community",
+      "note": "Community-maintained in Armbian.",
+      "url": "https://github.com/armbian/build/blob/main/config/boards/ebyte-ecb41-pge.csc",
+      "source": "armbian:ebyte-ecb41-pge"
+    }
+  ],
+  "sources": [
+    {
+      "id": "armbian:ebyte-ecb41-pge",
+      "label": "Armbian board configuration (ebyte-ecb41-pge)",
+      "url": "https://github.com/armbian/build/blob/da85daa05bd260d04dac50315d7317207fd998b3/config/boards/ebyte-ecb41-pge.csc",
+      "kind": "import",
+      "revision": "da85daa05bd260d04dac50315d7317207fd998b3"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "raspberry-pi-debug-probe",
+  "name": "Raspberry Pi Debug Probe",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "raspberry-pi",
+  "chip": "rp2040",
+  "ids": {
+    "zephyr": [
+      "rpi_debug_probe"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "RP2040",
+      "source": "zephyr:rpi_debug_probe"
+    },
+    "ram": {
+      "value": "264 KB",
+      "source": "zephyr:rpi_debug_probe"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:rpi_debug_probe"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/raspberrypi/rpi_debug_probe/doc/index.html",
+      "source": "zephyr:rpi_debug_probe"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:rpi_debug_probe",
+      "label": "Zephyr board definition (rpi_debug_probe)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/raspberrypi/rpi_debug_probe/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

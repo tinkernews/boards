@@ -1,0 +1,76 @@
+{
+  "slug": "stmicroelectronics-stm3210c-eval",
+  "name": "STM3210C-EVAL",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "aliases": [
+    "STM3210C Evaluation"
+  ],
+  "ids": {
+    "platformio": [
+      "eval_f107vc"
+    ],
+    "zephyr": [
+      "stm3210c_eval"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F107VCT6",
+      "source": "platformio:eval_f107vc"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M3",
+      "source": "platformio:eval_f107vc"
+    },
+    "clock": {
+      "value": "72 MHz",
+      "source": "platformio:eval_f107vc"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 64 KB RAM",
+      "source": "platformio:eval_f107vc"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:stm3210c_eval"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:stm3210c_eval"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "STM3210C-EVAL product page",
+      "url": "https://www.st.com/en/evaluation-tools/stm3210c-eval.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/stm3210c_eval/doc/index.html",
+      "source": "zephyr:stm3210c_eval"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:eval_f107vc",
+      "label": "PlatformIO board definition (eval_f107vc)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/eval_f107vc.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    },
+    {
+      "id": "zephyr:stm3210c_eval",
+      "label": "Zephyr board definition (stm3210c_eval)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/stm3210c_eval/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

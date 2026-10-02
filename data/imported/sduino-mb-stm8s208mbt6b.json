@@ -1,0 +1,52 @@
+{
+  "slug": "sduino-mb-stm8s208mbt6b",
+  "name": "sduino MB (STM8S208MBT6B)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sduino",
+  "ids": {
+    "platformio": [
+      "mb208"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM8S208MBT6",
+      "source": "platformio:mb208"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:mb208"
+    },
+    "upload_limits": {
+      "value": "128 KB flash, 6 KB RAM",
+      "source": "platformio:mb208"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "sduino MB (STM8S208MBT6B) product page",
+      "url": "https://github.com/roybaer/sduino_mb"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm8/mb208.html",
+      "source": "platformio:mb208"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:mb208",
+      "label": "PlatformIO board definition (mb208)",
+      "url": "https://github.com/platformio/platform-ststm8/blob/c6af4c1dde4024905613b08dac13a591894ea79f/boards/mb208.json",
+      "kind": "import",
+      "revision": "c6af4c1dde4024905613b08dac13a591894ea79f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

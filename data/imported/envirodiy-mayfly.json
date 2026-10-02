@@ -1,0 +1,53 @@
+{
+  "slug": "envirodiy-mayfly",
+  "name": "EnviroDIY Mayfly",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "envirodiy",
+  "chip": "atmega1284p",
+  "ids": {
+    "platformio": [
+      "mayfly"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega1284P",
+      "source": "platformio:mayfly"
+    },
+    "clock": {
+      "value": "8 MHz",
+      "source": "platformio:mayfly"
+    },
+    "upload_limits": {
+      "value": "127 KB flash, 16 KB RAM",
+      "source": "platformio:mayfly"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "EnviroDIY Mayfly product page",
+      "url": "http://envirodiy.org/forums/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/mayfly.html",
+      "source": "platformio:mayfly"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:mayfly",
+      "label": "PlatformIO board definition (mayfly)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/mayfly.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

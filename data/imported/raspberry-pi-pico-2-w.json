@@ -1,0 +1,256 @@
+{
+  "slug": "raspberry-pi-pico-2-w",
+  "name": "Raspberry Pi Pico 2 W",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "raspberry-pi",
+  "chip": "rp2350",
+  "aliases": [
+    "Pico 2 W"
+  ],
+  "ids": {
+    "circuitpython": [
+      "raspberry_pi_pico2_w"
+    ],
+    "micropython": [
+      "RPI_PICO2_W"
+    ]
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Raspberry Pi Pico 2 W product page",
+      "url": "https://www.raspberrypi.com/products/raspberry-pi-pico-2/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/RPI_PICO2_W/",
+      "source": "micropython:rpi_pico2_w"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/raspberry_pi_pico2_w/",
+      "source": "circuitpython:raspberry_pi_pico2_w"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:raspberry_pi_pico2_w",
+    "list": [
+      {
+        "pin": "CYW0",
+        "names": [
+          "LED"
+        ]
+      },
+      {
+        "pin": "CYW1",
+        "names": [
+          "SMPS_MODE"
+        ]
+      },
+      {
+        "pin": "CYW2",
+        "names": [
+          "VBUS_SENSE"
+        ]
+      },
+      {
+        "pin": "GPIO0",
+        "names": [
+          "GP0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "GP1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "GP2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "GP3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "GP4"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "GP5"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "GP6"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "GP7"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "GP8"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "GP9"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "GP10"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "GP11"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "GP12"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "GP13"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "GP14"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "GP15"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "GP16"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "GP17"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "GP18"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "GP19"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "GP20"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "GP21"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "GP22"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "GP26_A0",
+          "GP26",
+          "A0"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "GP27_A1",
+          "GP27",
+          "A1"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "GP28_A2",
+          "GP28",
+          "A2"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "A3",
+          "VOLTAGE_MONITOR"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:raspberry_pi_pico2_w",
+      "label": "CircuitPython board definition (raspberry_pi_pico2_w)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/raspberry_pi_pico2_w.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "micropython:rpi_pico2_w",
+      "label": "MicroPython board definition (RPI_PICO2_W)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/rp2/boards/RPI_PICO2_W/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    },
+    {
+      "id": "circuitpython-pins:raspberry_pi_pico2_w",
+      "label": "CircuitPython pin definitions (raspberry_pi_pico2_w)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/raspberry_pi_pico2_w/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,186 @@
+{
+  "slug": "m5stack-m5paper-esp32-dev-kit",
+  "name": "M5Paper ESP32 Dev Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "m5stack",
+  "chip": "esp32",
+  "ids": {
+    "circuitpython": [
+      "m5stack_m5paper"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/m5stack_m5paper/",
+      "source": "circuitpython:m5stack_m5paper"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:m5stack_m5paper",
+    "list": [
+      {
+        "pin": "GPIO2",
+        "names": [
+          "POWER_MAIN"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "SD_CS"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "POWER_EXT"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "MISO"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "IT8951_CS"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "PORTC_RX",
+          "RX2",
+          "D18"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "PORTC_TX",
+          "TX2",
+          "D19"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "SDA",
+          "D21"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "SCL",
+          "D22"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "IT8951_RESET",
+          "IT8951_POWER"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "PORTA_SDA",
+          "D25"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "PORTB_IN",
+          "D26"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "IT8951_BUSY"
+        ]
+      },
+      {
+        "pin": "GPIO32",
+        "names": [
+          "PORTA_SCL",
+          "D32"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "PORTB_OUT",
+          "D33"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "BATTERY_VOLTAGE"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "TOUCH_INT"
+        ]
+      },
+      {
+        "pin": "GPIO37",
+        "names": [
+          "BTN_UP"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "BTN_CENTER"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "BTN_DOWN"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:m5stack_m5paper",
+      "label": "CircuitPython board definition (m5stack_m5paper)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/m5stack_m5paper.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:m5stack_m5paper",
+      "label": "CircuitPython pin definitions (m5stack_m5paper)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/m5stack_m5paper/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

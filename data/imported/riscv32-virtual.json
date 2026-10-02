@@ -1,0 +1,44 @@
+{
+  "slug": "riscv32-virtual",
+  "name": "RISCV32 Virtual",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "antmicro-s-open-source-simulation-and-virtual-development",
+  "ids": {
+    "zephyr": [
+      "riscv32_virtual"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "RISCV_VIRTUAL_RENODE",
+      "source": "zephyr:riscv32_virtual"
+    },
+    "ram": {
+      "value": "4096 KB",
+      "source": "zephyr:riscv32_virtual"
+    },
+    "flash": {
+      "value": "4 MB",
+      "source": "zephyr:riscv32_virtual"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/renode/riscv32_virtual/doc/index.html",
+      "source": "zephyr:riscv32_virtual"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:riscv32_virtual",
+      "label": "Zephyr board definition (riscv32_virtual)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/renode/riscv32_virtual/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

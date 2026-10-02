@@ -1,0 +1,57 @@
+{
+  "slug": "lowpowerlab-currentranger",
+  "name": "LowPowerLab CurrentRanger",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "lowpowerlab",
+  "chip": "atsamd21g18",
+  "ids": {
+    "platformio": [
+      "current_ranger"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAMD21G18",
+      "source": "platformio:current_ranger"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:current_ranger"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:current_ranger"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:current_ranger"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "LowPowerLab CurrentRanger product page",
+      "url": "https://lowpowerlab.com/shop/product/152?search=CurrentRanger"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelsam/current_ranger.html",
+      "source": "platformio:current_ranger"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:current_ranger",
+      "label": "PlatformIO board definition (current_ranger)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/current_ranger.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

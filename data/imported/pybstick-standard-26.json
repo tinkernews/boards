@@ -1,0 +1,57 @@
+{
+  "slug": "pybstick-standard-26",
+  "name": "PYBStick Standard 26",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "pybstick",
+  "chip": "stm32f411",
+  "ids": {
+    "platformio": [
+      "pybstick26_std"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F411",
+      "source": "platformio:pybstick26_std"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:pybstick26_std"
+    },
+    "clock": {
+      "value": "100 MHz",
+      "source": "platformio:pybstick26_std"
+    },
+    "upload_limits": {
+      "value": "512 KB flash, 128 KB RAM",
+      "source": "platformio:pybstick26_std"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "PYBStick Standard 26 product page",
+      "url": "https://shop.mchobby.be/fr/micropython/1844-pybstick-standard-26-micropython-et-arduino-3232100018440-garatronic.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/pybstick26_std.html",
+      "source": "platformio:pybstick26_std"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:pybstick26_std",
+      "label": "PlatformIO board definition (pybstick26_std)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/pybstick26_std.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

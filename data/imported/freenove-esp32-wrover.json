@@ -1,0 +1,59 @@
+{
+  "slug": "freenove-esp32-wrover",
+  "name": "Freenove ESP32-Wrover",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "freenove",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "freenove_esp32_wrover"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:freenove_esp32_wrover"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:freenove_esp32_wrover"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:freenove_esp32_wrover"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Freenove ESP32-Wrover product page",
+      "url": "https://store.freenove.com/products/fnk0060"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/freenove_esp32_wrover.html",
+      "source": "platformio:freenove_esp32_wrover"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/freenove_esp32_wrover.html",
+      "source": "platformio:freenove_esp32_wrover"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:freenove_esp32_wrover",
+      "label": "PlatformIO board definition (freenove_esp32_wrover)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/freenove_esp32_wrover.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

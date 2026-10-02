@@ -1,0 +1,44 @@
+{
+  "slug": "amd-versal-rpu-cortex-r5",
+  "name": "AMD Versal RPU Cortex-R5",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "advanced-micro-devices-amd",
+  "ids": {
+    "zephyr": [
+      "versal_rpu"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "VERSAL_RPU",
+      "source": "zephyr:versal_rpu"
+    },
+    "ram": {
+      "value": "65536 KB",
+      "source": "zephyr:versal_rpu"
+    },
+    "flash": {
+      "value": "32 MB",
+      "source": "zephyr:versal_rpu"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/amd/versal_rpu/doc/index.html",
+      "source": "zephyr:versal_rpu"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:versal_rpu",
+      "label": "Zephyr board definition (versal_rpu)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/amd/versal_rpu/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

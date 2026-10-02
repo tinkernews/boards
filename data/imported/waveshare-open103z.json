@@ -1,0 +1,83 @@
+{
+  "slug": "waveshare-open103z",
+  "name": "Waveshare Open103Z",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "waveshare",
+  "aliases": [
+    "Open103Z"
+  ],
+  "ids": {
+    "platformio": [
+      "waveshare_open103z"
+    ],
+    "zephyr": [
+      "waveshare_open103z"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F103ZET6",
+      "source": "platformio:waveshare_open103z"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M3",
+      "source": "platformio:waveshare_open103z"
+    },
+    "clock": {
+      "value": "72 MHz",
+      "source": "platformio:waveshare_open103z"
+    },
+    "upload_limits": {
+      "value": "512 KB flash, 64 KB RAM",
+      "source": "platformio:waveshare_open103z"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:waveshare_open103z"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:waveshare_open103z"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Waveshare Open103Z product page",
+      "url": "https://www.waveshare.com/open103z-standard.htm"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/waveshare_open103z.html",
+      "source": "platformio:waveshare_open103z"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/waveshare/open103z/doc/index.html",
+      "source": "zephyr:waveshare_open103z"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:waveshare_open103z",
+      "label": "PlatformIO board definition (waveshare_open103z)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/waveshare_open103z.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    },
+    {
+      "id": "zephyr:waveshare_open103z",
+      "label": "Zephyr board definition (waveshare_open103z)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/waveshare/open103z/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

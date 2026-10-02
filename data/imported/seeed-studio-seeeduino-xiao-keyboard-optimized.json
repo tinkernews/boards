@@ -1,0 +1,148 @@
+{
+  "slug": "seeed-studio-seeeduino-xiao-keyboard-optimized",
+  "name": "Seeeduino XIAO - Keyboard Optimized",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "seeed",
+  "chip": "atsamd21g18",
+  "ids": {
+    "circuitpython": [
+      "seeeduino_xiao_kb"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/seeeduino_xiao_kb/",
+      "source": "circuitpython:seeeduino_xiao_kb"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:seeeduino_xiao_kb",
+    "list": [
+      {
+        "pin": "PA02",
+        "names": [
+          "A0",
+          "D0"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "A1",
+          "D1"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "A9",
+          "D9",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "A10",
+          "D10",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "A8",
+          "D8",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "PA08",
+        "names": [
+          "A4",
+          "D4",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PA09",
+        "names": [
+          "A5",
+          "D5",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "A2",
+          "D2"
+        ]
+      },
+      {
+        "pin": "PA11",
+        "names": [
+          "A3",
+          "D3"
+        ]
+      },
+      {
+        "pin": "PA17",
+        "names": [
+          "LED_INVERTED",
+          "YELLOW_LED_INVERTED"
+        ]
+      },
+      {
+        "pin": "PA18",
+        "names": [
+          "RX_LED_INVERTED",
+          "BLUE_LED1_INVERTED"
+        ]
+      },
+      {
+        "pin": "PA19",
+        "names": [
+          "TX_LED_INVERTED",
+          "BLUE_LED2_INVERTED"
+        ]
+      },
+      {
+        "pin": "PB08",
+        "names": [
+          "A6",
+          "D6",
+          "TX"
+        ]
+      },
+      {
+        "pin": "PB09",
+        "names": [
+          "A7",
+          "D7",
+          "RX"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:seeeduino_xiao_kb",
+      "label": "CircuitPython board definition (seeeduino_xiao_kb)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/seeeduino_xiao_kb.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:seeeduino_xiao_kb",
+      "label": "CircuitPython pin definitions (seeeduino_xiao_kb)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/seeeduino_xiao_kb/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

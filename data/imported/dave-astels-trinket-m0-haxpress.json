@@ -1,0 +1,106 @@
+{
+  "slug": "dave-astels-trinket-m0-haxpress",
+  "name": "Trinket M0 Haxpress",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "dave-astels",
+  "chip": "atsamd21g18",
+  "ids": {
+    "circuitpython": [
+      "trinket_m0_haxpress"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/trinket_m0_haxpress/",
+      "source": "circuitpython:trinket_m0_haxpress"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:trinket_m0_haxpress",
+    "list": [
+      {
+        "pin": "PA00",
+        "names": [
+          "APA102_MOSI",
+          "DOTSTAR_DATA"
+        ]
+      },
+      {
+        "pin": "PA01",
+        "names": [
+          "APA102_SCK",
+          "DOTSTAR_CLOCK"
+        ]
+      },
+      {
+        "pin": "PA02",
+        "names": [
+          "D1",
+          "A0"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "D4",
+          "A4",
+          "TX",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "D3",
+          "A3",
+          "RX",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "PA08",
+        "names": [
+          "D0",
+          "A2",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PA09",
+        "names": [
+          "D2",
+          "A1",
+          "SCL",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "LED",
+          "D13"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:trinket_m0_haxpress",
+      "label": "CircuitPython board definition (trinket_m0_haxpress)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/trinket_m0_haxpress.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:trinket_m0_haxpress",
+      "label": "CircuitPython pin definitions (trinket_m0_haxpress)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/trinket_m0_haxpress/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

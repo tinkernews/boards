@@ -1,0 +1,171 @@
+{
+  "slug": "itaca-innovation-uchip-m0",
+  "name": "uChip M0",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "itaca-innovation",
+  "chip": "atsamd21g18",
+  "ids": {
+    "circuitpython": [
+      "uchip"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/uchip/",
+      "source": "circuitpython:uchip"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:uchip",
+    "list": [
+      {
+        "pin": "PA02",
+        "names": [
+          "A6",
+          "D14"
+        ]
+      },
+      {
+        "pin": "PA03",
+        "names": [
+          "A7",
+          "D15"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "A8"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "A0",
+          "A1"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "LED"
+        ]
+      },
+      {
+        "pin": "PA08",
+        "names": [
+          "A2",
+          "D2",
+          "TX"
+        ]
+      },
+      {
+        "pin": "PA09",
+        "names": [
+          "A4",
+          "D4",
+          "RX"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "A3",
+          "D3"
+        ]
+      },
+      {
+        "pin": "PA11",
+        "names": [
+          "A5",
+          "D5"
+        ]
+      },
+      {
+        "pin": "PA14",
+        "names": [
+          "BOOST_EN"
+        ]
+      },
+      {
+        "pin": "PA15",
+        "names": [
+          "VEXT_SELECT"
+        ]
+      },
+      {
+        "pin": "PA16",
+        "names": [
+          "D1",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "PA17",
+        "names": [
+          "D6",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "PA18",
+        "names": [
+          "D7"
+        ]
+      },
+      {
+        "pin": "PA19",
+        "names": [
+          "D9",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "PA22",
+        "names": [
+          "D10",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PA23",
+        "names": [
+          "D11",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "PA30",
+        "names": [
+          "D13"
+        ]
+      },
+      {
+        "pin": "PA31",
+        "names": [
+          "D12"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:uchip",
+      "label": "CircuitPython board definition (uchip)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/uchip.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:uchip",
+      "label": "CircuitPython pin definitions (uchip)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/uchip/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

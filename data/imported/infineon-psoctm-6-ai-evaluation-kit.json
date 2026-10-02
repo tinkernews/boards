@@ -1,0 +1,44 @@
+{
+  "slug": "infineon-psoctm-6-ai-evaluation-kit",
+  "name": "PSOC™ 6 AI Evaluation Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "infineon",
+  "ids": {
+    "zephyr": [
+      "cy8ckit_062s2_ai"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "CY8C624ABZI_S2D44",
+      "source": "zephyr:cy8ckit_062s2_ai"
+    },
+    "ram": {
+      "value": "1024 KB",
+      "source": "zephyr:cy8ckit_062s2_ai"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:cy8ckit_062s2_ai"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/infineon/cy8ckit_062s2_ai/doc/index.html",
+      "source": "zephyr:cy8ckit_062s2_ai"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:cy8ckit_062s2_ai",
+      "label": "Zephyr board definition (cy8ckit_062s2_ai)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/infineon/cy8ckit_062s2_ai/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

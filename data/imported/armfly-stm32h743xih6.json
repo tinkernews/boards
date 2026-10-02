@@ -1,0 +1,45 @@
+{
+  "slug": "armfly-stm32h743xih6",
+  "name": "Armfly STM32H743XIH6",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "armfly",
+  "chip": "stm32h743",
+  "ids": {
+    "zephyr": [
+      "armfly_stm32h743xih6"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32H743",
+      "source": "zephyr:armfly_stm32h743xih6"
+    },
+    "ram": {
+      "value": "512 KB",
+      "source": "zephyr:armfly_stm32h743xih6"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:armfly_stm32h743xih6"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/armfly/stm32h743xih6/doc/index.html",
+      "source": "zephyr:armfly_stm32h743xih6"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:armfly_stm32h743xih6",
+      "label": "Zephyr board definition (armfly_stm32h743xih6)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/armfly/stm32h743xih6/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

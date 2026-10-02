@@ -1,0 +1,44 @@
+{
+  "slug": "sifli-sf32lb52-devkit-lcd",
+  "name": "SF32LB52-DevKit-LCD",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sifli",
+  "ids": {
+    "zephyr": [
+      "sf32lb52_devkit_lcd"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "SF32LB525UC6",
+      "source": "zephyr:sf32lb52_devkit_lcd"
+    },
+    "ram": {
+      "value": "512 KB",
+      "source": "zephyr:sf32lb52_devkit_lcd"
+    },
+    "flash": {
+      "value": "15.94 MB",
+      "source": "zephyr:sf32lb52_devkit_lcd"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/sifli/sf32lb52_devkit_lcd/doc/index.html",
+      "source": "zephyr:sf32lb52_devkit_lcd"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:sf32lb52_devkit_lcd",
+      "label": "Zephyr board definition (sf32lb52_devkit_lcd)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/sifli/sf32lb52_devkit_lcd/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

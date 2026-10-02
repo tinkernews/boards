@@ -1,0 +1,30 @@
+{
+  "slug": "silicon-labs-efr32xg24-explorer-kit",
+  "name": "EFR32xG24 Explorer Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "silicon-labs",
+  "ids": {
+    "circuitpython": [
+      "silabs_explorerkit_xg24_brd2703a"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/silabs_explorerkit_xg24_brd2703a/",
+      "source": "circuitpython:silabs_explorerkit_xg24_brd2703a"
+    }
+  ],
+  "sources": [
+    {
+      "id": "circuitpython:silabs_explorerkit_xg24_brd2703a",
+      "label": "CircuitPython board definition (silabs_explorerkit_xg24_brd2703a)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/silabs_explorerkit_xg24_brd2703a.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

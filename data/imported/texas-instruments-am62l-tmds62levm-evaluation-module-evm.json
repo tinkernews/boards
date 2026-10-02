@@ -1,0 +1,40 @@
+{
+  "slug": "texas-instruments-am62l-tmds62levm-evaluation-module-evm",
+  "name": "AM62L TMDS62LEVM evaluation module (EVM)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "texas-instruments",
+  "ids": {
+    "zephyr": [
+      "am62l_evm"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "AM62L3",
+      "source": "zephyr:am62l_evm"
+    },
+    "ram": {
+      "value": "2048 KB",
+      "source": "zephyr:am62l_evm"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/ti/am62l_evm/doc/index.html",
+      "source": "zephyr:am62l_evm"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:am62l_evm",
+      "label": "Zephyr board definition (am62l_evm)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/ti/am62l_evm/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

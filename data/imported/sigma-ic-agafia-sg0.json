@@ -1,0 +1,56 @@
+{
+  "slug": "sigma-ic-agafia-sg0",
+  "name": "Sigma IC AGAFIA SG0",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sigma-ic",
+  "ids": {
+    "platformio": [
+      "agafia_sg0"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32G071RBT6",
+      "source": "platformio:agafia_sg0"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:agafia_sg0"
+    },
+    "clock": {
+      "value": "64 MHz",
+      "source": "platformio:agafia_sg0"
+    },
+    "upload_limits": {
+      "value": "128 KB flash, 36 KB RAM",
+      "source": "platformio:agafia_sg0"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Sigma IC AGAFIA SG0 product page",
+      "url": "https://www.sigmaic.com/store/p7/agafia-sgo.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/agafia_sg0.html",
+      "source": "platformio:agafia_sg0"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:agafia_sg0",
+      "label": "PlatformIO board definition (agafia_sg0)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/agafia_sg0.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

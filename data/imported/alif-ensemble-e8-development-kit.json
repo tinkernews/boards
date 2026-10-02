@@ -1,0 +1,36 @@
+{
+  "slug": "alif-ensemble-e8-development-kit",
+  "name": "Alif Ensemble E8 Development Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "alif",
+  "ids": {
+    "zephyr": [
+      "ensemble_e8_dk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "AE402FA0E5597LE0",
+      "source": "zephyr:ensemble_e8_dk"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/alif/ensemble_e8_dk/doc/index.html",
+      "source": "zephyr:ensemble_e8_dk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:ensemble_e8_dk",
+      "label": "Zephyr board definition (ensemble_e8_dk)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/alif/ensemble_e8_dk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

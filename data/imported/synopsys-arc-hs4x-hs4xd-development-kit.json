@@ -1,0 +1,36 @@
+{
+  "slug": "synopsys-arc-hs4x-hs4xd-development-kit",
+  "name": "ARC HS4x/HS4xD Development Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "synopsys",
+  "ids": {
+    "zephyr": [
+      "hsdk4xd"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ARC_HSDK4XD",
+      "source": "zephyr:hsdk4xd"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/snps/hsdk4xd/doc/index.html",
+      "source": "zephyr:hsdk4xd"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:hsdk4xd",
+      "label": "Zephyr board definition (hsdk4xd)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/snps/hsdk4xd/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

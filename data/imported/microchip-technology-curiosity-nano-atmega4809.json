@@ -1,0 +1,53 @@
+{
+  "slug": "microchip-technology-curiosity-nano-atmega4809",
+  "name": "Curiosity Nano ATmega4809",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "chip": "atmega4809",
+  "ids": {
+    "platformio": [
+      "curiosity_nano_4809"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega4809",
+      "source": "platformio:curiosity_nano_4809"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:curiosity_nano_4809"
+    },
+    "upload_limits": {
+      "value": "48 KB flash, 6 KB RAM",
+      "source": "platformio:curiosity_nano_4809"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Curiosity Nano ATmega4809 product page",
+      "url": "https://www.microchip.com/developmenttools/ProductDetails/DM320115"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelmegaavr/curiosity_nano_4809.html",
+      "source": "platformio:curiosity_nano_4809"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:curiosity_nano_4809",
+      "label": "PlatformIO board definition (curiosity_nano_4809)",
+      "url": "https://github.com/platformio/platform-atmelmegaavr/blob/8d7678dd994dadf43062cb589deba0806fae3a2e/boards/curiosity_nano_4809.json",
+      "kind": "import",
+      "revision": "8d7678dd994dadf43062cb589deba0806fae3a2e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

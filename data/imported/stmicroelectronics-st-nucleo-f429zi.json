@@ -1,0 +1,99 @@
+{
+  "slug": "stmicroelectronics-st-nucleo-f429zi",
+  "name": "ST Nucleo F429ZI",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "aliases": [
+    "Nucleo F429ZI"
+  ],
+  "ids": {
+    "platformio": [
+      "nucleo_f429zi"
+    ],
+    "zephyr": [
+      "nucleo_f429zi"
+    ],
+    "micropython": [
+      "NUCLEO_F429ZI"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F429ZIT6",
+      "source": "platformio:nucleo_f429zi"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:nucleo_f429zi"
+    },
+    "clock": {
+      "value": "180 MHz",
+      "source": "platformio:nucleo_f429zi"
+    },
+    "upload_limits": {
+      "value": "2 MB flash, 192 KB RAM",
+      "source": "platformio:nucleo_f429zi"
+    },
+    "ram": {
+      "value": "192 KB",
+      "source": "zephyr:nucleo_f429zi"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:nucleo_f429zi"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ST Nucleo F429ZI product page",
+      "url": "https://developer.mbed.org/platforms/ST-Nucleo-F429ZI/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/nucleo_f429zi.html",
+      "source": "platformio:nucleo_f429zi"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/nucleo_f429zi/doc/index.html",
+      "source": "zephyr:nucleo_f429zi"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/NUCLEO_F429ZI/",
+      "source": "micropython:nucleo_f429zi"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:nucleo_f429zi",
+      "label": "PlatformIO board definition (nucleo_f429zi)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/nucleo_f429zi.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    },
+    {
+      "id": "zephyr:nucleo_f429zi",
+      "label": "Zephyr board definition (nucleo_f429zi)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/nucleo_f429zi/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "micropython:nucleo_f429zi",
+      "label": "MicroPython board definition (NUCLEO_F429ZI)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/stm32/boards/NUCLEO_F429ZI/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

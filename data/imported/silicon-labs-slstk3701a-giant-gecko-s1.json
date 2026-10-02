@@ -1,0 +1,47 @@
+{
+  "slug": "silicon-labs-slstk3701a-giant-gecko-s1",
+  "name": "SLSTK3701A Giant Gecko S1",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "silicon-labs",
+  "ids": {
+    "platformio": [
+      "efm32gg11_stk3701"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "EFM32GG11B820F2048GL192",
+      "source": "platformio:efm32gg11_stk3701"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M3",
+      "source": "platformio:efm32gg11_stk3701"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:efm32gg11_stk3701"
+    },
+    "upload_limits": {
+      "value": "2 MB flash, 512 KB RAM",
+      "source": "platformio:efm32gg11_stk3701"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "SLSTK3701A Giant Gecko S1 product page",
+      "url": "https://www.silabs.com/development-tools/mcu/32-bit/efm32gg11-starter-kit"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:efm32gg11_stk3701",
+      "label": "PlatformIO board definition (efm32gg11_stk3701)",
+      "url": "https://github.com/platformio/platform-siliconlabsefm32/blob/0bc1a08b57de87366e56433c838ab83188fa419d/boards/efm32gg11_stk3701.json",
+      "kind": "import",
+      "revision": "0bc1a08b57de87366e56433c838ab83188fa419d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

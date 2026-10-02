@@ -1,0 +1,43 @@
+{
+  "slug": "sparkfun-red-v-thing-plus",
+  "name": "SparkFun RED-V Thing Plus",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sparkfun",
+  "ids": {
+    "platformio": [
+      "sparkfun_thing_plus_v"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "FE310",
+      "source": "platformio:sparkfun_thing_plus_v"
+    },
+    "clock": {
+      "value": "320 MHz",
+      "source": "platformio:sparkfun_thing_plus_v"
+    },
+    "upload_limits": {
+      "value": "16 MB flash, 16 KB RAM",
+      "source": "platformio:sparkfun_thing_plus_v"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "SparkFun RED-V Thing Plus product page",
+      "url": "https://www.sparkfun.com/products/15799"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:sparkfun_thing_plus_v",
+      "label": "PlatformIO board definition (sparkfun_thing_plus_v)",
+      "url": "https://github.com/platformio/platform-sifive/blob/062e2eb4704e012bbd73a8f9d1e366486a0e41e4/boards/sparkfun_thing_plus_v.json",
+      "kind": "import",
+      "revision": "062e2eb4704e012bbd73a8f9d1e366486a0e41e4"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

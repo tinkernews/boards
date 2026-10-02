@@ -1,0 +1,40 @@
+{
+  "slug": "beagleboard-org-beaglev-fire",
+  "name": "BeagleV®-Fire",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "beagleboard",
+  "ids": {
+    "zephyr": [
+      "beaglev_fire"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "POLARFIRE",
+      "source": "zephyr:beaglev_fire"
+    },
+    "ram": {
+      "value": "2048000 KB",
+      "source": "zephyr:beaglev_fire"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/beagle/beaglev_fire/doc/index.html",
+      "source": "zephyr:beaglev_fire"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:beaglev_fire",
+      "label": "Zephyr board definition (beaglev_fire)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/beagle/beaglev_fire/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

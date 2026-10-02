@@ -1,0 +1,44 @@
+{
+  "slug": "silicon-labs-efm32-giant-gecko-11-slstk3701a",
+  "name": "EFM32 Giant Gecko 11 (SLSTK3701A)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "silicon-labs",
+  "ids": {
+    "zephyr": [
+      "slstk3701a"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "EFM32GG11B820F2048GL192",
+      "source": "zephyr:slstk3701a"
+    },
+    "ram": {
+      "value": "512 KB",
+      "source": "zephyr:slstk3701a"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:slstk3701a"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/silabs/starter_kits/slstk3701a/doc/index.html",
+      "source": "zephyr:slstk3701a"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:slstk3701a",
+      "label": "Zephyr board definition (slstk3701a)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/silabs/starter_kits/slstk3701a/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

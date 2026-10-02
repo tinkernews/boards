@@ -1,0 +1,189 @@
+{
+  "slug": "bh-dynamics-dynossat-edu-eps",
+  "name": "DynOSSAT-EDU EPS",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "bh-dynamics",
+  "chip": "atsamd21g18",
+  "ids": {
+    "circuitpython": [
+      "dynossat_edu_eps"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/dynossat_edu_eps/",
+      "source": "circuitpython:dynossat_edu_eps"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:dynossat_edu_eps",
+    "list": [
+      {
+        "pin": "PA04",
+        "names": [
+          "PWRMON_SDA"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "PWRMON_SCL"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "D13",
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "D0",
+          "OVTEMP"
+        ]
+      },
+      {
+        "pin": "PA08",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PA09",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "D1",
+          "SAT_PWR_ENABLE"
+        ]
+      },
+      {
+        "pin": "PA11",
+        "names": [
+          "D2",
+          "SAT_RESET"
+        ]
+      },
+      {
+        "pin": "PA12",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "PA16",
+        "names": [
+          "TX"
+        ]
+      },
+      {
+        "pin": "PA17",
+        "names": [
+          "RX"
+        ]
+      },
+      {
+        "pin": "PA19",
+        "names": [
+          "D3",
+          "INT_IMU_OBC"
+        ]
+      },
+      {
+        "pin": "PA20",
+        "names": [
+          "FLASH_CS"
+        ]
+      },
+      {
+        "pin": "PA21",
+        "names": [
+          "FLASH_MISO"
+        ]
+      },
+      {
+        "pin": "PA22",
+        "names": [
+          "FLASH_MOSI"
+        ]
+      },
+      {
+        "pin": "PA23",
+        "names": [
+          "FLASH_SCK"
+        ]
+      },
+      {
+        "pin": "PA30",
+        "names": [
+          "D26"
+        ]
+      },
+      {
+        "pin": "PA31",
+        "names": [
+          "D27"
+        ]
+      },
+      {
+        "pin": "PB02",
+        "names": [
+          "A1",
+          "V_5V_MEAS"
+        ]
+      },
+      {
+        "pin": "PB03",
+        "names": [
+          "D4",
+          "PWRMON_ALERT"
+        ]
+      },
+      {
+        "pin": "PB09",
+        "names": [
+          "A0",
+          "V_3V3_MEAS"
+        ]
+      },
+      {
+        "pin": "PB10",
+        "names": [
+          "MISO"
+        ]
+      },
+      {
+        "pin": "PB11",
+        "names": [
+          "SCK"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:dynossat_edu_eps",
+      "label": "CircuitPython board definition (dynossat_edu_eps)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/dynossat_edu_eps.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:dynossat_edu_eps",
+      "label": "CircuitPython pin definitions (dynossat_edu_eps)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/dynossat_edu_eps/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

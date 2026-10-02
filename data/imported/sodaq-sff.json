@@ -1,0 +1,57 @@
+{
+  "slug": "sodaq-sff",
+  "name": "SODAQ SFF",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sodaq",
+  "chip": "atsamd21g18",
+  "ids": {
+    "platformio": [
+      "sodaq_sff"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAMD21G18",
+      "source": "platformio:sodaq_sff"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:sodaq_sff"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:sodaq_sff"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:sodaq_sff"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "SODAQ SFF product page",
+      "url": "https://support.sodaq.com/sodaq-one/sff//"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelsam/sodaq_sff.html",
+      "source": "platformio:sodaq_sff"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:sodaq_sff",
+      "label": "PlatformIO board definition (sodaq_sff)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/sodaq_sff.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

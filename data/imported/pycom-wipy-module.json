@@ -1,0 +1,37 @@
+{
+  "slug": "pycom-wipy-module",
+  "name": "WiPy Module",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "pycom",
+  "ids": {
+    "micropython": [
+      "WIPY"
+    ]
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "WiPy Module product page",
+      "url": "https://pycom.io/product/wipy-3-0/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/WIPY/",
+      "source": "micropython:wipy"
+    }
+  ],
+  "sources": [
+    {
+      "id": "micropython:wipy",
+      "label": "MicroPython board definition (WIPY)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/cc3200/boards/WIPY/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

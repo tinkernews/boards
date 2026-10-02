@@ -1,0 +1,52 @@
+{
+  "slug": "olimex-pic32-pinguino",
+  "name": "Olimex PIC32-PINGUINO",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "olimex",
+  "ids": {
+    "platformio": [
+      "pinguino32"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "32MX440F256H",
+      "source": "platformio:pinguino32"
+    },
+    "clock": {
+      "value": "80 MHz",
+      "source": "platformio:pinguino32"
+    },
+    "upload_limits": {
+      "value": "252 KB flash, 32 KB RAM",
+      "source": "platformio:pinguino32"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Olimex PIC32-PINGUINO product page",
+      "url": "https://www.olimex.com/Products/Duino/PIC32/PIC32-PINGUINO/open-source-hardware"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/microchippic32/pinguino32.html",
+      "source": "platformio:pinguino32"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:pinguino32",
+      "label": "PlatformIO board definition (pinguino32)",
+      "url": "https://github.com/platformio/platform-microchippic32/blob/f6e89308da11cfe35d7534696bf01abf3f442461/boards/pinguino32.json",
+      "kind": "import",
+      "revision": "f6e89308da11cfe35d7534696bf01abf3f442461"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

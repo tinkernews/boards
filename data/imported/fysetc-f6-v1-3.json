@@ -1,0 +1,53 @@
+{
+  "slug": "fysetc-f6-v1-3",
+  "name": "FYSETC F6 V1.3",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "fysetc",
+  "chip": "atmega2560",
+  "ids": {
+    "platformio": [
+      "fysetc_f6_13"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega2560",
+      "source": "platformio:fysetc_f6_13"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:fysetc_f6_13"
+    },
+    "upload_limits": {
+      "value": "252 KB flash, 8 KB RAM",
+      "source": "platformio:fysetc_f6_13"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "FYSETC F6 V1.3 product page",
+      "url": "https://www.fysetc.com/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/fysetc_f6_13.html",
+      "source": "platformio:fysetc_f6_13"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:fysetc_f6_13",
+      "label": "PlatformIO board definition (fysetc_f6_13)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/fysetc_f6_13.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

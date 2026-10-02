@@ -1,0 +1,53 @@
+{
+  "slug": "sodaq-tatu",
+  "name": "SODAQ Tatu",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sodaq",
+  "chip": "atmega1284p",
+  "ids": {
+    "platformio": [
+      "sodaq_tatu"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega1284P",
+      "source": "platformio:sodaq_tatu"
+    },
+    "clock": {
+      "value": "8 MHz",
+      "source": "platformio:sodaq_tatu"
+    },
+    "upload_limits": {
+      "value": "127 KB flash, 16 KB RAM",
+      "source": "platformio:sodaq_tatu"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "SODAQ Tatu product page",
+      "url": "http://support.sodaq.com/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/sodaq_tatu.html",
+      "source": "platformio:sodaq_tatu"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:sodaq_tatu",
+      "label": "PlatformIO board definition (sodaq_tatu)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/sodaq_tatu.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

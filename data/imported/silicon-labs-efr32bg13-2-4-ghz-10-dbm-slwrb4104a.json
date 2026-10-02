@@ -1,0 +1,44 @@
+{
+  "slug": "silicon-labs-efr32bg13-2-4-ghz-10-dbm-slwrb4104a",
+  "name": "EFR32BG13 2.4 GHz 10 dBm (SLWRB4104A)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "silicon-labs",
+  "ids": {
+    "zephyr": [
+      "slwrb4104a"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "EFR32BG13P632F512GM48",
+      "source": "zephyr:slwrb4104a"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:slwrb4104a"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:slwrb4104a"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/silabs/radio_boards/slwrb4104a/doc/index.html",
+      "source": "zephyr:slwrb4104a"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:slwrb4104a",
+      "label": "Zephyr board definition (slwrb4104a)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/silabs/radio_boards/slwrb4104a/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

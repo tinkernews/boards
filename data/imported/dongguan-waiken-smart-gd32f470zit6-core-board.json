@@ -1,0 +1,44 @@
+{
+  "slug": "dongguan-waiken-smart-gd32f470zit6-core-board",
+  "name": "GD32F470ZIT6 Core Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "dongguan-waiken-smart",
+  "ids": {
+    "zephyr": [
+      "gd32f470zit6_core"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "GD32F470",
+      "source": "zephyr:gd32f470zit6_core"
+    },
+    "ram": {
+      "value": "704 KB",
+      "source": "zephyr:gd32f470zit6_core"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:gd32f470zit6_core"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/waiken-smart/gd32f470zit6_core/doc/index.html",
+      "source": "zephyr:gd32f470zit6_core"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:gd32f470zit6_core",
+      "label": "Zephyr board definition (gd32f470zit6_core)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/waiken-smart/gd32f470zit6_core/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

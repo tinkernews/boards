@@ -1,0 +1,30 @@
+{
+  "slug": "zephyr-nrf54lm20b-simulator",
+  "name": "nRF54LM20B Simulator",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "zephyr",
+  "ids": {
+    "circuitpython": [
+      "native_nrf54lm20bsim"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/native_nrf54lm20bsim/",
+      "source": "circuitpython:native_nrf54lm20bsim"
+    }
+  ],
+  "sources": [
+    {
+      "id": "circuitpython:native_nrf54lm20bsim",
+      "label": "CircuitPython board definition (native_nrf54lm20bsim)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/native_nrf54lm20bsim.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

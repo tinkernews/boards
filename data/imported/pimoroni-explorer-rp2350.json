@@ -1,0 +1,338 @@
+{
+  "slug": "pimoroni-explorer-rp2350",
+  "name": "Pimoroni Explorer (RP2350)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "pimoroni",
+  "chip": "rp2350",
+  "ids": {
+    "circuitpython": [
+      "pimoroni_explorer2350"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/pimoroni_explorer2350/",
+      "source": "circuitpython:pimoroni_explorer2350"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:pimoroni_explorer2350",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "TX",
+          "GP0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "RX",
+          "GP1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "GP2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "GP3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "GP4"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "GP5"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "SERVO4",
+          "GP6"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "SERVO3",
+          "GP7"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "SERVO2",
+          "GP8"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "SERVO1",
+          "GP9"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "AUDIO",
+          "GP12"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "AMP_EN",
+          "GP13"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "SW_C",
+          "GP14"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "SW_B",
+          "GP15"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "SW_A",
+          "GP16"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "SW_X",
+          "GP17"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "SW_Y",
+          "GP18"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "SW_Z",
+          "GP19"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "SDA",
+          "GP20"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "SCL",
+          "GP21"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "SW_USER",
+          "GP22"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "LED",
+          "GP25"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "LCD_BL",
+          "GP26"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "LCD_CS",
+          "GP27"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "LCD_DC",
+          "GP28"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "GP29"
+        ]
+      },
+      {
+        "pin": "GPIO30",
+        "names": [
+          "LCD_WR",
+          "GP30"
+        ]
+      },
+      {
+        "pin": "GPIO31",
+        "names": [
+          "LCD_RD",
+          "GP31"
+        ]
+      },
+      {
+        "pin": "GPIO32",
+        "names": [
+          "LCD_D0",
+          "GP32"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "LCD_D1",
+          "GP33"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "LCD_D2",
+          "GP34"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "LCD_D3",
+          "GP35"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "LCD_D4",
+          "GP36"
+        ]
+      },
+      {
+        "pin": "GPIO37",
+        "names": [
+          "LCD_D5",
+          "GP37"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "LCD_D6",
+          "GP38"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "LCD_D7",
+          "GP39"
+        ]
+      },
+      {
+        "pin": "GPIO40",
+        "names": [
+          "A0",
+          "ADC0",
+          "GP40"
+        ]
+      },
+      {
+        "pin": "GPIO41",
+        "names": [
+          "A1",
+          "ADC1",
+          "GP41"
+        ]
+      },
+      {
+        "pin": "GPIO42",
+        "names": [
+          "A2",
+          "ADC2",
+          "GP42"
+        ]
+      },
+      {
+        "pin": "GPIO43",
+        "names": [
+          "A3",
+          "ADC3",
+          "GP43"
+        ]
+      },
+      {
+        "pin": "GPIO44",
+        "names": [
+          "A4",
+          "ADC4",
+          "GP44"
+        ]
+      },
+      {
+        "pin": "GPIO45",
+        "names": [
+          "A5",
+          "ADC5",
+          "GP45"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:pimoroni_explorer2350",
+      "label": "CircuitPython board definition (pimoroni_explorer2350)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/pimoroni_explorer2350.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:pimoroni_explorer2350",
+      "label": "CircuitPython pin definitions (pimoroni_explorer2350)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/pimoroni_explorer2350/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

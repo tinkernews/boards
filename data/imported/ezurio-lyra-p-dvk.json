@@ -1,0 +1,44 @@
+{
+  "slug": "ezurio-lyra-p-dvk",
+  "name": "Lyra P DVK",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "ezurio",
+  "ids": {
+    "zephyr": [
+      "lyra_dvk_p"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "BGM220PC22HNA",
+      "source": "zephyr:lyra_dvk_p"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:lyra_dvk_p"
+    },
+    "flash": {
+      "value": "224 KB",
+      "source": "zephyr:lyra_dvk_p"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/ezurio/lyra_dvk/doc/index.html",
+      "source": "zephyr:lyra_dvk_p"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:lyra_dvk_p",
+      "label": "Zephyr board definition (lyra_dvk_p)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/ezurio/lyra_dvk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

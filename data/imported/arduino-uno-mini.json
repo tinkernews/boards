@@ -1,0 +1,53 @@
+{
+  "slug": "arduino-uno-mini",
+  "name": "Arduino Uno Mini",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "chip": "atmega328p",
+  "ids": {
+    "platformio": [
+      "uno_mini"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega328P",
+      "source": "platformio:uno_mini"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:uno_mini"
+    },
+    "upload_limits": {
+      "value": "31.5 KB flash, 2 KB RAM",
+      "source": "platformio:uno_mini"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Arduino Uno Mini product page",
+      "url": "https://store.arduino.cc/products/uno-mini-le"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/uno_mini.html",
+      "source": "platformio:uno_mini"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:uno_mini",
+      "label": "PlatformIO board definition (uno_mini)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/uno_mini.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

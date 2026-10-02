@@ -1,0 +1,49 @@
+{
+  "slug": "khadas-vim3l",
+  "name": "Khadas VIM3L",
+  "tier": "imported",
+  "kind": "sbc",
+  "maker": "khadas",
+  "released": "2019",
+  "ids": {
+    "armbian": [
+      "khadas-vim3l"
+    ],
+    "linux": [
+      "arch/arm64/boot/dts/amlogic/meson-sm1-khadas-vim3l.dts"
+    ]
+  },
+  "software": [
+    {
+      "platform": "armbian",
+      "status": "supported",
+      "note": "Supported by Armbian.",
+      "url": "https://github.com/armbian/build/blob/main/config/boards/khadas-vim3l.conf",
+      "source": "armbian:khadas-vim3l"
+    },
+    {
+      "platform": "linux-mainline",
+      "status": "supported",
+      "note": "A device tree for this board is in the mainline kernel; features may still be missing.",
+      "url": "https://github.com/torvalds/linux/blob/master/arch/arm64/boot/dts/amlogic/meson-sm1-khadas-vim3l.dts",
+      "source": "linux:meson-sm1-khadas-vim3l.dts"
+    }
+  ],
+  "sources": [
+    {
+      "id": "armbian:khadas-vim3l",
+      "label": "Armbian board configuration (khadas-vim3l)",
+      "url": "https://github.com/armbian/build/blob/da85daa05bd260d04dac50315d7317207fd998b3/config/boards/khadas-vim3l.conf",
+      "kind": "import",
+      "revision": "da85daa05bd260d04dac50315d7317207fd998b3"
+    },
+    {
+      "id": "linux:meson-sm1-khadas-vim3l.dts",
+      "label": "Linux kernel device tree (meson-sm1-khadas-vim3l.dts)",
+      "url": "https://github.com/torvalds/linux/blob/551c722f40809618230001baccf219193e22fc5a/arch/arm64/boot/dts/amlogic/meson-sm1-khadas-vim3l.dts",
+      "kind": "import",
+      "revision": "551c722f40809618230001baccf219193e22fc5a"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

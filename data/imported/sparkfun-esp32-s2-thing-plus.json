@@ -1,0 +1,59 @@
+{
+  "slug": "sparkfun-esp32-s2-thing-plus",
+  "name": "SparkFun ESP32-S2 Thing Plus",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sparkfun",
+  "chip": "esp32-s2",
+  "ids": {
+    "platformio": [
+      "sparkfun_esp32s2_thing_plus"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-S2",
+      "source": "platformio:sparkfun_esp32s2_thing_plus"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:sparkfun_esp32s2_thing_plus"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:sparkfun_esp32s2_thing_plus"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "SparkFun ESP32-S2 Thing Plus product page",
+      "url": "https://www.sparkfun.com/products/17743"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/sparkfun_esp32s2_thing_plus.html",
+      "source": "platformio:sparkfun_esp32s2_thing_plus"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/sparkfun_esp32s2_thing_plus.html",
+      "source": "platformio:sparkfun_esp32s2_thing_plus"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:sparkfun_esp32s2_thing_plus",
+      "label": "PlatformIO board definition (sparkfun_esp32s2_thing_plus)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/sparkfun_esp32s2_thing_plus.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

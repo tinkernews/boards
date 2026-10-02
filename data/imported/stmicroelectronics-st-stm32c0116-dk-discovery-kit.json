@@ -1,0 +1,83 @@
+{
+  "slug": "stmicroelectronics-st-stm32c0116-dk-discovery-kit",
+  "name": "ST STM32C0116-DK Discovery Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "aliases": [
+    "STM32C0116-DK Discovery Kit"
+  ],
+  "ids": {
+    "platformio": [
+      "disco_c011f6"
+    ],
+    "zephyr": [
+      "stm32c0116_dk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32C011F6U6",
+      "source": "platformio:disco_c011f6"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:disco_c011f6"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:disco_c011f6"
+    },
+    "upload_limits": {
+      "value": "32 KB flash, 6 KB RAM",
+      "source": "platformio:disco_c011f6"
+    },
+    "ram": {
+      "value": "6 KB",
+      "source": "zephyr:stm32c0116_dk"
+    },
+    "flash": {
+      "value": "32 KB",
+      "source": "zephyr:stm32c0116_dk"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ST STM32C0116-DK Discovery Kit product page",
+      "url": "https://www.st.com/en/evaluation-tools/stm32c0116-dk.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/disco_c011f6.html",
+      "source": "platformio:disco_c011f6"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/stm32c0116_dk/doc/index.html",
+      "source": "zephyr:stm32c0116_dk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:disco_c011f6",
+      "label": "PlatformIO board definition (disco_c011f6)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/disco_c011f6.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    },
+    {
+      "id": "zephyr:stm32c0116_dk",
+      "label": "Zephyr board definition (stm32c0116_dk)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/stm32c0116_dk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

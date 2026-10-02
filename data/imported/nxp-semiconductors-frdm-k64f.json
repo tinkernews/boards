@@ -1,0 +1,44 @@
+{
+  "slug": "nxp-semiconductors-frdm-k64f",
+  "name": "FRDM-K64F",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "ids": {
+    "zephyr": [
+      "frdm_k64f"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MK64F12",
+      "source": "zephyr:frdm_k64f"
+    },
+    "ram": {
+      "value": "192 KB",
+      "source": "zephyr:frdm_k64f"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:frdm_k64f"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nxp/frdm_k64f/doc/index.html",
+      "source": "zephyr:frdm_k64f"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:frdm_k64f",
+      "label": "Zephyr board definition (frdm_k64f)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nxp/frdm_k64f/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

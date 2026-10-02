@@ -1,0 +1,49 @@
+{
+  "slug": "spacemit-k3-pico-itx",
+  "name": "SpacemiT K3 Pico-ITX",
+  "tier": "imported",
+  "kind": "sbc",
+  "maker": "spacemit",
+  "released": "2026",
+  "ids": {
+    "armbian": [
+      "k3picoitx"
+    ],
+    "linux": [
+      "arch/riscv/boot/dts/spacemit/k3-pico-itx.dts"
+    ]
+  },
+  "software": [
+    {
+      "platform": "armbian",
+      "status": "supported",
+      "note": "Supported by Armbian.",
+      "url": "https://github.com/armbian/build/blob/main/config/boards/k3picoitx.conf",
+      "source": "armbian:k3picoitx"
+    },
+    {
+      "platform": "linux-mainline",
+      "status": "supported",
+      "note": "A device tree for this board is in the mainline kernel; features may still be missing.",
+      "url": "https://github.com/torvalds/linux/blob/master/arch/riscv/boot/dts/spacemit/k3-pico-itx.dts",
+      "source": "linux:k3-pico-itx.dts"
+    }
+  ],
+  "sources": [
+    {
+      "id": "armbian:k3picoitx",
+      "label": "Armbian board configuration (k3picoitx)",
+      "url": "https://github.com/armbian/build/blob/da85daa05bd260d04dac50315d7317207fd998b3/config/boards/k3picoitx.conf",
+      "kind": "import",
+      "revision": "da85daa05bd260d04dac50315d7317207fd998b3"
+    },
+    {
+      "id": "linux:k3-pico-itx.dts",
+      "label": "Linux kernel device tree (k3-pico-itx.dts)",
+      "url": "https://github.com/torvalds/linux/blob/551c722f40809618230001baccf219193e22fc5a/arch/riscv/boot/dts/spacemit/k3-pico-itx.dts",
+      "kind": "import",
+      "revision": "551c722f40809618230001baccf219193e22fc5a"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

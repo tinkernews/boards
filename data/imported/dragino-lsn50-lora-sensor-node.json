@@ -1,0 +1,44 @@
+{
+  "slug": "dragino-lsn50-lora-sensor-node",
+  "name": "LSN50 LoRA Sensor Node",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "dragino",
+  "ids": {
+    "zephyr": [
+      "dragino_lsn50"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32L072XX",
+      "source": "zephyr:dragino_lsn50"
+    },
+    "ram": {
+      "value": "20 KB",
+      "source": "zephyr:dragino_lsn50"
+    },
+    "flash": {
+      "value": "192 KB",
+      "source": "zephyr:dragino_lsn50"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/dragino/lsn50/doc/index.html",
+      "source": "zephyr:dragino_lsn50"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:dragino_lsn50",
+      "label": "Zephyr board definition (dragino_lsn50)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/dragino/lsn50/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

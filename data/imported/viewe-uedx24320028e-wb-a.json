@@ -1,0 +1,37 @@
+{
+  "slug": "viewe-uedx24320028e-wb-a",
+  "name": "VIEWE UEDX24320028E-WB-A",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "viewe-display",
+  "chip": "esp32-s3",
+  "ids": {
+    "zephyr": [
+      "uedx24320028e_wb_a"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-S3",
+      "source": "zephyr:uedx24320028e_wb_a"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/viewe/uedx24320028e_wb_a/doc/index.html",
+      "source": "zephyr:uedx24320028e_wb_a"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:uedx24320028e_wb_a",
+      "label": "Zephyr board definition (uedx24320028e_wb_a)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/viewe/uedx24320028e_wb_a/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

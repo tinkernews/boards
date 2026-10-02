@@ -1,0 +1,44 @@
+{
+  "slug": "silicon-labs-efr32xg28-explorer-kit-xg28-ek2705a",
+  "name": "EFR32xG28 Explorer Kit (xG28-EK2705A)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "silicon-labs",
+  "ids": {
+    "zephyr": [
+      "xg28_ek2705a"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "EFR32ZG28B312F1024IM48",
+      "source": "zephyr:xg28_ek2705a"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:xg28_ek2705a"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:xg28_ek2705a"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/silabs/explorer_kits/xg28/doc/index.html",
+      "source": "zephyr:xg28_ek2705a"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:xg28_ek2705a",
+      "label": "Zephyr board definition (xg28_ek2705a)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/silabs/explorer_kits/xg28/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "candlelight",
+  "name": "candleLight",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "generic",
+  "ids": {
+    "zephyr": [
+      "candlelight"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F072XB",
+      "source": "zephyr:candlelight"
+    },
+    "ram": {
+      "value": "16 KB",
+      "source": "zephyr:candlelight"
+    },
+    "flash": {
+      "value": "128 KB",
+      "source": "zephyr:candlelight"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/others/candlelight/doc/index.html",
+      "source": "zephyr:candlelight"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:candlelight",
+      "label": "Zephyr board definition (candlelight)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/others/candlelight/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

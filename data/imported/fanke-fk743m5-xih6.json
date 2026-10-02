@@ -1,0 +1,45 @@
+{
+  "slug": "fanke-fk743m5-xih6",
+  "name": "FK743M5-XIH6",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "fanke",
+  "chip": "stm32h743",
+  "ids": {
+    "zephyr": [
+      "fk743m5_xih6"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32H743",
+      "source": "zephyr:fk743m5_xih6"
+    },
+    "ram": {
+      "value": "1024 KB",
+      "source": "zephyr:fk743m5_xih6"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:fk743m5_xih6"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/fanke/fk743m5_xih6/doc/index.html",
+      "source": "zephyr:fk743m5_xih6"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:fk743m5_xih6",
+      "label": "Zephyr board definition (fk743m5_xih6)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/fanke/fk743m5_xih6/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

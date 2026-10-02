@@ -1,0 +1,36 @@
+{
+  "slug": "advanced-micro-devices-amd-versal-net-rpu-development-board",
+  "name": "Versal NET RPU development board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "advanced-micro-devices-amd",
+  "ids": {
+    "zephyr": [
+      "versalnet_rpu"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "AMD_VERSALNET_RPU",
+      "source": "zephyr:versalnet_rpu"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/amd/versalnet_rpu/doc/index.html",
+      "source": "zephyr:versalnet_rpu"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:versalnet_rpu",
+      "label": "Zephyr board definition (versalnet_rpu)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/amd/versalnet_rpu/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

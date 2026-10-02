@@ -1,0 +1,53 @@
+{
+  "slug": "redbearlab-blend",
+  "name": "RedBearLab Blend",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "redbearlab",
+  "chip": "atmega32u4",
+  "ids": {
+    "platformio": [
+      "blend"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega32U4",
+      "source": "platformio:blend"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:blend"
+    },
+    "upload_limits": {
+      "value": "28 KB flash, 2.5 KB RAM",
+      "source": "platformio:blend"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "RedBearLab Blend product page",
+      "url": "http://redbearlab.com/blend/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/blend.html",
+      "source": "platformio:blend"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:blend",
+      "label": "PlatformIO board definition (blend)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/blend.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "nxp-semiconductors-x-s32z27x-dc-dc2",
+  "name": "X-S32Z27X-DC (DC2)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "ids": {
+    "zephyr": [
+      "s32z2xxdc2"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "S32Z270",
+      "source": "zephyr:s32z2xxdc2"
+    },
+    "ram": {
+      "value": "1024 KB",
+      "source": "zephyr:s32z2xxdc2"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nxp/s32z2xxdc2/doc/index.html",
+      "source": "zephyr:s32z2xxdc2"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:s32z2xxdc2",
+      "label": "Zephyr board definition (s32z2xxdc2)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nxp/s32z2xxdc2/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

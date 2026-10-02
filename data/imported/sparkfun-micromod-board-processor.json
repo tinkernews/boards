@@ -1,0 +1,45 @@
+{
+  "slug": "sparkfun-micromod-board-processor",
+  "name": "MicroMod board Processor",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sparkfun",
+  "chip": "nrf52840",
+  "ids": {
+    "zephyr": [
+      "micromod"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52840",
+      "source": "zephyr:micromod"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:micromod"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:micromod"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/sparkfun/micromod/doc/index.html",
+      "source": "zephyr:micromod"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:micromod",
+      "label": "Zephyr board definition (micromod)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/sparkfun/micromod/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

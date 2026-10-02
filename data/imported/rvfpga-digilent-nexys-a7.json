@@ -1,0 +1,39 @@
+{
+  "slug": "rvfpga-digilent-nexys-a7",
+  "name": "RVfpga: Digilent Nexys A7",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "digilent",
+  "ids": {
+    "platformio": [
+      "swervolf_nexys"
+    ]
+  },
+  "specs": {
+    "clock": {
+      "value": "320 MHz",
+      "source": "platformio:swervolf_nexys"
+    },
+    "upload_limits": {
+      "value": "16 MB flash, 1.16 MB RAM",
+      "source": "platformio:swervolf_nexys"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "RVfpga: Digilent Nexys A7 product page",
+      "url": "https://reference.digilentinc.com/reference/programmable-logic/nexys-a7/start"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:swervolf_nexys",
+      "label": "PlatformIO board definition (swervolf_nexys)",
+      "url": "https://github.com/platformio/platform-chipsalliance/blob/5d4377cc9fada20597c52507eef3e3b855b6a14b/boards/swervolf_nexys.json",
+      "kind": "import",
+      "revision": "5d4377cc9fada20597c52507eef3e3b855b6a14b"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

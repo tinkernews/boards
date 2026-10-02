@@ -1,0 +1,52 @@
+{
+  "slug": "4d-systems-picadillo-35t",
+  "name": "4D Systems PICadillo 35T",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "4d",
+  "ids": {
+    "platformio": [
+      "picadillo_35t"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "32MX795F512L",
+      "source": "platformio:picadillo_35t"
+    },
+    "clock": {
+      "value": "80 MHz",
+      "source": "platformio:picadillo_35t"
+    },
+    "upload_limits": {
+      "value": "508 KB flash, 128 KB RAM",
+      "source": "platformio:picadillo_35t"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "4D Systems PICadillo 35T product page",
+      "url": "http://www.4dsystems.com.au/product/Picadillo_35T/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/microchippic32/picadillo_35t.html",
+      "source": "platformio:picadillo_35t"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:picadillo_35t",
+      "label": "PlatformIO board definition (picadillo_35t)",
+      "url": "https://github.com/platformio/platform-microchippic32/blob/f6e89308da11cfe35d7534696bf01abf3f442461/boards/picadillo_35t.json",
+      "kind": "import",
+      "revision": "f6e89308da11cfe35d7534696bf01abf3f442461"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

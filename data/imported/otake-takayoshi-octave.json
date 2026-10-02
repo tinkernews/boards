@@ -1,0 +1,229 @@
+{
+  "slug": "otake-takayoshi-octave",
+  "name": "OTAKE Takayoshi Octave",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "otake-takayoshi",
+  "chip": "rp2040",
+  "ids": {
+    "circuitpython": [
+      "takayoshiotake_octave_rp2040"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/takayoshiotake_octave_rp2040/",
+      "source": "circuitpython:takayoshiotake_octave_rp2040"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:takayoshiotake_octave_rp2040",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "GPIO0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "GPIO1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "GPIO2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "GPIO3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "GPIO4"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "GPIO5"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "GPIO6"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "GPIO7"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "GPIO8"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "GPIO9"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "GPIO10"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "GPIO11",
+          "NEOPIX_POWER"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "GPIO12",
+          "NEOPIX"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "GPIO13"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "GPIO14"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "GPIO15"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "GPIO16"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "GPIO17"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "GPIO18"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "GPIO19"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "GPIO20"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "GPIO21"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "GPIO22"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "GPIO23"
+        ]
+      },
+      {
+        "pin": "GPIO24",
+        "names": [
+          "GPIO24"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "GPIO25"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "GPIO26",
+          "ADC0"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "GPIO27",
+          "ADC1"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "GPIO28",
+          "ADC2"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "GPIO29",
+          "ADC3"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:takayoshiotake_octave_rp2040",
+      "label": "CircuitPython board definition (takayoshiotake_octave_rp2040)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/takayoshiotake_octave_rp2040.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:takayoshiotake_octave_rp2040",
+      "label": "CircuitPython pin definitions (takayoshiotake_octave_rp2040)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/takayoshiotake_octave_rp2040/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

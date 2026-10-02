@@ -1,0 +1,30 @@
+{
+  "slug": "renesas-ek-ra6m5-evaluation-kit-zephyr",
+  "name": "EK-RA6M5 Evaluation Kit (Zephyr)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "renesas",
+  "ids": {
+    "circuitpython": [
+      "renesas_ek_ra6m5"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/renesas_ek_ra6m5/",
+      "source": "circuitpython:renesas_ek_ra6m5"
+    }
+  ],
+  "sources": [
+    {
+      "id": "circuitpython:renesas_ek_ra6m5",
+      "label": "CircuitPython board definition (renesas_ek_ra6m5)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/renesas_ek_ra6m5.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

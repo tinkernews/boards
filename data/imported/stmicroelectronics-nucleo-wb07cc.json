@@ -1,0 +1,44 @@
+{
+  "slug": "stmicroelectronics-nucleo-wb07cc",
+  "name": "Nucleo WB07CC",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "zephyr": [
+      "nucleo_wb07cc"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32WB07",
+      "source": "zephyr:nucleo_wb07cc"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:nucleo_wb07cc"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:nucleo_wb07cc"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/nucleo_wb07cc/doc/index.html",
+      "source": "zephyr:nucleo_wb07cc"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:nucleo_wb07cc",
+      "label": "Zephyr board definition (nucleo_wb07cc)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/nucleo_wb07cc/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

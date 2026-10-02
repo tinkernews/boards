@@ -1,0 +1,45 @@
+{
+  "slug": "sparkfun-rp2040-mikrobus-development-board",
+  "name": "Sparkfun RP2040 mikroBUS Development Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sparkfun",
+  "chip": "rp2040",
+  "ids": {
+    "zephyr": [
+      "sparkfun_rp2040_mikrobus"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "RP2040",
+      "source": "zephyr:sparkfun_rp2040_mikrobus"
+    },
+    "ram": {
+      "value": "264 KB",
+      "source": "zephyr:sparkfun_rp2040_mikrobus"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:sparkfun_rp2040_mikrobus"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/sparkfun/rp2040_mikrobus/doc/index.html",
+      "source": "zephyr:sparkfun_rp2040_mikrobus"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:sparkfun_rp2040_mikrobus",
+      "label": "Zephyr board definition (sparkfun_rp2040_mikrobus)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/sparkfun/rp2040_mikrobus/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

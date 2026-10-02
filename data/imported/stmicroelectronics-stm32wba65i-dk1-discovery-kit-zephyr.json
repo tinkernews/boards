@@ -1,0 +1,30 @@
+{
+  "slug": "stmicroelectronics-stm32wba65i-dk1-discovery-kit-zephyr",
+  "name": "STM32WBA65I-DK1 Discovery Kit (Zephyr)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "circuitpython": [
+      "st_stm32wba65i_dk1"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/st_stm32wba65i_dk1/",
+      "source": "circuitpython:st_stm32wba65i_dk1"
+    }
+  ],
+  "sources": [
+    {
+      "id": "circuitpython:st_stm32wba65i_dk1",
+      "label": "CircuitPython board definition (st_stm32wba65i_dk1)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/st_stm32wba65i_dk1.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

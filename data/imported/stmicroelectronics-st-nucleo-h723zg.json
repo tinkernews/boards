@@ -1,0 +1,99 @@
+{
+  "slug": "stmicroelectronics-st-nucleo-h723zg",
+  "name": "ST Nucleo H723ZG",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "aliases": [
+    "Nucleo H723ZG"
+  ],
+  "ids": {
+    "platformio": [
+      "nucleo_h723zg"
+    ],
+    "zephyr": [
+      "nucleo_h723zg"
+    ],
+    "micropython": [
+      "NUCLEO_H723ZG"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32H723ZGT6",
+      "source": "platformio:nucleo_h723zg"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M7",
+      "source": "platformio:nucleo_h723zg"
+    },
+    "clock": {
+      "value": "550 MHz",
+      "source": "platformio:nucleo_h723zg"
+    },
+    "upload_limits": {
+      "value": "1 MB flash, 320 KB RAM",
+      "source": "platformio:nucleo_h723zg"
+    },
+    "ram": {
+      "value": "320 KB",
+      "source": "zephyr:nucleo_h723zg"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:nucleo_h723zg"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ST Nucleo H723ZG product page",
+      "url": "https://www.st.com/en/evaluation-tools/nucleo-h723zg.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/nucleo_h723zg.html",
+      "source": "platformio:nucleo_h723zg"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/nucleo_h723zg/doc/index.html",
+      "source": "zephyr:nucleo_h723zg"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/NUCLEO_H723ZG/",
+      "source": "micropython:nucleo_h723zg"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:nucleo_h723zg",
+      "label": "PlatformIO board definition (nucleo_h723zg)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/nucleo_h723zg.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    },
+    {
+      "id": "zephyr:nucleo_h723zg",
+      "label": "Zephyr board definition (nucleo_h723zg)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/nucleo_h723zg/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "micropython:nucleo_h723zg",
+      "label": "MicroPython board definition (NUCLEO_H723ZG)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/stm32/boards/NUCLEO_H723ZG/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

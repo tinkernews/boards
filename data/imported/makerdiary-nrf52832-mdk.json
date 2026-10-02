@@ -1,0 +1,77 @@
+{
+  "slug": "makerdiary-nrf52832-mdk",
+  "name": "Makerdiary nRF52832-MDK",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "makerdiary",
+  "chip": "nrf52832",
+  "aliases": [
+    "nRF52832-mdk"
+  ],
+  "ids": {
+    "platformio": [
+      "nrf52832_mdk"
+    ],
+    "zephyr": [
+      "nrf52832_mdk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52832",
+      "source": "platformio:nrf52832_mdk"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:nrf52832_mdk"
+    },
+    "clock": {
+      "value": "64 MHz",
+      "source": "platformio:nrf52832_mdk"
+    },
+    "upload_limits": {
+      "value": "512 KB flash, 64 KB RAM",
+      "source": "platformio:nrf52832_mdk"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:nrf52832_mdk"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:nrf52832_mdk"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Makerdiary nRF52832-MDK product page",
+      "url": "https://wiki.makerdiary.com/nrf52832-mdk/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/makerdiary/nrf52832_mdk/doc/index.html",
+      "source": "zephyr:nrf52832_mdk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:nrf52832_mdk",
+      "label": "PlatformIO board definition (nrf52832_mdk)",
+      "url": "https://github.com/platformio/platform-nordicnrf52/blob/278176a7f7ffe2d001eb93eafa271c83b38222e4/boards/nrf52832_mdk.json",
+      "kind": "import",
+      "revision": "278176a7f7ffe2d001eb93eafa271c83b38222e4"
+    },
+    {
+      "id": "zephyr:nrf52832_mdk",
+      "label": "Zephyr board definition (nrf52832_mdk)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/makerdiary/nrf52832_mdk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

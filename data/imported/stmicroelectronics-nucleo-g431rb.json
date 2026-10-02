@@ -1,0 +1,80 @@
+{
+  "slug": "stmicroelectronics-nucleo-g431rb",
+  "name": "Nucleo G431RB",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "platformio": [
+      "nucleo_g431rb"
+    ],
+    "zephyr": [
+      "nucleo_g431rb"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32G431RBT6",
+      "source": "platformio:nucleo_g431rb"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:nucleo_g431rb"
+    },
+    "clock": {
+      "value": "170 MHz",
+      "source": "platformio:nucleo_g431rb"
+    },
+    "upload_limits": {
+      "value": "128 KB flash, 32 KB RAM",
+      "source": "platformio:nucleo_g431rb"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:nucleo_g431rb"
+    },
+    "flash": {
+      "value": "128 KB",
+      "source": "zephyr:nucleo_g431rb"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Nucleo G431RB product page",
+      "url": "https://www.st.com/en/evaluation-tools/nucleo-g431rb.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/nucleo_g431rb.html",
+      "source": "platformio:nucleo_g431rb"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/nucleo_g431rb/doc/index.html",
+      "source": "zephyr:nucleo_g431rb"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:nucleo_g431rb",
+      "label": "PlatformIO board definition (nucleo_g431rb)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/nucleo_g431rb.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    },
+    {
+      "id": "zephyr:nucleo_g431rb",
+      "label": "Zephyr board definition (nucleo_g431rb)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/nucleo_g431rb/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

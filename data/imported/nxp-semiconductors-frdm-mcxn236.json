@@ -1,0 +1,44 @@
+{
+  "slug": "nxp-semiconductors-frdm-mcxn236",
+  "name": "FRDM-MCXN236",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "ids": {
+    "zephyr": [
+      "frdm_mcxn236"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MCXN236",
+      "source": "zephyr:frdm_mcxn236"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:frdm_mcxn236"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:frdm_mcxn236"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nxp/frdm_mcxn236/doc/index.html",
+      "source": "zephyr:frdm_mcxn236"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:frdm_mcxn236",
+      "label": "Zephyr board definition (frdm_mcxn236)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nxp/frdm_mcxn236/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

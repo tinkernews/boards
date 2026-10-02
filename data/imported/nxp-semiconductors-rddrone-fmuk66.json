@@ -1,0 +1,44 @@
+{
+  "slug": "nxp-semiconductors-rddrone-fmuk66",
+  "name": "RDDRONE-FMUK66",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "ids": {
+    "zephyr": [
+      "rddrone_fmuk66"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MK66F18",
+      "source": "zephyr:rddrone_fmuk66"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:rddrone_fmuk66"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:rddrone_fmuk66"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nxp/rddrone_fmuk66/doc/index.html",
+      "source": "zephyr:rddrone_fmuk66"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:rddrone_fmuk66",
+      "label": "Zephyr board definition (rddrone_fmuk66)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nxp/rddrone_fmuk66/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

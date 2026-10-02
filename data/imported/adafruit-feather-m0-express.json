@@ -1,0 +1,235 @@
+{
+  "slug": "adafruit-feather-m0-express",
+  "name": "Adafruit Feather M0 Express",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "atsamd21g18",
+  "aliases": [
+    "Feather M0 Express"
+  ],
+  "ids": {
+    "platformio": [
+      "adafruit_feather_m0_express"
+    ],
+    "circuitpython": [
+      "feather_m0_express"
+    ],
+    "micropython": [
+      "ADAFRUIT_FEATHER_M0_EXPRESS"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAMD21G18",
+      "source": "platformio:adafruit_feather_m0_express"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:adafruit_feather_m0_express"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:adafruit_feather_m0_express"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:adafruit_feather_m0_express"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Adafruit Feather M0 Express product page",
+      "url": "https://www.adafruit.com/product/3403"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelsam/adafruit_feather_m0_express.html",
+      "source": "platformio:adafruit_feather_m0_express"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/ADAFRUIT_FEATHER_M0_EXPRESS/",
+      "source": "micropython:adafruit_feather_m0_express"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/feather_m0_express/",
+      "source": "circuitpython:feather_m0_express"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:feather_m0_express",
+    "list": [
+      {
+        "pin": "PA02",
+        "names": [
+          "A0"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "A3"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "A4"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "D9",
+          "VOLTAGE_MONITOR",
+          "BATTERY"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "D1",
+          "TX"
+        ]
+      },
+      {
+        "pin": "PA11",
+        "names": [
+          "D0",
+          "RX"
+        ]
+      },
+      {
+        "pin": "PA12",
+        "names": [
+          "MISO"
+        ]
+      },
+      {
+        "pin": "PA15",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "PA16",
+        "names": [
+          "D11"
+        ]
+      },
+      {
+        "pin": "PA17",
+        "names": [
+          "LED",
+          "D13"
+        ]
+      },
+      {
+        "pin": "PA18",
+        "names": [
+          "D10"
+        ]
+      },
+      {
+        "pin": "PA19",
+        "names": [
+          "D12"
+        ]
+      },
+      {
+        "pin": "PA20",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "PA22",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PA23",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "PB02",
+        "names": [
+          "A5"
+        ]
+      },
+      {
+        "pin": "PB08",
+        "names": [
+          "A1"
+        ]
+      },
+      {
+        "pin": "PB09",
+        "names": [
+          "A2"
+        ]
+      },
+      {
+        "pin": "PB10",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "PB11",
+        "names": [
+          "SCK"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "platformio:adafruit_feather_m0_express",
+      "label": "PlatformIO board definition (adafruit_feather_m0_express)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/adafruit_feather_m0_express.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    },
+    {
+      "id": "circuitpython:feather_m0_express",
+      "label": "CircuitPython board definition (feather_m0_express)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/feather_m0_express.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "micropython:adafruit_feather_m0_express",
+      "label": "MicroPython board definition (ADAFRUIT_FEATHER_M0_EXPRESS)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/samd/boards/ADAFRUIT_FEATHER_M0_EXPRESS/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    },
+    {
+      "id": "circuitpython-pins:feather_m0_express",
+      "label": "CircuitPython pin definitions (feather_m0_express)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/feather_m0_express/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

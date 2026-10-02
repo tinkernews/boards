@@ -1,0 +1,53 @@
+{
+  "slug": "arduino-bt-atmega168",
+  "name": "Arduino BT ATmega168",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "chip": "atmega168",
+  "ids": {
+    "platformio": [
+      "btatmega168"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega168",
+      "source": "platformio:btatmega168"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:btatmega168"
+    },
+    "upload_limits": {
+      "value": "14 KB flash, 1 KB RAM",
+      "source": "platformio:btatmega168"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Arduino BT ATmega168 product page",
+      "url": "http://arduino.cc/en/main/boards"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/btatmega168.html",
+      "source": "platformio:btatmega168"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:btatmega168",
+      "label": "PlatformIO board definition (btatmega168)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/btatmega168.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

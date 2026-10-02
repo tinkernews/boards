@@ -1,0 +1,44 @@
+{
+  "slug": "rakwireless-rak3172",
+  "name": "RAK3172",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "rakwireless",
+  "ids": {
+    "zephyr": [
+      "rak3172"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32WLE5XX",
+      "source": "zephyr:rak3172"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:rak3172"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:rak3172"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/rakwireless/rak3172/doc/index.html",
+      "source": "zephyr:rak3172"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:rak3172",
+      "label": "Zephyr board definition (rak3172)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/rakwireless/rak3172/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,247 @@
+{
+  "slug": "seeed-studio-xiao-esp32s3-sense",
+  "name": "Seeed Studio XIAO ESP32S3 Sense",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "seeed",
+  "chip": "esp32-s3",
+  "ids": {
+    "circuitpython": [
+      "seeed_xiao_esp32_s3_sense"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/seeed_xiao_esp32_s3_sense/",
+      "source": "circuitpython:seeed_xiao_esp32_s3_sense"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:seeed_xiao_esp32_s3_sense",
+    "list": [
+      {
+        "pin": "GPIO1",
+        "names": [
+          "D0",
+          "A0"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "D1",
+          "A1"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "D2",
+          "A2"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "D3",
+          "A3"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "D4",
+          "A4",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "D5",
+          "A5",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "D8",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "D9",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "D10",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "D16",
+          "ADC",
+          "CAM_XCLK"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "D19",
+          "MOSI_1",
+          "CAM_D6"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "D18",
+          "MISO_1",
+          "CAM_D5"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "D17",
+          "SCK_1",
+          "CAM_PCLK"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "CAM_D4"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "CAM_D0"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "CAM_D3"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "CAM_D1"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "CAM_D2"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "LED",
+          "SDCS"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "D11",
+          "I2S_SD",
+          "CAM_VSYNC"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "D12",
+          "I2S_SCK",
+          "MTCK",
+          "CAM_SCL"
+        ]
+      },
+      {
+        "pin": "GPIO40",
+        "names": [
+          "D13",
+          "I2S_WS",
+          "MTDO",
+          "CAM_SDA"
+        ]
+      },
+      {
+        "pin": "GPIO41",
+        "names": [
+          "D14",
+          "MTDI",
+          "MIC_DATA",
+          "RX_1"
+        ]
+      },
+      {
+        "pin": "GPIO42",
+        "names": [
+          "D15",
+          "MTMS",
+          "MIC_CLK",
+          "TX_1"
+        ]
+      },
+      {
+        "pin": "GPIO43",
+        "names": [
+          "D6",
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO44",
+        "names": [
+          "D7",
+          "RX"
+        ]
+      },
+      {
+        "pin": "GPIO47",
+        "names": [
+          "CAM_HREF"
+        ]
+      },
+      {
+        "pin": "GPIO48",
+        "names": [
+          "CAM_D7"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:seeed_xiao_esp32_s3_sense",
+      "label": "CircuitPython board definition (seeed_xiao_esp32_s3_sense)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/seeed_xiao_esp32_s3_sense.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:seeed_xiao_esp32_s3_sense",
+      "label": "CircuitPython pin definitions (seeed_xiao_esp32_s3_sense)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/seeed_xiao_esp32_s3_sense/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

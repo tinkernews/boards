@@ -1,0 +1,52 @@
+{
+  "slug": "sanguino-atmega644p-or-atmega644pa-8-mhz",
+  "name": "Sanguino ATmega644P or ATmega644PA (8 MHz)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sanguino",
+  "ids": {
+    "platformio": [
+      "sanguino_atmega644p_8m"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATMEGA644P",
+      "source": "platformio:sanguino_atmega644p_8m"
+    },
+    "clock": {
+      "value": "8 MHz",
+      "source": "platformio:sanguino_atmega644p_8m"
+    },
+    "upload_limits": {
+      "value": "63 KB flash, 4 KB RAM",
+      "source": "platformio:sanguino_atmega644p_8m"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Sanguino ATmega644P or ATmega644PA (8 MHz) product page",
+      "url": "https://github.com/Lauszus/Sanguino"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/sanguino_atmega644p_8m.html",
+      "source": "platformio:sanguino_atmega644p_8m"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:sanguino_atmega644p_8m",
+      "label": "PlatformIO board definition (sanguino_atmega644p_8m)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/sanguino_atmega644p_8m.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

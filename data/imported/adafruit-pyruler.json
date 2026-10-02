@@ -1,0 +1,154 @@
+{
+  "slug": "adafruit-pyruler",
+  "name": "PyRuler",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "atsamd21g18",
+  "ids": {
+    "circuitpython": [
+      "pyruler"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/pyruler/",
+      "source": "circuitpython:pyruler"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:pyruler",
+    "list": [
+      {
+        "pin": "PA00",
+        "names": [
+          "APA102_MOSI",
+          "DOTSTAR_DATA"
+        ]
+      },
+      {
+        "pin": "PA01",
+        "names": [
+          "APA102_SCK",
+          "DOTSTAR_CLOCK"
+        ]
+      },
+      {
+        "pin": "PA02",
+        "names": [
+          "D1",
+          "A0"
+        ]
+      },
+      {
+        "pin": "PA03",
+        "names": [
+          "CAP3"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "CAP2"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "CAP1"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "D4",
+          "A2",
+          "TX",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "D3",
+          "A3",
+          "RX",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "PA08",
+        "names": [
+          "D0",
+          "A4",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PA09",
+        "names": [
+          "D2",
+          "A1",
+          "SCL",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "LED",
+          "D13"
+        ]
+      },
+      {
+        "pin": "PA11",
+        "names": [
+          "CAP0"
+        ]
+      },
+      {
+        "pin": "PA14",
+        "names": [
+          "LED5"
+        ]
+      },
+      {
+        "pin": "PA15",
+        "names": [
+          "LED4"
+        ]
+      },
+      {
+        "pin": "PA27",
+        "names": [
+          "LED7"
+        ]
+      },
+      {
+        "pin": "PA28",
+        "names": [
+          "LED6"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:pyruler",
+      "label": "CircuitPython board definition (pyruler)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/pyruler.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:pyruler",
+      "label": "CircuitPython pin definitions (pyruler)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/pyruler/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

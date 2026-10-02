@@ -1,0 +1,38 @@
+{
+  "slug": "mchobby-rp2040-pybstick",
+  "name": "RP2040 PYBStick",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "mchobby",
+  "chip": "rp2040",
+  "ids": {
+    "micropython": [
+      "GARATRONIC_PYBSTICK26_RP2040"
+    ]
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "RP2040 PYBStick product page",
+      "url": "https://shop.mchobby.be/product.php?id_product=2331"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/GARATRONIC_PYBSTICK26_RP2040/",
+      "source": "micropython:garatronic_pybstick26_rp2040"
+    }
+  ],
+  "sources": [
+    {
+      "id": "micropython:garatronic_pybstick26_rp2040",
+      "label": "MicroPython board definition (GARATRONIC_PYBSTICK26_RP2040)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/rp2/boards/GARATRONIC_PYBSTICK26_RP2040/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

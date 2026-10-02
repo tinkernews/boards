@@ -1,0 +1,227 @@
+{
+  "slug": "lilygo-t-watch-s3",
+  "name": "T-Watch S3",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "lilygo",
+  "chip": "esp32-s3",
+  "ids": {
+    "zephyr": [
+      "twatch_s3"
+    ],
+    "circuitpython": [
+      "lilygo_twatch_s3"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-S3",
+      "source": "zephyr:twatch_s3"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/lilygo/twatch_s3/doc/index.html",
+      "source": "zephyr:twatch_s3"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/lilygo_twatch_s3/",
+      "source": "circuitpython:lilygo_twatch_s3"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:lilygo_twatch_s3",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "BOOT"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "RADIO_MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "IR_LED"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "RADIO_SCK"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "RADIO_MISO"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "RADIO_SS"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "RADIO_BUSY"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "RADIO_RST"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "RADIO_DIO1"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "I2C_SDA"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "I2C_SCL"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "TFT_CS"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "TFT_MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "AXIS_INT"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "I2S_WS"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "TOUCH_INT"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "RTC_INT"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "TFT_SCLK"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "PMU_INT"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "TFT_DC"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "TOUCH_SDA"
+        ]
+      },
+      {
+        "pin": "GPIO40",
+        "names": [
+          "TOUCH_SCL"
+        ]
+      },
+      {
+        "pin": "GPIO44",
+        "names": [
+          "MIC_SCLK"
+        ]
+      },
+      {
+        "pin": "GPIO45",
+        "names": [
+          "TFT_BL"
+        ]
+      },
+      {
+        "pin": "GPIO46",
+        "names": [
+          "I2S_DOUT"
+        ]
+      },
+      {
+        "pin": "GPIO47",
+        "names": [
+          "MIC_DATA"
+        ]
+      },
+      {
+        "pin": "GPIO48",
+        "names": [
+          "I2S_BCK"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "zephyr:twatch_s3",
+      "label": "Zephyr board definition (twatch_s3)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/lilygo/twatch_s3/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "circuitpython:lilygo_twatch_s3",
+      "label": "CircuitPython board definition (lilygo_twatch_s3)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/lilygo_twatch_s3.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:lilygo_twatch_s3",
+      "label": "CircuitPython pin definitions (lilygo_twatch_s3)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/lilygo_twatch_s3/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

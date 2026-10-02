@@ -1,0 +1,209 @@
+{
+  "slug": "pimoroni-interstate-75",
+  "name": "Interstate 75",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "pimoroni",
+  "chip": "rp2040",
+  "ids": {
+    "circuitpython": [
+      "pimoroni_interstate75"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/pimoroni_interstate75/",
+      "source": "circuitpython:pimoroni_interstate75"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:pimoroni_interstate75",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "R0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "G0"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "B0"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "R1"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "G1"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "B1"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "ROW_A"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "ROW_B"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "ROW_C"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "ROW_D"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "ROW_E"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "CLK"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "LAT"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "OE"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "SW_A"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "LED",
+          "LED_R"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "LED_G"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "LED_B"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "INT",
+          "GP19"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "SDA",
+          "GP20"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "SCL",
+          "GP21"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "USER_SW"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "GP26_A0",
+          "GP26",
+          "A0"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "GP27_A1",
+          "GP27",
+          "A1"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "GP28_A2",
+          "GP28",
+          "A2"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "CURRENT_SENSE"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:pimoroni_interstate75",
+      "label": "CircuitPython board definition (pimoroni_interstate75)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/pimoroni_interstate75.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:pimoroni_interstate75",
+      "label": "CircuitPython pin definitions (pimoroni_interstate75)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/pimoroni_interstate75/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

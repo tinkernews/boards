@@ -1,0 +1,44 @@
+{
+  "slug": "realtek-rtl872xd-evaluation-board",
+  "name": "RTL872xD Evaluation Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "realtek",
+  "ids": {
+    "zephyr": [
+      "rtl872xd_evb"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "RTL872XD",
+      "source": "zephyr:rtl872xd_evb"
+    },
+    "ram": {
+      "value": "512 KB",
+      "source": "zephyr:rtl872xd_evb"
+    },
+    "flash": {
+      "value": "4 MB",
+      "source": "zephyr:rtl872xd_evb"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/realtek/rtl872xd_evb/doc/index.html",
+      "source": "zephyr:rtl872xd_evb"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:rtl872xd_evb",
+      "label": "Zephyr board definition (rtl872xd_evb)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/realtek/rtl872xd_evb/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "beagleboard-org-pocketbeagle-2-industrial",
+  "name": "PocketBeagle 2 Industrial",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "beagleboard",
+  "ids": {
+    "zephyr": [
+      "pocketbeagle_2_industrial"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "AM6254",
+      "source": "zephyr:pocketbeagle_2_industrial"
+    },
+    "ram": {
+      "value": "1048576 KB",
+      "source": "zephyr:pocketbeagle_2_industrial"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/beagle/pocketbeagle_2/doc/index.html",
+      "source": "zephyr:pocketbeagle_2_industrial"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:pocketbeagle_2_industrial",
+      "label": "Zephyr board definition (pocketbeagle_2_industrial)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/beagle/pocketbeagle_2/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "texas-instruments-ti-am243x-evm",
+  "name": "TI AM243x-EVM",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "texas-instruments",
+  "ids": {
+    "zephyr": [
+      "am243x_evm"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "AM2434",
+      "source": "zephyr:am243x_evm"
+    },
+    "ram": {
+      "value": "192 KB",
+      "source": "zephyr:am243x_evm"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/ti/am243x_evm/doc/index.html",
+      "source": "zephyr:am243x_evm"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:am243x_evm",
+      "label": "Zephyr board definition (am243x_evm)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/ti/am243x_evm/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

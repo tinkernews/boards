@@ -1,0 +1,47 @@
+{
+  "slug": "freescale-kinetis-frdm-kl25z",
+  "name": "Freescale Kinetis FRDM-KL25Z",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "ids": {
+    "platformio": [
+      "frdm_kl25z"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MKL25Z128VLK4",
+      "source": "platformio:frdm_kl25z"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:frdm_kl25z"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:frdm_kl25z"
+    },
+    "upload_limits": {
+      "value": "128 KB flash, 16 KB RAM",
+      "source": "platformio:frdm_kl25z"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Freescale Kinetis FRDM-KL25Z product page",
+      "url": "https://developer.mbed.org/platforms/KL25Z/"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:frdm_kl25z",
+      "label": "PlatformIO board definition (frdm_kl25z)",
+      "url": "https://github.com/platformio/platform-freescalekinetis/blob/9447848c3779190452d56181b8d941b94804cbe9/boards/frdm_kl25z.json",
+      "kind": "import",
+      "revision": "9447848c3779190452d56181b8d941b94804cbe9"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

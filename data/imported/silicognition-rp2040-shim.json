@@ -1,0 +1,201 @@
+{
+  "slug": "silicognition-rp2040-shim",
+  "name": "RP2040-Shim",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "silicognition",
+  "chip": "rp2040",
+  "ids": {
+    "circuitpython": [
+      "silicognition_rp2040_shim"
+    ],
+    "micropython": [
+      "SIL_RP2040_SHIM"
+    ]
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "RP2040-Shim product page",
+      "url": "https://silicognition.com/Products/rp2040-shim/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/SIL_RP2040_SHIM/",
+      "source": "micropython:sil_rp2040_shim"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/silicognition_rp2040_shim/",
+      "source": "circuitpython:silicognition_rp2040_shim"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:silicognition_rp2040_shim",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "D1",
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "D0",
+          "RX"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "D4"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "MISO"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "D12"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "D11"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "D9"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "D10"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "D13",
+          "LED"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO24",
+        "names": [
+          "D24"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "D25"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "A3"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "A2"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "A1"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "A0"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:silicognition_rp2040_shim",
+      "label": "CircuitPython board definition (silicognition_rp2040_shim)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/silicognition_rp2040_shim.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "micropython:sil_rp2040_shim",
+      "label": "MicroPython board definition (SIL_RP2040_SHIM)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/rp2/boards/SIL_RP2040_SHIM/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    },
+    {
+      "id": "circuitpython-pins:silicognition_rp2040_shim",
+      "label": "CircuitPython pin definitions (silicognition_rp2040_shim)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/silicognition_rp2040_shim/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

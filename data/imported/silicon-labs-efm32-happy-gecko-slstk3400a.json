@@ -1,0 +1,44 @@
+{
+  "slug": "silicon-labs-efm32-happy-gecko-slstk3400a",
+  "name": "EFM32 Happy Gecko (SLSTK3400A)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "silicon-labs",
+  "ids": {
+    "zephyr": [
+      "slstk3400a"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "EFM32HG322F64",
+      "source": "zephyr:slstk3400a"
+    },
+    "ram": {
+      "value": "8 KB",
+      "source": "zephyr:slstk3400a"
+    },
+    "flash": {
+      "value": "64 KB",
+      "source": "zephyr:slstk3400a"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/silabs/starter_kits/slstk3400a/doc/index.html",
+      "source": "zephyr:slstk3400a"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:slstk3400a",
+      "label": "Zephyr board definition (slstk3400a)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/silabs/starter_kits/slstk3400a/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

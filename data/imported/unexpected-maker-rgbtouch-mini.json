@@ -1,0 +1,165 @@
+{
+  "slug": "unexpected-maker-rgbtouch-mini",
+  "name": "Unexpected Maker RGBTouch Mini",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "unexpected-maker",
+  "chip": "esp32-s3",
+  "aliases": [
+    "RGB Touch Mini"
+  ],
+  "ids": {
+    "circuitpython": [
+      "unexpectedmaker_rgbtouch_mini"
+    ],
+    "micropython": [
+      "UM_RGBTOUCH_MINI"
+    ]
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Unexpected Maker RGBTouch Mini product page",
+      "url": "https://rgbtouch.com"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/UM_RGBTOUCH_MINI/",
+      "source": "micropython:um_rgbtouch_mini"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/unexpectedmaker_rgbtouch_mini/",
+      "source": "circuitpython:unexpectedmaker_rgbtouch_mini"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:unexpectedmaker_rgbtouch_mini",
+    "list": [
+      {
+        "pin": "GPIO7",
+        "names": [
+          "IO7",
+          "INT_IMU"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "SDA",
+          "IO8"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "SCL",
+          "IO9"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "IO15",
+          "INT_ROW"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "IO16",
+          "INT_COL"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "IO18",
+          "VBAT_SENSE"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "IO21",
+          "PWR_SHUTDOWN"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "IO34",
+          "AMP_SD"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "IO35",
+          "AMP_DATA"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "IO36",
+          "AMP_BCLK"
+        ]
+      },
+      {
+        "pin": "GPIO37",
+        "names": [
+          "IO37",
+          "AMP_LRCLK"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "MATRIX_POWER"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "MATRIX_DATA"
+        ]
+      },
+      {
+        "pin": "GPIO48",
+        "names": [
+          "IO48",
+          "VBUS_SENSE"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:unexpectedmaker_rgbtouch_mini",
+      "label": "CircuitPython board definition (unexpectedmaker_rgbtouch_mini)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/unexpectedmaker_rgbtouch_mini.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "micropython:um_rgbtouch_mini",
+      "label": "MicroPython board definition (UM_RGBTOUCH_MINI)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/esp32/boards/UM_RGBTOUCH_MINI/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    },
+    {
+      "id": "circuitpython-pins:unexpectedmaker_rgbtouch_mini",
+      "label": "CircuitPython pin definitions (unexpectedmaker_rgbtouch_mini)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/unexpectedmaker_rgbtouch_mini/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

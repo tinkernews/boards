@@ -1,0 +1,68 @@
+{
+  "slug": "boxtec-helvepic32",
+  "name": "HelvePic32",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "boxtec",
+  "ids": {
+    "platformio": [
+      "helvepic32",
+      "helvepic32_breadboardside",
+      "helvepic32_smd"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "32MX250F128B",
+      "source": "platformio:helvepic32"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:helvepic32"
+    },
+    "upload_limits": {
+      "value": "120 KB flash, 32 KB RAM",
+      "source": "platformio:helvepic32"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "HelvePic32 product page",
+      "url": "https://www.helvepic32.org/shop-1/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/microchippic32/helvepic32.html",
+      "source": "platformio:helvepic32"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:helvepic32",
+      "label": "PlatformIO board definition (helvepic32)",
+      "url": "https://github.com/platformio/platform-microchippic32/blob/f6e89308da11cfe35d7534696bf01abf3f442461/boards/helvepic32.json",
+      "kind": "import",
+      "revision": "f6e89308da11cfe35d7534696bf01abf3f442461"
+    },
+    {
+      "id": "platformio:helvepic32_breadboardside",
+      "label": "PlatformIO board definition (helvepic32_breadboardside)",
+      "url": "https://github.com/platformio/platform-microchippic32/blob/f6e89308da11cfe35d7534696bf01abf3f442461/boards/helvepic32_breadboardside.json",
+      "kind": "import",
+      "revision": "f6e89308da11cfe35d7534696bf01abf3f442461"
+    },
+    {
+      "id": "platformio:helvepic32_smd",
+      "label": "PlatformIO board definition (helvepic32_smd)",
+      "url": "https://github.com/platformio/platform-microchippic32/blob/f6e89308da11cfe35d7534696bf01abf3f442461/boards/helvepic32_smd.json",
+      "kind": "import",
+      "revision": "f6e89308da11cfe35d7534696bf01abf3f442461"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

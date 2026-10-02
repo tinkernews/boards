@@ -1,0 +1,129 @@
+{
+  "slug": "adafruit-matrixportal-s3",
+  "name": "MatrixPortal S3",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "esp32-s3",
+  "ids": {
+    "circuitpython": [
+      "adafruit_matrixportal_s3"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/adafruit_matrixportal_s3/",
+      "source": "circuitpython:adafruit_matrixportal_s3"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:adafruit_matrixportal_s3",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "BUTTON",
+          "BOOT0",
+          "D0"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "A1"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "RX",
+          "D8"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "A2"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "A3"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "A4"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "A0"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "LED",
+          "D13",
+          "L"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "ACCELEROMETER_INTERRUPT"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "SDA",
+          "D16"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "SCL",
+          "D17"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "TX",
+          "D18"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:adafruit_matrixportal_s3",
+      "label": "CircuitPython board definition (adafruit_matrixportal_s3)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/adafruit_matrixportal_s3.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:adafruit_matrixportal_s3",
+      "label": "CircuitPython pin definitions (adafruit_matrixportal_s3)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/adafruit_matrixportal_s3/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

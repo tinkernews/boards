@@ -1,0 +1,213 @@
+{
+  "slug": "waveshare-rp2040-geek",
+  "name": "RP2040-GEEK",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "waveshare",
+  "chip": "rp2040",
+  "ids": {
+    "zephyr": [
+      "rp2040_geek"
+    ],
+    "circuitpython": [
+      "waveshare_rp2040_geek"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "RP2040",
+      "source": "zephyr:rp2040_geek"
+    },
+    "ram": {
+      "value": "264 KB",
+      "source": "zephyr:rp2040_geek"
+    },
+    "flash": {
+      "value": "4 MB",
+      "source": "zephyr:rp2040_geek"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/waveshare/rp2040_geek/doc/index.html",
+      "source": "zephyr:rp2040_geek"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/waveshare_rp2040_geek/",
+      "source": "circuitpython:waveshare_rp2040_geek"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:waveshare_rp2040_geek",
+    "list": [
+      {
+        "pin": "GPIO2",
+        "names": [
+          "GP2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "GP3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "GP4",
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "GP5",
+          "RX"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "GP8",
+          "LCD_DC"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "GP9",
+          "LCD_CS"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "GP10",
+          "LCD_CLK"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "GP11",
+          "LCD_MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "GP12",
+          "LCD_RST"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "GP16"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "GP17"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "GP18",
+          "SD_SCK",
+          "SDIO_CLK"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "GP19",
+          "SD_MOSI",
+          "SDIO_COMMAND"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "GP20",
+          "SD_MISO",
+          "SDIO_DATA0"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "GP21",
+          "SDIO_DATA1"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "GP22",
+          "SDIO_DATA2"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "GP23",
+          "SD_CS",
+          "SDIO_DATA3"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "GP25",
+          "LCD_BACKLIGHT"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "GP28",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "GP29",
+          "SCL"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "zephyr:rp2040_geek",
+      "label": "Zephyr board definition (rp2040_geek)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/waveshare/rp2040_geek/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "circuitpython:waveshare_rp2040_geek",
+      "label": "CircuitPython board definition (waveshare_rp2040_geek)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/waveshare_rp2040_geek.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:waveshare_rp2040_geek",
+      "label": "CircuitPython pin definitions (waveshare_rp2040_geek)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/waveshare_rp2040_geek/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

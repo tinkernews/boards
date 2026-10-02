@@ -1,0 +1,37 @@
+{
+  "slug": "ezurio-bl653-dvk",
+  "name": "BL653 DVK",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "ezurio",
+  "chip": "nrf52833",
+  "ids": {
+    "zephyr": [
+      "bl653_dvk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52833",
+      "source": "zephyr:bl653_dvk"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/ezurio/bl653_dvk/doc/index.html",
+      "source": "zephyr:bl653_dvk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:bl653_dvk",
+      "label": "Zephyr board definition (bl653_dvk)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/ezurio/bl653_dvk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

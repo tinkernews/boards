@@ -1,0 +1,274 @@
+{
+  "slug": "tg-watch",
+  "name": "TG-Watch",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "tg-techie",
+  "chip": "atsamd51j19",
+  "ids": {
+    "circuitpython": [
+      "TG-Watch"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/TG-Watch/",
+      "source": "circuitpython:tg-watch"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:tg-watch",
+    "list": [
+      {
+        "pin": "P0_02",
+        "names": [
+          "_A4"
+        ]
+      },
+      {
+        "pin": "P0_03",
+        "names": [
+          "_A5"
+        ]
+      },
+      {
+        "pin": "P0_04",
+        "names": [
+          "SMC_RST",
+          "_A0"
+        ]
+      },
+      {
+        "pin": "P0_05",
+        "names": [
+          "_A1"
+        ]
+      },
+      {
+        "pin": "P0_06",
+        "names": [
+          "CHRG_STAT",
+          "_D11"
+        ]
+      },
+      {
+        "pin": "P0_07",
+        "names": [
+          "BACKLIGHT",
+          "_D6"
+        ]
+      },
+      {
+        "pin": "P0_08",
+        "names": [
+          "BAT_INT",
+          "_D12"
+        ]
+      },
+      {
+        "pin": "P0_09",
+        "names": [
+          "_NFC1"
+        ]
+      },
+      {
+        "pin": "P0_10",
+        "names": [
+          "_NFC2",
+          "_D2"
+        ]
+      },
+      {
+        "pin": "P0_11",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "P0_12",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "P0_13",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "P0_14",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "P0_15",
+        "names": [
+          "MISO"
+        ]
+      },
+      {
+        "pin": "P0_16",
+        "names": [
+          "_NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "P0_24",
+        "names": [
+          "RX"
+        ]
+      },
+      {
+        "pin": "P0_25",
+        "names": [
+          "TX"
+        ]
+      },
+      {
+        "pin": "P0_26",
+        "names": [
+          "RTC_RST",
+          "_D9"
+        ]
+      },
+      {
+        "pin": "P0_27",
+        "names": [
+          "RTC_INT",
+          "_D10"
+        ]
+      },
+      {
+        "pin": "P0_28",
+        "names": [
+          "_A3"
+        ]
+      },
+      {
+        "pin": "P0_29",
+        "names": [
+          "BATTERY_DIV",
+          "_VOLTAGE_MONITOR",
+          "_BATTERY"
+        ]
+      },
+      {
+        "pin": "P0_30",
+        "names": [
+          "_A2"
+        ]
+      },
+      {
+        "pin": "P0_31",
+        "names": [
+          "AREF"
+        ]
+      },
+      {
+        "pin": "P1_01",
+        "names": [
+          "TFT_RST"
+        ]
+      },
+      {
+        "pin": "P1_02",
+        "names": [
+          "_SWITCH"
+        ]
+      },
+      {
+        "pin": "P1_03",
+        "names": [
+          "CTP_RST"
+        ]
+      },
+      {
+        "pin": "P1_04",
+        "names": [
+          "VBUS_PRESENT"
+        ]
+      },
+      {
+        "pin": "P1_05",
+        "names": [
+          "CTP_INT"
+        ]
+      },
+      {
+        "pin": "P1_06",
+        "names": [
+          "HAPTIC_ENABLE"
+        ]
+      },
+      {
+        "pin": "P1_07",
+        "names": [
+          "HAPTIC_INT"
+        ]
+      },
+      {
+        "pin": "P1_08",
+        "names": [
+          "_D5"
+        ]
+      },
+      {
+        "pin": "P1_09",
+        "names": [
+          "_D13"
+        ]
+      },
+      {
+        "pin": "P1_10",
+        "names": [
+          "ACCEL_INT2"
+        ]
+      },
+      {
+        "pin": "P1_11",
+        "names": [
+          "ACCEL_INT1"
+        ]
+      },
+      {
+        "pin": "P1_12",
+        "names": [
+          "TFT_DC"
+        ]
+      },
+      {
+        "pin": "P1_13",
+        "names": [
+          "D21"
+        ]
+      },
+      {
+        "pin": "P1_14",
+        "names": [
+          "TFT_CS"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:tg-watch",
+      "label": "CircuitPython board definition (TG-Watch)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/TG-Watch.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:tg-watch",
+      "label": "CircuitPython pin definitions (TG-Watch)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/nordic/boards/TG-Watch/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T11:14:32.694Z"
+}

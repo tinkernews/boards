@@ -1,0 +1,76 @@
+{
+  "slug": "stmicroelectronics-st-nucleo-f070rb",
+  "name": "ST Nucleo F070RB",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "aliases": [
+    "Nucleo F070RB"
+  ],
+  "ids": {
+    "platformio": [
+      "nucleo_f070rb"
+    ],
+    "zephyr": [
+      "nucleo_f070rb"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F070RBT6",
+      "source": "platformio:nucleo_f070rb"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0",
+      "source": "platformio:nucleo_f070rb"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:nucleo_f070rb"
+    },
+    "upload_limits": {
+      "value": "128 KB flash, 16 KB RAM",
+      "source": "platformio:nucleo_f070rb"
+    },
+    "ram": {
+      "value": "16 KB",
+      "source": "zephyr:nucleo_f070rb"
+    },
+    "flash": {
+      "value": "128 KB",
+      "source": "zephyr:nucleo_f070rb"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ST Nucleo F070RB product page",
+      "url": "https://developer.mbed.org/platforms/ST-Nucleo-F070RB/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/nucleo_f070rb/doc/index.html",
+      "source": "zephyr:nucleo_f070rb"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:nucleo_f070rb",
+      "label": "PlatformIO board definition (nucleo_f070rb)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/nucleo_f070rb.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    },
+    {
+      "id": "zephyr:nucleo_f070rb",
+      "label": "Zephyr board definition (nucleo_f070rb)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/nucleo_f070rb/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

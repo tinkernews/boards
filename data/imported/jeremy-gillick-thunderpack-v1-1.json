@@ -1,0 +1,158 @@
+{
+  "slug": "jeremy-gillick-thunderpack-v1-1",
+  "name": "Thunderpack v1.1",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "jeremy-gillick",
+  "ids": {
+    "circuitpython": [
+      "thunderpack_v11",
+      "thunderpack_v12"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/thunderpack_v11/",
+      "source": "circuitpython:thunderpack_v11"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:thunderpack_v11",
+    "list": [
+      {
+        "pin": "PA00",
+        "names": [
+          "PA0",
+          "LED1"
+        ]
+      },
+      {
+        "pin": "PA01",
+        "names": [
+          "PA1",
+          "LED2"
+        ]
+      },
+      {
+        "pin": "PA02",
+        "names": [
+          "PA2",
+          "LED3"
+        ]
+      },
+      {
+        "pin": "PA03",
+        "names": [
+          "PA3",
+          "LED4"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "PA4"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "PA5"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "PA6"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "PA7"
+        ]
+      },
+      {
+        "pin": "PA08",
+        "names": [
+          "PA8"
+        ]
+      },
+      {
+        "pin": "PA09",
+        "names": [
+          "PA9"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "PA10"
+        ]
+      },
+      {
+        "pin": "PA13",
+        "names": [
+          "PA13"
+        ]
+      },
+      {
+        "pin": "PA14",
+        "names": [
+          "PA14"
+        ]
+      },
+      {
+        "pin": "PB04",
+        "names": [
+          "BUTTON"
+        ]
+      },
+      {
+        "pin": "PB05",
+        "names": [
+          "PB5"
+        ]
+      },
+      {
+        "pin": "PB06",
+        "names": [
+          "PB6",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "PB07",
+        "names": [
+          "PB7",
+          "SDA"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:thunderpack_v11",
+      "label": "CircuitPython board definition (thunderpack_v11)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/thunderpack_v11.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython:thunderpack_v12",
+      "label": "CircuitPython board definition (thunderpack_v12)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/thunderpack_v12.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:thunderpack_v11",
+      "label": "CircuitPython pin definitions (thunderpack_v11)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/stm/boards/thunderpack_v11/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

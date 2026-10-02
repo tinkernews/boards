@@ -1,0 +1,294 @@
+{
+  "slug": "eafaq-omnimo-nrf52840",
+  "name": "Omnimo nRF52840",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "eafaq",
+  "chip": "nrf52840",
+  "ids": {
+    "circuitpython": [
+      "omnimo_nrf52840"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/omnimo_nrf52840/",
+      "source": "circuitpython:omnimo_nrf52840"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:omnimo_nrf52840",
+    "list": [
+      {
+        "pin": "P0_02",
+        "names": [
+          "A4"
+        ]
+      },
+      {
+        "pin": "P0_03",
+        "names": [
+          "A5"
+        ]
+      },
+      {
+        "pin": "P0_04",
+        "names": [
+          "A0",
+          "PMOD4"
+        ]
+      },
+      {
+        "pin": "P0_05",
+        "names": [
+          "A1",
+          "PMOD3"
+        ]
+      },
+      {
+        "pin": "P0_06",
+        "names": [
+          "QWIIC_SCL"
+        ]
+      },
+      {
+        "pin": "P0_07",
+        "names": [
+          "D6",
+          "mikroBUS_RX"
+        ]
+      },
+      {
+        "pin": "P0_08",
+        "names": [
+          "QWIIC_SDA"
+        ]
+      },
+      {
+        "pin": "P0_09",
+        "names": [
+          "NFC1"
+        ]
+      },
+      {
+        "pin": "P0_10",
+        "names": [
+          "NFC2"
+        ]
+      },
+      {
+        "pin": "P0_11",
+        "names": [
+          "SCL",
+          "mikroBUS_SCL"
+        ]
+      },
+      {
+        "pin": "P0_12",
+        "names": [
+          "SDA",
+          "mikroBUS_SDA"
+        ]
+      },
+      {
+        "pin": "P0_13",
+        "names": [
+          "MOSI",
+          "mikroBUS_RST"
+        ]
+      },
+      {
+        "pin": "P0_14",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "P0_15",
+        "names": [
+          "MISO",
+          "mikroBUS_CS"
+        ]
+      },
+      {
+        "pin": "P0_16",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "P0_24",
+        "names": [
+          "RX",
+          "mikroBUS_SCK"
+        ]
+      },
+      {
+        "pin": "P0_25",
+        "names": [
+          "TX",
+          "mikroBUS_MISO"
+        ]
+      },
+      {
+        "pin": "P0_26",
+        "names": [
+          "D9",
+          "mikroBUS_INT"
+        ]
+      },
+      {
+        "pin": "P0_27",
+        "names": [
+          "D10",
+          "mikroBUS_PWM"
+        ]
+      },
+      {
+        "pin": "P0_28",
+        "names": [
+          "A3",
+          "PMOD1"
+        ]
+      },
+      {
+        "pin": "P0_29",
+        "names": [
+          "VOLTAGE_MONITOR",
+          "A6",
+          "BATTERY"
+        ]
+      },
+      {
+        "pin": "P0_30",
+        "names": [
+          "A2",
+          "PMOD2"
+        ]
+      },
+      {
+        "pin": "P0_31",
+        "names": [
+          "A7",
+          "mikroBUS_AN"
+        ]
+      },
+      {
+        "pin": "P1_01",
+        "names": [
+          "PMOD6"
+        ]
+      },
+      {
+        "pin": "P1_02",
+        "names": [
+          "SWITCH",
+          "BTN1"
+        ]
+      },
+      {
+        "pin": "P1_03",
+        "names": [
+          "PMOD7"
+        ]
+      },
+      {
+        "pin": "P1_04",
+        "names": [
+          "VOUTEN"
+        ]
+      },
+      {
+        "pin": "P1_05",
+        "names": [
+          "PMOD8"
+        ]
+      },
+      {
+        "pin": "P1_06",
+        "names": [
+          "D43"
+        ]
+      },
+      {
+        "pin": "P1_07",
+        "names": [
+          "BTN2"
+        ]
+      },
+      {
+        "pin": "P1_08",
+        "names": [
+          "D5",
+          "mikroBUS_TX"
+        ]
+      },
+      {
+        "pin": "P1_09",
+        "names": [
+          "D2"
+        ]
+      },
+      {
+        "pin": "P1_10",
+        "names": [
+          "LED1",
+          "L",
+          "LED",
+          "RED_LED",
+          "D3"
+        ]
+      },
+      {
+        "pin": "P1_11",
+        "names": [
+          "PMOD5"
+        ]
+      },
+      {
+        "pin": "P1_12",
+        "names": [
+          "D13"
+        ]
+      },
+      {
+        "pin": "P1_13",
+        "names": [
+          "D12"
+        ]
+      },
+      {
+        "pin": "P1_14",
+        "names": [
+          "D11"
+        ]
+      },
+      {
+        "pin": "P1_15",
+        "names": [
+          "LED2",
+          "BLUE_LED"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:omnimo_nrf52840",
+      "label": "CircuitPython board definition (omnimo_nrf52840)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/omnimo_nrf52840.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:omnimo_nrf52840",
+      "label": "CircuitPython pin definitions (omnimo_nrf52840)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/nordic/boards/omnimo_nrf52840/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

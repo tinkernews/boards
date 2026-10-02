@@ -1,0 +1,44 @@
+{
+  "slug": "microchip-technology-upd301c-basic-sink-application-example",
+  "name": "UPD301C Basic Sink Application Example",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "ids": {
+    "zephyr": [
+      "ev11l78a"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "SAMD20E16",
+      "source": "zephyr:ev11l78a"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:ev11l78a"
+    },
+    "flash": {
+      "value": "64 KB",
+      "source": "zephyr:ev11l78a"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/microchip/ev11l78a/doc/index.html",
+      "source": "zephyr:ev11l78a"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:ev11l78a",
+      "label": "Zephyr board definition (ev11l78a)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/microchip/ev11l78a/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,164 @@
+{
+  "slug": "arduino-uno-r4-wifi",
+  "name": "Arduino Uno R4 WiFi",
+  "tier": "curated",
+  "kind": "mcu",
+  "maker": "arduino",
+  "family": "Arduino",
+  "chip": "ra4m1",
+  "released": "2023-06",
+  "status": "current",
+  "summary": "The Uno R4 with an ESP32-S3 for Wi-Fi and Bluetooth LE, a 12 × 8 LED matrix and a Qwiic connector.",
+  "aliases": [
+    "Arduino Uno R4 WiFi",
+    "Arduino UNO R4 WiFi",
+    "Uno R4 WiFi"
+  ],
+  "ids": {
+    "platformio": [
+      "uno_r4_wifi"
+    ]
+  },
+  "review": {
+    "status": "draft"
+  },
+  "predecessor": "arduino-uno-r4-minima",
+  "specs": {
+    "chip": {
+      "value": "Renesas RA4M1 (R7FA4M1AB3CFM)",
+      "source": "arduino-docs"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4F",
+      "source": "arduino-docs"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "arduino-docs"
+    },
+    "ram": {
+      "value": "32 KB SRAM",
+      "source": "arduino-docs"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "arduino-docs"
+    },
+    "eeprom": {
+      "value": "8 KB data flash",
+      "source": "arduino-docs"
+    },
+    "gpio": {
+      "value": "14 digital I/O",
+      "source": "arduino-docs"
+    },
+    "analog": {
+      "value": "6 analog inputs (up to 14-bit); 12-bit DAC on A0",
+      "source": "arduino-docs"
+    },
+    "io_voltage": {
+      "value": "5 V",
+      "source": "arduino-docs"
+    },
+    "input_voltage": {
+      "value": "6–24 V on VIN or the barrel jack; 5 V via USB-C",
+      "source": "arduino-docs"
+    },
+    "usb": {
+      "value": "USB-C, native USB on the RA4M1 (HID capable)",
+      "source": "arduino-docs"
+    },
+    "wireless": {
+      "value": "Wi-Fi and Bluetooth LE via an on-board ESP32-S3",
+      "source": "arduino-docs"
+    },
+    "launch_price": {
+      "value": "US$27.50",
+      "source": "wikipedia"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Product documentation, Arduino",
+      "url": "https://docs.arduino.cc/hardware/uno-r4-wifi/"
+    },
+    {
+      "kind": "datasheet",
+      "label": "Board datasheet",
+      "url": "https://docs.arduino.cc/resources/datasheets/ABX00087-datasheet.pdf"
+    },
+    {
+      "kind": "schematic",
+      "label": "Schematics",
+      "url": "https://docs.arduino.cc/resources/schematics/ABX00087-schematics.pdf"
+    },
+    {
+      "kind": "pinout",
+      "label": "Full pinout",
+      "url": "https://docs.arduino.cc/resources/pinouts/ABX00087-full-pinout.pdf"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Official Arduino core.",
+      "url": "https://docs.arduino.cc/software/ide/",
+      "source": "arduino-docs"
+    }
+  ],
+  "pinout": {
+    "layout": "arduino-uno-r3",
+    "source": "arduino-docs",
+    "note": "Same header positions as the Uno R3"
+  },
+  "gotchas": [
+    {
+      "title": "Two chips, two firmwares",
+      "text": "The RA4M1 runs your sketch; the ESP32-S3 runs Arduino's connectivity firmware and can be updated or reprogrammed separately.",
+      "source": "arduino-docs"
+    },
+    {
+      "title": "5 V logic",
+      "text": "I/O is 5 V. Sensors and modules that run at 3.3 V (most modern ones) need level shifting on their inputs.",
+      "source": "arduino-docs"
+    }
+  ],
+  "mechanical": {
+    "rows": [],
+    "files": [
+      {
+        "label": "3D model (STEP)",
+        "url": "https://docs.arduino.cc/resources/models/ABX00087-step.zip"
+      }
+    ]
+  },
+  "commonsFile": "File:Arduino Uno R4 WiFi.webp",
+  "editorial": {
+    "history": "Launched with the Minima in June 2023, the WiFi version added an ESP32-S3 co-processor and the LED matrix that made it a favourite for first IoT projects.",
+    "today": "A friendly way into connected projects with Arduino Cloud while keeping shield compatibility.",
+    "source": "arduino-docs"
+  },
+  "sources": [
+    {
+      "id": "arduino-docs",
+      "label": "Arduino UNO R4 WiFi, Arduino documentation",
+      "url": "https://docs.arduino.cc/hardware/uno-r4-wifi/",
+      "kind": "official"
+    },
+    {
+      "id": "arduino-datasheet",
+      "label": "Arduino UNO R4 WiFi datasheet (ABX00087)",
+      "url": "https://docs.arduino.cc/resources/datasheets/ABX00087-datasheet.pdf",
+      "kind": "official"
+    },
+    {
+      "id": "wikipedia",
+      "label": "Arduino Uno, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Arduino_Uno",
+      "kind": "reference"
+    }
+  ],
+  "updatedAt": "2026-10-01T00:00:00.000Z"
+}

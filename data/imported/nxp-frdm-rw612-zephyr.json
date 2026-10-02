@@ -1,0 +1,30 @@
+{
+  "slug": "nxp-frdm-rw612-zephyr",
+  "name": "NXP FRDM-RW612 (Zephyr)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "ids": {
+    "circuitpython": [
+      "nxp_frdm_rw612"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/nxp_frdm_rw612/",
+      "source": "circuitpython:nxp_frdm_rw612"
+    }
+  ],
+  "sources": [
+    {
+      "id": "circuitpython:nxp_frdm_rw612",
+      "label": "CircuitPython board definition (nxp_frdm_rw612)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/nxp_frdm_rw612.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

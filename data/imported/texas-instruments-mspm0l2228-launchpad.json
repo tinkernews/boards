@@ -1,0 +1,44 @@
+{
+  "slug": "texas-instruments-mspm0l2228-launchpad",
+  "name": "MSPM0L2228 Launchpad",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "texas-instruments",
+  "ids": {
+    "zephyr": [
+      "lp_mspm0l2228"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MSPM0L2228",
+      "source": "zephyr:lp_mspm0l2228"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:lp_mspm0l2228"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:lp_mspm0l2228"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/ti/lp_mspm0l2228/doc/index.html",
+      "source": "zephyr:lp_mspm0l2228"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:lp_mspm0l2228",
+      "label": "Zephyr board definition (lp_mspm0l2228)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/ti/lp_mspm0l2228/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "adafruit-pyportal-titano",
+  "name": "PyPortal Titano",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "atsamd51j19",
+  "ids": {
+    "circuitpython": [
+      "pyportal_titano"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/pyportal_titano/",
+      "source": "circuitpython:pyportal_titano"
+    }
+  ],
+  "sources": [
+    {
+      "id": "circuitpython:pyportal_titano",
+      "label": "CircuitPython board definition (pyportal_titano)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/pyportal_titano.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

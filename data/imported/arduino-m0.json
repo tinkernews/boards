@@ -1,0 +1,57 @@
+{
+  "slug": "arduino-m0",
+  "name": "Arduino M0",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "chip": "atsamd21g18",
+  "ids": {
+    "platformio": [
+      "mzeroUSB"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAMD21G18",
+      "source": "platformio:mzerousb"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:mzerousb"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:mzerousb"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:mzerousb"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Arduino M0 product page",
+      "url": "https://www.arduino.cc/en/Main/ArduinoBoardM0"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelsam/mzeroUSB.html",
+      "source": "platformio:mzerousb"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:mzerousb",
+      "label": "PlatformIO board definition (mzeroUSB)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/mzeroUSB.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

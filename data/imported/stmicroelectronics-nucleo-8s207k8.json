@@ -1,0 +1,43 @@
+{
+  "slug": "stmicroelectronics-nucleo-8s207k8",
+  "name": "NUCLEO-8S207K8",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "platformio": [
+      "nucleo_8s207k8"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM8S207K8T6",
+      "source": "platformio:nucleo_8s207k8"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:nucleo_8s207k8"
+    },
+    "upload_limits": {
+      "value": "64 KB flash, 6 KB RAM",
+      "source": "platformio:nucleo_8s207k8"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "NUCLEO-8S207K8 product page",
+      "url": "https://www.st.com/en/evaluation-tools/nucleo-8s207k8.html"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:nucleo_8s207k8",
+      "label": "PlatformIO board definition (nucleo_8s207k8)",
+      "url": "https://github.com/platformio/platform-ststm8/blob/c6af4c1dde4024905613b08dac13a591894ea79f/boards/nucleo_8s207k8.json",
+      "kind": "import",
+      "revision": "c6af4c1dde4024905613b08dac13a591894ea79f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

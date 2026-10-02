@@ -1,0 +1,53 @@
+{
+  "slug": "sodaq-mbili",
+  "name": "SODAQ Mbili",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sodaq",
+  "chip": "atmega1284p",
+  "ids": {
+    "platformio": [
+      "sodaq_mbili"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega1284P",
+      "source": "platformio:sodaq_mbili"
+    },
+    "clock": {
+      "value": "8 MHz",
+      "source": "platformio:sodaq_mbili"
+    },
+    "upload_limits": {
+      "value": "127 KB flash, 16 KB RAM",
+      "source": "platformio:sodaq_mbili"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "SODAQ Mbili product page",
+      "url": "http://support.sodaq.com/sodaq-one/sodaq-mbili-1284p/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/sodaq_mbili.html",
+      "source": "platformio:sodaq_mbili"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:sodaq_mbili",
+      "label": "PlatformIO board definition (sodaq_mbili)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/sodaq_mbili.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

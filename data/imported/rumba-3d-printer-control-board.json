@@ -1,0 +1,56 @@
+{
+  "slug": "rumba-3d-printer-control-board",
+  "name": "3D Printer control board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "rumba",
+  "ids": {
+    "platformio": [
+      "rumba32_f446ve"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F446RET6",
+      "source": "platformio:rumba32_f446ve"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:rumba32_f446ve"
+    },
+    "clock": {
+      "value": "180 MHz",
+      "source": "platformio:rumba32_f446ve"
+    },
+    "upload_limits": {
+      "value": "512 KB flash, 128 KB RAM",
+      "source": "platformio:rumba32_f446ve"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "3D Printer control board product page",
+      "url": "https://github.com/Aus3D/RUMBA32"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/rumba32_f446ve.html",
+      "source": "platformio:rumba32_f446ve"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:rumba32_f446ve",
+      "label": "PlatformIO board definition (rumba32_f446ve)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/rumba32_f446ve.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

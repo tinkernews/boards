@@ -1,0 +1,44 @@
+{
+  "slug": "ene-kb1200-evb",
+  "name": "ENE KB1200_EVB",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "ene",
+  "ids": {
+    "zephyr": [
+      "kb1200_evb"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "KB1200",
+      "source": "zephyr:kb1200_evb"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:kb1200_evb"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:kb1200_evb"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/ene/kb1200_evb/doc/index.html",
+      "source": "zephyr:kb1200_evb"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:kb1200_evb",
+      "label": "Zephyr board definition (kb1200_evb)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/ene/kb1200_evb/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "stmicroelectronics-st-nucleo-wl55jc",
+  "name": "ST Nucleo WL55JC",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "aliases": [
+    "Nucleo WL55JC"
+  ],
+  "ids": {
+    "platformio": [
+      "nucleo_wl55jc"
+    ],
+    "zephyr": [
+      "nucleo_wl55jc"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32WL55JC",
+      "source": "platformio:nucleo_wl55jc"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:nucleo_wl55jc"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:nucleo_wl55jc"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 64 KB RAM",
+      "source": "platformio:nucleo_wl55jc"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:nucleo_wl55jc"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:nucleo_wl55jc"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ST Nucleo WL55JC product page",
+      "url": "https://www.st.com/en/evaluation-tools/nucleo-wl55jc.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/nucleo_wl55jc.html",
+      "source": "platformio:nucleo_wl55jc"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/nucleo_wl55jc/doc/index.html",
+      "source": "zephyr:nucleo_wl55jc"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:nucleo_wl55jc",
+      "label": "PlatformIO board definition (nucleo_wl55jc)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/nucleo_wl55jc.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    },
+    {
+      "id": "zephyr:nucleo_wl55jc",
+      "label": "Zephyr board definition (nucleo_wl55jc)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/nucleo_wl55jc/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

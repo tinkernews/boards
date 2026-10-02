@@ -1,0 +1,237 @@
+{
+  "slug": "raspberry-pi-1-model-b",
+  "name": "Raspberry Pi 1 Model B",
+  "tier": "curated",
+  "kind": "sbc",
+  "maker": "raspberry-pi",
+  "family": "Raspberry Pi",
+  "chip": "bcm2835",
+  "released": "2012-02",
+  "status": "retired",
+  "summary": "The board that started it all: a $35 Linux computer the size of a credit card, launched in February 2012 with 256 MB of RAM and doubled to 512 MB that October.",
+  "aliases": [
+    "Raspberry Pi Model B",
+    "Raspberry Pi 1 Model B",
+    "Raspberry Pi 1 B",
+    "Pi 1 Model B",
+    "original Raspberry Pi"
+  ],
+  "ids": {
+    "linux": [
+      "arch/arm/boot/dts/broadcom/bcm2835-rpi-b.dts",
+      "arch/arm/boot/dts/broadcom/bcm2835-rpi-b-rev2.dts"
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "by": "AI-assisted source check",
+    "at": "2026-10-01"
+  },
+  "successor": "raspberry-pi-1-model-b-plus",
+  "specs": {
+    "chip": {
+      "value": "Broadcom BCM2835",
+      "source": "rpi-docs-source"
+    },
+    "cpu": {
+      "value": "Arm1176JZF-S (ARMv6), single core",
+      "source": "wikipedia"
+    },
+    "clock": {
+      "value": "700 MHz",
+      "source": "wikipedia"
+    },
+    "ram": {
+      "value": "256 MB; 512 MB from October 2012",
+      "source": "rpi-docs-source"
+    },
+    "storage": {
+      "value": "Full-size SD card",
+      "source": "rpi-docs-source"
+    },
+    "gpio": {
+      "value": "26-pin header (P1)",
+      "source": "rpi-docs-source"
+    },
+    "io_voltage": {
+      "value": "3.3 V",
+      "source": "rpi-gpio"
+    },
+    "input_voltage": {
+      "value": "5 V via micro-USB",
+      "source": "rpi-docs-source"
+    },
+    "ethernet": {
+      "value": "100 Mb/s",
+      "source": "rpi-docs-source"
+    },
+    "usb": {
+      "value": "2 × USB 2.0",
+      "source": "rpi-docs-source"
+    },
+    "video": {
+      "value": "HDMI and RCA composite; DSI display connector",
+      "source": "rpi-docs-source"
+    },
+    "expansion": {
+      "value": "CSI camera connector",
+      "source": "rpi-docs-source"
+    },
+    "dimensions": {
+      "value": "85.6 × 56.5 mm",
+      "source": "wikipedia"
+    },
+    "launch_price": {
+      "value": "US$35",
+      "source": "wikipedia"
+    }
+  },
+  "revisions": [
+    {
+      "name": "Revision 1.0",
+      "released": "2012-02",
+      "changes": "256 MB of RAM. The I2C pins on P1 are GPIO0 and GPIO1, and pin 13 is GPIO21.",
+      "source": "rpi-revision2"
+    },
+    {
+      "name": "Revision 2.0",
+      "released": "2012-09",
+      "changes": "I2C moved to GPIO2 and GPIO3, pin 13 became GPIO27, and mounting holes were added. Still 256 MB at first.",
+      "source": "rpi-revision2"
+    },
+    {
+      "name": "Revision 2.0, 512 MB",
+      "released": "2012-10",
+      "changes": "Memory doubled to 512 MB at the same price.",
+      "source": "rpi-512"
+    }
+  ],
+  "docs": [
+    {
+      "kind": "guide",
+      "label": "Raspberry Pi hardware documentation",
+      "url": "https://www.raspberrypi.com/documentation/computers/raspberry-pi.html"
+    },
+    {
+      "kind": "guide",
+      "label": "Revision codes (identify your board)",
+      "url": "https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#raspberry-pi-revision-codes"
+    }
+  ],
+  "software": [
+    {
+      "platform": "raspberry-pi-os",
+      "status": "supported",
+      "note": "32-bit image; the 64-bit image needs a 64-bit model such as the Pi 3 or later.",
+      "url": "https://www.raspberrypi.com/software/operating-systems/",
+      "source": "rpi-software"
+    }
+  ],
+  "pinout": {
+    "layout": "raspberry-pi-26-pin",
+    "source": "rpi-gpio",
+    "note": "Revision 2 numbering shown"
+  },
+  "gotchas": [
+    {
+      "title": "Revision 1 and 2 GPIO differ",
+      "text": "Three header pins changed between revisions: pin 3 and 5 are GPIO0/GPIO1 on revision 1 but GPIO2/GPIO3 on revision 2, and pin 13 is GPIO21 on revision 1 but GPIO27 on revision 2. Old tutorials often assume one or the other.",
+      "source": "rpi-revision2"
+    },
+    {
+      "title": "ARMv6 only",
+      "text": "The BCM2835 is ARMv6. Many Linux distributions only ship ARMv7 or 64-bit Arm builds, so use 32-bit Raspberry Pi OS.",
+      "source": "wikipedia"
+    },
+    {
+      "title": "3.3 V only",
+      "text": "The GPIO pins are 3.3 V. Do not connect 5 V signals or components to them.",
+      "source": "rpi-gpio"
+    },
+    {
+      "title": "Little current per pin",
+      "text": "Each GPIO pin can supply up to about 16 mA and all pins together about 50 mA; drive motors and other loads through a transistor or driver board.",
+      "source": "rpi-power"
+    }
+  ],
+  "power": {
+    "rows": [
+      {
+        "label": "Recommended supply",
+        "value": "1.2 A",
+        "source": "rpi-power"
+      },
+      {
+        "label": "USB peripheral budget",
+        "value": "500 mA",
+        "source": "rpi-power"
+      },
+      {
+        "label": "Typical bare-board draw",
+        "value": "500 mA",
+        "source": "rpi-power"
+      }
+    ]
+  },
+  "mechanical": {
+    "rows": [
+      {
+        "label": "Board size",
+        "value": "85.6 × 56.5 mm",
+        "source": "wikipedia"
+      }
+    ],
+    "note": "Revision 1 boards have no mounting holes; revision 2 added two."
+  },
+  "commonsFile": "File:Raspberry Pi Model B Rev. 2.jpg",
+  "editorial": {
+    "history": "Raspberry Pi was created by a UK charity to get children programming again. The Model B went on sale on 29 February 2012; demand crashed the distributors' websites, and it shipped with 256 MB of RAM until the 512 MB version replaced it at the same price in October 2012.",
+    "today": "Slow by modern standards and limited to 32-bit software, but fine for a headless sensor logger, a retro emulator for 8-bit systems, or learning GPIO basics with Python. Pick a Zero 2 W or Pi 4 for anything that needs a desktop or modern web browser.",
+    "source": "wikipedia"
+  },
+  "sources": [
+    {
+      "id": "rpi-docs-source",
+      "label": "Raspberry Pi hardware introduction (documentation source)",
+      "url": "https://github.com/raspberrypi/documentation/blob/master/documentation/asciidoc/computers/raspberry-pi/introduction.adoc",
+      "kind": "official"
+    },
+    {
+      "id": "rpi-gpio",
+      "label": "GPIO and the 40-pin header, Raspberry Pi documentation (source)",
+      "url": "https://github.com/raspberrypi/documentation/blob/master/documentation/asciidoc/computers/raspberry-pi/gpio-on-raspberry-pi.adoc",
+      "kind": "official"
+    },
+    {
+      "id": "rpi-power",
+      "label": "Power supplies, Raspberry Pi documentation (source)",
+      "url": "https://github.com/raspberrypi/documentation/blob/master/documentation/asciidoc/computers/raspberry-pi/power-supplies.adoc",
+      "kind": "official"
+    },
+    {
+      "id": "rpi-512",
+      "label": "Model B now ships with 512MB of RAM, Raspberry Pi news",
+      "url": "https://www.raspberrypi.com/news/model-b-now-ships-with-512mb-of-ram/",
+      "kind": "official"
+    },
+    {
+      "id": "wikipedia",
+      "label": "Raspberry Pi, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Raspberry_Pi",
+      "kind": "reference"
+    },
+    {
+      "id": "rpi-software",
+      "label": "Raspberry Pi OS downloads, Raspberry Pi",
+      "url": "https://www.raspberrypi.com/software/operating-systems/",
+      "kind": "official"
+    },
+    {
+      "id": "rpi-revision2",
+      "label": "Upcoming board revision, Raspberry Pi news",
+      "url": "https://www.raspberrypi.com/news/upcoming-board-revision/",
+      "kind": "official"
+    }
+  ],
+  "updatedAt": "2026-10-01T15:00:00.000Z"
+}

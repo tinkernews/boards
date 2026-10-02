@@ -1,0 +1,202 @@
+{
+  "slug": "raspberry-pi-pico",
+  "name": "Raspberry Pi Pico",
+  "tier": "curated",
+  "kind": "mcu",
+  "maker": "raspberry-pi",
+  "family": "Raspberry Pi Pico",
+  "chip": "rp2040",
+  "released": "2021-01",
+  "status": "current",
+  "summary": "Raspberry Pi’s first microcontroller board: the RP2040 with 2 MB of flash on a $4, breadboard-friendly board.",
+  "aliases": [
+    "Raspberry Pi Pico",
+    "Pi Pico",
+    "RPi Pico",
+    "Pico H",
+    "Raspberry Pi Pico H"
+  ],
+  "ids": {
+    "platformio": [
+      "pico"
+    ],
+    "zephyr": [
+      "rpi_pico"
+    ],
+    "circuitpython": [
+      "raspberry_pi_pico"
+    ],
+    "micropython": [
+      "RPI_PICO"
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "by": "AI-assisted source check",
+    "at": "2026-10-01"
+  },
+  "successor": "raspberry-pi-pico-w",
+  "specs": {
+    "chip": {
+      "value": "Raspberry Pi RP2040",
+      "source": "pico-datasheet"
+    },
+    "cpu": {
+      "value": "2 × Arm Cortex-M0+",
+      "source": "pico-datasheet"
+    },
+    "clock": {
+      "value": "Up to 133 MHz",
+      "source": "pico-datasheet"
+    },
+    "ram": {
+      "value": "264 KB SRAM",
+      "source": "pico-datasheet"
+    },
+    "flash": {
+      "value": "2 MB QSPI",
+      "source": "pico-datasheet"
+    },
+    "gpio": {
+      "value": "26 multi-function GPIO on two 20-pin edges",
+      "source": "pico-datasheet"
+    },
+    "analog": {
+      "value": "3 ADC inputs (12-bit)",
+      "source": "pico-datasheet"
+    },
+    "io_voltage": {
+      "value": "3.3 V",
+      "source": "pico-datasheet"
+    },
+    "input_voltage": {
+      "value": "1.8–5.5 V on VSYS; 5 V via micro-USB",
+      "source": "pico-datasheet"
+    },
+    "usb": {
+      "value": "Micro-USB 1.1 device and host",
+      "source": "pico-datasheet"
+    },
+    "dimensions": {
+      "value": "51 × 21 mm",
+      "source": "pico-datasheet"
+    },
+    "launch_price": {
+      "value": "US$4",
+      "source": "pico-launch"
+    }
+  },
+  "docs": [
+    {
+      "kind": "datasheet",
+      "label": "Raspberry Pi Pico datasheet",
+      "url": "https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf"
+    },
+    {
+      "kind": "datasheet",
+      "label": "RP2040 datasheet",
+      "url": "https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf"
+    },
+    {
+      "kind": "guide",
+      "label": "Pico-series documentation",
+      "url": "https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html"
+    },
+    {
+      "kind": "schematic",
+      "label": "Raspberry Pi Pico design files (KiCad/schematic)",
+      "url": "https://datasheets.raspberrypi.com/pico/RPi-Pico-R3-PUBLIC-20200119.zip"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://www.raspberrypi.com/documentation/microcontrollers/micropython.html",
+      "source": "pico-docs"
+    }
+  ],
+  "pinout": {
+    "layout": "raspberry-pi-pico",
+    "source": "pico-datasheet"
+  },
+  "gotchas": [
+    {
+      "title": "Not 5 V tolerant",
+      "text": "GPIO is 3.3 V and the RP2040's absolute maximum on an I/O pin is IOVDD + 0.5 V, so 5 V logic can damage it; use a level shifter.",
+      "source": "rp2040-datasheet"
+    },
+    {
+      "title": "ADC accuracy limits",
+      "text": "The RP2040 ADC's differential non-linearity peaks at four codes (512, 1536, 2560 and 3584), erratum RP2040-E11, which is not fixed, and its reference comes from the noisy 3.3 V supply. For better accuracy, fit an external reference on ADC_VREF or use an external ADC.",
+      "source": "rp2040-datasheet"
+    },
+    {
+      "title": "GP25 is the LED",
+      "text": "On the Pico the on-board LED is GPIO25. The Pico W drives its LED from the wireless chip instead, so LED code is not interchangeable between them.",
+      "source": "pico-datasheet"
+    }
+  ],
+  "power": {
+    "rows": [
+      {
+        "label": "VSYS input range",
+        "value": "1.8–5.5 V",
+        "source": "pico-datasheet"
+      },
+      {
+        "label": "USB input",
+        "value": "5 V on VBUS",
+        "source": "pico-datasheet"
+      }
+    ],
+    "note": "An on-board buck-boost converter makes 3.3 V from VSYS, so a single Li-ion cell or three AA cells in series can power it directly."
+  },
+  "mechanical": {
+    "rows": [
+      {
+        "label": "Board size",
+        "value": "51 × 21 mm",
+        "source": "pico-datasheet"
+      },
+      {
+        "label": "Edge",
+        "value": "Castellated pads, 2.54 mm pitch",
+        "source": "pico-datasheet"
+      }
+    ]
+  },
+  "commonsFile": "File:Raspberry Pi Pico top and bottom.jpg",
+  "editorial": {
+    "history": "Launched in January 2021 at $4, the Pico debuted the RP2040, the first chip designed in-house by Raspberry Pi, with programmable I/O (PIO) state machines that implement interfaces in hardware.",
+    "today": "A cheap, well-documented choice for real-time I/O, USB devices and MicroPython teaching. Use the Pico W or Pico 2 W when you need wireless.",
+    "source": "pico-launch"
+  },
+  "sources": [
+    {
+      "id": "pico-datasheet",
+      "label": "Raspberry Pi Pico datasheet",
+      "url": "https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf",
+      "kind": "official"
+    },
+    {
+      "id": "rp2040-datasheet",
+      "label": "RP2040 datasheet",
+      "url": "https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf",
+      "kind": "official"
+    },
+    {
+      "id": "pico-docs",
+      "label": "Pico-series microcontrollers, Raspberry Pi documentation",
+      "url": "https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html",
+      "kind": "official"
+    },
+    {
+      "id": "pico-launch",
+      "label": "Meet Raspberry Silicon: Raspberry Pi Pico now on sale at $4, Raspberry Pi news",
+      "url": "https://www.raspberrypi.com/news/raspberry-pi-silicon-pico-now-on-sale/",
+      "kind": "official"
+    }
+  ],
+  "updatedAt": "2026-10-01T15:00:00.000Z"
+}

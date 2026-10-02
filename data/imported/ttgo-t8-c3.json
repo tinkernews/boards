@@ -1,0 +1,37 @@
+{
+  "slug": "ttgo-t8-c3",
+  "name": "TTGO T8-C3",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "lilygo",
+  "chip": "esp32-c3",
+  "ids": {
+    "zephyr": [
+      "ttgo_t8c3"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-C3",
+      "source": "zephyr:ttgo_t8c3"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/lilygo/ttgo_t8c3/doc/index.html",
+      "source": "zephyr:ttgo_t8c3"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:ttgo_t8c3",
+      "label": "Zephyr board definition (ttgo_t8c3)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/lilygo/ttgo_t8c3/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

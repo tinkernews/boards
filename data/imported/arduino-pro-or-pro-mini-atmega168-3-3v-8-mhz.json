@@ -1,0 +1,53 @@
+{
+  "slug": "arduino-pro-or-pro-mini-atmega168-3-3v-8-mhz",
+  "name": "Arduino Pro or Pro Mini ATmega168 (3.3V, 8 MHz)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "chip": "atmega168",
+  "ids": {
+    "platformio": [
+      "pro8MHzatmega168"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega168",
+      "source": "platformio:pro8mhzatmega168"
+    },
+    "clock": {
+      "value": "8 MHz",
+      "source": "platformio:pro8mhzatmega168"
+    },
+    "upload_limits": {
+      "value": "14 KB flash, 1 KB RAM",
+      "source": "platformio:pro8mhzatmega168"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Arduino Pro or Pro Mini ATmega168 (3.3V, 8 MHz) product page",
+      "url": "http://arduino.cc/en/Main/ArduinoBoardProMini"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/pro8MHzatmega168.html",
+      "source": "platformio:pro8mhzatmega168"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:pro8mhzatmega168",
+      "label": "PlatformIO board definition (pro8MHzatmega168)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/pro8MHzatmega168.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "nxp-semiconductors-s32k148evb-q176",
+  "name": "S32K148EVB-Q176",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "ids": {
+    "zephyr": [
+      "s32k148_evb"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "S32K148",
+      "source": "zephyr:s32k148_evb"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:s32k148_evb"
+    },
+    "flash": {
+      "value": "1.5 MB",
+      "source": "zephyr:s32k148_evb"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nxp/s32k148_evb/doc/index.html",
+      "source": "zephyr:s32k148_evb"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:s32k148_evb",
+      "label": "Zephyr board definition (s32k148_evb)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nxp/s32k148_evb/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

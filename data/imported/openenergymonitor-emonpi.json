@@ -1,0 +1,53 @@
+{
+  "slug": "openenergymonitor-emonpi",
+  "name": "OpenEnergyMonitor emonPi",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "openenergymonitor",
+  "chip": "atmega328p",
+  "ids": {
+    "platformio": [
+      "emonpi"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega328P",
+      "source": "platformio:emonpi"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:emonpi"
+    },
+    "upload_limits": {
+      "value": "30 KB flash, 2 KB RAM",
+      "source": "platformio:emonpi"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "OpenEnergyMonitor emonPi product page",
+      "url": "https://github.com/openenergymonitor/emonpi"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/emonpi.html",
+      "source": "platformio:emonpi"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:emonpi",
+      "label": "PlatformIO board definition (emonpi)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/emonpi.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "digistump-digispark-usb",
+  "name": "Digispark USB",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "digistump",
+  "chip": "attiny85",
+  "ids": {
+    "platformio": [
+      "digispark-tiny"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATtiny85",
+      "source": "platformio:digispark-tiny"
+    },
+    "clock": {
+      "value": "16.5 MHz",
+      "source": "platformio:digispark-tiny"
+    },
+    "upload_limits": {
+      "value": "5.87 KB flash, 0.5 KB RAM",
+      "source": "platformio:digispark-tiny"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Digispark USB product page",
+      "url": "http://digistump.com/products/1"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/digispark-tiny.html",
+      "source": "platformio:digispark-tiny"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:digispark-tiny",
+      "label": "PlatformIO board definition (digispark-tiny)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/digispark-tiny.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

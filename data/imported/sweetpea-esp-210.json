@@ -1,0 +1,53 @@
+{
+  "slug": "sweetpea-esp-210",
+  "name": "SweetPea ESP-210",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sweetpea",
+  "chip": "esp8266",
+  "ids": {
+    "platformio": [
+      "esp210"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP8266EX",
+      "source": "platformio:esp210"
+    },
+    "clock": {
+      "value": "80 MHz",
+      "source": "platformio:esp210"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 80 KB RAM",
+      "source": "platformio:esp210"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "SweetPea ESP-210 product page",
+      "url": "http://wiki.sweetpeas.se/index.php?title=ESP-210"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif8266/esp210.html",
+      "source": "platformio:esp210"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:esp210",
+      "label": "PlatformIO board definition (esp210)",
+      "url": "https://github.com/platformio/platform-espressif8266/blob/668c2a2e4f16bd83b6c812f1ee0605c62b3ce2d2/boards/esp210.json",
+      "kind": "import",
+      "revision": "668c2a2e4f16bd83b6c812f1ee0605c62b3ce2d2"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

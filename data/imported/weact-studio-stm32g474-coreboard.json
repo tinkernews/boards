@@ -1,0 +1,56 @@
+{
+  "slug": "weact-studio-stm32g474-coreboard",
+  "name": "WeAct Studio STM32G474 CoreBoard",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "weact",
+  "ids": {
+    "platformio": [
+      "weact_g474ceu6"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32G474CEU6",
+      "source": "platformio:weact_g474ceu6"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:weact_g474ceu6"
+    },
+    "clock": {
+      "value": "170 MHz",
+      "source": "platformio:weact_g474ceu6"
+    },
+    "upload_limits": {
+      "value": "512 KB flash, 128 KB RAM",
+      "source": "platformio:weact_g474ceu6"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "WeAct Studio STM32G474 CoreBoard product page",
+      "url": "https://github.com/WeActStudio/WeActStudio.STM32G474CoreBoard"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/weact_g474ceu6.html",
+      "source": "platformio:weact_g474ceu6"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:weact_g474ceu6",
+      "label": "PlatformIO board definition (weact_g474ceu6)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/weact_g474ceu6.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,335 @@
+{
+  "slug": "jpconstantineau-bluemicro840",
+  "name": "BlueMicro840",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "jpconstantineau",
+  "chip": "nrf52840",
+  "ids": {
+    "circuitpython": [
+      "bluemicro840"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/bluemicro840/",
+      "source": "circuitpython:bluemicro840"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:bluemicro840",
+    "list": [
+      {
+        "pin": "P0_02",
+        "names": [
+          "P0_02",
+          "A0"
+        ]
+      },
+      {
+        "pin": "P0_03",
+        "names": [
+          "P0_03",
+          "A1"
+        ]
+      },
+      {
+        "pin": "P0_04",
+        "names": [
+          "P0_04",
+          "A2"
+        ]
+      },
+      {
+        "pin": "P0_05",
+        "names": [
+          "P0_05",
+          "A3"
+        ]
+      },
+      {
+        "pin": "P0_06",
+        "names": [
+          "P0_06",
+          "TX"
+        ]
+      },
+      {
+        "pin": "P0_07",
+        "names": [
+          "P0_07"
+        ]
+      },
+      {
+        "pin": "P0_08",
+        "names": [
+          "P0_08",
+          "RX"
+        ]
+      },
+      {
+        "pin": "P0_09",
+        "names": [
+          "P0_09",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "P0_10",
+        "names": [
+          "P0_10",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "P0_11",
+        "names": [
+          "P0_11"
+        ]
+      },
+      {
+        "pin": "P0_12",
+        "names": [
+          "P0_12",
+          "VCC_ON"
+        ]
+      },
+      {
+        "pin": "P0_13",
+        "names": [
+          "P0_13"
+        ]
+      },
+      {
+        "pin": "P0_14",
+        "names": [
+          "P0_14"
+        ]
+      },
+      {
+        "pin": "P0_15",
+        "names": [
+          "P0_15",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "P0_16",
+        "names": [
+          "P0_16"
+        ]
+      },
+      {
+        "pin": "P0_17",
+        "names": [
+          "P0_17",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "P0_19",
+        "names": [
+          "P0_19"
+        ]
+      },
+      {
+        "pin": "P0_20",
+        "names": [
+          "P0_20"
+        ]
+      },
+      {
+        "pin": "P0_21",
+        "names": [
+          "P0_21"
+        ]
+      },
+      {
+        "pin": "P0_22",
+        "names": [
+          "P0_22"
+        ]
+      },
+      {
+        "pin": "P0_23",
+        "names": [
+          "P0_23"
+        ]
+      },
+      {
+        "pin": "P0_24",
+        "names": [
+          "P0_24",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "P0_25",
+        "names": [
+          "P0_25"
+        ]
+      },
+      {
+        "pin": "P0_26",
+        "names": [
+          "P0_26"
+        ]
+      },
+      {
+        "pin": "P0_27",
+        "names": [
+          "P0_27"
+        ]
+      },
+      {
+        "pin": "P0_28",
+        "names": [
+          "P0_28",
+          "A4"
+        ]
+      },
+      {
+        "pin": "P0_29",
+        "names": [
+          "P0_29",
+          "A5"
+        ]
+      },
+      {
+        "pin": "P0_30",
+        "names": [
+          "P0_30",
+          "A6"
+        ]
+      },
+      {
+        "pin": "P0_31",
+        "names": [
+          "P0_31",
+          "A7",
+          "VOLTAGE_MONITOR",
+          "BATTERY"
+        ]
+      },
+      {
+        "pin": "P1_00",
+        "names": [
+          "P1_00"
+        ]
+      },
+      {
+        "pin": "P1_01",
+        "names": [
+          "P1_01"
+        ]
+      },
+      {
+        "pin": "P1_02",
+        "names": [
+          "P1_02"
+        ]
+      },
+      {
+        "pin": "P1_03",
+        "names": [
+          "P1_03"
+        ]
+      },
+      {
+        "pin": "P1_04",
+        "names": [
+          "P1_04",
+          "LED1",
+          "RED_LED"
+        ]
+      },
+      {
+        "pin": "P1_05",
+        "names": [
+          "P1_05"
+        ]
+      },
+      {
+        "pin": "P1_06",
+        "names": [
+          "P1_06"
+        ]
+      },
+      {
+        "pin": "P1_07",
+        "names": [
+          "P1_07"
+        ]
+      },
+      {
+        "pin": "P1_08",
+        "names": [
+          "P1_08"
+        ]
+      },
+      {
+        "pin": "P1_09",
+        "names": [
+          "P1_09"
+        ]
+      },
+      {
+        "pin": "P1_10",
+        "names": [
+          "P1_10",
+          "LED2",
+          "BLUE_LED"
+        ]
+      },
+      {
+        "pin": "P1_11",
+        "names": [
+          "P1_11"
+        ]
+      },
+      {
+        "pin": "P1_12",
+        "names": [
+          "P1_12"
+        ]
+      },
+      {
+        "pin": "P1_13",
+        "names": [
+          "P1_13"
+        ]
+      },
+      {
+        "pin": "P1_14",
+        "names": [
+          "P1_14"
+        ]
+      },
+      {
+        "pin": "P1_15",
+        "names": [
+          "P1_15"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:bluemicro840",
+      "label": "CircuitPython board definition (bluemicro840)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/bluemicro840.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:bluemicro840",
+      "label": "CircuitPython pin definitions (bluemicro840)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/nordic/boards/bluemicro840/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

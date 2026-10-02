@@ -1,0 +1,36 @@
+{
+  "slug": "espressif-esp8684-devkitm",
+  "name": "ESP8684-DevKitM",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "espressif",
+  "ids": {
+    "zephyr": [
+      "esp8684_devkitm"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32C2",
+      "source": "zephyr:esp8684_devkitm"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/espressif/esp8684_devkitm/doc/index.html",
+      "source": "zephyr:esp8684_devkitm"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:esp8684_devkitm",
+      "label": "Zephyr board definition (esp8684_devkitm)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/espressif/esp8684_devkitm/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

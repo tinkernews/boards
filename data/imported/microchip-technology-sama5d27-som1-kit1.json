@@ -1,0 +1,40 @@
+{
+  "slug": "microchip-technology-sama5d27-som1-kit1",
+  "name": "SAMA5D27 SOM1 Kit1",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "ids": {
+    "zephyr": [
+      "sama5d27_som1_ek1"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "SAMA5D27SOM1",
+      "source": "zephyr:sama5d27_som1_ek1"
+    },
+    "ram": {
+      "value": "128 KB",
+      "source": "zephyr:sama5d27_som1_ek1"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/microchip/sam/sama5d27_som1_ek1/doc/index.html",
+      "source": "zephyr:sama5d27_som1_ek1"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:sama5d27_som1_ek1",
+      "label": "Zephyr board definition (sama5d27_som1_ek1)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/microchip/sam/sama5d27_som1_ek1/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

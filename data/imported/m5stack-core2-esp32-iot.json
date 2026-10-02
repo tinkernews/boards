@@ -1,0 +1,218 @@
+{
+  "slug": "m5stack-core2-esp32-iot",
+  "name": "Core2 ESP32 IoT",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "m5stack",
+  "chip": "esp32",
+  "ids": {
+    "circuitpython": [
+      "m5stack_core2"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/m5stack_core2/",
+      "source": "circuitpython:m5stack_core2"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:m5stack_core2",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "I2S_LRC",
+          "I2S_PDM_MIC_CLOCK",
+          "D0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "D1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "I2S_SDO",
+          "D2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "D3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "SD_CS"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "TFT_CS"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "I2S_SCK"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "PORTC_RX",
+          "RX2",
+          "D13"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "PORTC_TX",
+          "TX2",
+          "D14"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "TFT_DC"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "SCK",
+          "D18"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "D19"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "SDA",
+          "D21"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "SCL",
+          "D22"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "MOSI",
+          "D23"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "A25",
+          "D25"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "PORTB_OUT",
+          "A26",
+          "D26"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "D27",
+          "A27"
+        ]
+      },
+      {
+        "pin": "GPIO32",
+        "names": [
+          "PORTA_SDA",
+          "D32",
+          "TFT_BACKLIGHT"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "PORTA_SCL",
+          "D33",
+          "TFT_RESET"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "I2S_PDM_MIC_DATA",
+          "D34",
+          "A34"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "A35",
+          "D35"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "PORTB_IN",
+          "A36",
+          "D36"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "MISO",
+          "D38"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "TOUCH_INT"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:m5stack_core2",
+      "label": "CircuitPython board definition (m5stack_core2)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/m5stack_core2.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:m5stack_core2",
+      "label": "CircuitPython pin definitions (m5stack_core2)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/m5stack_core2/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

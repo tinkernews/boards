@@ -1,0 +1,192 @@
+{
+  "slug": "radomir-dopieralski-fluff-m0",
+  "name": "Fluff M0",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "radomir-dopieralski",
+  "chip": "atsamd21g18",
+  "ids": {
+    "circuitpython": [
+      "fluff_m0"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/fluff_m0/",
+      "source": "circuitpython:fluff_m0"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:fluff_m0",
+    "list": [
+      {
+        "pin": "PA00",
+        "names": [
+          "MOSI",
+          "SDO"
+        ]
+      },
+      {
+        "pin": "PA01",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "PA02",
+        "names": [
+          "A0"
+        ]
+      },
+      {
+        "pin": "PA03",
+        "names": [
+          "AREF"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "A3"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "A4"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "A1"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "A6"
+        ]
+      },
+      {
+        "pin": "PA08",
+        "names": [
+          "A2"
+        ]
+      },
+      {
+        "pin": "PA09",
+        "names": [
+          "A5"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "D1",
+          "TX"
+        ]
+      },
+      {
+        "pin": "PA11",
+        "names": [
+          "D0",
+          "RX"
+        ]
+      },
+      {
+        "pin": "PA14",
+        "names": [
+          "D9"
+        ]
+      },
+      {
+        "pin": "PA15",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "PA16",
+        "names": [
+          "D11"
+        ]
+      },
+      {
+        "pin": "PA17",
+        "names": [
+          "D13"
+        ]
+      },
+      {
+        "pin": "PA18",
+        "names": [
+          "D10"
+        ]
+      },
+      {
+        "pin": "PA19",
+        "names": [
+          "D12"
+        ]
+      },
+      {
+        "pin": "PA22",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PA23",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "PA27",
+        "names": [
+          "D14",
+          "EN"
+        ]
+      },
+      {
+        "pin": "PA28",
+        "names": [
+          "LED"
+        ]
+      },
+      {
+        "pin": "PA30",
+        "names": [
+          "MISO",
+          "SDI"
+        ]
+      },
+      {
+        "pin": "PA31",
+        "names": [
+          "SCK"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:fluff_m0",
+      "label": "CircuitPython board definition (fluff_m0)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/fluff_m0.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:fluff_m0",
+      "label": "CircuitPython pin definitions (fluff_m0)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/fluff_m0/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

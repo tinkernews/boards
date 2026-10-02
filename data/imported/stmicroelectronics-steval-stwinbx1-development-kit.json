@@ -1,0 +1,44 @@
+{
+  "slug": "stmicroelectronics-steval-stwinbx1-development-kit",
+  "name": "STEVAL STWINBX1 Development kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "zephyr": [
+      "steval_stwinbx1"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32U585XX",
+      "source": "zephyr:steval_stwinbx1"
+    },
+    "ram": {
+      "value": "768 KB",
+      "source": "zephyr:steval_stwinbx1"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:steval_stwinbx1"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/steval_stwinbx1/doc/index.html",
+      "source": "zephyr:steval_stwinbx1"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:steval_stwinbx1",
+      "label": "Zephyr board definition (steval_stwinbx1)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/steval_stwinbx1/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

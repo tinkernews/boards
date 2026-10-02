@@ -1,0 +1,82 @@
+{
+  "slug": "ttgo-t-01c3-esp32-c3",
+  "name": "TTGO T-01C3 ESP32-C3",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "lilygo",
+  "chip": "esp32-c3",
+  "ids": {
+    "circuitpython": [
+      "lilygo_ttgo_t-01c3"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/lilygo_ttgo_t-01c3/",
+      "source": "circuitpython:lilygo_ttgo_t-01c3"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:lilygo_ttgo_t-01c3",
+    "list": [
+      {
+        "pin": "GPIO2",
+        "names": [
+          "IO2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "LED",
+          "IO3"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "IO8"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "IO9"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "RX",
+          "IO20"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "TX",
+          "IO21"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:lilygo_ttgo_t-01c3",
+      "label": "CircuitPython board definition (lilygo_ttgo_t-01c3)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/lilygo_ttgo_t-01c3.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:lilygo_ttgo_t-01c3",
+      "label": "CircuitPython pin definitions (lilygo_ttgo_t-01c3)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/lilygo_ttgo_t-01c3/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

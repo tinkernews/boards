@@ -1,0 +1,53 @@
+{
+  "slug": "iotaap-magnolia",
+  "name": "IoTaaP Magnolia",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "iotaap",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "iotaap_magnolia"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:iotaap_magnolia"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:iotaap_magnolia"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:iotaap_magnolia"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "IoTaaP Magnolia product page",
+      "url": "https://www.iotaap.io"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/iotaap_magnolia.html",
+      "source": "platformio:iotaap_magnolia"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:iotaap_magnolia",
+      "label": "PlatformIO board definition (iotaap_magnolia)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/iotaap_magnolia.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

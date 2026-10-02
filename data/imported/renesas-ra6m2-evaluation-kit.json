@@ -1,0 +1,44 @@
+{
+  "slug": "renesas-ra6m2-evaluation-kit",
+  "name": "RA6M2 Evaluation Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "renesas",
+  "ids": {
+    "zephyr": [
+      "ek_ra6m2"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "R7FA6M2AF3CFB",
+      "source": "zephyr:ek_ra6m2"
+    },
+    "ram": {
+      "value": "384 KB",
+      "source": "zephyr:ek_ra6m2"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:ek_ra6m2"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/renesas/ek_ra6m2/doc/index.html",
+      "source": "zephyr:ek_ra6m2"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:ek_ra6m2",
+      "label": "Zephyr board definition (ek_ra6m2)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/renesas/ek_ra6m2/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,119 @@
+{
+  "slug": "m5stack-atom-echo-smart-speaker",
+  "name": "ATOM Echo Smart Speaker",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "m5stack",
+  "chip": "esp32",
+  "ids": {
+    "circuitpython": [
+      "m5stack_atom_echo"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/m5stack_atom_echo/",
+      "source": "circuitpython:m5stack_atom_echo"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:m5stack_atom_echo",
+    "list": [
+      {
+        "pin": "GPIO12",
+        "names": [
+          "IR_LED"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "SPK_I2S_SCK"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "SCL",
+          "D21"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "SPK_I2S_SDO"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "PDM_MIC_DATA"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "SDA",
+          "A25",
+          "D25",
+          "DAC1",
+          "DAC2"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "PORTA_SDA",
+          "A26",
+          "D26"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO32",
+        "names": [
+          "PORTA_SCL",
+          "A32",
+          "D32"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "SPK_I2S_LRC",
+          "PDM_MIC_CLK"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "BTN"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:m5stack_atom_echo",
+      "label": "CircuitPython board definition (m5stack_atom_echo)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/m5stack_atom_echo.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:m5stack_atom_echo",
+      "label": "CircuitPython pin definitions (m5stack_atom_echo)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/m5stack_atom_echo/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

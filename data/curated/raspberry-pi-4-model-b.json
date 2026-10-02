@@ -1,0 +1,264 @@
+{
+  "slug": "raspberry-pi-4-model-b",
+  "name": "Raspberry Pi 4 Model B",
+  "tier": "curated",
+  "kind": "sbc",
+  "maker": "raspberry-pi",
+  "family": "Raspberry Pi",
+  "chip": "bcm2711",
+  "released": "2019-06",
+  "status": "current",
+  "summary": "The Pi that became a real desktop: Cortex-A72 cores, up to 8 GB of RAM, USB 3.0, gigabit Ethernet and two 4K displays.",
+  "aliases": [
+    "Raspberry Pi 4",
+    "Raspberry Pi 4 Model B",
+    "Raspberry Pi 4B",
+    "Pi 4 Model B",
+    "Pi 4B"
+  ],
+  "ids": {
+    "linux": [
+      "arch/arm/boot/dts/broadcom/bcm2711-rpi-4-b.dts",
+      "arch/arm64/boot/dts/broadcom/bcm2711-rpi-4-b.dts"
+    ],
+    "zephyr": [
+      "rpi_4b"
+    ],
+    "armbian": [
+      "rpi4b"
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "by": "AI-assisted source check",
+    "at": "2026-10-01"
+  },
+  "predecessor": "raspberry-pi-3-model-b-plus",
+  "successor": "raspberry-pi-5",
+  "specs": {
+    "chip": {
+      "value": "Broadcom BCM2711",
+      "source": "rpi-docs-source"
+    },
+    "cpu": {
+      "value": "4 × Cortex-A72 (ARMv8, 64-bit)",
+      "source": "rpi-processors"
+    },
+    "clock": {
+      "value": "1.5 GHz at launch; 1.8 GHz in the current product brief",
+      "source": "pi4-brief"
+    },
+    "ram": {
+      "value": "1, 2, 3, 4 or 8 GB LPDDR4",
+      "source": "rpi-processors"
+    },
+    "storage": {
+      "value": "microSD card; USB boot",
+      "source": "rpi-docs"
+    },
+    "gpu": {
+      "value": "VideoCore VI",
+      "source": "rpi-processors"
+    },
+    "gpio": {
+      "value": "40-pin header",
+      "source": "rpi-docs-source"
+    },
+    "io_voltage": {
+      "value": "3.3 V",
+      "source": "rpi-gpio"
+    },
+    "input_voltage": {
+      "value": "5 V, 3 A via USB-C",
+      "source": "rpi-docs-source"
+    },
+    "wireless": {
+      "value": "2.4/5 GHz 802.11ac Wi-Fi; Bluetooth 5 and BLE",
+      "source": "rpi-docs-source"
+    },
+    "ethernet": {
+      "value": "Gigabit; PoE+ with a separate PoE+ HAT",
+      "source": "rpi-docs-source"
+    },
+    "usb": {
+      "value": "2 × USB 3.0, 2 × USB 2.0",
+      "source": "rpi-docs-source"
+    },
+    "video": {
+      "value": "2 × micro-HDMI; composite on the 3.5 mm AV jack; DSI display connector",
+      "source": "rpi-docs-source"
+    },
+    "expansion": {
+      "value": "CSI camera connector",
+      "source": "rpi-docs-source"
+    },
+    "launch_price": {
+      "value": "From US$35 (1 GB)",
+      "source": "pi4-launch"
+    }
+  },
+  "docs": [
+    {
+      "kind": "guide",
+      "label": "Raspberry Pi hardware documentation",
+      "url": "https://www.raspberrypi.com/documentation/computers/raspberry-pi.html"
+    },
+    {
+      "kind": "datasheet",
+      "label": "Raspberry Pi 4 Model B datasheet",
+      "url": "https://datasheets.raspberrypi.com/rpi4/raspberry-pi-4-datasheet.pdf"
+    },
+    {
+      "kind": "product",
+      "label": "Raspberry Pi 4 Model B product brief",
+      "url": "https://datasheets.raspberrypi.com/rpi4/raspberry-pi-4-product-brief.pdf"
+    },
+    {
+      "kind": "schematic",
+      "label": "Raspberry Pi 4 Model B reduced schematics",
+      "url": "https://datasheets.raspberrypi.com/rpi4/raspberry-pi-4-reduced-schematics.pdf"
+    },
+    {
+      "kind": "mechanical",
+      "label": "Raspberry Pi 4 Model B mechanical drawing",
+      "url": "https://datasheets.raspberrypi.com/rpi4/raspberry-pi-4-mechanical-drawing.pdf"
+    }
+  ],
+  "software": [
+    {
+      "platform": "raspberry-pi-os",
+      "status": "supported",
+      "note": "32-bit and 64-bit images.",
+      "url": "https://www.raspberrypi.com/software/operating-systems/",
+      "source": "rpi-software"
+    }
+  ],
+  "pinout": {
+    "layout": "raspberry-pi-40-pin",
+    "source": "rpi-gpio"
+  },
+  "gotchas": [
+    {
+      "title": "Use a 3 A USB-C supply",
+      "text": "Raspberry Pi recommends its 5 V, 3 A USB-C supply; a weak supply or a thin cable triggers undervoltage warnings.",
+      "source": "rpi-power"
+    },
+    {
+      "title": "It runs warm",
+      "text": "The BCM2711 throttles progressively under sustained load as it heats up; a heatsink or the official case fan reduces throttling.",
+      "source": "rpi-frequency"
+    },
+    {
+      "title": "Micro-HDMI, not HDMI",
+      "text": "Both video outputs are micro-HDMI; you need adapters or micro-HDMI cables.",
+      "source": "rpi-docs-source"
+    },
+    {
+      "title": "3.3 V only",
+      "text": "The GPIO pins are 3.3 V. Do not connect 5 V signals or components to them.",
+      "source": "rpi-gpio"
+    },
+    {
+      "title": "Little current per pin",
+      "text": "Each GPIO pin can supply up to about 16 mA and all pins together about 50 mA; drive motors and other loads through a transistor or driver board.",
+      "source": "rpi-power"
+    }
+  ],
+  "power": {
+    "rows": [
+      {
+        "label": "Recommended supply",
+        "value": "3.0 A",
+        "source": "rpi-power"
+      },
+      {
+        "label": "USB peripheral budget",
+        "value": "1.2 A",
+        "source": "rpi-power"
+      },
+      {
+        "label": "Typical bare-board draw",
+        "value": "600 mA",
+        "source": "rpi-power"
+      }
+    ]
+  },
+  "mechanical": {
+    "rows": [
+      {
+        "label": "Board size",
+        "value": "85 × 56 mm",
+        "source": "pi4-brief"
+      }
+    ],
+    "files": [
+      {
+        "label": "Mechanical drawing (PDF)",
+        "url": "https://datasheets.raspberrypi.com/rpi4/raspberry-pi-4-mechanical-drawing.pdf"
+      }
+    ]
+  },
+  "commonsFile": "File:Raspberry Pi 4 Model B - Top.jpg",
+  "editorial": {
+    "history": "Launched in June 2019 from $35, the Pi 4 was the biggest jump in the family's history: a much faster SoC, USB 3.0 on a PCIe-attached controller, true gigabit Ethernet and more memory options.",
+    "today": "Still the default choice for Home Assistant, NAS and media-server builds, with the widest accessory and tutorial support of any Pi.",
+    "source": "pi4-launch"
+  },
+  "sources": [
+    {
+      "id": "rpi-docs",
+      "label": "Raspberry Pi hardware, Raspberry Pi documentation",
+      "url": "https://www.raspberrypi.com/documentation/computers/raspberry-pi.html",
+      "kind": "official"
+    },
+    {
+      "id": "rpi-docs-source",
+      "label": "Raspberry Pi hardware introduction (documentation source)",
+      "url": "https://github.com/raspberrypi/documentation/blob/master/documentation/asciidoc/computers/raspberry-pi/introduction.adoc",
+      "kind": "official"
+    },
+    {
+      "id": "rpi-processors",
+      "label": "Processors, Raspberry Pi documentation",
+      "url": "https://www.raspberrypi.com/documentation/computers/processors.html",
+      "kind": "official"
+    },
+    {
+      "id": "rpi-gpio",
+      "label": "GPIO and the 40-pin header, Raspberry Pi documentation (source)",
+      "url": "https://github.com/raspberrypi/documentation/blob/master/documentation/asciidoc/computers/raspberry-pi/gpio-on-raspberry-pi.adoc",
+      "kind": "official"
+    },
+    {
+      "id": "rpi-power",
+      "label": "Power supplies, Raspberry Pi documentation (source)",
+      "url": "https://github.com/raspberrypi/documentation/blob/master/documentation/asciidoc/computers/raspberry-pi/power-supplies.adoc",
+      "kind": "official"
+    },
+    {
+      "id": "rpi-frequency",
+      "label": "Frequency management and thermal control, Raspberry Pi documentation (source)",
+      "url": "https://github.com/raspberrypi/documentation/blob/master/documentation/asciidoc/computers/raspberry-pi/frequency-management.adoc",
+      "kind": "official"
+    },
+    {
+      "id": "pi4-launch",
+      "label": "Raspberry Pi 4 on sale now from $35, Raspberry Pi news",
+      "url": "https://www.raspberrypi.com/news/raspberry-pi-4-on-sale-now-from-35/",
+      "kind": "official"
+    },
+    {
+      "id": "pi4-brief",
+      "label": "Raspberry Pi 4 Model B product brief",
+      "url": "https://datasheets.raspberrypi.com/rpi4/raspberry-pi-4-product-brief.pdf",
+      "kind": "official"
+    },
+    {
+      "id": "rpi-software",
+      "label": "Raspberry Pi OS downloads, Raspberry Pi",
+      "url": "https://www.raspberrypi.com/software/operating-systems/",
+      "kind": "official"
+    }
+  ],
+  "updatedAt": "2026-10-01T15:00:00.000Z"
+}

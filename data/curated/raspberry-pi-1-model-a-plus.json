@@ -1,0 +1,196 @@
+{
+  "slug": "raspberry-pi-1-model-a-plus",
+  "name": "Raspberry Pi 1 Model A+",
+  "tier": "curated",
+  "kind": "sbc",
+  "maker": "raspberry-pi",
+  "family": "Raspberry Pi",
+  "chip": "bcm2835",
+  "released": "2014-11",
+  "status": "unknown",
+  "summary": "The small, low-power $20 Raspberry Pi of 2014: the B+ layout cut down to one USB port and no Ethernet, 65 mm long.",
+  "aliases": [
+    "Raspberry Pi Model A+",
+    "Raspberry Pi 1 Model A+",
+    "Raspberry Pi A+",
+    "Pi 1 A+"
+  ],
+  "ids": {
+    "linux": [
+      "arch/arm/boot/dts/broadcom/bcm2835-rpi-a-plus.dts"
+    ]
+  },
+  "review": {
+    "status": "draft"
+  },
+  "predecessor": "raspberry-pi-1-model-a",
+  "successor": "raspberry-pi-3-model-a-plus",
+  "specs": {
+    "chip": {
+      "value": "Broadcom BCM2835",
+      "source": "rpi-docs-source"
+    },
+    "cpu": {
+      "value": "Arm1176JZF-S (ARMv6), single core",
+      "source": "rpi-processors"
+    },
+    "clock": {
+      "value": "700 MHz",
+      "source": "wikipedia"
+    },
+    "ram": {
+      "value": "256 MB; later boards 512 MB",
+      "source": "rpi-docs-source"
+    },
+    "storage": {
+      "value": "microSD card",
+      "source": "rpi-docs-source"
+    },
+    "gpio": {
+      "value": "40-pin header",
+      "source": "rpi-docs-source"
+    },
+    "io_voltage": {
+      "value": "3.3 V",
+      "source": "rpi-gpio"
+    },
+    "input_voltage": {
+      "value": "5 V via micro-USB",
+      "source": "rpi-docs-source"
+    },
+    "usb": {
+      "value": "1 × USB 2.0",
+      "source": "rpi-docs-source"
+    },
+    "video": {
+      "value": "HDMI; composite on the 3.5 mm AV jack; DSI display connector",
+      "source": "rpi-docs-source"
+    },
+    "expansion": {
+      "value": "CSI camera connector",
+      "source": "rpi-docs-source"
+    },
+    "launch_price": {
+      "value": "US$20",
+      "source": "aplus-launch"
+    }
+  },
+  "docs": [
+    {
+      "kind": "guide",
+      "label": "Raspberry Pi hardware documentation",
+      "url": "https://www.raspberrypi.com/documentation/computers/raspberry-pi.html"
+    },
+    {
+      "kind": "schematic",
+      "label": "Raspberry Pi 1 Model A+ reduced schematics",
+      "url": "https://datasheets.raspberrypi.com/rpi/raspberry-pi-a-plus-reduced-schematics.pdf"
+    }
+  ],
+  "software": [
+    {
+      "platform": "raspberry-pi-os",
+      "status": "supported",
+      "note": "32-bit image; the 64-bit image needs a 64-bit model such as the Pi 3 or later.",
+      "url": "https://www.raspberrypi.com/software/operating-systems/",
+      "source": "rpi-software"
+    }
+  ],
+  "pinout": {
+    "layout": "raspberry-pi-40-pin",
+    "source": "rpi-gpio"
+  },
+  "gotchas": [
+    {
+      "title": "3.3 V only",
+      "text": "The GPIO pins are 3.3 V. Do not connect 5 V signals or components to them.",
+      "source": "rpi-gpio"
+    },
+    {
+      "title": "Little current per pin",
+      "text": "Each GPIO pin can supply up to about 16 mA and all pins together about 50 mA; drive motors and other loads through a transistor or driver board.",
+      "source": "rpi-power"
+    }
+  ],
+  "power": {
+    "rows": [
+      {
+        "label": "Recommended supply",
+        "value": "700 mA",
+        "source": "rpi-power"
+      },
+      {
+        "label": "USB peripheral budget",
+        "value": "500 mA",
+        "source": "rpi-power"
+      },
+      {
+        "label": "Typical bare-board draw",
+        "value": "180 mA",
+        "source": "rpi-power"
+      }
+    ]
+  },
+  "editorial": {
+    "history": "The A+ arrived in November 2014 as the Model A rebuilt on the B+ layout: shorter, lighter and the lowest-power full-size Pi of its generation.",
+    "today": "At about 180 mA idle it remains a sensible choice for battery or solar projects that need the 40-pin header but not networking; the 3 Model A+ is the faster equivalent with wireless.",
+    "source": "aplus-launch"
+  },
+  "sources": [
+    {
+      "id": "rpi-docs",
+      "label": "Raspberry Pi hardware, Raspberry Pi documentation",
+      "url": "https://www.raspberrypi.com/documentation/computers/raspberry-pi.html",
+      "kind": "official"
+    },
+    {
+      "id": "rpi-docs-source",
+      "label": "Raspberry Pi hardware introduction (documentation source)",
+      "url": "https://github.com/raspberrypi/documentation/blob/master/documentation/asciidoc/computers/raspberry-pi/introduction.adoc",
+      "kind": "official"
+    },
+    {
+      "id": "rpi-processors",
+      "label": "Processors, Raspberry Pi documentation",
+      "url": "https://www.raspberrypi.com/documentation/computers/processors.html",
+      "kind": "official"
+    },
+    {
+      "id": "rpi-gpio",
+      "label": "GPIO and the 40-pin header, Raspberry Pi documentation (source)",
+      "url": "https://github.com/raspberrypi/documentation/blob/master/documentation/asciidoc/computers/raspberry-pi/gpio-on-raspberry-pi.adoc",
+      "kind": "official"
+    },
+    {
+      "id": "rpi-power",
+      "label": "Power supplies, Raspberry Pi documentation (source)",
+      "url": "https://github.com/raspberrypi/documentation/blob/master/documentation/asciidoc/computers/raspberry-pi/power-supplies.adoc",
+      "kind": "official"
+    },
+    {
+      "id": "rpi-os",
+      "label": "Raspberry Pi OS, Raspberry Pi documentation",
+      "url": "https://www.raspberrypi.com/documentation/computers/os.html",
+      "kind": "official"
+    },
+    {
+      "id": "aplus-launch",
+      "label": "Raspberry Pi Model A+ on sale now at $20, Raspberry Pi news",
+      "url": "https://www.raspberrypi.com/news/raspberry-pi-model-a-plus-on-sale/",
+      "kind": "official"
+    },
+    {
+      "id": "wikipedia",
+      "label": "Raspberry Pi, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Raspberry_Pi",
+      "kind": "reference"
+    },
+    {
+      "id": "rpi-software",
+      "label": "Raspberry Pi OS downloads, Raspberry Pi",
+      "url": "https://www.raspberrypi.com/software/operating-systems/",
+      "kind": "official"
+    }
+  ],
+  "updatedAt": "2026-10-01T00:00:00.000Z"
+}

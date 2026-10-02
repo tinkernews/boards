@@ -1,0 +1,37 @@
+{
+  "slug": "dptechnics-walter",
+  "name": "Walter",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "dptechnics",
+  "chip": "esp32-s3",
+  "ids": {
+    "zephyr": [
+      "walter"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-S3",
+      "source": "zephyr:walter"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/dptechnics/walter/doc/index.html",
+      "source": "zephyr:walter"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:walter",
+      "label": "Zephyr board definition (walter)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/dptechnics/walter/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

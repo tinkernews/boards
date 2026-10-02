@@ -1,0 +1,45 @@
+{
+  "slug": "raytac-mdbt50q-db-33",
+  "name": "MDBT50Q-DB-33",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "raytac",
+  "chip": "nrf52833",
+  "ids": {
+    "zephyr": [
+      "raytac_mdbt50q_db_33"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52833",
+      "source": "zephyr:raytac_mdbt50q_db_33"
+    },
+    "ram": {
+      "value": "128 KB",
+      "source": "zephyr:raytac_mdbt50q_db_33"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:raytac_mdbt50q_db_33"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/raytac/mdbt50q_db_33/doc/index.html",
+      "source": "zephyr:raytac_mdbt50q_db_33"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:raytac_mdbt50q_db_33",
+      "label": "Zephyr board definition (raytac_mdbt50q_db_33)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/raytac/mdbt50q_db_33/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

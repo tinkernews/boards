@@ -1,0 +1,56 @@
+{
+  "slug": "microsoft-azure-iot-development-kit-mxchip-az3166",
+  "name": "Microsoft Azure IoT Development Kit (MXChip AZ3166)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "mxchip",
+  "ids": {
+    "platformio": [
+      "mxchip_az3166"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F412ZGT6",
+      "source": "platformio:mxchip_az3166"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:mxchip_az3166"
+    },
+    "clock": {
+      "value": "100 MHz",
+      "source": "platformio:mxchip_az3166"
+    },
+    "upload_limits": {
+      "value": "1 MB flash, 256 KB RAM",
+      "source": "platformio:mxchip_az3166"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Microsoft Azure IoT Development Kit (MXChip AZ3166) product page",
+      "url": "https://microsoft.github.io/azure-iot-developer-kit/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/mxchip_az3166.html",
+      "source": "platformio:mxchip_az3166"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:mxchip_az3166",
+      "label": "PlatformIO board definition (mxchip_az3166)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/mxchip_az3166.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

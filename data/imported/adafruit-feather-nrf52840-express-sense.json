@@ -1,0 +1,37 @@
+{
+  "slug": "adafruit-feather-nrf52840-express-sense",
+  "name": "Feather nRF52840 (Express, Sense)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "nrf52840",
+  "ids": {
+    "zephyr": [
+      "adafruit_feather_nrf52840"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52840",
+      "source": "zephyr:adafruit_feather_nrf52840"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/adafruit/feather_nrf52840/doc/index.html",
+      "source": "zephyr:adafruit_feather_nrf52840"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:adafruit_feather_nrf52840",
+      "label": "Zephyr board definition (adafruit_feather_nrf52840)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/adafruit/feather_nrf52840/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,522 @@
+{
+  "slug": "stmicroelectronics-discovery-kit-for-stm32f411",
+  "name": "Discovery kit for STM32F411",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "circuitpython": [
+      "stm32f411ve_discovery"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/stm32f411ve_discovery/",
+      "source": "circuitpython:stm32f411ve_discovery"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:stm32f411ve_discovery",
+    "list": [
+      {
+        "pin": "PA00",
+        "names": [
+          "PA00",
+          "A0"
+        ]
+      },
+      {
+        "pin": "PA01",
+        "names": [
+          "PA01",
+          "A1"
+        ]
+      },
+      {
+        "pin": "PA02",
+        "names": [
+          "PA02",
+          "A2"
+        ]
+      },
+      {
+        "pin": "PA03",
+        "names": [
+          "PA03",
+          "A3"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "PA04",
+          "A4"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "PA05",
+          "A5"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "PA06"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "PA07"
+        ]
+      },
+      {
+        "pin": "PA08",
+        "names": [
+          "PA08"
+        ]
+      },
+      {
+        "pin": "PA09",
+        "names": [
+          "PA09"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "PA10"
+        ]
+      },
+      {
+        "pin": "PA13",
+        "names": [
+          "PA13"
+        ]
+      },
+      {
+        "pin": "PA14",
+        "names": [
+          "PA14"
+        ]
+      },
+      {
+        "pin": "PA15",
+        "names": [
+          "PA15"
+        ]
+      },
+      {
+        "pin": "PB00",
+        "names": [
+          "PB00"
+        ]
+      },
+      {
+        "pin": "PB01",
+        "names": [
+          "PB01"
+        ]
+      },
+      {
+        "pin": "PB02",
+        "names": [
+          "PB02"
+        ]
+      },
+      {
+        "pin": "PB03",
+        "names": [
+          "PB03"
+        ]
+      },
+      {
+        "pin": "PB04",
+        "names": [
+          "PB04"
+        ]
+      },
+      {
+        "pin": "PB05",
+        "names": [
+          "PB05"
+        ]
+      },
+      {
+        "pin": "PB06",
+        "names": [
+          "PB06"
+        ]
+      },
+      {
+        "pin": "PB07",
+        "names": [
+          "PB07"
+        ]
+      },
+      {
+        "pin": "PB08",
+        "names": [
+          "PB08"
+        ]
+      },
+      {
+        "pin": "PB09",
+        "names": [
+          "PB09"
+        ]
+      },
+      {
+        "pin": "PB10",
+        "names": [
+          "PB10"
+        ]
+      },
+      {
+        "pin": "PB12",
+        "names": [
+          "PB12"
+        ]
+      },
+      {
+        "pin": "PB13",
+        "names": [
+          "PB13"
+        ]
+      },
+      {
+        "pin": "PB14",
+        "names": [
+          "PB14"
+        ]
+      },
+      {
+        "pin": "PB15",
+        "names": [
+          "PB15"
+        ]
+      },
+      {
+        "pin": "PC00",
+        "names": [
+          "PC00"
+        ]
+      },
+      {
+        "pin": "PC01",
+        "names": [
+          "PC01"
+        ]
+      },
+      {
+        "pin": "PC02",
+        "names": [
+          "PC02"
+        ]
+      },
+      {
+        "pin": "PC03",
+        "names": [
+          "PC03"
+        ]
+      },
+      {
+        "pin": "PC04",
+        "names": [
+          "PC04"
+        ]
+      },
+      {
+        "pin": "PC05",
+        "names": [
+          "PC05"
+        ]
+      },
+      {
+        "pin": "PC06",
+        "names": [
+          "PC06"
+        ]
+      },
+      {
+        "pin": "PC07",
+        "names": [
+          "PC07"
+        ]
+      },
+      {
+        "pin": "PC08",
+        "names": [
+          "PC08"
+        ]
+      },
+      {
+        "pin": "PC09",
+        "names": [
+          "PC09"
+        ]
+      },
+      {
+        "pin": "PC10",
+        "names": [
+          "PC10"
+        ]
+      },
+      {
+        "pin": "PC11",
+        "names": [
+          "PC11"
+        ]
+      },
+      {
+        "pin": "PC12",
+        "names": [
+          "PC12"
+        ]
+      },
+      {
+        "pin": "PC13",
+        "names": [
+          "PC13"
+        ]
+      },
+      {
+        "pin": "PC14",
+        "names": [
+          "PC14"
+        ]
+      },
+      {
+        "pin": "PC15",
+        "names": [
+          "PC15"
+        ]
+      },
+      {
+        "pin": "PD00",
+        "names": [
+          "PD00"
+        ]
+      },
+      {
+        "pin": "PD01",
+        "names": [
+          "PD01"
+        ]
+      },
+      {
+        "pin": "PD02",
+        "names": [
+          "PD02"
+        ]
+      },
+      {
+        "pin": "PD03",
+        "names": [
+          "PD03"
+        ]
+      },
+      {
+        "pin": "PD04",
+        "names": [
+          "PD04"
+        ]
+      },
+      {
+        "pin": "PD05",
+        "names": [
+          "PD05"
+        ]
+      },
+      {
+        "pin": "PD06",
+        "names": [
+          "PD06"
+        ]
+      },
+      {
+        "pin": "PD07",
+        "names": [
+          "PD07"
+        ]
+      },
+      {
+        "pin": "PD08",
+        "names": [
+          "PD08"
+        ]
+      },
+      {
+        "pin": "PD09",
+        "names": [
+          "PD09"
+        ]
+      },
+      {
+        "pin": "PD10",
+        "names": [
+          "PD10"
+        ]
+      },
+      {
+        "pin": "PD11",
+        "names": [
+          "PD11"
+        ]
+      },
+      {
+        "pin": "PD12",
+        "names": [
+          "PD12",
+          "LD4",
+          "LED2",
+          "LED_GREEN"
+        ]
+      },
+      {
+        "pin": "PD13",
+        "names": [
+          "PD13",
+          "LD3",
+          "LED1",
+          "LED_ORANGE"
+        ]
+      },
+      {
+        "pin": "PD14",
+        "names": [
+          "PD14",
+          "LD5",
+          "LED3",
+          "LED_RED"
+        ]
+      },
+      {
+        "pin": "PD15",
+        "names": [
+          "PD15",
+          "LD6",
+          "LED4",
+          "LED_BLUE"
+        ]
+      },
+      {
+        "pin": "PE00",
+        "names": [
+          "PE00"
+        ]
+      },
+      {
+        "pin": "PE01",
+        "names": [
+          "PE01"
+        ]
+      },
+      {
+        "pin": "PE02",
+        "names": [
+          "PE02"
+        ]
+      },
+      {
+        "pin": "PE03",
+        "names": [
+          "PE03"
+        ]
+      },
+      {
+        "pin": "PE04",
+        "names": [
+          "PE04"
+        ]
+      },
+      {
+        "pin": "PE05",
+        "names": [
+          "PE05"
+        ]
+      },
+      {
+        "pin": "PE06",
+        "names": [
+          "PE06"
+        ]
+      },
+      {
+        "pin": "PE07",
+        "names": [
+          "PE07"
+        ]
+      },
+      {
+        "pin": "PE08",
+        "names": [
+          "PE08"
+        ]
+      },
+      {
+        "pin": "PE09",
+        "names": [
+          "PE09"
+        ]
+      },
+      {
+        "pin": "PE10",
+        "names": [
+          "PE10"
+        ]
+      },
+      {
+        "pin": "PE11",
+        "names": [
+          "PE11"
+        ]
+      },
+      {
+        "pin": "PE12",
+        "names": [
+          "PE12"
+        ]
+      },
+      {
+        "pin": "PE13",
+        "names": [
+          "PE13"
+        ]
+      },
+      {
+        "pin": "PE14",
+        "names": [
+          "PE14"
+        ]
+      },
+      {
+        "pin": "PE15",
+        "names": [
+          "PE15"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:stm32f411ve_discovery",
+      "label": "CircuitPython board definition (stm32f411ve_discovery)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/stm32f411ve_discovery.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:stm32f411ve_discovery",
+      "label": "CircuitPython pin definitions (stm32f411ve_discovery)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/stm/boards/stm32f411ve_discovery/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

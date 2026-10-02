@@ -1,0 +1,44 @@
+{
+  "slug": "silicon-labs-efr32xg26-explorer-kit-xg26-ek2709a",
+  "name": "EFR32xG26 Explorer Kit (xG26-EK2709A)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "silicon-labs",
+  "ids": {
+    "zephyr": [
+      "xg26_ek2709a"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "EFR32MG26B510F3200IM48",
+      "source": "zephyr:xg26_ek2709a"
+    },
+    "ram": {
+      "value": "512 KB",
+      "source": "zephyr:xg26_ek2709a"
+    },
+    "flash": {
+      "value": "3.13 MB",
+      "source": "zephyr:xg26_ek2709a"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/silabs/explorer_kits/xg26/doc/index.html",
+      "source": "zephyr:xg26_ek2709a"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:xg26_ek2709a",
+      "label": "Zephyr board definition (xg26_ek2709a)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/silabs/explorer_kits/xg26/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

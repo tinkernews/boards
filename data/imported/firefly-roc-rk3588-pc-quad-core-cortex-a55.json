@@ -1,0 +1,41 @@
+{
+  "slug": "firefly-roc-rk3588-pc-quad-core-cortex-a55",
+  "name": "ROC-RK3588-PC (Quad-core Cortex-A55)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "firefly",
+  "chip": "rk3588",
+  "ids": {
+    "zephyr": [
+      "roc_rk3588_pc"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "RK3588",
+      "source": "zephyr:roc_rk3588_pc"
+    },
+    "ram": {
+      "value": "1024 KB",
+      "source": "zephyr:roc_rk3588_pc"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/firefly/roc_rk3588_pc/doc/index.html",
+      "source": "zephyr:roc_rk3588_pc"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:roc_rk3588_pc",
+      "label": "Zephyr board definition (roc_rk3588_pc)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/firefly/roc_rk3588_pc/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

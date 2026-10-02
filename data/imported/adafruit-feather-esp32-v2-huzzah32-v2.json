@@ -1,0 +1,217 @@
+{
+  "slug": "adafruit-feather-esp32-v2-huzzah32-v2",
+  "name": "Adafruit Feather ESP32 V2 (HUZZAH32 V2)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "esp32",
+  "ids": {
+    "circuitpython": [
+      "adafruit_feather_esp32_v2"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/adafruit_feather_esp32_v2/",
+      "source": "circuitpython:adafruit_feather_esp32_v2"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:adafruit_feather_esp32_v2",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "NEOPIXEL_I2C_POWER"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "A5",
+          "D4"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "SCK",
+          "D5"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "RX",
+          "D7"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "TX",
+          "D8"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "D12",
+          "A11"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "LED",
+          "L",
+          "D13",
+          "A12"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "D14",
+          "A6"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "D15",
+          "A8"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "MOSI",
+          "D19"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "SCL",
+          "D20"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "MISO",
+          "D21"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "SDA",
+          "D22"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "A1",
+          "D25"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "A0",
+          "D26"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "D27",
+          "A10"
+        ]
+      },
+      {
+        "pin": "GPIO32",
+        "names": [
+          "D32",
+          "A7"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "D33",
+          "A9"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "A2",
+          "D34"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "D35",
+          "VOLTAGE_MONITOR"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "A4",
+          "D36"
+        ]
+      },
+      {
+        "pin": "GPIO37",
+        "names": [
+          "D37"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "BUTTON",
+          "SW38"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "A3",
+          "D39"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:adafruit_feather_esp32_v2",
+      "label": "CircuitPython board definition (adafruit_feather_esp32_v2)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/adafruit_feather_esp32_v2.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:adafruit_feather_esp32_v2",
+      "label": "CircuitPython pin definitions (adafruit_feather_esp32_v2)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/adafruit_feather_esp32_v2/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

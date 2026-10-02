@@ -1,0 +1,155 @@
+{
+  "slug": "pimoroni-tiny-fx",
+  "name": "Tiny FX",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "pimoroni",
+  "chip": "rp2040",
+  "ids": {
+    "circuitpython": [
+      "pimoroni_tinyfx"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/pimoroni_tinyfx/",
+      "source": "circuitpython:pimoroni_tinyfx"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:pimoroni_tinyfx",
+    "list": [
+      {
+        "pin": "GPIO2",
+        "names": [
+          "LED_2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "LED_1"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "LED_3"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "LED_4"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "LED_5"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "LED_6"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "LED_R"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "LED_G"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "LED_B"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "SDA",
+          "GP16"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "SCL",
+          "GP17"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "I2S_DATA"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "I2S_BCLK"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "I2S_LRCLK"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "AMP_EN"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "USER_SW"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "SENSOR",
+          "GP26",
+          "GP26_A0"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "CURRENT_SENSE"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:pimoroni_tinyfx",
+      "label": "CircuitPython board definition (pimoroni_tinyfx)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/pimoroni_tinyfx.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:pimoroni_tinyfx",
+      "label": "CircuitPython pin definitions (pimoroni_tinyfx)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/pimoroni_tinyfx/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

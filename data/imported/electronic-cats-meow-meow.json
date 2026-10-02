@@ -1,0 +1,187 @@
+{
+  "slug": "electronic-cats-meow-meow",
+  "name": "Meow Meow",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "electronic-cats",
+  "chip": "atsamd21g18",
+  "ids": {
+    "circuitpython": [
+      "meowmeow"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/meowmeow/",
+      "source": "circuitpython:meowmeow"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:meowmeow",
+    "list": [
+      {
+        "pin": "PA00",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PA01",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "PA02",
+        "names": [
+          "A0",
+          "D12"
+        ]
+      },
+      {
+        "pin": "PA03",
+        "names": [
+          "A1"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "A2"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "A3",
+          "D5"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "A4",
+          "D8"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "A5",
+          "D9"
+        ]
+      },
+      {
+        "pin": "PA09",
+        "names": [
+          "A11"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "D1",
+          "TX"
+        ]
+      },
+      {
+        "pin": "PA11",
+        "names": [
+          "A10",
+          "D0",
+          "RX"
+        ]
+      },
+      {
+        "pin": "PA12",
+        "names": [
+          "MISO"
+        ]
+      },
+      {
+        "pin": "PA14",
+        "names": [
+          "D4",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "PA15",
+        "names": [
+          "D6",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "PA30",
+        "names": [
+          "D10"
+        ]
+      },
+      {
+        "pin": "PA31",
+        "names": [
+          "D11"
+        ]
+      },
+      {
+        "pin": "PB02",
+        "names": [
+          "A6",
+          "D2"
+        ]
+      },
+      {
+        "pin": "PB03",
+        "names": [
+          "A7",
+          "D3"
+        ]
+      },
+      {
+        "pin": "PB08",
+        "names": [
+          "A8"
+        ]
+      },
+      {
+        "pin": "PB09",
+        "names": [
+          "A9"
+        ]
+      },
+      {
+        "pin": "PB22",
+        "names": [
+          "D7"
+        ]
+      },
+      {
+        "pin": "PB23",
+        "names": [
+          "D13",
+          "LED"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:meowmeow",
+      "label": "CircuitPython board definition (meowmeow)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/meowmeow.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:meowmeow",
+      "label": "CircuitPython pin definitions (meowmeow)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/meowmeow/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,195 @@
+{
+  "slug": "lolin-s3-mini-pro",
+  "name": "LOLIN S3 MINI PRO",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "wemos",
+  "chip": "esp32-s3",
+  "ids": {
+    "circuitpython": [
+      "lolin_s3_mini_pro"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/lolin_s3_mini_pro/",
+      "source": "circuitpython:lolin_s3_mini_pro"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:lolin_s3_mini_pro",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "BOOT",
+          "BUTTON0"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "NEOPIXEL_ENABLE"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "IR_LED"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "SCL",
+          "IO11"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "SDA",
+          "IO12"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "IO13"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "IO14"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "IMU_INT1"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "IMU_INT2"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "TFT_BACKLIGHT"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "TFT_RES"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "TFT_CS"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "TFT_DC"
+        ]
+      },
+      {
+        "pin": "GPIO37",
+        "names": [
+          "IO37"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "MISO",
+          "IO38"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "MOSI",
+          "IO39"
+        ]
+      },
+      {
+        "pin": "GPIO40",
+        "names": [
+          "CLK",
+          "IO40"
+        ]
+      },
+      {
+        "pin": "GPIO41",
+        "names": [
+          "IO41"
+        ]
+      },
+      {
+        "pin": "GPIO42",
+        "names": [
+          "IO42"
+        ]
+      },
+      {
+        "pin": "GPIO43",
+        "names": [
+          "IO43",
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO44",
+        "names": [
+          "IO44",
+          "RX"
+        ]
+      },
+      {
+        "pin": "GPIO47",
+        "names": [
+          "BUTTON1"
+        ]
+      },
+      {
+        "pin": "GPIO48",
+        "names": [
+          "BUTTON2"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:lolin_s3_mini_pro",
+      "label": "CircuitPython board definition (lolin_s3_mini_pro)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/lolin_s3_mini_pro.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:lolin_s3_mini_pro",
+      "label": "CircuitPython pin definitions (lolin_s3_mini_pro)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/lolin_s3_mini_pro/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

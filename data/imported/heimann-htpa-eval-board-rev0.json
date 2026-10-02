@@ -1,0 +1,44 @@
+{
+  "slug": "heimann-htpa-eval-board-rev0",
+  "name": "Heimann HTPA Eval Board (rev0)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "heimann-sensor",
+  "ids": {
+    "zephyr": [
+      "htpa_eval"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "SAME70Q20B",
+      "source": "zephyr:htpa_eval"
+    },
+    "ram": {
+      "value": "384 KB",
+      "source": "zephyr:htpa_eval"
+    },
+    "flash": {
+      "value": "448 KB",
+      "source": "zephyr:htpa_eval"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/heimann/htpa_eval/doc/index.html",
+      "source": "zephyr:htpa_eval"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:htpa_eval",
+      "label": "Zephyr board definition (htpa_eval)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/heimann/htpa_eval/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

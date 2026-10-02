@@ -1,0 +1,44 @@
+{
+  "slug": "olimex-lora-stm32wl-devkit",
+  "name": "LoRa STM32WL DevKit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "olimex",
+  "ids": {
+    "zephyr": [
+      "olimex_lora_stm32wl_devkit"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32WLE5XX",
+      "source": "zephyr:olimex_lora_stm32wl_devkit"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:olimex_lora_stm32wl_devkit"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:olimex_lora_stm32wl_devkit"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/olimex/lora_stm32wl_devkit/doc/index.html",
+      "source": "zephyr:olimex_lora_stm32wl_devkit"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:olimex_lora_stm32wl_devkit",
+      "label": "Zephyr board definition (olimex_lora_stm32wl_devkit)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/olimex/lora_stm32wl_devkit/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

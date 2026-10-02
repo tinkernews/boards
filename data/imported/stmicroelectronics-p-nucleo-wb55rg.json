@@ -1,0 +1,56 @@
+{
+  "slug": "stmicroelectronics-p-nucleo-wb55rg",
+  "name": "P-Nucleo WB55RG",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "platformio": [
+      "nucleo_wb55rg_p"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32WB55RG",
+      "source": "platformio:nucleo_wb55rg_p"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:nucleo_wb55rg_p"
+    },
+    "clock": {
+      "value": "64 MHz",
+      "source": "platformio:nucleo_wb55rg_p"
+    },
+    "upload_limits": {
+      "value": "512 KB flash, 192 KB RAM",
+      "source": "platformio:nucleo_wb55rg_p"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "P-Nucleo WB55RG product page",
+      "url": "https://www.st.com/en/evaluation-tools/p-nucleo-wb55.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/nucleo_wb55rg_p.html",
+      "source": "platformio:nucleo_wb55rg_p"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:nucleo_wb55rg_p",
+      "label": "PlatformIO board definition (nucleo_wb55rg_p)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/nucleo_wb55rg_p.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

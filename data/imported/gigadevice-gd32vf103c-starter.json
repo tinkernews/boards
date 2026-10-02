@@ -1,0 +1,44 @@
+{
+  "slug": "gigadevice-gd32vf103c-starter",
+  "name": "GD32VF103C-STARTER",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "gigadevice",
+  "ids": {
+    "zephyr": [
+      "gd32vf103c_starter"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "GD32VF103",
+      "source": "zephyr:gd32vf103c_starter"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:gd32vf103c_starter"
+    },
+    "flash": {
+      "value": "128 KB",
+      "source": "zephyr:gd32vf103c_starter"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/gd/gd32vf103c_starter/doc/index.html",
+      "source": "zephyr:gd32vf103c_starter"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:gd32vf103c_starter",
+      "label": "Zephyr board definition (gd32vf103c_starter)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/gd/gd32vf103c_starter/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

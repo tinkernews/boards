@@ -1,0 +1,177 @@
+{
+  "slug": "pimoroni-keybow-2040",
+  "name": "Keybow 2040",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "pimoroni",
+  "chip": "rp2040",
+  "ids": {
+    "circuitpython": [
+      "pimoroni_keybow2040"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/pimoroni_keybow2040/",
+      "source": "circuitpython:pimoroni_keybow2040"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:pimoroni_keybow2040",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "TX",
+          "GP0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "RX",
+          "GP1"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "INT"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "SW15"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "SW14"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "SW13"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "SW12"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "SW11"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "SW10"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "SW9"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "SW8"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "SW7"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "SW6"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "SW5"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "SW4"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "SW3"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "SW2"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "SW1"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "SW0"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "USER_SW"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:pimoroni_keybow2040",
+      "label": "CircuitPython board definition (pimoroni_keybow2040)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/pimoroni_keybow2040.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:pimoroni_keybow2040",
+      "label": "CircuitPython pin definitions (pimoroni_keybow2040)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/pimoroni_keybow2040/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

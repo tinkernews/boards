@@ -1,0 +1,52 @@
+{
+  "slug": "pontech-quick240",
+  "name": "Pontech Quick240",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "pontech",
+  "ids": {
+    "platformio": [
+      "quick240_usb"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "32MX795F512L",
+      "source": "platformio:quick240_usb"
+    },
+    "clock": {
+      "value": "80 MHz",
+      "source": "platformio:quick240_usb"
+    },
+    "upload_limits": {
+      "value": "508 KB flash, 128 KB RAM",
+      "source": "platformio:quick240_usb"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Pontech Quick240 product page",
+      "url": "http://chipkit.net/wpcproduct/pontech-quick240/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/microchippic32/quick240_usb.html",
+      "source": "platformio:quick240_usb"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:quick240_usb",
+      "label": "PlatformIO board definition (quick240_usb)",
+      "url": "https://github.com/platformio/platform-microchippic32/blob/f6e89308da11cfe35d7534696bf01abf3f442461/boards/quick240_usb.json",
+      "kind": "import",
+      "revision": "f6e89308da11cfe35d7534696bf01abf3f442461"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

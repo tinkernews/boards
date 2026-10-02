@@ -1,0 +1,59 @@
+{
+  "slug": "4d-systems-gen4-esp32-16mb-esp32s3-r8n16",
+  "name": "4D Systems GEN4-ESP32 16MB (ESP32S3-R8N16)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "4d",
+  "chip": "esp32-s3",
+  "ids": {
+    "platformio": [
+      "4d_systems_esp32s3_gen4_r8n16"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-S3",
+      "source": "platformio:4d_systems_esp32s3_gen4_r8n16"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:4d_systems_esp32s3_gen4_r8n16"
+    },
+    "upload_limits": {
+      "value": "16 MB flash, 320 KB RAM",
+      "source": "platformio:4d_systems_esp32s3_gen4_r8n16"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "4D Systems GEN4-ESP32 16MB (ESP32S3-R8N16) product page",
+      "url": "https://4dsystems.com.au/products"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/4d_systems_esp32s3_gen4_r8n16.html",
+      "source": "platformio:4d_systems_esp32s3_gen4_r8n16"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/4d_systems_esp32s3_gen4_r8n16.html",
+      "source": "platformio:4d_systems_esp32s3_gen4_r8n16"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:4d_systems_esp32s3_gen4_r8n16",
+      "label": "PlatformIO board definition (4d_systems_esp32s3_gen4_r8n16)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/4d_systems_esp32s3_gen4_r8n16.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

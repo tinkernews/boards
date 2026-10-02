@@ -1,0 +1,81 @@
+{
+  "slug": "cytron-iriv-io-controller-rp2350",
+  "name": "IRIV IO Controller (RP2350)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "cytron",
+  "chip": "rp2350",
+  "ids": {
+    "circuitpython": [
+      "cytron_iriv_io_controller"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/cytron_iriv_io_controller/",
+      "source": "circuitpython:cytron_iriv_io_controller"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:cytron_iriv_io_controller",
+    "list": [
+      {
+        "pin": "GPIO18",
+        "names": [
+          "W5500_INT"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "MISO"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "CS",
+          "W5500_CS"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "W5500_RST",
+          "W5500_RESET"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:cytron_iriv_io_controller",
+      "label": "CircuitPython board definition (cytron_iriv_io_controller)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/cytron_iriv_io_controller.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:cytron_iriv_io_controller",
+      "label": "CircuitPython pin definitions (cytron_iriv_io_controller)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/cytron_iriv_io_controller/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

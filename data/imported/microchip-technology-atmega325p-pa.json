@@ -1,0 +1,52 @@
+{
+  "slug": "microchip-technology-atmega325p-pa",
+  "name": "ATmega325P/PA",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "ids": {
+    "platformio": [
+      "ATmega325P"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATMEGA325P",
+      "source": "platformio:atmega325p"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:atmega325p"
+    },
+    "upload_limits": {
+      "value": "32 KB flash, 2 KB RAM",
+      "source": "platformio:atmega325p"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ATmega325P/PA product page",
+      "url": "https://www.microchip.com/wwwproducts/en/ATmega325P"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/ATmega325P.html",
+      "source": "platformio:atmega325p"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:atmega325p",
+      "label": "PlatformIO board definition (ATmega325P)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/ATmega325P.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

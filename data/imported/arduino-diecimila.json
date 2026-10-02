@@ -1,0 +1,56 @@
+{
+  "slug": "arduino-diecimila",
+  "name": "Arduino Diecimila",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "chip": "atmega168",
+  "aliases": [
+    "Arduino Duemilanove or Diecimila ATmega168"
+  ],
+  "ids": {
+    "platformio": [
+      "diecimilaatmega168"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega168",
+      "source": "platformio:diecimilaatmega168"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:diecimilaatmega168"
+    },
+    "upload_limits": {
+      "value": "14 KB flash, 1 KB RAM",
+      "source": "platformio:diecimilaatmega168"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Arduino Diecimila product page",
+      "url": "http://arduino.cc/en/Main/ArduinoBoardDiecimila"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/diecimilaatmega168.html",
+      "source": "platformio:diecimilaatmega168"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:diecimilaatmega168",
+      "label": "PlatformIO board definition (diecimilaatmega168)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/diecimilaatmega168.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

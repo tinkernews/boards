@@ -1,0 +1,120 @@
+{
+  "slug": "bleeptrack-picoplanet",
+  "name": "PicoPlanet",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "bleeptrack",
+  "chip": "atsamd21g18",
+  "ids": {
+    "circuitpython": [
+      "picoplanet"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/picoplanet/",
+      "source": "circuitpython:picoplanet"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:picoplanet",
+    "list": [
+      {
+        "pin": "PA02",
+        "names": [
+          "A1"
+        ]
+      },
+      {
+        "pin": "PA03",
+        "names": [
+          "A0"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "A2"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "D5",
+          "GREEN_LED"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "D6",
+          "RED_LED",
+          "LED"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "D7",
+          "BLUE_LED"
+        ]
+      },
+      {
+        "pin": "PA08",
+        "names": [
+          "D1",
+          "A3",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PA09",
+        "names": [
+          "D2",
+          "A4",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "PA16",
+        "names": [
+          "D3",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "PA17",
+        "names": [
+          "D4",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "PA30",
+        "names": [
+          "D8",
+          "MISO"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:picoplanet",
+      "label": "CircuitPython board definition (picoplanet)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/picoplanet.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:picoplanet",
+      "label": "CircuitPython pin definitions (picoplanet)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/picoplanet/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

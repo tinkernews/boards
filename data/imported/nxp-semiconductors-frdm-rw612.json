@@ -1,0 +1,44 @@
+{
+  "slug": "nxp-semiconductors-frdm-rw612",
+  "name": "FRDM-RW612",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "ids": {
+    "zephyr": [
+      "frdm_rw612"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "RW612",
+      "source": "zephyr:frdm_rw612"
+    },
+    "ram": {
+      "value": "960 KB",
+      "source": "zephyr:frdm_rw612"
+    },
+    "flash": {
+      "value": "64 MB",
+      "source": "zephyr:frdm_rw612"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nxp/frdm_rw612/doc/index.html",
+      "source": "zephyr:frdm_rw612"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:frdm_rw612",
+      "label": "Zephyr board definition (frdm_rw612)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nxp/frdm_rw612/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

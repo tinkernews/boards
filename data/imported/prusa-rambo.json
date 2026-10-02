@@ -1,0 +1,53 @@
+{
+  "slug": "prusa-rambo",
+  "name": "Prusa RAMBo",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "prusa-3d",
+  "chip": "atmega2560",
+  "ids": {
+    "platformio": [
+      "prusa_rambo"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega2560",
+      "source": "platformio:prusa_rambo"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:prusa_rambo"
+    },
+    "upload_limits": {
+      "value": "252 KB flash, 8 KB RAM",
+      "source": "platformio:prusa_rambo"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Prusa RAMBo product page",
+      "url": "http://www.prusa3d.com"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/prusa_rambo.html",
+      "source": "platformio:prusa_rambo"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:prusa_rambo",
+      "label": "PlatformIO board definition (prusa_rambo)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/prusa_rambo.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "ai-thinker-esp-c3-m1-i-kit",
+  "name": "Ai-Thinker ESP-C3-M1-I-Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "ai-thinker",
+  "chip": "esp32-c3",
+  "ids": {
+    "platformio": [
+      "esp32-c3-m1i-kit"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-C3",
+      "source": "platformio:esp32-c3-m1i-kit"
+    },
+    "clock": {
+      "value": "160 MHz",
+      "source": "platformio:esp32-c3-m1i-kit"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:esp32-c3-m1i-kit"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Ai-Thinker ESP-C3-M1-I-Kit product page",
+      "url": "https://docs.ai-thinker.com/en/esp32c3"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/esp32-c3-m1i-kit.html",
+      "source": "platformio:esp32-c3-m1i-kit"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/esp32-c3-m1i-kit.html",
+      "source": "platformio:esp32-c3-m1i-kit"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:esp32-c3-m1i-kit",
+      "label": "PlatformIO board definition (esp32-c3-m1i-kit)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/esp32-c3-m1i-kit.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

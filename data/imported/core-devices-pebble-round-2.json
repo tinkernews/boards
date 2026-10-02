@@ -1,0 +1,44 @@
+{
+  "slug": "core-devices-pebble-round-2",
+  "name": "Pebble Round 2",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "core-devices",
+  "ids": {
+    "zephyr": [
+      "pr2"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "SF32LB52JUD6",
+      "source": "zephyr:pr2"
+    },
+    "ram": {
+      "value": "512 KB",
+      "source": "zephyr:pr2"
+    },
+    "flash": {
+      "value": "31.94 MB",
+      "source": "zephyr:pr2"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/coredevices/pr2/doc/index.html",
+      "source": "zephyr:pr2"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:pr2",
+      "label": "Zephyr board definition (pr2)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/coredevices/pr2/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

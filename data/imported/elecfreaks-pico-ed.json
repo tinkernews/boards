@@ -1,0 +1,217 @@
+{
+  "slug": "elecfreaks-pico-ed",
+  "name": "ELECFREAKS Pico:ed",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "elecfreaks",
+  "chip": "rp2040",
+  "ids": {
+    "circuitpython": [
+      "elecfreaks_picoed"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/elecfreaks_picoed/",
+      "source": "circuitpython:elecfreaks_picoed"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:elecfreaks_picoed",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "BUZZER_GP0",
+          "I2C0_SDA"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "I2C0_SCL"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "BUZZER",
+          "BUZZER_GP3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "P4"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "P5"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "P6"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "P7"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "P8"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "P9"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "P10"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "P11"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "P12"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "P13"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "P14"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "P15"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "P16"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "SDA",
+          "P20"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "SCL",
+          "P19"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "BUTTON_A"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "BUTTON_B"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "SMPS_MODE"
+        ]
+      },
+      {
+        "pin": "GPIO24",
+        "names": [
+          "VBUS_SENSE"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "LED"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "P0_A0",
+          "P0",
+          "A0"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "P1_A1",
+          "P1",
+          "A1"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "P2_A2",
+          "P2",
+          "A2"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "P3_A3",
+          "P3",
+          "A3"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:elecfreaks_picoed",
+      "label": "CircuitPython board definition (elecfreaks_picoed)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/elecfreaks_picoed.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:elecfreaks_picoed",
+      "label": "CircuitPython pin definitions (elecfreaks_picoed)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/elecfreaks_picoed/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

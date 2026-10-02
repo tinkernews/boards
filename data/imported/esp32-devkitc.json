@@ -1,0 +1,341 @@
+{
+  "slug": "esp32-devkitc",
+  "name": "ESP32-DevKitC",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "espressif",
+  "chip": "esp32",
+  "aliases": [
+    "Espressif ESP32 Dev Module",
+    "ESP32-DevKitC-V4-WROOM-32E",
+    "ESP32 / WROOM"
+  ],
+  "ids": {
+    "platformio": [
+      "esp32dev"
+    ],
+    "zephyr": [
+      "esp32_devkitc"
+    ],
+    "circuitpython": [
+      "espressif_esp32_devkitc_v4_wroom_32e",
+      "espressif_esp32_devkitc_v4_wrover"
+    ],
+    "micropython": [
+      "ESP32_GENERIC"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:esp32dev"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:esp32dev"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:esp32dev"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ESP32-DevKitC product page",
+      "url": "https://en.wikipedia.org/wiki/ESP32"
+    },
+    {
+      "kind": "product",
+      "label": "ESP32-DevKitC product page",
+      "url": "https://www.espressif.com/en/products/modules"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/esp32dev.html",
+      "source": "platformio:esp32dev"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/esp32dev.html",
+      "source": "platformio:esp32dev"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/espressif/esp32_devkitc/doc/index.html",
+      "source": "zephyr:esp32_devkitc"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/ESP32_GENERIC/",
+      "source": "micropython:esp32_generic"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/espressif_esp32_devkitc_v4_wroom_32e/",
+      "source": "circuitpython:espressif_esp32_devkitc_v4_wroom_32e"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:espressif_esp32_devkitc_v4_wroom_32e",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "IO0",
+          "BUTTON",
+          "BOOT0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "IO1",
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "IO2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "IO3",
+          "RX"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "IO4"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "IO5"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "CLK",
+          "IO6"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "D0",
+          "IO7"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "D1",
+          "IO8"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "D2",
+          "IO9"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "D3",
+          "IO10"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "CMD",
+          "IO11"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "IO12"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "IO13"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "IO14"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "IO15"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "IO16"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "IO17"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "IO18"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "IO19"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "IO21"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "IO22"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "IO23"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "IO25"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "IO26"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "IO27"
+        ]
+      },
+      {
+        "pin": "GPIO32",
+        "names": [
+          "IO32"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "IO33"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "I34"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "I35"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "I36",
+          "VP"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "I39",
+          "VN"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "platformio:esp32dev",
+      "label": "PlatformIO board definition (esp32dev)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/esp32dev.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    },
+    {
+      "id": "zephyr:esp32_devkitc",
+      "label": "Zephyr board definition (esp32_devkitc)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/espressif/esp32_devkitc/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "circuitpython:espressif_esp32_devkitc_v4_wroom_32e",
+      "label": "CircuitPython board definition (espressif_esp32_devkitc_v4_wroom_32e)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/espressif_esp32_devkitc_v4_wroom_32e.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython:espressif_esp32_devkitc_v4_wrover",
+      "label": "CircuitPython board definition (espressif_esp32_devkitc_v4_wrover)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/espressif_esp32_devkitc_v4_wrover.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "micropython:esp32_generic",
+      "label": "MicroPython board definition (ESP32_GENERIC)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/esp32/boards/ESP32_GENERIC/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    },
+    {
+      "id": "circuitpython-pins:espressif_esp32_devkitc_v4_wroom_32e",
+      "label": "CircuitPython pin definitions (espressif_esp32_devkitc_v4_wroom_32e)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/espressif_esp32_devkitc_v4_wroom_32e/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "kws-computersysteme-pico-spe",
+  "name": "Pico-SPE",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "kws-computersysteme",
+  "chip": "rp2040",
+  "ids": {
+    "zephyr": [
+      "pico_spe"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "RP2040",
+      "source": "zephyr:pico_spe"
+    },
+    "ram": {
+      "value": "264 KB",
+      "source": "zephyr:pico_spe"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:pico_spe"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/kws/pico_spe/doc/index.html",
+      "source": "zephyr:pico_spe"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:pico_spe",
+      "label": "Zephyr board definition (pico_spe)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/kws/pico_spe/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

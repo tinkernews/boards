@@ -1,0 +1,100 @@
+{
+  "slug": "adafruit-vindie-s2",
+  "name": "Adafruit Vindie S2",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "esp32-s2",
+  "ids": {
+    "circuitpython": [
+      "adafruit_vindie_s2"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/adafruit_vindie_s2/",
+      "source": "circuitpython:adafruit_vindie_s2"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:adafruit_vindie_s2",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "BUTTON",
+          "BOOT0",
+          "D0"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "SCL",
+          "D11"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "SDA",
+          "D12"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "LED",
+          "D13",
+          "L"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "RX",
+          "D21"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "FAN",
+          "D34"
+        ]
+      },
+      {
+        "pin": "GPIO45",
+        "names": [
+          "TX",
+          "D45"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:adafruit_vindie_s2",
+      "label": "CircuitPython board definition (adafruit_vindie_s2)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/adafruit_vindie_s2.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:adafruit_vindie_s2",
+      "label": "CircuitPython pin definitions (adafruit_vindie_s2)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/adafruit_vindie_s2/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

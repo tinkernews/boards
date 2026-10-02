@@ -1,0 +1,217 @@
+{
+  "slug": "datanoisetv-picoadk-audio-development-kit",
+  "name": "PicoADK - Audio Development Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "datanoisetv",
+  "chip": "rp2040",
+  "ids": {
+    "circuitpython": [
+      "datanoise_picoadk"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/datanoise_picoadk/",
+      "source": "circuitpython:datanoise_picoadk"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:datanoise_picoadk",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "RX",
+          "D1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "D2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "D3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "D4"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "D7"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "SDA",
+          "D8"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "SCL",
+          "D9"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "ADC_SCK"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "ADC_MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "ADC_MISO"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "ADC_CS"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "D14"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "I2S_DOUT"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "I2S_BCLK"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "I2S_LRCLK"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "MOSI",
+          "D19"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "MISO",
+          "D20"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "D21"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "SCK",
+          "D22"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "I2S_DEMP"
+        ]
+      },
+      {
+        "pin": "GPIO24",
+        "names": [
+          "VBUS_SENSE"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "I2S_XSMT"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "D26"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "D29"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:datanoise_picoadk",
+      "label": "CircuitPython board definition (datanoise_picoadk)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/datanoise_picoadk.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:datanoise_picoadk",
+      "label": "CircuitPython pin definitions (datanoise_picoadk)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/datanoise_picoadk/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

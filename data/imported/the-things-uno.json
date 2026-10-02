@@ -1,0 +1,53 @@
+{
+  "slug": "the-things-uno",
+  "name": "The Things Uno",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "the-things-network",
+  "chip": "atmega32u4",
+  "ids": {
+    "platformio": [
+      "the_things_uno"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega32U4",
+      "source": "platformio:the_things_uno"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:the_things_uno"
+    },
+    "upload_limits": {
+      "value": "28 KB flash, 2.5 KB RAM",
+      "source": "platformio:the_things_uno"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "The Things Uno product page",
+      "url": "https://shop.thethingsnetwork.com/index.php/product/the-things-uno/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/the_things_uno.html",
+      "source": "platformio:the_things_uno"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:the_things_uno",
+      "label": "PlatformIO board definition (the_things_uno)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/the_things_uno.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

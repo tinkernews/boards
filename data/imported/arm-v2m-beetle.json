@@ -1,0 +1,36 @@
+{
+  "slug": "arm-v2m-beetle",
+  "name": "V2M Beetle",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arm",
+  "ids": {
+    "zephyr": [
+      "v2m_beetle"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "BEETLE_R0",
+      "source": "zephyr:v2m_beetle"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/arm/v2m_beetle/doc/index.html",
+      "source": "zephyr:v2m_beetle"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:v2m_beetle",
+      "label": "Zephyr board definition (v2m_beetle)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/arm/v2m_beetle/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

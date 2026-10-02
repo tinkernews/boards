@@ -1,0 +1,44 @@
+{
+  "slug": "stmicroelectronics-stm32l496g-discovery",
+  "name": "STM32L496G Discovery",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "zephyr": [
+      "stm32l496g_disco"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32L496XX",
+      "source": "zephyr:stm32l496g_disco"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:stm32l496g_disco"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:stm32l496g_disco"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/stm32l496g_disco/doc/index.html",
+      "source": "zephyr:stm32l496g_disco"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:stm32l496g_disco",
+      "label": "Zephyr board definition (stm32l496g_disco)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/stm32l496g_disco/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

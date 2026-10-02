@@ -1,0 +1,44 @@
+{
+  "slug": "toradex-ag-verdin-imx8m-mini",
+  "name": "Verdin iMX8M Mini",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "toradex-ag",
+  "ids": {
+    "zephyr": [
+      "verdin_imx8mm"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MIMX8MM6",
+      "source": "zephyr:verdin_imx8mm"
+    },
+    "ram": {
+      "value": "128 KB",
+      "source": "zephyr:verdin_imx8mm"
+    },
+    "flash": {
+      "value": "128 KB",
+      "source": "zephyr:verdin_imx8mm"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/toradex/verdin_imx8mm/doc/index.html",
+      "source": "zephyr:verdin_imx8mm"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:verdin_imx8mm",
+      "label": "Zephyr board definition (verdin_imx8mm)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/toradex/verdin_imx8mm/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

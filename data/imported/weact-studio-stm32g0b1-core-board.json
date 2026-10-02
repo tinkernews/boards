@@ -1,0 +1,44 @@
+{
+  "slug": "weact-studio-stm32g0b1-core-board",
+  "name": "STM32G0B1 Core Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "weact",
+  "ids": {
+    "zephyr": [
+      "weact_stm32g0b1_core"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32G0B1XX",
+      "source": "zephyr:weact_stm32g0b1_core"
+    },
+    "ram": {
+      "value": "128 KB",
+      "source": "zephyr:weact_stm32g0b1_core"
+    },
+    "flash": {
+      "value": "144 KB",
+      "source": "zephyr:weact_stm32g0b1_core"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/weact/stm32g0b1_core/doc/index.html",
+      "source": "zephyr:weact_stm32g0b1_core"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:weact_stm32g0b1_core",
+      "label": "Zephyr board definition (weact_stm32g0b1_core)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/weact/stm32g0b1_core/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "nxp-semiconductors-ucans32k1sic",
+  "name": "UCANS32K1SIC",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "ids": {
+    "zephyr": [
+      "ucans32k1sic"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "S32K146",
+      "source": "zephyr:ucans32k1sic"
+    },
+    "ram": {
+      "value": "124 KB",
+      "source": "zephyr:ucans32k1sic"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:ucans32k1sic"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nxp/ucans32k1sic/doc/index.html",
+      "source": "zephyr:ucans32k1sic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:ucans32k1sic",
+      "label": "Zephyr board definition (ucans32k1sic)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nxp/ucans32k1sic/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

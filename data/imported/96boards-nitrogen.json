@@ -1,0 +1,77 @@
+{
+  "slug": "96boards-nitrogen",
+  "name": "96Boards Nitrogen",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "96boards",
+  "chip": "nrf52832",
+  "aliases": [
+    "Nitrogen"
+  ],
+  "ids": {
+    "platformio": [
+      "96b_nitrogen"
+    ],
+    "zephyr": [
+      "96b_nitrogen"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52832",
+      "source": "platformio:96b_nitrogen"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:96b_nitrogen"
+    },
+    "clock": {
+      "value": "64 MHz",
+      "source": "platformio:96b_nitrogen"
+    },
+    "upload_limits": {
+      "value": "512 KB flash, 64 KB RAM",
+      "source": "platformio:96b_nitrogen"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:96b_nitrogen"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:96b_nitrogen"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "96Boards Nitrogen product page",
+      "url": "https://www.96boards.org/product/nitrogen/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/96boards/nitrogen/doc/index.html",
+      "source": "zephyr:96b_nitrogen"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:96b_nitrogen",
+      "label": "PlatformIO board definition (96b_nitrogen)",
+      "url": "https://github.com/platformio/platform-nordicnrf52/blob/278176a7f7ffe2d001eb93eafa271c83b38222e4/boards/96b_nitrogen.json",
+      "kind": "import",
+      "revision": "278176a7f7ffe2d001eb93eafa271c83b38222e4"
+    },
+    {
+      "id": "zephyr:96b_nitrogen",
+      "label": "Zephyr board definition (96b_nitrogen)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/96boards/nitrogen/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

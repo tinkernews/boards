@@ -1,0 +1,44 @@
+{
+  "slug": "realtek-rtl87x2g-model-a-evaluation-board",
+  "name": "RTL87x2G Model A Evaluation Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "realtek",
+  "ids": {
+    "zephyr": [
+      "rtl87x2g_evb_a"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "RTL8762GRU",
+      "source": "zephyr:rtl87x2g_evb_a"
+    },
+    "ram": {
+      "value": "176 KB",
+      "source": "zephyr:rtl87x2g_evb_a"
+    },
+    "flash": {
+      "value": "828 KB",
+      "source": "zephyr:rtl87x2g_evb_a"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/realtek/rtl87x2g_evb_a/doc/index.html",
+      "source": "zephyr:rtl87x2g_evb_a"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:rtl87x2g_evb_a",
+      "label": "Zephyr board definition (rtl87x2g_evb_a)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/realtek/rtl87x2g_evb_a/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

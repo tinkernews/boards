@@ -1,0 +1,37 @@
+{
+  "slug": "cthings-co-connectivity-card",
+  "name": "CTHINGS.CO Connectivity Card",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "cthings-co",
+  "chip": "nrf52840",
+  "ids": {
+    "zephyr": [
+      "ctcc"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52840",
+      "source": "zephyr:ctcc"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/ct/ctcc/doc/index.html",
+      "source": "zephyr:ctcc"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:ctcc",
+      "label": "Zephyr board definition (ctcc)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/ct/ctcc/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,315 @@
+{
+  "slug": "sparkfun-micromod-stm32-processor",
+  "name": "MicroMod STM32 Processor",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sparkfun",
+  "ids": {
+    "circuitpython": [
+      "sparkfun_stm32f405_micromod"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/sparkfun_stm32f405_micromod/",
+      "source": "circuitpython:sparkfun_stm32f405_micromod"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:sparkfun_stm32f405_micromod",
+    "list": [
+      {
+        "pin": "PA00",
+        "names": [
+          "G2",
+          "BUS2"
+        ]
+      },
+      {
+        "pin": "PA01",
+        "names": [
+          "BATT_VIN3"
+        ]
+      },
+      {
+        "pin": "PA02",
+        "names": [
+          "UART_TX1",
+          "TX"
+        ]
+      },
+      {
+        "pin": "PA03",
+        "names": [
+          "UART_RX1",
+          "RX"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "SPI_CS",
+          "CS",
+          "AUD_LRCLK",
+          "I2S_WS",
+          "PCM_SYNC",
+          "PDM_DATA"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "SPI_SCK",
+          "SCK",
+          "LED_CLK"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "SPI_CIPO",
+          "SPI_MISO",
+          "CIPO",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "SPI_COPI",
+          "SPI_MOSI",
+          "COPI",
+          "MOSI",
+          "LED_DAT"
+        ]
+      },
+      {
+        "pin": "PA08",
+        "names": [
+          "G1",
+          "BUS1"
+        ]
+      },
+      {
+        "pin": "PA11",
+        "names": [
+          "USB_DM"
+        ]
+      },
+      {
+        "pin": "PA12",
+        "names": [
+          "USB_DP"
+        ]
+      },
+      {
+        "pin": "PA13",
+        "names": [
+          "SWDIO"
+        ]
+      },
+      {
+        "pin": "PA14",
+        "names": [
+          "SWCLK"
+        ]
+      },
+      {
+        "pin": "PA15",
+        "names": [
+          "LED"
+        ]
+      },
+      {
+        "pin": "PB00",
+        "names": [
+          "A1"
+        ]
+      },
+      {
+        "pin": "PB01",
+        "names": [
+          "I2C_INT"
+        ]
+      },
+      {
+        "pin": "PB03",
+        "names": [
+          "AUD_BCLK",
+          "I2S_SCK",
+          "PCM_CLK",
+          "PDM_CLK"
+        ]
+      },
+      {
+        "pin": "PB04",
+        "names": [
+          "AUD_OUT",
+          "I2S_OUT",
+          "PCM_OUT",
+          "CAM_MCLK"
+        ]
+      },
+      {
+        "pin": "PB05",
+        "names": [
+          "AUD_IN",
+          "I2S_IN",
+          "PCM_IN",
+          "CAM_PCLK"
+        ]
+      },
+      {
+        "pin": "PB06",
+        "names": [
+          "I2C_SCL1"
+        ]
+      },
+      {
+        "pin": "PB07",
+        "names": [
+          "I2C_SDA1"
+        ]
+      },
+      {
+        "pin": "PB08",
+        "names": [
+          "CAN_RX"
+        ]
+      },
+      {
+        "pin": "PB09",
+        "names": [
+          "CAN_TX"
+        ]
+      },
+      {
+        "pin": "PB10",
+        "names": [
+          "I2C_SCL",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "PB11",
+        "names": [
+          "I2C_SDA",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PB12",
+        "names": [
+          "G11",
+          "HOST_ID"
+        ]
+      },
+      {
+        "pin": "PB13",
+        "names": [
+          "G10",
+          "ADC_DP",
+          "CAM_VSYNC",
+          "HOST_VBUS"
+        ]
+      },
+      {
+        "pin": "PB14",
+        "names": [
+          "USBHOST_DM"
+        ]
+      },
+      {
+        "pin": "PB15",
+        "names": [
+          "USBHOST_DP"
+        ]
+      },
+      {
+        "pin": "PC00",
+        "names": [
+          "D0"
+        ]
+      },
+      {
+        "pin": "PC01",
+        "names": [
+          "D1",
+          "CAM_TRIG"
+        ]
+      },
+      {
+        "pin": "PC02",
+        "names": [
+          "G6",
+          "BUS6"
+        ]
+      },
+      {
+        "pin": "PC05",
+        "names": [
+          "A0"
+        ]
+      },
+      {
+        "pin": "PC06",
+        "names": [
+          "PWM0"
+        ]
+      },
+      {
+        "pin": "PC07",
+        "names": [
+          "PWM1"
+        ]
+      },
+      {
+        "pin": "PC08",
+        "names": [
+          "G3",
+          "BUS3"
+        ]
+      },
+      {
+        "pin": "PC09",
+        "names": [
+          "G4",
+          "BUS4"
+        ]
+      },
+      {
+        "pin": "PC13",
+        "names": [
+          "G5",
+          "BUS5"
+        ]
+      },
+      {
+        "pin": "PD02",
+        "names": [
+          "G0",
+          "BUS0"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:sparkfun_stm32f405_micromod",
+      "label": "CircuitPython board definition (sparkfun_stm32f405_micromod)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/sparkfun_stm32f405_micromod.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:sparkfun_stm32f405_micromod",
+      "label": "CircuitPython pin definitions (sparkfun_stm32f405_micromod)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/stm/boards/sparkfun_stm32f405_micromod/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

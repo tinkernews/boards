@@ -1,0 +1,44 @@
+{
+  "slug": "texas-instruments-msp-exp432p401r-launchxl",
+  "name": "MSP-EXP432P401R LaunchXL",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "texas-instruments",
+  "ids": {
+    "zephyr": [
+      "msp_exp432p401r_launchxl"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MSP432P401R",
+      "source": "zephyr:msp_exp432p401r_launchxl"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:msp_exp432p401r_launchxl"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:msp_exp432p401r_launchxl"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/ti/msp_exp432p401r_launchxl/doc/index.html",
+      "source": "zephyr:msp_exp432p401r_launchxl"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:msp_exp432p401r_launchxl",
+      "label": "Zephyr board definition (msp_exp432p401r_launchxl)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/ti/msp_exp432p401r_launchxl/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

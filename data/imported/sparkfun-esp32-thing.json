@@ -1,0 +1,59 @@
+{
+  "slug": "sparkfun-esp32-thing",
+  "name": "SparkFun ESP32 Thing",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sparkfun",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "esp32thing"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:esp32thing"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:esp32thing"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:esp32thing"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "SparkFun ESP32 Thing product page",
+      "url": "https://www.sparkfun.com/products/13907"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/esp32thing.html",
+      "source": "platformio:esp32thing"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/esp32thing.html",
+      "source": "platformio:esp32thing"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:esp32thing",
+      "label": "PlatformIO board definition (esp32thing)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/esp32thing.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

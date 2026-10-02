@@ -1,0 +1,56 @@
+{
+  "slug": "adafruit-itsybitsy-m4",
+  "name": "Adafruit ItsyBitsy M4",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "ids": {
+    "platformio": [
+      "adafruit_itsybitsy_m4"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "SAMD51G19A",
+      "source": "platformio:adafruit_itsybitsy_m4"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:adafruit_itsybitsy_m4"
+    },
+    "clock": {
+      "value": "120 MHz",
+      "source": "platformio:adafruit_itsybitsy_m4"
+    },
+    "upload_limits": {
+      "value": "512 KB flash, 192 KB RAM",
+      "source": "platformio:adafruit_itsybitsy_m4"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Adafruit ItsyBitsy M4 product page",
+      "url": "https://www.adafruit.com/product/3800"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelsam/adafruit_itsybitsy_m4.html",
+      "source": "platformio:adafruit_itsybitsy_m4"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:adafruit_itsybitsy_m4",
+      "label": "PlatformIO board definition (adafruit_itsybitsy_m4)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/adafruit_itsybitsy_m4.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

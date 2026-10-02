@@ -1,0 +1,30 @@
+{
+  "slug": "nordic-nrf54h20-development-kit-zephyr",
+  "name": "Nordic nRF54H20 Development Kit (Zephyr)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nordic-semiconductor",
+  "ids": {
+    "circuitpython": [
+      "nordic_nrf54h20dk"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/nordic_nrf54h20dk/",
+      "source": "circuitpython:nordic_nrf54h20dk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "circuitpython:nordic_nrf54h20dk",
+      "label": "CircuitPython board definition (nordic_nrf54h20dk)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/nordic_nrf54h20dk.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

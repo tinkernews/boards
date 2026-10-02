@@ -1,0 +1,49 @@
+{
+  "slug": "particle-redbear-labs-nano",
+  "name": "Redbear Labs Nano",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "particle",
+  "chip": "nrf51822",
+  "ids": {
+    "zephyr": [
+      "nrf51_blenano",
+      "nrf52_blenano2"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF51822",
+      "source": "zephyr:nrf51_blenano"
+    },
+    "ram": {
+      "value": "16 KB",
+      "source": "zephyr:nrf51_blenano"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/particle/nrf51_blenano/doc/index.html",
+      "source": "zephyr:nrf51_blenano"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:nrf51_blenano",
+      "label": "Zephyr board definition (nrf51_blenano)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/particle/nrf51_blenano/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "zephyr:nrf52_blenano2",
+      "label": "Zephyr board definition (nrf52_blenano2)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/particle/nrf52_blenano2/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

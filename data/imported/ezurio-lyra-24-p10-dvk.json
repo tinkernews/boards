@@ -1,0 +1,44 @@
+{
+  "slug": "ezurio-lyra-24-p10-dvk",
+  "name": "Lyra 24 P10 DVK",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "ezurio",
+  "ids": {
+    "zephyr": [
+      "lyra_24_dvk_p10"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "BGM240PB22VNA",
+      "source": "zephyr:lyra_24_dvk_p10"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:lyra_24_dvk_p10"
+    },
+    "flash": {
+      "value": "728 KB",
+      "source": "zephyr:lyra_24_dvk_p10"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/ezurio/lyra_24_dvk/doc/index.html",
+      "source": "zephyr:lyra_24_dvk_p10"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:lyra_24_dvk_p10",
+      "label": "Zephyr board definition (lyra_24_dvk_p10)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/ezurio/lyra_24_dvk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

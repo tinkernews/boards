@@ -1,0 +1,45 @@
+{
+  "slug": "arturo182-serpente",
+  "name": "Arturo182 Serpente",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "generic",
+  "chip": "atsamd21e18",
+  "ids": {
+    "zephyr": [
+      "serpente"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAMD21E18",
+      "source": "zephyr:serpente"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:serpente"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:serpente"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/others/serpente/doc/index.html",
+      "source": "zephyr:serpente"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:serpente",
+      "label": "Zephyr board definition (serpente)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/others/serpente/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

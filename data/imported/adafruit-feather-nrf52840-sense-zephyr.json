@@ -1,0 +1,30 @@
+{
+  "slug": "adafruit-feather-nrf52840-sense-zephyr",
+  "name": "Feather nRF52840 Sense (Zephyr)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "ids": {
+    "circuitpython": [
+      "adafruit_feather_nrf52840_sense_zephyr"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/adafruit_feather_nrf52840_sense_zephyr/",
+      "source": "circuitpython:adafruit_feather_nrf52840_sense_zephyr"
+    }
+  ],
+  "sources": [
+    {
+      "id": "circuitpython:adafruit_feather_nrf52840_sense_zephyr",
+      "label": "CircuitPython board definition (adafruit_feather_nrf52840_sense_zephyr)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/adafruit_feather_nrf52840_sense_zephyr.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

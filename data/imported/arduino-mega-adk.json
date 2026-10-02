@@ -1,0 +1,53 @@
+{
+  "slug": "arduino-mega-adk",
+  "name": "Arduino Mega ADK",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "chip": "atmega2560",
+  "ids": {
+    "platformio": [
+      "megaADK"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega2560",
+      "source": "platformio:megaadk"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:megaadk"
+    },
+    "upload_limits": {
+      "value": "248 KB flash, 8 KB RAM",
+      "source": "platformio:megaadk"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Arduino Mega ADK product page",
+      "url": "https://www.arduino.cc/en/Main/ArduinoBoardMegaADK"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/megaADK.html",
+      "source": "platformio:megaadk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:megaadk",
+      "label": "PlatformIO board definition (megaADK)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/megaADK.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

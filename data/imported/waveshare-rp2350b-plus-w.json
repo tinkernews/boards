@@ -1,0 +1,45 @@
+{
+  "slug": "waveshare-rp2350b-plus-w",
+  "name": "Waveshare RP2350B Plus W",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "waveshare",
+  "chip": "rp2350",
+  "ids": {
+    "zephyr": [
+      "rp2350b_plus_w"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "RP2350",
+      "source": "zephyr:rp2350b_plus_w"
+    },
+    "ram": {
+      "value": "520 KB",
+      "source": "zephyr:rp2350b_plus_w"
+    },
+    "flash": {
+      "value": "16 MB",
+      "source": "zephyr:rp2350b_plus_w"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/waveshare/rp2350b_plus_w/doc/index.html",
+      "source": "zephyr:rp2350b_plus_w"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:rp2350b_plus_w",
+      "label": "Zephyr board definition (rp2350b_plus_w)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/waveshare/rp2350b_plus_w/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

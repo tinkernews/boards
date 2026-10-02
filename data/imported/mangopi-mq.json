@@ -1,0 +1,49 @@
+{
+  "slug": "mangopi-mq",
+  "name": "Mangopi-MQ",
+  "tier": "imported",
+  "kind": "sbc",
+  "maker": "mangopi",
+  "released": "2021",
+  "ids": {
+    "armbian": [
+      "mangopi-mq"
+    ],
+    "linux": [
+      "arch/riscv/boot/dts/allwinner/sun20i-d1-nezha.dts"
+    ]
+  },
+  "software": [
+    {
+      "platform": "armbian",
+      "status": "dropped",
+      "note": "End of support in Armbian.",
+      "url": "https://github.com/armbian/build/blob/main/config/boards/mangopi-mq.eos",
+      "source": "armbian:mangopi-mq"
+    },
+    {
+      "platform": "linux-mainline",
+      "status": "supported",
+      "note": "A device tree for this board is in the mainline kernel; features may still be missing.",
+      "url": "https://github.com/torvalds/linux/blob/master/arch/riscv/boot/dts/allwinner/sun20i-d1-nezha.dts",
+      "source": "linux:sun20i-d1-nezha.dts"
+    }
+  ],
+  "sources": [
+    {
+      "id": "armbian:mangopi-mq",
+      "label": "Armbian board configuration (mangopi-mq)",
+      "url": "https://github.com/armbian/build/blob/da85daa05bd260d04dac50315d7317207fd998b3/config/boards/mangopi-mq.eos",
+      "kind": "import",
+      "revision": "da85daa05bd260d04dac50315d7317207fd998b3"
+    },
+    {
+      "id": "linux:sun20i-d1-nezha.dts",
+      "label": "Linux kernel device tree (sun20i-d1-nezha.dts)",
+      "url": "https://github.com/torvalds/linux/blob/551c722f40809618230001baccf219193e22fc5a/arch/riscv/boot/dts/allwinner/sun20i-d1-nezha.dts",
+      "kind": "import",
+      "revision": "551c722f40809618230001baccf219193e22fc5a"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

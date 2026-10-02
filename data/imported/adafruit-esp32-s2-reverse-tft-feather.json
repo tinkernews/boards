@@ -1,0 +1,240 @@
+{
+  "slug": "adafruit-esp32-s2-reverse-tft-feather",
+  "name": "ESP32-S2 Reverse TFT Feather",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "esp32-s2",
+  "ids": {
+    "circuitpython": [
+      "adafruit_feather_esp32s2_reverse_tft"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/adafruit_feather_esp32s2_reverse_tft/",
+      "source": "circuitpython:adafruit_feather_esp32s2_reverse_tft"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:adafruit_feather_esp32s2_reverse_tft",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "BUTTON",
+          "BOOT0",
+          "D0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "D1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "D2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "SDA",
+          "D3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "SCL",
+          "D4"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "TFT_I2C_POWER"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "A5",
+          "D8"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "D9"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "D10"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "D11"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "D12"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "LED",
+          "D13",
+          "L"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "A4",
+          "D14"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "A3",
+          "D15"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "A2",
+          "D16"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "A1",
+          "D17"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "A0",
+          "D18"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "NEOPIXEL_POWER"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "MOSI",
+          "D35"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "SCK",
+          "D36"
+        ]
+      },
+      {
+        "pin": "GPIO37",
+        "names": [
+          "MISO",
+          "D37"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "RX",
+          "D38"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "TX",
+          "D39"
+        ]
+      },
+      {
+        "pin": "GPIO40",
+        "names": [
+          "TFT_DC"
+        ]
+      },
+      {
+        "pin": "GPIO41",
+        "names": [
+          "TFT_RESET"
+        ]
+      },
+      {
+        "pin": "GPIO42",
+        "names": [
+          "TFT_CS"
+        ]
+      },
+      {
+        "pin": "GPIO45",
+        "names": [
+          "TFT_BACKLIGHT"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:adafruit_feather_esp32s2_reverse_tft",
+      "label": "CircuitPython board definition (adafruit_feather_esp32s2_reverse_tft)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/adafruit_feather_esp32s2_reverse_tft.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:adafruit_feather_esp32s2_reverse_tft",
+      "label": "CircuitPython pin definitions (adafruit_feather_esp32s2_reverse_tft)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/adafruit_feather_esp32s2_reverse_tft/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "silicon-labs-wgm160p-wi-fi-module-slwrb4321a",
+  "name": "WGM160P Wi-Fi Module (SLWRB4321A)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "silicon-labs",
+  "ids": {
+    "zephyr": [
+      "slwrb4321a"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "EFM32GG11B820F2048GM64",
+      "source": "zephyr:slwrb4321a"
+    },
+    "ram": {
+      "value": "512 KB",
+      "source": "zephyr:slwrb4321a"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:slwrb4321a"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/silabs/radio_boards/slwrb4321a/doc/index.html",
+      "source": "zephyr:slwrb4321a"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:slwrb4321a",
+      "label": "Zephyr board definition (slwrb4321a)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/silabs/radio_boards/slwrb4321a/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

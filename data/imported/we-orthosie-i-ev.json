@@ -1,0 +1,37 @@
+{
+  "slug": "we-orthosie-i-ev",
+  "name": "Orthosie-I-EV",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "we",
+  "chip": "esp32-c3",
+  "ids": {
+    "zephyr": [
+      "we_orthosie1ev"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-C3",
+      "source": "zephyr:we_orthosie1ev"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/we/orthosie1ev/doc/index.html",
+      "source": "zephyr:we_orthosie1ev"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:we_orthosie1ev",
+      "label": "Zephyr board definition (we_orthosie1ev)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/we/orthosie1ev/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

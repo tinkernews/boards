@@ -1,0 +1,44 @@
+{
+  "slug": "nxp-semiconductors-twr-ke18f",
+  "name": "TWR-KE18F",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "ids": {
+    "zephyr": [
+      "twr_ke18f"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MKE18F16",
+      "source": "zephyr:twr_ke18f"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:twr_ke18f"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:twr_ke18f"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nxp/twr_ke18f/doc/index.html",
+      "source": "zephyr:twr_ke18f"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:twr_ke18f",
+      "label": "Zephyr board definition (twr_ke18f)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nxp/twr_ke18f/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

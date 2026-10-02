@@ -1,0 +1,44 @@
+{
+  "slug": "cirrus-logic-crd40l26-poc-c",
+  "name": "CRD40L26-POC-C",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "cirrus-logic",
+  "ids": {
+    "zephyr": [
+      "crd40l26"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F401XD",
+      "source": "zephyr:crd40l26"
+    },
+    "ram": {
+      "value": "96 KB",
+      "source": "zephyr:crd40l26"
+    },
+    "flash": {
+      "value": "64 KB",
+      "source": "zephyr:crd40l26"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/cirrus/crd40l26/doc/index.html",
+      "source": "zephyr:crd40l26"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:crd40l26",
+      "label": "Zephyr board definition (crd40l26)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/cirrus/crd40l26/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "teensy-3-6",
+  "name": "Teensy 3.6",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "pjrc",
+  "ids": {
+    "platformio": [
+      "teensy36"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MK66FX1M0",
+      "source": "platformio:teensy36"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:teensy36"
+    },
+    "clock": {
+      "value": "180 MHz",
+      "source": "platformio:teensy36"
+    },
+    "upload_limits": {
+      "value": "1 MB flash, 256 KB RAM",
+      "source": "platformio:teensy36"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Teensy 3.6 product page",
+      "url": "https://www.pjrc.com/store/teensy36.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/teensy/teensy36.html",
+      "source": "platformio:teensy36"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:teensy36",
+      "label": "PlatformIO board definition (teensy36)",
+      "url": "https://github.com/platformio/platform-teensy/blob/4adab0aa96d9c2bddf3cfadaf7a9820fcd13dd18/boards/teensy36.json",
+      "kind": "import",
+      "revision": "4adab0aa96d9c2bddf3cfadaf7a9820fcd13dd18"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

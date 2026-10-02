@@ -1,0 +1,83 @@
+{
+  "slug": "stmicroelectronics-st-nucleo-f446ze",
+  "name": "ST Nucleo F446ZE",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "aliases": [
+    "Nucleo F446ZE"
+  ],
+  "ids": {
+    "platformio": [
+      "nucleo_f446ze"
+    ],
+    "zephyr": [
+      "nucleo_f446ze"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F446ZET6",
+      "source": "platformio:nucleo_f446ze"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:nucleo_f446ze"
+    },
+    "clock": {
+      "value": "180 MHz",
+      "source": "platformio:nucleo_f446ze"
+    },
+    "upload_limits": {
+      "value": "512 KB flash, 128 KB RAM",
+      "source": "platformio:nucleo_f446ze"
+    },
+    "ram": {
+      "value": "128 KB",
+      "source": "zephyr:nucleo_f446ze"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:nucleo_f446ze"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ST Nucleo F446ZE product page",
+      "url": "https://developer.mbed.org/platforms/ST-Nucleo-F446ZE/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/nucleo_f446ze.html",
+      "source": "platformio:nucleo_f446ze"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/nucleo_f446ze/doc/index.html",
+      "source": "zephyr:nucleo_f446ze"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:nucleo_f446ze",
+      "label": "PlatformIO board definition (nucleo_f446ze)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/nucleo_f446ze.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    },
+    {
+      "id": "zephyr:nucleo_f446ze",
+      "label": "Zephyr board definition (nucleo_f446ze)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/nucleo_f446ze/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

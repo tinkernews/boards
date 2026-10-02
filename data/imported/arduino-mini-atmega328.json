@@ -1,0 +1,53 @@
+{
+  "slug": "arduino-mini-atmega328",
+  "name": "Arduino Mini ATmega328",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "chip": "atmega328p",
+  "ids": {
+    "platformio": [
+      "miniatmega328"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega328P",
+      "source": "platformio:miniatmega328"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:miniatmega328"
+    },
+    "upload_limits": {
+      "value": "28 KB flash, 2 KB RAM",
+      "source": "platformio:miniatmega328"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Arduino Mini ATmega328 product page",
+      "url": "http://arduino.cc/en/Main/ArduinoBoardMini"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/miniatmega328.html",
+      "source": "platformio:miniatmega328"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:miniatmega328",
+      "label": "PlatformIO board definition (miniatmega328)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/miniatmega328.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

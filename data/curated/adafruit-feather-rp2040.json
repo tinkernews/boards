@@ -1,0 +1,105 @@
+{
+  "slug": "adafruit-feather-rp2040",
+  "name": "Adafruit Feather RP2040",
+  "tier": "curated",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "family": "Adafruit Feather",
+  "chip": "rp2040",
+  "released": "2021-01",
+  "status": "current",
+  "summary": "The RP2040 in Adafruit’s Feather format, with 8 MB of flash, a LiPo charger, a STEMMA QT connector and an RGB NeoPixel.",
+  "aliases": [
+    "Adafruit Feather RP2040",
+    "Feather RP2040"
+  ],
+  "ids": {
+    "zephyr": [
+      "adafruit_feather_rp2040"
+    ],
+    "circuitpython": [
+      "adafruit_feather_rp2040"
+    ],
+    "micropython": [
+      "ADAFRUIT_FEATHER_RP2040"
+    ]
+  },
+  "review": {
+    "status": "draft"
+  },
+  "specs": {
+    "chip": {
+      "value": "Raspberry Pi RP2040",
+      "source": "feather-product"
+    },
+    "cpu": {
+      "value": "2 × Arm Cortex-M0+",
+      "source": "feather-product"
+    },
+    "clock": {
+      "value": "Up to 133 MHz",
+      "source": "feather-product"
+    },
+    "ram": {
+      "value": "264 KB SRAM",
+      "source": "feather-product"
+    },
+    "flash": {
+      "value": "8 MB QSPI",
+      "source": "feather-product"
+    },
+    "io_voltage": {
+      "value": "3.3 V",
+      "source": "feather-product"
+    },
+    "usb": {
+      "value": "USB-C",
+      "source": "feather-product"
+    },
+    "expansion": {
+      "value": "Feather headers; STEMMA QT (I2C) connector",
+      "source": "feather-product"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Feather RP2040, Adafruit",
+      "url": "https://www.adafruit.com/product/4884"
+    },
+    {
+      "kind": "guide",
+      "label": "Adafruit Feather RP2040 guide, Adafruit Learning System",
+      "url": "https://learn.adafruit.com/adafruit-feather-rp2040-pico"
+    }
+  ],
+  "power": {
+    "rows": [
+      {
+        "label": "Battery",
+        "value": "JST-PH connector for a 3.7 V LiPo, charged over USB",
+        "source": "feather-product"
+      }
+    ]
+  },
+  "editorial": {
+    "history": "One of the first third-party RP2040 boards, launched alongside the Pico in January 2021.",
+    "today": "A convenient RP2040 for battery projects and CircuitPython, with the large FeatherWing accessory range.",
+    "source": "feather-guide"
+  },
+  "sources": [
+    {
+      "id": "feather-product",
+      "label": "Adafruit Feather RP2040, Adafruit",
+      "url": "https://www.adafruit.com/product/4884",
+      "kind": "official"
+    },
+    {
+      "id": "feather-guide",
+      "label": "Adafruit Feather RP2040 guide, Adafruit Learning System",
+      "url": "https://learn.adafruit.com/adafruit-feather-rp2040-pico",
+      "kind": "official"
+    }
+  ],
+  "updatedAt": "2026-10-01T00:00:00.000Z"
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "espressif-esp32s3-cam-lcd",
+  "name": "ESP32S3 CAM LCD",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "espressif",
+  "chip": "esp32-s3",
+  "ids": {
+    "platformio": [
+      "esp32s3camlcd"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-S3",
+      "source": "platformio:esp32s3camlcd"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:esp32s3camlcd"
+    },
+    "upload_limits": {
+      "value": "8 MB flash, 320 KB RAM",
+      "source": "platformio:esp32s3camlcd"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ESP32S3 CAM LCD product page",
+      "url": "https://www.espressif.com/en/news/Maple_Eye_ESP32-S3"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/esp32s3camlcd.html",
+      "source": "platformio:esp32s3camlcd"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/esp32s3camlcd.html",
+      "source": "platformio:esp32s3camlcd"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:esp32s3camlcd",
+      "label": "PlatformIO board definition (esp32s3camlcd)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/esp32s3camlcd.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

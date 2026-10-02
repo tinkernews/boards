@@ -1,0 +1,53 @@
+{
+  "slug": "controllino-maxi",
+  "name": "Controllino Maxi",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "controllino",
+  "chip": "atmega2560",
+  "ids": {
+    "platformio": [
+      "controllino_maxi"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega2560",
+      "source": "platformio:controllino_maxi"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:controllino_maxi"
+    },
+    "upload_limits": {
+      "value": "248 KB flash, 8 KB RAM",
+      "source": "platformio:controllino_maxi"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Controllino Maxi product page",
+      "url": "https://www.controllino.com/product/controllino-maxi/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/controllino_maxi.html",
+      "source": "platformio:controllino_maxi"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:controllino_maxi",
+      "label": "PlatformIO board definition (controllino_maxi)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/controllino_maxi.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

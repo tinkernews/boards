@@ -1,0 +1,83 @@
+{
+  "slug": "stmicroelectronics-st-nucleo-f030r8",
+  "name": "ST Nucleo F030R8",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "aliases": [
+    "Nucleo F030R8"
+  ],
+  "ids": {
+    "platformio": [
+      "nucleo_f030r8"
+    ],
+    "zephyr": [
+      "nucleo_f030r8"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F030R8T6",
+      "source": "platformio:nucleo_f030r8"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0",
+      "source": "platformio:nucleo_f030r8"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:nucleo_f030r8"
+    },
+    "upload_limits": {
+      "value": "64 KB flash, 8 KB RAM",
+      "source": "platformio:nucleo_f030r8"
+    },
+    "ram": {
+      "value": "8 KB",
+      "source": "zephyr:nucleo_f030r8"
+    },
+    "flash": {
+      "value": "64 KB",
+      "source": "zephyr:nucleo_f030r8"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ST Nucleo F030R8 product page",
+      "url": "https://developer.mbed.org/platforms/ST-Nucleo-F030R8/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/nucleo_f030r8.html",
+      "source": "platformio:nucleo_f030r8"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/nucleo_f030r8/doc/index.html",
+      "source": "zephyr:nucleo_f030r8"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:nucleo_f030r8",
+      "label": "PlatformIO board definition (nucleo_f030r8)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/nucleo_f030r8.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    },
+    {
+      "id": "zephyr:nucleo_f030r8",
+      "label": "Zephyr board definition (nucleo_f030r8)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/nucleo_f030r8/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

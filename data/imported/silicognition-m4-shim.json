@@ -1,0 +1,187 @@
+{
+  "slug": "silicognition-m4-shim",
+  "name": "M4-Shim",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "silicognition",
+  "chip": "atsamd51j19",
+  "ids": {
+    "circuitpython": [
+      "silicognition-m4-shim"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/silicognition-m4-shim/",
+      "source": "circuitpython:silicognition-m4-shim"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:silicognition-m4-shim",
+    "list": [
+      {
+        "pin": "PA02",
+        "names": [
+          "A0",
+          "D14"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "A4",
+          "D18"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "A1",
+          "D15"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "A5",
+          "D19"
+        ]
+      },
+      {
+        "pin": "PA12",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PA13",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "PA14",
+        "names": [
+          "D4"
+        ]
+      },
+      {
+        "pin": "PA16",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "PA17",
+        "names": [
+          "SCK",
+          "D25"
+        ]
+      },
+      {
+        "pin": "PA18",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "PA19",
+        "names": [
+          "D9"
+        ]
+      },
+      {
+        "pin": "PA20",
+        "names": [
+          "D10"
+        ]
+      },
+      {
+        "pin": "PA21",
+        "names": [
+          "D11"
+        ]
+      },
+      {
+        "pin": "PA22",
+        "names": [
+          "D12"
+        ]
+      },
+      {
+        "pin": "PA23",
+        "names": [
+          "D13",
+          "LED"
+        ]
+      },
+      {
+        "pin": "PB03",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "PB08",
+        "names": [
+          "A2",
+          "D16"
+        ]
+      },
+      {
+        "pin": "PB09",
+        "names": [
+          "A3",
+          "D17"
+        ]
+      },
+      {
+        "pin": "PB16",
+        "names": [
+          "D1",
+          "TX"
+        ]
+      },
+      {
+        "pin": "PB17",
+        "names": [
+          "D0",
+          "RX"
+        ]
+      },
+      {
+        "pin": "PB22",
+        "names": [
+          "MISO",
+          "D23"
+        ]
+      },
+      {
+        "pin": "PB23",
+        "names": [
+          "MOSI",
+          "D24"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:silicognition-m4-shim",
+      "label": "CircuitPython board definition (silicognition-m4-shim)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/silicognition-m4-shim.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:silicognition-m4-shim",
+      "label": "CircuitPython pin definitions (silicognition-m4-shim)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/silicognition-m4-shim/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

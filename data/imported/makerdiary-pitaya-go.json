@@ -1,0 +1,280 @@
+{
+  "slug": "makerdiary-pitaya-go",
+  "name": "Pitaya Go",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "makerdiary",
+  "chip": "nrf52840",
+  "ids": {
+    "circuitpython": [
+      "pitaya_go"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/pitaya_go/",
+      "source": "circuitpython:pitaya_go"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:pitaya_go",
+    "list": [
+      {
+        "pin": "P0_02",
+        "names": [
+          "AIN0",
+          "P2"
+        ]
+      },
+      {
+        "pin": "P0_03",
+        "names": [
+          "AIN1",
+          "P3"
+        ]
+      },
+      {
+        "pin": "P0_04",
+        "names": [
+          "AIN2",
+          "AREF",
+          "P4"
+        ]
+      },
+      {
+        "pin": "P0_05",
+        "names": [
+          "AIN3",
+          "VDIV",
+          "P5"
+        ]
+      },
+      {
+        "pin": "P0_06",
+        "names": [
+          "P6"
+        ]
+      },
+      {
+        "pin": "P0_07",
+        "names": [
+          "P7"
+        ]
+      },
+      {
+        "pin": "P0_08",
+        "names": [
+          "P8"
+        ]
+      },
+      {
+        "pin": "P0_09",
+        "names": [
+          "NFC1",
+          "P9"
+        ]
+      },
+      {
+        "pin": "P0_10",
+        "names": [
+          "NFC2",
+          "P10",
+          "LED_RED"
+        ]
+      },
+      {
+        "pin": "P0_11",
+        "names": [
+          "P11",
+          "LED_GREEN"
+        ]
+      },
+      {
+        "pin": "P0_12",
+        "names": [
+          "P12",
+          "LED_BLUE"
+        ]
+      },
+      {
+        "pin": "P0_13",
+        "names": [
+          "P13"
+        ]
+      },
+      {
+        "pin": "P0_14",
+        "names": [
+          "P14"
+        ]
+      },
+      {
+        "pin": "P0_15",
+        "names": [
+          "P15"
+        ]
+      },
+      {
+        "pin": "P0_16",
+        "names": [
+          "P16"
+        ]
+      },
+      {
+        "pin": "P0_17",
+        "names": [
+          "P17"
+        ]
+      },
+      {
+        "pin": "P0_18",
+        "names": [
+          "P18"
+        ]
+      },
+      {
+        "pin": "P0_19",
+        "names": [
+          "P19"
+        ]
+      },
+      {
+        "pin": "P0_20",
+        "names": [
+          "P20"
+        ]
+      },
+      {
+        "pin": "P0_21",
+        "names": [
+          "P21"
+        ]
+      },
+      {
+        "pin": "P0_22",
+        "names": [
+          "P22"
+        ]
+      },
+      {
+        "pin": "P0_23",
+        "names": [
+          "P23"
+        ]
+      },
+      {
+        "pin": "P0_24",
+        "names": [
+          "P24"
+        ]
+      },
+      {
+        "pin": "P0_25",
+        "names": [
+          "P25"
+        ]
+      },
+      {
+        "pin": "P0_26",
+        "names": [
+          "P26"
+        ]
+      },
+      {
+        "pin": "P0_27",
+        "names": [
+          "P27"
+        ]
+      },
+      {
+        "pin": "P0_28",
+        "names": [
+          "AIN4",
+          "P28"
+        ]
+      },
+      {
+        "pin": "P0_29",
+        "names": [
+          "AIN5",
+          "P29"
+        ]
+      },
+      {
+        "pin": "P0_30",
+        "names": [
+          "AIN6",
+          "P30"
+        ]
+      },
+      {
+        "pin": "P0_31",
+        "names": [
+          "AIN7",
+          "P31"
+        ]
+      },
+      {
+        "pin": "P1_00",
+        "names": [
+          "BUTTON_USER"
+        ]
+      },
+      {
+        "pin": "P1_01",
+        "names": [
+          "IO1"
+        ]
+      },
+      {
+        "pin": "P1_02",
+        "names": [
+          "IO3"
+        ]
+      },
+      {
+        "pin": "P1_03",
+        "names": [
+          "CSN"
+        ]
+      },
+      {
+        "pin": "P1_04",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "P1_05",
+        "names": [
+          "IO2"
+        ]
+      },
+      {
+        "pin": "P1_06",
+        "names": [
+          "IO0"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:pitaya_go",
+      "label": "CircuitPython board definition (pitaya_go)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/pitaya_go.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:pitaya_go",
+      "label": "CircuitPython pin definitions (pitaya_go)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/nordic/boards/pitaya_go/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

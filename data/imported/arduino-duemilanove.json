@@ -1,0 +1,56 @@
+{
+  "slug": "arduino-duemilanove",
+  "name": "Arduino Duemilanove",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "chip": "atmega328p",
+  "aliases": [
+    "Arduino Duemilanove or Diecimila ATmega328"
+  ],
+  "ids": {
+    "platformio": [
+      "diecimilaatmega328"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega328P",
+      "source": "platformio:diecimilaatmega328"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:diecimilaatmega328"
+    },
+    "upload_limits": {
+      "value": "30 KB flash, 2 KB RAM",
+      "source": "platformio:diecimilaatmega328"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Arduino Duemilanove product page",
+      "url": "http://arduino.cc/en/Main/ArduinoBoardDiecimila"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/diecimilaatmega328.html",
+      "source": "platformio:diecimilaatmega328"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:diecimilaatmega328",
+      "label": "PlatformIO board definition (diecimilaatmega328)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/diecimilaatmega328.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

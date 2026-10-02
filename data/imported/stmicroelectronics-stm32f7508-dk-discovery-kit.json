@@ -1,0 +1,44 @@
+{
+  "slug": "stmicroelectronics-stm32f7508-dk-discovery-kit",
+  "name": "STM32F7508-DK Discovery Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "zephyr": [
+      "stm32f7508_dk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F750XX",
+      "source": "zephyr:stm32f7508_dk"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:stm32f7508_dk"
+    },
+    "flash": {
+      "value": "64 KB",
+      "source": "zephyr:stm32f7508_dk"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/stm32f7508_dk/doc/index.html",
+      "source": "zephyr:stm32f7508_dk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:stm32f7508_dk",
+      "label": "Zephyr board definition (stm32f7508_dk)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/stm32f7508_dk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,248 @@
+{
+  "slug": "maker-badge",
+  "name": "Maker badge",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "czech-maker-make-more",
+  "chip": "esp32-s2",
+  "ids": {
+    "circuitpython": [
+      "maker_badge"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/maker_badge/",
+      "source": "circuitpython:maker_badge"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:maker_badge",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "D0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "D1",
+          "CAP5"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "D2",
+          "CAP4"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "D3",
+          "CAP3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "D4",
+          "CAP2"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "D5",
+          "CAP1"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "D6",
+          "VOLTAGE_MONITOR",
+          "BATTERY"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "D7"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "D8",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "D9",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "D10"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "D11"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "D12"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "D13"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "D14",
+          "A4"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "D15",
+          "A3"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "D16",
+          "A2"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "D17",
+          "A1"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "D18",
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "D21",
+          "NEOPIXEL_POWER",
+          "NEOPIXEL_POWER_INVERTED"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "D26"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "D33"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "D34"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "D35",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "D36",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "GPIO37",
+        "names": [
+          "D37",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "D38"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "D39"
+        ]
+      },
+      {
+        "pin": "GPIO40",
+        "names": [
+          "D40"
+        ]
+      },
+      {
+        "pin": "GPIO41",
+        "names": [
+          "D41"
+        ]
+      },
+      {
+        "pin": "GPIO42",
+        "names": [
+          "D42"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:maker_badge",
+      "label": "CircuitPython board definition (maker_badge)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/maker_badge.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:maker_badge",
+      "label": "CircuitPython pin definitions (maker_badge)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/maker_badge/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

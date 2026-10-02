@@ -1,0 +1,57 @@
+{
+  "slug": "arduino-tian",
+  "name": "Arduino Tian",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "chip": "atsamd21g18",
+  "ids": {
+    "platformio": [
+      "tian"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAMD21G18",
+      "source": "platformio:tian"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:tian"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:tian"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:tian"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Arduino Tian product page",
+      "url": "https://www.arduino.cc/en/Main/ArduinoBoardTian"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelsam/tian.html",
+      "source": "platformio:tian"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:tian",
+      "label": "PlatformIO board definition (tian)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/tian.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

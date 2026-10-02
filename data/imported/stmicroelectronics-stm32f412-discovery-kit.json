@@ -1,0 +1,429 @@
+{
+  "slug": "stmicroelectronics-stm32f412-discovery-kit",
+  "name": "STM32F412 Discovery kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "circuitpython": [
+      "stm32f412zg_discovery"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/stm32f412zg_discovery/",
+      "source": "circuitpython:stm32f412zg_discovery"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:stm32f412zg_discovery",
+    "list": [
+      {
+        "pin": "PA01",
+        "names": [
+          "PA01",
+          "A0"
+        ]
+      },
+      {
+        "pin": "PA02",
+        "names": [
+          "PA02"
+        ]
+      },
+      {
+        "pin": "PA03",
+        "names": [
+          "PA03"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "PA04"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "PA05",
+          "D13"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "PA06",
+          "D12"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "PA07",
+          "D11"
+        ]
+      },
+      {
+        "pin": "PA08",
+        "names": [
+          "PA08"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "PA10"
+        ]
+      },
+      {
+        "pin": "PA13",
+        "names": [
+          "PA13"
+        ]
+      },
+      {
+        "pin": "PA14",
+        "names": [
+          "PA14"
+        ]
+      },
+      {
+        "pin": "PA15",
+        "names": [
+          "PA15",
+          "D10"
+        ]
+      },
+      {
+        "pin": "PB00",
+        "names": [
+          "PB00",
+          "A5"
+        ]
+      },
+      {
+        "pin": "PB01",
+        "names": [
+          "PB01"
+        ]
+      },
+      {
+        "pin": "PB03",
+        "names": [
+          "PB03"
+        ]
+      },
+      {
+        "pin": "PB04",
+        "names": [
+          "PB04"
+        ]
+      },
+      {
+        "pin": "PB05",
+        "names": [
+          "PB05"
+        ]
+      },
+      {
+        "pin": "PB06",
+        "names": [
+          "PB06"
+        ]
+      },
+      {
+        "pin": "PB07",
+        "names": [
+          "PB07"
+        ]
+      },
+      {
+        "pin": "PB08",
+        "names": [
+          "PB08",
+          "D9"
+        ]
+      },
+      {
+        "pin": "PB09",
+        "names": [
+          "PB09",
+          "D14",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PB10",
+        "names": [
+          "PB10",
+          "D15",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "PB11",
+        "names": [
+          "PB11"
+        ]
+      },
+      {
+        "pin": "PB12",
+        "names": [
+          "PB12"
+        ]
+      },
+      {
+        "pin": "PB13",
+        "names": [
+          "PB13"
+        ]
+      },
+      {
+        "pin": "PB14",
+        "names": [
+          "PB14"
+        ]
+      },
+      {
+        "pin": "PB15",
+        "names": [
+          "PB15"
+        ]
+      },
+      {
+        "pin": "PC00",
+        "names": [
+          "PC00"
+        ]
+      },
+      {
+        "pin": "PC01",
+        "names": [
+          "PC01",
+          "A1"
+        ]
+      },
+      {
+        "pin": "PC02",
+        "names": [
+          "PC02"
+        ]
+      },
+      {
+        "pin": "PC03",
+        "names": [
+          "PC03",
+          "A2"
+        ]
+      },
+      {
+        "pin": "PC04",
+        "names": [
+          "PC04",
+          "A3"
+        ]
+      },
+      {
+        "pin": "PC05",
+        "names": [
+          "PC05",
+          "A4"
+        ]
+      },
+      {
+        "pin": "PC06",
+        "names": [
+          "PC06"
+        ]
+      },
+      {
+        "pin": "PC07",
+        "names": [
+          "PC07"
+        ]
+      },
+      {
+        "pin": "PC09",
+        "names": [
+          "PC09"
+        ]
+      },
+      {
+        "pin": "PC13",
+        "names": [
+          "PC13"
+        ]
+      },
+      {
+        "pin": "PD06",
+        "names": [
+          "PD06"
+        ]
+      },
+      {
+        "pin": "PD12",
+        "names": [
+          "PD12"
+        ]
+      },
+      {
+        "pin": "PD13",
+        "names": [
+          "PD13"
+        ]
+      },
+      {
+        "pin": "PE00",
+        "names": [
+          "PE00",
+          "LED1"
+        ]
+      },
+      {
+        "pin": "PE01",
+        "names": [
+          "PE01",
+          "LED2"
+        ]
+      },
+      {
+        "pin": "PE02",
+        "names": [
+          "PE02",
+          "LED3"
+        ]
+      },
+      {
+        "pin": "PE03",
+        "names": [
+          "PE03",
+          "LED4"
+        ]
+      },
+      {
+        "pin": "PE04",
+        "names": [
+          "PE04"
+        ]
+      },
+      {
+        "pin": "PE05",
+        "names": [
+          "PE05"
+        ]
+      },
+      {
+        "pin": "PE06",
+        "names": [
+          "PE06"
+        ]
+      },
+      {
+        "pin": "PF02",
+        "names": [
+          "PF02"
+        ]
+      },
+      {
+        "pin": "PF03",
+        "names": [
+          "PF03",
+          "D6"
+        ]
+      },
+      {
+        "pin": "PF04",
+        "names": [
+          "D3"
+        ]
+      },
+      {
+        "pin": "PF10",
+        "names": [
+          "PF10",
+          "D5"
+        ]
+      },
+      {
+        "pin": "PF11",
+        "names": [
+          "PF11"
+        ]
+      },
+      {
+        "pin": "PF13",
+        "names": [
+          "PF13"
+        ]
+      },
+      {
+        "pin": "PG02",
+        "names": [
+          "PG02"
+        ]
+      },
+      {
+        "pin": "PG09",
+        "names": [
+          "PG09",
+          "D0"
+        ]
+      },
+      {
+        "pin": "PG10",
+        "names": [
+          "PG10",
+          "D8"
+        ]
+      },
+      {
+        "pin": "PG11",
+        "names": [
+          "PG11",
+          "D7"
+        ]
+      },
+      {
+        "pin": "PG12",
+        "names": [
+          "PG12",
+          "D4"
+        ]
+      },
+      {
+        "pin": "PG13",
+        "names": [
+          "PG13",
+          "D2"
+        ]
+      },
+      {
+        "pin": "PG14",
+        "names": [
+          "PG14",
+          "D1"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:stm32f412zg_discovery",
+      "label": "CircuitPython board definition (stm32f412zg_discovery)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/stm32f412zg_discovery.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:stm32f412zg_discovery",
+      "label": "CircuitPython pin definitions (stm32f412zg_discovery)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/stm/boards/stm32f412zg_discovery/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

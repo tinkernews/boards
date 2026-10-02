@@ -1,0 +1,44 @@
+{
+  "slug": "rakwireless-rak11160",
+  "name": "RAK11160",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "rakwireless",
+  "ids": {
+    "zephyr": [
+      "rak11160"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32WLE5XX",
+      "source": "zephyr:rak11160"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:rak11160"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:rak11160"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/rakwireless/rak11160/doc/index.html",
+      "source": "zephyr:rak11160"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:rak11160",
+      "label": "Zephyr board definition (rak11160)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/rakwireless/rak11160/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

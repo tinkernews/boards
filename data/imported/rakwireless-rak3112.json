@@ -1,0 +1,37 @@
+{
+  "slug": "rakwireless-rak3112",
+  "name": "RAK3112",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "rakwireless",
+  "chip": "esp32-s3",
+  "ids": {
+    "zephyr": [
+      "rak3112"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-S3",
+      "source": "zephyr:rak3112"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/rakwireless/rak3112/doc/index.html",
+      "source": "zephyr:rak3112"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:rak3112",
+      "label": "Zephyr board definition (rak3112)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/rakwireless/rak3112/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

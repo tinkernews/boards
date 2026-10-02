@@ -1,0 +1,45 @@
+{
+  "slug": "u-blox-evk-bmd-34-38-bmd-340-eval-and-bmd-341-eval",
+  "name": "EVK-BMD-34/38: BMD-340-EVAL and BMD-341-EVAL",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "u-blox",
+  "chip": "nrf52840",
+  "ids": {
+    "zephyr": [
+      "ubx_bmd340eval"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52840",
+      "source": "zephyr:ubx_bmd340eval"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:ubx_bmd340eval"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:ubx_bmd340eval"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/u-blox/ubx_bmd340eval/doc/index.html",
+      "source": "zephyr:ubx_bmd340eval"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:ubx_bmd340eval",
+      "label": "Zephyr board definition (ubx_bmd340eval)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/u-blox/ubx_bmd340eval/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

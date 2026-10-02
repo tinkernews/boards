@@ -1,0 +1,264 @@
+{
+  "slug": "arduino-uno",
+  "name": "Arduino Uno (R1–R3)",
+  "tier": "curated",
+  "kind": "mcu",
+  "maker": "arduino",
+  "family": "Arduino",
+  "chip": "atmega328p",
+  "released": "2010-09",
+  "status": "current",
+  "summary": "The reference Arduino since 2010: an ATmega328P at 16 MHz with 32 KB of flash, a USB-serial chip of its own and the header layout every shield follows.",
+  "aliases": [
+    "Arduino Uno",
+    "Arduino UNO",
+    "Arduino Uno R3",
+    "Arduino Uno Rev3",
+    "Arduino UNO R3",
+    "Uno R3",
+    "Arduino Uno R2",
+    "Arduino Uno R1"
+  ],
+  "ids": {
+    "platformio": [
+      "uno"
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "by": "AI-assisted source check",
+    "at": "2026-10-01"
+  },
+  "predecessor": "arduino-duemilanove",
+  "successor": "arduino-uno-r4-minima",
+  "specs": {
+    "chip": {
+      "value": "Microchip ATmega328P",
+      "source": "arduino-docs"
+    },
+    "cpu": {
+      "value": "8-bit AVR",
+      "source": "atmega328p"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "arduino-docs"
+    },
+    "ram": {
+      "value": "2 KB SRAM",
+      "source": "atmega328p"
+    },
+    "flash": {
+      "value": "32 KB (0.5 KB used by the bootloader)",
+      "source": "arduino-core-avr"
+    },
+    "eeprom": {
+      "value": "1 KB",
+      "source": "arduino-docs"
+    },
+    "gpio": {
+      "value": "14 digital I/O (6 PWM)",
+      "source": "arduino-docs"
+    },
+    "analog": {
+      "value": "6 analog inputs (10-bit)",
+      "source": "atmega328p"
+    },
+    "io_voltage": {
+      "value": "5 V",
+      "source": "arduino-datasheet"
+    },
+    "input_voltage": {
+      "value": "7–12 V recommended via barrel jack or VIN; 5 V via USB",
+      "source": "arduino-docs"
+    },
+    "usb": {
+      "value": "USB-B via an ATmega16U2 (R3) or ATmega8U2 (R1, R2)",
+      "source": "arduino-uno-archived"
+    },
+    "dimensions": {
+      "value": "68.6 × 53.4 mm, 25 g",
+      "source": "arduino-docs"
+    }
+  },
+  "revisions": [
+    {
+      "name": "R1",
+      "released": "2010-09",
+      "changes": "ATmega8U2 as the USB-to-serial converter in place of the FTDI chip of earlier boards.",
+      "source": "arduino-blog-2010"
+    },
+    {
+      "name": "R2",
+      "changes": "Added a resistor pulling the ATmega8U2's HWB line to ground, making it easier to put the USB chip into DFU mode.",
+      "source": "arduino-hc-uno"
+    },
+    {
+      "name": "R3",
+      "changes": "The 1.0 pinout: SDA and SCL pins beside AREF, IOREF and a spare pin beside RESET; a stronger reset circuit; the ATmega16U2 replaces the 8U2.",
+      "source": "arduino-hc-uno"
+    }
+  ],
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Product documentation, Arduino",
+      "url": "https://docs.arduino.cc/hardware/uno-rev3/"
+    },
+    {
+      "kind": "datasheet",
+      "label": "Board datasheet",
+      "url": "https://docs.arduino.cc/resources/datasheets/A000066-datasheet.pdf"
+    },
+    {
+      "kind": "schematic",
+      "label": "Schematics",
+      "url": "https://docs.arduino.cc/resources/schematics/A000066-schematics.pdf"
+    },
+    {
+      "kind": "pinout",
+      "label": "Full pinout",
+      "url": "https://docs.arduino.cc/resources/pinouts/A000066-full-pinout.pdf"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Official Arduino core.",
+      "url": "https://docs.arduino.cc/software/ide/",
+      "source": "arduino-docs"
+    }
+  ],
+  "pinout": {
+    "layout": "arduino-uno-r3",
+    "source": "arduino-pinout",
+    "note": "R3 layout; R1 and R2 lack IOREF and the SDA/SCL pins by AREF"
+  },
+  "gotchas": [
+    {
+      "title": "2 KB of RAM goes fast",
+      "text": "String literals are copied into RAM unless they are kept in flash with PROGMEM or wrapped in F(); text-heavy sketches fill the 2 KB of SRAM long before the flash.",
+      "source": "arduino-ref-progmem"
+    },
+    {
+      "title": "Pins 0 and 1 are the USB serial",
+      "text": "D0 and D1 carry the serial link to the computer; anything connected to them can interfere with Serial output and cause failed uploads.",
+      "source": "arduino-ref-serial"
+    },
+    {
+      "title": "5 V logic",
+      "text": "I/O is 5 V. Sensors and modules that run at 3.3 V (most modern ones) need level shifting on their inputs.",
+      "source": "arduino-docs"
+    }
+  ],
+  "power": {
+    "rows": [
+      {
+        "label": "Recommended input",
+        "value": "7–12 V on the barrel jack or VIN",
+        "source": "arduino-docs"
+      },
+      {
+        "label": "USB",
+        "value": "5 V, protected by a 500 mA resettable fuse",
+        "source": "arduino-schematic"
+      },
+      {
+        "label": "Current per I/O pin",
+        "value": "20 mA maximum",
+        "source": "arduino-docs"
+      }
+    ]
+  },
+  "mechanical": {
+    "rows": [
+      {
+        "label": "Board size",
+        "value": "68.6 × 53.4 mm",
+        "source": "arduino-docs"
+      }
+    ],
+    "files": [
+      {
+        "label": "Full pinout (PDF)",
+        "url": "https://docs.arduino.cc/resources/pinouts/A000066-full-pinout.pdf"
+      }
+    ]
+  },
+  "commonsFile": "File:Arduino Uno 006.jpg",
+  "editorial": {
+    "history": "Unveiled in September 2010, the Uno (Italian for “one”, named for the upcoming Arduino 1.0) replaced the FTDI chip with a programmable ATmega8U2. The R3 revision introduced the “1.0 pinout” (IOREF, and SDA/SCL beside AREF) that later Arduino boards and most clones follow.",
+    "today": "Still the board most tutorials, shields and classrooms assume. For new designs that need more memory or Wi-Fi, the Uno R4 keeps the layout.",
+    "source": "arduino-uno-archived"
+  },
+  "sources": [
+    {
+      "id": "arduino-docs",
+      "label": "Arduino UNO R3, Arduino documentation",
+      "url": "https://docs.arduino.cc/hardware/uno-rev3/",
+      "kind": "official"
+    },
+    {
+      "id": "arduino-datasheet",
+      "label": "Arduino UNO R3 datasheet (A000066)",
+      "url": "https://docs.arduino.cc/resources/datasheets/A000066-datasheet.pdf",
+      "kind": "official"
+    },
+    {
+      "id": "arduino-pinout",
+      "label": "Arduino UNO R3 full pinout (A000066)",
+      "url": "https://docs.arduino.cc/resources/pinouts/A000066-full-pinout.pdf",
+      "kind": "official"
+    },
+    {
+      "id": "atmega328p",
+      "label": "ATmega328P product page, Microchip",
+      "url": "https://www.microchip.com/en-us/product/ATmega328P",
+      "kind": "official"
+    },
+    {
+      "id": "arduino-uno-archived",
+      "label": "Arduino Uno, arduino.cc (archived 2013)",
+      "url": "https://web.archive.org/web/2013/http://arduino.cc/en/Main/ArduinoBoardUno",
+      "kind": "official"
+    },
+    {
+      "id": "arduino-hc-uno",
+      "label": "An overview of different UNO boards, Arduino Help Center",
+      "url": "https://support.arduino.cc/hc/en-us/articles/7901453165724",
+      "kind": "official"
+    },
+    {
+      "id": "arduino-blog-2010",
+      "label": "Dinner is ready (Uno and Mega 2560 launch), Arduino blog, 24 September 2010 (archived)",
+      "url": "https://web.archive.org/web/2010/http://arduino.cc/blog/2010/09/24/dinner-is-ready/",
+      "kind": "official"
+    },
+    {
+      "id": "arduino-core-avr",
+      "label": "Arduino AVR core board definitions (boards.txt), Arduino",
+      "url": "https://github.com/arduino/ArduinoCore-avr/blob/master/boards.txt",
+      "kind": "official"
+    },
+    {
+      "id": "arduino-ref-serial",
+      "label": "Serial, Arduino language reference",
+      "url": "https://docs.arduino.cc/language-reference/en/functions/communication/serial/",
+      "kind": "official"
+    },
+    {
+      "id": "arduino-ref-progmem",
+      "label": "PROGMEM, Arduino language reference",
+      "url": "https://docs.arduino.cc/language-reference/en/variables/utilities/PROGMEM/",
+      "kind": "official"
+    },
+    {
+      "id": "arduino-schematic",
+      "label": "Arduino UNO R3 schematics (A000066)",
+      "url": "https://docs.arduino.cc/resources/schematics/A000066-schematics.pdf",
+      "kind": "official"
+    }
+  ],
+  "updatedAt": "2026-10-01T15:00:00.000Z"
+}

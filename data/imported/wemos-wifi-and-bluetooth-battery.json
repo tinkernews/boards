@@ -1,0 +1,59 @@
+{
+  "slug": "wemos-wifi-and-bluetooth-battery",
+  "name": "WeMos WiFi and Bluetooth Battery",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "wemos",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "wemosbat"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:wemosbat"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:wemosbat"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:wemosbat"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "WeMos WiFi and Bluetooth Battery product page",
+      "url": "https://www.wemos.cc"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/wemosbat.html",
+      "source": "platformio:wemosbat"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/wemosbat.html",
+      "source": "platformio:wemosbat"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:wemosbat",
+      "label": "PlatformIO board definition (wemosbat)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/wemosbat.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

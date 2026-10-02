@@ -1,0 +1,44 @@
+{
+  "slug": "nxp-semiconductors-lpcxpresso51u68",
+  "name": "LPCXPRESSO51U68",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "ids": {
+    "zephyr": [
+      "lpcxpresso51u68"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "LPC51U68",
+      "source": "zephyr:lpcxpresso51u68"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:lpcxpresso51u68"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:lpcxpresso51u68"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nxp/lpcxpresso51u68/doc/index.html",
+      "source": "zephyr:lpcxpresso51u68"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:lpcxpresso51u68",
+      "label": "Zephyr board definition (lpcxpresso51u68)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nxp/lpcxpresso51u68/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

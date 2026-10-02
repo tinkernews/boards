@@ -1,0 +1,56 @@
+{
+  "slug": "piconomix-px-her0",
+  "name": "Piconomix PX-HER0",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "piconomix",
+  "ids": {
+    "platformio": [
+      "piconomix_px_her0"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32L072RB",
+      "source": "platformio:piconomix_px_her0"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:piconomix_px_her0"
+    },
+    "clock": {
+      "value": "32 MHz",
+      "source": "platformio:piconomix_px_her0"
+    },
+    "upload_limits": {
+      "value": "128 KB flash, 20 KB RAM",
+      "source": "platformio:piconomix_px_her0"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Piconomix PX-HER0 product page",
+      "url": "https://piconomix.com/fwlib/_p_i_c_o_n_o_m_i_x__s_t_m32__h_e_r_o__b_o_a_r_d.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/piconomix_px_her0.html",
+      "source": "platformio:piconomix_px_her0"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:piconomix_px_her0",
+      "label": "PlatformIO board definition (piconomix_px_her0)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/piconomix_px_her0.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

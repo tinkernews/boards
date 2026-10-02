@@ -1,0 +1,59 @@
+{
+  "slug": "dongsen-tech-pocket-32",
+  "name": "Dongsen Tech Pocket 32",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "dongsen",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "pocket_32"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:pocket_32"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:pocket_32"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:pocket_32"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Dongsen Tech Pocket 32 product page",
+      "url": "http://dong-sen.com"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/pocket_32.html",
+      "source": "platformio:pocket_32"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/pocket_32.html",
+      "source": "platformio:pocket_32"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:pocket_32",
+      "label": "PlatformIO board definition (pocket_32)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/pocket_32.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,142 @@
+{
+  "slug": "openmv-h7",
+  "name": "OpenMV H7",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "openmv",
+  "ids": {
+    "circuitpython": [
+      "openmv_h7"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/openmv_h7/",
+      "source": "circuitpython:openmv_h7"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:openmv_h7",
+    "list": [
+      {
+        "pin": "PA05",
+        "names": [
+          "P6"
+        ]
+      },
+      {
+        "pin": "PB10",
+        "names": [
+          "P4",
+          "UART3_TX",
+          "I2C2_SCL"
+        ]
+      },
+      {
+        "pin": "PB11",
+        "names": [
+          "P5",
+          "UART3_RX",
+          "I2C2_SDA"
+        ]
+      },
+      {
+        "pin": "PB12",
+        "names": [
+          "P3",
+          "SPI2_NSS"
+        ]
+      },
+      {
+        "pin": "PB13",
+        "names": [
+          "P2",
+          "SPI2_SCK"
+        ]
+      },
+      {
+        "pin": "PB14",
+        "names": [
+          "P1",
+          "UART1_TX",
+          "SPI2_MISO"
+        ]
+      },
+      {
+        "pin": "PB15",
+        "names": [
+          "P0",
+          "UART1_RX",
+          "SPI2_MOSI"
+        ]
+      },
+      {
+        "pin": "PC00",
+        "names": [
+          "LED1",
+          "LED_RED"
+        ]
+      },
+      {
+        "pin": "PC01",
+        "names": [
+          "LED2",
+          "LED_GREEN"
+        ]
+      },
+      {
+        "pin": "PC02",
+        "names": [
+          "LED3",
+          "LED_BLUE"
+        ]
+      },
+      {
+        "pin": "PD12",
+        "names": [
+          "P7",
+          "I2C4_SCL"
+        ]
+      },
+      {
+        "pin": "PD13",
+        "names": [
+          "P8",
+          "I2C4_SDA"
+        ]
+      },
+      {
+        "pin": "PD14",
+        "names": [
+          "P9"
+        ]
+      },
+      {
+        "pin": "PE02",
+        "names": [
+          "LED4",
+          "LED_IR"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:openmv_h7",
+      "label": "CircuitPython board definition (openmv_h7)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/openmv_h7.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:openmv_h7",
+      "label": "CircuitPython pin definitions (openmv_h7)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/stm/boards/openmv_h7/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

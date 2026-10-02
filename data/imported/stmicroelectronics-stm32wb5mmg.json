@@ -1,0 +1,44 @@
+{
+  "slug": "stmicroelectronics-stm32wb5mmg",
+  "name": "STM32WB5MMG",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "zephyr": [
+      "stm32wb5mmg"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32WB55XX",
+      "source": "zephyr:stm32wb5mmg"
+    },
+    "ram": {
+      "value": "192 KB",
+      "source": "zephyr:stm32wb5mmg"
+    },
+    "flash": {
+      "value": "876 KB",
+      "source": "zephyr:stm32wb5mmg"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/stm32wb5mmg/doc/index.html",
+      "source": "zephyr:stm32wb5mmg"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:stm32wb5mmg",
+      "label": "Zephyr board definition (stm32wb5mmg)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/stm32wb5mmg/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

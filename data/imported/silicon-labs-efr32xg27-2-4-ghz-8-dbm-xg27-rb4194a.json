@@ -1,0 +1,44 @@
+{
+  "slug": "silicon-labs-efr32xg27-2-4-ghz-8-dbm-xg27-rb4194a",
+  "name": "EFR32xG27 2.4 GHz 8 dBm (xG27-RB4194A)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "silicon-labs",
+  "ids": {
+    "zephyr": [
+      "xg27_rb4194a"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "EFR32MG27C140F768IM40",
+      "source": "zephyr:xg27_rb4194a"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:xg27_rb4194a"
+    },
+    "flash": {
+      "value": "768 KB",
+      "source": "zephyr:xg27_rb4194a"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/silabs/radio_boards/xg27/doc/index.html",
+      "source": "zephyr:xg27_rb4194a"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:xg27_rb4194a",
+      "label": "Zephyr board definition (xg27_rb4194a)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/silabs/radio_boards/xg27/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

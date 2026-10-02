@@ -1,0 +1,57 @@
+{
+  "slug": "sparkfun-samd21-pro-rf",
+  "name": "SparkFun SAMD21 Pro RF",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sparkfun",
+  "chip": "atsamd21g18",
+  "ids": {
+    "platformio": [
+      "sparkfun_samd21_proRF"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAMD21G18",
+      "source": "platformio:sparkfun_samd21_prorf"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:sparkfun_samd21_prorf"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:sparkfun_samd21_prorf"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:sparkfun_samd21_prorf"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "SparkFun SAMD21 Pro RF product page",
+      "url": "https://www.sparkfun.com/products/14916"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelsam/sparkfun_samd21_proRF.html",
+      "source": "platformio:sparkfun_samd21_prorf"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:sparkfun_samd21_prorf",
+      "label": "PlatformIO board definition (sparkfun_samd21_proRF)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/sparkfun_samd21_proRF.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

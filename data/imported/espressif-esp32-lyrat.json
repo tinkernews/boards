@@ -1,0 +1,153 @@
+{
+  "slug": "espressif-esp32-lyrat",
+  "name": "ESP32-LyraT",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "espressif",
+  "chip": "esp32",
+  "ids": {
+    "circuitpython": [
+      "espressif_esp32_lyrat"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/espressif_esp32_lyrat/",
+      "source": "circuitpython:espressif_esp32_lyrat"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:espressif_esp32_lyrat",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "D0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "TX",
+          "D1"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "RX",
+          "D3"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "MOSI",
+          "D12"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "MISO",
+          "D13"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "SCK",
+          "D14"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "CS0",
+          "D15"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "SDA",
+          "D18"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "LED",
+          "L",
+          "D22"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "SCL",
+          "D23"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "D25"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "D26"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "D35"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "BUTTON",
+          "REC",
+          "SW36"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "BUTTON",
+          "MODE",
+          "SW39"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:espressif_esp32_lyrat",
+      "label": "CircuitPython board definition (espressif_esp32_lyrat)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/espressif_esp32_lyrat.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:espressif_esp32_lyrat",
+      "label": "CircuitPython pin definitions (espressif_esp32_lyrat)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/espressif_esp32_lyrat/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

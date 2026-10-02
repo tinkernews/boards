@@ -1,0 +1,64 @@
+{
+  "slug": "arduino-pro-mini",
+  "name": "Arduino Pro Mini",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "chip": "atmega328p",
+  "aliases": [
+    "Arduino Pro or Pro Mini ATmega328 (5V, 16 MHz)"
+  ],
+  "ids": {
+    "platformio": [
+      "pro16MHzatmega328",
+      "pro8MHzatmega328"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega328P",
+      "source": "platformio:pro16mhzatmega328"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:pro16mhzatmega328"
+    },
+    "upload_limits": {
+      "value": "30 KB flash, 2 KB RAM",
+      "source": "platformio:pro16mhzatmega328"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Arduino Pro Mini product page",
+      "url": "http://arduino.cc/en/Main/ArduinoBoardProMini"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/pro16MHzatmega328.html",
+      "source": "platformio:pro16mhzatmega328"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:pro16mhzatmega328",
+      "label": "PlatformIO board definition (pro16MHzatmega328)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/pro16MHzatmega328.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    },
+    {
+      "id": "platformio:pro8mhzatmega328",
+      "label": "PlatformIO board definition (pro8MHzatmega328)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/pro8MHzatmega328.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

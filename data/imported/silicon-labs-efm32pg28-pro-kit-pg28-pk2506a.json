@@ -1,0 +1,44 @@
+{
+  "slug": "silicon-labs-efm32pg28-pro-kit-pg28-pk2506a",
+  "name": "EFM32PG28 Pro Kit (PG28-PK2506A)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "silicon-labs",
+  "ids": {
+    "zephyr": [
+      "pg28_pk2506a"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "EFM32PG28B310F1024IM68",
+      "source": "zephyr:pg28_pk2506a"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:pg28_pk2506a"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:pg28_pk2506a"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/silabs/dev_kits/pg28_pk2506a/doc/index.html",
+      "source": "zephyr:pg28_pk2506a"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:pg28_pk2506a",
+      "label": "Zephyr board definition (pg28_pk2506a)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/silabs/dev_kits/pg28_pk2506a/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

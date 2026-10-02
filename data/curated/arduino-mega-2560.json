@@ -1,0 +1,161 @@
+{
+  "slug": "arduino-mega-2560",
+  "name": "Arduino Mega 2560",
+  "tier": "curated",
+  "kind": "mcu",
+  "maker": "arduino",
+  "family": "Arduino",
+  "chip": "atmega2560",
+  "released": "2010-09",
+  "status": "current",
+  "summary": "The big 8-bit Arduino: an ATmega2560 with 256 KB of flash, 54 digital pins, 16 analog inputs and four hardware serial ports.",
+  "aliases": [
+    "Arduino Mega 2560",
+    "Arduino Mega",
+    "Mega 2560",
+    "Arduino Mega2560",
+    "Arduino Mega 2560 Rev3"
+  ],
+  "ids": {
+    "platformio": [
+      "megaatmega2560"
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "by": "AI-assisted source check",
+    "at": "2026-10-01"
+  },
+  "specs": {
+    "chip": {
+      "value": "Microchip ATmega2560",
+      "source": "arduino-docs"
+    },
+    "cpu": {
+      "value": "8-bit AVR",
+      "source": "atmega2560"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "arduino-docs"
+    },
+    "ram": {
+      "value": "8 KB SRAM",
+      "source": "atmega2560"
+    },
+    "flash": {
+      "value": "256 KB (8 KB used by the bootloader)",
+      "source": "arduino-datasheet"
+    },
+    "eeprom": {
+      "value": "4 KB",
+      "source": "arduino-docs"
+    },
+    "gpio": {
+      "value": "54 digital I/O (15 PWM); 4 UARTs",
+      "source": "arduino-docs"
+    },
+    "analog": {
+      "value": "16 analog inputs (10-bit)",
+      "source": "atmega2560"
+    },
+    "io_voltage": {
+      "value": "5 V",
+      "source": "arduino-docs"
+    },
+    "input_voltage": {
+      "value": "7–12 V recommended via barrel jack or VIN; 5 V via USB",
+      "source": "arduino-datasheet"
+    },
+    "usb": {
+      "value": "USB-B via an ATmega16U2 (Rev3; ATmega8U2 on Rev1 and Rev2)",
+      "source": "arduino-datasheet"
+    },
+    "dimensions": {
+      "value": "101.5 × 53.3 mm, 37 g",
+      "source": "arduino-docs"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Product documentation, Arduino",
+      "url": "https://docs.arduino.cc/hardware/mega-2560/"
+    },
+    {
+      "kind": "datasheet",
+      "label": "Board datasheet",
+      "url": "https://docs.arduino.cc/resources/datasheets/A000067-datasheet.pdf"
+    },
+    {
+      "kind": "schematic",
+      "label": "Schematics",
+      "url": "https://docs.arduino.cc/resources/schematics/A000067-schematics.pdf"
+    },
+    {
+      "kind": "pinout",
+      "label": "Full pinout",
+      "url": "https://docs.arduino.cc/resources/pinouts/A000067-full-pinout.pdf"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Official Arduino core.",
+      "url": "https://docs.arduino.cc/software/ide/",
+      "source": "arduino-docs"
+    }
+  ],
+  "gotchas": [
+    {
+      "title": "I2C and SPI are on different pins",
+      "text": "SPI is on pins 50–53 (and the ICSP header), not D10–D13 as on the Uno, so Uno shields that use SPI on D10–D13 need rewiring; I2C is on pins 20 and 21.",
+      "source": "arduino-pinout"
+    },
+    {
+      "title": "5 V logic",
+      "text": "I/O is 5 V. Sensors and modules that run at 3.3 V (most modern ones) need level shifting on their inputs.",
+      "source": "arduino-docs"
+    }
+  ],
+  "commonsFile": "File:Arduino Mega2560.jpg",
+  "editorial": {
+    "history": "Introduced in September 2010 alongside the Uno, as an upgrade to the ATmega1280 Arduino Mega.",
+    "today": "Still the easy answer when a project needs many 5 V pins or several hardware serial ports, and a common basis for 3D-printer controller boards.",
+    "source": "arduino-blog-2010"
+  },
+  "sources": [
+    {
+      "id": "arduino-docs",
+      "label": "Arduino Mega 2560 Rev3, Arduino documentation",
+      "url": "https://docs.arduino.cc/hardware/mega-2560/",
+      "kind": "official"
+    },
+    {
+      "id": "arduino-datasheet",
+      "label": "Arduino Mega 2560 Rev3 datasheet (A000067)",
+      "url": "https://docs.arduino.cc/resources/datasheets/A000067-datasheet.pdf",
+      "kind": "official"
+    },
+    {
+      "id": "atmega2560",
+      "label": "ATmega2560 product page, Microchip",
+      "url": "https://www.microchip.com/en-us/product/ATmega2560",
+      "kind": "official"
+    },
+    {
+      "id": "arduino-pinout",
+      "label": "Arduino Mega 2560 Rev3 full pinout (A000067)",
+      "url": "https://docs.arduino.cc/resources/pinouts/A000067-full-pinout.pdf",
+      "kind": "official"
+    },
+    {
+      "id": "arduino-blog-2010",
+      "label": "Dinner is ready (Uno and Mega 2560 launch), Arduino blog, 24 September 2010 (archived)",
+      "url": "https://web.archive.org/web/2010/http://arduino.cc/blog/2010/09/24/dinner-is-ready/",
+      "kind": "official"
+    }
+  ],
+  "updatedAt": "2026-10-01T15:00:00.000Z"
+}

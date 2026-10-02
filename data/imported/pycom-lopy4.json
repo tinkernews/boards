@@ -1,0 +1,59 @@
+{
+  "slug": "pycom-lopy4",
+  "name": "Pycom LoPy4",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "pycom",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "lopy4"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:lopy4"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:lopy4"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 1.25 MB RAM",
+      "source": "platformio:lopy4"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Pycom LoPy4 product page",
+      "url": "https://pycom.io/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/lopy4.html",
+      "source": "platformio:lopy4"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/lopy4.html",
+      "source": "platformio:lopy4"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:lopy4",
+      "label": "PlatformIO board definition (lopy4)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/lopy4.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

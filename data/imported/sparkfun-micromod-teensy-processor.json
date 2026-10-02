@@ -1,0 +1,60 @@
+{
+  "slug": "sparkfun-micromod-teensy-processor",
+  "name": "MicroMod Teensy Processor",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sparkfun",
+  "ids": {
+    "circuitpython": [
+      "sparkfun_teensy_micromod"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/sparkfun_teensy_micromod/",
+      "source": "circuitpython:sparkfun_teensy_micromod"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:sparkfun_teensy_micromod",
+    "list": [
+      {
+        "pin": "GPIO_EMC_40",
+        "names": [
+          "USB_HOST_POWER"
+        ]
+      },
+      {
+        "pin": "USB_OTG2_DN",
+        "names": [
+          "USB_HOST_DM"
+        ]
+      },
+      {
+        "pin": "USB_OTG2_DP",
+        "names": [
+          "USB_HOST_DP"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:sparkfun_teensy_micromod",
+      "label": "CircuitPython board definition (sparkfun_teensy_micromod)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/sparkfun_teensy_micromod.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:sparkfun_teensy_micromod",
+      "label": "CircuitPython pin definitions (sparkfun_teensy_micromod)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/mimxrt10xx/boards/sparkfun_teensy_micromod/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

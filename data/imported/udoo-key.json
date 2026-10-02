@@ -1,0 +1,37 @@
+{
+  "slug": "udoo-key",
+  "name": "UDOO KEY",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "udoo",
+  "chip": "esp32",
+  "ids": {
+    "zephyr": [
+      "udoo_key"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "zephyr:udoo_key"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/udoo/udoo_key/doc/index.html",
+      "source": "zephyr:udoo_key"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:udoo_key",
+      "label": "Zephyr board definition (udoo_key)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/udoo/udoo_key/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

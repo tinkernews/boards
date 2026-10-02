@@ -1,0 +1,37 @@
+{
+  "slug": "vicharak-shrike-fi",
+  "name": "Shrike-fi",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "vicharak",
+  "chip": "esp32-s3",
+  "ids": {
+    "zephyr": [
+      "shrike_fi"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-S3",
+      "source": "zephyr:shrike_fi"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/vicharak/shrike_fi/doc/index.html",
+      "source": "zephyr:shrike_fi"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:shrike_fi",
+      "label": "Zephyr board definition (shrike_fi)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/vicharak/shrike_fi/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "sparkfun-red-v-things-plus",
+  "name": "RED-V Things Plus",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sparkfun",
+  "ids": {
+    "zephyr": [
+      "sparkfun_red_v_things_plus"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "FE310_G002",
+      "source": "zephyr:sparkfun_red_v_things_plus"
+    },
+    "ram": {
+      "value": "16 KB",
+      "source": "zephyr:sparkfun_red_v_things_plus"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/sparkfun/red_v_things_plus/doc/index.html",
+      "source": "zephyr:sparkfun_red_v_things_plus"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:sparkfun_red_v_things_plus",
+      "label": "Zephyr board definition (sparkfun_red_v_things_plus)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/sparkfun/red_v_things_plus/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

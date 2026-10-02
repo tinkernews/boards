@@ -1,0 +1,48 @@
+{
+  "slug": "u-blox-bmd-345-eval",
+  "name": "u-blox BMD-345-EVAL",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "u-blox",
+  "chip": "nrf52840",
+  "ids": {
+    "platformio": [
+      "ublox_bmd345eval_nrf52840"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52840",
+      "source": "platformio:ublox_bmd345eval_nrf52840"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:ublox_bmd345eval_nrf52840"
+    },
+    "clock": {
+      "value": "64 MHz",
+      "source": "platformio:ublox_bmd345eval_nrf52840"
+    },
+    "upload_limits": {
+      "value": "1 MB flash, 256 KB RAM",
+      "source": "platformio:ublox_bmd345eval_nrf52840"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "u-blox BMD-345-EVAL product page",
+      "url": "https://www.u-blox.com/en/product/bmd-34-series-open-cpu"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:ublox_bmd345eval_nrf52840",
+      "label": "PlatformIO board definition (ublox_bmd345eval_nrf52840)",
+      "url": "https://github.com/platformio/platform-nordicnrf52/blob/278176a7f7ffe2d001eb93eafa271c83b38222e4/boards/ublox_bmd345eval_nrf52840.json",
+      "kind": "import",
+      "revision": "278176a7f7ffe2d001eb93eafa271c83b38222e4"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,130 @@
+{
+  "slug": "xteink-x4",
+  "name": "Xteink X4",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "xteink",
+  "chip": "esp32-c3",
+  "ids": {
+    "circuitpython": [
+      "xteink_x4"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/xteink_x4/",
+      "source": "circuitpython:xteink_x4"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:xteink_x4",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "A0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "A1",
+          "BUTTON_ADC_1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "A2",
+          "BUTTON_ADC_2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "BUTTON",
+          "BOOT0"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "EPD_DC"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "EPD_RESET"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "EPD_BUSY"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "MISO",
+          "SD_MISO"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "SCK",
+          "EPD_SCK",
+          "D8"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "MOSI",
+          "EPD_MOSI",
+          "D10"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "SD_CS"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "RX",
+          "D20"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "EPD_CS"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:xteink_x4",
+      "label": "CircuitPython board definition (xteink_x4)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/xteink_x4.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:xteink_x4",
+      "label": "CircuitPython pin definitions (xteink_x4)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/xteink_x4/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

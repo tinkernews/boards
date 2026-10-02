@@ -1,0 +1,44 @@
+{
+  "slug": "nuvoton-npcm400-evb",
+  "name": "NPCM400_EVB",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nuvoton",
+  "ids": {
+    "zephyr": [
+      "npcm400_evb"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "NPCM400",
+      "source": "zephyr:npcm400_evb"
+    },
+    "ram": {
+      "value": "768 KB",
+      "source": "zephyr:npcm400_evb"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:npcm400_evb"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nuvoton/npcm400_evb/doc/index.html",
+      "source": "zephyr:npcm400_evb"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:npcm400_evb",
+      "label": "Zephyr board definition (npcm400_evb)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nuvoton/npcm400_evb/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

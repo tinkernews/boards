@@ -1,0 +1,44 @@
+{
+  "slug": "can-module-fop-usbcan-iso",
+  "name": "USBCAN ISO",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "can-module-fop",
+  "ids": {
+    "zephyr": [
+      "usbcan_iso"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F072XB",
+      "source": "zephyr:usbcan_iso"
+    },
+    "ram": {
+      "value": "16 KB",
+      "source": "zephyr:usbcan_iso"
+    },
+    "flash": {
+      "value": "128 KB",
+      "source": "zephyr:usbcan_iso"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/canmodule/usbcan_iso/doc/index.html",
+      "source": "zephyr:usbcan_iso"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:usbcan_iso",
+      "label": "Zephyr board definition (usbcan_iso)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/canmodule/usbcan_iso/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

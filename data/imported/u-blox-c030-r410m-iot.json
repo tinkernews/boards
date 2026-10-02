@@ -1,0 +1,47 @@
+{
+  "slug": "u-blox-c030-r410m-iot",
+  "name": "u-blox C030-R410M IoT",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "u-blox",
+  "ids": {
+    "platformio": [
+      "ublox_c030_r410m"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F437VG",
+      "source": "platformio:ublox_c030_r410m"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:ublox_c030_r410m"
+    },
+    "clock": {
+      "value": "180 MHz",
+      "source": "platformio:ublox_c030_r410m"
+    },
+    "upload_limits": {
+      "value": "1 MB flash, 256 KB RAM",
+      "source": "platformio:ublox_c030_r410m"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "u-blox C030-R410M IoT product page",
+      "url": "https://os.mbed.com/platforms/ublox-C030-R410M/"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:ublox_c030_r410m",
+      "label": "PlatformIO board definition (ublox_c030_r410m)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/ublox_c030_r410m.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

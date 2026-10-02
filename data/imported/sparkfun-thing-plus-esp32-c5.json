@@ -1,0 +1,37 @@
+{
+  "slug": "sparkfun-thing-plus-esp32-c5",
+  "name": "Thing Plus ESP32-C5",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sparkfun",
+  "ids": {
+    "micropython": [
+      "SPARKFUN_THINGPLUS_ESP32C5"
+    ]
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Thing Plus ESP32-C5 product page",
+      "url": "https://www.sparkfun.com/sparkfun-thing-plus-esp32-c5.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/SPARKFUN_THINGPLUS_ESP32C5/",
+      "source": "micropython:sparkfun_thingplus_esp32c5"
+    }
+  ],
+  "sources": [
+    {
+      "id": "micropython:sparkfun_thingplus_esp32c5",
+      "label": "MicroPython board definition (SPARKFUN_THINGPLUS_ESP32C5)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/esp32/boards/SPARKFUN_THINGPLUS_ESP32C5/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

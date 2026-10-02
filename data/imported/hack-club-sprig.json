@@ -1,0 +1,250 @@
+{
+  "slug": "hack-club-sprig",
+  "name": "Hack Club Sprig",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "hack-club",
+  "chip": "rp2040",
+  "ids": {
+    "circuitpython": [
+      "hack_club_sprig"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/hack_club_sprig/",
+      "source": "circuitpython:hack_club_sprig"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:hack_club_sprig",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "GP0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "GP1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "GP2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "GP3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "GP4",
+          "BLUE_LED"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "GP5",
+          "BUTTON_W"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "GP6",
+          "BUTTON_A"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "GP7",
+          "BUTTON_S"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "GP8",
+          "BUTTON_D"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "GP9",
+          "AUDIO_DIN"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "GP10",
+          "AUDIO_BCLK"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "GP11",
+          "AUDIO_LRCLK"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "GP12",
+          "BUTTON_I"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "GP13",
+          "BUTTON_J"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "GP14",
+          "BUTTON_K"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "GP15",
+          "BUTTON_L"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "GP16",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "GP17"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "GP18",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "GP19",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "GP20"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "GP21",
+          "CARD_CS"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "GP22"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "SMPS_MODE",
+          "GP23"
+        ]
+      },
+      {
+        "pin": "GPIO24",
+        "names": [
+          "VBUS_SENSE",
+          "GP24"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "LED",
+          "GP25"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "GP26_A0",
+          "GP26",
+          "A0"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "GP27_A1",
+          "GP27",
+          "A1"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "GP28_A2",
+          "GP28",
+          "A2",
+          "WHITE_LED"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "A3",
+          "VOLTAGE_MONITOR"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:hack_club_sprig",
+      "label": "CircuitPython board definition (hack_club_sprig)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/hack_club_sprig.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:hack_club_sprig",
+      "label": "CircuitPython pin definitions (hack_club_sprig)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/hack_club_sprig/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

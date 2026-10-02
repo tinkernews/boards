@@ -1,0 +1,37 @@
+{
+  "slug": "stmicroelectronics-discovery-l496g",
+  "name": "Discovery L496G",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "micropython": [
+      "STM32L496GDISC"
+    ]
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Discovery L496G product page",
+      "url": "https://www.st.com/en/evaluation-tools/32l496gdiscovery.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/STM32L496GDISC/",
+      "source": "micropython:stm32l496gdisc"
+    }
+  ],
+  "sources": [
+    {
+      "id": "micropython:stm32l496gdisc",
+      "label": "MicroPython board definition (STM32L496GDISC)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/stm32/boards/STM32L496GDISC/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

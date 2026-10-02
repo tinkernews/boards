@@ -1,0 +1,45 @@
+{
+  "slug": "longan-labs-shenzhen-longan-technology-co-ltd-canbed-rp2040",
+  "name": "CANBed RP2040",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "longan-labs-shenzhen-longan-technology-co-ltd",
+  "chip": "rp2040",
+  "ids": {
+    "zephyr": [
+      "canbed_rp2040"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "RP2040",
+      "source": "zephyr:canbed_rp2040"
+    },
+    "ram": {
+      "value": "264 KB",
+      "source": "zephyr:canbed_rp2040"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:canbed_rp2040"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/longan/canbed_rp2040/doc/index.html",
+      "source": "zephyr:canbed_rp2040"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:canbed_rp2040",
+      "label": "Zephyr board definition (canbed_rp2040)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/longan/canbed_rp2040/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

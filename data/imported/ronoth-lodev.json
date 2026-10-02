@@ -1,0 +1,44 @@
+{
+  "slug": "ronoth-lodev",
+  "name": "LoDev",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "ronoth",
+  "ids": {
+    "zephyr": [
+      "ronoth_lodev"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32L073XX",
+      "source": "zephyr:ronoth_lodev"
+    },
+    "ram": {
+      "value": "20 KB",
+      "source": "zephyr:ronoth_lodev"
+    },
+    "flash": {
+      "value": "192 KB",
+      "source": "zephyr:ronoth_lodev"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/ronoth/lodev/doc/index.html",
+      "source": "zephyr:ronoth_lodev"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:ronoth_lodev",
+      "label": "Zephyr board definition (ronoth_lodev)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/ronoth/lodev/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "lowpowerlab-mightyhat",
+  "name": "LowPowerLab MightyHat",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "lowpowerlab",
+  "chip": "atmega328p",
+  "ids": {
+    "platformio": [
+      "mightyhat"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega328P",
+      "source": "platformio:mightyhat"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:mightyhat"
+    },
+    "upload_limits": {
+      "value": "31 KB flash, 2 KB RAM",
+      "source": "platformio:mightyhat"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "LowPowerLab MightyHat product page",
+      "url": "https://lowpowerlab.com/shop/product/130"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/mightyhat.html",
+      "source": "platformio:mightyhat"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:mightyhat",
+      "label": "PlatformIO board definition (mightyhat)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/mightyhat.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "renesas-ra0e1-fast-prototype-board",
+  "name": "RA0E1 Fast Prototype Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "renesas",
+  "ids": {
+    "zephyr": [
+      "fpb_ra0e1"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "R7FA0E1073CFJ",
+      "source": "zephyr:fpb_ra0e1"
+    },
+    "ram": {
+      "value": "12 KB",
+      "source": "zephyr:fpb_ra0e1"
+    },
+    "flash": {
+      "value": "64 KB",
+      "source": "zephyr:fpb_ra0e1"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/renesas/fpb_ra0e1/doc/index.html",
+      "source": "zephyr:fpb_ra0e1"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:fpb_ra0e1",
+      "label": "Zephyr board definition (fpb_ra0e1)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/renesas/fpb_ra0e1/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

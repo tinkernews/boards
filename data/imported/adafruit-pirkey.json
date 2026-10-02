@@ -1,0 +1,76 @@
+{
+  "slug": "adafruit-pirkey",
+  "name": "Adafruit pIRkey",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "atsamd21e18",
+  "aliases": [
+    "pIRkey"
+  ],
+  "ids": {
+    "platformio": [
+      "adafruit_pirkey"
+    ],
+    "circuitpython": [
+      "pirkey_m0"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAMD21E18",
+      "source": "platformio:adafruit_pirkey"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:adafruit_pirkey"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:adafruit_pirkey"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:adafruit_pirkey"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Adafruit pIRkey product page",
+      "url": "https://www.adafruit.com/product/3364"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelsam/adafruit_pirkey.html",
+      "source": "platformio:adafruit_pirkey"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/pirkey_m0/",
+      "source": "circuitpython:pirkey_m0"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:adafruit_pirkey",
+      "label": "PlatformIO board definition (adafruit_pirkey)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/adafruit_pirkey.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    },
+    {
+      "id": "circuitpython:pirkey_m0",
+      "label": "CircuitPython board definition (pirkey_m0)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/pirkey_m0.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

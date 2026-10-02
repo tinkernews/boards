@@ -1,0 +1,193 @@
+{
+  "slug": "unexpected-maker-bling",
+  "name": "Unexpected Maker Bling",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "unexpected-maker",
+  "chip": "esp32-s3",
+  "ids": {
+    "circuitpython": [
+      "unexpectedmaker_bling"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/unexpectedmaker_bling/",
+      "source": "circuitpython:unexpectedmaker_bling"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:unexpectedmaker_bling",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "IO0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "I2S_AMP_LRCLK"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "I2S_AMP_BCLK"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "I2S_AMP_DATA"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "I2S_AMP_SD"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "MATRIX_POWER"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "RTC_INT"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "BUTTON_B"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "BUTTON_A"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "VBUS_SENSE"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "VBAT_VOLTAGE"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "MATRIX_DATA"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "SD_CS"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "BUTTON_C"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "BUTTON_D"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "MO"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "CLK"
+        ]
+      },
+      {
+        "pin": "GPIO37",
+        "names": [
+          "MI"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "SD_DETECT"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "I2S_MIC_SEL"
+        ]
+      },
+      {
+        "pin": "GPIO40",
+        "names": [
+          "I2S_MIC_WS"
+        ]
+      },
+      {
+        "pin": "GPIO41",
+        "names": [
+          "I2S_MIC_DATA"
+        ]
+      },
+      {
+        "pin": "GPIO42",
+        "names": [
+          "I2S_MIC_BCLK"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:unexpectedmaker_bling",
+      "label": "CircuitPython board definition (unexpectedmaker_bling)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/unexpectedmaker_bling.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:unexpectedmaker_bling",
+      "label": "CircuitPython pin definitions (unexpectedmaker_bling)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/unexpectedmaker_bling/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

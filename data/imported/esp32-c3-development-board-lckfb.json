@@ -1,0 +1,37 @@
+{
+  "slug": "esp32-c3-development-board-lckfb",
+  "name": "ESP32-C3 Development Board (LCKFB)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "generic",
+  "chip": "esp32-c3",
+  "ids": {
+    "zephyr": [
+      "esp32c3_lckfb"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-C3",
+      "source": "zephyr:esp32c3_lckfb"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/others/esp32c3_lckfb/doc/index.html",
+      "source": "zephyr:esp32c3_lckfb"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:esp32c3_lckfb",
+      "label": "Zephyr board definition (esp32c3_lckfb)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/others/esp32c3_lckfb/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,308 @@
+{
+  "slug": "makerdiary-nrf52840-connect-kit",
+  "name": "nRF52840 Connect Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "makerdiary",
+  "chip": "nrf52840",
+  "ids": {
+    "circuitpython": [
+      "makerdiary_nrf52840_connectkit"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/makerdiary_nrf52840_connectkit/",
+      "source": "circuitpython:makerdiary_nrf52840_connectkit"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:makerdiary_nrf52840_connectkit",
+    "list": [
+      {
+        "pin": "P0_02",
+        "names": [
+          "A0"
+        ]
+      },
+      {
+        "pin": "P0_03",
+        "names": [
+          "P3",
+          "A1"
+        ]
+      },
+      {
+        "pin": "P0_04",
+        "names": [
+          "P4",
+          "A2"
+        ]
+      },
+      {
+        "pin": "P0_05",
+        "names": [
+          "P5",
+          "A3"
+        ]
+      },
+      {
+        "pin": "P0_06",
+        "names": [
+          "P6"
+        ]
+      },
+      {
+        "pin": "P0_07",
+        "names": [
+          "P7"
+        ]
+      },
+      {
+        "pin": "P0_08",
+        "names": [
+          "P8"
+        ]
+      },
+      {
+        "pin": "P0_09",
+        "names": [
+          "P9"
+        ]
+      },
+      {
+        "pin": "P0_10",
+        "names": [
+          "P10"
+        ]
+      },
+      {
+        "pin": "P0_11",
+        "names": [
+          "P11"
+        ]
+      },
+      {
+        "pin": "P0_12",
+        "names": [
+          "P12",
+          "RX"
+        ]
+      },
+      {
+        "pin": "P0_13",
+        "names": [
+          "P13",
+          "TX"
+        ]
+      },
+      {
+        "pin": "P0_14",
+        "names": [
+          "P14",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "P0_15",
+        "names": [
+          "P15",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "P0_16",
+        "names": [
+          "P16",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "P0_18",
+        "names": [
+          "P18",
+          "RESET"
+        ]
+      },
+      {
+        "pin": "P0_24",
+        "names": [
+          "P24",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "P0_25",
+        "names": [
+          "P25",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "P0_26",
+        "names": [
+          "P26"
+        ]
+      },
+      {
+        "pin": "P0_27",
+        "names": [
+          "P27"
+        ]
+      },
+      {
+        "pin": "P0_28",
+        "names": [
+          "P28",
+          "A4"
+        ]
+      },
+      {
+        "pin": "P0_29",
+        "names": [
+          "P29",
+          "A5"
+        ]
+      },
+      {
+        "pin": "P0_30",
+        "names": [
+          "P30",
+          "A6"
+        ]
+      },
+      {
+        "pin": "P0_31",
+        "names": [
+          "P31",
+          "A7"
+        ]
+      },
+      {
+        "pin": "P1_00",
+        "names": [
+          "P32",
+          "USER"
+        ]
+      },
+      {
+        "pin": "P1_01",
+        "names": [
+          "P33"
+        ]
+      },
+      {
+        "pin": "P1_02",
+        "names": [
+          "P34"
+        ]
+      },
+      {
+        "pin": "P1_03",
+        "names": [
+          "P35"
+        ]
+      },
+      {
+        "pin": "P1_04",
+        "names": [
+          "P36"
+        ]
+      },
+      {
+        "pin": "P1_05",
+        "names": [
+          "P37"
+        ]
+      },
+      {
+        "pin": "P1_06",
+        "names": [
+          "P38"
+        ]
+      },
+      {
+        "pin": "P1_07",
+        "names": [
+          "P39"
+        ]
+      },
+      {
+        "pin": "P1_08",
+        "names": [
+          "P40"
+        ]
+      },
+      {
+        "pin": "P1_09",
+        "names": [
+          "P41"
+        ]
+      },
+      {
+        "pin": "P1_10",
+        "names": [
+          "P42",
+          "LED1",
+          "RED_LED"
+        ]
+      },
+      {
+        "pin": "P1_11",
+        "names": [
+          "P43",
+          "LED2",
+          "GREEN_LED"
+        ]
+      },
+      {
+        "pin": "P1_12",
+        "names": [
+          "P44",
+          "LED3",
+          "BLUE_LED"
+        ]
+      },
+      {
+        "pin": "P1_13",
+        "names": [
+          "P45",
+          "MODE"
+        ]
+      },
+      {
+        "pin": "P1_14",
+        "names": [
+          "P46",
+          "MEAS_EN"
+        ]
+      },
+      {
+        "pin": "P1_15",
+        "names": [
+          "P47",
+          "LED0"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:makerdiary_nrf52840_connectkit",
+      "label": "CircuitPython board definition (makerdiary_nrf52840_connectkit)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/makerdiary_nrf52840_connectkit.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:makerdiary_nrf52840_connectkit",
+      "label": "CircuitPython pin definitions (makerdiary_nrf52840_connectkit)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/nordic/boards/makerdiary_nrf52840_connectkit/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

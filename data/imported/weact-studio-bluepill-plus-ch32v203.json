@@ -1,0 +1,44 @@
+{
+  "slug": "weact-studio-bluepill-plus-ch32v203",
+  "name": "BluePill Plus CH32V203",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "weact",
+  "ids": {
+    "zephyr": [
+      "bluepillplus_ch32v203"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "CH32V203",
+      "source": "zephyr:bluepillplus_ch32v203"
+    },
+    "ram": {
+      "value": "20 KB",
+      "source": "zephyr:bluepillplus_ch32v203"
+    },
+    "flash": {
+      "value": "224 KB",
+      "source": "zephyr:bluepillplus_ch32v203"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/weact/bluepillplus_ch32v203/doc/index.html",
+      "source": "zephyr:bluepillplus_ch32v203"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:bluepillplus_ch32v203",
+      "label": "Zephyr board definition (bluepillplus_ch32v203)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/weact/bluepillplus_ch32v203/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,99 @@
+{
+  "slug": "stmicroelectronics-st-nucleo-g0b1re",
+  "name": "ST Nucleo G0B1RE",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "aliases": [
+    "Nucleo G0B1RE"
+  ],
+  "ids": {
+    "platformio": [
+      "nucleo_g0b1re"
+    ],
+    "zephyr": [
+      "nucleo_g0b1re"
+    ],
+    "micropython": [
+      "NUCLEO_G0B1RE"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32G0B1RET6",
+      "source": "platformio:nucleo_g0b1re"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:nucleo_g0b1re"
+    },
+    "clock": {
+      "value": "64 MHz",
+      "source": "platformio:nucleo_g0b1re"
+    },
+    "upload_limits": {
+      "value": "512 KB flash, 144 KB RAM",
+      "source": "platformio:nucleo_g0b1re"
+    },
+    "ram": {
+      "value": "144 KB",
+      "source": "zephyr:nucleo_g0b1re"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:nucleo_g0b1re"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ST Nucleo G0B1RE product page",
+      "url": "https://www.st.com/en/evaluation-tools/nucleo-g0b1re.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/nucleo_g0b1re.html",
+      "source": "platformio:nucleo_g0b1re"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/nucleo_g0b1re/doc/index.html",
+      "source": "zephyr:nucleo_g0b1re"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/NUCLEO_G0B1RE/",
+      "source": "micropython:nucleo_g0b1re"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:nucleo_g0b1re",
+      "label": "PlatformIO board definition (nucleo_g0b1re)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/nucleo_g0b1re.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    },
+    {
+      "id": "zephyr:nucleo_g0b1re",
+      "label": "Zephyr board definition (nucleo_g0b1re)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/nucleo_g0b1re/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "micropython:nucleo_g0b1re",
+      "label": "MicroPython board definition (NUCLEO_G0B1RE)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/stm32/boards/NUCLEO_G0B1RE/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

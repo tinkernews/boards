@@ -1,0 +1,44 @@
+{
+  "slug": "we-ophelia-i-ev-nrf52805",
+  "name": "Ophelia-I EV NRF52805",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "we",
+  "ids": {
+    "zephyr": [
+      "we_ophelia1ev"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "NRF52805",
+      "source": "zephyr:we_ophelia1ev"
+    },
+    "ram": {
+      "value": "24 KB",
+      "source": "zephyr:we_ophelia1ev"
+    },
+    "flash": {
+      "value": "192 KB",
+      "source": "zephyr:we_ophelia1ev"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/we/ophelia1ev/doc/index.html",
+      "source": "zephyr:we_ophelia1ev"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:we_ophelia1ev",
+      "label": "Zephyr board definition (we_ophelia1ev)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/we/ophelia1ev/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

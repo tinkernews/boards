@@ -1,0 +1,127 @@
+{
+  "slug": "adafruit-trrs-trinkey",
+  "name": "TRRS Trinkey",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "atsamd21e18",
+  "ids": {
+    "zephyr": [
+      "adafruit_trrs_trinkey"
+    ],
+    "circuitpython": [
+      "adafruit_trrs_trinkey_m0"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAMD21E18",
+      "source": "zephyr:adafruit_trrs_trinkey"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:adafruit_trrs_trinkey"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:adafruit_trrs_trinkey"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/adafruit/trrs_trinkey/doc/index.html",
+      "source": "zephyr:adafruit_trrs_trinkey"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/adafruit_trrs_trinkey_m0/",
+      "source": "circuitpython:adafruit_trrs_trinkey_m0"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:adafruit_trrs_trinkey_m0",
+    "list": [
+      {
+        "pin": "PA01",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "PA02",
+        "names": [
+          "TIP"
+        ]
+      },
+      {
+        "pin": "PA03",
+        "names": [
+          "TIP_SWITCH"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "RING_2"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "SLEEVE"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "RING_1"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "RING_1_SWITCH"
+        ]
+      },
+      {
+        "pin": "PA08",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PA09",
+        "names": [
+          "SCL"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "zephyr:adafruit_trrs_trinkey",
+      "label": "Zephyr board definition (adafruit_trrs_trinkey)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/adafruit/trrs_trinkey/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "circuitpython:adafruit_trrs_trinkey_m0",
+      "label": "CircuitPython board definition (adafruit_trrs_trinkey_m0)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/adafruit_trrs_trinkey_m0.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:adafruit_trrs_trinkey_m0",
+      "label": "CircuitPython pin definitions (adafruit_trrs_trinkey_m0)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/adafruit_trrs_trinkey_m0/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

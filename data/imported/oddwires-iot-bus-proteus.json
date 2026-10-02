@@ -1,0 +1,59 @@
+{
+  "slug": "oddwires-iot-bus-proteus",
+  "name": "oddWires IoT-Bus Proteus",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "oddwires",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "iotbusproteus"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:iotbusproteus"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:iotbusproteus"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:iotbusproteus"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "oddWires IoT-Bus Proteus product page",
+      "url": "http://www.oddwires.com/proteus-iot-bus-esp32-microprocessor-wi-fi-and-bluetooth-with-prototype-board-form-factor/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/iotbusproteus.html",
+      "source": "platformio:iotbusproteus"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/iotbusproteus.html",
+      "source": "platformio:iotbusproteus"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:iotbusproteus",
+      "label": "PlatformIO board definition (iotbusproteus)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/iotbusproteus.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

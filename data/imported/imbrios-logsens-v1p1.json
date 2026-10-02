@@ -1,0 +1,59 @@
+{
+  "slug": "imbrios-logsens-v1p1",
+  "name": "Imbrios LogSens V1P1",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "imbrios",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "imbrios-logsens-v1p1"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:imbrios-logsens-v1p1"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:imbrios-logsens-v1p1"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:imbrios-logsens-v1p1"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Imbrios LogSens V1P1 product page",
+      "url": "https://www.imbrios.com/products/logsens"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/imbrios-logsens-v1p1.html",
+      "source": "platformio:imbrios-logsens-v1p1"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/imbrios-logsens-v1p1.html",
+      "source": "platformio:imbrios-logsens-v1p1"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:imbrios-logsens-v1p1",
+      "label": "PlatformIO board definition (imbrios-logsens-v1p1)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/imbrios-logsens-v1p1.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

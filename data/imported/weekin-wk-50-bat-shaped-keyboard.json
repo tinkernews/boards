@@ -1,0 +1,187 @@
+{
+  "slug": "weekin-wk-50-bat-shaped-keyboard",
+  "name": "WK-50 Bat Shaped Keyboard",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "weekin",
+  "chip": "rp2040",
+  "ids": {
+    "circuitpython": [
+      "wk-50"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/wk-50/",
+      "source": "circuitpython:wk-50"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:wk-50",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "COL13"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "COL12"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "COL11"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "COL10"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "COL9"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "COL8"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "COL7"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "COL6"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "ROW1"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "ROW0"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "ENC1"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "ENC0"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "ROW2"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "ROW3"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "XY_NCS"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "XY_SCLK"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "XY_SDIO"
+        ]
+      },
+      {
+        "pin": "GPIO24",
+        "names": [
+          "COL5"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "COL4"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "COL3"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "COL2"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "COL1"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "COL0"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:wk-50",
+      "label": "CircuitPython board definition (wk-50)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/wk-50.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:wk-50",
+      "label": "CircuitPython pin definitions (wk-50)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/wk-50/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

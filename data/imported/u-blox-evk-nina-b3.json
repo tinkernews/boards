@@ -1,0 +1,68 @@
+{
+  "slug": "u-blox-evk-nina-b3",
+  "name": "EVK-NINA-B3",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "u-blox",
+  "chip": "nrf52840",
+  "ids": {
+    "zephyr": [
+      "ubx_evkninab3"
+    ],
+    "micropython": [
+      "EVK_NINA_B3"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52840",
+      "source": "zephyr:ubx_evkninab3"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:ubx_evkninab3"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:ubx_evkninab3"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "EVK-NINA-B3 product page",
+      "url": "https://www.u-blox.com/en/product/evk-nina-b3"
+    }
+  ],
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/u-blox/ubx_evkninab3/doc/index.html",
+      "source": "zephyr:ubx_evkninab3"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/EVK_NINA_B3/",
+      "source": "micropython:evk_nina_b3"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:ubx_evkninab3",
+      "label": "Zephyr board definition (ubx_evkninab3)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/u-blox/ubx_evkninab3/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "micropython:evk_nina_b3",
+      "label": "MicroPython board definition (EVK_NINA_B3)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/nrf/boards/EVK_NINA_B3/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

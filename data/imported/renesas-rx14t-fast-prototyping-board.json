@@ -1,0 +1,44 @@
+{
+  "slug": "renesas-rx14t-fast-prototyping-board",
+  "name": "RX14T Fast Prototyping Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "renesas",
+  "ids": {
+    "zephyr": [
+      "fpb_rx14t"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "R5F514T5AMFM",
+      "source": "zephyr:fpb_rx14t"
+    },
+    "ram": {
+      "value": "12 KB",
+      "source": "zephyr:fpb_rx14t"
+    },
+    "flash": {
+      "value": "128 KB",
+      "source": "zephyr:fpb_rx14t"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/renesas/fpb_rx14t/doc/index.html",
+      "source": "zephyr:fpb_rx14t"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:fpb_rx14t",
+      "label": "Zephyr board definition (fpb_rx14t)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/renesas/fpb_rx14t/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

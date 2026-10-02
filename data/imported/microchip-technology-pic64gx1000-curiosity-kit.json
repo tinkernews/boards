@@ -1,0 +1,40 @@
+{
+  "slug": "microchip-technology-pic64gx1000-curiosity-kit",
+  "name": "PIC64GX1000 Curiosity kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "ids": {
+    "zephyr": [
+      "pic64gx_curiosity_kit"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "PIC64GX1000",
+      "source": "zephyr:pic64gx_curiosity_kit"
+    },
+    "ram": {
+      "value": "1024 KB",
+      "source": "zephyr:pic64gx_curiosity_kit"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/microchip/pic64gx_curiosity_kit/doc/index.html",
+      "source": "zephyr:pic64gx_curiosity_kit"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:pic64gx_curiosity_kit",
+      "label": "Zephyr board definition (pic64gx_curiosity_kit)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/microchip/pic64gx_curiosity_kit/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

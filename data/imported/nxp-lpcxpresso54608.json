@@ -1,0 +1,47 @@
+{
+  "slug": "nxp-lpcxpresso54608",
+  "name": "NXP LPCXpresso54608",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "ids": {
+    "platformio": [
+      "lpc546xx"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "LPC54608ET512",
+      "source": "platformio:lpc546xx"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:lpc546xx"
+    },
+    "clock": {
+      "value": "180 MHz",
+      "source": "platformio:lpc546xx"
+    },
+    "upload_limits": {
+      "value": "512 KB flash, 200 KB RAM",
+      "source": "platformio:lpc546xx"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "NXP LPCXpresso54608 product page",
+      "url": "https://os.mbed.com/platforms/LPCXpresso54608/"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:lpc546xx",
+      "label": "PlatformIO board definition (lpc546xx)",
+      "url": "https://github.com/platformio/platform-nxplpc/blob/7fe287fac83ec5cfcf8b5ec7e36d43b5a17cace8/boards/lpc546xx.json",
+      "kind": "import",
+      "revision": "7fe287fac83ec5cfcf8b5ec7e36d43b5a17cace8"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,197 @@
+{
+  "slug": "adafruit-magtag-2-9-grayscale-e-ink-wifi-display",
+  "name": "MagTag - 2.9\" Grayscale E-Ink WiFi Display",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "esp32-s2",
+  "ids": {
+    "circuitpython": [
+      "adafruit_magtag_2.9_grayscale"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/adafruit_magtag_2.9_grayscale/",
+      "source": "circuitpython:adafruit_magtag_2.9_grayscale"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:adafruit_magtag_2.9_grayscale",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "BOOT0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "NEOPIXEL",
+          "D1"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "LIGHT",
+          "A3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "VOLTAGE_MONITOR",
+          "BATTERY"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "EPD_BUSY"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "EPD_RESET"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "EPD_DC"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "EPD_CS"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "ACCELEROMETER_INTERRUPT"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "D10"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "BUTTON_D",
+          "D11"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "BUTTON_C",
+          "D12"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "LED",
+          "D13"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "BUTTON_B",
+          "D14"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "BUTTON_A",
+          "D15"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "SPEAKER_ENABLE"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "SPEAKER"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "A1",
+          "AD1"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "NEOPIXEL_POWER_INVERTED",
+          "NEOPIXEL_POWER"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "EPD_MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "EPD_SCK"
+        ]
+      },
+      {
+        "pin": "GPIO37",
+        "names": [
+          "EPD_MISO"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:adafruit_magtag_2.9_grayscale",
+      "label": "CircuitPython board definition (adafruit_magtag_2.9_grayscale)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/adafruit_magtag_2.9_grayscale.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:adafruit_magtag_2.9_grayscale",
+      "label": "CircuitPython pin definitions (adafruit_magtag_2.9_grayscale)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/adafruit_magtag_2.9_grayscale/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "microchip-technology-atmega6490-a",
+  "name": "ATmega6490/A",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "ids": {
+    "platformio": [
+      "ATmega6490"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATMEGA6490",
+      "source": "platformio:atmega6490"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:atmega6490"
+    },
+    "upload_limits": {
+      "value": "64 KB flash, 4 KB RAM",
+      "source": "platformio:atmega6490"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ATmega6490/A product page",
+      "url": "https://www.microchip.com/wwwproducts/en/ATmega6490"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/ATmega6490.html",
+      "source": "platformio:atmega6490"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:atmega6490",
+      "label": "PlatformIO board definition (ATmega6490)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/ATmega6490.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

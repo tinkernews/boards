@@ -1,0 +1,329 @@
+{
+  "slug": "makerdiary-nrf52840-m-2-developer-kit",
+  "name": "nRF52840 M.2 Developer Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "makerdiary",
+  "chip": "nrf52840",
+  "ids": {
+    "circuitpython": [
+      "makerdiary_nrf52840_m2_devkit"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/makerdiary_nrf52840_m2_devkit/",
+      "source": "circuitpython:makerdiary_nrf52840_m2_devkit"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:makerdiary_nrf52840_m2_devkit",
+    "list": [
+      {
+        "pin": "P0_02",
+        "names": [
+          "AIN0",
+          "P2",
+          "A0"
+        ]
+      },
+      {
+        "pin": "P0_03",
+        "names": [
+          "AIN1",
+          "P3",
+          "A1"
+        ]
+      },
+      {
+        "pin": "P0_04",
+        "names": [
+          "AIN2",
+          "AREF",
+          "P4",
+          "A5"
+        ]
+      },
+      {
+        "pin": "P0_05",
+        "names": [
+          "AIN3",
+          "VDIV",
+          "P5"
+        ]
+      },
+      {
+        "pin": "P0_06",
+        "names": [
+          "P6",
+          "LCD_CS"
+        ]
+      },
+      {
+        "pin": "P0_07",
+        "names": [
+          "P7"
+        ]
+      },
+      {
+        "pin": "P0_08",
+        "names": [
+          "P8",
+          "LCD_DC"
+        ]
+      },
+      {
+        "pin": "P0_09",
+        "names": [
+          "NFC1",
+          "P9"
+        ]
+      },
+      {
+        "pin": "P0_10",
+        "names": [
+          "NFC2",
+          "P10"
+        ]
+      },
+      {
+        "pin": "P0_11",
+        "names": [
+          "P11",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "P0_12",
+        "names": [
+          "P12",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "P0_13",
+        "names": [
+          "P13"
+        ]
+      },
+      {
+        "pin": "P0_14",
+        "names": [
+          "P14"
+        ]
+      },
+      {
+        "pin": "P0_15",
+        "names": [
+          "P15",
+          "D0",
+          "RX"
+        ]
+      },
+      {
+        "pin": "P0_16",
+        "names": [
+          "P16",
+          "D1",
+          "TX"
+        ]
+      },
+      {
+        "pin": "P0_17",
+        "names": [
+          "P17"
+        ]
+      },
+      {
+        "pin": "P0_18",
+        "names": [
+          "P18"
+        ]
+      },
+      {
+        "pin": "P0_19",
+        "names": [
+          "P19",
+          "D2",
+          "BUTTON_USR"
+        ]
+      },
+      {
+        "pin": "P0_20",
+        "names": [
+          "P20",
+          "D3",
+          "LCD_BL"
+        ]
+      },
+      {
+        "pin": "P0_21",
+        "names": [
+          "P21",
+          "D4"
+        ]
+      },
+      {
+        "pin": "P0_22",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "P0_23",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "P0_24",
+        "names": [
+          "D7"
+        ]
+      },
+      {
+        "pin": "P0_25",
+        "names": [
+          "P25"
+        ]
+      },
+      {
+        "pin": "P0_26",
+        "names": [
+          "P26",
+          "A4"
+        ]
+      },
+      {
+        "pin": "P0_27",
+        "names": [
+          "P27",
+          "A3"
+        ]
+      },
+      {
+        "pin": "P0_28",
+        "names": [
+          "AIN4",
+          "P28",
+          "A2"
+        ]
+      },
+      {
+        "pin": "P0_29",
+        "names": [
+          "AIN5",
+          "P29",
+          "LED_G"
+        ]
+      },
+      {
+        "pin": "P0_30",
+        "names": [
+          "AIN6",
+          "P30",
+          "LED_R"
+        ]
+      },
+      {
+        "pin": "P0_31",
+        "names": [
+          "AIN7",
+          "P31",
+          "LED_B"
+        ]
+      },
+      {
+        "pin": "P1_00",
+        "names": [
+          "P1_0",
+          "D8"
+        ]
+      },
+      {
+        "pin": "P1_01",
+        "names": [
+          "P1_1",
+          "D9"
+        ]
+      },
+      {
+        "pin": "P1_02",
+        "names": [
+          "P1_2",
+          "D10"
+        ]
+      },
+      {
+        "pin": "P1_03",
+        "names": [
+          "P1_3",
+          "D11"
+        ]
+      },
+      {
+        "pin": "P1_04",
+        "names": [
+          "P1_4",
+          "D12"
+        ]
+      },
+      {
+        "pin": "P1_05",
+        "names": [
+          "P1_5",
+          "D14",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "P1_06",
+        "names": [
+          "P1_6",
+          "D15",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "P1_07",
+        "names": [
+          "P1_7",
+          "D13"
+        ]
+      },
+      {
+        "pin": "P1_08",
+        "names": [
+          "P1_8",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "P1_09",
+        "names": [
+          "P1_9",
+          "LCD_RST"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:makerdiary_nrf52840_m2_devkit",
+      "label": "CircuitPython board definition (makerdiary_nrf52840_m2_devkit)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/makerdiary_nrf52840_m2_devkit.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:makerdiary_nrf52840_m2_devkit",
+      "label": "CircuitPython pin definitions (makerdiary_nrf52840_m2_devkit)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/nordic/boards/makerdiary_nrf52840_m2_devkit/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

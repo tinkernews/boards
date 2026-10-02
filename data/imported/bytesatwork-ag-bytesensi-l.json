@@ -1,0 +1,45 @@
+{
+  "slug": "bytesatwork-ag-bytesensi-l",
+  "name": "byteSENSI-L",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "bytesatwork-ag",
+  "chip": "nrf52832",
+  "ids": {
+    "zephyr": [
+      "bytesensi_l"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52832",
+      "source": "zephyr:bytesensi_l"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:bytesensi_l"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:bytesensi_l"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/bytesatwork/bytesensi_l/doc/index.html",
+      "source": "zephyr:bytesensi_l"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:bytesensi_l",
+      "label": "Zephyr board definition (bytesensi_l)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/bytesatwork/bytesensi_l/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

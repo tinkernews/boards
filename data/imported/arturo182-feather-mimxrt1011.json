@@ -1,0 +1,30 @@
+{
+  "slug": "arturo182-feather-mimxrt1011",
+  "name": "Feather MIMXRT1011",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arturo182",
+  "ids": {
+    "circuitpython": [
+      "feather_mimxrt1011"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/feather_mimxrt1011/",
+      "source": "circuitpython:feather_mimxrt1011"
+    }
+  ],
+  "sources": [
+    {
+      "id": "circuitpython:feather_mimxrt1011",
+      "label": "CircuitPython board definition (feather_mimxrt1011)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/feather_mimxrt1011.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

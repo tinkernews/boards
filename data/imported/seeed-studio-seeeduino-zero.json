@@ -1,0 +1,57 @@
+{
+  "slug": "seeed-studio-seeeduino-zero",
+  "name": "Seeeduino Zero",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "seeed",
+  "chip": "atsamd21g18",
+  "ids": {
+    "platformio": [
+      "seeed_zero"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAMD21G18",
+      "source": "platformio:seeed_zero"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:seeed_zero"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:seeed_zero"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:seeed_zero"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Seeeduino Zero product page",
+      "url": "https://www.seeedstudio.com/Seeeduino-Cortex-M0-p-4070.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelsam/seeed_zero.html",
+      "source": "platformio:seeed_zero"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:seeed_zero",
+      "label": "PlatformIO board definition (seeed_zero)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/seeed_zero.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

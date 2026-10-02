@@ -1,0 +1,55 @@
+{
+  "slug": "adafruit-pygamer",
+  "name": "PyGamer",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "atsamd51j19",
+  "ids": {
+    "circuitpython": [
+      "pygamer"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/pygamer/",
+      "source": "circuitpython:pygamer"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:pygamer",
+    "list": [
+      {
+        "pin": "PB05",
+        "names": [
+          "TFT_DC"
+        ]
+      },
+      {
+        "pin": "PB12",
+        "names": [
+          "TFT_CS"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:pygamer",
+      "label": "CircuitPython board definition (pygamer)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/pygamer.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:pygamer",
+      "label": "CircuitPython pin definitions (pygamer)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/pygamer/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

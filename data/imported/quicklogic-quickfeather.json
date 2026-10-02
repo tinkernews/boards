@@ -1,0 +1,36 @@
+{
+  "slug": "quicklogic-quickfeather",
+  "name": "QuickFeather",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "quicklogic",
+  "ids": {
+    "zephyr": [
+      "quick_feather"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "QUICKLOGIC_EOS_S3",
+      "source": "zephyr:quick_feather"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/quicklogic/quick_feather/doc/index.html",
+      "source": "zephyr:quick_feather"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:quick_feather",
+      "label": "Zephyr board definition (quick_feather)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/quicklogic/quick_feather/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

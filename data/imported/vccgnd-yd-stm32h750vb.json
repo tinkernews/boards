@@ -1,0 +1,45 @@
+{
+  "slug": "vccgnd-yd-stm32h750vb",
+  "name": "YD-STM32H750VB",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "vccgnd",
+  "chip": "stm32h750",
+  "ids": {
+    "zephyr": [
+      "yd_stm32h750vb"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32H750",
+      "source": "zephyr:yd_stm32h750vb"
+    },
+    "ram": {
+      "value": "1024 KB",
+      "source": "zephyr:yd_stm32h750vb"
+    },
+    "flash": {
+      "value": "128 KB",
+      "source": "zephyr:yd_stm32h750vb"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/vcc-gnd/yd_stm32h750vb/doc/index.html",
+      "source": "zephyr:yd_stm32h750vb"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:yd_stm32h750vb",
+      "label": "Zephyr board definition (yd_stm32h750vb)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/vcc-gnd/yd_stm32h750vb/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

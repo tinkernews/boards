@@ -1,0 +1,44 @@
+{
+  "slug": "raytac-an54lq-db-15",
+  "name": "AN54LQ-DB-15",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "raytac",
+  "ids": {
+    "zephyr": [
+      "raytac_an54lq_db_15"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "NRF54L15",
+      "source": "zephyr:raytac_an54lq_db_15"
+    },
+    "ram": {
+      "value": "188 KB",
+      "source": "zephyr:raytac_an54lq_db_15"
+    },
+    "flash": {
+      "value": "1.39 MB",
+      "source": "zephyr:raytac_an54lq_db_15"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/raytac/an54lq_db_15/doc/index.html",
+      "source": "zephyr:raytac_an54lq_db_15"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:raytac_an54lq_db_15",
+      "label": "Zephyr board definition (raytac_an54lq_db_15)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/raytac/an54lq_db_15/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

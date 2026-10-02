@@ -1,0 +1,53 @@
+{
+  "slug": "bq-zum-bt-328",
+  "name": "BQ ZUM BT-328",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "bq",
+  "chip": "atmega328p",
+  "ids": {
+    "platformio": [
+      "zumbt328"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega328P",
+      "source": "platformio:zumbt328"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:zumbt328"
+    },
+    "upload_limits": {
+      "value": "28 KB flash, 2 KB RAM",
+      "source": "platformio:zumbt328"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "BQ ZUM BT-328 product page",
+      "url": "http://www.bq.com/gb/products/zum.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/zumbt328.html",
+      "source": "platformio:zumbt328"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:zumbt328",
+      "label": "PlatformIO board definition (zumbt328)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/zumbt328.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T11:14:32.694Z"
+}

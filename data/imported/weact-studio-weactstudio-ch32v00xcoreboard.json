@@ -1,0 +1,44 @@
+{
+  "slug": "weact-studio-weactstudio-ch32v00xcoreboard",
+  "name": "WeActStudio CH32V00xCoreBoard",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "weact",
+  "ids": {
+    "zephyr": [
+      "ch32v00x_core"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "CH32V006",
+      "source": "zephyr:ch32v00x_core"
+    },
+    "ram": {
+      "value": "8 KB",
+      "source": "zephyr:ch32v00x_core"
+    },
+    "flash": {
+      "value": "62 KB",
+      "source": "zephyr:ch32v00x_core"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/weact/ch32v00x_core/doc/index.html",
+      "source": "zephyr:ch32v00x_core"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:ch32v00x_core",
+      "label": "Zephyr board definition (ch32v00x_core)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/weact/ch32v00x_core/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

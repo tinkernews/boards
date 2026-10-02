@@ -1,0 +1,57 @@
+{
+  "slug": "arduino-mkr-fox-1200",
+  "name": "Arduino MKR FOX 1200",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "chip": "atsamd21g18",
+  "ids": {
+    "platformio": [
+      "mkrfox1200"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAMD21G18",
+      "source": "platformio:mkrfox1200"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:mkrfox1200"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:mkrfox1200"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:mkrfox1200"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Arduino MKR FOX 1200 product page",
+      "url": "https://www.arduino.cc/en/Main.ArduinoBoardMKRFox1200"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelsam/mkrfox1200.html",
+      "source": "platformio:mkrfox1200"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:mkrfox1200",
+      "label": "PlatformIO board definition (mkrfox1200)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/mkrfox1200.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

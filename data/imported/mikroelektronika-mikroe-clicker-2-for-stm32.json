@@ -1,0 +1,37 @@
+{
+  "slug": "mikroelektronika-mikroe-clicker-2-for-stm32",
+  "name": "MikroE Clicker 2 for STM32",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "mikroelektronika",
+  "ids": {
+    "micropython": [
+      "MIKROE_CLICKER2_STM32"
+    ]
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "MikroE Clicker 2 for STM32 product page",
+      "url": "https://www.mikroe.com/clicker-2-stm32f4"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/MIKROE_CLICKER2_STM32/",
+      "source": "micropython:mikroe_clicker2_stm32"
+    }
+  ],
+  "sources": [
+    {
+      "id": "micropython:mikroe_clicker2_stm32",
+      "label": "MicroPython board definition (MIKROE_CLICKER2_STM32)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/stm32/boards/MIKROE_CLICKER2_STM32/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

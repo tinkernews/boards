@@ -1,0 +1,49 @@
+{
+  "slug": "hardkernel-odroid-m1",
+  "name": "Odroid M1",
+  "tier": "imported",
+  "kind": "sbc",
+  "maker": "hardkernel",
+  "released": "2022",
+  "ids": {
+    "armbian": [
+      "odroidm1"
+    ],
+    "linux": [
+      "arch/arm64/boot/dts/rockchip/rk3568-odroid-m1.dts"
+    ]
+  },
+  "software": [
+    {
+      "platform": "armbian",
+      "status": "supported",
+      "note": "Supported by Armbian.",
+      "url": "https://github.com/armbian/build/blob/main/config/boards/odroidm1.conf",
+      "source": "armbian:odroidm1"
+    },
+    {
+      "platform": "linux-mainline",
+      "status": "supported",
+      "note": "A device tree for this board is in the mainline kernel; features may still be missing.",
+      "url": "https://github.com/torvalds/linux/blob/master/arch/arm64/boot/dts/rockchip/rk3568-odroid-m1.dts",
+      "source": "linux:rk3568-odroid-m1.dts"
+    }
+  ],
+  "sources": [
+    {
+      "id": "armbian:odroidm1",
+      "label": "Armbian board configuration (odroidm1)",
+      "url": "https://github.com/armbian/build/blob/da85daa05bd260d04dac50315d7317207fd998b3/config/boards/odroidm1.conf",
+      "kind": "import",
+      "revision": "da85daa05bd260d04dac50315d7317207fd998b3"
+    },
+    {
+      "id": "linux:rk3568-odroid-m1.dts",
+      "label": "Linux kernel device tree (rk3568-odroid-m1.dts)",
+      "url": "https://github.com/torvalds/linux/blob/551c722f40809618230001baccf219193e22fc5a/arch/arm64/boot/dts/rockchip/rk3568-odroid-m1.dts",
+      "kind": "import",
+      "revision": "551c722f40809618230001baccf219193e22fc5a"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

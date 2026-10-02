@@ -1,0 +1,47 @@
+{
+  "slug": "atmel-atsamr21-xpro",
+  "name": "Atmel ATSAMR21-XPRO",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "ids": {
+    "platformio": [
+      "samr21_xpro"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "SAMR21G18A",
+      "source": "platformio:samr21_xpro"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:samr21_xpro"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:samr21_xpro"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:samr21_xpro"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Atmel ATSAMR21-XPRO product page",
+      "url": "https://www.microchip.com/en-us/development-tool/ATSAMR21-XPRO"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:samr21_xpro",
+      "label": "PlatformIO board definition (samr21_xpro)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/samr21_xpro.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

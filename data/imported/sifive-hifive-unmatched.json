@@ -1,0 +1,40 @@
+{
+  "slug": "sifive-hifive-unmatched",
+  "name": "HiFive Unmatched",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sifive",
+  "ids": {
+    "zephyr": [
+      "hifive_unmatched"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "FU740",
+      "source": "zephyr:hifive_unmatched"
+    },
+    "ram": {
+      "value": "3840 KB",
+      "source": "zephyr:hifive_unmatched"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/sifive/hifive_unmatched/doc/index.html",
+      "source": "zephyr:hifive_unmatched"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:hifive_unmatched",
+      "label": "Zephyr board definition (hifive_unmatched)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/sifive/hifive_unmatched/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

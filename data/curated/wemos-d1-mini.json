@@ -1,0 +1,122 @@
+{
+  "slug": "wemos-d1-mini",
+  "name": "WEMOS D1 mini",
+  "tier": "curated",
+  "kind": "mcu",
+  "maker": "wemos",
+  "family": "ESP8266",
+  "chip": "esp8266",
+  "released": "2016",
+  "status": "current",
+  "summary": "The tiny ESP8266 board with a huge shield ecosystem: 34 × 26 mm, 4 MB of flash, USB-serial on board.",
+  "aliases": [
+    "WEMOS D1 mini",
+    "Wemos D1 Mini",
+    "LOLIN D1 mini",
+    "D1 mini"
+  ],
+  "ids": {
+    "platformio": [
+      "d1_mini"
+    ]
+  },
+  "review": {
+    "status": "draft"
+  },
+  "specs": {
+    "chip": {
+      "value": "Espressif ESP8266EX",
+      "source": "wemos-docs"
+    },
+    "cpu": {
+      "value": "Tensilica L106, 32-bit",
+      "source": "esp8266-datasheet"
+    },
+    "clock": {
+      "value": "80 MHz (up to 160 MHz)",
+      "source": "wemos-docs"
+    },
+    "ram": {
+      "value": "About 80 KB available for application data",
+      "source": "esp8266-datasheet"
+    },
+    "flash": {
+      "value": "4 MB",
+      "source": "wemos-docs"
+    },
+    "gpio": {
+      "value": "11 digital I/O",
+      "source": "wemos-docs"
+    },
+    "analog": {
+      "value": "1 analog input (3.2 V max)",
+      "source": "wemos-docs"
+    },
+    "io_voltage": {
+      "value": "3.3 V",
+      "source": "wemos-docs"
+    },
+    "wireless": {
+      "value": "2.4 GHz 802.11 b/g/n Wi-Fi",
+      "source": "esp8266-datasheet"
+    },
+    "usb": {
+      "value": "Micro-USB via a CH340",
+      "source": "wemos-docs"
+    },
+    "dimensions": {
+      "value": "34.2 × 25.6 mm",
+      "source": "wemos-docs"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "D1 mini documentation, WEMOS",
+      "url": "https://www.wemos.cc/en/latest/d1/d1_mini.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "community",
+      "note": "ESP8266 core for Arduino, maintained by the community.",
+      "url": "https://github.com/esp8266/Arduino",
+      "source": "esp8266-arduino"
+    }
+  ],
+  "gotchas": [
+    {
+      "title": "Many versions, many clones",
+      "text": "Revisions changed the module and USB chip; clones vary widely in regulator and antenna quality.",
+      "source": "wemos-docs"
+    }
+  ],
+  "commonsFile": "File:WeMos D1 Mini front.jpg",
+  "editorial": {
+    "history": "WEMOS (later LOLIN) launched the D1 mini around 2016 with a stackable shield system that made it a go-to for small Wi-Fi gadgets.",
+    "today": "Still a cheap, compact ESP8266; the D1 mini ESP32-C3 and S2 variants keep the footprint with newer chips.",
+    "source": "wemos-docs"
+  },
+  "sources": [
+    {
+      "id": "wemos-docs",
+      "label": "D1 mini, WEMOS documentation",
+      "url": "https://www.wemos.cc/en/latest/d1/d1_mini.html",
+      "kind": "official"
+    },
+    {
+      "id": "esp8266-datasheet",
+      "label": "ESP8266EX datasheet, Espressif",
+      "url": "https://www.espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf",
+      "kind": "official"
+    },
+    {
+      "id": "esp8266-arduino",
+      "label": "ESP8266 core for Arduino",
+      "url": "https://github.com/esp8266/Arduino",
+      "kind": "reference"
+    }
+  ],
+  "updatedAt": "2026-10-01T00:00:00.000Z"
+}

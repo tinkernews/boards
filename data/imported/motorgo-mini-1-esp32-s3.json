@@ -1,0 +1,59 @@
+{
+  "slug": "motorgo-mini-1-esp32-s3",
+  "name": "MotorGo Mini 1 (ESP32-S3)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "motorgo",
+  "chip": "esp32-s3",
+  "ids": {
+    "platformio": [
+      "motorgo_mini_1"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-S3",
+      "source": "platformio:motorgo_mini_1"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:motorgo_mini_1"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:motorgo_mini_1"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "MotorGo Mini 1 (ESP32-S3) product page",
+      "url": "https://motorgo.net/shop/ols/products/motorgo-mini-v1-dot-2-starter-kit-plus-motors"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/motorgo_mini_1.html",
+      "source": "platformio:motorgo_mini_1"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/motorgo_mini_1.html",
+      "source": "platformio:motorgo_mini_1"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:motorgo_mini_1",
+      "label": "PlatformIO board definition (motorgo_mini_1)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/motorgo_mini_1.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

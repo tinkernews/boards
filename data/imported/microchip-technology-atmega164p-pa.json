@@ -1,0 +1,52 @@
+{
+  "slug": "microchip-technology-atmega164p-pa",
+  "name": "ATmega164P/PA",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "ids": {
+    "platformio": [
+      "ATmega164P"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATMEGA164P",
+      "source": "platformio:atmega164p"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:atmega164p"
+    },
+    "upload_limits": {
+      "value": "16 KB flash, 1 KB RAM",
+      "source": "platformio:atmega164p"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ATmega164P/PA product page",
+      "url": "https://www.microchip.com/wwwproducts/en/ATmega164p"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/ATmega164P.html",
+      "source": "platformio:atmega164p"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:atmega164p",
+      "label": "PlatformIO board definition (ATmega164P)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/ATmega164P.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "infineon-t2g-body-high-lite-evaluation-kit",
+  "name": "T2G Body High Lite Evaluation Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "infineon",
+  "ids": {
+    "zephyr": [
+      "kit_t2g_b_h_lite"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "CYT4BF8CDS",
+      "source": "zephyr:kit_t2g_b_h_lite"
+    },
+    "ram": {
+      "value": "1024 KB",
+      "source": "zephyr:kit_t2g_b_h_lite"
+    },
+    "flash": {
+      "value": "8 MB",
+      "source": "zephyr:kit_t2g_b_h_lite"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/infineon/kit_t2g_b_h_lite/doc/index.html",
+      "source": "zephyr:kit_t2g_b_h_lite"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:kit_t2g_b_h_lite",
+      "label": "Zephyr board definition (kit_t2g_b_h_lite)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/infineon/kit_t2g_b_h_lite/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

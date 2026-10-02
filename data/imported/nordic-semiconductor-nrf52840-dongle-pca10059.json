@@ -1,0 +1,223 @@
+{
+  "slug": "nordic-semiconductor-nrf52840-dongle-pca10059",
+  "name": "nRF52840 Dongle (PCA10059)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nordic-semiconductor",
+  "chip": "nrf52840",
+  "ids": {
+    "circuitpython": [
+      "pca10059"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/pca10059/",
+      "source": "circuitpython:pca10059"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:pca10059",
+    "list": [
+      {
+        "pin": "P0_02",
+        "names": [
+          "P0_02"
+        ]
+      },
+      {
+        "pin": "P0_04",
+        "names": [
+          "P0_04"
+        ]
+      },
+      {
+        "pin": "P0_05",
+        "names": [
+          "P0_05"
+        ]
+      },
+      {
+        "pin": "P0_06",
+        "names": [
+          "LED1"
+        ]
+      },
+      {
+        "pin": "P0_08",
+        "names": [
+          "LED2_R"
+        ]
+      },
+      {
+        "pin": "P0_09",
+        "names": [
+          "P0_09"
+        ]
+      },
+      {
+        "pin": "P0_10",
+        "names": [
+          "P0_10"
+        ]
+      },
+      {
+        "pin": "P0_11",
+        "names": [
+          "P0_11"
+        ]
+      },
+      {
+        "pin": "P0_12",
+        "names": [
+          "LED2_B"
+        ]
+      },
+      {
+        "pin": "P0_13",
+        "names": [
+          "P0_13"
+        ]
+      },
+      {
+        "pin": "P0_14",
+        "names": [
+          "P0_14"
+        ]
+      },
+      {
+        "pin": "P0_15",
+        "names": [
+          "P0_15"
+        ]
+      },
+      {
+        "pin": "P0_17",
+        "names": [
+          "P0_17"
+        ]
+      },
+      {
+        "pin": "P0_20",
+        "names": [
+          "P0_20"
+        ]
+      },
+      {
+        "pin": "P0_22",
+        "names": [
+          "P0_22"
+        ]
+      },
+      {
+        "pin": "P0_24",
+        "names": [
+          "P0_24"
+        ]
+      },
+      {
+        "pin": "P0_26",
+        "names": [
+          "P0_26"
+        ]
+      },
+      {
+        "pin": "P0_29",
+        "names": [
+          "P0_29"
+        ]
+      },
+      {
+        "pin": "P0_31",
+        "names": [
+          "P0_31"
+        ]
+      },
+      {
+        "pin": "P1_00",
+        "names": [
+          "P1_00"
+        ]
+      },
+      {
+        "pin": "P1_01",
+        "names": [
+          "P1_01"
+        ]
+      },
+      {
+        "pin": "P1_02",
+        "names": [
+          "P1_02"
+        ]
+      },
+      {
+        "pin": "P1_04",
+        "names": [
+          "P1_04"
+        ]
+      },
+      {
+        "pin": "P1_06",
+        "names": [
+          "SW1"
+        ]
+      },
+      {
+        "pin": "P1_07",
+        "names": [
+          "P1_07"
+        ]
+      },
+      {
+        "pin": "P1_09",
+        "names": [
+          "LED2_G"
+        ]
+      },
+      {
+        "pin": "P1_10",
+        "names": [
+          "P1_10"
+        ]
+      },
+      {
+        "pin": "P1_11",
+        "names": [
+          "P1_11"
+        ]
+      },
+      {
+        "pin": "P1_13",
+        "names": [
+          "P1_13"
+        ]
+      },
+      {
+        "pin": "P1_15",
+        "names": [
+          "P1_15"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:pca10059",
+      "label": "CircuitPython board definition (pca10059)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/pca10059.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:pca10059",
+      "label": "CircuitPython pin definitions (pca10059)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/nordic/boards/pca10059/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

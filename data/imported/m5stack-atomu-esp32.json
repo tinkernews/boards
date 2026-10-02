@@ -1,0 +1,117 @@
+{
+  "slug": "m5stack-atomu-esp32",
+  "name": "AtomU ESP32",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "m5stack",
+  "chip": "esp32",
+  "ids": {
+    "circuitpython": [
+      "m5stack_atom_u"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/m5stack_atom_u/",
+      "source": "circuitpython:m5stack_atom_u"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:m5stack_atom_u",
+    "list": [
+      {
+        "pin": "GPIO5",
+        "names": [
+          "PDM_MIC_CLK"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "IR_LED"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "PDM_MIC_DATA"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "D21"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "D22"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "A25",
+          "D25",
+          "DAC1",
+          "DAC2"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "PORTA_SDA",
+          "A26",
+          "D26"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO32",
+        "names": [
+          "PORTA_SCL",
+          "A32",
+          "D32"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "D33",
+          "A33"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "BTN"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:m5stack_atom_u",
+      "label": "CircuitPython board definition (m5stack_atom_u)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/m5stack_atom_u.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:m5stack_atom_u",
+      "label": "CircuitPython pin definitions (m5stack_atom_u)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/m5stack_atom_u/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

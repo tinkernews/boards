@@ -1,0 +1,60 @@
+{
+  "slug": "m5stack-atoms3-lite",
+  "name": "AtomS3 Lite",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "m5stack",
+  "chip": "esp32-s3",
+  "ids": {
+    "zephyr": [
+      "m5stack_atoms3_lite"
+    ],
+    "micropython": [
+      "M5STACK_ATOMS3_LITE"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-S3",
+      "source": "zephyr:m5stack_atoms3_lite"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "AtomS3 Lite product page",
+      "url": "https://shop.m5stack.com/products/atoms3-lite-esp32s3-dev-kit"
+    }
+  ],
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/m5stack/m5stack_atoms3_lite/doc/index.html",
+      "source": "zephyr:m5stack_atoms3_lite"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/M5STACK_ATOMS3_LITE/",
+      "source": "micropython:m5stack_atoms3_lite"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:m5stack_atoms3_lite",
+      "label": "Zephyr board definition (m5stack_atoms3_lite)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/m5stack/m5stack_atoms3_lite/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "micropython:m5stack_atoms3_lite",
+      "label": "MicroPython board definition (M5STACK_ATOMS3_LITE)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/esp32/boards/M5STACK_ATOMS3_LITE/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "nxp-semiconductors-mcx-n9xx-evk",
+  "name": "MCX-N9XX-EVK",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "ids": {
+    "zephyr": [
+      "mcx_n9xx_evk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MCXN947",
+      "source": "zephyr:mcx_n9xx_evk"
+    },
+    "ram": {
+      "value": "320 KB",
+      "source": "zephyr:mcx_n9xx_evk"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:mcx_n9xx_evk"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nxp/mcx_nx4x_evk/doc/index.html",
+      "source": "zephyr:mcx_n9xx_evk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:mcx_n9xx_evk",
+      "label": "Zephyr board definition (mcx_n9xx_evk)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nxp/mcx_nx4x_evk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

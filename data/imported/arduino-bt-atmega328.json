@@ -1,0 +1,53 @@
+{
+  "slug": "arduino-bt-atmega328",
+  "name": "Arduino BT ATmega328",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "chip": "atmega328p",
+  "ids": {
+    "platformio": [
+      "btatmega328"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega328P",
+      "source": "platformio:btatmega328"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:btatmega328"
+    },
+    "upload_limits": {
+      "value": "28 KB flash, 2 KB RAM",
+      "source": "platformio:btatmega328"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Arduino BT ATmega328 product page",
+      "url": "http://arduino.cc/en/main/boards"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/btatmega328.html",
+      "source": "platformio:btatmega328"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:btatmega328",
+      "label": "PlatformIO board definition (btatmega328)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/btatmega328.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

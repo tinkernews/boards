@@ -1,0 +1,40 @@
+{
+  "slug": "synopsys-arc-iot-development-kit",
+  "name": "ARC IoT Development Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "synopsys",
+  "ids": {
+    "zephyr": [
+      "iotdk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ARC_IOT",
+      "source": "zephyr:iotdk"
+    },
+    "ram": {
+      "value": "128 KB",
+      "source": "zephyr:iotdk"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/snps/iotdk/doc/index.html",
+      "source": "zephyr:iotdk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:iotdk",
+      "label": "Zephyr board definition (iotdk)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/snps/iotdk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

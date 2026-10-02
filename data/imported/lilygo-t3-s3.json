@@ -1,0 +1,83 @@
+{
+  "slug": "lilygo-t3-s3",
+  "name": "LilyGo T3-S3",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "lilygo",
+  "chip": "esp32-s3",
+  "aliases": [
+    "T3-S3"
+  ],
+  "ids": {
+    "platformio": [
+      "lilygo-t3-s3"
+    ],
+    "micropython": [
+      "LILYGO_T3_S3"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-S3",
+      "source": "platformio:lilygo-t3-s3"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:lilygo-t3-s3"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:lilygo-t3-s3"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "LilyGo T3-S3 product page",
+      "url": "https://lilygo.cc/products/t3s3-v1-0"
+    },
+    {
+      "kind": "product",
+      "label": "LilyGo T3-S3 product page",
+      "url": "https://www.lilygo.cc/products/t3s3-v1-0"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/lilygo-t3-s3.html",
+      "source": "platformio:lilygo-t3-s3"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/lilygo-t3-s3.html",
+      "source": "platformio:lilygo-t3-s3"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/LILYGO_T3_S3/",
+      "source": "micropython:lilygo_t3_s3"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:lilygo-t3-s3",
+      "label": "PlatformIO board definition (lilygo-t3-s3)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/lilygo-t3-s3.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    },
+    {
+      "id": "micropython:lilygo_t3_s3",
+      "label": "MicroPython board definition (LILYGO_T3_S3)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/esp32/boards/LILYGO_T3_S3/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

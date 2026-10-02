@@ -1,0 +1,57 @@
+{
+  "slug": "oshchip",
+  "name": "OSHChip",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "oshchip",
+  "chip": "nrf51822",
+  "ids": {
+    "platformio": [
+      "oshchip"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF51822",
+      "source": "platformio:oshchip"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0",
+      "source": "platformio:oshchip"
+    },
+    "clock": {
+      "value": "32 MHz",
+      "source": "platformio:oshchip"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:oshchip"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "OSHChip product page",
+      "url": "http://oshchip.org/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/nordicnrf51/oshchip.html",
+      "source": "platformio:oshchip"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:oshchip",
+      "label": "PlatformIO board definition (oshchip)",
+      "url": "https://github.com/platformio/platform-nordicnrf51/blob/521963027651adfb1cd631d98767251dee254354/boards/oshchip.json",
+      "kind": "import",
+      "revision": "521963027651adfb1cd631d98767251dee254354"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

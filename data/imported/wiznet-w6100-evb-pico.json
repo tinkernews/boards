@@ -1,0 +1,45 @@
+{
+  "slug": "wiznet-w6100-evb-pico",
+  "name": "W6100-EVB-Pico",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "wiznet",
+  "chip": "rp2040",
+  "ids": {
+    "zephyr": [
+      "w6100_evb_pico"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "RP2040",
+      "source": "zephyr:w6100_evb_pico"
+    },
+    "ram": {
+      "value": "264 KB",
+      "source": "zephyr:w6100_evb_pico"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:w6100_evb_pico"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/wiznet/w6100_evb_pico/doc/index.html",
+      "source": "zephyr:w6100_evb_pico"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:w6100_evb_pico",
+      "label": "Zephyr board definition (w6100_evb_pico)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/wiznet/w6100_evb_pico/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

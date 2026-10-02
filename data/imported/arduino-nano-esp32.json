@@ -1,0 +1,277 @@
+{
+  "slug": "arduino-nano-esp32",
+  "name": "Arduino Nano ESP32",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "chip": "esp32-s3",
+  "aliases": [
+    "Nano ESP32"
+  ],
+  "ids": {
+    "platformio": [
+      "arduino_nano_esp32"
+    ],
+    "circuitpython": [
+      "arduino_nano_esp32s3"
+    ],
+    "micropython": [
+      "ARDUINO_NANO_ESP32"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-S3",
+      "source": "platformio:arduino_nano_esp32"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:arduino_nano_esp32"
+    },
+    "upload_limits": {
+      "value": "16 MB flash, 320 KB RAM",
+      "source": "platformio:arduino_nano_esp32"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Arduino Nano ESP32 product page",
+      "url": "https://docs.arduino.cc/hardware/nano-esp32"
+    },
+    {
+      "kind": "product",
+      "label": "Arduino Nano ESP32 product page",
+      "url": "https://docs.arduino.cc/hardware/nano-esp32/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/arduino_nano_esp32.html",
+      "source": "platformio:arduino_nano_esp32"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/arduino_nano_esp32.html",
+      "source": "platformio:arduino_nano_esp32"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/ARDUINO_NANO_ESP32/",
+      "source": "micropython:arduino_nano_esp32"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/arduino_nano_esp32s3/",
+      "source": "circuitpython:arduino_nano_esp32s3"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:arduino_nano_esp32s3",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "B1",
+          "LED_G"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "A0",
+          "D17"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "A1",
+          "D18"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "A2",
+          "D19"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "A3",
+          "D20"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "D2"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "D3"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "D4"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "D7"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "A4",
+          "D21",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "A5",
+          "D22",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "A6",
+          "D23"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "A7",
+          "D24"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "D8"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "D9"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "D10"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "D11",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO43",
+        "names": [
+          "D1"
+        ]
+      },
+      {
+        "pin": "GPIO44",
+        "names": [
+          "D0"
+        ]
+      },
+      {
+        "pin": "GPIO45",
+        "names": [
+          "LED_B"
+        ]
+      },
+      {
+        "pin": "GPIO46",
+        "names": [
+          "B0",
+          "LED_R"
+        ]
+      },
+      {
+        "pin": "GPIO47",
+        "names": [
+          "D12",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "GPIO48",
+        "names": [
+          "D13",
+          "SCK",
+          "LED"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "platformio:arduino_nano_esp32",
+      "label": "PlatformIO board definition (arduino_nano_esp32)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/arduino_nano_esp32.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    },
+    {
+      "id": "circuitpython:arduino_nano_esp32s3",
+      "label": "CircuitPython board definition (arduino_nano_esp32s3)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/arduino_nano_esp32s3.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "micropython:arduino_nano_esp32",
+      "label": "MicroPython board definition (ARDUINO_NANO_ESP32)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/esp32/boards/ARDUINO_NANO_ESP32/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    },
+    {
+      "id": "circuitpython-pins:arduino_nano_esp32s3",
+      "label": "CircuitPython pin definitions (arduino_nano_esp32s3)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/arduino_nano_esp32s3/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

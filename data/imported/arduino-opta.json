@@ -1,0 +1,83 @@
+{
+  "slug": "arduino-opta",
+  "name": "Arduino Opta",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "aliases": [
+    "Arduino OPTA"
+  ],
+  "ids": {
+    "platformio": [
+      "opta"
+    ],
+    "zephyr": [
+      "arduino_opta"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32H747XIH6",
+      "source": "platformio:opta"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M7",
+      "source": "platformio:opta"
+    },
+    "clock": {
+      "value": "480 MHz",
+      "source": "platformio:opta"
+    },
+    "upload_limits": {
+      "value": "768 KB flash, 511.35 KB RAM",
+      "source": "platformio:opta"
+    },
+    "ram": {
+      "value": "288 KB",
+      "source": "zephyr:arduino_opta"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:arduino_opta"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Arduino Opta product page",
+      "url": "https://www.arduino.cc/pro/hardware-arduino-opta"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/opta.html",
+      "source": "platformio:opta"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/arduino/opta/doc/index.html",
+      "source": "zephyr:arduino_opta"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:opta",
+      "label": "PlatformIO board definition (opta)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/opta.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    },
+    {
+      "id": "zephyr:arduino_opta",
+      "label": "Zephyr board definition (arduino_opta)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/arduino/opta/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

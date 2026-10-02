@@ -1,0 +1,264 @@
+{
+  "slug": "kevin-matocha-esp32-s3-hacktablet",
+  "name": "ESP32-S3 HackTablet",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "kevin-matocha",
+  "chip": "esp32-s3",
+  "ids": {
+    "circuitpython": [
+      "espressif_esp32s3_devkitc_1_n8r8_hacktablet"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/espressif_esp32s3_devkitc_1_n8r8_hacktablet/",
+      "source": "circuitpython:espressif_esp32s3_devkitc_1_n8r8_hacktablet"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:espressif_esp32s3_devkitc_1_n8r8_hacktablet",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "IO0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "IO1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "IO2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "IO3",
+          "TFTB1"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "TFTB2"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "TFTB3"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "TFTB4"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "TFTB5"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "TFTG1"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "TFTG2"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "TFTG3"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "TFTG4"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "TFTG5"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "TFTG6"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "TFTR1"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "TFTR2"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "TFTR3"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "TFTR4"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "TFTR5"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "IO19"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "IO20"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "dclk"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "IO35"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "IO36"
+        ]
+      },
+      {
+        "pin": "GPIO37",
+        "names": [
+          "IO37"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "IO38"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "TFT_BACKLIGHT",
+          "IO39"
+        ]
+      },
+      {
+        "pin": "GPIO40",
+        "names": [
+          "TOUCH_INT"
+        ]
+      },
+      {
+        "pin": "GPIO41",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO42",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO43",
+        "names": [
+          "IO43",
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO44",
+        "names": [
+          "IO44",
+          "RX"
+        ]
+      },
+      {
+        "pin": "GPIO45",
+        "names": [
+          "de"
+        ]
+      },
+      {
+        "pin": "GPIO46",
+        "names": [
+          "IO46"
+        ]
+      },
+      {
+        "pin": "GPIO47",
+        "names": [
+          "hsync"
+        ]
+      },
+      {
+        "pin": "GPIO48",
+        "names": [
+          "vsync",
+          "NEOPIXEL"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:espressif_esp32s3_devkitc_1_n8r8_hacktablet",
+      "label": "CircuitPython board definition (espressif_esp32s3_devkitc_1_n8r8_hacktablet)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/espressif_esp32s3_devkitc_1_n8r8_hacktablet.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:espressif_esp32s3_devkitc_1_n8r8_hacktablet",
+      "label": "CircuitPython pin definitions (espressif_esp32s3_devkitc_1_n8r8_hacktablet)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/espressif_esp32s3_devkitc_1_n8r8_hacktablet/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "weact-studio-black-pill-stm32h523",
+  "name": "Black Pill STM32H523",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "weact",
+  "ids": {
+    "zephyr": [
+      "blackpill_h523ce"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32H523XX",
+      "source": "zephyr:blackpill_h523ce"
+    },
+    "ram": {
+      "value": "272 KB",
+      "source": "zephyr:blackpill_h523ce"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:blackpill_h523ce"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/weact/blackpill_h523ce/doc/index.html",
+      "source": "zephyr:blackpill_h523ce"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:blackpill_h523ce",
+      "label": "Zephyr board definition (blackpill_h523ce)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/weact/blackpill_h523ce/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "seeed-studio-wio-terminal",
+  "name": "Wio Terminal",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "seeed",
+  "ids": {
+    "zephyr": [
+      "wio_terminal"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "SAMD51P19A",
+      "source": "zephyr:wio_terminal"
+    },
+    "ram": {
+      "value": "192 KB",
+      "source": "zephyr:wio_terminal"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:wio_terminal"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/seeed/wio_terminal/doc/index.html",
+      "source": "zephyr:wio_terminal"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:wio_terminal",
+      "label": "Zephyr board definition (wio_terminal)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/seeed/wio_terminal/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

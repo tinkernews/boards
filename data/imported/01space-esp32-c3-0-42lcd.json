@@ -1,0 +1,125 @@
+{
+  "slug": "01space-esp32-c3-0-42lcd",
+  "name": "ESP32-C3-0.42LCD",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "01space",
+  "chip": "esp32-c3",
+  "ids": {
+    "circuitpython": [
+      "01space_lcd042_esp32c3"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/01space_lcd042_esp32c3/",
+      "source": "circuitpython:01space_lcd042_esp32c3"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:01space_lcd042_esp32c3",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "IO0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "IO1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "NEOPIXEL",
+          "IO2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "IO3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "IO4"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "SDA",
+          "IO5"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "SCL",
+          "IO6"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "IO7"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "IO8"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "BUTTON",
+          "IO9"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "IO10"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "IO20"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "IO21"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:01space_lcd042_esp32c3",
+      "label": "CircuitPython board definition (01space_lcd042_esp32c3)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/01space_lcd042_esp32c3.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:01space_lcd042_esp32c3",
+      "label": "CircuitPython pin definitions (01space_lcd042_esp32c3)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/01space_lcd042_esp32c3/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

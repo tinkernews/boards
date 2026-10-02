@@ -1,0 +1,31 @@
+{
+  "slug": "capable-robot-components-programmable-usb-hub",
+  "name": "Programmable USB Hub",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "capable-robot-components",
+  "chip": "atsamd51j19",
+  "ids": {
+    "circuitpython": [
+      "capablerobot_usbhub"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/capablerobot_usbhub/",
+      "source": "circuitpython:capablerobot_usbhub"
+    }
+  ],
+  "sources": [
+    {
+      "id": "circuitpython:capablerobot_usbhub",
+      "label": "CircuitPython board definition (capablerobot_usbhub)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/capablerobot_usbhub.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

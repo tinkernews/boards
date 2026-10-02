@@ -1,0 +1,307 @@
+{
+  "slug": "m5stack-m5stamp-s3",
+  "name": "M5Stamp S3",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "m5stack",
+  "chip": "esp32-s3",
+  "ids": {
+    "circuitpython": [
+      "m5stack_stamp_s3"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/m5stack_stamp_s3/",
+      "source": "circuitpython:m5stack_stamp_s3"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:m5stack_stamp_s3",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "BUTTON",
+          "BOOT0",
+          "IO0",
+          "G0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "IO1",
+          "A1",
+          "G1",
+          "TCH1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "IO2",
+          "A2",
+          "G2",
+          "TCH2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "IO3",
+          "A3",
+          "G3",
+          "TCH3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "IO4",
+          "A4",
+          "G4",
+          "TCH4"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "IO5",
+          "A5",
+          "G5",
+          "TCH5"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "IO6",
+          "A6",
+          "G6",
+          "TCH6"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "IO7",
+          "A7",
+          "G7",
+          "TCH7"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "IO8",
+          "A8",
+          "G8",
+          "TCH8"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "IO9",
+          "A9",
+          "G9",
+          "TCH9"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "IO10",
+          "A10",
+          "G10",
+          "TCH10"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "IO11",
+          "A11",
+          "G11",
+          "TCH11"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "IO12",
+          "A12",
+          "G12",
+          "TCH12"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "IO13",
+          "A13",
+          "G13",
+          "TCH13",
+          "I2C_SDA"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "IO14",
+          "A14",
+          "G14",
+          "TCH14"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "IO15",
+          "A15",
+          "G15",
+          "I2C_SCL"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "IO16",
+          "G16"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "IO17",
+          "G17"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "IO18",
+          "G18"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "TFT_RST",
+          "TFT_RESET"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "TFT_DC",
+          "TFT_RS"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "TFT_MOSI",
+          "TFT_DAT",
+          "TFT_DATA"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "TFT_SCK"
+        ]
+      },
+      {
+        "pin": "GPIO37",
+        "names": [
+          "TFT_CS"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "TFT_BACKLIGHT",
+          "TFT_BL"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "IO39",
+          "G39"
+        ]
+      },
+      {
+        "pin": "GPIO40",
+        "names": [
+          "IO40",
+          "G40"
+        ]
+      },
+      {
+        "pin": "GPIO41",
+        "names": [
+          "IO41",
+          "G41"
+        ]
+      },
+      {
+        "pin": "GPIO42",
+        "names": [
+          "IO42",
+          "G42"
+        ]
+      },
+      {
+        "pin": "GPIO43",
+        "names": [
+          "IO43",
+          "G43",
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO44",
+        "names": [
+          "IO44",
+          "G44",
+          "RX"
+        ]
+      },
+      {
+        "pin": "GPIO46",
+        "names": [
+          "IO46",
+          "G46"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:m5stack_stamp_s3",
+      "label": "CircuitPython board definition (m5stack_stamp_s3)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/m5stack_stamp_s3.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:m5stack_stamp_s3",
+      "label": "CircuitPython pin definitions (m5stack_stamp_s3)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/m5stack_stamp_s3/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

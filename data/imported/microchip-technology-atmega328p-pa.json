@@ -1,0 +1,53 @@
+{
+  "slug": "microchip-technology-atmega328p-pa",
+  "name": "ATmega328P/PA",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "chip": "atmega328p",
+  "ids": {
+    "platformio": [
+      "ATmega328P"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega328P",
+      "source": "platformio:atmega328p"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:atmega328p"
+    },
+    "upload_limits": {
+      "value": "32 KB flash, 2 KB RAM",
+      "source": "platformio:atmega328p"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ATmega328P/PA product page",
+      "url": "https://www.microchip.com/wwwproducts/en/ATmega328P"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/ATmega328P.html",
+      "source": "platformio:atmega328p"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:atmega328p",
+      "label": "PlatformIO board definition (ATmega328P)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/ATmega328P.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

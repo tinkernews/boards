@@ -1,0 +1,44 @@
+{
+  "slug": "stmicroelectronics-nucleo-c562re",
+  "name": "Nucleo C562RE",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "zephyr": [
+      "nucleo_c562re"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32C562XX",
+      "source": "zephyr:nucleo_c562re"
+    },
+    "ram": {
+      "value": "128 KB",
+      "source": "zephyr:nucleo_c562re"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:nucleo_c562re"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/nucleo_c562re/doc/index.html",
+      "source": "zephyr:nucleo_c562re"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:nucleo_c562re",
+      "label": "Zephyr board definition (nucleo_c562re)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/nucleo_c562re/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

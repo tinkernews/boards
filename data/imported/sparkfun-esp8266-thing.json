@@ -1,0 +1,61 @@
+{
+  "slug": "sparkfun-esp8266-thing",
+  "name": "SparkFun ESP8266 Thing",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sparkfun",
+  "chip": "esp8266",
+  "ids": {
+    "platformio": [
+      "thing",
+      "thingdev"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP8266EX",
+      "source": "platformio:thing"
+    },
+    "clock": {
+      "value": "80 MHz",
+      "source": "platformio:thing"
+    },
+    "upload_limits": {
+      "value": "512 KB flash, 80 KB RAM",
+      "source": "platformio:thing"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "SparkFun ESP8266 Thing product page",
+      "url": "https://www.sparkfun.com/products/13231"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif8266/thing.html",
+      "source": "platformio:thing"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:thing",
+      "label": "PlatformIO board definition (thing)",
+      "url": "https://github.com/platformio/platform-espressif8266/blob/668c2a2e4f16bd83b6c812f1ee0605c62b3ce2d2/boards/thing.json",
+      "kind": "import",
+      "revision": "668c2a2e4f16bd83b6c812f1ee0605c62b3ce2d2"
+    },
+    {
+      "id": "platformio:thingdev",
+      "label": "PlatformIO board definition (thingdev)",
+      "url": "https://github.com/platformio/platform-espressif8266/blob/668c2a2e4f16bd83b6c812f1ee0605c62b3ce2d2/boards/thingdev.json",
+      "kind": "import",
+      "revision": "668c2a2e4f16bd83b6c812f1ee0605c62b3ce2d2"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

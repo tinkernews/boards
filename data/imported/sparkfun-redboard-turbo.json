@@ -1,0 +1,275 @@
+{
+  "slug": "sparkfun-redboard-turbo",
+  "name": "SparkFun RedBoard Turbo",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sparkfun",
+  "chip": "atsamd21g18",
+  "aliases": [
+    "RedBoard Turbo"
+  ],
+  "ids": {
+    "platformio": [
+      "sparkfun_redboard_turbo"
+    ],
+    "circuitpython": [
+      "sparkfun_redboard_turbo"
+    ],
+    "micropython": [
+      "SPARKFUN_REDBOARD_TURBO"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAMD21G18",
+      "source": "platformio:sparkfun_redboard_turbo"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:sparkfun_redboard_turbo"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:sparkfun_redboard_turbo"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:sparkfun_redboard_turbo"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "SparkFun RedBoard Turbo product page",
+      "url": "https://www.sparkfun.com/products/14812"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelsam/sparkfun_redboard_turbo.html",
+      "source": "platformio:sparkfun_redboard_turbo"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/SPARKFUN_REDBOARD_TURBO/",
+      "source": "micropython:sparkfun_redboard_turbo"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/sparkfun_redboard_turbo/",
+      "source": "circuitpython:sparkfun_redboard_turbo"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:sparkfun_redboard_turbo",
+    "list": [
+      {
+        "pin": "PA02",
+        "names": [
+          "A0"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "A3"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "A4"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "D8"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "D9"
+        ]
+      },
+      {
+        "pin": "PA08",
+        "names": [
+          "D4"
+        ]
+      },
+      {
+        "pin": "PA09",
+        "names": [
+          "D3"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "D1",
+          "TX"
+        ]
+      },
+      {
+        "pin": "PA11",
+        "names": [
+          "D0",
+          "RX"
+        ]
+      },
+      {
+        "pin": "PA12",
+        "names": [
+          "MISO"
+        ]
+      },
+      {
+        "pin": "PA14",
+        "names": [
+          "D2"
+        ]
+      },
+      {
+        "pin": "PA15",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "PA16",
+        "names": [
+          "D11"
+        ]
+      },
+      {
+        "pin": "PA17",
+        "names": [
+          "D13",
+          "LED"
+        ]
+      },
+      {
+        "pin": "PA18",
+        "names": [
+          "D10"
+        ]
+      },
+      {
+        "pin": "PA19",
+        "names": [
+          "D12"
+        ]
+      },
+      {
+        "pin": "PA20",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "PA21",
+        "names": [
+          "D7"
+        ]
+      },
+      {
+        "pin": "PA22",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PA23",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "PA27",
+        "names": [
+          "TX_LED"
+        ]
+      },
+      {
+        "pin": "PA30",
+        "names": [
+          "RGB_LED"
+        ]
+      },
+      {
+        "pin": "PA31",
+        "names": [
+          "RX_LED"
+        ]
+      },
+      {
+        "pin": "PB02",
+        "names": [
+          "A5"
+        ]
+      },
+      {
+        "pin": "PB08",
+        "names": [
+          "A1"
+        ]
+      },
+      {
+        "pin": "PB09",
+        "names": [
+          "A2"
+        ]
+      },
+      {
+        "pin": "PB10",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "PB11",
+        "names": [
+          "SCK"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "platformio:sparkfun_redboard_turbo",
+      "label": "PlatformIO board definition (sparkfun_redboard_turbo)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/sparkfun_redboard_turbo.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    },
+    {
+      "id": "circuitpython:sparkfun_redboard_turbo",
+      "label": "CircuitPython board definition (sparkfun_redboard_turbo)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/sparkfun_redboard_turbo.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "micropython:sparkfun_redboard_turbo",
+      "label": "MicroPython board definition (SPARKFUN_REDBOARD_TURBO)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/samd/boards/SPARKFUN_REDBOARD_TURBO/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    },
+    {
+      "id": "circuitpython-pins:sparkfun_redboard_turbo",
+      "label": "CircuitPython pin definitions (sparkfun_redboard_turbo)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/sparkfun_redboard_turbo/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

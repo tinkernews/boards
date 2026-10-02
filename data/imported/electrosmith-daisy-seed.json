@@ -1,0 +1,252 @@
+{
+  "slug": "electrosmith-daisy-seed",
+  "name": "Daisy Seed",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "electrosmith",
+  "ids": {
+    "circuitpython": [
+      "daisy_seed_with_sdram"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/daisy_seed_with_sdram/",
+      "source": "circuitpython:daisy_seed_with_sdram"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:daisy_seed_with_sdram",
+    "list": [
+      {
+        "pin": "PA00",
+        "names": [
+          "D25",
+          "A10"
+        ]
+      },
+      {
+        "pin": "PA01",
+        "names": [
+          "D24",
+          "A9"
+        ]
+      },
+      {
+        "pin": "PA02",
+        "names": [
+          "D28",
+          "A11"
+        ]
+      },
+      {
+        "pin": "PA03",
+        "names": [
+          "D16",
+          "A1"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "D23",
+          "A8"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "D22",
+          "A7"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "D19",
+          "A4"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "D18",
+          "A3"
+        ]
+      },
+      {
+        "pin": "PB01",
+        "names": [
+          "D17",
+          "A2"
+        ]
+      },
+      {
+        "pin": "PB04",
+        "names": [
+          "D9"
+        ]
+      },
+      {
+        "pin": "PB05",
+        "names": [
+          "D10"
+        ]
+      },
+      {
+        "pin": "PB06",
+        "names": [
+          "D13"
+        ]
+      },
+      {
+        "pin": "PB07",
+        "names": [
+          "D14"
+        ]
+      },
+      {
+        "pin": "PB08",
+        "names": [
+          "D11"
+        ]
+      },
+      {
+        "pin": "PB09",
+        "names": [
+          "D12"
+        ]
+      },
+      {
+        "pin": "PB12",
+        "names": [
+          "D0"
+        ]
+      },
+      {
+        "pin": "PB14",
+        "names": [
+          "D29"
+        ]
+      },
+      {
+        "pin": "PB15",
+        "names": [
+          "D30"
+        ]
+      },
+      {
+        "pin": "PC00",
+        "names": [
+          "D15",
+          "A0"
+        ]
+      },
+      {
+        "pin": "PC01",
+        "names": [
+          "D20",
+          "A5"
+        ]
+      },
+      {
+        "pin": "PC04",
+        "names": [
+          "D21",
+          "A6"
+        ]
+      },
+      {
+        "pin": "PC07",
+        "names": [
+          "LED"
+        ]
+      },
+      {
+        "pin": "PC08",
+        "names": [
+          "D4"
+        ]
+      },
+      {
+        "pin": "PC09",
+        "names": [
+          "D3"
+        ]
+      },
+      {
+        "pin": "PC10",
+        "names": [
+          "D2"
+        ]
+      },
+      {
+        "pin": "PC11",
+        "names": [
+          "D1"
+        ]
+      },
+      {
+        "pin": "PC12",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "PD02",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "PD11",
+        "names": [
+          "D26"
+        ]
+      },
+      {
+        "pin": "PG03",
+        "names": [
+          "BOOT"
+        ]
+      },
+      {
+        "pin": "PG09",
+        "names": [
+          "D27"
+        ]
+      },
+      {
+        "pin": "PG10",
+        "names": [
+          "D7"
+        ]
+      },
+      {
+        "pin": "PG11",
+        "names": [
+          "D8"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:daisy_seed_with_sdram",
+      "label": "CircuitPython board definition (daisy_seed_with_sdram)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/daisy_seed_with_sdram.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:daisy_seed_with_sdram",
+      "label": "CircuitPython pin definitions (daisy_seed_with_sdram)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/stm/boards/daisy_seed_with_sdram/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

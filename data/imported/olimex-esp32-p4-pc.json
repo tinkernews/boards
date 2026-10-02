@@ -1,0 +1,37 @@
+{
+  "slug": "olimex-esp32-p4-pc",
+  "name": "ESP32-P4-PC",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "olimex",
+  "chip": "esp32-p4",
+  "ids": {
+    "zephyr": [
+      "esp32p4_pc"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-P4",
+      "source": "zephyr:esp32p4_pc"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/olimex/esp32p4_pc/doc/index.html",
+      "source": "zephyr:esp32p4_pc"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:esp32p4_pc",
+      "label": "Zephyr board definition (esp32p4_pc)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/olimex/esp32p4_pc/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

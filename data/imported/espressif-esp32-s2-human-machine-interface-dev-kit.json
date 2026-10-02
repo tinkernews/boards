@@ -1,0 +1,295 @@
+{
+  "slug": "espressif-esp32-s2-human-machine-interface-dev-kit",
+  "name": "ESP32-S2 Human Machine Interface Dev Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "espressif",
+  "chip": "esp32-s2",
+  "ids": {
+    "circuitpython": [
+      "espressif_hmi_devkit_1"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/espressif_hmi_devkit_1/",
+      "source": "circuitpython:espressif_hmi_devkit_1"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:espressif_hmi_devkit_1",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "IO0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "IO1",
+          "AUDIO_I2S0_SDI"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "IO2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "IO3",
+          "AUDIO_I2S0_SDO"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "IO4"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "IO5",
+          "AUDIO_RST"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "IO6",
+          "AUDIO_BT_ADC"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "IO7",
+          "AUDIO_SCL"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "IO8",
+          "AUDIO_SDA"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "IO9",
+          "MIC_ADC_M"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "IO10",
+          "AUDIO_PA_CTRL"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "IO11"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "IO12",
+          "AUDIO_I2S1_SDO"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "IO13"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "IO14"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "IO15"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "IO16"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "IO17",
+          "AUDIO_I2S1_LRCK_DAC1"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "IO18",
+          "DAC_OUT",
+          "AUDIO_I2S1_BCLK_DAC2"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "IO19"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "IO20"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "IO21",
+          "NEOPIXEL",
+          "AUDIO_I2S0_LRCK"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "IO26"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "IO33",
+          "LCD_WR",
+          "AUDIO_SPI_CS"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "IO34",
+          "CS_SD",
+          "AUDIO_I2S1_SDI"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "IO35",
+          "AUDIO_I2S1_MCLK"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "IO36"
+        ]
+      },
+      {
+        "pin": "GPIO37",
+        "names": [
+          "IO37"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "IO38",
+          "LCD_RS",
+          "AUDIO_SPI_SCK"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "IO39",
+          "AUDIO_I2S0_BCLK"
+        ]
+      },
+      {
+        "pin": "GPIO40",
+        "names": [
+          "IO40",
+          "AUDIO_SPI_MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO41",
+        "names": [
+          "IO41",
+          "CAN_TX",
+          "AUDIO_I2S0_MCLK"
+        ]
+      },
+      {
+        "pin": "GPIO42",
+        "names": [
+          "IO42",
+          "CAN_RX",
+          "AUDIO_SPI_MISO"
+        ]
+      },
+      {
+        "pin": "GPIO43",
+        "names": [
+          "TX",
+          "IO43"
+        ]
+      },
+      {
+        "pin": "GPIO44",
+        "names": [
+          "RX",
+          "IO44"
+        ]
+      },
+      {
+        "pin": "GPIO45",
+        "names": [
+          "IO45",
+          "CS_CNN"
+        ]
+      },
+      {
+        "pin": "GPIO46",
+        "names": [
+          "AUDIO_WAKE_INT"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:espressif_hmi_devkit_1",
+      "label": "CircuitPython board definition (espressif_hmi_devkit_1)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/espressif_hmi_devkit_1.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:espressif_hmi_devkit_1",
+      "label": "CircuitPython pin definitions (espressif_hmi_devkit_1)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/espressif_hmi_devkit_1/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

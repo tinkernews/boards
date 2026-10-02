@@ -1,0 +1,59 @@
+{
+  "slug": "protocentral-healthypi-4",
+  "name": "ProtoCentral HealthyPi 4",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "protocentral",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "healthypi4"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:healthypi4"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:healthypi4"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:healthypi4"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ProtoCentral HealthyPi 4 product page",
+      "url": "https://healthypi.protocentral.com"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/healthypi4.html",
+      "source": "platformio:healthypi4"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/healthypi4.html",
+      "source": "platformio:healthypi4"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:healthypi4",
+      "label": "PlatformIO board definition (healthypi4)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/healthypi4.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

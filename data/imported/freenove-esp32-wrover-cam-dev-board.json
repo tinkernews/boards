@@ -1,0 +1,317 @@
+{
+  "slug": "freenove-esp32-wrover-cam-dev-board",
+  "name": "ESP32-WRover Cam Dev Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "freenove",
+  "chip": "esp32",
+  "ids": {
+    "circuitpython": [
+      "esp32-wrover-dev-cam"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/esp32-wrover-dev-cam/",
+      "source": "circuitpython:esp32-wrover-dev-cam"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:esp32-wrover-dev-cam",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "BUTTON",
+          "TOUCH1",
+          "ADC2_CH1",
+          "IO0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "LED_TX",
+          "U0TXD",
+          "IO1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "LED",
+          "LED_INVERTED",
+          "TOUCH2",
+          "ADC2_CH2",
+          "LED_IO2",
+          "IO2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "LED_RX",
+          "U0RXD",
+          "IO3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "CAMERA_DATA2",
+          "TOUCH0",
+          "CAM_Y2",
+          "ADC2_CH0",
+          "IO4",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "CAMERA_DATA3",
+          "CAM_Y3",
+          "VSPI_CS",
+          "SDIO_SLAVE",
+          "IO5"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "FLASH_CLK",
+          "IO6"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "FLASH_D0",
+          "IO7"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "FLASH_D1",
+          "IO8"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "FLASH_D2",
+          "IO9"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "FLASH_D3",
+          "IO10"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "FLASH_CMD",
+          "IO11"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "MTDI",
+          "TOUCH5",
+          "HSPI_MISO",
+          "ADC2_CH5",
+          "IO12"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "TOUCH4",
+          "HSPI_MOSI",
+          "ADC2_CH4",
+          "IO13",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "TOUCH6",
+          "HSPI_CLK",
+          "ADC2_CH6",
+          "IO14"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "TOUCH3",
+          "MTDO",
+          "ADC2_CH3",
+          "HSPI_CS",
+          "IO15"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "CAMERA_DATA4",
+          "CAM_Y4",
+          "VSPI_CLK",
+          "IO18"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "CAMERA_DATA5",
+          "CAM_Y5",
+          "VSPI_MISO",
+          "IO19"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "CAMERA_XCLK",
+          "CAM_XCLK",
+          "I2C_SDA",
+          "IO21"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "CAMERA_PCLK",
+          "I2S",
+          "DIN",
+          "CAM_PCLK",
+          "I2C_SCL",
+          "IO22"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "CAMERA_HREF",
+          "CAM_HREF",
+          "VSPI_MOSI",
+          "IO23"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "CAMERA_VSYNC",
+          "I2S_LCK",
+          "DAC1",
+          "CAM_VSYNC",
+          "ADC2_CH8",
+          "IO25"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "CAMERA_SIOD",
+          "I2S_BCK",
+          "DAC2",
+          "CAM_SIOD",
+          "SDA2",
+          "ADC2_CH9",
+          "IO26"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "CAMERA_SIOC",
+          "TOUCH7",
+          "CAM_SIOC",
+          "SCL2",
+          "ADC2_CH7",
+          "IO27"
+        ]
+      },
+      {
+        "pin": "GPIO32",
+        "names": [
+          "CAMERA_PWDN",
+          "TOUCH9",
+          "ADC1_CH4",
+          "IO32"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "TOUCH8",
+          "ADC1_CH5",
+          "IO33"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "CAMERA_DATA8",
+          "CAM_Y8",
+          "ADC1_CH6",
+          "IO34"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "CAMERA_DATA9",
+          "CAM_Y9",
+          "ADC1_CH7",
+          "IO35"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "CAMERA_DATA6",
+          "SENSOR_VP",
+          "CAM_Y6",
+          "ADC1_CH0",
+          "IO36"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "CAMERA_DATA7",
+          "SENSOR_VN",
+          "CAM_Y7",
+          "ADC1_CH3",
+          "IO39"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:esp32-wrover-dev-cam",
+      "label": "CircuitPython board definition (esp32-wrover-dev-cam)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/esp32-wrover-dev-cam.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:esp32-wrover-dev-cam",
+      "label": "CircuitPython pin definitions (esp32-wrover-dev-cam)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/esp32-wrover-dev-cam/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

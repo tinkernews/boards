@@ -1,0 +1,191 @@
+{
+  "slug": "adafruit-trinket-m0",
+  "name": "Adafruit Trinket M0",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "atsamd21e18",
+  "aliases": [
+    "Trinket M0"
+  ],
+  "ids": {
+    "platformio": [
+      "adafruit_trinket_m0"
+    ],
+    "zephyr": [
+      "adafruit_trinket_m0"
+    ],
+    "circuitpython": [
+      "trinket_m0"
+    ],
+    "micropython": [
+      "ADAFRUIT_TRINKET_M0"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAMD21E18",
+      "source": "platformio:adafruit_trinket_m0"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:adafruit_trinket_m0"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:adafruit_trinket_m0"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:adafruit_trinket_m0"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:adafruit_trinket_m0"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:adafruit_trinket_m0"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Adafruit Trinket M0 product page",
+      "url": "https://www.adafruit.com/product/3500"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelsam/adafruit_trinket_m0.html",
+      "source": "platformio:adafruit_trinket_m0"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/adafruit/trinket_m0/doc/index.html",
+      "source": "zephyr:adafruit_trinket_m0"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/ADAFRUIT_TRINKET_M0/",
+      "source": "micropython:adafruit_trinket_m0"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/trinket_m0/",
+      "source": "circuitpython:trinket_m0"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:trinket_m0",
+    "list": [
+      {
+        "pin": "PA00",
+        "names": [
+          "APA102_MOSI",
+          "DOTSTAR_DATA"
+        ]
+      },
+      {
+        "pin": "PA01",
+        "names": [
+          "APA102_SCK",
+          "DOTSTAR_CLOCK"
+        ]
+      },
+      {
+        "pin": "PA02",
+        "names": [
+          "D1",
+          "A0"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "D4",
+          "A4",
+          "TX",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "D3",
+          "A3",
+          "RX",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "PA08",
+        "names": [
+          "D0",
+          "A2",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PA09",
+        "names": [
+          "D2",
+          "A1",
+          "SCL",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "LED",
+          "D13"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "platformio:adafruit_trinket_m0",
+      "label": "PlatformIO board definition (adafruit_trinket_m0)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/adafruit_trinket_m0.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    },
+    {
+      "id": "zephyr:adafruit_trinket_m0",
+      "label": "Zephyr board definition (adafruit_trinket_m0)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/adafruit/trinket_m0/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "circuitpython:trinket_m0",
+      "label": "CircuitPython board definition (trinket_m0)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/trinket_m0.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "micropython:adafruit_trinket_m0",
+      "label": "MicroPython board definition (ADAFRUIT_TRINKET_M0)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/samd/boards/ADAFRUIT_TRINKET_M0/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    },
+    {
+      "id": "circuitpython-pins:trinket_m0",
+      "label": "CircuitPython pin definitions (trinket_m0)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/trinket_m0/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "wireless-tag-wt51822-s4at",
+  "name": "WT51822-S4AT",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "wireless-tag",
+  "chip": "nrf51822",
+  "ids": {
+    "micropython": [
+      "WT51822_S4AT"
+    ]
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "WT51822-S4AT product page",
+      "url": "https://shop.wireless-tag.com/products/esp32-c3-mini-1-10pcs-espressif-esp32-c3-mini-1-4mb-flash-pcb-antenna-15-gpios-wifi-ble-5-module-esp32-c3-module-on-esp32-c3-chip"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/WT51822_S4AT/",
+      "source": "micropython:wt51822_s4at"
+    }
+  ],
+  "sources": [
+    {
+      "id": "micropython:wt51822_s4at",
+      "label": "MicroPython board definition (WT51822_S4AT)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/nrf/boards/WT51822_S4AT/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

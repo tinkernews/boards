@@ -1,0 +1,44 @@
+{
+  "slug": "weact-studio-black-pill-stm32u585",
+  "name": "Black Pill STM32U585",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "weact",
+  "ids": {
+    "zephyr": [
+      "blackpill_u585ci"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32U585XX",
+      "source": "zephyr:blackpill_u585ci"
+    },
+    "ram": {
+      "value": "784 KB",
+      "source": "zephyr:blackpill_u585ci"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:blackpill_u585ci"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/weact/blackpill_u585ci/doc/index.html",
+      "source": "zephyr:blackpill_u585ci"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:blackpill_u585ci",
+      "label": "Zephyr board definition (blackpill_u585ci)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/weact/blackpill_u585ci/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

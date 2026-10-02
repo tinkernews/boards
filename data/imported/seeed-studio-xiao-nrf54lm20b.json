@@ -1,0 +1,44 @@
+{
+  "slug": "seeed-studio-xiao-nrf54lm20b",
+  "name": "XIAO nRF54LM20B",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "seeed",
+  "ids": {
+    "zephyr": [
+      "xiao_nrf54lm20b"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "NRF54LM20B",
+      "source": "zephyr:xiao_nrf54lm20b"
+    },
+    "ram": {
+      "value": "511 KB",
+      "source": "zephyr:xiao_nrf54lm20b"
+    },
+    "flash": {
+      "value": "1.74 MB",
+      "source": "zephyr:xiao_nrf54lm20b"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/seeed/xiao_nrf54lm20b/doc/index.html",
+      "source": "zephyr:xiao_nrf54lm20b"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:xiao_nrf54lm20b",
+      "label": "Zephyr board definition (xiao_nrf54lm20b)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/seeed/xiao_nrf54lm20b/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

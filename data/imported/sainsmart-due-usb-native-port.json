@@ -1,0 +1,57 @@
+{
+  "slug": "sainsmart-due-usb-native-port",
+  "name": "SainSmart Due (USB Native Port)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sainsmart",
+  "chip": "atsam3x8e",
+  "ids": {
+    "platformio": [
+      "sainSmartDueUSB"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAM3X8E",
+      "source": "platformio:sainsmartdueusb"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M3",
+      "source": "platformio:sainsmartdueusb"
+    },
+    "clock": {
+      "value": "84 MHz",
+      "source": "platformio:sainsmartdueusb"
+    },
+    "upload_limits": {
+      "value": "512 KB flash, 96 KB RAM",
+      "source": "platformio:sainsmartdueusb"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "SainSmart Due (USB Native Port) product page",
+      "url": "http://www.sainsmart.com/arduino/control-boards/sainsmart-due-atmel-sam3x8e-arm-cortex-m3-board-black.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelsam/sainSmartDueUSB.html",
+      "source": "platformio:sainsmartdueusb"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:sainsmartdueusb",
+      "label": "PlatformIO board definition (sainSmartDueUSB)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/sainSmartDueUSB.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

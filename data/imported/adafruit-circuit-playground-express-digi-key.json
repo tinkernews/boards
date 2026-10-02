@@ -1,0 +1,31 @@
+{
+  "slug": "adafruit-circuit-playground-express-digi-key",
+  "name": "Circuit Playground Express Digi-Key",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "atsamd21g18",
+  "ids": {
+    "circuitpython": [
+      "circuitplayground_express_digikey_pycon2019"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/circuitplayground_express_digikey_pycon2019/",
+      "source": "circuitpython:circuitplayground_express_digikey_pycon2019"
+    }
+  ],
+  "sources": [
+    {
+      "id": "circuitpython:circuitplayground_express_digikey_pycon2019",
+      "label": "CircuitPython board definition (circuitplayground_express_digikey_pycon2019)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/circuitplayground_express_digikey_pycon2019.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

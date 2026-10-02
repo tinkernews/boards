@@ -1,0 +1,57 @@
+{
+  "slug": "arduino-mkr1000",
+  "name": "Arduino MKR1000",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "chip": "atsamd21g18",
+  "ids": {
+    "platformio": [
+      "mkr1000USB"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAMD21G18",
+      "source": "platformio:mkr1000usb"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:mkr1000usb"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:mkr1000usb"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:mkr1000usb"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Arduino MKR1000 product page",
+      "url": "https://www.arduino.cc/en/Main/ArduinoMKR1000"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelsam/mkr1000USB.html",
+      "source": "platformio:mkr1000usb"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:mkr1000usb",
+      "label": "PlatformIO board definition (mkr1000USB)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/mkr1000USB.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

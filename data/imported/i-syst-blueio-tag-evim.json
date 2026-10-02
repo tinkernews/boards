@@ -1,0 +1,37 @@
+{
+  "slug": "i-syst-blueio-tag-evim",
+  "name": "BLUEIO Tag EVIM",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "i-syst",
+  "ids": {
+    "micropython": [
+      "BLUEIO_TAG_EVIM"
+    ]
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "BLUEIO Tag EVIM product page",
+      "url": "https://www.i-syst.com/index.php/products/blyst-nano"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/BLUEIO_TAG_EVIM/",
+      "source": "micropython:blueio_tag_evim"
+    }
+  ],
+  "sources": [
+    {
+      "id": "micropython:blueio_tag_evim",
+      "label": "MicroPython board definition (BLUEIO_TAG_EVIM)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/nrf/boards/BLUEIO_TAG_EVIM/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

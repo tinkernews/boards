@@ -1,0 +1,52 @@
+{
+  "slug": "chipkit-lenny",
+  "name": "chipKIT Lenny",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "chipkit",
+  "ids": {
+    "platformio": [
+      "lenny"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "32MX270F256D",
+      "source": "platformio:lenny"
+    },
+    "clock": {
+      "value": "40 MHz",
+      "source": "platformio:lenny"
+    },
+    "upload_limits": {
+      "value": "120 KB flash, 32 KB RAM",
+      "source": "platformio:lenny"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "chipKIT Lenny product page",
+      "url": "http://chipkit.net/tag/lenny/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/microchippic32/lenny.html",
+      "source": "platformio:lenny"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:lenny",
+      "label": "PlatformIO board definition (lenny)",
+      "url": "https://github.com/platformio/platform-microchippic32/blob/f6e89308da11cfe35d7534696bf01abf3f442461/boards/lenny.json",
+      "kind": "import",
+      "revision": "f6e89308da11cfe35d7534696bf01abf3f442461"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

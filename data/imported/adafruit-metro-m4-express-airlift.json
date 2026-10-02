@@ -1,0 +1,38 @@
+{
+  "slug": "adafruit-metro-m4-express-airlift",
+  "name": "Metro M4 Express Airlift",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "atsamd51j19",
+  "ids": {
+    "micropython": [
+      "ADAFRUIT_METRO_M4_EXPRESS"
+    ]
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Metro M4 Express Airlift product page",
+      "url": "https://www.adafruit.com/product/4000"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/ADAFRUIT_METRO_M4_EXPRESS/",
+      "source": "micropython:adafruit_metro_m4_express"
+    }
+  ],
+  "sources": [
+    {
+      "id": "micropython:adafruit_metro_m4_express",
+      "label": "MicroPython board definition (ADAFRUIT_METRO_M4_EXPRESS)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/samd/boards/ADAFRUIT_METRO_M4_EXPRESS/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

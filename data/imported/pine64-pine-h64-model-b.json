@@ -1,0 +1,32 @@
+{
+  "slug": "pine64-pine-h64-model-b",
+  "name": "Pine H64 model B",
+  "tier": "imported",
+  "kind": "sbc",
+  "maker": "pine64",
+  "released": "2019",
+  "ids": {
+    "armbian": [
+      "pineh64-b"
+    ]
+  },
+  "software": [
+    {
+      "platform": "armbian",
+      "status": "community",
+      "note": "Community-maintained in Armbian.",
+      "url": "https://github.com/armbian/build/blob/main/config/boards/pineh64-b.csc",
+      "source": "armbian:pineh64-b"
+    }
+  ],
+  "sources": [
+    {
+      "id": "armbian:pineh64-b",
+      "label": "Armbian board configuration (pineh64-b)",
+      "url": "https://github.com/armbian/build/blob/da85daa05bd260d04dac50315d7317207fd998b3/config/boards/pineh64-b.csc",
+      "kind": "import",
+      "revision": "da85daa05bd260d04dac50315d7317207fd998b3"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

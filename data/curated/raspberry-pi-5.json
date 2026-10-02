@@ -1,0 +1,245 @@
+{
+  "slug": "raspberry-pi-5",
+  "name": "Raspberry Pi 5",
+  "tier": "curated",
+  "kind": "sbc",
+  "maker": "raspberry-pi",
+  "family": "Raspberry Pi",
+  "chip": "bcm2712",
+  "released": "2023-09",
+  "status": "current",
+  "summary": "The 2.4 GHz Cortex-A76 Raspberry Pi with Raspberry Pi’s own RP1 I/O chip, a PCIe connector, a power button and a real-time clock.",
+  "aliases": [
+    "Raspberry Pi 5",
+    "Pi 5",
+    "RPi 5",
+    "Raspberry Pi5"
+  ],
+  "ids": {
+    "linux": [
+      "arch/arm64/boot/dts/broadcom/bcm2712-rpi-5-b.dts"
+    ],
+    "zephyr": [
+      "rpi_5"
+    ],
+    "armbian": [
+      "rpi4b"
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "by": "AI-assisted source check",
+    "at": "2026-10-01"
+  },
+  "predecessor": "raspberry-pi-4-model-b",
+  "specs": {
+    "chip": {
+      "value": "Broadcom BCM2712 with Raspberry Pi RP1 I/O controller",
+      "source": "rpi-processors"
+    },
+    "cpu": {
+      "value": "4 × Cortex-A76 (Armv8-A, 64-bit)",
+      "source": "rpi-processors"
+    },
+    "clock": {
+      "value": "2.4 GHz",
+      "source": "rpi-processors"
+    },
+    "ram": {
+      "value": "1, 2, 4, 8 or 16 GB LPDDR4X",
+      "source": "rpi-processors"
+    },
+    "storage": {
+      "value": "microSD card; NVMe via the PCIe connector and an M.2 HAT",
+      "source": "pi5-brief"
+    },
+    "gpu": {
+      "value": "VideoCore VII",
+      "source": "rpi-processors"
+    },
+    "gpio": {
+      "value": "40-pin header",
+      "source": "rpi-docs-source"
+    },
+    "io_voltage": {
+      "value": "3.3 V",
+      "source": "rpi-gpio"
+    },
+    "input_voltage": {
+      "value": "5 V, 5 A via USB-C (5 V, 3 A with a 600 mA USB limit)",
+      "source": "rpi-docs-source"
+    },
+    "wireless": {
+      "value": "2.4/5 GHz 802.11ac Wi-Fi 5; Bluetooth 5 and BLE",
+      "source": "rpi-docs-source"
+    },
+    "ethernet": {
+      "value": "Gigabit, with PoE+ support",
+      "source": "rpi-docs-source"
+    },
+    "usb": {
+      "value": "2 × USB 3.0, 2 × USB 2.0",
+      "source": "rpi-docs-source"
+    },
+    "video": {
+      "value": "2 × micro-HDMI, dual 4Kp60",
+      "source": "rpi-processors"
+    },
+    "expansion": {
+      "value": "Single-lane PCIe connector; 2 × combined camera/display connectors; UART, fan and RTC battery connectors",
+      "source": "rpi-docs-source"
+    },
+    "launch_price": {
+      "value": "US$60 (4 GB), US$80 (8 GB)",
+      "source": "pi5-launch"
+    }
+  },
+  "docs": [
+    {
+      "kind": "guide",
+      "label": "Raspberry Pi hardware documentation",
+      "url": "https://www.raspberrypi.com/documentation/computers/raspberry-pi.html"
+    },
+    {
+      "kind": "product",
+      "label": "Raspberry Pi 5 product brief",
+      "url": "https://datasheets.raspberrypi.com/rpi5/raspberry-pi-5-product-brief.pdf"
+    },
+    {
+      "kind": "mechanical",
+      "label": "Raspberry Pi 5 mechanical drawing",
+      "url": "https://datasheets.raspberrypi.com/rpi5/raspberry-pi-5-mechanical-drawing.pdf"
+    }
+  ],
+  "software": [
+    {
+      "platform": "raspberry-pi-os",
+      "status": "supported",
+      "note": "32-bit and 64-bit images.",
+      "url": "https://www.raspberrypi.com/software/operating-systems/",
+      "source": "rpi-software"
+    }
+  ],
+  "pinout": {
+    "layout": "raspberry-pi-40-pin",
+    "source": "rpi-gpio"
+  },
+  "gotchas": [
+    {
+      "title": "A 3 A supply caps USB at 600 mA",
+      "text": "With anything less than a 5 V, 5 A supply, the Pi 5 limits all downstream USB devices to 600 mA combined. Use the 27 W supply for USB drives.",
+      "source": "rpi-power"
+    },
+    {
+      "title": "GPIO moved to the RP1 chip",
+      "text": "Libraries that poke the old Broadcom GPIO registers, such as RPi.GPIO, do not work on the Pi 5; use gpiozero (with its lgpio backend) or libgpiod.",
+      "source": "gpiozero-pins"
+    },
+    {
+      "title": "Cooling for heavy loads",
+      "text": "It handles typical desktop use without active cooling but can throttle under continuous heavy load; the Active Cooler or the official case fan prevents that.",
+      "source": "pi5-launch"
+    },
+    {
+      "title": "3.3 V only",
+      "text": "The GPIO pins are 3.3 V. Do not connect 5 V signals or components to them.",
+      "source": "rpi-gpio"
+    },
+    {
+      "title": "Little current per pin",
+      "text": "Each GPIO pin can supply up to about 16 mA and all pins together about 50 mA; drive motors and other loads through a transistor or driver board.",
+      "source": "rpi-power"
+    }
+  ],
+  "power": {
+    "rows": [
+      {
+        "label": "Recommended supply",
+        "value": "5.0 A",
+        "source": "rpi-power"
+      },
+      {
+        "label": "USB peripheral budget",
+        "value": "1.6 A (600 mA with a 3 A supply)",
+        "source": "rpi-power"
+      },
+      {
+        "label": "Typical bare-board draw",
+        "value": "800 mA",
+        "source": "rpi-power"
+      }
+    ]
+  },
+  "mechanical": {
+    "rows": [
+      {
+        "label": "Board size",
+        "value": "85 × 56 mm",
+        "source": "pi5-brief"
+      }
+    ],
+    "files": [
+      {
+        "label": "Mechanical drawing (PDF)",
+        "url": "https://datasheets.raspberrypi.com/rpi5/raspberry-pi-5-mechanical-drawing.pdf"
+      }
+    ]
+  },
+  "commonsFile": "File:Raspberry Pi 5.jpg",
+  "editorial": {
+    "history": "Announced in September 2023 and shipping that October, the Pi 5 was the first flagship Pi with silicon designed in-house: the RP1 south bridge handles USB, Ethernet, GPIO and cameras, freeing the BCM2712 for computing.",
+    "today": "The fastest Pi and the one to buy for desktops, NVMe-based servers, AI accelerators on PCIe and anything that strained a Pi 4.",
+    "source": "pi5-launch"
+  },
+  "sources": [
+    {
+      "id": "rpi-docs-source",
+      "label": "Raspberry Pi hardware introduction (documentation source)",
+      "url": "https://github.com/raspberrypi/documentation/blob/master/documentation/asciidoc/computers/raspberry-pi/introduction.adoc",
+      "kind": "official"
+    },
+    {
+      "id": "rpi-processors",
+      "label": "Processors, Raspberry Pi documentation",
+      "url": "https://www.raspberrypi.com/documentation/computers/processors.html",
+      "kind": "official"
+    },
+    {
+      "id": "rpi-gpio",
+      "label": "GPIO and the 40-pin header, Raspberry Pi documentation (source)",
+      "url": "https://github.com/raspberrypi/documentation/blob/master/documentation/asciidoc/computers/raspberry-pi/gpio-on-raspberry-pi.adoc",
+      "kind": "official"
+    },
+    {
+      "id": "rpi-power",
+      "label": "Power supplies, Raspberry Pi documentation (source)",
+      "url": "https://github.com/raspberrypi/documentation/blob/master/documentation/asciidoc/computers/raspberry-pi/power-supplies.adoc",
+      "kind": "official"
+    },
+    {
+      "id": "pi5-launch",
+      "label": "Introducing: Raspberry Pi 5!, Raspberry Pi news",
+      "url": "https://www.raspberrypi.com/news/introducing-raspberry-pi-5/",
+      "kind": "official"
+    },
+    {
+      "id": "pi5-brief",
+      "label": "Raspberry Pi 5 product brief",
+      "url": "https://datasheets.raspberrypi.com/rpi5/raspberry-pi-5-product-brief.pdf",
+      "kind": "official"
+    },
+    {
+      "id": "rpi-software",
+      "label": "Raspberry Pi OS downloads, Raspberry Pi",
+      "url": "https://www.raspberrypi.com/software/operating-systems/",
+      "kind": "official"
+    },
+    {
+      "id": "gpiozero-pins",
+      "label": "API - Pins, gpiozero documentation",
+      "url": "https://gpiozero.readthedocs.io/en/stable/api_pins.html",
+      "kind": "reference"
+    }
+  ],
+  "updatedAt": "2026-10-01T15:00:00.000Z"
+}

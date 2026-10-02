@@ -1,0 +1,44 @@
+{
+  "slug": "nxp-semiconductors-frdm-mcxc242",
+  "name": "FRDM-MCXC242",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "ids": {
+    "zephyr": [
+      "frdm_mcxc242"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MCXC242",
+      "source": "zephyr:frdm_mcxc242"
+    },
+    "ram": {
+      "value": "16 KB",
+      "source": "zephyr:frdm_mcxc242"
+    },
+    "flash": {
+      "value": "64 KB",
+      "source": "zephyr:frdm_mcxc242"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nxp/frdm_mcxc242/doc/index.html",
+      "source": "zephyr:frdm_mcxc242"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:frdm_mcxc242",
+      "label": "Zephyr board definition (frdm_mcxc242)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nxp/frdm_mcxc242/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,684 @@
+{
+  "slug": "stmicroelectronics-stm32f767-nucleo",
+  "name": "STM32F767 Nucleo",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "circuitpython": [
+      "nucleo_f767zi"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/nucleo_f767zi/",
+      "source": "circuitpython:nucleo_f767zi"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:nucleo_f767zi",
+    "list": [
+      {
+        "pin": "PA00",
+        "names": [
+          "D32"
+        ]
+      },
+      {
+        "pin": "PA01",
+        "names": [
+          "ETH_RMII_REF_CLK"
+        ]
+      },
+      {
+        "pin": "PA02",
+        "names": [
+          "ETH_MDIO"
+        ]
+      },
+      {
+        "pin": "PA03",
+        "names": [
+          "A0"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "D24",
+          "DAC1",
+          "SPI3_NSS"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "D13",
+          "DAC2"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "D12"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "D11",
+          "D71",
+          "ETH_RMII_CRS_DV"
+        ]
+      },
+      {
+        "pin": "PA09",
+        "names": [
+          "USB_VBUS"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "USB_ID"
+        ]
+      },
+      {
+        "pin": "PA11",
+        "names": [
+          "USB_DM"
+        ]
+      },
+      {
+        "pin": "PA12",
+        "names": [
+          "USB_DP"
+        ]
+      },
+      {
+        "pin": "PA13",
+        "names": [
+          "SWDIO"
+        ]
+      },
+      {
+        "pin": "PA14",
+        "names": [
+          "SWDCLK"
+        ]
+      },
+      {
+        "pin": "PA15",
+        "names": [
+          "D20"
+        ]
+      },
+      {
+        "pin": "PB00",
+        "names": [
+          "D33",
+          "LED1"
+        ]
+      },
+      {
+        "pin": "PB01",
+        "names": [
+          "A6"
+        ]
+      },
+      {
+        "pin": "PB02",
+        "names": [
+          "D27"
+        ]
+      },
+      {
+        "pin": "PB03",
+        "names": [
+          "D23",
+          "SPI3_SCK"
+        ]
+      },
+      {
+        "pin": "PB04",
+        "names": [
+          "D25",
+          "SPI3_MISO"
+        ]
+      },
+      {
+        "pin": "PB05",
+        "names": [
+          "D22",
+          "SPI3_MOSI"
+        ]
+      },
+      {
+        "pin": "PB06",
+        "names": [
+          "D26",
+          "UART5_TX"
+        ]
+      },
+      {
+        "pin": "PB07",
+        "names": [
+          "LED2"
+        ]
+      },
+      {
+        "pin": "PB08",
+        "names": [
+          "D15",
+          "I2C1_SCL"
+        ]
+      },
+      {
+        "pin": "PB09",
+        "names": [
+          "D14",
+          "I2C1_SDA"
+        ]
+      },
+      {
+        "pin": "PB10",
+        "names": [
+          "D36"
+        ]
+      },
+      {
+        "pin": "PB11",
+        "names": [
+          "D35"
+        ]
+      },
+      {
+        "pin": "PB12",
+        "names": [
+          "D19",
+          "UART5_RX"
+        ]
+      },
+      {
+        "pin": "PB13",
+        "names": [
+          "D18",
+          "ETH_RMII_TXD1"
+        ]
+      },
+      {
+        "pin": "PB14",
+        "names": [
+          "LED3"
+        ]
+      },
+      {
+        "pin": "PB15",
+        "names": [
+          "D17"
+        ]
+      },
+      {
+        "pin": "PC00",
+        "names": [
+          "A1"
+        ]
+      },
+      {
+        "pin": "PC01",
+        "names": [
+          "ETH_MDC"
+        ]
+      },
+      {
+        "pin": "PC02",
+        "names": [
+          "A7"
+        ]
+      },
+      {
+        "pin": "PC03",
+        "names": [
+          "A2"
+        ]
+      },
+      {
+        "pin": "PC04",
+        "names": [
+          "ETH_RMII_RXD0"
+        ]
+      },
+      {
+        "pin": "PC05",
+        "names": [
+          "ETH_RMII_RXD1"
+        ]
+      },
+      {
+        "pin": "PC06",
+        "names": [
+          "D16",
+          "UART6_TX"
+        ]
+      },
+      {
+        "pin": "PC07",
+        "names": [
+          "D21",
+          "UART6_RX"
+        ]
+      },
+      {
+        "pin": "PC08",
+        "names": [
+          "D43",
+          "SD_D0"
+        ]
+      },
+      {
+        "pin": "PC09",
+        "names": [
+          "D44",
+          "SD_D1"
+        ]
+      },
+      {
+        "pin": "PC10",
+        "names": [
+          "D45",
+          "SD_D2"
+        ]
+      },
+      {
+        "pin": "PC11",
+        "names": [
+          "D46",
+          "SD_D3"
+        ]
+      },
+      {
+        "pin": "PC12",
+        "names": [
+          "D47",
+          "SD_CK"
+        ]
+      },
+      {
+        "pin": "PC13",
+        "names": [
+          "SW"
+        ]
+      },
+      {
+        "pin": "PD00",
+        "names": [
+          "D67"
+        ]
+      },
+      {
+        "pin": "PD01",
+        "names": [
+          "D66"
+        ]
+      },
+      {
+        "pin": "PD02",
+        "names": [
+          "D48",
+          "SD_CMD"
+        ]
+      },
+      {
+        "pin": "PD03",
+        "names": [
+          "D55",
+          "UART2_CTS"
+        ]
+      },
+      {
+        "pin": "PD04",
+        "names": [
+          "D54",
+          "UART2_RTS"
+        ]
+      },
+      {
+        "pin": "PD05",
+        "names": [
+          "D53",
+          "UART2_TX"
+        ]
+      },
+      {
+        "pin": "PD06",
+        "names": [
+          "D52",
+          "UART2_RX"
+        ]
+      },
+      {
+        "pin": "PD07",
+        "names": [
+          "D51"
+        ]
+      },
+      {
+        "pin": "PD08",
+        "names": [
+          "VCP_TX",
+          "UART3_TX"
+        ]
+      },
+      {
+        "pin": "PD09",
+        "names": [
+          "VCP_RX",
+          "UART3_RX"
+        ]
+      },
+      {
+        "pin": "PD11",
+        "names": [
+          "D30"
+        ]
+      },
+      {
+        "pin": "PD12",
+        "names": [
+          "D29"
+        ]
+      },
+      {
+        "pin": "PD13",
+        "names": [
+          "D28"
+        ]
+      },
+      {
+        "pin": "PD14",
+        "names": [
+          "D10"
+        ]
+      },
+      {
+        "pin": "PD15",
+        "names": [
+          "D9"
+        ]
+      },
+      {
+        "pin": "PE00",
+        "names": [
+          "D34",
+          "UART8_RX"
+        ]
+      },
+      {
+        "pin": "PE01",
+        "names": [
+          "UART8_TX"
+        ]
+      },
+      {
+        "pin": "PE02",
+        "names": [
+          "D31",
+          "D56"
+        ]
+      },
+      {
+        "pin": "PE03",
+        "names": [
+          "D60"
+        ]
+      },
+      {
+        "pin": "PE04",
+        "names": [
+          "D57"
+        ]
+      },
+      {
+        "pin": "PE05",
+        "names": [
+          "D58"
+        ]
+      },
+      {
+        "pin": "PE06",
+        "names": [
+          "D59"
+        ]
+      },
+      {
+        "pin": "PE07",
+        "names": [
+          "D41"
+        ]
+      },
+      {
+        "pin": "PE08",
+        "names": [
+          "D42"
+        ]
+      },
+      {
+        "pin": "PE09",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "PE10",
+        "names": [
+          "D40"
+        ]
+      },
+      {
+        "pin": "PE11",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "PE12",
+        "names": [
+          "D39"
+        ]
+      },
+      {
+        "pin": "PE13",
+        "names": [
+          "D3"
+        ]
+      },
+      {
+        "pin": "PE14",
+        "names": [
+          "D38"
+        ]
+      },
+      {
+        "pin": "PE15",
+        "names": [
+          "D37"
+        ]
+      },
+      {
+        "pin": "PF00",
+        "names": [
+          "D68",
+          "I2C2_SDA"
+        ]
+      },
+      {
+        "pin": "PF01",
+        "names": [
+          "D69",
+          "I2C2_SCL"
+        ]
+      },
+      {
+        "pin": "PF02",
+        "names": [
+          "D70"
+        ]
+      },
+      {
+        "pin": "PF03",
+        "names": [
+          "A3"
+        ]
+      },
+      {
+        "pin": "PF04",
+        "names": [
+          "A8"
+        ]
+      },
+      {
+        "pin": "PF05",
+        "names": [
+          "A4"
+        ]
+      },
+      {
+        "pin": "PF06",
+        "names": [
+          "UART7_RX"
+        ]
+      },
+      {
+        "pin": "PF07",
+        "names": [
+          "D62",
+          "UART7_TX"
+        ]
+      },
+      {
+        "pin": "PF08",
+        "names": [
+          "D61"
+        ]
+      },
+      {
+        "pin": "PF09",
+        "names": [
+          "D63"
+        ]
+      },
+      {
+        "pin": "PF10",
+        "names": [
+          "A5"
+        ]
+      },
+      {
+        "pin": "PF12",
+        "names": [
+          "D8"
+        ]
+      },
+      {
+        "pin": "PF13",
+        "names": [
+          "D7"
+        ]
+      },
+      {
+        "pin": "PF14",
+        "names": [
+          "D4",
+          "I2C4_SCL"
+        ]
+      },
+      {
+        "pin": "PF15",
+        "names": [
+          "D2",
+          "I2C4_SDA"
+        ]
+      },
+      {
+        "pin": "PG00",
+        "names": [
+          "D65"
+        ]
+      },
+      {
+        "pin": "PG01",
+        "names": [
+          "D64"
+        ]
+      },
+      {
+        "pin": "PG02",
+        "names": [
+          "D49",
+          "SD_SW"
+        ]
+      },
+      {
+        "pin": "PG03",
+        "names": [
+          "D50"
+        ]
+      },
+      {
+        "pin": "PG06",
+        "names": [
+          "OTG_FS_POWER"
+        ]
+      },
+      {
+        "pin": "PG07",
+        "names": [
+          "OTG_FS_OVER_CURRENT"
+        ]
+      },
+      {
+        "pin": "PG09",
+        "names": [
+          "D0"
+        ]
+      },
+      {
+        "pin": "PG11",
+        "names": [
+          "ETH_RMII_TX_EN"
+        ]
+      },
+      {
+        "pin": "PG13",
+        "names": [
+          "ETH_RMII_TXD0"
+        ]
+      },
+      {
+        "pin": "PG14",
+        "names": [
+          "D1"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:nucleo_f767zi",
+      "label": "CircuitPython board definition (nucleo_f767zi)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/nucleo_f767zi.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:nucleo_f767zi",
+      "label": "CircuitPython pin definitions (nucleo_f767zi)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/stm/boards/nucleo_f767zi/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

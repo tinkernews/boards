@@ -1,0 +1,37 @@
+{
+  "slug": "vcc-gnd-studio-h743vi",
+  "name": "H743VI",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "vcc-gnd-studio",
+  "ids": {
+    "micropython": [
+      "VCC_GND_H743VI"
+    ]
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "H743VI product page",
+      "url": "http://vcc-gnd.com/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/VCC_GND_H743VI/",
+      "source": "micropython:vcc_gnd_h743vi"
+    }
+  ],
+  "sources": [
+    {
+      "id": "micropython:vcc_gnd_h743vi",
+      "label": "MicroPython board definition (VCC_GND_H743VI)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/stm32/boards/VCC_GND_H743VI/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

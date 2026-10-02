@@ -1,0 +1,48 @@
+{
+  "slug": "sigma-delta-sdt52832b",
+  "name": "SDT52832B",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sigma-delta",
+  "chip": "nrf52832",
+  "ids": {
+    "platformio": [
+      "sdt52832b"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52832",
+      "source": "platformio:sdt52832b"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:sdt52832b"
+    },
+    "clock": {
+      "value": "64 MHz",
+      "source": "platformio:sdt52832b"
+    },
+    "upload_limits": {
+      "value": "512 KB flash, 64 KB RAM",
+      "source": "platformio:sdt52832b"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "SDT52832B product page",
+      "url": "https://os.mbed.com/platforms/SDT52832B/"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:sdt52832b",
+      "label": "PlatformIO board definition (sdt52832b)",
+      "url": "https://github.com/platformio/platform-nordicnrf52/blob/278176a7f7ffe2d001eb93eafa271c83b38222e4/boards/sdt52832b.json",
+      "kind": "import",
+      "revision": "278176a7f7ffe2d001eb93eafa271c83b38222e4"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

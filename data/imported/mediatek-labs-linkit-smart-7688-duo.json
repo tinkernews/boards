@@ -1,0 +1,53 @@
+{
+  "slug": "mediatek-labs-linkit-smart-7688-duo",
+  "name": "LinkIt Smart 7688 Duo",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "mediatek-labs",
+  "chip": "atmega32u4",
+  "ids": {
+    "platformio": [
+      "smart7688"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega32U4",
+      "source": "platformio:smart7688"
+    },
+    "clock": {
+      "value": "8 MHz",
+      "source": "platformio:smart7688"
+    },
+    "upload_limits": {
+      "value": "28 KB flash, 2.5 KB RAM",
+      "source": "platformio:smart7688"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "LinkIt Smart 7688 Duo product page",
+      "url": "https://www.seeedstudio.com/LinkIt-Smart-7688-Duo-p-2574.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/smart7688.html",
+      "source": "platformio:smart7688"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:smart7688",
+      "label": "PlatformIO board definition (smart7688)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/smart7688.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

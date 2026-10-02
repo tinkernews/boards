@@ -1,0 +1,78 @@
+{
+  "slug": "silicognition-wesp32",
+  "name": "Silicognition wESP32",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "silicognition",
+  "chip": "esp32",
+  "aliases": [
+    "wESP32"
+  ],
+  "ids": {
+    "platformio": [
+      "wesp32"
+    ],
+    "micropython": [
+      "SIL_WESP32"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:wesp32"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:wesp32"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:wesp32"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Silicognition wESP32 product page",
+      "url": "https://wesp32.com/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/wesp32.html",
+      "source": "platformio:wesp32"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/wesp32.html",
+      "source": "platformio:wesp32"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/SIL_WESP32/",
+      "source": "micropython:sil_wesp32"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:wesp32",
+      "label": "PlatformIO board definition (wesp32)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/wesp32.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    },
+    {
+      "id": "micropython:sil_wesp32",
+      "label": "MicroPython board definition (SIL_WESP32)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/esp32/boards/SIL_WESP32/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

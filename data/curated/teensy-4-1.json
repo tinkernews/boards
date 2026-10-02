@@ -1,0 +1,118 @@
+{
+  "slug": "teensy-4-1",
+  "name": "Teensy 4.1",
+  "tier": "curated",
+  "kind": "mcu",
+  "maker": "pjrc",
+  "family": "Teensy",
+  "chip": "imxrt1062",
+  "released": "2020-05",
+  "status": "current",
+  "summary": "The larger Teensy 4: the same 600 MHz Cortex-M7 with 8 MB of flash, an Ethernet PHY, a microSD socket and pads for extra PSRAM.",
+  "aliases": [
+    "Teensy 4.1"
+  ],
+  "ids": {
+    "platformio": [
+      "teensy41"
+    ],
+    "circuitpython": [
+      "teensy41"
+    ],
+    "micropython": [
+      "TEENSY41"
+    ]
+  },
+  "review": {
+    "status": "draft"
+  },
+  "predecessor": "teensy-4-0",
+  "specs": {
+    "chip": {
+      "value": "NXP i.MX RT1062",
+      "source": "teensy41"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M7",
+      "source": "nxp-rt1060"
+    },
+    "clock": {
+      "value": "600 MHz",
+      "source": "teensy41"
+    },
+    "ram": {
+      "value": "1024 KB, plus pads for up to 16 MB PSRAM",
+      "source": "teensy41"
+    },
+    "flash": {
+      "value": "8 MB",
+      "source": "teensy41"
+    },
+    "storage": {
+      "value": "microSD socket",
+      "source": "teensy41"
+    },
+    "io_voltage": {
+      "value": "3.3 V, not 5 V tolerant",
+      "source": "teensy41"
+    },
+    "ethernet": {
+      "value": "10/100 PHY on board (needs a MagJack kit)",
+      "source": "teensy41"
+    },
+    "usb": {
+      "value": "Micro-USB, 480 Mbit/s; USB host pins",
+      "source": "teensy41"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Teensy 4.1, PJRC",
+      "url": "https://www.pjrc.com/store/teensy41.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Teensyduino add-on for the Arduino IDE.",
+      "url": "https://www.pjrc.com/teensy/td_download.html",
+      "source": "pjrc"
+    }
+  ],
+  "gotchas": [
+    {
+      "title": "3.3 V only",
+      "text": "Pins are not 5 V tolerant.",
+      "source": "teensy41"
+    }
+  ],
+  "commonsFile": "File:Teensy 4.1.jpg",
+  "editorial": {
+    "history": "Released in May 2020, the 4.1 extended the Teensy 4.0 with more flash, Ethernet and storage in a longer board.",
+    "today": "A strong choice for data loggers, audio and networked controllers that outgrow an Arduino.",
+    "source": "teensy41"
+  },
+  "sources": [
+    {
+      "id": "teensy41",
+      "label": "Teensy 4.1, PJRC",
+      "url": "https://www.pjrc.com/store/teensy41.html",
+      "kind": "official"
+    },
+    {
+      "id": "pjrc",
+      "label": "Teensy, PJRC",
+      "url": "https://www.pjrc.com/teensy/",
+      "kind": "official"
+    },
+    {
+      "id": "nxp-rt1060",
+      "label": "i.MX RT1060 crossover MCU, NXP",
+      "url": "https://www.nxp.com/products/processors-and-microcontrollers/arm-microcontrollers/i-mx-rt-crossover-mcus/i-mx-rt1060-crossover-mcu-with-arm-cortex-m7-core:i.MX-RT1060",
+      "kind": "official"
+    }
+  ],
+  "updatedAt": "2026-10-01T00:00:00.000Z"
+}

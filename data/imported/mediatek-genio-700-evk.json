@@ -1,0 +1,40 @@
+{
+  "slug": "mediatek-genio-700-evk",
+  "name": "Genio 700 EVK",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "mediatek",
+  "ids": {
+    "zephyr": [
+      "mt8390_genio_700_evk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MT8188",
+      "source": "zephyr:mt8390_genio_700_evk"
+    },
+    "ram": {
+      "value": "8192 KB",
+      "source": "zephyr:mt8390_genio_700_evk"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/mediatek/mt8390_genio_700_evk/doc/index.html",
+      "source": "zephyr:mt8390_genio_700_evk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:mt8390_genio_700_evk",
+      "label": "Zephyr board definition (mt8390_genio_700_evk)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/mediatek/mt8390_genio_700_evk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

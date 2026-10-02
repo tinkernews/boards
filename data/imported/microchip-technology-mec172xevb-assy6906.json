@@ -1,0 +1,44 @@
+{
+  "slug": "microchip-technology-mec172xevb-assy6906",
+  "name": "MEC172xEVB ASSY6906",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "ids": {
+    "zephyr": [
+      "mec172xevb_assy6906"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MEC172X_NSZ",
+      "source": "zephyr:mec172xevb_assy6906"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:mec172xevb_assy6906"
+    },
+    "flash": {
+      "value": "352 KB",
+      "source": "zephyr:mec172xevb_assy6906"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/microchip/mec172xevb_assy6906/doc/index.html",
+      "source": "zephyr:mec172xevb_assy6906"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:mec172xevb_assy6906",
+      "label": "Zephyr board definition (mec172xevb_assy6906)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/microchip/mec172xevb_assy6906/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

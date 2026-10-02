@@ -1,0 +1,52 @@
+{
+  "slug": "pinoccio-scout",
+  "name": "Pinoccio Scout",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "pinoccio",
+  "ids": {
+    "platformio": [
+      "pinoccio"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATMEGA256RFR2",
+      "source": "platformio:pinoccio"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:pinoccio"
+    },
+    "upload_limits": {
+      "value": "248 KB flash, 32 KB RAM",
+      "source": "platformio:pinoccio"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Pinoccio Scout product page",
+      "url": "https://www.crowdsupply.com/pinoccio/mesh-sensor-network"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/pinoccio.html",
+      "source": "platformio:pinoccio"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:pinoccio",
+      "label": "PlatformIO board definition (pinoccio)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/pinoccio.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

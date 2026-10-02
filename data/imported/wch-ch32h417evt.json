@@ -1,0 +1,44 @@
+{
+  "slug": "wch-ch32h417evt",
+  "name": "WCH CH32H417EVT",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "wch",
+  "ids": {
+    "zephyr": [
+      "ch32h417evt"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "CH32H417",
+      "source": "zephyr:ch32h417evt"
+    },
+    "ram": {
+      "value": "447 KB",
+      "source": "zephyr:ch32h417evt"
+    },
+    "flash": {
+      "value": "64 KB",
+      "source": "zephyr:ch32h417evt"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/wch/ch32h417evt/doc/index.html",
+      "source": "zephyr:ch32h417evt"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:ch32h417evt",
+      "label": "Zephyr board definition (ch32h417evt)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/wch/ch32h417evt/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

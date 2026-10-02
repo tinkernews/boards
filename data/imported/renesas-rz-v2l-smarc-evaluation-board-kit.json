@@ -1,0 +1,36 @@
+{
+  "slug": "renesas-rz-v2l-smarc-evaluation-board-kit",
+  "name": "RZ/V2L SMARC Evaluation Board Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "renesas",
+  "ids": {
+    "zephyr": [
+      "rzv2l_smarc"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "R9A07G054L23GBG",
+      "source": "zephyr:rzv2l_smarc"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/renesas/rzv2l_smarc/doc/index.html",
+      "source": "zephyr:rzv2l_smarc"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:rzv2l_smarc",
+      "label": "Zephyr board definition (rzv2l_smarc)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/renesas/rzv2l_smarc/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

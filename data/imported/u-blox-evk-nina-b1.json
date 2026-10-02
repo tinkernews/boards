@@ -1,0 +1,57 @@
+{
+  "slug": "u-blox-evk-nina-b1",
+  "name": "u-blox EVK-NINA-B1",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "u-blox",
+  "chip": "nrf52832",
+  "ids": {
+    "platformio": [
+      "ublox_evk_nina_b1"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52832",
+      "source": "platformio:ublox_evk_nina_b1"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:ublox_evk_nina_b1"
+    },
+    "clock": {
+      "value": "64 MHz",
+      "source": "platformio:ublox_evk_nina_b1"
+    },
+    "upload_limits": {
+      "value": "512 KB flash, 64 KB RAM",
+      "source": "platformio:ublox_evk_nina_b1"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "u-blox EVK-NINA-B1 product page",
+      "url": "https://os.mbed.com/platforms/u-blox-EVK-NINA-B1/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/nordicnrf52/ublox_evk_nina_b1.html",
+      "source": "platformio:ublox_evk_nina_b1"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:ublox_evk_nina_b1",
+      "label": "PlatformIO board definition (ublox_evk_nina_b1)",
+      "url": "https://github.com/platformio/platform-nordicnrf52/blob/278176a7f7ffe2d001eb93eafa271c83b38222e4/boards/ublox_evk_nina_b1.json",
+      "kind": "import",
+      "revision": "278176a7f7ffe2d001eb93eafa271c83b38222e4"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

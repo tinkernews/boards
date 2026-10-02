@@ -1,0 +1,32 @@
+{
+  "slug": "walnut-pi-box",
+  "name": "Walnut Pi Box",
+  "tier": "imported",
+  "kind": "sbc",
+  "maker": "walnut",
+  "released": "2026",
+  "ids": {
+    "armbian": [
+      "walnutpi-box"
+    ]
+  },
+  "software": [
+    {
+      "platform": "armbian",
+      "status": "community",
+      "note": "Community-maintained in Armbian.",
+      "url": "https://github.com/armbian/build/blob/main/config/boards/walnutpi-box.csc",
+      "source": "armbian:walnutpi-box"
+    }
+  ],
+  "sources": [
+    {
+      "id": "armbian:walnutpi-box",
+      "label": "Armbian board configuration (walnutpi-box)",
+      "url": "https://github.com/armbian/build/blob/da85daa05bd260d04dac50315d7317207fd998b3/config/boards/walnutpi-box.csc",
+      "kind": "import",
+      "revision": "da85daa05bd260d04dac50315d7317207fd998b3"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

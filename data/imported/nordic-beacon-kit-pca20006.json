@@ -1,0 +1,57 @@
+{
+  "slug": "nordic-beacon-kit-pca20006",
+  "name": "Nordic Beacon Kit (PCA20006)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nordic-semiconductor",
+  "chip": "nrf51822",
+  "ids": {
+    "platformio": [
+      "nrf51_beacon"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF51822",
+      "source": "platformio:nrf51_beacon"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0",
+      "source": "platformio:nrf51_beacon"
+    },
+    "clock": {
+      "value": "32 MHz",
+      "source": "platformio:nrf51_beacon"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:nrf51_beacon"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Nordic Beacon Kit (PCA20006) product page",
+      "url": "https://www.nordicsemi.com/Software-and-Tools/Reference-Designs/nRF51822-Beacon-Kit"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/nordicnrf51/nrf51_beacon.html",
+      "source": "platformio:nrf51_beacon"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:nrf51_beacon",
+      "label": "PlatformIO board definition (nrf51_beacon)",
+      "url": "https://github.com/platformio/platform-nordicnrf51/blob/521963027651adfb1cd631d98767251dee254354/boards/nrf51_beacon.json",
+      "kind": "import",
+      "revision": "521963027651adfb1cd631d98767251dee254354"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

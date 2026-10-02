@@ -1,0 +1,37 @@
+{
+  "slug": "doit-esp32-devkit-v1-2",
+  "name": "DOIT ESP32-DevKit-V1",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "generic",
+  "chip": "esp32",
+  "ids": {
+    "zephyr": [
+      "doit_esp32_devkit_v1"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "zephyr:doit_esp32_devkit_v1"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/others/doit_esp32_devkit_v1/doc/index.html",
+      "source": "zephyr:doit_esp32_devkit_v1"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:doit_esp32_devkit_v1",
+      "label": "Zephyr board definition (doit_esp32_devkit_v1)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/others/doit_esp32_devkit_v1/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

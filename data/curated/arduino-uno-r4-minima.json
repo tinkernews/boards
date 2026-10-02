@@ -1,0 +1,155 @@
+{
+  "slug": "arduino-uno-r4-minima",
+  "name": "Arduino Uno R4 Minima",
+  "tier": "curated",
+  "kind": "mcu",
+  "maker": "arduino",
+  "family": "Arduino",
+  "chip": "ra4m1",
+  "released": "2023-06",
+  "status": "current",
+  "summary": "The 2023 Uno with a 48 MHz Arm Cortex-M4: 16 times the flash and RAM of the R3, USB-C, a DAC and 24 V input, in the same layout.",
+  "aliases": [
+    "Arduino Uno R4 Minima",
+    "Arduino UNO R4 Minima",
+    "Uno R4 Minima"
+  ],
+  "ids": {
+    "platformio": [
+      "uno_r4_minima"
+    ],
+    "zephyr": [
+      "uno_r4"
+    ]
+  },
+  "review": {
+    "status": "draft"
+  },
+  "predecessor": "arduino-uno",
+  "successor": "arduino-uno-r4-wifi",
+  "specs": {
+    "chip": {
+      "value": "Renesas RA4M1 (R7FA4M1AB3CFM)",
+      "source": "arduino-docs"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4F",
+      "source": "arduino-docs"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "arduino-docs"
+    },
+    "ram": {
+      "value": "32 KB SRAM",
+      "source": "arduino-docs"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "arduino-docs"
+    },
+    "eeprom": {
+      "value": "8 KB data flash",
+      "source": "arduino-docs"
+    },
+    "gpio": {
+      "value": "14 digital I/O",
+      "source": "arduino-docs"
+    },
+    "analog": {
+      "value": "6 analog inputs (up to 14-bit); 12-bit DAC on A0",
+      "source": "arduino-docs"
+    },
+    "io_voltage": {
+      "value": "5 V",
+      "source": "arduino-docs"
+    },
+    "input_voltage": {
+      "value": "6–24 V on VIN or the barrel jack; 5 V via USB-C",
+      "source": "arduino-docs"
+    },
+    "usb": {
+      "value": "USB-C, native USB on the RA4M1 (HID capable)",
+      "source": "arduino-docs"
+    },
+    "launch_price": {
+      "value": "US$20",
+      "source": "wikipedia"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Product documentation, Arduino",
+      "url": "https://docs.arduino.cc/hardware/uno-r4-minima/"
+    },
+    {
+      "kind": "datasheet",
+      "label": "Board datasheet",
+      "url": "https://docs.arduino.cc/resources/datasheets/ABX00080-datasheet.pdf"
+    },
+    {
+      "kind": "schematic",
+      "label": "Schematics",
+      "url": "https://docs.arduino.cc/resources/schematics/ABX00080-schematics.pdf"
+    },
+    {
+      "kind": "pinout",
+      "label": "Full pinout",
+      "url": "https://docs.arduino.cc/resources/pinouts/ABX00080-full-pinout.pdf"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Official Arduino core.",
+      "url": "https://docs.arduino.cc/software/ide/",
+      "source": "arduino-docs"
+    }
+  ],
+  "pinout": {
+    "layout": "arduino-uno-r3",
+    "source": "arduino-docs",
+    "note": "Same header positions as the Uno R3; pin functions differ (A0 is also a DAC)"
+  },
+  "gotchas": [
+    {
+      "title": "AVR register code does not port",
+      "text": "Sketches that write AVR registers directly (PORTB, timers, ISR names) will not compile; libraries that use the Arduino API do.",
+      "source": "arduino-docs"
+    },
+    {
+      "title": "5 V logic",
+      "text": "I/O is 5 V. Sensors and modules that run at 3.3 V (most modern ones) need level shifting on their inputs.",
+      "source": "arduino-docs"
+    }
+  ],
+  "commonsFile": "File:Arduino Uno R4 Minima.webp",
+  "editorial": {
+    "history": "Announced in June 2023, the R4 was the first Uno to move off the AVR, keeping 5 V I/O and the R3 shield layout so existing shields still fit.",
+    "today": "The Uno to buy when you want the classic form factor with room for real programs; add the WiFi version if you need wireless or the LED matrix.",
+    "source": "arduino-docs"
+  },
+  "sources": [
+    {
+      "id": "arduino-docs",
+      "label": "Arduino UNO R4 Minima, Arduino documentation",
+      "url": "https://docs.arduino.cc/hardware/uno-r4-minima/",
+      "kind": "official"
+    },
+    {
+      "id": "arduino-datasheet",
+      "label": "Arduino UNO R4 Minima datasheet (ABX00080)",
+      "url": "https://docs.arduino.cc/resources/datasheets/ABX00080-datasheet.pdf",
+      "kind": "official"
+    },
+    {
+      "id": "wikipedia",
+      "label": "Arduino Uno, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Arduino_Uno",
+      "kind": "reference"
+    }
+  ],
+  "updatedAt": "2026-10-01T00:00:00.000Z"
+}

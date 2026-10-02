@@ -1,0 +1,37 @@
+{
+  "slug": "makerfabs-matouch-mtro128g",
+  "name": "Matouch MTRO128G",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "makerfabs",
+  "chip": "esp32-s3",
+  "ids": {
+    "zephyr": [
+      "matouch_mtro128g"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-S3",
+      "source": "zephyr:matouch_mtro128g"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/makerfabs/matouch_mtro128g/doc/index.html",
+      "source": "zephyr:matouch_mtro128g"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:matouch_mtro128g",
+      "label": "Zephyr board definition (matouch_mtro128g)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/makerfabs/matouch_mtro128g/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

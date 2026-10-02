@@ -1,0 +1,52 @@
+{
+  "slug": "microchip-technology-atmega64-a",
+  "name": "ATmega64/A",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "ids": {
+    "platformio": [
+      "ATmega64"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATMEGA64",
+      "source": "platformio:atmega64"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:atmega64"
+    },
+    "upload_limits": {
+      "value": "64 KB flash, 4 KB RAM",
+      "source": "platformio:atmega64"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ATmega64/A product page",
+      "url": "https://www.microchip.com/wwwproducts/ATmega64"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/ATmega64.html",
+      "source": "platformio:atmega64"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:atmega64",
+      "label": "PlatformIO board definition (ATmega64)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/ATmega64.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

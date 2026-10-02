@@ -1,0 +1,44 @@
+{
+  "slug": "holyiot-21014-module",
+  "name": "21014 Module",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "holyiot",
+  "ids": {
+    "zephyr": [
+      "holyiot_21014"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "NRF52810",
+      "source": "zephyr:holyiot_21014"
+    },
+    "ram": {
+      "value": "24 KB",
+      "source": "zephyr:holyiot_21014"
+    },
+    "flash": {
+      "value": "192 KB",
+      "source": "zephyr:holyiot_21014"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/holyiot/holyiot_21014/doc/index.html",
+      "source": "zephyr:holyiot_21014"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:holyiot_21014",
+      "label": "Zephyr board definition (holyiot_21014)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/holyiot/holyiot_21014/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

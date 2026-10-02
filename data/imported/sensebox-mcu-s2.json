@@ -1,0 +1,254 @@
+{
+  "slug": "sensebox-mcu-s2",
+  "name": "senseBox MCU-S2",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sensebox",
+  "chip": "esp32-s2",
+  "ids": {
+    "circuitpython": [
+      "sensebox_mcu_esp32s2"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/sensebox_mcu_esp32s2/",
+      "source": "circuitpython:sensebox_mcu_esp32s2"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:sensebox_mcu_esp32s2",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "BUTTON",
+          "BOOT0",
+          "D0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "D1",
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "D2",
+          "A2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "D3",
+          "A3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "D4",
+          "A4"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "D5",
+          "A5"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "D6",
+          "A6"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "D7",
+          "A7"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "IO_POWER"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "SD_POWER"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "SD_CS"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "SD_MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "SD_SCLK"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "SD_MISO"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "PD_PIN"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "XB_TX",
+          "RX1"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "XB_RX",
+          "TX1"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "PD_POWER"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "UART_POWER"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "XB_INT"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "XB_CS"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "XB_MOSI",
+          "MOSI",
+          "D35"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "XB_SCLK",
+          "SCK",
+          "D36"
+        ]
+      },
+      {
+        "pin": "GPIO37",
+        "names": [
+          "XB_MISO",
+          "MISO",
+          "D37"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "XB_RESET",
+          "D38"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "SDA",
+          "D39"
+        ]
+      },
+      {
+        "pin": "GPIO40",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO41",
+        "names": [
+          "XBEE_POWER"
+        ]
+      },
+      {
+        "pin": "GPIO42",
+        "names": [
+          "SCL1"
+        ]
+      },
+      {
+        "pin": "GPIO43",
+        "names": [
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO44",
+        "names": [
+          "RX"
+        ]
+      },
+      {
+        "pin": "GPIO45",
+        "names": [
+          "SDA1"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:sensebox_mcu_esp32s2",
+      "label": "CircuitPython board definition (sensebox_mcu_esp32s2)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/sensebox_mcu_esp32s2.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:sensebox_mcu_esp32s2",
+      "label": "CircuitPython pin definitions (sensebox_mcu_esp32s2)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/sensebox_mcu_esp32s2/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

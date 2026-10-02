@@ -1,0 +1,44 @@
+{
+  "slug": "mikroelektronika-d-o-o-stm32-m4-clicker",
+  "name": "STM32 M4 Clicker",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "mikroelektronika-d-o-o",
+  "ids": {
+    "zephyr": [
+      "mikroe_stm32_m4_clicker"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F415XX",
+      "source": "zephyr:mikroe_stm32_m4_clicker"
+    },
+    "ram": {
+      "value": "128 KB",
+      "source": "zephyr:mikroe_stm32_m4_clicker"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:mikroe_stm32_m4_clicker"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/mikroe/stm32_m4_clicker/doc/index.html",
+      "source": "zephyr:mikroe_stm32_m4_clicker"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:mikroe_stm32_m4_clicker",
+      "label": "Zephyr board definition (mikroe_stm32_m4_clicker)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/mikroe/stm32_m4_clicker/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

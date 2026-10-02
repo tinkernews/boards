@@ -1,0 +1,44 @@
+{
+  "slug": "nordic-semiconductor-nrf54l15-tag",
+  "name": "nRF54L15 TAG",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nordic-semiconductor",
+  "ids": {
+    "zephyr": [
+      "nrf54l15tag"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "NRF54L15",
+      "source": "zephyr:nrf54l15tag"
+    },
+    "ram": {
+      "value": "255 KB",
+      "source": "zephyr:nrf54l15tag"
+    },
+    "flash": {
+      "value": "712 KB",
+      "source": "zephyr:nrf54l15tag"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nordic/nrf54l15tag/doc/index.html",
+      "source": "zephyr:nrf54l15tag"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:nrf54l15tag",
+      "label": "Zephyr board definition (nrf54l15tag)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nordic/nrf54l15tag/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

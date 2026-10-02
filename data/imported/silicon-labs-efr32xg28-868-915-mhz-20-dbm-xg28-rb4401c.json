@@ -1,0 +1,44 @@
+{
+  "slug": "silicon-labs-efr32xg28-868-915-mhz-20-dbm-xg28-rb4401c",
+  "name": "EFR32xG28 868-915 MHz 20 dBm (xG28-RB4401C)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "silicon-labs",
+  "ids": {
+    "zephyr": [
+      "xg28_rb4401c"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "EFR32ZG28B322F1024IM68",
+      "source": "zephyr:xg28_rb4401c"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:xg28_rb4401c"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:xg28_rb4401c"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/silabs/radio_boards/xg28_rb4401c/doc/index.html",
+      "source": "zephyr:xg28_rb4401c"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:xg28_rb4401c",
+      "label": "Zephyr board definition (xg28_rb4401c)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/silabs/radio_boards/xg28_rb4401c/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

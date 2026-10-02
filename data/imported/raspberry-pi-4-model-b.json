@@ -1,0 +1,71 @@
+{
+  "slug": "raspberry-pi-4-model-b",
+  "name": "Raspberry Pi 4 Model B",
+  "tier": "imported",
+  "kind": "sbc",
+  "maker": "raspberry-pi",
+  "chip": "bcm2711",
+  "aliases": [
+    "Raspberry Pi 4 Model B (Cortex-A72)",
+    "Pi 4 Model B"
+  ],
+  "ids": {
+    "zephyr": [
+      "rpi_4b"
+    ],
+    "circuitpython": [
+      "raspberrypi_pi4b"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "BCM2711",
+      "source": "zephyr:rpi_4b"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/raspberrypi/rpi_4b/doc/index.html",
+      "source": "zephyr:rpi_4b"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/raspberrypi_pi4b/",
+      "source": "circuitpython:raspberrypi_pi4b"
+    },
+    {
+      "platform": "linux-mainline",
+      "status": "supported",
+      "note": "A device tree for this board is in the mainline kernel; features may still be missing.",
+      "url": "https://github.com/torvalds/linux/blob/master/arch/arm/boot/dts/broadcom/bcm2711-rpi-4-b.dts",
+      "source": "linux:bcm2711-rpi-4-b.dts"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:rpi_4b",
+      "label": "Zephyr board definition (rpi_4b)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/raspberrypi/rpi_4b/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "circuitpython:raspberrypi_pi4b",
+      "label": "CircuitPython board definition (raspberrypi_pi4b)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/raspberrypi_pi4b.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "linux:bcm2711-rpi-4-b.dts",
+      "label": "Linux kernel device tree (bcm2711-rpi-4-b.dts)",
+      "url": "https://github.com/torvalds/linux/blob/551c722f40809618230001baccf219193e22fc5a/arch/arm/boot/dts/broadcom/bcm2711-rpi-4-b.dts",
+      "kind": "import",
+      "revision": "551c722f40809618230001baccf219193e22fc5a"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

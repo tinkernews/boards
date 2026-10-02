@@ -1,0 +1,59 @@
+{
+  "slug": "trueverit-esp32-universal-iot-driver-mk-iii",
+  "name": "Trueverit ESP32 Universal IoT Driver MK III",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "trueverit",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "trueverit-iot-driver-mk3"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:trueverit-iot-driver-mk3"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:trueverit-iot-driver-mk3"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:trueverit-iot-driver-mk3"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Trueverit ESP32 Universal IoT Driver MK III product page",
+      "url": "https://trueverit.com/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/trueverit-iot-driver-mk3.html",
+      "source": "platformio:trueverit-iot-driver-mk3"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/trueverit-iot-driver-mk3.html",
+      "source": "platformio:trueverit-iot-driver-mk3"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:trueverit-iot-driver-mk3",
+      "label": "PlatformIO board definition (trueverit-iot-driver-mk3)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/trueverit-iot-driver-mk3.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

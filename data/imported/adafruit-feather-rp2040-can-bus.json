@@ -1,0 +1,261 @@
+{
+  "slug": "adafruit-feather-rp2040-can-bus",
+  "name": "Feather RP2040 CAN bus",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "rp2040",
+  "aliases": [
+    "Feather RP2040 CAN Bus"
+  ],
+  "ids": {
+    "zephyr": [
+      "adafruit_feather_canbus_rp2040"
+    ],
+    "circuitpython": [
+      "adafruit_feather_rp2040_can"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "RP2040",
+      "source": "zephyr:adafruit_feather_canbus_rp2040"
+    },
+    "ram": {
+      "value": "264 KB",
+      "source": "zephyr:adafruit_feather_canbus_rp2040"
+    },
+    "flash": {
+      "value": "8 MB",
+      "source": "zephyr:adafruit_feather_canbus_rp2040"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/adafruit/feather_canbus_rp2040/doc/index.html",
+      "source": "zephyr:adafruit_feather_canbus_rp2040"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/adafruit_feather_rp2040_can/",
+      "source": "circuitpython:adafruit_feather_rp2040_can"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:adafruit_feather_rp2040_can",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "TX",
+          "D1"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "RX",
+          "D0"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "D4"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "BUTTON",
+          "BOOT",
+          "D7"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "MISO"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "D9"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "D10"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "D11"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "D12"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "LED",
+          "D13"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "CAN_STANDBY"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "CAN_TX0_RTS"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "CAN_RESET"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "CAN_CS"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "NEOPIXEL_POWER"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "CAN_INTERRUPT"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "CAN_RX0_BF"
+        ]
+      },
+      {
+        "pin": "GPIO24",
+        "names": [
+          "D24"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "D25"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "A0"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "A1"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "A2"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "A3"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "zephyr:adafruit_feather_canbus_rp2040",
+      "label": "Zephyr board definition (adafruit_feather_canbus_rp2040)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/adafruit/feather_canbus_rp2040/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "circuitpython:adafruit_feather_rp2040_can",
+      "label": "CircuitPython board definition (adafruit_feather_rp2040_can)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/adafruit_feather_rp2040_can.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:adafruit_feather_rp2040_can",
+      "label": "CircuitPython pin definitions (adafruit_feather_rp2040_can)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/adafruit_feather_rp2040_can/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

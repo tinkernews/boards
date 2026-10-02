@@ -1,0 +1,137 @@
+{
+  "slug": "adafruit-qt-py-haxpress",
+  "name": "QT Py Haxpress",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "atsamd21g18",
+  "ids": {
+    "circuitpython": [
+      "qtpy_m0_haxpress"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/qtpy_m0_haxpress/",
+      "source": "circuitpython:qtpy_m0_haxpress"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:qtpy_m0_haxpress",
+    "list": [
+      {
+        "pin": "PA02",
+        "names": [
+          "D0",
+          "A0"
+        ]
+      },
+      {
+        "pin": "PA03",
+        "names": [
+          "D1",
+          "A1"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "D2",
+          "A2"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "D3",
+          "A3"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "D6",
+          "A6",
+          "TX"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "D7",
+          "A7",
+          "RX"
+        ]
+      },
+      {
+        "pin": "PA09",
+        "names": [
+          "D9",
+          "A9",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "D10",
+          "A10",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "PA11",
+        "names": [
+          "D8",
+          "A8",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "PA15",
+        "names": [
+          "NEOPIXEL_POWER"
+        ]
+      },
+      {
+        "pin": "PA16",
+        "names": [
+          "D4",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PA17",
+        "names": [
+          "D5",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "PA18",
+        "names": [
+          "NEOPIXEL"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:qtpy_m0_haxpress",
+      "label": "CircuitPython board definition (qtpy_m0_haxpress)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/qtpy_m0_haxpress.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:qtpy_m0_haxpress",
+      "label": "CircuitPython pin definitions (qtpy_m0_haxpress)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/qtpy_m0_haxpress/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

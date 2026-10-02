@@ -1,0 +1,44 @@
+{
+  "slug": "thirdreality-temperature-and-humidity-sensor-lite",
+  "name": "ThirdReality Temperature and Humidity Sensor Lite",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "third-reality",
+  "ids": {
+    "zephyr": [
+      "3r_tnh_sensor_lite"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "BL704L10Q2IW",
+      "source": "zephyr:3r_tnh_sensor_lite"
+    },
+    "ram": {
+      "value": "80 KB",
+      "source": "zephyr:3r_tnh_sensor_lite"
+    },
+    "flash": {
+      "value": "1008 KB",
+      "source": "zephyr:3r_tnh_sensor_lite"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/thirdreality/3r_tnh_sensor_lite/doc/index.html",
+      "source": "zephyr:3r_tnh_sensor_lite"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:3r_tnh_sensor_lite",
+      "label": "Zephyr board definition (3r_tnh_sensor_lite)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/thirdreality/3r_tnh_sensor_lite/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

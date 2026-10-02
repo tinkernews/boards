@@ -1,0 +1,76 @@
+{
+  "slug": "stmicroelectronics-st-stm32g071b-discovery",
+  "name": "ST STM32G071B Discovery",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "aliases": [
+    "STM32G071B Discovery"
+  ],
+  "ids": {
+    "platformio": [
+      "disco_g071rb"
+    ],
+    "zephyr": [
+      "stm32g071b_disco"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32G071RBT6",
+      "source": "platformio:disco_g071rb"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:disco_g071rb"
+    },
+    "clock": {
+      "value": "64 MHz",
+      "source": "platformio:disco_g071rb"
+    },
+    "upload_limits": {
+      "value": "128 KB flash, 36 KB RAM",
+      "source": "platformio:disco_g071rb"
+    },
+    "ram": {
+      "value": "36 KB",
+      "source": "zephyr:stm32g071b_disco"
+    },
+    "flash": {
+      "value": "128 KB",
+      "source": "zephyr:stm32g071b_disco"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ST STM32G071B Discovery product page",
+      "url": "https://www.st.com/en/evaluation-tools/stm32g071b-disco.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/stm32g071b_disco/doc/index.html",
+      "source": "zephyr:stm32g071b_disco"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:disco_g071rb",
+      "label": "PlatformIO board definition (disco_g071rb)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/disco_g071rb.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    },
+    {
+      "id": "zephyr:stm32g071b_disco",
+      "label": "Zephyr board definition (stm32g071b_disco)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/stm32g071b_disco/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

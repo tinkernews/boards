@@ -1,0 +1,366 @@
+{
+  "slug": "nxp-semiconductors-mimxrt1050-evkb-eval-kit",
+  "name": "MIMXRT1050-EVKB Eval Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "ids": {
+    "circuitpython": [
+      "imxrt1050_evkb"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/imxrt1050_evkb/",
+      "source": "circuitpython:imxrt1050_evkb"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:imxrt1050_evkb",
+    "list": [
+      {
+        "pin": "GPIO_AD_B0_02",
+        "names": [
+          "LCD_RST"
+        ]
+      },
+      {
+        "pin": "GPIO_AD_B0_05",
+        "names": [
+          "CAN_STBY"
+        ]
+      },
+      {
+        "pin": "GPIO_AD_B0_09",
+        "names": [
+          "ETHERNET_RST"
+        ]
+      },
+      {
+        "pin": "GPIO_AD_B0_10",
+        "names": [
+          "ETHERNET_INT"
+        ]
+      },
+      {
+        "pin": "GPIO_AD_B0_11",
+        "names": [
+          "LCD_TOUCH_INT"
+        ]
+      },
+      {
+        "pin": "GPIO_AD_B0_12",
+        "names": [
+          "FREELINK_TX"
+        ]
+      },
+      {
+        "pin": "GPIO_AD_B0_13",
+        "names": [
+          "FREELINK_RX"
+        ]
+      },
+      {
+        "pin": "GPIO_AD_B0_14",
+        "names": [
+          "CAN_TX"
+        ]
+      },
+      {
+        "pin": "GPIO_AD_B0_15",
+        "names": [
+          "CAN_RX"
+        ]
+      },
+      {
+        "pin": "GPIO_AD_B1_02",
+        "names": [
+          "SPDIF_OUT"
+        ]
+      },
+      {
+        "pin": "GPIO_AD_B1_03",
+        "names": [
+          "SPDIF_IN"
+        ]
+      },
+      {
+        "pin": "GPIO_AD_B1_08",
+        "names": [
+          "AUDIO_INT"
+        ]
+      },
+      {
+        "pin": "GPIO_AD_B1_09",
+        "names": [
+          "AUDIO_MCLK"
+        ]
+      },
+      {
+        "pin": "GPIO_AD_B1_10",
+        "names": [
+          "AUDIO_RX_SYNC"
+        ]
+      },
+      {
+        "pin": "GPIO_AD_B1_11",
+        "names": [
+          "AUDIO_RX_BCLK"
+        ]
+      },
+      {
+        "pin": "GPIO_AD_B1_12",
+        "names": [
+          "AUDIO_RXD"
+        ]
+      },
+      {
+        "pin": "GPIO_AD_B1_13",
+        "names": [
+          "AUDIO_TXD"
+        ]
+      },
+      {
+        "pin": "GPIO_AD_B1_14",
+        "names": [
+          "AUDIO_TX_BCLK"
+        ]
+      },
+      {
+        "pin": "GPIO_AD_B1_15",
+        "names": [
+          "AUDIO_TX_SYNC"
+        ]
+      },
+      {
+        "pin": "GPIO_B0_00",
+        "names": [
+          "LCD_CLK"
+        ]
+      },
+      {
+        "pin": "GPIO_B0_01",
+        "names": [
+          "LCD_ENABLE"
+        ]
+      },
+      {
+        "pin": "GPIO_B0_02",
+        "names": [
+          "LCD_HSYNC"
+        ]
+      },
+      {
+        "pin": "GPIO_B0_03",
+        "names": [
+          "LCD_VSYNC"
+        ]
+      },
+      {
+        "pin": "GPIO_B0_04",
+        "names": [
+          "LCD_D0"
+        ]
+      },
+      {
+        "pin": "GPIO_B0_05",
+        "names": [
+          "LCD_D1"
+        ]
+      },
+      {
+        "pin": "GPIO_B0_06",
+        "names": [
+          "LCD_D2"
+        ]
+      },
+      {
+        "pin": "GPIO_B0_07",
+        "names": [
+          "LCD_D3"
+        ]
+      },
+      {
+        "pin": "GPIO_B0_08",
+        "names": [
+          "LCD_D4"
+        ]
+      },
+      {
+        "pin": "GPIO_B0_09",
+        "names": [
+          "LCD_D5"
+        ]
+      },
+      {
+        "pin": "GPIO_B0_10",
+        "names": [
+          "LCD_D6"
+        ]
+      },
+      {
+        "pin": "GPIO_B0_11",
+        "names": [
+          "LCD_D7"
+        ]
+      },
+      {
+        "pin": "GPIO_B0_12",
+        "names": [
+          "LCD_D8"
+        ]
+      },
+      {
+        "pin": "GPIO_B0_13",
+        "names": [
+          "LCD_D9"
+        ]
+      },
+      {
+        "pin": "GPIO_B0_14",
+        "names": [
+          "LCD_D10"
+        ]
+      },
+      {
+        "pin": "GPIO_B0_15",
+        "names": [
+          "LCD_D11"
+        ]
+      },
+      {
+        "pin": "GPIO_B1_00",
+        "names": [
+          "LCD_D12"
+        ]
+      },
+      {
+        "pin": "GPIO_B1_01",
+        "names": [
+          "LCD_D13"
+        ]
+      },
+      {
+        "pin": "GPIO_B1_02",
+        "names": [
+          "LCD_D14"
+        ]
+      },
+      {
+        "pin": "GPIO_B1_03",
+        "names": [
+          "LCD_D15"
+        ]
+      },
+      {
+        "pin": "GPIO_B1_04",
+        "names": [
+          "ETHERNET_RXD0"
+        ]
+      },
+      {
+        "pin": "GPIO_B1_05",
+        "names": [
+          "ETHERNET_RXD1"
+        ]
+      },
+      {
+        "pin": "GPIO_B1_06",
+        "names": [
+          "ETHERNET_CRS_DV"
+        ]
+      },
+      {
+        "pin": "GPIO_B1_07",
+        "names": [
+          "ETHERNET_TXD0"
+        ]
+      },
+      {
+        "pin": "GPIO_B1_08",
+        "names": [
+          "ETHERNET_TXD1"
+        ]
+      },
+      {
+        "pin": "GPIO_B1_09",
+        "names": [
+          "ETHERNET_TXEN"
+        ]
+      },
+      {
+        "pin": "GPIO_B1_10",
+        "names": [
+          "ETHERNET_CLK"
+        ]
+      },
+      {
+        "pin": "GPIO_B1_11",
+        "names": [
+          "ETHERNET_RXER"
+        ]
+      },
+      {
+        "pin": "GPIO_B1_15",
+        "names": [
+          "LCD_BACKLIGHT"
+        ]
+      },
+      {
+        "pin": "GPIO_EMC_40",
+        "names": [
+          "ETHERNET_MDC"
+        ]
+      },
+      {
+        "pin": "GPIO_EMC_41",
+        "names": [
+          "ETHERNET_MDIO"
+        ]
+      },
+      {
+        "pin": "USB_OTG1_DN",
+        "names": [
+          "USB_HOST_DM"
+        ]
+      },
+      {
+        "pin": "USB_OTG1_DP",
+        "names": [
+          "USB_HOST_DP"
+        ]
+      },
+      {
+        "pin": "USB_OTG2_DN",
+        "names": [
+          "USB_HOST_DM"
+        ]
+      },
+      {
+        "pin": "USB_OTG2_DP",
+        "names": [
+          "USB_HOST_DP"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:imxrt1050_evkb",
+      "label": "CircuitPython board definition (imxrt1050_evkb)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/imxrt1050_evkb.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:imxrt1050_evkb",
+      "label": "CircuitPython pin definitions (imxrt1050_evkb)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/mimxrt10xx/boards/imxrt1050_evkb/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

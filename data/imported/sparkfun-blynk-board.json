@@ -1,0 +1,53 @@
+{
+  "slug": "sparkfun-blynk-board",
+  "name": "SparkFun Blynk Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sparkfun",
+  "chip": "esp8266",
+  "ids": {
+    "platformio": [
+      "sparkfunBlynk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP8266EX",
+      "source": "platformio:sparkfunblynk"
+    },
+    "clock": {
+      "value": "80 MHz",
+      "source": "platformio:sparkfunblynk"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 80 KB RAM",
+      "source": "platformio:sparkfunblynk"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "SparkFun Blynk Board product page",
+      "url": "https://www.sparkfun.com/products/13794"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif8266/sparkfunBlynk.html",
+      "source": "platformio:sparkfunblynk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:sparkfunblynk",
+      "label": "PlatformIO board definition (sparkfunBlynk)",
+      "url": "https://github.com/platformio/platform-espressif8266/blob/668c2a2e4f16bd83b6c812f1ee0605c62b3ce2d2/boards/sparkfunBlynk.json",
+      "kind": "import",
+      "revision": "668c2a2e4f16bd83b6c812f1ee0605c62b3ce2d2"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

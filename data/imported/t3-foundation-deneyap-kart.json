@@ -1,0 +1,59 @@
+{
+  "slug": "t3-foundation-deneyap-kart",
+  "name": "Deneyap Kart",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "t3-foundation",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "deneyapkart"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:deneyapkart"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:deneyapkart"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:deneyapkart"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Deneyap Kart product page",
+      "url": "https://magaza.deneyapkart.org/tr/product/detail/deneyap-kart"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/deneyapkart.html",
+      "source": "platformio:deneyapkart"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/deneyapkart.html",
+      "source": "platformio:deneyapkart"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:deneyapkart",
+      "label": "PlatformIO board definition (deneyapkart)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/deneyapkart.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

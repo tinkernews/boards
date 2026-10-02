@@ -1,0 +1,53 @@
+{
+  "slug": "sanguino-atmega1284p-8mhz",
+  "name": "Sanguino ATmega1284p (8MHz)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sanguino",
+  "chip": "atmega1284p",
+  "ids": {
+    "platformio": [
+      "sanguino_atmega1284_8m"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega1284P",
+      "source": "platformio:sanguino_atmega1284_8m"
+    },
+    "clock": {
+      "value": "8 MHz",
+      "source": "platformio:sanguino_atmega1284_8m"
+    },
+    "upload_limits": {
+      "value": "127 KB flash, 16 KB RAM",
+      "source": "platformio:sanguino_atmega1284_8m"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Sanguino ATmega1284p (8MHz) product page",
+      "url": "https://github.com/Lauszus/Sanguino"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/sanguino_atmega1284_8m.html",
+      "source": "platformio:sanguino_atmega1284_8m"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:sanguino_atmega1284_8m",
+      "label": "PlatformIO board definition (sanguino_atmega1284_8m)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/sanguino_atmega1284_8m.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

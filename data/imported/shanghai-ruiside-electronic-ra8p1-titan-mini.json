@@ -1,0 +1,44 @@
+{
+  "slug": "shanghai-ruiside-electronic-ra8p1-titan-mini",
+  "name": "RA8P1 Titan Mini",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "shanghai-ruiside-electronic",
+  "ids": {
+    "zephyr": [
+      "ra8p1_titan_mini"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "R7KA8P1KFLCAC",
+      "source": "zephyr:ra8p1_titan_mini"
+    },
+    "ram": {
+      "value": "1664 KB",
+      "source": "zephyr:ra8p1_titan_mini"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:ra8p1_titan_mini"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/ruiside/ra8p1_titan_mini/doc/index.html",
+      "source": "zephyr:ra8p1_titan_mini"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:ra8p1_titan_mini",
+      "label": "Zephyr board definition (ra8p1_titan_mini)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/ruiside/ra8p1_titan_mini/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

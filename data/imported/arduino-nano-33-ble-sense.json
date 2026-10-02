@@ -1,0 +1,63 @@
+{
+  "slug": "arduino-nano-33-ble-sense",
+  "name": "Arduino Nano 33 BLE (Sense)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "chip": "nrf52840",
+  "aliases": [
+    "Nano 33 BLE Sense"
+  ],
+  "ids": {
+    "zephyr": [
+      "arduino_nano_33_ble"
+    ],
+    "micropython": [
+      "ARDUINO_NANO_33_BLE_SENSE"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52840",
+      "source": "zephyr:arduino_nano_33_ble"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Arduino Nano 33 BLE (Sense) product page",
+      "url": "https://store.arduino.cc/products/arduino-nano-33-ble-sense"
+    }
+  ],
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/arduino/nano_33_ble/doc/index.html",
+      "source": "zephyr:arduino_nano_33_ble"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/ARDUINO_NANO_33_BLE_SENSE/",
+      "source": "micropython:arduino_nano_33_ble_sense"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:arduino_nano_33_ble",
+      "label": "Zephyr board definition (arduino_nano_33_ble)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/arduino/nano_33_ble/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "micropython:arduino_nano_33_ble_sense",
+      "label": "MicroPython board definition (ARDUINO_NANO_33_BLE_SENSE)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/nrf/boards/ARDUINO_NANO_33_BLE_SENSE/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

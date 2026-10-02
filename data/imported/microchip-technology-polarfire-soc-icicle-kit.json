@@ -1,0 +1,40 @@
+{
+  "slug": "microchip-technology-polarfire-soc-icicle-kit",
+  "name": "PolarFire SoC Icicle Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "ids": {
+    "zephyr": [
+      "mpfs_icicle"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "POLARFIRE",
+      "source": "zephyr:mpfs_icicle"
+    },
+    "ram": {
+      "value": "3840 KB",
+      "source": "zephyr:mpfs_icicle"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/microchip/mpfs_icicle/doc/index.html",
+      "source": "zephyr:mpfs_icicle"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:mpfs_icicle",
+      "label": "Zephyr board definition (mpfs_icicle)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/microchip/mpfs_icicle/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

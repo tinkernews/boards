@@ -1,0 +1,44 @@
+{
+  "slug": "fanke-fk723m1-zgt6",
+  "name": "FK723M1-ZGT6",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "fanke",
+  "ids": {
+    "zephyr": [
+      "fk723m1_zgt6"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32H723XX",
+      "source": "zephyr:fk723m1_zgt6"
+    },
+    "ram": {
+      "value": "432 KB",
+      "source": "zephyr:fk723m1_zgt6"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:fk723m1_zgt6"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/fanke/fk723m1_zgt6/doc/index.html",
+      "source": "zephyr:fk723m1_zgt6"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:fk723m1_zgt6",
+      "label": "Zephyr board definition (fk723m1_zgt6)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/fanke/fk723m1_zgt6/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

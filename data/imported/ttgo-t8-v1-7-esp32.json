@@ -1,0 +1,200 @@
+{
+  "slug": "ttgo-t8-v1-7-esp32",
+  "name": "TTGO T8 V1.7 ESP32",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "lilygo",
+  "chip": "esp32",
+  "ids": {
+    "circuitpython": [
+      "ttgo_t8_v1_7"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/ttgo_t8_v1_7/",
+      "source": "circuitpython:ttgo_t8_v1_7"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:ttgo_t8_v1_7",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "IO0",
+          "BUTTON",
+          "BOOT0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "IO1",
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "SD_MISO",
+          "IO2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "IO3",
+          "RX"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "IO4"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "IO5"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "IO12"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "IO13",
+          "SD_CS"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "IO14",
+          "SD_SCK"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "IO15",
+          "SD_MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "IO18"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "IO19"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "LED",
+          "SDA",
+          "IO21"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "IO22",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "IO23"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "IO25"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "IO26"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "IO27"
+        ]
+      },
+      {
+        "pin": "GPIO32",
+        "names": [
+          "IO32"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "IO33"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "I34"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "I35"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "I36",
+          "VP"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "I39",
+          "VN"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:ttgo_t8_v1_7",
+      "label": "CircuitPython board definition (ttgo_t8_v1_7)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/ttgo_t8_v1_7.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:ttgo_t8_v1_7",
+      "label": "CircuitPython pin definitions (ttgo_t8_v1_7)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/ttgo_t8_v1_7/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "mikroelektronika-d-o-o-mini-m4-for-stm32",
+  "name": "MINI-M4 for STM32",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "mikroelektronika-d-o-o",
+  "ids": {
+    "zephyr": [
+      "mikroe_mini_m4_for_stm32"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F415XX",
+      "source": "zephyr:mikroe_mini_m4_for_stm32"
+    },
+    "ram": {
+      "value": "128 KB",
+      "source": "zephyr:mikroe_mini_m4_for_stm32"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:mikroe_mini_m4_for_stm32"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/mikroe/mini_m4_for_stm32/doc/index.html",
+      "source": "zephyr:mikroe_mini_m4_for_stm32"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:mikroe_mini_m4_for_stm32",
+      "label": "Zephyr board definition (mikroe_mini_m4_for_stm32)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/mikroe/mini_m4_for_stm32/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

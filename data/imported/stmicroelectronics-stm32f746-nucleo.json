@@ -1,0 +1,385 @@
+{
+  "slug": "stmicroelectronics-stm32f746-nucleo",
+  "name": "STM32F746 Nucleo",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "circuitpython": [
+      "nucleo_f746zg"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/nucleo_f746zg/",
+      "source": "circuitpython:nucleo_f746zg"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:nucleo_f746zg",
+    "list": [
+      {
+        "pin": "PA03",
+        "names": [
+          "A0"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "D24",
+          "SPI_B_NSS"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "D13"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "D12"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "D11"
+        ]
+      },
+      {
+        "pin": "PA09",
+        "names": [
+          "USB_VBUS"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "USB_ID"
+        ]
+      },
+      {
+        "pin": "PA11",
+        "names": [
+          "USB_DM"
+        ]
+      },
+      {
+        "pin": "PA12",
+        "names": [
+          "USB_DP"
+        ]
+      },
+      {
+        "pin": "PA15",
+        "names": [
+          "D20"
+        ]
+      },
+      {
+        "pin": "PB00",
+        "names": [
+          "LED1"
+        ]
+      },
+      {
+        "pin": "PB03",
+        "names": [
+          "D23",
+          "SPI_B_SCK"
+        ]
+      },
+      {
+        "pin": "PB04",
+        "names": [
+          "D25"
+        ]
+      },
+      {
+        "pin": "PB05",
+        "names": [
+          "D22",
+          "SPI_B_MOSI"
+        ]
+      },
+      {
+        "pin": "PB07",
+        "names": [
+          "LED2"
+        ]
+      },
+      {
+        "pin": "PB08",
+        "names": [
+          "D15",
+          "EXT_SCL"
+        ]
+      },
+      {
+        "pin": "PB09",
+        "names": [
+          "D14",
+          "EXT_SDA"
+        ]
+      },
+      {
+        "pin": "PB12",
+        "names": [
+          "D19"
+        ]
+      },
+      {
+        "pin": "PB13",
+        "names": [
+          "D18"
+        ]
+      },
+      {
+        "pin": "PB14",
+        "names": [
+          "LED3"
+        ]
+      },
+      {
+        "pin": "PB15",
+        "names": [
+          "D17"
+        ]
+      },
+      {
+        "pin": "PC00",
+        "names": [
+          "A1"
+        ]
+      },
+      {
+        "pin": "PC03",
+        "names": [
+          "A2"
+        ]
+      },
+      {
+        "pin": "PC06",
+        "names": [
+          "D16"
+        ]
+      },
+      {
+        "pin": "PC07",
+        "names": [
+          "D21"
+        ]
+      },
+      {
+        "pin": "PC13",
+        "names": [
+          "SW",
+          "SD_SW"
+        ]
+      },
+      {
+        "pin": "PD03",
+        "names": [
+          "UART2_CTS"
+        ]
+      },
+      {
+        "pin": "PD04",
+        "names": [
+          "OTG_FS_OVER_CURRENT",
+          "UART2_RTS"
+        ]
+      },
+      {
+        "pin": "PD05",
+        "names": [
+          "OTG_FS_POWER",
+          "UART2_TX"
+        ]
+      },
+      {
+        "pin": "PD06",
+        "names": [
+          "AUDIO_INT",
+          "UART2_RX"
+        ]
+      },
+      {
+        "pin": "PD08",
+        "names": [
+          "VCP_TX"
+        ]
+      },
+      {
+        "pin": "PD09",
+        "names": [
+          "VCP_RX"
+        ]
+      },
+      {
+        "pin": "PD14",
+        "names": [
+          "D10"
+        ]
+      },
+      {
+        "pin": "PD15",
+        "names": [
+          "D9"
+        ]
+      },
+      {
+        "pin": "PE03",
+        "names": [
+          "OTG_HS_OVER_CURRENT"
+        ]
+      },
+      {
+        "pin": "PE09",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "PE11",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "PE13",
+        "names": [
+          "D3"
+        ]
+      },
+      {
+        "pin": "PF03",
+        "names": [
+          "A3"
+        ]
+      },
+      {
+        "pin": "PF05",
+        "names": [
+          "A4"
+        ]
+      },
+      {
+        "pin": "PF10",
+        "names": [
+          "A5"
+        ]
+      },
+      {
+        "pin": "PF12",
+        "names": [
+          "D8"
+        ]
+      },
+      {
+        "pin": "PF13",
+        "names": [
+          "D7"
+        ]
+      },
+      {
+        "pin": "PF14",
+        "names": [
+          "D4"
+        ]
+      },
+      {
+        "pin": "PF15",
+        "names": [
+          "D2"
+        ]
+      },
+      {
+        "pin": "PG03",
+        "names": [
+          "EXT_RST"
+        ]
+      },
+      {
+        "pin": "PG09",
+        "names": [
+          "D0",
+          "UART6_RX"
+        ]
+      },
+      {
+        "pin": "PG14",
+        "names": [
+          "D1",
+          "UART6_TX"
+        ]
+      },
+      {
+        "pin": "PH02",
+        "names": [
+          "TP1"
+        ]
+      },
+      {
+        "pin": "PH07",
+        "names": [
+          "AUDIO_SCL",
+          "LCD_SCL"
+        ]
+      },
+      {
+        "pin": "PH08",
+        "names": [
+          "AUDIO_SDA",
+          "LCD_SDA"
+        ]
+      },
+      {
+        "pin": "PH15",
+        "names": [
+          "TP3"
+        ]
+      },
+      {
+        "pin": "PI08",
+        "names": [
+          "TP2"
+        ]
+      },
+      {
+        "pin": "PI13",
+        "names": [
+          "LCD_INT"
+        ]
+      },
+      {
+        "pin": "PK03",
+        "names": [
+          "LCD_BL_CTRL"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:nucleo_f746zg",
+      "label": "CircuitPython board definition (nucleo_f746zg)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/nucleo_f746zg.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:nucleo_f746zg",
+      "label": "CircuitPython pin definitions (nucleo_f746zg)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/stm/boards/nucleo_f746zg/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

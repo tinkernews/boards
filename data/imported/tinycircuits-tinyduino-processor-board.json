@@ -1,0 +1,53 @@
+{
+  "slug": "tinycircuits-tinyduino-processor-board",
+  "name": "TinyCircuits TinyDuino Processor Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "tinycircuits",
+  "chip": "atmega328p",
+  "ids": {
+    "platformio": [
+      "tinyduino"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega328P",
+      "source": "platformio:tinyduino"
+    },
+    "clock": {
+      "value": "8 MHz",
+      "source": "platformio:tinyduino"
+    },
+    "upload_limits": {
+      "value": "30 KB flash, 2 KB RAM",
+      "source": "platformio:tinyduino"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "TinyCircuits TinyDuino Processor Board product page",
+      "url": "https://tiny-circuits.com/tinyduino-processor-board.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/tinyduino.html",
+      "source": "platformio:tinyduino"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:tinyduino",
+      "label": "PlatformIO board definition (tinyduino)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/tinyduino.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

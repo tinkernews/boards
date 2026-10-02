@@ -1,0 +1,37 @@
+{
+  "slug": "weact-studio-esp32-c3-mini",
+  "name": "ESP32-C3-Mini",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "weact",
+  "chip": "esp32-c3",
+  "ids": {
+    "zephyr": [
+      "weact_esp32c3_mini"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-C3",
+      "source": "zephyr:weact_esp32c3_mini"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/weact/esp32c3_mini/doc/index.html",
+      "source": "zephyr:weact_esp32c3_mini"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:weact_esp32c3_mini",
+      "label": "Zephyr board definition (weact_esp32c3_mini)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/weact/esp32c3_mini/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,151 @@
+{
+  "slug": "securinghardware-com-xiaomao",
+  "name": "Xiaomao",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "securinghardware-com",
+  "chip": "rp2040",
+  "ids": {
+    "circuitpython": [
+      "securinghw-xiaomao"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/securinghw-xiaomao/",
+      "source": "circuitpython:securinghw-xiaomao"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:securinghw-xiaomao",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "D0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "D1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "D2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "D3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "D4"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "NEOPIXEL_POWER"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "RX"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "CTS"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "RTS"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "TX1"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "RX1"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "CTS1"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "LED"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "BTN"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "VBUS_DET"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:securinghw-xiaomao",
+      "label": "CircuitPython board definition (securinghw-xiaomao)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/securinghw-xiaomao.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:securinghw-xiaomao",
+      "label": "CircuitPython pin definitions (securinghw-xiaomao)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/securinghw-xiaomao/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

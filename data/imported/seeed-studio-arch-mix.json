@@ -1,0 +1,37 @@
+{
+  "slug": "seeed-studio-arch-mix",
+  "name": "Arch Mix",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "seeed",
+  "ids": {
+    "micropython": [
+      "SEEED_ARCH_MIX"
+    ]
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Arch Mix product page",
+      "url": "https://wiki.seeedstudio.com/Arch_Mix/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/SEEED_ARCH_MIX/",
+      "source": "micropython:seeed_arch_mix"
+    }
+  ],
+  "sources": [
+    {
+      "id": "micropython:seeed_arch_mix",
+      "label": "MicroPython board definition (SEEED_ARCH_MIX)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/mimxrt/boards/SEEED_ARCH_MIX/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

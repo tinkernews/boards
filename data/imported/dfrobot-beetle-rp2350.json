@@ -1,0 +1,45 @@
+{
+  "slug": "dfrobot-beetle-rp2350",
+  "name": "Beetle RP2350",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "dfrobot",
+  "chip": "rp2350",
+  "ids": {
+    "zephyr": [
+      "beetle_rp2350"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "RP2350",
+      "source": "zephyr:beetle_rp2350"
+    },
+    "ram": {
+      "value": "520 KB",
+      "source": "zephyr:beetle_rp2350"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:beetle_rp2350"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/dfrobot/beetle_rp2350/doc/index.html",
+      "source": "zephyr:beetle_rp2350"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:beetle_rp2350",
+      "label": "Zephyr board definition (beetle_rp2350)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/dfrobot/beetle_rp2350/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

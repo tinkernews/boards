@@ -1,0 +1,40 @@
+{
+  "slug": "ai-thinker-m64p-32s-development-board",
+  "name": "Ai-Thinker M64P-32S Development Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "ai-thinker",
+  "ids": {
+    "zephyr": [
+      "ai_m64p_32s_kit"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "BL616CL4855",
+      "source": "zephyr:ai_m64p_32s_kit"
+    },
+    "ram": {
+      "value": "384 KB",
+      "source": "zephyr:ai_m64p_32s_kit"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/aithinker/ai_m64p_32s_kit/doc/index.html",
+      "source": "zephyr:ai_m64p_32s_kit"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:ai_m64p_32s_kit",
+      "label": "Zephyr board definition (ai_m64p_32s_kit)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/aithinker/ai_m64p_32s_kit/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

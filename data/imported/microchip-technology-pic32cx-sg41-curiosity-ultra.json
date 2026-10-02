@@ -1,0 +1,44 @@
+{
+  "slug": "microchip-technology-pic32cx-sg41-curiosity-ultra",
+  "name": "PIC32CX SG41 Curiosity Ultra",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "ids": {
+    "zephyr": [
+      "pic32cx_sg41_cult"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "PIC32CX1025SG41128",
+      "source": "zephyr:pic32cx_sg41_cult"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:pic32cx_sg41_cult"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:pic32cx_sg41_cult"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/microchip/pic32c/pic32cx_sg41_cult/doc/index.html",
+      "source": "zephyr:pic32cx_sg41_cult"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:pic32cx_sg41_cult",
+      "label": "Zephyr board definition (pic32cx_sg41_cult)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/microchip/pic32c/pic32cx_sg41_cult/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "makerology-datastation-mini",
+  "name": "DataStation Mini",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "makerology",
+  "ids": {
+    "platformio": [
+      "dsmini"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "32MX150F128C",
+      "source": "platformio:dsmini"
+    },
+    "clock": {
+      "value": "40 MHz",
+      "source": "platformio:dsmini"
+    },
+    "upload_limits": {
+      "value": "120 KB flash, 32 KB RAM",
+      "source": "platformio:dsmini"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "DataStation Mini product page",
+      "url": "http://www.makerologist.com/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/microchippic32/dsmini.html",
+      "source": "platformio:dsmini"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:dsmini",
+      "label": "PlatformIO board definition (dsmini)",
+      "url": "https://github.com/platformio/platform-microchippic32/blob/f6e89308da11cfe35d7534696bf01abf3f442461/boards/dsmini.json",
+      "kind": "import",
+      "revision": "f6e89308da11cfe35d7534696bf01abf3f442461"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

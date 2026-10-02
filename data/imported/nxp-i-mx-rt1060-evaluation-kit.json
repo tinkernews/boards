@@ -1,0 +1,47 @@
+{
+  "slug": "nxp-i-mx-rt1060-evaluation-kit",
+  "name": "NXP i.MX RT1060 Evaluation Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "ids": {
+    "platformio": [
+      "mimxrt1060_evk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MIMXRT1062DVL6A",
+      "source": "platformio:mimxrt1060_evk"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M7",
+      "source": "platformio:mimxrt1060_evk"
+    },
+    "clock": {
+      "value": "600 MHz",
+      "source": "platformio:mimxrt1060_evk"
+    },
+    "upload_limits": {
+      "value": "8 MB flash, 32 MB RAM",
+      "source": "platformio:mimxrt1060_evk"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "NXP i.MX RT1060 Evaluation Kit product page",
+      "url": "https://www.nxp.com/design/development-boards/i.mx-evaluation-and-development-boards/mimxrt1060-evk-i.mx-rt1060-evaluation-kit:MIMXRT1060-EVK"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:mimxrt1060_evk",
+      "label": "PlatformIO board definition (mimxrt1060_evk)",
+      "url": "https://github.com/platformio/platform-nxpimxrt/blob/21cb8e0c45e6c26d2e582b2b9e129465e6095c0a/boards/mimxrt1060_evk.json",
+      "kind": "import",
+      "revision": "21cb8e0c45e6c26d2e582b2b9e129465e6095c0a"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

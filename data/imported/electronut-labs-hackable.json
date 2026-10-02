@@ -1,0 +1,57 @@
+{
+  "slug": "electronut-labs-hackable",
+  "name": "hackaBLE",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "electronut-labs",
+  "chip": "nrf52832",
+  "ids": {
+    "platformio": [
+      "hackaBLE"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52832",
+      "source": "platformio:hackable"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:hackable"
+    },
+    "clock": {
+      "value": "64 MHz",
+      "source": "platformio:hackable"
+    },
+    "upload_limits": {
+      "value": "512 KB flash, 64 KB RAM",
+      "source": "platformio:hackable"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "hackaBLE product page",
+      "url": "https://electronut.in/portfolio/hackaBLE/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/nordicnrf52/hackaBLE.html",
+      "source": "platformio:hackable"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:hackable",
+      "label": "PlatformIO board definition (hackaBLE)",
+      "url": "https://github.com/platformio/platform-nordicnrf52/blob/278176a7f7ffe2d001eb93eafa271c83b38222e4/boards/hackaBLE.json",
+      "kind": "import",
+      "revision": "278176a7f7ffe2d001eb93eafa271c83b38222e4"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

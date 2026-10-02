@@ -1,0 +1,223 @@
+{
+  "slug": "boardsource-blok",
+  "name": "Blok",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "boardsource",
+  "chip": "rp2040",
+  "ids": {
+    "circuitpython": [
+      "boardsource_blok"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/boardsource_blok/",
+      "source": "circuitpython:boardsource_blok"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:boardsource_blok",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "RX"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "GP02"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "GP03"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "GP04"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "GP05"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "GP06"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "GP07"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "GP08"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "GP09"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "GP10"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "GP11"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "GP12"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "GP13"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "GP14"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "GP15"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "GP16",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "GP17",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "GP18"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "GP20"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "GP21"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "GP22"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "GP23"
+        ]
+      },
+      {
+        "pin": "GPIO24",
+        "names": [
+          "GP24"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "GP25",
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "GP26",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "GP27",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "GP28",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "GP29"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:boardsource_blok",
+      "label": "CircuitPython board definition (boardsource_blok)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/boardsource_blok.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:boardsource_blok",
+      "label": "CircuitPython pin definitions (boardsource_blok)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/boardsource_blok/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

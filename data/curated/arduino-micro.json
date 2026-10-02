@@ -1,0 +1,117 @@
+{
+  "slug": "arduino-micro",
+  "name": "Arduino Micro",
+  "tier": "curated",
+  "kind": "mcu",
+  "maker": "arduino",
+  "family": "Arduino",
+  "chip": "atmega32u4",
+  "released": "2012",
+  "status": "current",
+  "summary": "The Leonardo’s ATmega32U4 with native USB on a 48 × 18 mm breadboard board, developed with Adafruit.",
+  "aliases": [
+    "Arduino Micro"
+  ],
+  "ids": {
+    "platformio": [
+      "micro"
+    ]
+  },
+  "review": {
+    "status": "draft"
+  },
+  "specs": {
+    "chip": {
+      "value": "Microchip ATmega32U4",
+      "source": "arduino-docs"
+    },
+    "cpu": {
+      "value": "8-bit AVR",
+      "source": "atmega32u4"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "arduino-docs"
+    },
+    "ram": {
+      "value": "2.5 KB SRAM",
+      "source": "atmega32u4"
+    },
+    "flash": {
+      "value": "32 KB (4 KB used by the bootloader)",
+      "source": "wikipedia"
+    },
+    "gpio": {
+      "value": "20 digital I/O (7 PWM, 12 analog-capable)",
+      "source": "arduino-docs"
+    },
+    "io_voltage": {
+      "value": "5 V",
+      "source": "arduino-docs"
+    },
+    "usb": {
+      "value": "Micro-USB, native on the ATmega32U4",
+      "source": "arduino-docs"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Product documentation, Arduino",
+      "url": "https://docs.arduino.cc/hardware/micro/"
+    },
+    {
+      "kind": "schematic",
+      "label": "Schematics",
+      "url": "https://docs.arduino.cc/resources/schematics/A000053-schematics.pdf"
+    },
+    {
+      "kind": "pinout",
+      "label": "Full pinout",
+      "url": "https://docs.arduino.cc/resources/pinouts/A000053-full-pinout.pdf"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Official Arduino core.",
+      "url": "https://docs.arduino.cc/software/ide/",
+      "source": "arduino-docs"
+    }
+  ],
+  "gotchas": [
+    {
+      "title": "5 V logic",
+      "text": "I/O is 5 V. Sensors and modules that run at 3.3 V (most modern ones) need level shifting on their inputs.",
+      "source": "arduino-docs"
+    }
+  ],
+  "commonsFile": "File:Arduino Micro.jpg",
+  "editorial": {
+    "history": "Developed with Adafruit and released in 2012, the Micro is the Leonardo in a breadboard size.",
+    "today": "A favourite for custom keyboards and USB gadgets where an Uno-size board will not fit.",
+    "source": "arduino-docs"
+  },
+  "sources": [
+    {
+      "id": "arduino-docs",
+      "label": "Arduino Micro, Arduino documentation",
+      "url": "https://docs.arduino.cc/hardware/micro/",
+      "kind": "official"
+    },
+    {
+      "id": "atmega32u4",
+      "label": "ATmega32U4 product page, Microchip",
+      "url": "https://www.microchip.com/en-us/product/ATmega32U4",
+      "kind": "official"
+    },
+    {
+      "id": "wikipedia",
+      "label": "List of Arduino boards and compatible systems, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_Arduino_boards_and_compatible_systems",
+      "kind": "reference"
+    }
+  ],
+  "updatedAt": "2026-10-01T00:00:00.000Z"
+}

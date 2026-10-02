@@ -1,0 +1,56 @@
+{
+  "slug": "stm32f413ch-320k-ram-1536k-flash",
+  "name": "STM32F413CH (320k RAM. 1536k Flash)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "generic",
+  "ids": {
+    "platformio": [
+      "genericSTM32F413CH"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F413CHU6",
+      "source": "platformio:genericstm32f413ch"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:genericstm32f413ch"
+    },
+    "clock": {
+      "value": "100 MHz",
+      "source": "platformio:genericstm32f413ch"
+    },
+    "upload_limits": {
+      "value": "1.5 MB flash, 320 KB RAM",
+      "source": "platformio:genericstm32f413ch"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "STM32F413CH (320k RAM. 1536k Flash) product page",
+      "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32f413ch.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/genericSTM32F413CH.html",
+      "source": "platformio:genericstm32f413ch"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:genericstm32f413ch",
+      "label": "PlatformIO board definition (genericSTM32F413CH)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/genericSTM32F413CH.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

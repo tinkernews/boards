@@ -1,0 +1,40 @@
+{
+  "slug": "cortex-r8-virtual",
+  "name": "Cortex-R8 Virtual",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "antmicro-s-open-source-simulation-and-virtual-development",
+  "ids": {
+    "zephyr": [
+      "cortex_r8_virtual"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "CORTEX_R8_VIRTUAL",
+      "source": "zephyr:cortex_r8_virtual"
+    },
+    "ram": {
+      "value": "131072 KB",
+      "source": "zephyr:cortex_r8_virtual"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/renode/cortex_r8_virtual/doc/index.html",
+      "source": "zephyr:cortex_r8_virtual"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:cortex_r8_virtual",
+      "label": "Zephyr board definition (cortex_r8_virtual)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/renode/cortex_r8_virtual/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

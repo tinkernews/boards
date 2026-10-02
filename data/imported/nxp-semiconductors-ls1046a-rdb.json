@@ -1,0 +1,40 @@
+{
+  "slug": "nxp-semiconductors-ls1046a-rdb",
+  "name": "LS1046A RDB",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "ids": {
+    "zephyr": [
+      "ls1046ardb"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "LS1046A",
+      "source": "zephyr:ls1046ardb"
+    },
+    "ram": {
+      "value": "1024 KB",
+      "source": "zephyr:ls1046ardb"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nxp/ls1046ardb/doc/index.html",
+      "source": "zephyr:ls1046ardb"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:ls1046ardb",
+      "label": "Zephyr board definition (ls1046ardb)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nxp/ls1046ardb/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

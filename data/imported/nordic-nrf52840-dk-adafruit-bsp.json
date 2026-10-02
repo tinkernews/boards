@@ -1,0 +1,57 @@
+{
+  "slug": "nordic-nrf52840-dk-adafruit-bsp",
+  "name": "Nordic nRF52840-DK (Adafruit BSP)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nordic-semiconductor",
+  "chip": "nrf52840",
+  "ids": {
+    "platformio": [
+      "nrf52840_dk_adafruit"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52840",
+      "source": "platformio:nrf52840_dk_adafruit"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:nrf52840_dk_adafruit"
+    },
+    "clock": {
+      "value": "64 MHz",
+      "source": "platformio:nrf52840_dk_adafruit"
+    },
+    "upload_limits": {
+      "value": "796 KB flash, 243 KB RAM",
+      "source": "platformio:nrf52840_dk_adafruit"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Nordic nRF52840-DK (Adafruit BSP) product page",
+      "url": "https://os.mbed.com/platforms/Nordic-nRF52840-DK/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/nordicnrf52/nrf52840_dk_adafruit.html",
+      "source": "platformio:nrf52840_dk_adafruit"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:nrf52840_dk_adafruit",
+      "label": "PlatformIO board definition (nrf52840_dk_adafruit)",
+      "url": "https://github.com/platformio/platform-nordicnrf52/blob/278176a7f7ffe2d001eb93eafa271c83b38222e4/boards/nrf52840_dk_adafruit.json",
+      "kind": "import",
+      "revision": "278176a7f7ffe2d001eb93eafa271c83b38222e4"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

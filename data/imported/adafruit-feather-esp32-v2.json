@@ -1,0 +1,78 @@
+{
+  "slug": "adafruit-feather-esp32-v2",
+  "name": "Adafruit Feather ESP32 V2",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "esp32",
+  "aliases": [
+    "Adafruit Feather ESP32"
+  ],
+  "ids": {
+    "platformio": [
+      "adafruit_feather_esp32_v2"
+    ],
+    "zephyr": [
+      "adafruit_feather_esp32"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:adafruit_feather_esp32_v2"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:adafruit_feather_esp32_v2"
+    },
+    "upload_limits": {
+      "value": "8 MB flash, 320 KB RAM",
+      "source": "platformio:adafruit_feather_esp32_v2"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Adafruit Feather ESP32 V2 product page",
+      "url": "https://www.adafruit.com/product/5400"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/adafruit_feather_esp32_v2.html",
+      "source": "platformio:adafruit_feather_esp32_v2"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/adafruit_feather_esp32_v2.html",
+      "source": "platformio:adafruit_feather_esp32_v2"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/adafruit/feather_esp32/doc/index.html",
+      "source": "zephyr:adafruit_feather_esp32"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:adafruit_feather_esp32_v2",
+      "label": "PlatformIO board definition (adafruit_feather_esp32_v2)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/adafruit_feather_esp32_v2.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    },
+    {
+      "id": "zephyr:adafruit_feather_esp32",
+      "label": "Zephyr board definition (adafruit_feather_esp32)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/adafruit/feather_esp32/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

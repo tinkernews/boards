@@ -1,0 +1,52 @@
+{
+  "slug": "mikroelektronika-flip-n-click-mz",
+  "name": "MikroElektronika Flip N Click MZ",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "mikroelektronika",
+  "ids": {
+    "platformio": [
+      "flipnclickmz"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "32MZ2048EFH100",
+      "source": "platformio:flipnclickmz"
+    },
+    "clock": {
+      "value": "252 MHz",
+      "source": "platformio:flipnclickmz"
+    },
+    "upload_limits": {
+      "value": "1.98 MB flash, 512 KB RAM",
+      "source": "platformio:flipnclickmz"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "MikroElektronika Flip N Click MZ product page",
+      "url": "https://shop.mikroe.com/flipclick-pic32mz"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/microchippic32/flipnclickmz.html",
+      "source": "platformio:flipnclickmz"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:flipnclickmz",
+      "label": "PlatformIO board definition (flipnclickmz)",
+      "url": "https://github.com/platformio/platform-microchippic32/blob/f6e89308da11cfe35d7534696bf01abf3f442461/boards/flipnclickmz.json",
+      "kind": "import",
+      "revision": "f6e89308da11cfe35d7534696bf01abf3f442461"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

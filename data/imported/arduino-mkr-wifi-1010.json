@@ -1,0 +1,57 @@
+{
+  "slug": "arduino-mkr-wifi-1010",
+  "name": "Arduino MKR WiFi 1010",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "chip": "atsamd21g18",
+  "ids": {
+    "platformio": [
+      "mkrwifi1010"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAMD21G18",
+      "source": "platformio:mkrwifi1010"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:mkrwifi1010"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:mkrwifi1010"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:mkrwifi1010"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Arduino MKR WiFi 1010 product page",
+      "url": "https://store.arduino.cc/arduino-mkr-wifi-1010"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelsam/mkrwifi1010.html",
+      "source": "platformio:mkrwifi1010"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:mkrwifi1010",
+      "label": "PlatformIO board definition (mkrwifi1010)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/mkrwifi1010.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

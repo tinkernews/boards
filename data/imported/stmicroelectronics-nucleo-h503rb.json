@@ -1,0 +1,44 @@
+{
+  "slug": "stmicroelectronics-nucleo-h503rb",
+  "name": "Nucleo H503RB",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "zephyr": [
+      "nucleo_h503rb"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32H503XX",
+      "source": "zephyr:nucleo_h503rb"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:nucleo_h503rb"
+    },
+    "flash": {
+      "value": "128 KB",
+      "source": "zephyr:nucleo_h503rb"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/nucleo_h503rb/doc/index.html",
+      "source": "zephyr:nucleo_h503rb"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:nucleo_h503rb",
+      "label": "Zephyr board definition (nucleo_h503rb)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/nucleo_h503rb/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

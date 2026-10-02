@@ -1,0 +1,254 @@
+{
+  "slug": "seeed-studio-xiao-rp2350",
+  "name": "XIAO RP2350",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "seeed",
+  "chip": "rp2350",
+  "aliases": [
+    "Seeed Studio XIAO RP2350"
+  ],
+  "ids": {
+    "zephyr": [
+      "xiao_rp2350"
+    ],
+    "circuitpython": [
+      "seeeduino_xiao_rp2350"
+    ],
+    "micropython": [
+      "SEEED_XIAO_RP2350"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "RP2350",
+      "source": "zephyr:xiao_rp2350"
+    },
+    "ram": {
+      "value": "520 KB",
+      "source": "zephyr:xiao_rp2350"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:xiao_rp2350"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "XIAO RP2350 product page",
+      "url": "https://www.seeedstudio.com/Seeed-XIAO-RP2350-p-5944.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/seeed/xiao_rp2350/doc/index.html",
+      "source": "zephyr:xiao_rp2350"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/SEEED_XIAO_RP2350/",
+      "source": "micropython:seeed_xiao_rp2350"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/seeeduino_xiao_rp2350/",
+      "source": "circuitpython:seeeduino_xiao_rp2350"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:seeeduino_xiao_rp2350",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "TX",
+          "D6"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "RX",
+          "D7"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "SCK",
+          "D8"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "MOSI",
+          "D10"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "MISO",
+          "D9"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "D3"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "SDA",
+          "D4"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "SCL",
+          "D5"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "D18"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "D17"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "D15"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "D16"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "D14"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "D13"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "BAT_ADC_EN"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "D12"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "D11"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "NEOPIXEL_POWER"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "LED"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "A0",
+          "D0"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "A1",
+          "D1"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "A2",
+          "D2"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "A3",
+          "VOLTAGE_MONITOR"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "zephyr:xiao_rp2350",
+      "label": "Zephyr board definition (xiao_rp2350)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/seeed/xiao_rp2350/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "circuitpython:seeeduino_xiao_rp2350",
+      "label": "CircuitPython board definition (seeeduino_xiao_rp2350)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/seeeduino_xiao_rp2350.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "micropython:seeed_xiao_rp2350",
+      "label": "MicroPython board definition (SEEED_XIAO_RP2350)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/rp2/boards/SEEED_XIAO_RP2350/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    },
+    {
+      "id": "circuitpython-pins:seeeduino_xiao_rp2350",
+      "label": "CircuitPython pin definitions (seeeduino_xiao_rp2350)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/seeeduino_xiao_rp2350/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

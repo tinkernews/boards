@@ -1,0 +1,239 @@
+{
+  "slug": "bee-motion-s3",
+  "name": "Bee Motion S3",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "smart-bee-designs",
+  "chip": "esp32-s3",
+  "ids": {
+    "circuitpython": [
+      "smartbeedesigns_bee_motion_s3"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/smartbeedesigns_bee_motion_s3/",
+      "source": "circuitpython:smartbeedesigns_bee_motion_s3"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:smartbeedesigns_bee_motion_s3",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "BOOT_BTN"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "BATTERY",
+          "VBAT",
+          "VBAT_SENSE",
+          "VOLTAGE_MONITOR"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "VBUS_SENSE"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "LIGHT",
+          "LIGHT_SENSOR"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "PIR",
+          "PIR_SENSOR"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "IO5",
+          "A5",
+          "D5"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "IO6",
+          "A6",
+          "D6"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "IO7",
+          "A7",
+          "D7"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "IO8",
+          "A8",
+          "D8"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "IO9",
+          "A9",
+          "D9"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "IO10",
+          "A10",
+          "D10"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "IO11",
+          "A11",
+          "D11"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "IO12",
+          "A12",
+          "D12"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "IO13",
+          "A13",
+          "D13"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "IO14",
+          "A14",
+          "D14"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "IO15",
+          "A15",
+          "D15"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "IO16",
+          "D16"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "IO17",
+          "D17"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "NEOPIXEL_POWER",
+          "LDO2"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "IO35",
+          "MOSI",
+          "D35"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "IO36",
+          "SCL",
+          "D36"
+        ]
+      },
+      {
+        "pin": "GPIO37",
+        "names": [
+          "IO37",
+          "SDA",
+          "D37"
+        ]
+      },
+      {
+        "pin": "GPIO40",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO43",
+        "names": [
+          "TX",
+          "D43",
+          "IO43"
+        ]
+      },
+      {
+        "pin": "GPIO44",
+        "names": [
+          "RX",
+          "IO44",
+          "D44"
+        ]
+      },
+      {
+        "pin": "GPIO48",
+        "names": [
+          "IO48"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:smartbeedesigns_bee_motion_s3",
+      "label": "CircuitPython board definition (smartbeedesigns_bee_motion_s3)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/smartbeedesigns_bee_motion_s3.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:smartbeedesigns_bee_motion_s3",
+      "label": "CircuitPython pin definitions (smartbeedesigns_bee_motion_s3)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/smartbeedesigns_bee_motion_s3/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

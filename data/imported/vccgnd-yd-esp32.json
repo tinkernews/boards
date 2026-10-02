@@ -1,0 +1,37 @@
+{
+  "slug": "vccgnd-yd-esp32",
+  "name": "YD-ESP32",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "vccgnd",
+  "chip": "esp32",
+  "ids": {
+    "zephyr": [
+      "yd_esp32"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "zephyr:yd_esp32"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/vcc-gnd/yd_esp32/doc/index.html",
+      "source": "zephyr:yd_esp32"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:yd_esp32",
+      "label": "Zephyr board definition (yd_esp32)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/vcc-gnd/yd_esp32/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

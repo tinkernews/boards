@@ -1,0 +1,40 @@
+{
+  "slug": "lowrisc-community-interest-company-opentitan-earl-grey",
+  "name": "OpenTitan Earl Grey",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "lowrisc-community-interest-company",
+  "ids": {
+    "zephyr": [
+      "opentitan_earlgrey"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "OPENTITAN",
+      "source": "zephyr:opentitan_earlgrey"
+    },
+    "ram": {
+      "value": "128 KB",
+      "source": "zephyr:opentitan_earlgrey"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/lowrisc/opentitan_earlgrey/doc/index.html",
+      "source": "zephyr:opentitan_earlgrey"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:opentitan_earlgrey",
+      "label": "Zephyr board definition (opentitan_earlgrey)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/lowrisc/opentitan_earlgrey/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

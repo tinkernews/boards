@@ -1,0 +1,44 @@
+{
+  "slug": "silicon-labs-siwx917-wi-fi-6-and-bluetooth-le-soc-dev-kit",
+  "name": "SiWx917 Wi-Fi 6 and Bluetooth LE SoC Dev Kit (BRD2605A)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "silicon-labs",
+  "ids": {
+    "zephyr": [
+      "siwx917_dk2605a"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "SIWG917M111MGTBA",
+      "source": "zephyr:siwx917_dk2605a"
+    },
+    "ram": {
+      "value": "191 KB",
+      "source": "zephyr:siwx917_dk2605a"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:siwx917_dk2605a"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/silabs/dev_kits/siwx917_dk2605a/doc/index.html",
+      "source": "zephyr:siwx917_dk2605a"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:siwx917_dk2605a",
+      "label": "Zephyr board definition (siwx917_dk2605a)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/silabs/dev_kits/siwx917_dk2605a/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

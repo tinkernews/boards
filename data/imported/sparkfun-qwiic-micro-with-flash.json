@@ -1,0 +1,129 @@
+{
+  "slug": "sparkfun-qwiic-micro-with-flash",
+  "name": "Qwiic Micro with Flash",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sparkfun",
+  "chip": "atsamd21g18",
+  "ids": {
+    "circuitpython": [
+      "sparkfun_qwiic_micro_with_flash"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/sparkfun_qwiic_micro_with_flash/",
+      "source": "circuitpython:sparkfun_qwiic_micro_with_flash"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:sparkfun_qwiic_micro_with_flash",
+    "list": [
+      {
+        "pin": "PA00",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "PA01",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "PA02",
+        "names": [
+          "A0",
+          "D1"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "A5",
+          "D7"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "A2",
+          "D3",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "A1",
+          "D2",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "A3",
+          "D4",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "PA08",
+        "names": [
+          "D0",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PA09",
+        "names": [
+          "D8",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "A4",
+          "D13",
+          "LED"
+        ]
+      },
+      {
+        "pin": "PA22",
+        "names": [
+          "D16",
+          "TX"
+        ]
+      },
+      {
+        "pin": "PA23",
+        "names": [
+          "D17",
+          "RX"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:sparkfun_qwiic_micro_with_flash",
+      "label": "CircuitPython board definition (sparkfun_qwiic_micro_with_flash)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/sparkfun_qwiic_micro_with_flash.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:sparkfun_qwiic_micro_with_flash",
+      "label": "CircuitPython pin definitions (sparkfun_qwiic_micro_with_flash)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/sparkfun_qwiic_micro_with_flash/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

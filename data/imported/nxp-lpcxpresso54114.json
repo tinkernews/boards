@@ -1,0 +1,76 @@
+{
+  "slug": "nxp-lpcxpresso54114",
+  "name": "NXP LPCXpresso54114",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "aliases": [
+    "LPCXPRESSO54114"
+  ],
+  "ids": {
+    "platformio": [
+      "lpc54114"
+    ],
+    "zephyr": [
+      "lpcxpresso54114"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "LPC54114J256BD64",
+      "source": "platformio:lpc54114"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:lpc54114"
+    },
+    "clock": {
+      "value": "100 MHz",
+      "source": "platformio:lpc54114"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 192 KB RAM",
+      "source": "platformio:lpc54114"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:lpcxpresso54114"
+    },
+    "flash": {
+      "value": "64 KB",
+      "source": "zephyr:lpcxpresso54114"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "NXP LPCXpresso54114 product page",
+      "url": "https://os.mbed.com/platforms/LPCXpresso54114/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nxp/lpcxpresso54114/doc/index.html",
+      "source": "zephyr:lpcxpresso54114"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:lpc54114",
+      "label": "PlatformIO board definition (lpc54114)",
+      "url": "https://github.com/platformio/platform-nxplpc/blob/7fe287fac83ec5cfcf8b5ec7e36d43b5a17cace8/boards/lpc54114.json",
+      "kind": "import",
+      "revision": "7fe287fac83ec5cfcf8b5ec7e36d43b5a17cace8"
+    },
+    {
+      "id": "zephyr:lpcxpresso54114",
+      "label": "Zephyr board definition (lpcxpresso54114)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nxp/lpcxpresso54114/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

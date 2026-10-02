@@ -1,0 +1,175 @@
+{
+  "slug": "zach-richard-rp2-65-f",
+  "name": "RP2.65-F",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "zach-richard",
+  "chip": "rp2040",
+  "ids": {
+    "circuitpython": [
+      "zrichard_rp2.65-f"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/zrichard_rp2.65-f/",
+      "source": "circuitpython:zrichard_rp2.65-f"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:zrichard_rp2.65-f",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "ROW0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "COL0"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "ROW1"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "COL1"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "ROW2"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "COL2"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "ROW3"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "COL3"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "ROW4"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "COL4"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "ROW5"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "COL5"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "ROW6"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "COL6"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "ROW7"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "COL7"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "ROW8"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "ROW9"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "LED"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "RV1"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "RV2"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "RV3"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:zrichard_rp2.65-f",
+      "label": "CircuitPython board definition (zrichard_rp2.65-f)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/zrichard_rp2.65-f.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:zrichard_rp2.65-f",
+      "label": "CircuitPython pin definitions (zrichard_rp2.65-f)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/zrichard_rp2.65-f/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

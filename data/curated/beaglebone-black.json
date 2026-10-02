@@ -1,0 +1,135 @@
+{
+  "slug": "beaglebone-black",
+  "name": "BeagleBone Black",
+  "tier": "curated",
+  "kind": "sbc",
+  "maker": "beagleboard",
+  "family": "BeagleBone",
+  "chip": "am3358",
+  "released": "2013-04",
+  "status": "current",
+  "summary": "The open-hardware Linux board with 92 header pins and two real-time PRU cores, on a TI Sitara AM3358 at 1 GHz.",
+  "aliases": [
+    "BeagleBone Black",
+    "BBB",
+    "Beaglebone Black",
+    "BeagleBone Black Rev C"
+  ],
+  "ids": {
+    "linux": [
+      "arch/arm/boot/dts/ti/omap/am335x-boneblack.dts"
+    ]
+  },
+  "review": {
+    "status": "draft"
+  },
+  "specs": {
+    "chip": {
+      "value": "Texas Instruments AM3358",
+      "source": "bbb-docs"
+    },
+    "cpu": {
+      "value": "Arm Cortex-A8, plus 2 × PRU 32-bit real-time units",
+      "source": "bbb-docs"
+    },
+    "clock": {
+      "value": "1 GHz",
+      "source": "bbb-docs"
+    },
+    "ram": {
+      "value": "512 MB DDR3",
+      "source": "bbb-docs"
+    },
+    "storage": {
+      "value": "4 GB eMMC (2 GB before revision C) and microSD",
+      "source": "bbb-docs"
+    },
+    "gpu": {
+      "value": "PowerVR SGX530",
+      "source": "am3358"
+    },
+    "gpio": {
+      "value": "2 × 46-pin headers (P8, P9)",
+      "source": "bbb-docs"
+    },
+    "io_voltage": {
+      "value": "3.3 V; analog inputs 1.8 V max",
+      "source": "bbb-docs"
+    },
+    "input_voltage": {
+      "value": "5 V via barrel jack or USB",
+      "source": "bbb-docs"
+    },
+    "ethernet": {
+      "value": "10/100",
+      "source": "bbb-docs"
+    },
+    "usb": {
+      "value": "1 × USB host, 1 × mini-USB client",
+      "source": "bbb-docs"
+    },
+    "video": {
+      "value": "Micro-HDMI",
+      "source": "bbb-docs"
+    }
+  },
+  "revisions": [
+    {
+      "name": "Revision C",
+      "released": "2014",
+      "changes": "eMMC grew from 2 GB to 4 GB; Debian replaced Ångström as the shipped OS.",
+      "source": "wikipedia"
+    }
+  ],
+  "docs": [
+    {
+      "kind": "guide",
+      "label": "BeagleBone Black documentation",
+      "url": "https://docs.beagleboard.org/latest/boards/beaglebone/black/index.html"
+    },
+    {
+      "kind": "product",
+      "label": "BeagleBone Black, BeagleBoard.org",
+      "url": "https://www.beagleboard.org/boards/beaglebone-black"
+    }
+  ],
+  "gotchas": [
+    {
+      "title": "1.8 V analog inputs",
+      "text": "The ADC pins accept at most 1.8 V; 3.3 V on an analog pin can damage the processor.",
+      "source": "bbb-docs"
+    },
+    {
+      "title": "Pins shared with HDMI and eMMC",
+      "text": "Many P8 header pins are used by the HDMI framer and eMMC by default; disable them in the device tree overlay to free the pins.",
+      "source": "bbb-docs"
+    }
+  ],
+  "commonsFile": "File:Beaglebone Black - Top (14491195107).jpg",
+  "editorial": {
+    "history": "Launched in April 2013 at $45, the BeagleBone Black was the open-hardware answer to the Raspberry Pi, aimed at engineers rather than classrooms.",
+    "today": "Its PRUs still make it the board of choice for deterministic I/O under Linux, such as Machinekit CNC control; for raw speed, newer Beagle boards or a Pi are faster.",
+    "source": "wikipedia"
+  },
+  "sources": [
+    {
+      "id": "bbb-docs",
+      "label": "BeagleBone Black documentation, BeagleBoard.org",
+      "url": "https://docs.beagleboard.org/latest/boards/beaglebone/black/index.html",
+      "kind": "official"
+    },
+    {
+      "id": "am3358",
+      "label": "AM3358 product page, Texas Instruments",
+      "url": "https://www.ti.com/product/AM3358",
+      "kind": "official"
+    },
+    {
+      "id": "wikipedia",
+      "label": "BeagleBoard, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/BeagleBoard",
+      "kind": "reference"
+    }
+  ],
+  "updatedAt": "2026-10-01T00:00:00.000Z"
+}

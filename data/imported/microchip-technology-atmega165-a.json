@@ -1,0 +1,52 @@
+{
+  "slug": "microchip-technology-atmega165-a",
+  "name": "ATmega165/A",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "ids": {
+    "platformio": [
+      "ATmega165"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATMEGA165A",
+      "source": "platformio:atmega165"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:atmega165"
+    },
+    "upload_limits": {
+      "value": "16 KB flash, 1 KB RAM",
+      "source": "platformio:atmega165"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ATmega165/A product page",
+      "url": "https://www.microchip.com/wwwproducts/en/ATmega165A"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/ATmega165.html",
+      "source": "platformio:atmega165"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:atmega165",
+      "label": "PlatformIO board definition (ATmega165)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/ATmega165.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

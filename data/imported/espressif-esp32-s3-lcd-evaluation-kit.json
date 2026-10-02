@@ -1,0 +1,117 @@
+{
+  "slug": "espressif-esp32-s3-lcd-evaluation-kit",
+  "name": "ESP32-S3 LCD Evaluation Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "espressif",
+  "chip": "esp32-s3",
+  "ids": {
+    "circuitpython": [
+      "espressif_esp32s3_lcd_ev",
+      "espressif_esp32s3_lcd_ev_v1.5"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/espressif_esp32s3_lcd_ev/",
+      "source": "circuitpython:espressif_esp32s3_lcd_ev"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:espressif_esp32s3_lcd_ev",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "BUTTON"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "vsync"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "I2S_MCLK"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "I2S_SDO"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "I2S_WS"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "dclk"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "I2S_SCK"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "de"
+        ]
+      },
+      {
+        "pin": "GPIO43",
+        "names": [
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO44",
+        "names": [
+          "RX"
+        ]
+      },
+      {
+        "pin": "GPIO46",
+        "names": [
+          "hsync"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:espressif_esp32s3_lcd_ev",
+      "label": "CircuitPython board definition (espressif_esp32s3_lcd_ev)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/espressif_esp32s3_lcd_ev.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython:espressif_esp32s3_lcd_ev_v1.5",
+      "label": "CircuitPython board definition (espressif_esp32s3_lcd_ev_v1.5)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/espressif_esp32s3_lcd_ev_v1.5.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:espressif_esp32s3_lcd_ev",
+      "label": "CircuitPython pin definitions (espressif_esp32s3_lcd_ev)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/espressif_esp32s3_lcd_ev/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

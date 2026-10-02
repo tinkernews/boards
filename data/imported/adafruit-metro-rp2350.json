@@ -1,0 +1,172 @@
+{
+  "slug": "adafruit-metro-rp2350",
+  "name": "Adafruit Metro RP2350",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "rp2350",
+  "aliases": [
+    "Metro RP2350"
+  ],
+  "ids": {
+    "zephyr": [
+      "adafruit_metro_rp2350"
+    ],
+    "circuitpython": [
+      "adafruit_metro_rp2350"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "RP2350",
+      "source": "zephyr:adafruit_metro_rp2350"
+    },
+    "ram": {
+      "value": "520 KB",
+      "source": "zephyr:adafruit_metro_rp2350"
+    },
+    "flash": {
+      "value": "16 MB",
+      "source": "zephyr:adafruit_metro_rp2350"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/adafruit/metro_rp2350/doc/index.html",
+      "source": "zephyr:adafruit_metro_rp2350"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/adafruit_metro_rp2350/",
+      "source": "circuitpython:adafruit_metro_rp2350"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:adafruit_metro_rp2350",
+    "list": [
+      {
+        "pin": "GPIO12",
+        "names": [
+          "D2P"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "D2N"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "CKP"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "CKN"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "D1P"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "D1N"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "D0P"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "D0N"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "D26"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "D27"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "MISO"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "USB_HOST_5V_POWER"
+        ]
+      },
+      {
+        "pin": "GPIO30",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "GPIO31",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO32",
+        "names": [
+          "USB_HOST_DATA_PLUS"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "USB_HOST_DATA_MINUS"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "zephyr:adafruit_metro_rp2350",
+      "label": "Zephyr board definition (adafruit_metro_rp2350)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/adafruit/metro_rp2350/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "circuitpython:adafruit_metro_rp2350",
+      "label": "CircuitPython board definition (adafruit_metro_rp2350)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/adafruit_metro_rp2350.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:adafruit_metro_rp2350",
+      "label": "CircuitPython pin definitions (adafruit_metro_rp2350)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/adafruit_metro_rp2350/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

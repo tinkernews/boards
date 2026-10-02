@@ -1,0 +1,44 @@
+{
+  "slug": "u-blox-evk-nina-b5-mcxw716c",
+  "name": "EVK-NINA-B5-MCXW716C",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "u-blox",
+  "ids": {
+    "zephyr": [
+      "ubx_evkninab5"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MCXW716C",
+      "source": "zephyr:ubx_evkninab5"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:ubx_evkninab5"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:ubx_evkninab5"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/u-blox/ubx_evkninab5/doc/index.html",
+      "source": "zephyr:ubx_evkninab5"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:ubx_evkninab5",
+      "label": "Zephyr board definition (ubx_evkninab5)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/u-blox/ubx_evkninab5/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

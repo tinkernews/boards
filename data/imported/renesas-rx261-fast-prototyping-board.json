@@ -1,0 +1,44 @@
+{
+  "slug": "renesas-rx261-fast-prototyping-board",
+  "name": "RX261 Fast Prototyping Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "renesas",
+  "ids": {
+    "zephyr": [
+      "fpb_rx261"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "R5F52618BGFP",
+      "source": "zephyr:fpb_rx261"
+    },
+    "ram": {
+      "value": "128 KB",
+      "source": "zephyr:fpb_rx261"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:fpb_rx261"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/renesas/fpb_rx261/doc/index.html",
+      "source": "zephyr:fpb_rx261"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:fpb_rx261",
+      "label": "Zephyr board definition (fpb_rx261)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/renesas/fpb_rx261/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

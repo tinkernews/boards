@@ -1,0 +1,44 @@
+{
+  "slug": "sutajio-ko-usagi-pte-tomu",
+  "name": "Tomu",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sutajio-ko-usagi-pte",
+  "ids": {
+    "zephyr": [
+      "tomu"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "EFM32HG309F64",
+      "source": "zephyr:tomu"
+    },
+    "ram": {
+      "value": "8 KB",
+      "source": "zephyr:tomu"
+    },
+    "flash": {
+      "value": "64 KB",
+      "source": "zephyr:tomu"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/kosagi/tomu/doc/index.html",
+      "source": "zephyr:tomu"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:tomu",
+      "label": "Zephyr board definition (tomu)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/kosagi/tomu/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,155 @@
+{
+  "slug": "ikigaisense-vita",
+  "name": "Ikigaisense Vita",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "ikigaisense",
+  "chip": "nrf52840",
+  "ids": {
+    "circuitpython": [
+      "ikigaisense_vita"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/ikigaisense_vita/",
+      "source": "circuitpython:ikigaisense_vita"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:ikigaisense_vita",
+    "list": [
+      {
+        "pin": "P0_04",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "P0_06",
+        "names": [
+          "ADDON_SDA"
+        ]
+      },
+      {
+        "pin": "P0_08",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "P0_13",
+        "names": [
+          "D9"
+        ]
+      },
+      {
+        "pin": "P0_15",
+        "names": [
+          "D7"
+        ]
+      },
+      {
+        "pin": "P0_17",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "P0_20",
+        "names": [
+          "D2"
+        ]
+      },
+      {
+        "pin": "P0_22",
+        "names": [
+          "D1",
+          "TX"
+        ]
+      },
+      {
+        "pin": "P0_24",
+        "names": [
+          "D0",
+          "RX"
+        ]
+      },
+      {
+        "pin": "P0_27",
+        "names": [
+          "L",
+          "LED",
+          "YELLOW_LED"
+        ]
+      },
+      {
+        "pin": "P0_29",
+        "names": [
+          "A0"
+        ]
+      },
+      {
+        "pin": "P0_30",
+        "names": [
+          "MAXTEMP_SDA"
+        ]
+      },
+      {
+        "pin": "P0_31",
+        "names": [
+          "MAXTEMP_SCL"
+        ]
+      },
+      {
+        "pin": "P1_09",
+        "names": [
+          "ADDON_SCL"
+        ]
+      },
+      {
+        "pin": "P1_10",
+        "names": [
+          "ACC_SDA"
+        ]
+      },
+      {
+        "pin": "P1_11",
+        "names": [
+          "ACC_SCL"
+        ]
+      },
+      {
+        "pin": "P1_13",
+        "names": [
+          "A2"
+        ]
+      },
+      {
+        "pin": "P1_15",
+        "names": [
+          "A1"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:ikigaisense_vita",
+      "label": "CircuitPython board definition (ikigaisense_vita)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/ikigaisense_vita.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:ikigaisense_vita",
+      "label": "CircuitPython pin definitions (ikigaisense_vita)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/nordic/boards/ikigaisense_vita/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

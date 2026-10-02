@@ -1,0 +1,52 @@
+{
+  "slug": "openbci-32bit",
+  "name": "OpenBCI 32bit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "openbci",
+  "ids": {
+    "platformio": [
+      "openbci"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "32MX250F128B",
+      "source": "platformio:openbci"
+    },
+    "clock": {
+      "value": "40 MHz",
+      "source": "platformio:openbci"
+    },
+    "upload_limits": {
+      "value": "120 KB flash, 32 KB RAM",
+      "source": "platformio:openbci"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "OpenBCI 32bit product page",
+      "url": "http://shop.openbci.com/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/microchippic32/openbci.html",
+      "source": "platformio:openbci"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:openbci",
+      "label": "PlatformIO board definition (openbci)",
+      "url": "https://github.com/platformio/platform-microchippic32/blob/f6e89308da11cfe35d7534696bf01abf3f442461/boards/openbci.json",
+      "kind": "import",
+      "revision": "f6e89308da11cfe35d7534696bf01abf3f442461"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

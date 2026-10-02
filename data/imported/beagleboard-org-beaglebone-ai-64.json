@@ -1,0 +1,75 @@
+{
+  "slug": "beagleboard-org-beaglebone-ai-64",
+  "name": "BeagleBone AI-64",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "beagleboard",
+  "released": "2022",
+  "ids": {
+    "zephyr": [
+      "beaglebone_ai64"
+    ],
+    "armbian": [
+      "beaglebone-ai64"
+    ],
+    "linux": [
+      "arch/arm64/boot/dts/ti/k3-j721e-beagleboneai64.dts"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "J721E",
+      "source": "zephyr:beaglebone_ai64"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:beaglebone_ai64"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/beagle/beaglebone_ai64/doc/index.html",
+      "source": "zephyr:beaglebone_ai64"
+    },
+    {
+      "platform": "armbian",
+      "status": "supported",
+      "note": "Supported by Armbian.",
+      "url": "https://github.com/armbian/build/blob/main/config/boards/beaglebone-ai64.conf",
+      "source": "armbian:beaglebone-ai64"
+    },
+    {
+      "platform": "linux-mainline",
+      "status": "supported",
+      "note": "A device tree for this board is in the mainline kernel; features may still be missing.",
+      "url": "https://github.com/torvalds/linux/blob/master/arch/arm64/boot/dts/ti/k3-j721e-beagleboneai64.dts",
+      "source": "linux:k3-j721e-beagleboneai64.dts"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:beaglebone_ai64",
+      "label": "Zephyr board definition (beaglebone_ai64)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/beagle/beaglebone_ai64/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "armbian:beaglebone-ai64",
+      "label": "Armbian board configuration (beaglebone-ai64)",
+      "url": "https://github.com/armbian/build/blob/da85daa05bd260d04dac50315d7317207fd998b3/config/boards/beaglebone-ai64.conf",
+      "kind": "import",
+      "revision": "da85daa05bd260d04dac50315d7317207fd998b3"
+    },
+    {
+      "id": "linux:k3-j721e-beagleboneai64.dts",
+      "label": "Linux kernel device tree (k3-j721e-beagleboneai64.dts)",
+      "url": "https://github.com/torvalds/linux/blob/551c722f40809618230001baccf219193e22fc5a/arch/arm64/boot/dts/ti/k3-j721e-beagleboneai64.dts",
+      "kind": "import",
+      "revision": "551c722f40809618230001baccf219193e22fc5a"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

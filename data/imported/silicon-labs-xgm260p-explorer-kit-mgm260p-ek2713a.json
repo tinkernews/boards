@@ -1,0 +1,44 @@
+{
+  "slug": "silicon-labs-xgm260p-explorer-kit-mgm260p-ek2713a",
+  "name": "xGM260P Explorer Kit (MGM260P-EK2713A)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "silicon-labs",
+  "ids": {
+    "zephyr": [
+      "mgm260p_ek2713a"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MGM260PD32VNA",
+      "source": "zephyr:mgm260p_ek2713a"
+    },
+    "ram": {
+      "value": "512 KB",
+      "source": "zephyr:mgm260p_ek2713a"
+    },
+    "flash": {
+      "value": "3.13 MB",
+      "source": "zephyr:mgm260p_ek2713a"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/silabs/explorer_kits/xg26/doc/index.html",
+      "source": "zephyr:mgm260p_ek2713a"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:mgm260p_ek2713a",
+      "label": "Zephyr board definition (mgm260p_ek2713a)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/silabs/explorer_kits/xg26/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

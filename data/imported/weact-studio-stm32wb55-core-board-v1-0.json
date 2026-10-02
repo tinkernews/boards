@@ -1,0 +1,44 @@
+{
+  "slug": "weact-studio-stm32wb55-core-board-v1-0",
+  "name": "STM32WB55 Core Board V1.0",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "weact",
+  "ids": {
+    "zephyr": [
+      "weact_stm32wb55_core"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32WB55XX",
+      "source": "zephyr:weact_stm32wb55_core"
+    },
+    "ram": {
+      "value": "192 KB",
+      "source": "zephyr:weact_stm32wb55_core"
+    },
+    "flash": {
+      "value": "872 KB",
+      "source": "zephyr:weact_stm32wb55_core"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/weact/stm32wb55_core/doc/index.html",
+      "source": "zephyr:weact_stm32wb55_core"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:weact_stm32wb55_core",
+      "label": "Zephyr board definition (weact_stm32wb55_core)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/weact/stm32wb55_core/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "scott-shawcroft-python-powered-gameboy-compatible-cartridge",
+  "name": "Python powered GameBoy-compatible cartridge",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "scott-shawcroft",
+  "chip": "atsamd51j19",
+  "ids": {
+    "circuitpython": [
+      "gb_m4"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/gb_m4/",
+      "source": "circuitpython:gb_m4"
+    }
+  ],
+  "sources": [
+    {
+      "id": "circuitpython:gb_m4",
+      "label": "CircuitPython board definition (gb_m4)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/gb_m4.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

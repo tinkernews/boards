@@ -1,0 +1,77 @@
+{
+  "slug": "rock-5b",
+  "name": "Radxa ROCK 5B",
+  "tier": "imported",
+  "kind": "sbc",
+  "maker": "radxa",
+  "chip": "rk3588",
+  "released": "2022",
+  "aliases": [
+    "ROCK 5B+",
+    "Rock 5B"
+  ],
+  "ids": {
+    "zephyr": [
+      "rock_5b_plus"
+    ],
+    "armbian": [
+      "rock-5b"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "RK3588",
+      "source": "zephyr:rock_5b_plus"
+    },
+    "ram": {
+      "value": "131072 KB",
+      "source": "zephyr:rock_5b_plus"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/radxa/rock_5b_plus/doc/index.html",
+      "source": "zephyr:rock_5b_plus"
+    },
+    {
+      "platform": "armbian",
+      "status": "supported",
+      "note": "Supported by Armbian.",
+      "url": "https://github.com/armbian/build/blob/main/config/boards/rock-5b.conf",
+      "source": "armbian:rock-5b"
+    },
+    {
+      "platform": "linux-mainline",
+      "status": "supported",
+      "note": "A device tree for this board is in the mainline kernel; features may still be missing.",
+      "url": "https://github.com/torvalds/linux/blob/master/arch/arm64/boot/dts/rockchip/rk3588-rock-5b.dts",
+      "source": "linux:rk3588-rock-5b.dts"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:rock_5b_plus",
+      "label": "Zephyr board definition (rock_5b_plus)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/radxa/rock_5b_plus/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "armbian:rock-5b",
+      "label": "Armbian board configuration (rock-5b)",
+      "url": "https://github.com/armbian/build/blob/da85daa05bd260d04dac50315d7317207fd998b3/config/boards/rock-5b.conf",
+      "kind": "import",
+      "revision": "da85daa05bd260d04dac50315d7317207fd998b3"
+    },
+    {
+      "id": "linux:rk3588-rock-5b.dts",
+      "label": "Linux kernel device tree (rk3588-rock-5b.dts)",
+      "url": "https://github.com/torvalds/linux/blob/551c722f40809618230001baccf219193e22fc5a/arch/arm64/boot/dts/rockchip/rk3588-rock-5b.dts",
+      "kind": "import",
+      "revision": "551c722f40809618230001baccf219193e22fc5a"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

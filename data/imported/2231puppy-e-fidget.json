@@ -1,0 +1,159 @@
+{
+  "slug": "2231puppy-e-fidget",
+  "name": "E-Fidget",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "2231puppy",
+  "chip": "rp2040",
+  "ids": {
+    "circuitpython": [
+      "e_fidget"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/e_fidget/",
+      "source": "circuitpython:e_fidget"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:e_fidget",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "GP0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "GP1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "GP2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "BTN1"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "BTN3"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "BTN2"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "M1"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "M5"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "M4"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "M6"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "M2"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "M7"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "M3"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "M8"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "SMPS_MODE"
+        ]
+      },
+      {
+        "pin": "GPIO24",
+        "names": [
+          "VBUS_SENSE"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "GP26_A0",
+          "GP26",
+          "A0"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "VOLTAGE_MONITOR"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:e_fidget",
+      "label": "CircuitPython board definition (e_fidget)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/e_fidget.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:e_fidget",
+      "label": "CircuitPython pin definitions (e_fidget)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/e_fidget/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

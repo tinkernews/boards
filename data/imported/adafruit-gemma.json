@@ -1,0 +1,53 @@
+{
+  "slug": "adafruit-gemma",
+  "name": "Adafruit Gemma",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "attiny85",
+  "ids": {
+    "platformio": [
+      "gemma"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATtiny85",
+      "source": "platformio:gemma"
+    },
+    "clock": {
+      "value": "8 MHz",
+      "source": "platformio:gemma"
+    },
+    "upload_limits": {
+      "value": "8 KB flash, 0.5 KB RAM",
+      "source": "platformio:gemma"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Adafruit Gemma product page",
+      "url": "http://www.adafruit.com/products/1222"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/gemma.html",
+      "source": "platformio:gemma"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:gemma",
+      "label": "PlatformIO board definition (gemma)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/gemma.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

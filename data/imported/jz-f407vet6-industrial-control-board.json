@@ -1,0 +1,45 @@
+{
+  "slug": "jz-f407vet6-industrial-control-board",
+  "name": "JZ-F407VET6 Industrial Control Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "generic",
+  "chip": "stm32f407",
+  "ids": {
+    "zephyr": [
+      "jz_f407vet6"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F407",
+      "source": "zephyr:jz_f407vet6"
+    },
+    "ram": {
+      "value": "192 KB",
+      "source": "zephyr:jz_f407vet6"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:jz_f407vet6"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/others/jz_f407vet6/doc/index.html",
+      "source": "zephyr:jz_f407vet6"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:jz_f407vet6",
+      "label": "Zephyr board definition (jz_f407vet6)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/others/jz_f407vet6/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

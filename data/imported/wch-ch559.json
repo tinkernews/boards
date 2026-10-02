@@ -1,0 +1,43 @@
+{
+  "slug": "wch-ch559",
+  "name": "CH559",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "wch",
+  "ids": {
+    "platformio": [
+      "CH559"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "CH559",
+      "source": "platformio:ch559"
+    },
+    "clock": {
+      "value": "12 MHz",
+      "source": "platformio:ch559"
+    },
+    "upload_limits": {
+      "value": "64 KB flash, 6.25 KB RAM",
+      "source": "platformio:ch559"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "CH559 product page",
+      "url": "http://www.wch-ic.com/products/CH559.html"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:ch559",
+      "label": "PlatformIO board definition (CH559)",
+      "url": "https://github.com/platformio/platform-intel_mcs51/blob/ac13d2c03ddfa8a9c88df58bf97c816d702af24b/boards/CH559.json",
+      "kind": "import",
+      "revision": "ac13d2c03ddfa8a9c88df58bf97c816d702af24b"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,104 @@
+{
+  "slug": "stmicroelectronics-st-nucleo-l152re",
+  "name": "ST Nucleo L152RE",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "aliases": [
+    "Nucleo L152RE"
+  ],
+  "ids": {
+    "platformio": [
+      "nucleo_l152re"
+    ],
+    "zephyr": [
+      "nucleo_l152re"
+    ],
+    "micropython": [
+      "NUCLEO_L152RE"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32L152RET6",
+      "source": "platformio:nucleo_l152re"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M3",
+      "source": "platformio:nucleo_l152re"
+    },
+    "clock": {
+      "value": "32 MHz",
+      "source": "platformio:nucleo_l152re"
+    },
+    "upload_limits": {
+      "value": "512 KB flash, 80 KB RAM",
+      "source": "platformio:nucleo_l152re"
+    },
+    "ram": {
+      "value": "80 KB",
+      "source": "zephyr:nucleo_l152re"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:nucleo_l152re"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ST Nucleo L152RE product page",
+      "url": "https://developer.mbed.org/platforms/ST-Nucleo-L152RE/"
+    },
+    {
+      "kind": "product",
+      "label": "ST Nucleo L152RE product page",
+      "url": "https://www.st.com/en/evaluation-tools/nucleo-l152re.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/nucleo_l152re.html",
+      "source": "platformio:nucleo_l152re"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/nucleo_l152re/doc/index.html",
+      "source": "zephyr:nucleo_l152re"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/NUCLEO_L152RE/",
+      "source": "micropython:nucleo_l152re"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:nucleo_l152re",
+      "label": "PlatformIO board definition (nucleo_l152re)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/nucleo_l152re.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    },
+    {
+      "id": "zephyr:nucleo_l152re",
+      "label": "Zephyr board definition (nucleo_l152re)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/nucleo_l152re/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "micropython:nucleo_l152re",
+      "label": "MicroPython board definition (NUCLEO_L152RE)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/stm32/boards/NUCLEO_L152RE/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

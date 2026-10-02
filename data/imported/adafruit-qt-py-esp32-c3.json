@@ -1,0 +1,182 @@
+{
+  "slug": "adafruit-qt-py-esp32-c3",
+  "name": "Adafruit QT Py ESP32-C3",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "esp32-c3",
+  "ids": {
+    "platformio": [
+      "adafruit_qtpy_esp32c3"
+    ],
+    "circuitpython": [
+      "adafruit_qtpy_esp32c3"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-C3",
+      "source": "platformio:adafruit_qtpy_esp32c3"
+    },
+    "clock": {
+      "value": "160 MHz",
+      "source": "platformio:adafruit_qtpy_esp32c3"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:adafruit_qtpy_esp32c3"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Adafruit QT Py ESP32-C3 product page",
+      "url": "https://www.adafruit.com/product/5405"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/adafruit_qtpy_esp32c3.html",
+      "source": "platformio:adafruit_qtpy_esp32c3"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/adafruit_qtpy_esp32c3.html",
+      "source": "platformio:adafruit_qtpy_esp32c3"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/adafruit_qtpy_esp32c3/",
+      "source": "circuitpython:adafruit_qtpy_esp32c3"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:adafruit_qtpy_esp32c3",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "A3",
+          "D8"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "A2",
+          "D9"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "A1",
+          "D17"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "A0",
+          "D18"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "SDA",
+          "D7",
+          "A4"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "SCL",
+          "D6",
+          "A5"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "MOSI",
+          "D35"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "MISO",
+          "D37"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "BUTTON",
+          "BOOT0",
+          "D0"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "SCK",
+          "D36"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "RX",
+          "D16",
+          "A7"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "TX",
+          "D5",
+          "A6"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "platformio:adafruit_qtpy_esp32c3",
+      "label": "PlatformIO board definition (adafruit_qtpy_esp32c3)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/adafruit_qtpy_esp32c3.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    },
+    {
+      "id": "circuitpython:adafruit_qtpy_esp32c3",
+      "label": "CircuitPython board definition (adafruit_qtpy_esp32c3)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/adafruit_qtpy_esp32c3.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:adafruit_qtpy_esp32c3",
+      "label": "CircuitPython pin definitions (adafruit_qtpy_esp32c3)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/adafruit_qtpy_esp32c3/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

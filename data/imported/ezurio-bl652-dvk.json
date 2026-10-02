@@ -1,0 +1,45 @@
+{
+  "slug": "ezurio-bl652-dvk",
+  "name": "BL652 DVK",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "ezurio",
+  "chip": "nrf52832",
+  "ids": {
+    "zephyr": [
+      "bl652_dvk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52832",
+      "source": "zephyr:bl652_dvk"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:bl652_dvk"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:bl652_dvk"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/ezurio/bl652_dvk/doc/index.html",
+      "source": "zephyr:bl652_dvk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:bl652_dvk",
+      "label": "Zephyr board definition (bl652_dvk)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/ezurio/bl652_dvk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

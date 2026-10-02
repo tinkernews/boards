@@ -1,0 +1,241 @@
+{
+  "slug": "adafruit-macropad-rp2040",
+  "name": "Adafruit MacroPad RP2040",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "rp2040",
+  "aliases": [
+    "MacroPad RP2040"
+  ],
+  "ids": {
+    "zephyr": [
+      "adafruit_macropad_rp2040"
+    ],
+    "circuitpython": [
+      "adafruit_macropad_rp2040"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "RP2040",
+      "source": "zephyr:adafruit_macropad_rp2040"
+    },
+    "ram": {
+      "value": "264 KB",
+      "source": "zephyr:adafruit_macropad_rp2040"
+    },
+    "flash": {
+      "value": "8 MB",
+      "source": "zephyr:adafruit_macropad_rp2040"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/adafruit/macropad_rp2040/doc/index.html",
+      "source": "zephyr:adafruit_macropad_rp2040"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/adafruit_macropad_rp2040/",
+      "source": "circuitpython:adafruit_macropad_rp2040"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:adafruit_macropad_rp2040",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "ENCODER_SWITCH",
+          "BUTTON"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "KEY1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "KEY2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "KEY3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "KEY4"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "KEY5"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "KEY6"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "KEY7"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "KEY8"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "KEY9"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "KEY10"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "KEY11"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "KEY12"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "LED"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "SPEAKER_ENABLE"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "SPEAKER"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "ENCODER_A",
+          "ROTA"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "ENCODER_B",
+          "ROTB"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "OLED_CS"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "OLED_RESET"
+        ]
+      },
+      {
+        "pin": "GPIO24",
+        "names": [
+          "OLED_DC"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "MISO"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "zephyr:adafruit_macropad_rp2040",
+      "label": "Zephyr board definition (adafruit_macropad_rp2040)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/adafruit/macropad_rp2040/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "circuitpython:adafruit_macropad_rp2040",
+      "label": "CircuitPython board definition (adafruit_macropad_rp2040)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/adafruit_macropad_rp2040.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:adafruit_macropad_rp2040",
+      "label": "CircuitPython pin definitions (adafruit_macropad_rp2040)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/adafruit_macropad_rp2040/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

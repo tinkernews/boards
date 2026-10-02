@@ -1,0 +1,80 @@
+{
+  "slug": "waveshare-ble400",
+  "name": "Waveshare BLE400",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "waveshare",
+  "chip": "nrf51822",
+  "aliases": [
+    "BLE400"
+  ],
+  "ids": {
+    "platformio": [
+      "waveshare_ble400"
+    ],
+    "zephyr": [
+      "nrf51_ble400"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF51822",
+      "source": "platformio:waveshare_ble400"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0",
+      "source": "platformio:waveshare_ble400"
+    },
+    "clock": {
+      "value": "32 MHz",
+      "source": "platformio:waveshare_ble400"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:waveshare_ble400"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:nrf51_ble400"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Waveshare BLE400 product page",
+      "url": "http://www.waveshare.com/wiki/BLE400"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/nordicnrf51/waveshare_ble400.html",
+      "source": "platformio:waveshare_ble400"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/waveshare/nrf51_ble400/doc/index.html",
+      "source": "zephyr:nrf51_ble400"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:waveshare_ble400",
+      "label": "PlatformIO board definition (waveshare_ble400)",
+      "url": "https://github.com/platformio/platform-nordicnrf51/blob/521963027651adfb1cd631d98767251dee254354/boards/waveshare_ble400.json",
+      "kind": "import",
+      "revision": "521963027651adfb1cd631d98767251dee254354"
+    },
+    {
+      "id": "zephyr:nrf51_ble400",
+      "label": "Zephyr board definition (nrf51_ble400)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/waveshare/nrf51_ble400/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "raytac-mdbt50q-cx-40-dongle",
+  "name": "MDBT50Q-CX-40 Dongle",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "raytac",
+  "chip": "nrf52840",
+  "ids": {
+    "zephyr": [
+      "raytac_mdbt50q_cx_40_dongle"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52840",
+      "source": "zephyr:raytac_mdbt50q_cx_40_dongle"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:raytac_mdbt50q_cx_40_dongle"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:raytac_mdbt50q_cx_40_dongle"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/raytac/mdbt50q_cx_40_dongle/doc/index.html",
+      "source": "zephyr:raytac_mdbt50q_cx_40_dongle"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:raytac_mdbt50q_cx_40_dongle",
+      "label": "Zephyr board definition (raytac_mdbt50q_cx_40_dongle)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/raytac/mdbt50q_cx_40_dongle/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

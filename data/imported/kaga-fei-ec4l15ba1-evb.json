@@ -1,0 +1,44 @@
+{
+  "slug": "kaga-fei-ec4l15ba1-evb",
+  "name": "EC4L15BA1-EVB",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "kaga-fei",
+  "ids": {
+    "zephyr": [
+      "ec4l15ba1"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "NRF54L15",
+      "source": "zephyr:ec4l15ba1"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:ec4l15ba1"
+    },
+    "flash": {
+      "value": "712 KB",
+      "source": "zephyr:ec4l15ba1"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/kaga-fei/ec4l15ba1/doc/index.html",
+      "source": "zephyr:ec4l15ba1"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:ec4l15ba1",
+      "label": "Zephyr board definition (ec4l15ba1)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/kaga-fei/ec4l15ba1/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

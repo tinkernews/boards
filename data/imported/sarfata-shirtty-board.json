@@ -1,0 +1,109 @@
+{
+  "slug": "sarfata-shirtty-board",
+  "name": "shIRtty Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sarfata",
+  "chip": "atsamd21g18",
+  "ids": {
+    "circuitpython": [
+      "shirtty"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/shirtty/",
+      "source": "circuitpython:shirtty"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:shirtty",
+    "list": [
+      {
+        "pin": "PA06",
+        "names": [
+          "D4",
+          "A4",
+          "TX",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "D3",
+          "A3",
+          "RX",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "PA08",
+        "names": [
+          "D0",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PA09",
+        "names": [
+          "D2",
+          "A2",
+          "SCL",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "D1",
+          "IR_RX"
+        ]
+      },
+      {
+        "pin": "PA14",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "PA15",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "PA16",
+        "names": [
+          "D7"
+        ]
+      },
+      {
+        "pin": "PA23",
+        "names": [
+          "D8",
+          "IR_TX"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:shirtty",
+      "label": "CircuitPython board definition (shirtty)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/shirtty.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:shirtty",
+      "label": "CircuitPython pin definitions (shirtty)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/shirtty/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

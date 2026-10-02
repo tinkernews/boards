@@ -1,0 +1,52 @@
+{
+  "slug": "microchip-technology-curiosity-nano-avr128db48",
+  "name": "Curiosity Nano AVR128DB48",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "ids": {
+    "platformio": [
+      "curiosity_nano_db"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "AVR128DB48",
+      "source": "platformio:curiosity_nano_db"
+    },
+    "clock": {
+      "value": "24 MHz",
+      "source": "platformio:curiosity_nano_db"
+    },
+    "upload_limits": {
+      "value": "128 KB flash, 16 KB RAM",
+      "source": "platformio:curiosity_nano_db"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Curiosity Nano AVR128DB48 product page",
+      "url": "https://www.microchip.com/developmenttools/ProductDetails/EV35L43A"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelmegaavr/curiosity_nano_db.html",
+      "source": "platformio:curiosity_nano_db"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:curiosity_nano_db",
+      "label": "PlatformIO board definition (curiosity_nano_db)",
+      "url": "https://github.com/platformio/platform-atmelmegaavr/blob/8d7678dd994dadf43062cb589deba0806fae3a2e/boards/curiosity_nano_db.json",
+      "kind": "import",
+      "revision": "8d7678dd994dadf43062cb589deba0806fae3a2e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

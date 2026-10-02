@@ -1,0 +1,32 @@
+{
+  "slug": "radxa-cubie-a7z",
+  "name": "Radxa Cubie A7Z",
+  "tier": "imported",
+  "kind": "sbc",
+  "maker": "radxa",
+  "released": "2025",
+  "ids": {
+    "armbian": [
+      "cubie-a7z"
+    ]
+  },
+  "software": [
+    {
+      "platform": "armbian",
+      "status": "community",
+      "note": "Community-maintained in Armbian.",
+      "url": "https://github.com/armbian/build/blob/main/config/boards/cubie-a7z.csc",
+      "source": "armbian:cubie-a7z"
+    }
+  ],
+  "sources": [
+    {
+      "id": "armbian:cubie-a7z",
+      "label": "Armbian board configuration (cubie-a7z)",
+      "url": "https://github.com/armbian/build/blob/da85daa05bd260d04dac50315d7317207fd998b3/config/boards/cubie-a7z.csc",
+      "kind": "import",
+      "revision": "da85daa05bd260d04dac50315d7317207fd998b3"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

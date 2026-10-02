@@ -1,0 +1,157 @@
+{
+  "slug": "sunton-esp32-8048s050",
+  "name": "Sunton ESP32-8048S050",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sunton",
+  "chip": "esp32-s3",
+  "ids": {
+    "circuitpython": [
+      "sunton_esp32_8048S050"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/sunton_esp32_8048S050/",
+      "source": "circuitpython:sunton_esp32_8048s050"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:sunton_esp32_8048s050",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "IO0",
+          "BOOT0",
+          "BUTTON",
+          "I2S_BIT_CLOCK"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "TFT_BACKLIGHT"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "SD_CS"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "IO11",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "IO12",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "IO13",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "IO17",
+          "I2S_DATA"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "IO18",
+          "I2S_WORD_SELECT",
+          "TOUCH_INT"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "IO19",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "IO20",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "TOUCH_RESET",
+          "TOUCH_CS"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "hsync"
+        ]
+      },
+      {
+        "pin": "GPIO40",
+        "names": [
+          "de"
+        ]
+      },
+      {
+        "pin": "GPIO41",
+        "names": [
+          "vsync"
+        ]
+      },
+      {
+        "pin": "GPIO42",
+        "names": [
+          "dclk"
+        ]
+      },
+      {
+        "pin": "GPIO43",
+        "names": [
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO44",
+        "names": [
+          "RX"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:sunton_esp32_8048s050",
+      "label": "CircuitPython board definition (sunton_esp32_8048S050)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/sunton_esp32_8048S050.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:sunton_esp32_8048s050",
+      "label": "CircuitPython pin definitions (sunton_esp32_8048S050)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/sunton_esp32_8048S050/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

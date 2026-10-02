@@ -1,0 +1,36 @@
+{
+  "slug": "renesas-rz-g3e-evaluation-board-kit",
+  "name": "RZ/G3E Evaluation Board Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "renesas",
+  "ids": {
+    "zephyr": [
+      "rzg3e_smarc"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "R9A09G047E57GBG",
+      "source": "zephyr:rzg3e_smarc"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/renesas/rzg3e_smarc/doc/index.html",
+      "source": "zephyr:rzg3e_smarc"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:rzg3e_smarc",
+      "label": "Zephyr board definition (rzg3e_smarc)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/renesas/rzg3e_smarc/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

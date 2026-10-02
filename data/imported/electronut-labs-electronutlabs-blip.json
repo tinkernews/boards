@@ -1,0 +1,48 @@
+{
+  "slug": "electronut-labs-electronutlabs-blip",
+  "name": "ElectronutLabs Blip",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "electronut-labs",
+  "chip": "nrf52840",
+  "ids": {
+    "platformio": [
+      "electronut_blip"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52840",
+      "source": "platformio:electronut_blip"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:electronut_blip"
+    },
+    "clock": {
+      "value": "64 MHz",
+      "source": "platformio:electronut_blip"
+    },
+    "upload_limits": {
+      "value": "1 MB flash, 256 KB RAM",
+      "source": "platformio:electronut_blip"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ElectronutLabs Blip product page",
+      "url": "https://github.com/electronut/ElectronutLabs-blip"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:electronut_blip",
+      "label": "PlatformIO board definition (electronut_blip)",
+      "url": "https://github.com/platformio/platform-nordicnrf52/blob/278176a7f7ffe2d001eb93eafa271c83b38222e4/boards/electronut_blip.json",
+      "kind": "import",
+      "revision": "278176a7f7ffe2d001eb93eafa271c83b38222e4"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

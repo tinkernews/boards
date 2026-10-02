@@ -1,0 +1,225 @@
+{
+  "slug": "turkish-technology-team-foundation-deneyap-mini",
+  "name": "Deneyap Mini",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "turkish-technology-team-foundation",
+  "chip": "esp32-s2",
+  "ids": {
+    "circuitpython": [
+      "deneyap_mini",
+      "deneyap_mini_v2"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/deneyap_mini/",
+      "source": "circuitpython:deneyap_mini"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:deneyap_mini",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "BT",
+          "D13",
+          "GPKEY"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "A0",
+          "T0"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "A1",
+          "T1"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "A2",
+          "T2"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "A3",
+          "T3"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "A4",
+          "T4"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "A5",
+          "T5"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "A6"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "DA0",
+          "D12",
+          "DAC0"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "DA1",
+          "D11",
+          "DAC1"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "D10",
+          "SS"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "D9"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "D15",
+          "LEDG"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "D16",
+          "LEDR"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "D14",
+          "LEDB"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "SD",
+          "D8",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO37",
+        "names": [
+          "SC",
+          "D7",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "MC",
+          "D6",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "MI",
+          "D5",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "GPIO40",
+        "names": [
+          "MO",
+          "D4",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO41",
+        "names": [
+          "D3",
+          "PWM1"
+        ]
+      },
+      {
+        "pin": "GPIO42",
+        "names": [
+          "D2",
+          "PWM0"
+        ]
+      },
+      {
+        "pin": "GPIO43",
+        "names": [
+          "TX",
+          "D1"
+        ]
+      },
+      {
+        "pin": "GPIO44",
+        "names": [
+          "RX",
+          "D0"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:deneyap_mini",
+      "label": "CircuitPython board definition (deneyap_mini)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/deneyap_mini.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython:deneyap_mini_v2",
+      "label": "CircuitPython board definition (deneyap_mini_v2)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/deneyap_mini_v2.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:deneyap_mini",
+      "label": "CircuitPython pin definitions (deneyap_mini)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/deneyap_mini/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

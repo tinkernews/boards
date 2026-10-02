@@ -1,0 +1,53 @@
+{
+  "slug": "doit-espduino-esp-13-module",
+  "name": "ESPDuino (ESP-13 Module)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "doit",
+  "chip": "esp8266",
+  "ids": {
+    "platformio": [
+      "espduino"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP8266EX",
+      "source": "platformio:espduino"
+    },
+    "clock": {
+      "value": "80 MHz",
+      "source": "platformio:espduino"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 80 KB RAM",
+      "source": "platformio:espduino"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ESPDuino (ESP-13 Module) product page",
+      "url": "https://www.tindie.com/products/doit/espduinowifi-uno-r3/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif8266/espduino.html",
+      "source": "platformio:espduino"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:espduino",
+      "label": "PlatformIO board definition (espduino)",
+      "url": "https://github.com/platformio/platform-espressif8266/blob/668c2a2e4f16bd83b6c812f1ee0605c62b3ce2d2/boards/espduino.json",
+      "kind": "import",
+      "revision": "668c2a2e4f16bd83b6c812f1ee0605c62b3ce2d2"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

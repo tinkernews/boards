@@ -1,0 +1,44 @@
+{
+  "slug": "renesas-fast-prototyping-board-for-ra8e1-mcu-group",
+  "name": "Fast Prototyping Board for RA8E1 MCU Group",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "renesas",
+  "ids": {
+    "zephyr": [
+      "fpb_ra8e1"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "R7FA8E1AFDCFB",
+      "source": "zephyr:fpb_ra8e1"
+    },
+    "ram": {
+      "value": "512 KB",
+      "source": "zephyr:fpb_ra8e1"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:fpb_ra8e1"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/renesas/fpb_ra8e1/doc/index.html",
+      "source": "zephyr:fpb_ra8e1"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:fpb_ra8e1",
+      "label": "Zephyr board definition (fpb_ra8e1)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/renesas/fpb_ra8e1/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

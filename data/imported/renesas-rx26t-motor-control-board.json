@@ -1,0 +1,44 @@
+{
+  "slug": "renesas-rx26t-motor-control-board",
+  "name": "RX26T Motor Control Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "renesas",
+  "ids": {
+    "zephyr": [
+      "mcb_rx26t"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "R5F526TFDDFP",
+      "source": "zephyr:mcb_rx26t"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:mcb_rx26t"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:mcb_rx26t"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/renesas/mcb_rx26t/doc/index.html",
+      "source": "zephyr:mcb_rx26t"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:mcb_rx26t",
+      "label": "Zephyr board definition (mcb_rx26t)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/renesas/mcb_rx26t/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

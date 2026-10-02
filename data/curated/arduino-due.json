@@ -1,0 +1,125 @@
+{
+  "slug": "arduino-due",
+  "name": "Arduino Due",
+  "tier": "curated",
+  "kind": "mcu",
+  "maker": "arduino",
+  "family": "Arduino",
+  "chip": "atsam3x8e",
+  "released": "2012-10",
+  "status": "current",
+  "summary": "The first 32-bit Arduino: an 84 MHz Arm Cortex-M3 in the Mega layout, with 512 KB of flash, two DACs and 3.3 V I/O.",
+  "aliases": [
+    "Arduino Due"
+  ],
+  "ids": {
+    "platformio": [
+      "due",
+      "dueUSB"
+    ],
+    "zephyr": [
+      "arduino_due"
+    ]
+  },
+  "review": {
+    "status": "draft"
+  },
+  "specs": {
+    "chip": {
+      "value": "Microchip (Atmel) SAM3X8E",
+      "source": "arduino-docs"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M3",
+      "source": "arduino-docs"
+    },
+    "clock": {
+      "value": "84 MHz",
+      "source": "arduino-docs"
+    },
+    "ram": {
+      "value": "96 KB SRAM",
+      "source": "arduino-docs"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "atsam3x8e"
+    },
+    "gpio": {
+      "value": "54 digital I/O (12 PWM); 4 UARTs; 2 CAN",
+      "source": "arduino-docs"
+    },
+    "analog": {
+      "value": "12 analog inputs; 2 DAC outputs",
+      "source": "arduino-docs"
+    },
+    "io_voltage": {
+      "value": "3.3 V",
+      "source": "arduino-docs"
+    },
+    "usb": {
+      "value": "Micro-USB programming port and native USB OTG port",
+      "source": "arduino-docs"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Product documentation, Arduino",
+      "url": "https://docs.arduino.cc/hardware/due/"
+    },
+    {
+      "kind": "datasheet",
+      "label": "Board datasheet",
+      "url": "https://docs.arduino.cc/resources/datasheets/A000062-datasheet.pdf"
+    },
+    {
+      "kind": "pinout",
+      "label": "Full pinout",
+      "url": "https://docs.arduino.cc/resources/pinouts/A000056-full-pinout.pdf"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Official Arduino core.",
+      "url": "https://docs.arduino.cc/software/ide/",
+      "source": "arduino-docs"
+    }
+  ],
+  "gotchas": [
+    {
+      "title": "3.3 V I/O on a Mega layout",
+      "text": "The Due looks like a Mega but its pins are 3.3 V and not 5 V tolerant; 5 V shields can destroy it.",
+      "source": "arduino-docs"
+    }
+  ],
+  "commonsFile": "File:Arduino Due.jpg",
+  "editorial": {
+    "history": "Announced in 2012, the Due was Arduino's first Arm board, bringing 32-bit performance, DACs and CAN to the Mega form factor.",
+    "today": "Still used for audio and CAN projects; newer boards like the Giga R1 and Teensy 4 are faster.",
+    "source": "arduino-docs"
+  },
+  "sources": [
+    {
+      "id": "arduino-docs",
+      "label": "Arduino Due, Arduino documentation",
+      "url": "https://docs.arduino.cc/hardware/due/",
+      "kind": "official"
+    },
+    {
+      "id": "atsam3x8e",
+      "label": "ATSAM3X8E product page, Microchip",
+      "url": "https://www.microchip.com/en-us/product/ATSAM3X8E",
+      "kind": "official"
+    },
+    {
+      "id": "wikipedia",
+      "label": "List of Arduino boards and compatible systems, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_Arduino_boards_and_compatible_systems",
+      "kind": "reference"
+    }
+  ],
+  "updatedAt": "2026-10-01T00:00:00.000Z"
+}

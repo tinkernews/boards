@@ -1,0 +1,226 @@
+{
+  "slug": "adafruit-itsybitsy-esp32",
+  "name": "Adafruit ItsyBitsy ESP32",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "adafruit_itsybitsy_esp32"
+    ],
+    "circuitpython": [
+      "adafruit_itsybitsy_esp32"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:adafruit_itsybitsy_esp32"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:adafruit_itsybitsy_esp32"
+    },
+    "upload_limits": {
+      "value": "8 MB flash, 320 KB RAM",
+      "source": "platformio:adafruit_itsybitsy_esp32"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Adafruit ItsyBitsy ESP32 product page",
+      "url": "https://www.adafruit.com/product/4363"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/adafruit_itsybitsy_esp32.html",
+      "source": "platformio:adafruit_itsybitsy_esp32"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/adafruit_itsybitsy_esp32.html",
+      "source": "platformio:adafruit_itsybitsy_esp32"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/adafruit_itsybitsy_esp32/",
+      "source": "circuitpython:adafruit_itsybitsy_esp32"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:adafruit_itsybitsy_esp32",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "NEOPIXEL_POWER"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "A2"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "D7"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "RX"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "D12"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "D13",
+          "LED"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "D14"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "MISO"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "A0"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "A1"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO32",
+        "names": [
+          "D32"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "D33"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "BUTTON"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "A5"
+        ]
+      },
+      {
+        "pin": "GPIO37",
+        "names": [
+          "A4"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "A3"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "platformio:adafruit_itsybitsy_esp32",
+      "label": "PlatformIO board definition (adafruit_itsybitsy_esp32)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/adafruit_itsybitsy_esp32.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    },
+    {
+      "id": "circuitpython:adafruit_itsybitsy_esp32",
+      "label": "CircuitPython board definition (adafruit_itsybitsy_esp32)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/adafruit_itsybitsy_esp32.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:adafruit_itsybitsy_esp32",
+      "label": "CircuitPython pin definitions (adafruit_itsybitsy_esp32)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/adafruit_itsybitsy_esp32/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

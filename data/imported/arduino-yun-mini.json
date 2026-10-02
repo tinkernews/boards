@@ -1,0 +1,53 @@
+{
+  "slug": "arduino-yun-mini",
+  "name": "Arduino Yun Mini",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "chip": "atmega32u4",
+  "ids": {
+    "platformio": [
+      "yunmini"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega32U4",
+      "source": "platformio:yunmini"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:yunmini"
+    },
+    "upload_limits": {
+      "value": "28 KB flash, 2.5 KB RAM",
+      "source": "platformio:yunmini"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Arduino Yun Mini product page",
+      "url": "https://www.arduino.cc/en/Main/ArduinoBoardYunMini"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/yunmini.html",
+      "source": "platformio:yunmini"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:yunmini",
+      "label": "PlatformIO board definition (yunmini)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/yunmini.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

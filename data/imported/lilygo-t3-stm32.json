@@ -1,0 +1,56 @@
+{
+  "slug": "lilygo-t3-stm32",
+  "name": "LilyGo T3-STM32",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "lilygo",
+  "ids": {
+    "platformio": [
+      "lilygo_t3_stm32_v1"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32WLE5CCU7",
+      "source": "platformio:lilygo_t3_stm32_v1"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:lilygo_t3_stm32_v1"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:lilygo_t3_stm32_v1"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 64 KB RAM",
+      "source": "platformio:lilygo_t3_stm32_v1"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "LilyGo T3-STM32 product page",
+      "url": "https://github.com/Xinyuan-LilyGO/T3-STM32"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/lilygo_t3_stm32_v1.html",
+      "source": "platformio:lilygo_t3_stm32_v1"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:lilygo_t3_stm32_v1",
+      "label": "PlatformIO board definition (lilygo_t3_stm32_v1)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/lilygo_t3_stm32_v1.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

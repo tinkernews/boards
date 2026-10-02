@@ -1,0 +1,36 @@
+{
+  "slug": "openisa-vegaboard",
+  "name": "OpenISA VEGAboard",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "open-isa-org",
+  "ids": {
+    "zephyr": [
+      "rv32m1_vega"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "OPENISA_RV32M1",
+      "source": "zephyr:rv32m1_vega"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/openisa/rv32m1_vega/doc/index.html",
+      "source": "zephyr:rv32m1_vega"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:rv32m1_vega",
+      "label": "Zephyr board definition (rv32m1_vega)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/openisa/rv32m1_vega/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

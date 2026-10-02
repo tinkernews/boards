@@ -1,0 +1,53 @@
+{
+  "slug": "lowpowerlab-moteino",
+  "name": "LowPowerLab Moteino",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "lowpowerlab",
+  "chip": "atmega328p",
+  "ids": {
+    "platformio": [
+      "moteino"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega328P",
+      "source": "platformio:moteino"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:moteino"
+    },
+    "upload_limits": {
+      "value": "31.5 KB flash, 2 KB RAM",
+      "source": "platformio:moteino"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "LowPowerLab Moteino product page",
+      "url": "https://lowpowerlab.com/shop/product/99"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/moteino.html",
+      "source": "platformio:moteino"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:moteino",
+      "label": "PlatformIO board definition (moteino)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/moteino.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "octavo-osd32mp1-brk",
+  "name": "OSD32MP1-BRK",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "octavo",
+  "ids": {
+    "zephyr": [
+      "osd32mp1_brk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "OSD32MP15X",
+      "source": "zephyr:osd32mp1_brk"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:osd32mp1_brk"
+    },
+    "flash": {
+      "value": "64 KB",
+      "source": "zephyr:osd32mp1_brk"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/oct/osd32mp1_brk/doc/index.html",
+      "source": "zephyr:osd32mp1_brk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:osd32mp1_brk",
+      "label": "Zephyr board definition (osd32mp1_brk)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/oct/osd32mp1_brk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

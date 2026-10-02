@@ -1,0 +1,56 @@
+{
+  "slug": "olimex-olimexino-stm32f3",
+  "name": "Olimex OLIMEXINO-STM32F3",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "olimex",
+  "ids": {
+    "platformio": [
+      "olimexino_stm32f3"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F303RCT6",
+      "source": "platformio:olimexino_stm32f3"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M3",
+      "source": "platformio:olimexino_stm32f3"
+    },
+    "clock": {
+      "value": "72 MHz",
+      "source": "platformio:olimexino_stm32f3"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 40 KB RAM",
+      "source": "platformio:olimexino_stm32f3"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Olimex OLIMEXINO-STM32F3 product page",
+      "url": "https://www.olimex.com/Products/Duino/STM32/OLIMEXINO-STM32F3/open-source-hardware"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/olimexino_stm32f3.html",
+      "source": "platformio:olimexino_stm32f3"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:olimexino_stm32f3",
+      "label": "PlatformIO board definition (olimexino_stm32f3)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/olimexino_stm32f3.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

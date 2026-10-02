@@ -1,0 +1,53 @@
+{
+  "slug": "seeed-studio-wio-node",
+  "name": "Wio Node",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "seeed",
+  "chip": "esp8266",
+  "ids": {
+    "platformio": [
+      "wio_node"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP8266EX",
+      "source": "platformio:wio_node"
+    },
+    "clock": {
+      "value": "80 MHz",
+      "source": "platformio:wio_node"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 80 KB RAM",
+      "source": "platformio:wio_node"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Wio Node product page",
+      "url": "https://www.seeedstudio.com/Wio-Node-p-2637.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif8266/wio_node.html",
+      "source": "platformio:wio_node"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:wio_node",
+      "label": "PlatformIO board definition (wio_node)",
+      "url": "https://github.com/platformio/platform-espressif8266/blob/668c2a2e4f16bd83b6c812f1ee0605c62b3ce2d2/boards/wio_node.json",
+      "kind": "import",
+      "revision": "668c2a2e4f16bd83b6c812f1ee0605c62b3ce2d2"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

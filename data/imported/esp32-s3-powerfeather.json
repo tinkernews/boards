@@ -1,0 +1,59 @@
+{
+  "slug": "esp32-s3-powerfeather",
+  "name": "ESP32-S3 PowerFeather",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "powerfeather",
+  "chip": "esp32-s3",
+  "ids": {
+    "platformio": [
+      "esp32s3_powerfeather"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-S3",
+      "source": "platformio:esp32s3_powerfeather"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:esp32s3_powerfeather"
+    },
+    "upload_limits": {
+      "value": "8 MB flash, 320 KB RAM",
+      "source": "platformio:esp32s3_powerfeather"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ESP32-S3 PowerFeather product page",
+      "url": "https://powerfeather.dev/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/esp32s3_powerfeather.html",
+      "source": "platformio:esp32s3_powerfeather"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/esp32s3_powerfeather.html",
+      "source": "platformio:esp32s3_powerfeather"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:esp32s3_powerfeather",
+      "label": "PlatformIO board definition (esp32s3_powerfeather)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/esp32s3_powerfeather.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

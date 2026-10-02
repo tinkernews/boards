@@ -1,0 +1,44 @@
+{
+  "slug": "arm-v2m-mps2",
+  "name": "V2M MPS2",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arm",
+  "ids": {
+    "zephyr": [
+      "mps2"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "AN383",
+      "source": "zephyr:mps2"
+    },
+    "ram": {
+      "value": "4096 KB",
+      "source": "zephyr:mps2"
+    },
+    "flash": {
+      "value": "4 MB",
+      "source": "zephyr:mps2"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/arm/mps2/doc/index.html",
+      "source": "zephyr:mps2"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:mps2",
+      "label": "Zephyr board definition (mps2)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/arm/mps2/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

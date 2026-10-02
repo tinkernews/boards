@@ -1,0 +1,44 @@
+{
+  "slug": "nordic-semiconductor-nrf93m1-dk",
+  "name": "nRF93M1 DK",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nordic-semiconductor",
+  "ids": {
+    "zephyr": [
+      "nrf93m1dk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "NRF54L15",
+      "source": "zephyr:nrf93m1dk"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:nrf93m1dk"
+    },
+    "flash": {
+      "value": "712 KB",
+      "source": "zephyr:nrf93m1dk"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nordic/nrf93m1dk/doc/index.html",
+      "source": "zephyr:nrf93m1dk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:nrf93m1dk",
+      "label": "Zephyr board definition (nrf93m1dk)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nordic/nrf93m1dk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

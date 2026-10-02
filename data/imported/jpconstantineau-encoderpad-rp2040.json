@@ -1,0 +1,165 @@
+{
+  "slug": "jpconstantineau-encoderpad-rp2040",
+  "name": "EncoderPad RP2040",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "jpconstantineau",
+  "chip": "rp2040",
+  "ids": {
+    "circuitpython": [
+      "jpconstantineau_encoderpad_rp2040"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/jpconstantineau_encoderpad_rp2040/",
+      "source": "circuitpython:jpconstantineau_encoderpad_rp2040"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:jpconstantineau_encoderpad_rp2040",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "KEY5"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "KEY6"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "KEY7"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "KEY8"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "KEY9"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "ENCODER_A",
+          "ROTA"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "ENCODER_B",
+          "ROTB"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "SPEAKER"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "KEY1"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "KEY2"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "KEY3"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "KEY4"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "LED"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "MISO"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "CS"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:jpconstantineau_encoderpad_rp2040",
+      "label": "CircuitPython board definition (jpconstantineau_encoderpad_rp2040)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/jpconstantineau_encoderpad_rp2040.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:jpconstantineau_encoderpad_rp2040",
+      "label": "CircuitPython pin definitions (jpconstantineau_encoderpad_rp2040)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/jpconstantineau_encoderpad_rp2040/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

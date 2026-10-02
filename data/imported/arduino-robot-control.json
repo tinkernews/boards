@@ -1,0 +1,53 @@
+{
+  "slug": "arduino-robot-control",
+  "name": "Arduino Robot Control",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "chip": "atmega32u4",
+  "ids": {
+    "platformio": [
+      "robotControl"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega32U4",
+      "source": "platformio:robotcontrol"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:robotcontrol"
+    },
+    "upload_limits": {
+      "value": "28 KB flash, 2.5 KB RAM",
+      "source": "platformio:robotcontrol"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Arduino Robot Control product page",
+      "url": "https://www.arduino.cc/en/Main/Robot"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/robotControl.html",
+      "source": "platformio:robotcontrol"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:robotcontrol",
+      "label": "PlatformIO board definition (robotControl)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/robotControl.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

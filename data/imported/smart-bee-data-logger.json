@@ -1,0 +1,59 @@
+{
+  "slug": "smart-bee-data-logger",
+  "name": "Smart Bee Data Logger",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "smart-bee",
+  "chip": "esp32-s3",
+  "ids": {
+    "platformio": [
+      "bee_data_logger"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-S3",
+      "source": "platformio:bee_data_logger"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:bee_data_logger"
+    },
+    "upload_limits": {
+      "value": "8 MB flash, 320 KB RAM",
+      "source": "platformio:bee_data_logger"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Smart Bee Data Logger product page",
+      "url": "https://github.com/strid3r21/Bee-Data-Logger"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/bee_data_logger.html",
+      "source": "platformio:bee_data_logger"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/bee_data_logger.html",
+      "source": "platformio:bee_data_logger"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:bee_data_logger",
+      "label": "PlatformIO board definition (bee_data_logger)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/bee_data_logger.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

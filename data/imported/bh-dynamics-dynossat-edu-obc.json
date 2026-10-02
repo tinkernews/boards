@@ -1,0 +1,229 @@
+{
+  "slug": "bh-dynamics-dynossat-edu-obc",
+  "name": "DynOSSAT-EDU OBC",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "bh-dynamics",
+  "chip": "atsamd51j19",
+  "ids": {
+    "circuitpython": [
+      "dynossat_edu_obc"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/dynossat_edu_obc/",
+      "source": "circuitpython:dynossat_edu_obc"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:dynossat_edu_obc",
+    "list": [
+      {
+        "pin": "PA04",
+        "names": [
+          "A3"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "A2"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "A1"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "A0"
+        ]
+      },
+      {
+        "pin": "PA08",
+        "names": [
+          "D13",
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "PA09",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "PA11",
+        "names": [
+          "D4"
+        ]
+      },
+      {
+        "pin": "PA12",
+        "names": [
+          "D10",
+          "INT_IMU"
+        ]
+      },
+      {
+        "pin": "PA15",
+        "names": [
+          "D11",
+          "SAT_POWER"
+        ]
+      },
+      {
+        "pin": "PA22",
+        "names": [
+          "D30",
+          "TX"
+        ]
+      },
+      {
+        "pin": "PA23",
+        "names": [
+          "D31",
+          "RX"
+        ]
+      },
+      {
+        "pin": "PA30",
+        "names": [
+          "D32"
+        ]
+      },
+      {
+        "pin": "PA31",
+        "names": [
+          "D33"
+        ]
+      },
+      {
+        "pin": "PB00",
+        "names": [
+          "D12",
+          "OVTEMP"
+        ]
+      },
+      {
+        "pin": "PB01",
+        "names": [
+          "MISO"
+        ]
+      },
+      {
+        "pin": "PB02",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "PB03",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "PB06",
+        "names": [
+          "D8"
+        ]
+      },
+      {
+        "pin": "PB07",
+        "names": [
+          "D7"
+        ]
+      },
+      {
+        "pin": "PB08",
+        "names": [
+          "A5"
+        ]
+      },
+      {
+        "pin": "PB09",
+        "names": [
+          "A4"
+        ]
+      },
+      {
+        "pin": "PB10",
+        "names": [
+          "D3"
+        ]
+      },
+      {
+        "pin": "PB11",
+        "names": [
+          "D2"
+        ]
+      },
+      {
+        "pin": "PB12",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PB13",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "PB14",
+        "names": [
+          "D1"
+        ]
+      },
+      {
+        "pin": "PB15",
+        "names": [
+          "D0"
+        ]
+      },
+      {
+        "pin": "PB22",
+        "names": [
+          "SD_CS"
+        ]
+      },
+      {
+        "pin": "PB30",
+        "names": [
+          "D9"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:dynossat_edu_obc",
+      "label": "CircuitPython board definition (dynossat_edu_obc)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/dynossat_edu_obc.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:dynossat_edu_obc",
+      "label": "CircuitPython pin definitions (dynossat_edu_obc)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/dynossat_edu_obc/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

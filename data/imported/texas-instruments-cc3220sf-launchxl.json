@@ -1,0 +1,36 @@
+{
+  "slug": "texas-instruments-cc3220sf-launchxl",
+  "name": "CC3220SF LaunchXL",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "texas-instruments",
+  "ids": {
+    "zephyr": [
+      "cc3220sf_launchxl"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "CC3220SF",
+      "source": "zephyr:cc3220sf_launchxl"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/ti/cc3220sf_launchxl/doc/index.html",
+      "source": "zephyr:cc3220sf_launchxl"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:cc3220sf_launchxl",
+      "label": "Zephyr board definition (cc3220sf_launchxl)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/ti/cc3220sf_launchxl/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "andes-adp-xc7k-ae350",
+  "name": "ADP-XC7K AE350",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "andes",
+  "ids": {
+    "zephyr": [
+      "adp_xc7k"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "AE350",
+      "source": "zephyr:adp_xc7k"
+    },
+    "ram": {
+      "value": "512 KB",
+      "source": "zephyr:adp_xc7k"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/andestech/adp_xc7k_ae350/doc/index.html",
+      "source": "zephyr:adp_xc7k"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:adp_xc7k",
+      "label": "Zephyr board definition (adp_xc7k)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/andestech/adp_xc7k_ae350/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

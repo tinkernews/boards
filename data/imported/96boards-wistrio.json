@@ -1,0 +1,44 @@
+{
+  "slug": "96boards-wistrio",
+  "name": "WisTrio",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "96boards",
+  "ids": {
+    "zephyr": [
+      "96b_wistrio"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32L151XBA",
+      "source": "zephyr:96b_wistrio"
+    },
+    "ram": {
+      "value": "16 KB",
+      "source": "zephyr:96b_wistrio"
+    },
+    "flash": {
+      "value": "128 KB",
+      "source": "zephyr:96b_wistrio"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/96boards/wistrio/doc/index.html",
+      "source": "zephyr:96b_wistrio"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:96b_wistrio",
+      "label": "Zephyr board definition (96b_wistrio)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/96boards/wistrio/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

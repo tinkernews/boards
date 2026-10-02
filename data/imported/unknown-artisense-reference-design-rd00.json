@@ -1,0 +1,251 @@
+{
+  "slug": "unknown-artisense-reference-design-rd00",
+  "name": "Artisense Reference Design RD00",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "unknown",
+  "chip": "esp32-s2",
+  "ids": {
+    "circuitpython": [
+      "artisense_rd00"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/artisense_rd00/",
+      "source": "circuitpython:artisense_rd00"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:artisense_rd00",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "DFU",
+          "SW1",
+          "BOOT"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "IO0",
+          "HVIO0"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "IO1",
+          "HVIO1"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "DIRIO1"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "DIRIO0"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "LVIO3"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "IO2",
+          "HVIO2"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "IO3",
+          "HVIO3"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "IO4",
+          "HVIO4"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "CAM",
+          "HVCAM"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "DIRIO4"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "DIRCAM"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "LVCAM"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "LVIO4"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "DIRIO2"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "DIRIO3"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "RS232_EN"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "TX",
+          "RS232_TX"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "RX",
+          "RS232_RX"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "LVIO2"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "LVIO1"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "LVIO0"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "D8"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "D7"
+        ]
+      },
+      {
+        "pin": "GPIO37",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "D4"
+        ]
+      },
+      {
+        "pin": "GPIO40",
+        "names": [
+          "D3"
+        ]
+      },
+      {
+        "pin": "GPIO41",
+        "names": [
+          "D2"
+        ]
+      },
+      {
+        "pin": "GPIO42",
+        "names": [
+          "D1"
+        ]
+      },
+      {
+        "pin": "GPIO43",
+        "names": [
+          "DBG_TX"
+        ]
+      },
+      {
+        "pin": "GPIO44",
+        "names": [
+          "DBG_RX"
+        ]
+      },
+      {
+        "pin": "GPIO45",
+        "names": [
+          "NEOPIXEL"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:artisense_rd00",
+      "label": "CircuitPython board definition (artisense_rd00)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/artisense_rd00.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:artisense_rd00",
+      "label": "CircuitPython pin definitions (artisense_rd00)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/artisense_rd00/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

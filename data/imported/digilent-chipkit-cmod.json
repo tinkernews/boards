@@ -1,0 +1,52 @@
+{
+  "slug": "digilent-chipkit-cmod",
+  "name": "Digilent chipKIT Cmod",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "digilent",
+  "ids": {
+    "platformio": [
+      "chipkit_cmod"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "32MX150F128D",
+      "source": "platformio:chipkit_cmod"
+    },
+    "clock": {
+      "value": "40 MHz",
+      "source": "platformio:chipkit_cmod"
+    },
+    "upload_limits": {
+      "value": "124 KB flash, 32 KB RAM",
+      "source": "platformio:chipkit_cmod"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Digilent chipKIT Cmod product page",
+      "url": "http://store.digilentinc.com/chipkit-cmod-breadboardable-mz-microcontroller-board/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/microchippic32/chipkit_cmod.html",
+      "source": "platformio:chipkit_cmod"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:chipkit_cmod",
+      "label": "PlatformIO board definition (chipkit_cmod)",
+      "url": "https://github.com/platformio/platform-microchippic32/blob/f6e89308da11cfe35d7534696bf01abf3f442461/boards/chipkit_cmod.json",
+      "kind": "import",
+      "revision": "f6e89308da11cfe35d7534696bf01abf3f442461"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

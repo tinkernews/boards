@@ -1,0 +1,166 @@
+{
+  "slug": "adafruit-sparkle-motion",
+  "name": "Adafruit Sparkle Motion",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "esp32",
+  "ids": {
+    "circuitpython": [
+      "adafruit_sparkle_motion",
+      "adafruit_sparkle_motion_stick"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/adafruit_sparkle_motion/",
+      "source": "circuitpython:adafruit_sparkle_motion"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:adafruit_sparkle_motion",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "BOOT",
+          "BUTTON",
+          "D0"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "LED",
+          "D4"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "TX",
+          "D9"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "RX",
+          "D10"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "SCL",
+          "D13"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "SDA",
+          "D14"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "D18"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "SIG3",
+          "D19"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "SIG1",
+          "D21"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "SIG2",
+          "D22"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "SIG4",
+          "D23"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "D25"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "D26"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "A0",
+          "D27"
+        ]
+      },
+      {
+        "pin": "GPIO32",
+        "names": [
+          "IR",
+          "D32"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "D33"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:adafruit_sparkle_motion",
+      "label": "CircuitPython board definition (adafruit_sparkle_motion)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/adafruit_sparkle_motion.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython:adafruit_sparkle_motion_stick",
+      "label": "CircuitPython board definition (adafruit_sparkle_motion_stick)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/adafruit_sparkle_motion_stick.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:adafruit_sparkle_motion",
+      "label": "CircuitPython pin definitions (adafruit_sparkle_motion)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/adafruit_sparkle_motion/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

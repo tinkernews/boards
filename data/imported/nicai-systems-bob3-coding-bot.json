@@ -1,0 +1,52 @@
+{
+  "slug": "nicai-systems-bob3-coding-bot",
+  "name": "nicai-systems BOB3 coding bot",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nicai-systems",
+  "ids": {
+    "platformio": [
+      "bob3"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATMEGA88",
+      "source": "platformio:bob3"
+    },
+    "clock": {
+      "value": "8 MHz",
+      "source": "platformio:bob3"
+    },
+    "upload_limits": {
+      "value": "8 KB flash, 1 KB RAM",
+      "source": "platformio:bob3"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "nicai-systems BOB3 coding bot product page",
+      "url": "http://www.nicai-systems.com"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/bob3.html",
+      "source": "platformio:bob3"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:bob3",
+      "label": "PlatformIO board definition (bob3)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/bob3.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,300 @@
+{
+  "slug": "unexpected-maker-feathers3-neo",
+  "name": "Unexpected Maker FeatherS3 Neo",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "unexpected-maker",
+  "chip": "esp32-s3",
+  "aliases": [
+    "FeatherS3 Neo"
+  ],
+  "ids": {
+    "circuitpython": [
+      "unexpectedmaker_feathers3_neo"
+    ],
+    "micropython": [
+      "UM_FEATHERS3NEO"
+    ]
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Unexpected Maker FeatherS3 Neo product page",
+      "url": "https://esp32s3.com/feathers3neo.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/UM_FEATHERS3NEO/",
+      "source": "micropython:um_feathers3neo"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/unexpectedmaker_feathers3_neo/",
+      "source": "circuitpython:unexpectedmaker_feathers3_neo"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:unexpectedmaker_feathers3_neo",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "IO0",
+          "D4"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "IO1",
+          "D9",
+          "A6"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "BATTERY",
+          "VBAT",
+          "VBAT_SENSE",
+          "VOLTAGE_MONITOR"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "IO3",
+          "D10",
+          "A7"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "IO4",
+          "AMB"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "IO5",
+          "A5",
+          "D19"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "IO6",
+          "A4",
+          "D18"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "IO7",
+          "D11",
+          "A8"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "SDA",
+          "IO8",
+          "A11",
+          "D21"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "SCL",
+          "IO9",
+          "A12",
+          "D22"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "IO10",
+          "D12",
+          "A9"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "IO11",
+          "D13",
+          "A10"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "IO12",
+          "A3",
+          "D17"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "LED"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "IO14",
+          "A2",
+          "D16"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "VBUS",
+          "VBUS_SENSE"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "NEOPIXEL_MATRIX"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "IO17",
+          "A0",
+          "D14"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "IO18",
+          "A1",
+          "D15"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "IO33",
+          "D5"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "IO34",
+          "D2"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "IO35",
+          "MOSI",
+          "D24"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "IO36",
+          "SCK",
+          "D25"
+        ]
+      },
+      {
+        "pin": "GPIO37",
+        "names": [
+          "IO37",
+          "MISO",
+          "D23"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "IO38",
+          "D6"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "LDO2",
+          "IO39",
+          "NEOPIXEL_MATRIX_POWER",
+          "NEOPIXEL_POWER"
+        ]
+      },
+      {
+        "pin": "GPIO40",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO42",
+        "names": [
+          "IO42",
+          "D2"
+        ]
+      },
+      {
+        "pin": "GPIO43",
+        "names": [
+          "IO43",
+          "D1",
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO44",
+        "names": [
+          "IO44",
+          "D0",
+          "RX"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:unexpectedmaker_feathers3_neo",
+      "label": "CircuitPython board definition (unexpectedmaker_feathers3_neo)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/unexpectedmaker_feathers3_neo.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "micropython:um_feathers3neo",
+      "label": "MicroPython board definition (UM_FEATHERS3NEO)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/esp32/boards/UM_FEATHERS3NEO/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    },
+    {
+      "id": "circuitpython-pins:unexpectedmaker_feathers3_neo",
+      "label": "CircuitPython pin definitions (unexpectedmaker_feathers3_neo)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/unexpectedmaker_feathers3_neo/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

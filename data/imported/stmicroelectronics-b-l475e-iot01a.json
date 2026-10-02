@@ -1,0 +1,37 @@
+{
+  "slug": "stmicroelectronics-b-l475e-iot01a",
+  "name": "B_L475E_IOT01A",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "micropython": [
+      "B_L475E_IOT01A"
+    ]
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "B_L475E_IOT01A product page",
+      "url": "https://www.st.com/en/evaluation-tools/b-l475e-iot01a.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/B_L475E_IOT01A/",
+      "source": "micropython:b_l475e_iot01a"
+    }
+  ],
+  "sources": [
+    {
+      "id": "micropython:b_l475e_iot01a",
+      "label": "MicroPython board definition (B_L475E_IOT01A)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/stm32/boards/B_L475E_IOT01A/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

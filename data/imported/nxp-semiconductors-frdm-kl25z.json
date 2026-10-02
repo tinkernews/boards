@@ -1,0 +1,44 @@
+{
+  "slug": "nxp-semiconductors-frdm-kl25z",
+  "name": "FRDM-KL25Z",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "ids": {
+    "zephyr": [
+      "frdm_kl25z"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MKL25Z4",
+      "source": "zephyr:frdm_kl25z"
+    },
+    "ram": {
+      "value": "16 KB",
+      "source": "zephyr:frdm_kl25z"
+    },
+    "flash": {
+      "value": "128 KB",
+      "source": "zephyr:frdm_kl25z"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nxp/frdm_kl25z/doc/index.html",
+      "source": "zephyr:frdm_kl25z"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:frdm_kl25z",
+      "label": "Zephyr board definition (frdm_kl25z)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nxp/frdm_kl25z/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "sparkfun-micromod-teensy",
+  "name": "SparkFun MicroMod Teensy",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sparkfun",
+  "chip": "imxrt1062",
+  "ids": {
+    "platformio": [
+      "teensymm"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "i.MX RT1062",
+      "source": "platformio:teensymm"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M7",
+      "source": "platformio:teensymm"
+    },
+    "clock": {
+      "value": "600 MHz",
+      "source": "platformio:teensymm"
+    },
+    "upload_limits": {
+      "value": "7.75 MB flash, 512 KB RAM",
+      "source": "platformio:teensymm"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "SparkFun MicroMod Teensy product page",
+      "url": "https://www.sparkfun.com/products/16402"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/teensy/teensymm.html",
+      "source": "platformio:teensymm"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:teensymm",
+      "label": "PlatformIO board definition (teensymm)",
+      "url": "https://github.com/platformio/platform-teensy/blob/4adab0aa96d9c2bddf3cfadaf7a9820fcd13dd18/boards/teensymm.json",
+      "kind": "import",
+      "revision": "4adab0aa96d9c2bddf3cfadaf7a9820fcd13dd18"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

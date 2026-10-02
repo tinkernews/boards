@@ -1,0 +1,45 @@
+{
+  "slug": "ezurio-pinnacle-100-dvk",
+  "name": "Pinnacle 100 DVK",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "ezurio",
+  "chip": "nrf52840",
+  "ids": {
+    "zephyr": [
+      "pinnacle_100_dvk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52840",
+      "source": "zephyr:pinnacle_100_dvk"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:pinnacle_100_dvk"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:pinnacle_100_dvk"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/ezurio/pinnacle_100_dvk/doc/index.html",
+      "source": "zephyr:pinnacle_100_dvk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:pinnacle_100_dvk",
+      "label": "Zephyr board definition (pinnacle_100_dvk)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/ezurio/pinnacle_100_dvk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

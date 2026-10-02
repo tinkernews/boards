@@ -1,0 +1,84 @@
+{
+  "slug": "olimex-stm32-p405",
+  "name": "Olimex STM32-P405",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "olimex",
+  "chip": "stm32f405",
+  "aliases": [
+    "OLIMEX-STM32-P405"
+  ],
+  "ids": {
+    "platformio": [
+      "olimex_p405"
+    ],
+    "zephyr": [
+      "olimex_stm32_p405"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F405",
+      "source": "platformio:olimex_p405"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:olimex_p405"
+    },
+    "clock": {
+      "value": "168 MHz",
+      "source": "platformio:olimex_p405"
+    },
+    "upload_limits": {
+      "value": "1 MB flash, 128 KB RAM",
+      "source": "platformio:olimex_p405"
+    },
+    "ram": {
+      "value": "128 KB",
+      "source": "zephyr:olimex_stm32_p405"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:olimex_stm32_p405"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Olimex STM32-P405 product page",
+      "url": "https://docs.zephyrproject.org/latest/boards/arm/olimex_stm32_p405/doc/index.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/olimex_p405.html",
+      "source": "platformio:olimex_p405"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/olimex/stm32_p405/doc/index.html",
+      "source": "zephyr:olimex_stm32_p405"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:olimex_p405",
+      "label": "PlatformIO board definition (olimex_p405)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/olimex_p405.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    },
+    {
+      "id": "zephyr:olimex_stm32_p405",
+      "label": "Zephyr board definition (olimex_stm32_p405)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/olimex/stm32_p405/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

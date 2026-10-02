@@ -1,0 +1,31 @@
+{
+  "slug": "adafruit-feather-esp32-s2-with-bme280-sensor",
+  "name": "Feather ESP32-S2 with BME280 Sensor",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "esp32-s2",
+  "ids": {
+    "circuitpython": [
+      "adafruit_feather_esp32s2_bme280"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/adafruit_feather_esp32s2_bme280/",
+      "source": "circuitpython:adafruit_feather_esp32s2_bme280"
+    }
+  ],
+  "sources": [
+    {
+      "id": "circuitpython:adafruit_feather_esp32s2_bme280",
+      "label": "CircuitPython board definition (adafruit_feather_esp32s2_bme280)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/adafruit_feather_esp32s2_bme280.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "nxp-semiconductors-frdm-mcxl255",
+  "name": "FRDM-MCXL255",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "ids": {
+    "zephyr": [
+      "frdm_mcxl255"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MCXL255",
+      "source": "zephyr:frdm_mcxl255"
+    },
+    "ram": {
+      "value": "128 KB",
+      "source": "zephyr:frdm_mcxl255"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:frdm_mcxl255"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nxp/frdm_mcxl255/doc/index.html",
+      "source": "zephyr:frdm_mcxl255"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:frdm_mcxl255",
+      "label": "Zephyr board definition (frdm_mcxl255)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nxp/frdm_mcxl255/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

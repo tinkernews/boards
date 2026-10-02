@@ -1,0 +1,59 @@
+{
+  "slug": "honeylemon",
+  "name": "HONEYLemon",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "honeylemon",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "honeylemon"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:honeylemon"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:honeylemon"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:honeylemon"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "HONEYLemon product page",
+      "url": "https://en.wikipedia.org/wiki/ESP32"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/honeylemon.html",
+      "source": "platformio:honeylemon"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/honeylemon.html",
+      "source": "platformio:honeylemon"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:honeylemon",
+      "label": "PlatformIO board definition (honeylemon)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/honeylemon.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

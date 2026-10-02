@@ -1,0 +1,115 @@
+{
+  "slug": "electronic-cats-catwan-usb-stick",
+  "name": "CatWAN USB Stick",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "electronic-cats",
+  "chip": "atsamd21g18",
+  "ids": {
+    "circuitpython": [
+      "catwan_usbstick"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/catwan_usbstick/",
+      "source": "circuitpython:catwan_usbstick"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:catwan_usbstick",
+    "list": [
+      {
+        "pin": "PA04",
+        "names": [
+          "RFM9X_D0"
+        ]
+      },
+      {
+        "pin": "PA14",
+        "names": [
+          "LED"
+        ]
+      },
+      {
+        "pin": "PA15",
+        "names": [
+          "RFM9X_D5"
+        ]
+      },
+      {
+        "pin": "PA16",
+        "names": [
+          "RFM9X_RST"
+        ]
+      },
+      {
+        "pin": "PA17",
+        "names": [
+          "RFM9X_CS"
+        ]
+      },
+      {
+        "pin": "PA18",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "PA19",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "PA22",
+        "names": [
+          "MISO"
+        ]
+      },
+      {
+        "pin": "PA23",
+        "names": [
+          "RFM9X_D1"
+        ]
+      },
+      {
+        "pin": "PA27",
+        "names": [
+          "RFM9X_D2"
+        ]
+      },
+      {
+        "pin": "PA30",
+        "names": [
+          "D0"
+        ]
+      },
+      {
+        "pin": "PA31",
+        "names": [
+          "D1"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:catwan_usbstick",
+      "label": "CircuitPython board definition (catwan_usbstick)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/catwan_usbstick.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:catwan_usbstick",
+      "label": "CircuitPython pin definitions (catwan_usbstick)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/catwan_usbstick/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

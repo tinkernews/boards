@@ -1,0 +1,44 @@
+{
+  "slug": "nxp-semiconductors-lpc845-brk",
+  "name": "LPC845-BRK",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "ids": {
+    "zephyr": [
+      "lpc845brk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "LPC845",
+      "source": "zephyr:lpc845brk"
+    },
+    "ram": {
+      "value": "16 KB",
+      "source": "zephyr:lpc845brk"
+    },
+    "flash": {
+      "value": "64 KB",
+      "source": "zephyr:lpc845brk"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nxp/lpc845brk/doc/index.html",
+      "source": "zephyr:lpc845brk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:lpc845brk",
+      "label": "Zephyr board definition (lpc845brk)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nxp/lpc845brk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

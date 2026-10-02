@@ -1,0 +1,60 @@
+{
+  "slug": "adafruit-metro-m7-with-microsd",
+  "name": "Metro M7 with microSD",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "ids": {
+    "circuitpython": [
+      "adafruit_metro_m7_1011_sd"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/adafruit_metro_m7_1011_sd/",
+      "source": "circuitpython:adafruit_metro_m7_1011_sd"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:adafruit_metro_m7_1011_sd",
+    "list": [
+      {
+        "pin": "GPIO_04",
+        "names": [
+          "I2S_DATA"
+        ]
+      },
+      {
+        "pin": "GPIO_06",
+        "names": [
+          "I2S_WORD_SELECT"
+        ]
+      },
+      {
+        "pin": "GPIO_07",
+        "names": [
+          "I2S_BIT_CLOCK"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:adafruit_metro_m7_1011_sd",
+      "label": "CircuitPython board definition (adafruit_metro_m7_1011_sd)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/adafruit_metro_m7_1011_sd.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:adafruit_metro_m7_1011_sd",
+      "label": "CircuitPython pin definitions (adafruit_metro_m7_1011_sd)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/mimxrt10xx/boards/adafruit_metro_m7_1011_sd/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

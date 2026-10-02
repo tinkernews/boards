@@ -1,0 +1,44 @@
+{
+  "slug": "silicon-labs-efr32xg21-2-4-ghz-20-dbm-slwrb4180b",
+  "name": "EFR32xG21 2.4 GHz 20 dBm (SLWRB4180B)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "silicon-labs",
+  "ids": {
+    "zephyr": [
+      "slwrb4180b"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "EFR32MG21A020F1024IM32",
+      "source": "zephyr:slwrb4180b"
+    },
+    "ram": {
+      "value": "96 KB",
+      "source": "zephyr:slwrb4180b"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:slwrb4180b"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/silabs/radio_boards/xg21/doc/index.html",
+      "source": "zephyr:slwrb4180b"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:slwrb4180b",
+      "label": "Zephyr board definition (slwrb4180b)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/silabs/radio_boards/xg21/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

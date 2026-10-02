@@ -1,0 +1,45 @@
+{
+  "slug": "actinius-b-v-icarus-som-dk",
+  "name": "Icarus SoM DK",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "actinius-b-v",
+  "chip": "nrf9160",
+  "ids": {
+    "zephyr": [
+      "actinius_icarus_som_dk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF9160",
+      "source": "zephyr:actinius_icarus_som_dk"
+    },
+    "ram": {
+      "value": "88 KB",
+      "source": "zephyr:actinius_icarus_som_dk"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:actinius_icarus_som_dk"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/actinius/icarus_som_dk/doc/index.html",
+      "source": "zephyr:actinius_icarus_som_dk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:actinius_icarus_som_dk",
+      "label": "Zephyr board definition (actinius_icarus_som_dk)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/actinius/icarus_som_dk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

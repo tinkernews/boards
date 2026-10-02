@@ -1,0 +1,31 @@
+{
+  "slug": "adafruit-circuit-playground-express-4-h",
+  "name": "Circuit Playground Express 4-H",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "atsamd21g18",
+  "ids": {
+    "circuitpython": [
+      "circuitplayground_express_4h"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/circuitplayground_express_4h/",
+      "source": "circuitpython:circuitplayground_express_4h"
+    }
+  ],
+  "sources": [
+    {
+      "id": "circuitpython:circuitplayground_express_4h",
+      "label": "CircuitPython board definition (circuitplayground_express_4h)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/circuitplayground_express_4h.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "beagleboard-org-beagleplay",
+  "name": "BeaglePlay",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "beagleboard",
+  "released": "2023",
+  "ids": {
+    "zephyr": [
+      "beagleplay"
+    ],
+    "armbian": [
+      "beagleplay"
+    ],
+    "linux": [
+      "arch/arm64/boot/dts/ti/k3-am625-beagleplay.dts"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "CC1352P7",
+      "source": "zephyr:beagleplay"
+    },
+    "ram": {
+      "value": "192 KB",
+      "source": "zephyr:beagleplay"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/beagle/beagleplay/doc/index.html",
+      "source": "zephyr:beagleplay"
+    },
+    {
+      "platform": "armbian",
+      "status": "supported",
+      "note": "Supported by Armbian.",
+      "url": "https://github.com/armbian/build/blob/main/config/boards/beagleplay.conf",
+      "source": "armbian:beagleplay"
+    },
+    {
+      "platform": "linux-mainline",
+      "status": "supported",
+      "note": "A device tree for this board is in the mainline kernel; features may still be missing.",
+      "url": "https://github.com/torvalds/linux/blob/master/arch/arm64/boot/dts/ti/k3-am625-beagleplay.dts",
+      "source": "linux:k3-am625-beagleplay.dts"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:beagleplay",
+      "label": "Zephyr board definition (beagleplay)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/beagle/beagleplay/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "armbian:beagleplay",
+      "label": "Armbian board configuration (beagleplay)",
+      "url": "https://github.com/armbian/build/blob/da85daa05bd260d04dac50315d7317207fd998b3/config/boards/beagleplay.conf",
+      "kind": "import",
+      "revision": "da85daa05bd260d04dac50315d7317207fd998b3"
+    },
+    {
+      "id": "linux:k3-am625-beagleplay.dts",
+      "label": "Linux kernel device tree (k3-am625-beagleplay.dts)",
+      "url": "https://github.com/torvalds/linux/blob/551c722f40809618230001baccf219193e22fc5a/arch/arm64/boot/dts/ti/k3-am625-beagleplay.dts",
+      "kind": "import",
+      "revision": "551c722f40809618230001baccf219193e22fc5a"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

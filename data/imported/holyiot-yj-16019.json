@@ -1,0 +1,77 @@
+{
+  "slug": "holyiot-yj-16019",
+  "name": "Holyiot YJ-16019",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "holyiot",
+  "chip": "nrf52832",
+  "aliases": [
+    "YJ-16019"
+  ],
+  "ids": {
+    "platformio": [
+      "holyiot_yj16019"
+    ],
+    "zephyr": [
+      "holyiot_yj16019"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52832",
+      "source": "platformio:holyiot_yj16019"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:holyiot_yj16019"
+    },
+    "clock": {
+      "value": "64 MHz",
+      "source": "platformio:holyiot_yj16019"
+    },
+    "upload_limits": {
+      "value": "512 KB flash, 64 KB RAM",
+      "source": "platformio:holyiot_yj16019"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:holyiot_yj16019"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:holyiot_yj16019"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Holyiot YJ-16019 product page",
+      "url": "http://www.holyiot.com/eacp_view.asp?id=306"
+    }
+  ],
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/holyiot/yj16019/doc/index.html",
+      "source": "zephyr:holyiot_yj16019"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:holyiot_yj16019",
+      "label": "PlatformIO board definition (holyiot_yj16019)",
+      "url": "https://github.com/platformio/platform-nordicnrf52/blob/278176a7f7ffe2d001eb93eafa271c83b38222e4/boards/holyiot_yj16019.json",
+      "kind": "import",
+      "revision": "278176a7f7ffe2d001eb93eafa271c83b38222e4"
+    },
+    {
+      "id": "zephyr:holyiot_yj16019",
+      "label": "Zephyr board definition (holyiot_yj16019)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/holyiot/yj16019/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

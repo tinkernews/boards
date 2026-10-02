@@ -1,0 +1,53 @@
+{
+  "slug": "adafruit-huzzah-esp8266",
+  "name": "Adafruit HUZZAH ESP8266",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "esp8266",
+  "ids": {
+    "platformio": [
+      "huzzah"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP8266EX",
+      "source": "platformio:huzzah"
+    },
+    "clock": {
+      "value": "80 MHz",
+      "source": "platformio:huzzah"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 80 KB RAM",
+      "source": "platformio:huzzah"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Adafruit HUZZAH ESP8266 product page",
+      "url": "https://www.adafruit.com/products/2471"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif8266/huzzah.html",
+      "source": "platformio:huzzah"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:huzzah",
+      "label": "PlatformIO board definition (huzzah)",
+      "url": "https://github.com/platformio/platform-espressif8266/blob/668c2a2e4f16bd83b6c812f1ee0605c62b3ce2d2/boards/huzzah.json",
+      "kind": "import",
+      "revision": "668c2a2e4f16bd83b6c812f1ee0605c62b3ce2d2"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

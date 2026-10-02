@@ -1,0 +1,181 @@
+{
+  "slug": "max-holliday-kicksat-sprite",
+  "name": "KickSat Sprite",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "max-holliday",
+  "chip": "atsamd51j19",
+  "ids": {
+    "circuitpython": [
+      "kicksat-sprite"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/kicksat-sprite/",
+      "source": "circuitpython:kicksat-sprite"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:kicksat-sprite",
+    "list": [
+      {
+        "pin": "PA00",
+        "names": [
+          "radioCS"
+        ]
+      },
+      {
+        "pin": "PA01",
+        "names": [
+          "WAKE"
+        ]
+      },
+      {
+        "pin": "PA02",
+        "names": [
+          "DAC0"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "MISO"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "PA06"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "PA08",
+        "names": [
+          "PA08"
+        ]
+      },
+      {
+        "pin": "PA09",
+        "names": [
+          "PA09"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "PA10"
+        ]
+      },
+      {
+        "pin": "PA11",
+        "names": [
+          "TST"
+        ]
+      },
+      {
+        "pin": "PA13",
+        "names": [
+          "FSYNC"
+        ]
+      },
+      {
+        "pin": "PA14",
+        "names": [
+          "VCLK"
+        ]
+      },
+      {
+        "pin": "PA15",
+        "names": [
+          "FSYNC"
+        ]
+      },
+      {
+        "pin": "PA16",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PA17",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "PA18",
+        "names": [
+          "MD"
+        ]
+      },
+      {
+        "pin": "PA19",
+        "names": [
+          "MC"
+        ]
+      },
+      {
+        "pin": "PB03",
+        "names": [
+          "LED"
+        ]
+      },
+      {
+        "pin": "PB08",
+        "names": [
+          "RX"
+        ]
+      },
+      {
+        "pin": "PB09",
+        "names": [
+          "TX"
+        ]
+      },
+      {
+        "pin": "PB10",
+        "names": [
+          "SHDWN"
+        ]
+      },
+      {
+        "pin": "PB11",
+        "names": [
+          "PWDWN"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:kicksat-sprite",
+      "label": "CircuitPython board definition (kicksat-sprite)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/kicksat-sprite.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:kicksat-sprite",
+      "label": "CircuitPython pin definitions (kicksat-sprite)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/kicksat-sprite/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,158 @@
+{
+  "slug": "waveshare-esp32-s3-1-47inch-display-development-board",
+  "name": "ESP32-S3 1.47inch Display Development Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "waveshare",
+  "chip": "esp32-s3",
+  "ids": {
+    "circuitpython": [
+      "waveshare_esp32_s3_lcd_1_47"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/waveshare_esp32_s3_lcd_1_47/",
+      "source": "circuitpython:waveshare_esp32_s3_lcd_1_47"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:waveshare_esp32_s3_lcd_1_47",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "BTN",
+          "GP0"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "GP14",
+          "SD_SCK"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "GP15",
+          "SD_MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "GP16",
+          "SDA",
+          "SD_MISO"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "GP17",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "GP18"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "GP21",
+          "SD_CS"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "NEOPIXEL",
+          "GP38"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "GP39",
+          "LCD_RST"
+        ]
+      },
+      {
+        "pin": "GPIO40",
+        "names": [
+          "CLK",
+          "GP40",
+          "LCD_CLK"
+        ]
+      },
+      {
+        "pin": "GPIO41",
+        "names": [
+          "GP41",
+          "LCD_DC"
+        ]
+      },
+      {
+        "pin": "GPIO42",
+        "names": [
+          "CS",
+          "GP42",
+          "LCD_CS"
+        ]
+      },
+      {
+        "pin": "GPIO43",
+        "names": [
+          "GP43",
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO44",
+        "names": [
+          "GP44",
+          "RX"
+        ]
+      },
+      {
+        "pin": "GPIO45",
+        "names": [
+          "MOSI",
+          "GP45",
+          "LCD_MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO48",
+        "names": [
+          "GP48",
+          "LCD_BACKLIGHT"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:waveshare_esp32_s3_lcd_1_47",
+      "label": "CircuitPython board definition (waveshare_esp32_s3_lcd_1_47)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/waveshare_esp32_s3_lcd_1_47.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:waveshare_esp32_s3_lcd_1_47",
+      "label": "CircuitPython pin definitions (waveshare_esp32_s3_lcd_1_47)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/waveshare_esp32_s3_lcd_1_47/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

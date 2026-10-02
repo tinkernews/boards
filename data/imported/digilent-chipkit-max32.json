@@ -1,0 +1,52 @@
+{
+  "slug": "digilent-chipkit-max32",
+  "name": "Digilent chipKIT MAX32",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "digilent",
+  "ids": {
+    "platformio": [
+      "mega_pic32"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "32MX795F512L",
+      "source": "platformio:mega_pic32"
+    },
+    "clock": {
+      "value": "80 MHz",
+      "source": "platformio:mega_pic32"
+    },
+    "upload_limits": {
+      "value": "508 KB flash, 128 KB RAM",
+      "source": "platformio:mega_pic32"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Digilent chipKIT MAX32 product page",
+      "url": "http://store.digilentinc.com/chipkit-max32-microcontroller-board-with-mega-r3-headers/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/microchippic32/mega_pic32.html",
+      "source": "platformio:mega_pic32"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:mega_pic32",
+      "label": "PlatformIO board definition (mega_pic32)",
+      "url": "https://github.com/platformio/platform-microchippic32/blob/f6e89308da11cfe35d7534696bf01abf3f442461/boards/mega_pic32.json",
+      "kind": "import",
+      "revision": "f6e89308da11cfe35d7534696bf01abf3f442461"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

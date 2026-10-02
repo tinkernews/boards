@@ -1,0 +1,122 @@
+{
+  "slug": "m5stack-atom-matrix-esp32",
+  "name": "ATOM Matrix ESP32",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "m5stack",
+  "chip": "esp32",
+  "ids": {
+    "circuitpython": [
+      "m5stack_atom_matrix"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/m5stack_atom_matrix/",
+      "source": "circuitpython:m5stack_atom_matrix"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:m5stack_atom_matrix",
+    "list": [
+      {
+        "pin": "GPIO12",
+        "names": [
+          "IR_LED"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "MOSI",
+          "D19"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "SCL",
+          "D21"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "D22"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "SCK",
+          "D23"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "SDA",
+          "A25",
+          "D25",
+          "DAC1",
+          "DAC2"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "PORTA_SDA",
+          "A26",
+          "D26"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO32",
+        "names": [
+          "PORTA_SCL",
+          "A32",
+          "D32"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "MISO",
+          "D33",
+          "A33"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "BTN"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:m5stack_atom_matrix",
+      "label": "CircuitPython board definition (m5stack_atom_matrix)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/m5stack_atom_matrix.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:m5stack_atom_matrix",
+      "label": "CircuitPython pin definitions (m5stack_atom_matrix)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/m5stack_atom_matrix/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,161 @@
+{
+  "slug": "arduino-nano",
+  "name": "Arduino Nano",
+  "tier": "curated",
+  "kind": "mcu",
+  "maker": "arduino",
+  "family": "Arduino",
+  "chip": "atmega328p",
+  "released": "2008",
+  "status": "current",
+  "summary": "The classic breadboard Arduino: an ATmega328 on a 45 × 18 mm board, the same chip as the Uno in a fraction of the space.",
+  "aliases": [
+    "Arduino Nano",
+    "Arduino Nano V3",
+    "Arduino Nano 3.0",
+    "classic Nano"
+  ],
+  "ids": {
+    "platformio": [
+      "nanoatmega328",
+      "nanoatmega328new",
+      "nanoatmega168"
+    ]
+  },
+  "review": {
+    "status": "verified",
+    "by": "AI-assisted source check",
+    "at": "2026-10-01"
+  },
+  "successor": "arduino-nano-every",
+  "specs": {
+    "chip": {
+      "value": "Microchip ATmega328 (Nano 2.x boards: ATmega168)",
+      "source": "arduino-older"
+    },
+    "cpu": {
+      "value": "8-bit AVR",
+      "source": "atmega328p"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "arduino-datasheet"
+    },
+    "ram": {
+      "value": "2 KB SRAM",
+      "source": "atmega328p"
+    },
+    "flash": {
+      "value": "32 KB (2 KB used by the bootloader)",
+      "source": "arduino-datasheet"
+    },
+    "gpio": {
+      "value": "14 digital I/O (6 PWM); A0–A5 also usable as digital pins",
+      "source": "arduino-docs"
+    },
+    "analog": {
+      "value": "8 analog inputs (10-bit)",
+      "source": "atmega328p"
+    },
+    "io_voltage": {
+      "value": "5 V",
+      "source": "arduino-datasheet"
+    },
+    "usb": {
+      "value": "Mini-USB via FTDI FT232RL",
+      "source": "arduino-datasheet"
+    },
+    "dimensions": {
+      "value": "45 × 18 mm, 7 g",
+      "source": "arduino-docs"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Product documentation, Arduino",
+      "url": "https://docs.arduino.cc/hardware/nano/"
+    },
+    {
+      "kind": "datasheet",
+      "label": "Board datasheet",
+      "url": "https://docs.arduino.cc/resources/datasheets/A000005-datasheet.pdf"
+    },
+    {
+      "kind": "schematic",
+      "label": "Schematics",
+      "url": "https://docs.arduino.cc/resources/schematics/A000005-schematics.pdf"
+    },
+    {
+      "kind": "pinout",
+      "label": "Full pinout",
+      "url": "https://docs.arduino.cc/resources/pinouts/A000005-full-pinout.pdf"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Official Arduino core.",
+      "url": "https://docs.arduino.cc/software/ide/",
+      "source": "arduino-docs"
+    }
+  ],
+  "gotchas": [
+    {
+      "title": "Old vs new bootloader",
+      "text": "Nanos shipped with two bootloaders over the years; if uploads time out, choose “ATmega328P (Old Bootloader)” in the IDE.",
+      "source": "arduino-core-avr"
+    },
+    {
+      "title": "5 V logic",
+      "text": "I/O is 5 V. Sensors and modules that run at 3.3 V (most modern ones) need level shifting on their inputs.",
+      "source": "arduino-docs"
+    }
+  ],
+  "editorial": {
+    "history": "Launched in May 2008, the Nano is similar to the Arduino Duemilanove but made for use on a breadboard, with no power jack.",
+    "today": "Still common and cheap. For new designs, the Nano Every and the USB-C Nano R4 keep the pinout with more memory.",
+    "source": "wikipedia"
+  },
+  "sources": [
+    {
+      "id": "arduino-docs",
+      "label": "Arduino Nano, Arduino documentation",
+      "url": "https://docs.arduino.cc/hardware/nano/",
+      "kind": "official"
+    },
+    {
+      "id": "arduino-datasheet",
+      "label": "Arduino Nano datasheet (A000005)",
+      "url": "https://docs.arduino.cc/resources/datasheets/A000005-datasheet.pdf",
+      "kind": "official"
+    },
+    {
+      "id": "atmega328p",
+      "label": "ATmega328P product page, Microchip",
+      "url": "https://www.microchip.com/en-us/product/ATmega328P",
+      "kind": "official"
+    },
+    {
+      "id": "wikipedia",
+      "label": "List of Arduino boards and compatible systems, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_Arduino_boards_and_compatible_systems",
+      "kind": "reference"
+    },
+    {
+      "id": "arduino-older",
+      "label": "Older boards, Arduino documentation",
+      "url": "https://docs.arduino.cc/retired/other/arduino-older-boards/",
+      "kind": "official"
+    },
+    {
+      "id": "arduino-core-avr",
+      "label": "Arduino AVR core board definitions (boards.txt), Arduino",
+      "url": "https://github.com/arduino/ArduinoCore-avr/blob/master/boards.txt",
+      "kind": "official"
+    }
+  ],
+  "updatedAt": "2026-10-01T15:00:00.000Z",
+  "commonsFile": "File:Arduino nano isometr.jpg"
+}

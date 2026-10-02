@@ -1,0 +1,44 @@
+{
+  "slug": "microchip-technology-sam-e70-b-xplained",
+  "name": "SAM E70(B) Xplained",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "ids": {
+    "zephyr": [
+      "sam_e70_xplained"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "SAME70Q21",
+      "source": "zephyr:sam_e70_xplained"
+    },
+    "ram": {
+      "value": "384 KB",
+      "source": "zephyr:sam_e70_xplained"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:sam_e70_xplained"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/atmel/sam/sam_e70_xplained/doc/index.html",
+      "source": "zephyr:sam_e70_xplained"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:sam_e70_xplained",
+      "label": "Zephyr board definition (sam_e70_xplained)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/atmel/sam/sam_e70_xplained/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

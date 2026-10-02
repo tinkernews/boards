@@ -1,0 +1,220 @@
+{
+  "slug": "unexpected-maker-tinywatch-s3",
+  "name": "Unexpected Maker TinyWATCH S3",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "unexpected-maker",
+  "chip": "esp32-s3",
+  "aliases": [
+    "TinyWATCH S3"
+  ],
+  "ids": {
+    "circuitpython": [
+      "unexpectedmaker_tinywatch_s3"
+    ],
+    "micropython": [
+      "UM_TINYWATCHS3"
+    ]
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Unexpected Maker TinyWATCH S3 product page",
+      "url": "https://tinywatch.io"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/UM_TINYWATCHS3/",
+      "source": "micropython:um_tinywatchs3"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/unexpectedmaker_tinywatch_s3/",
+      "source": "circuitpython:unexpectedmaker_tinywatch_s3"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:unexpectedmaker_tinywatch_s3",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "IO0",
+          "USER_BUTTON"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "I2S_MIC_DATA"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "I2S_MIC_BCLK"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "I2S_MIC_WS"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "RTC_INT"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "SDA2"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "BMI_INT1"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "BMI_INT2"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "SCL2"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "TOUCH_INT"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "TOUCH_RESET"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "TFT_BACKLIGHT"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "FG_ALERT"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "TFT_DC"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "TFT_CS"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "TFT_RESET"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "BUZZER"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "USER_PWR_SHUTDOWN"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "EXT_FLASH_CS"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "VBUS_SENSE"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "MO"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "CLK"
+        ]
+      },
+      {
+        "pin": "GPIO37",
+        "names": [
+          "MI"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:unexpectedmaker_tinywatch_s3",
+      "label": "CircuitPython board definition (unexpectedmaker_tinywatch_s3)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/unexpectedmaker_tinywatch_s3.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "micropython:um_tinywatchs3",
+      "label": "MicroPython board definition (UM_TINYWATCHS3)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/esp32/boards/UM_TINYWATCHS3/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    },
+    {
+      "id": "circuitpython-pins:unexpectedmaker_tinywatch_s3",
+      "label": "CircuitPython pin definitions (unexpectedmaker_tinywatch_s3)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/unexpectedmaker_tinywatch_s3/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

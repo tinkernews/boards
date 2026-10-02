@@ -1,0 +1,37 @@
+{
+  "slug": "heltec-automation-wireless-tracker-v1-1",
+  "name": "Wireless Tracker (V1.1)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "heltec",
+  "chip": "esp32-s3",
+  "ids": {
+    "zephyr": [
+      "heltec_wireless_tracker"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-S3",
+      "source": "zephyr:heltec_wireless_tracker"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/heltec/heltec_wireless_tracker/doc/index.html",
+      "source": "zephyr:heltec_wireless_tracker"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:heltec_wireless_tracker",
+      "label": "Zephyr board definition (heltec_wireless_tracker)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/heltec/heltec_wireless_tracker/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

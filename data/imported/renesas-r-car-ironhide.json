@@ -1,0 +1,36 @@
+{
+  "slug": "renesas-r-car-ironhide",
+  "name": "R-Car Ironhide",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "renesas",
+  "ids": {
+    "zephyr": [
+      "rcar_ironhide_x5h"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "R8A78000",
+      "source": "zephyr:rcar_ironhide_x5h"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/renesas/rcar_ironhide_x5h/doc/index.html",
+      "source": "zephyr:rcar_ironhide_x5h"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:rcar_ironhide_x5h",
+      "label": "Zephyr board definition (rcar_ironhide_x5h)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/renesas/rcar_ironhide_x5h/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

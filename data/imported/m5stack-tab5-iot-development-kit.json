@@ -1,0 +1,365 @@
+{
+  "slug": "m5stack-tab5-iot-development-kit",
+  "name": "M5Stack Tab5 IoT Development Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "m5stack",
+  "chip": "esp32-p4",
+  "ids": {
+    "circuitpython": [
+      "m5stack_tab5"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/m5stack_tab5/",
+      "source": "circuitpython:m5stack_tab5"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:m5stack_tab5",
+    "list": [
+      {
+        "pin": "GPIO2",
+        "names": [
+          "G2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "G3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "G4"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "G5",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "G6"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "G7"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "G8",
+          "C6_SDIO2_D3"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "G9",
+          "C6_SDIO2_D2"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "G10",
+          "C6_SDIO2_D1"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "G11",
+          "C6_SDIO2_D0"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "G12",
+          "C6_SDIO2_CK"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "G13",
+          "C6_SDIO2_CMD"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "G14",
+          "C6_IO2"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "G15",
+          "C6_RESET"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "G16"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "G17"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "G18",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "G19",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "G20",
+          "RS485_TX"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "G21",
+          "RS485_RX"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "G22",
+          "LCD_BL"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "G23",
+          "TP_INT"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "G26",
+          "I2S_DSDIN"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "G27",
+          "I2S_SCLK"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "G28",
+          "I2S_ASDOUT"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "G29",
+          "I2S_LRCK"
+        ]
+      },
+      {
+        "pin": "GPIO30",
+        "names": [
+          "G30",
+          "I2S_MCLK"
+        ]
+      },
+      {
+        "pin": "GPIO31",
+        "names": [
+          "G31",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO32",
+        "names": [
+          "G32",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "G34",
+          "RS485_DIR"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "G35"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "G36",
+          "CAM_MCLK"
+        ]
+      },
+      {
+        "pin": "GPIO37",
+        "names": [
+          "G37",
+          "TX",
+          "TXD0"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "G38",
+          "RX",
+          "RXD0"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "G39",
+          "SD_DAT0",
+          "SD_MISO"
+        ]
+      },
+      {
+        "pin": "GPIO40",
+        "names": [
+          "G40",
+          "SD_DAT1"
+        ]
+      },
+      {
+        "pin": "GPIO41",
+        "names": [
+          "G41",
+          "SD_DAT2"
+        ]
+      },
+      {
+        "pin": "GPIO42",
+        "names": [
+          "G42",
+          "SD_DAT3",
+          "SD_CS"
+        ]
+      },
+      {
+        "pin": "GPIO43",
+        "names": [
+          "G43",
+          "SD_CLK",
+          "SD_SCK"
+        ]
+      },
+      {
+        "pin": "GPIO44",
+        "names": [
+          "G44",
+          "SD_CMD",
+          "SD_MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO45",
+        "names": [
+          "G45"
+        ]
+      },
+      {
+        "pin": "GPIO47",
+        "names": [
+          "G47"
+        ]
+      },
+      {
+        "pin": "GPIO48",
+        "names": [
+          "G48"
+        ]
+      },
+      {
+        "pin": "GPIO51",
+        "names": [
+          "G51"
+        ]
+      },
+      {
+        "pin": "GPIO52",
+        "names": [
+          "G52"
+        ]
+      },
+      {
+        "pin": "GPIO53",
+        "names": [
+          "G53",
+          "PORTA_Y"
+        ]
+      },
+      {
+        "pin": "GPIO54",
+        "names": [
+          "G54",
+          "PORTA_W"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:m5stack_tab5",
+      "label": "CircuitPython board definition (m5stack_tab5)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/m5stack_tab5.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:m5stack_tab5",
+      "label": "CircuitPython pin definitions (m5stack_tab5)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/m5stack_tab5/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

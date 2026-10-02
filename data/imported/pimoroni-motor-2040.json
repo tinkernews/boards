@@ -1,0 +1,235 @@
+{
+  "slug": "pimoroni-motor-2040",
+  "name": "Motor 2040",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "pimoroni",
+  "chip": "rp2040",
+  "ids": {
+    "circuitpython": [
+      "pimoroni_motor2040"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/pimoroni_motor2040/",
+      "source": "circuitpython:pimoroni_motor2040"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:pimoroni_motor2040",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "ENCODER_A_A"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "ENCODER_A_B"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "ENCODER_B_A"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "ENCODER_B_B"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "MOTOR_A_P"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "MOTOR_A_N"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "MOTOR_B_P"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "MOTOR_B_N"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "MOTOR_C_P"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "MOTOR_C_N"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "MOTOR_D_P"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "MOTOR_D_N"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "ENCODER_C_A"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "ENCODER_C_B"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "ENCODER_D_A"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "ENCODER_D_B"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "TX",
+          "TRIG"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "RX",
+          "ECHO"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "NEOPIXEL",
+          "LED_DATA"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "INT",
+          "GP19"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "SDA",
+          "GP20"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "SCL",
+          "GP21"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "ADC_ADDR_0"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "USER_SW"
+        ]
+      },
+      {
+        "pin": "GPIO24",
+        "names": [
+          "ADC_ADDR_1"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "ADC_ADDR_2"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "GP26_A0",
+          "GP26",
+          "A0"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "GP27_A1",
+          "GP27",
+          "A1"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "GP28_A2",
+          "GP28",
+          "A2"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "SHARED_ADC"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:pimoroni_motor2040",
+      "label": "CircuitPython board definition (pimoroni_motor2040)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/pimoroni_motor2040.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:pimoroni_motor2040",
+      "label": "CircuitPython pin definitions (pimoroni_motor2040)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/pimoroni_motor2040/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

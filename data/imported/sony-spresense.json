@@ -1,0 +1,295 @@
+{
+  "slug": "sony-spresense",
+  "name": "Spresense",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sony",
+  "ids": {
+    "circuitpython": [
+      "spresense"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/spresense/",
+      "source": "circuitpython:spresense"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:spresense",
+    "list": [
+      {
+        "pin": "EMMC_CLK",
+        "names": [
+          "D23"
+        ]
+      },
+      {
+        "pin": "EMMC_CMD",
+        "names": [
+          "D24"
+        ]
+      },
+      {
+        "pin": "EMMC_DATA0",
+        "names": [
+          "D16"
+        ]
+      },
+      {
+        "pin": "EMMC_DATA1",
+        "names": [
+          "D17"
+        ]
+      },
+      {
+        "pin": "EMMC_DATA2",
+        "names": [
+          "D20"
+        ]
+      },
+      {
+        "pin": "EMMC_DATA3",
+        "names": [
+          "D21"
+        ]
+      },
+      {
+        "pin": "HIF_IRQ_OUT",
+        "names": [
+          "D2"
+        ]
+      },
+      {
+        "pin": "HPADC0",
+        "names": [
+          "A4"
+        ]
+      },
+      {
+        "pin": "HPADC1",
+        "names": [
+          "A5"
+        ]
+      },
+      {
+        "pin": "I2C0_BCK",
+        "names": [
+          "D15",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "I2C0_BDT",
+        "names": [
+          "D14",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "I2S0_BCK",
+        "names": [
+          "D26"
+        ]
+      },
+      {
+        "pin": "I2S0_DATA_IN",
+        "names": [
+          "D19"
+        ]
+      },
+      {
+        "pin": "I2S0_DATA_OUT",
+        "names": [
+          "D18"
+        ]
+      },
+      {
+        "pin": "I2S0_LRCK",
+        "names": [
+          "D25"
+        ]
+      },
+      {
+        "pin": "I2S1_BCK",
+        "names": [
+          "LED0"
+        ]
+      },
+      {
+        "pin": "I2S1_DATA_IN",
+        "names": [
+          "LED2"
+        ]
+      },
+      {
+        "pin": "I2S1_DATA_OUT",
+        "names": [
+          "LED3"
+        ]
+      },
+      {
+        "pin": "I2S1_LRCK",
+        "names": [
+          "LED1"
+        ]
+      },
+      {
+        "pin": "LPADC0",
+        "names": [
+          "A0"
+        ]
+      },
+      {
+        "pin": "LPADC1",
+        "names": [
+          "A1"
+        ]
+      },
+      {
+        "pin": "LPADC2",
+        "names": [
+          "A2"
+        ]
+      },
+      {
+        "pin": "LPADC3",
+        "names": [
+          "A3"
+        ]
+      },
+      {
+        "pin": "PWM0",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "PWM1",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "PWM2",
+        "names": [
+          "D9"
+        ]
+      },
+      {
+        "pin": "PWM3",
+        "names": [
+          "D3"
+        ]
+      },
+      {
+        "pin": "SDIO_CLK",
+        "names": [
+          "SDIO_CLOCK"
+        ]
+      },
+      {
+        "pin": "SDIO_CMD",
+        "names": [
+          "SDIO_COMMAND"
+        ]
+      },
+      {
+        "pin": "SEN_IRQ_IN",
+        "names": [
+          "D22"
+        ]
+      },
+      {
+        "pin": "SPI2_MISO",
+        "names": [
+          "D8"
+        ]
+      },
+      {
+        "pin": "SPI2_MOSI",
+        "names": [
+          "D4"
+        ]
+      },
+      {
+        "pin": "SPI3_CS1_X",
+        "names": [
+          "D7"
+        ]
+      },
+      {
+        "pin": "SPI4_CS_X",
+        "names": [
+          "D10"
+        ]
+      },
+      {
+        "pin": "SPI4_MISO",
+        "names": [
+          "D12",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "SPI4_MOSI",
+        "names": [
+          "D11",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "SPI4_SCK",
+        "names": [
+          "D13",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "UART2_CTS",
+        "names": [
+          "D27"
+        ]
+      },
+      {
+        "pin": "UART2_RTS",
+        "names": [
+          "D28"
+        ]
+      },
+      {
+        "pin": "UART2_RXD",
+        "names": [
+          "D0",
+          "RX"
+        ]
+      },
+      {
+        "pin": "UART2_TXD",
+        "names": [
+          "D1",
+          "TX"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:spresense",
+      "label": "CircuitPython board definition (spresense)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/spresense.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:spresense",
+      "label": "CircuitPython pin definitions (spresense)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/cxd56/boards/spresense/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

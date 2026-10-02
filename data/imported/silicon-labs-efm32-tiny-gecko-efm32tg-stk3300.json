@@ -1,0 +1,44 @@
+{
+  "slug": "silicon-labs-efm32-tiny-gecko-efm32tg-stk3300",
+  "name": "EFM32 Tiny Gecko (EFM32TG-STK3300)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "silicon-labs",
+  "ids": {
+    "zephyr": [
+      "efm32tg_stk3300"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "EFM32TG840F32",
+      "source": "zephyr:efm32tg_stk3300"
+    },
+    "ram": {
+      "value": "4 KB",
+      "source": "zephyr:efm32tg_stk3300"
+    },
+    "flash": {
+      "value": "32 KB",
+      "source": "zephyr:efm32tg_stk3300"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/silabs/starter_kits/efm32tg_stk3300/doc/index.html",
+      "source": "zephyr:efm32tg_stk3300"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:efm32tg_stk3300",
+      "label": "Zephyr board definition (efm32tg_stk3300)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/silabs/starter_kits/efm32tg_stk3300/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

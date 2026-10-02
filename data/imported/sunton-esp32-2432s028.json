@@ -1,0 +1,191 @@
+{
+  "slug": "sunton-esp32-2432s028",
+  "name": "Sunton ESP32-2432S028",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sunton",
+  "chip": "esp32",
+  "ids": {
+    "circuitpython": [
+      "sunton_esp32_2432S028"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/sunton_esp32_2432S028/",
+      "source": "circuitpython:sunton_esp32_2432s028"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:sunton_esp32_2432s028",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "BOOT0",
+          "BUTTON"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "LCD_DC"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "LED_RED"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "SD_CS"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "LCD_MISO"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "LCD_MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "LCD_SCK"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "LCD_CS"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "LED_GREEN"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "LED_BLUE"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "SD_SCK"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "SD_MISO"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "IO21",
+          "LCD_BCKL"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "IO22",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "SD_MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "TOUCH_SCK"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "SPEAKER"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "IO27",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO32",
+        "names": [
+          "TOUCH_MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "TOUCH_CS"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "LDR"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "IO35"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "TOUCH_INT"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "TOUCH_MISO"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:sunton_esp32_2432s028",
+      "label": "CircuitPython board definition (sunton_esp32_2432S028)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/sunton_esp32_2432S028.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:sunton_esp32_2432s028",
+      "label": "CircuitPython pin definitions (sunton_esp32_2432S028)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/sunton_esp32_2432S028/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

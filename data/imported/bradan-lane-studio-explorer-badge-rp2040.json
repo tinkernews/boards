@@ -1,0 +1,251 @@
+{
+  "slug": "bradan-lane-studio-explorer-badge-rp2040",
+  "name": "Bradán Lane STUDIO Explorer Badge RP2040",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "bradan-lane-studio",
+  "chip": "rp2040",
+  "ids": {
+    "circuitpython": [
+      "bradanlanestudio_explorer_rp2040"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/bradanlanestudio_explorer_rp2040/",
+      "source": "circuitpython:bradanlanestudio_explorer_rp2040"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:bradanlanestudio_explorer_rp2040",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "GP0",
+          "IR_TX"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "GP1",
+          "IR_RX"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "GP2",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "GP3",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "GP4",
+          "LED"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "GP5",
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "GP6",
+          "SPEAKER"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "GP7",
+          "SPEAKER_EN"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "GP8",
+          "DISPLAY_EN"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "GP9",
+          "SPI_BUSY"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "GP10",
+          "SPI_RESET"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "GP11",
+          "SPI_DC"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "GP12",
+          "SPI_MISO"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "GP13",
+          "SPI_CS"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "GP14",
+          "SPI_SCK"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "GP15",
+          "SPI_MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "GP16",
+          "I2S_DATA"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "GP17",
+          "I2S_BCK"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "GP18",
+          "I2S_LRCK"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "GP19",
+          "TOUCH1"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "GP20",
+          "TOUCH2"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "GP21",
+          "TOUCH3"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "GP22",
+          "TOUCH4"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "GP23",
+          "TOUCH5"
+        ]
+      },
+      {
+        "pin": "GPIO24",
+        "names": [
+          "GP24",
+          "TOUCH6"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "GP25",
+          "TOUCH7"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "GP26",
+          "TOUCH8"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "GP27",
+          "TOUCH9"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "GP28"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "GP29"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:bradanlanestudio_explorer_rp2040",
+      "label": "CircuitPython board definition (bradanlanestudio_explorer_rp2040)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/bradanlanestudio_explorer_rp2040.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:bradanlanestudio_explorer_rp2040",
+      "label": "CircuitPython pin definitions (bradanlanestudio_explorer_rp2040)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/bradanlanestudio_explorer_rp2040/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

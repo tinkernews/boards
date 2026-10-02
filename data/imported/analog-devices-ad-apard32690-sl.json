@@ -1,0 +1,724 @@
+{
+  "slug": "analog-devices-ad-apard32690-sl",
+  "name": "AD-APARD32690-SL",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "analog-devices",
+  "ids": {
+    "zephyr": [
+      "apard32690"
+    ],
+    "circuitpython": [
+      "apard32690"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MAX32690",
+      "source": "zephyr:apard32690"
+    },
+    "ram": {
+      "value": "128 KB",
+      "source": "zephyr:apard32690"
+    },
+    "flash": {
+      "value": "3 MB",
+      "source": "zephyr:apard32690"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/adi/apard32690/doc/index.html",
+      "source": "zephyr:apard32690"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/apard32690/",
+      "source": "circuitpython:apard32690"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:apard32690",
+    "list": [
+      {
+        "pin": "P0_00",
+        "names": [
+          "P0_0"
+        ]
+      },
+      {
+        "pin": "P0_01",
+        "names": [
+          "P0_1"
+        ]
+      },
+      {
+        "pin": "P0_02",
+        "names": [
+          "P0_2"
+        ]
+      },
+      {
+        "pin": "P0_03",
+        "names": [
+          "P0_3"
+        ]
+      },
+      {
+        "pin": "P0_04",
+        "names": [
+          "P0_4"
+        ]
+      },
+      {
+        "pin": "P0_05",
+        "names": [
+          "P0_5"
+        ]
+      },
+      {
+        "pin": "P0_06",
+        "names": [
+          "P0_6"
+        ]
+      },
+      {
+        "pin": "P0_07",
+        "names": [
+          "P0_7"
+        ]
+      },
+      {
+        "pin": "P0_08",
+        "names": [
+          "P0_8"
+        ]
+      },
+      {
+        "pin": "P0_09",
+        "names": [
+          "P0_9"
+        ]
+      },
+      {
+        "pin": "P0_10",
+        "names": [
+          "P0_10"
+        ]
+      },
+      {
+        "pin": "P0_11",
+        "names": [
+          "P0_11",
+          "LED1"
+        ]
+      },
+      {
+        "pin": "P0_12",
+        "names": [
+          "P0_12",
+          "LED2"
+        ]
+      },
+      {
+        "pin": "P0_13",
+        "names": [
+          "P0_13"
+        ]
+      },
+      {
+        "pin": "P0_14",
+        "names": [
+          "P0_14"
+        ]
+      },
+      {
+        "pin": "P0_15",
+        "names": [
+          "P0_15"
+        ]
+      },
+      {
+        "pin": "P0_16",
+        "names": [
+          "P0_16"
+        ]
+      },
+      {
+        "pin": "P0_17",
+        "names": [
+          "P0_17"
+        ]
+      },
+      {
+        "pin": "P0_18",
+        "names": [
+          "P0_18"
+        ]
+      },
+      {
+        "pin": "P0_19",
+        "names": [
+          "P0_19"
+        ]
+      },
+      {
+        "pin": "P0_20",
+        "names": [
+          "P0_20"
+        ]
+      },
+      {
+        "pin": "P0_21",
+        "names": [
+          "P0_21"
+        ]
+      },
+      {
+        "pin": "P0_22",
+        "names": [
+          "P0_22"
+        ]
+      },
+      {
+        "pin": "P0_23",
+        "names": [
+          "P0_23"
+        ]
+      },
+      {
+        "pin": "P0_24",
+        "names": [
+          "P0_24"
+        ]
+      },
+      {
+        "pin": "P0_25",
+        "names": [
+          "P0_25"
+        ]
+      },
+      {
+        "pin": "P0_26",
+        "names": [
+          "P0_26"
+        ]
+      },
+      {
+        "pin": "P0_27",
+        "names": [
+          "P0_27"
+        ]
+      },
+      {
+        "pin": "P0_28",
+        "names": [
+          "P0_28"
+        ]
+      },
+      {
+        "pin": "P0_29",
+        "names": [
+          "P0_29"
+        ]
+      },
+      {
+        "pin": "P0_30",
+        "names": [
+          "P0_30"
+        ]
+      },
+      {
+        "pin": "P0_31",
+        "names": [
+          "P0_31"
+        ]
+      },
+      {
+        "pin": "P1_00",
+        "names": [
+          "P1_0"
+        ]
+      },
+      {
+        "pin": "P1_01",
+        "names": [
+          "P1_1"
+        ]
+      },
+      {
+        "pin": "P1_02",
+        "names": [
+          "P1_2"
+        ]
+      },
+      {
+        "pin": "P1_03",
+        "names": [
+          "P1_3"
+        ]
+      },
+      {
+        "pin": "P1_04",
+        "names": [
+          "P1_4"
+        ]
+      },
+      {
+        "pin": "P1_05",
+        "names": [
+          "P1_5"
+        ]
+      },
+      {
+        "pin": "P1_06",
+        "names": [
+          "P1_6"
+        ]
+      },
+      {
+        "pin": "P1_07",
+        "names": [
+          "P1_7"
+        ]
+      },
+      {
+        "pin": "P1_08",
+        "names": [
+          "P1_8"
+        ]
+      },
+      {
+        "pin": "P1_09",
+        "names": [
+          "P1_9"
+        ]
+      },
+      {
+        "pin": "P1_10",
+        "names": [
+          "P1_10"
+        ]
+      },
+      {
+        "pin": "P1_11",
+        "names": [
+          "P1_11"
+        ]
+      },
+      {
+        "pin": "P1_12",
+        "names": [
+          "P1_12"
+        ]
+      },
+      {
+        "pin": "P1_13",
+        "names": [
+          "P1_13"
+        ]
+      },
+      {
+        "pin": "P1_14",
+        "names": [
+          "P1_14"
+        ]
+      },
+      {
+        "pin": "P1_15",
+        "names": [
+          "P1_15"
+        ]
+      },
+      {
+        "pin": "P1_16",
+        "names": [
+          "P1_16"
+        ]
+      },
+      {
+        "pin": "P1_17",
+        "names": [
+          "P1_17"
+        ]
+      },
+      {
+        "pin": "P1_18",
+        "names": [
+          "P1_18"
+        ]
+      },
+      {
+        "pin": "P1_19",
+        "names": [
+          "P1_19"
+        ]
+      },
+      {
+        "pin": "P1_20",
+        "names": [
+          "P1_20"
+        ]
+      },
+      {
+        "pin": "P1_21",
+        "names": [
+          "P1_21"
+        ]
+      },
+      {
+        "pin": "P1_22",
+        "names": [
+          "P1_22"
+        ]
+      },
+      {
+        "pin": "P1_23",
+        "names": [
+          "P1_23"
+        ]
+      },
+      {
+        "pin": "P1_24",
+        "names": [
+          "P1_24"
+        ]
+      },
+      {
+        "pin": "P1_25",
+        "names": [
+          "P1_25"
+        ]
+      },
+      {
+        "pin": "P1_26",
+        "names": [
+          "P1_26"
+        ]
+      },
+      {
+        "pin": "P1_27",
+        "names": [
+          "P1_27",
+          "S2"
+        ]
+      },
+      {
+        "pin": "P1_28",
+        "names": [
+          "P1_28"
+        ]
+      },
+      {
+        "pin": "P1_29",
+        "names": [
+          "P1_29"
+        ]
+      },
+      {
+        "pin": "P1_30",
+        "names": [
+          "P1_30"
+        ]
+      },
+      {
+        "pin": "P1_31",
+        "names": [
+          "P1_31"
+        ]
+      },
+      {
+        "pin": "P2_00",
+        "names": [
+          "P2_0"
+        ]
+      },
+      {
+        "pin": "P2_01",
+        "names": [
+          "P2_1",
+          "LED0"
+        ]
+      },
+      {
+        "pin": "P2_02",
+        "names": [
+          "P2_2"
+        ]
+      },
+      {
+        "pin": "P2_03",
+        "names": [
+          "P2_3"
+        ]
+      },
+      {
+        "pin": "P2_04",
+        "names": [
+          "P2_4"
+        ]
+      },
+      {
+        "pin": "P2_05",
+        "names": [
+          "P2_5"
+        ]
+      },
+      {
+        "pin": "P2_06",
+        "names": [
+          "P2_6"
+        ]
+      },
+      {
+        "pin": "P2_07",
+        "names": [
+          "P2_7"
+        ]
+      },
+      {
+        "pin": "P2_08",
+        "names": [
+          "P2_8"
+        ]
+      },
+      {
+        "pin": "P2_09",
+        "names": [
+          "P2_9"
+        ]
+      },
+      {
+        "pin": "P2_10",
+        "names": [
+          "P2_10"
+        ]
+      },
+      {
+        "pin": "P2_11",
+        "names": [
+          "P2_11"
+        ]
+      },
+      {
+        "pin": "P2_12",
+        "names": [
+          "P2_12"
+        ]
+      },
+      {
+        "pin": "P2_13",
+        "names": [
+          "P2_13"
+        ]
+      },
+      {
+        "pin": "P2_14",
+        "names": [
+          "P2_14"
+        ]
+      },
+      {
+        "pin": "P2_15",
+        "names": [
+          "P2_15"
+        ]
+      },
+      {
+        "pin": "P2_16",
+        "names": [
+          "P2_16"
+        ]
+      },
+      {
+        "pin": "P2_17",
+        "names": [
+          "P2_17"
+        ]
+      },
+      {
+        "pin": "P2_18",
+        "names": [
+          "P2_18"
+        ]
+      },
+      {
+        "pin": "P2_19",
+        "names": [
+          "P2_19"
+        ]
+      },
+      {
+        "pin": "P2_20",
+        "names": [
+          "P2_20"
+        ]
+      },
+      {
+        "pin": "P2_21",
+        "names": [
+          "P2_21"
+        ]
+      },
+      {
+        "pin": "P2_22",
+        "names": [
+          "P2_22"
+        ]
+      },
+      {
+        "pin": "P2_23",
+        "names": [
+          "P2_23"
+        ]
+      },
+      {
+        "pin": "P2_24",
+        "names": [
+          "P2_24"
+        ]
+      },
+      {
+        "pin": "P2_25",
+        "names": [
+          "P2_25"
+        ]
+      },
+      {
+        "pin": "P2_26",
+        "names": [
+          "P2_26"
+        ]
+      },
+      {
+        "pin": "P2_27",
+        "names": [
+          "P2_27"
+        ]
+      },
+      {
+        "pin": "P2_28",
+        "names": [
+          "P2_28"
+        ]
+      },
+      {
+        "pin": "P2_29",
+        "names": [
+          "P2_29"
+        ]
+      },
+      {
+        "pin": "P2_30",
+        "names": [
+          "P2_30"
+        ]
+      },
+      {
+        "pin": "P2_31",
+        "names": [
+          "P2_31"
+        ]
+      },
+      {
+        "pin": "P3_00",
+        "names": [
+          "P3_0"
+        ]
+      },
+      {
+        "pin": "P3_01",
+        "names": [
+          "P3_1"
+        ]
+      },
+      {
+        "pin": "P3_02",
+        "names": [
+          "P3_2"
+        ]
+      },
+      {
+        "pin": "P3_03",
+        "names": [
+          "P3_3"
+        ]
+      },
+      {
+        "pin": "P3_04",
+        "names": [
+          "P3_4"
+        ]
+      },
+      {
+        "pin": "P3_05",
+        "names": [
+          "P3_5"
+        ]
+      },
+      {
+        "pin": "P3_06",
+        "names": [
+          "P3_6"
+        ]
+      },
+      {
+        "pin": "P3_07",
+        "names": [
+          "P3_7"
+        ]
+      },
+      {
+        "pin": "P3_08",
+        "names": [
+          "P3_8"
+        ]
+      },
+      {
+        "pin": "P3_09",
+        "names": [
+          "P3_9"
+        ]
+      },
+      {
+        "pin": "P4_00",
+        "names": [
+          "P4_0"
+        ]
+      },
+      {
+        "pin": "P4_01",
+        "names": [
+          "P4_1"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "zephyr:apard32690",
+      "label": "Zephyr board definition (apard32690)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/adi/apard32690/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "circuitpython:apard32690",
+      "label": "CircuitPython board definition (apard32690)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/apard32690.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:apard32690",
+      "label": "CircuitPython pin definitions (apard32690)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/analog/boards/apard32690/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

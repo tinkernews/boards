@@ -1,0 +1,37 @@
+{
+  "slug": "adafruit-feather-esp32s3",
+  "name": "Adafruit Feather ESP32S3",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "esp32-s3",
+  "ids": {
+    "zephyr": [
+      "adafruit_feather_esp32s3"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-S3",
+      "source": "zephyr:adafruit_feather_esp32s3"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/adafruit/feather_esp32s3/doc/index.html",
+      "source": "zephyr:adafruit_feather_esp32s3"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:adafruit_feather_esp32s3",
+      "label": "Zephyr board definition (adafruit_feather_esp32s3)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/adafruit/feather_esp32s3/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

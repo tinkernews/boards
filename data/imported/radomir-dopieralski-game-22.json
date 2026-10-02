@@ -1,0 +1,139 @@
+{
+  "slug": "radomir-dopieralski-game-22",
+  "name": "µGame 22",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "radomir-dopieralski",
+  "chip": "rp2040",
+  "ids": {
+    "circuitpython": [
+      "ugame22"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/ugame22/",
+      "source": "circuitpython:ugame22"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:ugame22",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "BUTTON_Z"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "TFT_RST"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "TFT_SCK"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "TFT_MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "TFT_DC"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "TFT_CS"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "BUTTON_X"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "BUTTON_DOWN"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "BUTTON_O"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "BUTTON_RIGHT"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "BUTTON_UP"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "BUTTON_LEFT"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "GAIN"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "I2S_DIN"
+        ]
+      },
+      {
+        "pin": "GPIO24",
+        "names": [
+          "I2S_BCLK"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "I2S_LRCLK"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:ugame22",
+      "label": "CircuitPython board definition (ugame22)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/ugame22.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:ugame22",
+      "label": "CircuitPython pin definitions (ugame22)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/ugame22/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "intel-fpga-niosv-m",
+  "name": "INTEL FPGA niosv_m",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "intel",
+  "ids": {
+    "zephyr": [
+      "niosv_m"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "NIOSV_M",
+      "source": "zephyr:niosv_m"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:niosv_m"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/intel/niosv_m/doc/index.html",
+      "source": "zephyr:niosv_m"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:niosv_m",
+      "label": "Zephyr board definition (niosv_m)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/intel/niosv_m/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

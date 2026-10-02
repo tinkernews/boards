@@ -1,0 +1,234 @@
+{
+  "slug": "seeed-studio-xiao-esp32c6",
+  "name": "Seeed Studio XIAO ESP32C6",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "seeed",
+  "chip": "esp32-c6",
+  "aliases": [
+    "XIAO ESP32C6"
+  ],
+  "ids": {
+    "platformio": [
+      "seeed_xiao_esp32c6"
+    ],
+    "zephyr": [
+      "xiao_esp32c6"
+    ],
+    "circuitpython": [
+      "seeed_xiao_esp32c6"
+    ],
+    "micropython": [
+      "SEEED_XIAO_ESP32C6"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-C6",
+      "source": "platformio:seeed_xiao_esp32c6"
+    },
+    "clock": {
+      "value": "160 MHz",
+      "source": "platformio:seeed_xiao_esp32c6"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:seeed_xiao_esp32c6"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Seeed Studio XIAO ESP32C6 product page",
+      "url": "https://wiki.seeedstudio.com/XIAO_ESP32C6_Getting_Started/"
+    },
+    {
+      "kind": "product",
+      "label": "Seeed Studio XIAO ESP32C6 product page",
+      "url": "https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32C6-p-5884.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/seeed_xiao_esp32c6.html",
+      "source": "platformio:seeed_xiao_esp32c6"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/seeed/xiao_esp32c6/doc/index.html",
+      "source": "zephyr:xiao_esp32c6"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/SEEED_XIAO_ESP32C6/",
+      "source": "micropython:seeed_xiao_esp32c6"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/seeed_xiao_esp32c6/",
+      "source": "circuitpython:seeed_xiao_esp32c6"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:seeed_xiao_esp32c6",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "D0",
+          "A0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "D1",
+          "A1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "D2",
+          "A2"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "A4",
+          "MTMS",
+          "LP_UART_RXD"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "A5",
+          "MTDI",
+          "LP_UART_TXD"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "A6",
+          "MTCK",
+          "LP_I2C_SDA"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "MTDO",
+          "LP_I2C_SCL"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "LED",
+          "LED_INVERTED"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "D6",
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "D7",
+          "RX"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "D10",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "D8",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "D9",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "D3"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "D4",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "D5",
+          "SCL"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "platformio:seeed_xiao_esp32c6",
+      "label": "PlatformIO board definition (seeed_xiao_esp32c6)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/seeed_xiao_esp32c6.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    },
+    {
+      "id": "zephyr:xiao_esp32c6",
+      "label": "Zephyr board definition (xiao_esp32c6)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/seeed/xiao_esp32c6/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "circuitpython:seeed_xiao_esp32c6",
+      "label": "CircuitPython board definition (seeed_xiao_esp32c6)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/seeed_xiao_esp32c6.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "micropython:seeed_xiao_esp32c6",
+      "label": "MicroPython board definition (SEEED_XIAO_ESP32C6)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/esp32/boards/SEEED_XIAO_ESP32C6/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    },
+    {
+      "id": "circuitpython-pins:seeed_xiao_esp32c6",
+      "label": "CircuitPython pin definitions (seeed_xiao_esp32c6)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/seeed_xiao_esp32c6/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

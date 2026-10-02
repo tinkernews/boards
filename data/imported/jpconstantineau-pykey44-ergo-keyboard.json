@@ -1,0 +1,151 @@
+{
+  "slug": "jpconstantineau-pykey44-ergo-keyboard",
+  "name": "PyKey44 Ergo Keyboard",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "jpconstantineau",
+  "chip": "rp2040",
+  "ids": {
+    "circuitpython": [
+      "jpconstantineau_pykey44"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/jpconstantineau_pykey44/",
+      "source": "circuitpython:jpconstantineau_pykey44"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:jpconstantineau_pykey44",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "COL1"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "COL2"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "COL3"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "COL4"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "COL5"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "COL6"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "COL7"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "COL8"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "COL9"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "COL10"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "COL11"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "ROW1"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "ROW2"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "ROW3"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "ROW4"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "SPEAKER"
+        ]
+      },
+      {
+        "pin": "GPIO24",
+        "names": [
+          "LED"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "NEOPIXEL"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:jpconstantineau_pykey44",
+      "label": "CircuitPython board definition (jpconstantineau_pykey44)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/jpconstantineau_pykey44.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:jpconstantineau_pykey44",
+      "label": "CircuitPython pin definitions (jpconstantineau_pykey44)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/jpconstantineau_pykey44/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

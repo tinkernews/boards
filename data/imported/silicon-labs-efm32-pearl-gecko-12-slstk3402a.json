@@ -1,0 +1,44 @@
+{
+  "slug": "silicon-labs-efm32-pearl-gecko-12-slstk3402a",
+  "name": "EFM32 Pearl Gecko 12 (SLSTK3402A)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "silicon-labs",
+  "ids": {
+    "zephyr": [
+      "slstk3402a"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "EFM32PG12B500F1024GL125",
+      "source": "zephyr:slstk3402a"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:slstk3402a"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:slstk3402a"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/silabs/starter_kits/slstk3402a/doc/index.html",
+      "source": "zephyr:slstk3402a"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:slstk3402a",
+      "label": "Zephyr board definition (slstk3402a)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/silabs/starter_kits/slstk3402a/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,104 @@
+{
+  "slug": "tinycircuits-thumby",
+  "name": "Thumby",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "tinycircuits",
+  "chip": "rp2040",
+  "ids": {
+    "circuitpython": [
+      "tinycircuits_thumby"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/tinycircuits_thumby/",
+      "source": "circuitpython:tinycircuits_thumby"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:tinycircuits_thumby",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "EXT_TX"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "EXT",
+          "EXT_PU"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "BUTTON_LEFT"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "BUTTON_UP"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "BUTTON_RIGHT"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "BUTTON_DOWN"
+        ]
+      },
+      {
+        "pin": "GPIO24",
+        "names": [
+          "BUTTON_1"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "VBUS_SENSE"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "BUTTON_2"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "SPEAKER"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:tinycircuits_thumby",
+      "label": "CircuitPython board definition (tinycircuits_thumby)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/tinycircuits_thumby.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:tinycircuits_thumby",
+      "label": "CircuitPython pin definitions (tinycircuits_thumby)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/tinycircuits_thumby/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

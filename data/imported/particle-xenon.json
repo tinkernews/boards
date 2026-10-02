@@ -1,0 +1,323 @@
+{
+  "slug": "particle-xenon",
+  "name": "Particle Xenon",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "particle",
+  "chip": "nrf52840",
+  "aliases": [
+    "Xenon"
+  ],
+  "ids": {
+    "platformio": [
+      "particle_xenon"
+    ],
+    "zephyr": [
+      "particle_xenon"
+    ],
+    "circuitpython": [
+      "particle_xenon"
+    ],
+    "micropython": [
+      "PARTICLE_XENON"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52840",
+      "source": "platformio:particle_xenon"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:particle_xenon"
+    },
+    "clock": {
+      "value": "64 MHz",
+      "source": "platformio:particle_xenon"
+    },
+    "upload_limits": {
+      "value": "796 KB flash, 243 KB RAM",
+      "source": "platformio:particle_xenon"
+    },
+    "ram": {
+      "value": "512 KB",
+      "source": "zephyr:particle_xenon"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:particle_xenon"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Particle Xenon product page",
+      "url": "https://docs.particle.io/xenon"
+    },
+    {
+      "kind": "product",
+      "label": "Particle Xenon product page",
+      "url": "https://docs.particle.io/xenon/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/nordicnrf52/particle_xenon.html",
+      "source": "platformio:particle_xenon"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/particle/xenon/doc/index.html",
+      "source": "zephyr:particle_xenon"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/PARTICLE_XENON/",
+      "source": "micropython:particle_xenon"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/particle_xenon/",
+      "source": "circuitpython:particle_xenon"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:particle_xenon",
+    "list": [
+      {
+        "pin": "P0_03",
+        "names": [
+          "A0"
+        ]
+      },
+      {
+        "pin": "P0_04",
+        "names": [
+          "A1"
+        ]
+      },
+      {
+        "pin": "P0_05",
+        "names": [
+          "VOLTAGE_MONITOR",
+          "BATTERY"
+        ]
+      },
+      {
+        "pin": "P0_06",
+        "names": [
+          "D9",
+          "TX"
+        ]
+      },
+      {
+        "pin": "P0_08",
+        "names": [
+          "D10",
+          "RX"
+        ]
+      },
+      {
+        "pin": "P0_09",
+        "names": [
+          "NFC1"
+        ]
+      },
+      {
+        "pin": "P0_10",
+        "names": [
+          "NFC2"
+        ]
+      },
+      {
+        "pin": "P0_11",
+        "names": [
+          "MODE"
+        ]
+      },
+      {
+        "pin": "P0_13",
+        "names": [
+          "RGB_LED_RED"
+        ]
+      },
+      {
+        "pin": "P0_14",
+        "names": [
+          "RGB_LED_GREEN"
+        ]
+      },
+      {
+        "pin": "P0_15",
+        "names": [
+          "RGB_LED_BLUE"
+        ]
+      },
+      {
+        "pin": "P0_24",
+        "names": [
+          "ANTENNA_PCB"
+        ]
+      },
+      {
+        "pin": "P0_25",
+        "names": [
+          "ANTENNA_EXTERNAL"
+        ]
+      },
+      {
+        "pin": "P0_26",
+        "names": [
+          "D0",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "P0_27",
+        "names": [
+          "D1",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "P0_28",
+        "names": [
+          "A2"
+        ]
+      },
+      {
+        "pin": "P0_29",
+        "names": [
+          "A3"
+        ]
+      },
+      {
+        "pin": "P0_30",
+        "names": [
+          "A4"
+        ]
+      },
+      {
+        "pin": "P0_31",
+        "names": [
+          "A5"
+        ]
+      },
+      {
+        "pin": "P1_01",
+        "names": [
+          "D2"
+        ]
+      },
+      {
+        "pin": "P1_02",
+        "names": [
+          "D3"
+        ]
+      },
+      {
+        "pin": "P1_03",
+        "names": [
+          "D8"
+        ]
+      },
+      {
+        "pin": "P1_08",
+        "names": [
+          "D4"
+        ]
+      },
+      {
+        "pin": "P1_09",
+        "names": [
+          "CHARGE_STATUS"
+        ]
+      },
+      {
+        "pin": "P1_10",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "P1_11",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "P1_12",
+        "names": [
+          "D7",
+          "BLUE_LED",
+          "LED"
+        ]
+      },
+      {
+        "pin": "P1_13",
+        "names": [
+          "D12",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "P1_14",
+        "names": [
+          "D11",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "P1_15",
+        "names": [
+          "D13",
+          "SCK"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "platformio:particle_xenon",
+      "label": "PlatformIO board definition (particle_xenon)",
+      "url": "https://github.com/platformio/platform-nordicnrf52/blob/278176a7f7ffe2d001eb93eafa271c83b38222e4/boards/particle_xenon.json",
+      "kind": "import",
+      "revision": "278176a7f7ffe2d001eb93eafa271c83b38222e4"
+    },
+    {
+      "id": "zephyr:particle_xenon",
+      "label": "Zephyr board definition (particle_xenon)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/particle/xenon/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "circuitpython:particle_xenon",
+      "label": "CircuitPython board definition (particle_xenon)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/particle_xenon.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "micropython:particle_xenon",
+      "label": "MicroPython board definition (PARTICLE_XENON)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/nrf/boards/PARTICLE_XENON/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    },
+    {
+      "id": "circuitpython-pins:particle_xenon",
+      "label": "CircuitPython pin definitions (particle_xenon)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/nordic/boards/particle_xenon/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

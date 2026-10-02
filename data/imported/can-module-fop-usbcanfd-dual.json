@@ -1,0 +1,44 @@
+{
+  "slug": "can-module-fop-usbcanfd-dual",
+  "name": "USBCANFD DUAL",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "can-module-fop",
+  "ids": {
+    "zephyr": [
+      "usbcanfd_dual"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32G473XX",
+      "source": "zephyr:usbcanfd_dual"
+    },
+    "ram": {
+      "value": "128 KB",
+      "source": "zephyr:usbcanfd_dual"
+    },
+    "flash": {
+      "value": "128 KB",
+      "source": "zephyr:usbcanfd_dual"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/canmodule/usbcanfd_dual/doc/index.html",
+      "source": "zephyr:usbcanfd_dual"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:usbcanfd_dual",
+      "label": "Zephyr board definition (usbcanfd_dual)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/canmodule/usbcanfd_dual/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

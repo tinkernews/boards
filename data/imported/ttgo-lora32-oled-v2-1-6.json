@@ -1,0 +1,59 @@
+{
+  "slug": "ttgo-lora32-oled-v2-1-6",
+  "name": "TTGO LoRa32-OLED v2.1.6",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "lilygo",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "ttgo-lora32-v21"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:ttgo-lora32-v21"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:ttgo-lora32-v21"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:ttgo-lora32-v21"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "TTGO LoRa32-OLED v2.1.6 product page",
+      "url": "https://github.com/LilyGO/TTGO-LoRa32-V2.1"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/ttgo-lora32-v21.html",
+      "source": "platformio:ttgo-lora32-v21"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/ttgo-lora32-v21.html",
+      "source": "platformio:ttgo-lora32-v21"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:ttgo-lora32-v21",
+      "label": "PlatformIO board definition (ttgo-lora32-v21)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/ttgo-lora32-v21.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

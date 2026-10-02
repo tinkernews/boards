@@ -1,0 +1,44 @@
+{
+  "slug": "sipeed-longan-nano",
+  "name": "Longan Nano",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sipeed",
+  "ids": {
+    "zephyr": [
+      "longan_nano"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "GD32VF103",
+      "source": "zephyr:longan_nano"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:longan_nano"
+    },
+    "flash": {
+      "value": "128 KB",
+      "source": "zephyr:longan_nano"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/sipeed/longan_nano/doc/index.html",
+      "source": "zephyr:longan_nano"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:longan_nano",
+      "label": "Zephyr board definition (longan_nano)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/sipeed/longan_nano/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

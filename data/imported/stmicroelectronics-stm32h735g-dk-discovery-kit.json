@@ -1,0 +1,47 @@
+{
+  "slug": "stmicroelectronics-stm32h735g-dk-discovery-kit",
+  "name": "STM32H735G-DK Discovery kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "platformio": [
+      "disco_h735ig"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32H735IGK6",
+      "source": "platformio:disco_h735ig"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M7",
+      "source": "platformio:disco_h735ig"
+    },
+    "clock": {
+      "value": "550 MHz",
+      "source": "platformio:disco_h735ig"
+    },
+    "upload_limits": {
+      "value": "1 MB flash, 432 KB RAM",
+      "source": "platformio:disco_h735ig"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "STM32H735G-DK Discovery kit product page",
+      "url": "https://www.st.com/en/evaluation-tools/stm32h735g-dk.html"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:disco_h735ig",
+      "label": "PlatformIO board definition (disco_h735ig)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/disco_h735ig.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

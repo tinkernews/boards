@@ -1,0 +1,32 @@
+{
+  "slug": "sovol-sv08",
+  "name": "Sovol SV08",
+  "tier": "imported",
+  "kind": "sbc",
+  "maker": "sovol",
+  "released": "2024",
+  "ids": {
+    "armbian": [
+      "sovol-sv08"
+    ]
+  },
+  "software": [
+    {
+      "platform": "armbian",
+      "status": "community",
+      "note": "Community-maintained in Armbian.",
+      "url": "https://github.com/armbian/build/blob/main/config/boards/sovol-sv08.csc",
+      "source": "armbian:sovol-sv08"
+    }
+  ],
+  "sources": [
+    {
+      "id": "armbian:sovol-sv08",
+      "label": "Armbian board configuration (sovol-sv08)",
+      "url": "https://github.com/armbian/build/blob/da85daa05bd260d04dac50315d7317207fd998b3/config/boards/sovol-sv08.csc",
+      "kind": "import",
+      "revision": "da85daa05bd260d04dac50315d7317207fd998b3"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

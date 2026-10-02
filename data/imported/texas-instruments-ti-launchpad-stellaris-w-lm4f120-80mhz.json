@@ -1,0 +1,56 @@
+{
+  "slug": "texas-instruments-ti-launchpad-stellaris-w-lm4f120-80mhz",
+  "name": "TI LaunchPad (Stellaris) w/ lm4f120 (80MHz)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "texas-instruments",
+  "ids": {
+    "platformio": [
+      "lplm4f120h5qr"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "LPLM4F120H5QR",
+      "source": "platformio:lplm4f120h5qr"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:lplm4f120h5qr"
+    },
+    "clock": {
+      "value": "80 MHz",
+      "source": "platformio:lplm4f120h5qr"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:lplm4f120h5qr"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "TI LaunchPad (Stellaris) w/ lm4f120 (80MHz) product page",
+      "url": "http://www.ti.com/tool/ek-lm4f120xl"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/titiva/lplm4f120h5qr.html",
+      "source": "platformio:lplm4f120h5qr"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:lplm4f120h5qr",
+      "label": "PlatformIO board definition (lplm4f120h5qr)",
+      "url": "https://github.com/platformio/platform-titiva/blob/c9aed53f74280d4dbc7907f837dc65823be57592/boards/lplm4f120h5qr.json",
+      "kind": "import",
+      "revision": "c9aed53f74280d4dbc7907f837dc65823be57592"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

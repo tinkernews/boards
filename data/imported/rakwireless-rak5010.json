@@ -1,0 +1,45 @@
+{
+  "slug": "rakwireless-rak5010",
+  "name": "RAK5010",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "rakwireless",
+  "chip": "nrf52840",
+  "ids": {
+    "zephyr": [
+      "rak5010"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52840",
+      "source": "zephyr:rak5010"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:rak5010"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:rak5010"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/rakwireless/rak5010/doc/index.html",
+      "source": "zephyr:rak5010"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:rak5010",
+      "label": "Zephyr board definition (rak5010)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/rakwireless/rak5010/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

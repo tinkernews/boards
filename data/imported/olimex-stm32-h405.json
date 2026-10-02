@@ -1,0 +1,45 @@
+{
+  "slug": "olimex-stm32-h405",
+  "name": "OLIMEX-STM32-H405",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "olimex",
+  "chip": "stm32f405",
+  "ids": {
+    "zephyr": [
+      "olimex_stm32_h405"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F405",
+      "source": "zephyr:olimex_stm32_h405"
+    },
+    "ram": {
+      "value": "128 KB",
+      "source": "zephyr:olimex_stm32_h405"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:olimex_stm32_h405"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/olimex/stm32_h405/doc/index.html",
+      "source": "zephyr:olimex_stm32_h405"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:olimex_stm32_h405",
+      "label": "Zephyr board definition (olimex_stm32_h405)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/olimex/stm32_h405/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

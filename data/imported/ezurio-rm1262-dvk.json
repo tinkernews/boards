@@ -1,0 +1,44 @@
+{
+  "slug": "ezurio-rm1262-dvk",
+  "name": "RM1262 DVK",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "ezurio",
+  "ids": {
+    "zephyr": [
+      "rm126x_dvk_rm1262"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "EFR32BG22C224F512IM40",
+      "source": "zephyr:rm126x_dvk_rm1262"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:rm126x_dvk_rm1262"
+    },
+    "flash": {
+      "value": "224 KB",
+      "source": "zephyr:rm126x_dvk_rm1262"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/ezurio/rm126x_dvk/doc/index.html",
+      "source": "zephyr:rm126x_dvk_rm1262"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:rm126x_dvk_rm1262",
+      "label": "Zephyr board definition (rm126x_dvk_rm1262)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/ezurio/rm126x_dvk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

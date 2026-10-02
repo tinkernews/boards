@@ -1,0 +1,92 @@
+{
+  "slug": "arduino-due",
+  "name": "Arduino Due",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "chip": "atsam3x8e",
+  "aliases": [
+    "Arduino Due (Programming Port)"
+  ],
+  "ids": {
+    "platformio": [
+      "due",
+      "dueUSB"
+    ],
+    "zephyr": [
+      "arduino_due"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAM3X8E",
+      "source": "platformio:due"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M3",
+      "source": "platformio:due"
+    },
+    "clock": {
+      "value": "84 MHz",
+      "source": "platformio:due"
+    },
+    "upload_limits": {
+      "value": "512 KB flash, 96 KB RAM",
+      "source": "platformio:due"
+    },
+    "ram": {
+      "value": "96 KB",
+      "source": "zephyr:arduino_due"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:arduino_due"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Arduino Due product page",
+      "url": "https://www.arduino.cc/en/Main/ArduinoBoardDue"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelsam/due.html",
+      "source": "platformio:due"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/arduino/due/doc/index.html",
+      "source": "zephyr:arduino_due"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:due",
+      "label": "PlatformIO board definition (due)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/due.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    },
+    {
+      "id": "platformio:dueusb",
+      "label": "PlatformIO board definition (dueUSB)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/dueUSB.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    },
+    {
+      "id": "zephyr:arduino_due",
+      "label": "Zephyr board definition (arduino_due)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/arduino/due/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

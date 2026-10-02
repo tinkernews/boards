@@ -1,0 +1,53 @@
+{
+  "slug": "adafruit-feather-328p",
+  "name": "Adafruit Feather 328P",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "atmega328p",
+  "ids": {
+    "platformio": [
+      "feather328p"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega328P",
+      "source": "platformio:feather328p"
+    },
+    "clock": {
+      "value": "8 MHz",
+      "source": "platformio:feather328p"
+    },
+    "upload_limits": {
+      "value": "31.5 KB flash, 2 KB RAM",
+      "source": "platformio:feather328p"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Adafruit Feather 328P product page",
+      "url": "https://www.adafruit.com/product/3458"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/feather328p.html",
+      "source": "platformio:feather328p"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:feather328p",
+      "label": "PlatformIO board definition (feather328p)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/feather328p.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

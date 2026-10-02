@@ -1,0 +1,52 @@
+{
+  "slug": "element14-chipkit-pi",
+  "name": "Element14 chipKIT Pi",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "element14-a-premier-farnell-company",
+  "ids": {
+    "platformio": [
+      "chipkit_pi"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "32MX250F128B",
+      "source": "platformio:chipkit_pi"
+    },
+    "clock": {
+      "value": "40 MHz",
+      "source": "platformio:chipkit_pi"
+    },
+    "upload_limits": {
+      "value": "120 KB flash, 32 KB RAM",
+      "source": "platformio:chipkit_pi"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Element14 chipKIT Pi product page",
+      "url": "http://www.element14.com/community/community/knode/dev_platforms_kits/element14_dev_kits/microchip-chipkit/chipkit_pi"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/microchippic32/chipkit_pi.html",
+      "source": "platformio:chipkit_pi"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:chipkit_pi",
+      "label": "PlatformIO board definition (chipkit_pi)",
+      "url": "https://github.com/platformio/platform-microchippic32/blob/f6e89308da11cfe35d7534696bf01abf3f442461/boards/chipkit_pi.json",
+      "kind": "import",
+      "revision": "f6e89308da11cfe35d7534696bf01abf3f442461"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

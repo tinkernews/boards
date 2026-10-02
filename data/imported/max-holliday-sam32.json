@@ -1,0 +1,310 @@
+{
+  "slug": "max-holliday-sam32",
+  "name": "SAM32",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "max-holliday",
+  "chip": "atsamd51j19",
+  "ids": {
+    "circuitpython": [
+      "sam32"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/sam32/",
+      "source": "circuitpython:sam32"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:sam32",
+    "list": [
+      {
+        "pin": "PA02",
+        "names": [
+          "DAC0"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "xSDCS"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "DAC1"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "BATTERY"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "D16"
+        ]
+      },
+      {
+        "pin": "PA08",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PA09",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "D19"
+        ]
+      },
+      {
+        "pin": "PA11",
+        "names": [
+          "D20"
+        ]
+      },
+      {
+        "pin": "PA12",
+        "names": [
+          "TX1"
+        ]
+      },
+      {
+        "pin": "PA13",
+        "names": [
+          "RX1"
+        ]
+      },
+      {
+        "pin": "PA14",
+        "names": [
+          "D31"
+        ]
+      },
+      {
+        "pin": "PA15",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "PA16",
+        "names": [
+          "D35"
+        ]
+      },
+      {
+        "pin": "PA17",
+        "names": [
+          "D36"
+        ]
+      },
+      {
+        "pin": "PA18",
+        "names": [
+          "D37"
+        ]
+      },
+      {
+        "pin": "PA19",
+        "names": [
+          "D38"
+        ]
+      },
+      {
+        "pin": "PA20",
+        "names": [
+          "D41"
+        ]
+      },
+      {
+        "pin": "PA21",
+        "names": [
+          "D42"
+        ]
+      },
+      {
+        "pin": "PA22",
+        "names": [
+          "D43"
+        ]
+      },
+      {
+        "pin": "PA23",
+        "names": [
+          "D44"
+        ]
+      },
+      {
+        "pin": "PA27",
+        "names": [
+          "LED"
+        ]
+      },
+      {
+        "pin": "PB00",
+        "names": [
+          "D61"
+        ]
+      },
+      {
+        "pin": "PB01",
+        "names": [
+          "IO13",
+          "TCK"
+        ]
+      },
+      {
+        "pin": "PB02",
+        "names": [
+          "IO12",
+          "TDI"
+        ]
+      },
+      {
+        "pin": "PB03",
+        "names": [
+          "IO14",
+          "TMS"
+        ]
+      },
+      {
+        "pin": "PB04",
+        "names": [
+          "A6"
+        ]
+      },
+      {
+        "pin": "PB05",
+        "names": [
+          "A7"
+        ]
+      },
+      {
+        "pin": "PB06",
+        "names": [
+          "A8"
+        ]
+      },
+      {
+        "pin": "PB07",
+        "names": [
+          "A9"
+        ]
+      },
+      {
+        "pin": "PB08",
+        "names": [
+          "IO39"
+        ]
+      },
+      {
+        "pin": "PB09",
+        "names": [
+          "IO36"
+        ]
+      },
+      {
+        "pin": "PB10",
+        "names": [
+          "DTR"
+        ]
+      },
+      {
+        "pin": "PB11",
+        "names": [
+          "RTS"
+        ]
+      },
+      {
+        "pin": "PB12",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "PB13",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "PB14",
+        "names": [
+          "MISO"
+        ]
+      },
+      {
+        "pin": "PB15",
+        "names": [
+          "ESP_CS"
+        ]
+      },
+      {
+        "pin": "PB16",
+        "names": [
+          "TX2"
+        ]
+      },
+      {
+        "pin": "PB17",
+        "names": [
+          "RX2"
+        ]
+      },
+      {
+        "pin": "PB22",
+        "names": [
+          "D49"
+        ]
+      },
+      {
+        "pin": "PB23",
+        "names": [
+          "D50"
+        ]
+      },
+      {
+        "pin": "PB30",
+        "names": [
+          "D59"
+        ]
+      },
+      {
+        "pin": "PB31",
+        "names": [
+          "D60"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:sam32",
+      "label": "CircuitPython board definition (sam32)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/sam32.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:sam32",
+      "label": "CircuitPython pin definitions (sam32)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/sam32/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

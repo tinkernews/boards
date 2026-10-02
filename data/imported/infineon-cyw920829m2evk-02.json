@@ -1,0 +1,44 @@
+{
+  "slug": "infineon-cyw920829m2evk-02",
+  "name": "CYW920829M2EVK-02",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "infineon",
+  "ids": {
+    "zephyr": [
+      "cyw920829m2evk_02"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "CYW20829B0LKML",
+      "source": "zephyr:cyw920829m2evk_02"
+    },
+    "ram": {
+      "value": "1024 KB",
+      "source": "zephyr:cyw920829m2evk_02"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:cyw920829m2evk_02"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/infineon/cyw920829m2evk_02/doc/index.html",
+      "source": "zephyr:cyw920829m2evk_02"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:cyw920829m2evk_02",
+      "label": "Zephyr board definition (cyw920829m2evk_02)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/infineon/cyw920829m2evk_02/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

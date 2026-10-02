@@ -1,0 +1,44 @@
+{
+  "slug": "nxp-semiconductors-frdm-mcxw23",
+  "name": "FRDM-MCXW23",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "ids": {
+    "zephyr": [
+      "frdm_mcxw23"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MCXW236",
+      "source": "zephyr:frdm_mcxw23"
+    },
+    "ram": {
+      "value": "128 KB",
+      "source": "zephyr:frdm_mcxw23"
+    },
+    "flash": {
+      "value": "1016 KB",
+      "source": "zephyr:frdm_mcxw23"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nxp/frdm_mcxw23/doc/index.html",
+      "source": "zephyr:frdm_mcxw23"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:frdm_mcxw23",
+      "label": "Zephyr board definition (frdm_mcxw23)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nxp/frdm_mcxw23/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

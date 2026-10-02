@@ -1,0 +1,53 @@
+{
+  "slug": "espressif-generic-esp8266-esp-07s",
+  "name": "Espressif Generic ESP8266 ESP-07S",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "espressif",
+  "chip": "esp8266",
+  "ids": {
+    "platformio": [
+      "esp07s"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP8266EX",
+      "source": "platformio:esp07s"
+    },
+    "clock": {
+      "value": "80 MHz",
+      "source": "platformio:esp07s"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 80 KB RAM",
+      "source": "platformio:esp07s"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Espressif Generic ESP8266 ESP-07S product page",
+      "url": "http://www.esp8266.com/wiki/doku.php?id=esp8266-module-family#esp-07"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif8266/esp07s.html",
+      "source": "platformio:esp07s"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:esp07s",
+      "label": "PlatformIO board definition (esp07s)",
+      "url": "https://github.com/platformio/platform-espressif8266/blob/668c2a2e4f16bd83b6c812f1ee0605c62b3ce2d2/boards/esp07s.json",
+      "kind": "import",
+      "revision": "668c2a2e4f16bd83b6c812f1ee0605c62b3ce2d2"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

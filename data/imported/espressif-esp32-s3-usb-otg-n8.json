@@ -1,0 +1,203 @@
+{
+  "slug": "espressif-esp32-s3-usb-otg-n8",
+  "name": "ESP32-S3-USB-OTG-N8",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "espressif",
+  "chip": "esp32-s3",
+  "ids": {
+    "circuitpython": [
+      "espressif_esp32s3_usb_otg_n8"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/espressif_esp32s3_usb_otg_n8/",
+      "source": "circuitpython:espressif_esp32s3_usb_otg_n8"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:espressif_esp32s3_usb_otg_n8",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "BUTTON_OK"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "HOST_VOL"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "BAT_VOL",
+          "BATTERY",
+          "VOLTAGE_MONITOR"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "LCD_DC"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "LCD_EN"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "LCD_SCLK"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "LCD_SDA"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "LCD_RST"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "LCD_BL"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "BUTTON_UP"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "BUTTON_DW",
+          "BUTTON_DOWN"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "DEV_VBUS_EN"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "BOOST_EN"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "BUTTON_MENU"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "LED_GREEN",
+          "LED"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "LED_YELLOW"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "LIMIT_EN"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "USB_SEL"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "OVER_CURRENT"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "SD_D2"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "SD_D3"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "SD_SCK"
+        ]
+      },
+      {
+        "pin": "GPIO37",
+        "names": [
+          "SD_D0"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "SD_D1"
+        ]
+      },
+      {
+        "pin": "GPIO43",
+        "names": [
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO44",
+        "names": [
+          "RX"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:espressif_esp32s3_usb_otg_n8",
+      "label": "CircuitPython board definition (espressif_esp32s3_usb_otg_n8)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/espressif_esp32s3_usb_otg_n8.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:espressif_esp32s3_usb_otg_n8",
+      "label": "CircuitPython pin definitions (espressif_esp32s3_usb_otg_n8)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/espressif_esp32s3_usb_otg_n8/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

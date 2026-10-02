@@ -1,0 +1,59 @@
+{
+  "slug": "widora-air",
+  "name": "Widora AIR",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "widora",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "widora-air"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:widora-air"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:widora-air"
+    },
+    "upload_limits": {
+      "value": "16 MB flash, 320 KB RAM",
+      "source": "platformio:widora-air"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Widora AIR product page",
+      "url": "http://widora.io"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/widora-air.html",
+      "source": "platformio:widora-air"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/widora-air.html",
+      "source": "platformio:widora-air"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:widora-air",
+      "label": "PlatformIO board definition (widora-air)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/widora-air.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

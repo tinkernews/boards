@@ -1,0 +1,44 @@
+{
+  "slug": "renesas-starter-kit-for-rx140",
+  "name": "Renesas Starter Kit for RX140",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "renesas",
+  "ids": {
+    "zephyr": [
+      "rsk_rx140"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "R5F51406BDFN",
+      "source": "zephyr:rsk_rx140"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:rsk_rx140"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:rsk_rx140"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/renesas/rsk_rx140/doc/index.html",
+      "source": "zephyr:rsk_rx140"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:rsk_rx140",
+      "label": "Zephyr board definition (rsk_rx140)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/renesas/rsk_rx140/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

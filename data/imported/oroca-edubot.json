@@ -1,0 +1,59 @@
+{
+  "slug": "oroca-edubot",
+  "name": "OROCA EduBot",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "oroca",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "oroca_edubot"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:oroca_edubot"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:oroca_edubot"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:oroca_edubot"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "OROCA EduBot product page",
+      "url": "https://github.com/oroca/OROCA-EduBot"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/oroca_edubot.html",
+      "source": "platformio:oroca_edubot"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/oroca_edubot.html",
+      "source": "platformio:oroca_edubot"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:oroca_edubot",
+      "label": "PlatformIO board definition (oroca_edubot)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/oroca_edubot.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

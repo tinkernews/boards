@@ -1,0 +1,52 @@
+{
+  "slug": "weact-studio-black-pill-v1-2",
+  "name": "Black Pill V1.2",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "weact",
+  "ids": {
+    "zephyr": [
+      "blackpill_f401cc",
+      "blackpill_f401ce",
+      "blackpill_f411ce"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F401XC",
+      "source": "zephyr:blackpill_f401cc"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/weact/blackpill_f401cc/doc/index.html",
+      "source": "zephyr:blackpill_f401cc"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:blackpill_f401cc",
+      "label": "Zephyr board definition (blackpill_f401cc)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/weact/blackpill_f401cc/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "zephyr:blackpill_f401ce",
+      "label": "Zephyr board definition (blackpill_f401ce)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/weact/blackpill_f401ce/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "zephyr:blackpill_f411ce",
+      "label": "Zephyr board definition (blackpill_f411ce)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/weact/blackpill_f411ce/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

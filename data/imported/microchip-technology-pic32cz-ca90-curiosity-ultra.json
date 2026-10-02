@@ -1,0 +1,44 @@
+{
+  "slug": "microchip-technology-pic32cz-ca90-curiosity-ultra",
+  "name": "PIC32CZ CA90 Curiosity Ultra",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "ids": {
+    "zephyr": [
+      "pic32cz_ca90_cult"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "PIC32CZ8110CA90208",
+      "source": "zephyr:pic32cz_ca90_cult"
+    },
+    "ram": {
+      "value": "1024 KB",
+      "source": "zephyr:pic32cz_ca90_cult"
+    },
+    "flash": {
+      "value": "8 MB",
+      "source": "zephyr:pic32cz_ca90_cult"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/microchip/pic32c/pic32cz_ca90_cult/doc/index.html",
+      "source": "zephyr:pic32cz_ca90_cult"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:pic32cz_ca90_cult",
+      "label": "Zephyr board definition (pic32cz_ca90_cult)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/microchip/pic32c/pic32cz_ca90_cult/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

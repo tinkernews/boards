@@ -1,0 +1,44 @@
+{
+  "slug": "microchip-technology-sam4s-xplained",
+  "name": "SAM4S Xplained",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "ids": {
+    "zephyr": [
+      "sam4s_xplained"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "SAM4S16C",
+      "source": "zephyr:sam4s_xplained"
+    },
+    "ram": {
+      "value": "128 KB",
+      "source": "zephyr:sam4s_xplained"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:sam4s_xplained"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/atmel/sam/sam4s_xplained/doc/index.html",
+      "source": "zephyr:sam4s_xplained"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:sam4s_xplained",
+      "label": "Zephyr board definition (sam4s_xplained)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/atmel/sam/sam4s_xplained/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

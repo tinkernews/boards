@@ -1,0 +1,53 @@
+{
+  "slug": "adafruit-trinket-3v-8mhz",
+  "name": "Adafruit Trinket 3V/8MHz",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "attiny85",
+  "ids": {
+    "platformio": [
+      "trinket3"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATtiny85",
+      "source": "platformio:trinket3"
+    },
+    "clock": {
+      "value": "8 MHz",
+      "source": "platformio:trinket3"
+    },
+    "upload_limits": {
+      "value": "8 KB flash, 0.5 KB RAM",
+      "source": "platformio:trinket3"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Adafruit Trinket 3V/8MHz product page",
+      "url": "http://www.adafruit.com/products/1500"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/trinket3.html",
+      "source": "platformio:trinket3"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:trinket3",
+      "label": "PlatformIO board definition (trinket3)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/trinket3.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

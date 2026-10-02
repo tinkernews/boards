@@ -1,0 +1,235 @@
+{
+  "slug": "adafruit-memento-python-programmable-diy-camera",
+  "name": "MEMENTO - Python Programmable DIY Camera",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "esp32-s3",
+  "ids": {
+    "circuitpython": [
+      "adafruit_esp32s3_camera"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/adafruit_esp32s3_camera/",
+      "source": "circuitpython:adafruit_esp32s3_camera"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:adafruit_esp32s3_camera",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "BUTTON"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "MIC"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "IRQ"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "BATTERY_MONITOR"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "CAMERA_VSYNC"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "CAMERA_HREF"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "CAMERA_DATA9"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "CAMERA_XCLK"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "CAMERA_DATA8"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "CAMERA_DATA7"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "CAMERA_PCLK"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "CAMERA_DATA6"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "CAMERA_DATA2"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "CAMERA_DATA5"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "CAMERA_DATA3"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "CAMERA_DATA4"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "A0"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "A1"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "CAMERA_PWDN"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "GPIO37",
+        "names": [
+          "MISO"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "TFT_RESET"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "TFT_CS"
+        ]
+      },
+      {
+        "pin": "GPIO40",
+        "names": [
+          "TFT_DC"
+        ]
+      },
+      {
+        "pin": "GPIO45",
+        "names": [
+          "TFT_BACKLIGHT"
+        ]
+      },
+      {
+        "pin": "GPIO46",
+        "names": [
+          "SPEAKER"
+        ]
+      },
+      {
+        "pin": "GPIO47",
+        "names": [
+          "CAMERA_RESET"
+        ]
+      },
+      {
+        "pin": "GPIO48",
+        "names": [
+          "CARD_CS"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:adafruit_esp32s3_camera",
+      "label": "CircuitPython board definition (adafruit_esp32s3_camera)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/adafruit_esp32s3_camera.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:adafruit_esp32s3_camera",
+      "label": "CircuitPython pin definitions (adafruit_esp32s3_camera)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/adafruit_esp32s3_camera/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

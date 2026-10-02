@@ -1,0 +1,250 @@
+{
+  "slug": "adafruit-feather-m4-can",
+  "name": "Adafruit Feather M4 CAN",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "aliases": [
+    "Feather M4 CAN"
+  ],
+  "ids": {
+    "platformio": [
+      "adafruit_feather_m4_can"
+    ],
+    "circuitpython": [
+      "feather_m4_can"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "SAME51J19A",
+      "source": "platformio:adafruit_feather_m4_can"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:adafruit_feather_m4_can"
+    },
+    "clock": {
+      "value": "120 MHz",
+      "source": "platformio:adafruit_feather_m4_can"
+    },
+    "upload_limits": {
+      "value": "496 KB flash, 192 KB RAM",
+      "source": "platformio:adafruit_feather_m4_can"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Adafruit Feather M4 CAN product page",
+      "url": "https://www.adafruit.com/product/4759"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelsam/adafruit_feather_m4_can.html",
+      "source": "platformio:adafruit_feather_m4_can"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/feather_m4_can/",
+      "source": "circuitpython:feather_m4_can"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:feather_m4_can",
+    "list": [
+      {
+        "pin": "PA02",
+        "names": [
+          "A0",
+          "D14"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "A4",
+          "D18"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "A1",
+          "D15"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "A5",
+          "D19"
+        ]
+      },
+      {
+        "pin": "PA12",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PA13",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "PA14",
+        "names": [
+          "D4"
+        ]
+      },
+      {
+        "pin": "PA16",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "PA17",
+        "names": [
+          "SCK",
+          "D25"
+        ]
+      },
+      {
+        "pin": "PA18",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "PA19",
+        "names": [
+          "D9"
+        ]
+      },
+      {
+        "pin": "PA20",
+        "names": [
+          "D10"
+        ]
+      },
+      {
+        "pin": "PA21",
+        "names": [
+          "D11"
+        ]
+      },
+      {
+        "pin": "PA22",
+        "names": [
+          "D12"
+        ]
+      },
+      {
+        "pin": "PA23",
+        "names": [
+          "LED",
+          "D13"
+        ]
+      },
+      {
+        "pin": "PB00",
+        "names": [
+          "VOLTAGE_MONITOR",
+          "BATTERY"
+        ]
+      },
+      {
+        "pin": "PB02",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "PB03",
+        "names": [
+          "NEOPIXEL_POWER"
+        ]
+      },
+      {
+        "pin": "PB08",
+        "names": [
+          "A2",
+          "D16"
+        ]
+      },
+      {
+        "pin": "PB09",
+        "names": [
+          "A3",
+          "D17"
+        ]
+      },
+      {
+        "pin": "PB13",
+        "names": [
+          "BOOST_ENABLE"
+        ]
+      },
+      {
+        "pin": "PB16",
+        "names": [
+          "D1",
+          "TX"
+        ]
+      },
+      {
+        "pin": "PB17",
+        "names": [
+          "D0",
+          "RX"
+        ]
+      },
+      {
+        "pin": "PB22",
+        "names": [
+          "MISO",
+          "D23"
+        ]
+      },
+      {
+        "pin": "PB23",
+        "names": [
+          "MOSI",
+          "D24"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "platformio:adafruit_feather_m4_can",
+      "label": "PlatformIO board definition (adafruit_feather_m4_can)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/adafruit_feather_m4_can.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    },
+    {
+      "id": "circuitpython:feather_m4_can",
+      "label": "CircuitPython board definition (feather_m4_can)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/feather_m4_can.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:feather_m4_can",
+      "label": "CircuitPython pin definitions (feather_m4_can)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/feather_m4_can/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

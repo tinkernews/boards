@@ -1,0 +1,52 @@
+{
+  "slug": "dwengo-dwenguino",
+  "name": "Dwenguino",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "dwengo",
+  "ids": {
+    "platformio": [
+      "dwenguino"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "AT90USB646",
+      "source": "platformio:dwenguino"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:dwenguino"
+    },
+    "upload_limits": {
+      "value": "60 KB flash, 2 KB RAM",
+      "source": "platformio:dwenguino"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Dwenguino product page",
+      "url": "http://www.dwengo.org/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/dwenguino.html",
+      "source": "platformio:dwenguino"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:dwenguino",
+      "label": "PlatformIO board definition (dwenguino)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/dwenguino.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

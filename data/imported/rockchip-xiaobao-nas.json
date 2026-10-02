@@ -1,0 +1,32 @@
+{
+  "slug": "rockchip-xiaobao-nas",
+  "name": "xiaobao-nas",
+  "tier": "imported",
+  "kind": "sbc",
+  "maker": "rockchip",
+  "released": "2024",
+  "ids": {
+    "armbian": [
+      "xiaobao-nas"
+    ]
+  },
+  "software": [
+    {
+      "platform": "armbian",
+      "status": "community",
+      "note": "Community-maintained in Armbian.",
+      "url": "https://github.com/armbian/build/blob/main/config/boards/xiaobao-nas.csc",
+      "source": "armbian:xiaobao-nas"
+    }
+  ],
+  "sources": [
+    {
+      "id": "armbian:xiaobao-nas",
+      "label": "Armbian board configuration (xiaobao-nas)",
+      "url": "https://github.com/armbian/build/blob/da85daa05bd260d04dac50315d7317207fd998b3/config/boards/xiaobao-nas.csc",
+      "kind": "import",
+      "revision": "da85daa05bd260d04dac50315d7317207fd998b3"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

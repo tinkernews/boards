@@ -1,0 +1,59 @@
+{
+  "slug": "upesy-esp32-wrover-devkit",
+  "name": "uPesy ESP32 Wrover DevKit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "upesy",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "upesy_wrover"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:upesy_wrover"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:upesy_wrover"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:upesy_wrover"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "uPesy ESP32 Wrover DevKit product page",
+      "url": "https://www.upesy.fr/products/upesy-esp32-wrover-devkit-board"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/upesy_wrover.html",
+      "source": "platformio:upesy_wrover"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/upesy_wrover.html",
+      "source": "platformio:upesy_wrover"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:upesy_wrover",
+      "label": "PlatformIO board definition (upesy_wrover)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/upesy_wrover.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "rakwireless-rak11720",
+  "name": "RAK11720",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "rakwireless",
+  "ids": {
+    "zephyr": [
+      "rak11720"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "APOLLO3_BLUE",
+      "source": "zephyr:rak11720"
+    },
+    "ram": {
+      "value": "384 KB",
+      "source": "zephyr:rak11720"
+    },
+    "flash": {
+      "value": "976 KB",
+      "source": "zephyr:rak11720"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/rakwireless/rak11720/doc/index.html",
+      "source": "zephyr:rak11720"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:rak11720",
+      "label": "Zephyr board definition (rak11720)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/rakwireless/rak11720/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

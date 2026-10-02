@@ -1,0 +1,212 @@
+{
+  "slug": "makerdiary-m60-mechanical-keyboard",
+  "name": "M60 Mechanical Keyboard",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "makerdiary",
+  "chip": "nrf52840",
+  "ids": {
+    "circuitpython": [
+      "makerdiary_m60_keyboard"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/makerdiary_m60_keyboard/",
+      "source": "circuitpython:makerdiary_m60_keyboard"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:makerdiary_m60_keyboard",
+    "list": [
+      {
+        "pin": "P0_02",
+        "names": [
+          "VOLTAGE_MONITOR",
+          "BATTERY"
+        ]
+      },
+      {
+        "pin": "P0_03",
+        "names": [
+          "CHARGING"
+        ]
+      },
+      {
+        "pin": "P0_05",
+        "names": [
+          "R1"
+        ]
+      },
+      {
+        "pin": "P0_06",
+        "names": [
+          "R2"
+        ]
+      },
+      {
+        "pin": "P0_07",
+        "names": [
+          "R3"
+        ]
+      },
+      {
+        "pin": "P0_08",
+        "names": [
+          "R4"
+        ]
+      },
+      {
+        "pin": "P0_11",
+        "names": [
+          "R8"
+        ]
+      },
+      {
+        "pin": "P0_12",
+        "names": [
+          "R7"
+        ]
+      },
+      {
+        "pin": "P0_15",
+        "names": [
+          "RXD"
+        ]
+      },
+      {
+        "pin": "P0_16",
+        "names": [
+          "TXD"
+        ]
+      },
+      {
+        "pin": "P0_19",
+        "names": [
+          "C1"
+        ]
+      },
+      {
+        "pin": "P0_20",
+        "names": [
+          "C2"
+        ]
+      },
+      {
+        "pin": "P0_21",
+        "names": [
+          "C3"
+        ]
+      },
+      {
+        "pin": "P0_22",
+        "names": [
+          "C4"
+        ]
+      },
+      {
+        "pin": "P0_23",
+        "names": [
+          "C5"
+        ]
+      },
+      {
+        "pin": "P0_24",
+        "names": [
+          "C6"
+        ]
+      },
+      {
+        "pin": "P0_25",
+        "names": [
+          "C7"
+        ]
+      },
+      {
+        "pin": "P0_26",
+        "names": [
+          "C8"
+        ]
+      },
+      {
+        "pin": "P0_27",
+        "names": [
+          "BTN"
+        ]
+      },
+      {
+        "pin": "P0_28",
+        "names": [
+          "BATTERY_ENABLE"
+        ]
+      },
+      {
+        "pin": "P0_29",
+        "names": [
+          "LED_G"
+        ]
+      },
+      {
+        "pin": "P0_30",
+        "names": [
+          "LED_R"
+        ]
+      },
+      {
+        "pin": "P0_31",
+        "names": [
+          "LED_B"
+        ]
+      },
+      {
+        "pin": "P1_04",
+        "names": [
+          "RGB_POWER"
+        ]
+      },
+      {
+        "pin": "P1_05",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "P1_06",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "P1_08",
+        "names": [
+          "R6"
+        ]
+      },
+      {
+        "pin": "P1_09",
+        "names": [
+          "R5"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:makerdiary_m60_keyboard",
+      "label": "CircuitPython board definition (makerdiary_m60_keyboard)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/makerdiary_m60_keyboard.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:makerdiary_m60_keyboard",
+      "label": "CircuitPython pin definitions (makerdiary_m60_keyboard)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/nordic/boards/makerdiary_m60_keyboard/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

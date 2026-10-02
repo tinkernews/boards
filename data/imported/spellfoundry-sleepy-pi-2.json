@@ -1,0 +1,53 @@
+{
+  "slug": "spellfoundry-sleepy-pi-2",
+  "name": "SpellFoundry Sleepy Pi 2",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "spellfoundry",
+  "chip": "atmega328p",
+  "ids": {
+    "platformio": [
+      "sleepypi"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega328P",
+      "source": "platformio:sleepypi"
+    },
+    "clock": {
+      "value": "8 MHz",
+      "source": "platformio:sleepypi"
+    },
+    "upload_limits": {
+      "value": "30 KB flash, 2 KB RAM",
+      "source": "platformio:sleepypi"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "SpellFoundry Sleepy Pi 2 product page",
+      "url": "https://spellfoundry.com/product/sleepy-pi-2/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/sleepypi.html",
+      "source": "platformio:sleepypi"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:sleepypi",
+      "label": "PlatformIO board definition (sleepypi)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/sleepypi.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

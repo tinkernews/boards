@@ -1,0 +1,36 @@
+{
+  "slug": "sensry-io-ganymed-starter-kit-sk",
+  "name": "Ganymed Starter Kit (SK)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sensry-io",
+  "ids": {
+    "zephyr": [
+      "ganymed_sk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "SY120_GBM",
+      "source": "zephyr:ganymed_sk"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/sensry/ganymed_sk/doc/index.html",
+      "source": "zephyr:ganymed_sk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:ganymed_sk",
+      "label": "Zephyr board definition (ganymed_sk)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/sensry/ganymed_sk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

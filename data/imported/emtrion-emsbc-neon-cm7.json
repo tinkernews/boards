@@ -1,0 +1,44 @@
+{
+  "slug": "emtrion-emsbc-neon-cm7",
+  "name": "emSBC-NEON-CM7",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "emtrion",
+  "ids": {
+    "zephyr": [
+      "emsbc_neon_cm7"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F769XX",
+      "source": "zephyr:emsbc_neon_cm7"
+    },
+    "ram": {
+      "value": "384 KB",
+      "source": "zephyr:emsbc_neon_cm7"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:emsbc_neon_cm7"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/emtrion/emsbc_neon_cm7/doc/index.html",
+      "source": "zephyr:emsbc_neon_cm7"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:emsbc_neon_cm7",
+      "label": "Zephyr board definition (emsbc_neon_cm7)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/emtrion/emsbc_neon_cm7/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

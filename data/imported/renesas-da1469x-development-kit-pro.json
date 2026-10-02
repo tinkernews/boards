@@ -1,0 +1,40 @@
+{
+  "slug": "renesas-da1469x-development-kit-pro",
+  "name": "DA1469x Development Kit Pro",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "renesas",
+  "ids": {
+    "zephyr": [
+      "da1469x_dk_pro"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "DA14699",
+      "source": "zephyr:da1469x_dk_pro"
+    },
+    "ram": {
+      "value": "512 KB",
+      "source": "zephyr:da1469x_dk_pro"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/renesas/da1469x_dk_pro/doc/index.html",
+      "source": "zephyr:da1469x_dk_pro"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:da1469x_dk_pro",
+      "label": "Zephyr board definition (da1469x_dk_pro)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/renesas/da1469x_dk_pro/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

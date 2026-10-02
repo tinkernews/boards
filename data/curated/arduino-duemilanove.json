@@ -1,0 +1,122 @@
+{
+  "slug": "arduino-duemilanove",
+  "name": "Arduino Duemilanove",
+  "tier": "curated",
+  "kind": "mcu",
+  "maker": "arduino",
+  "family": "Arduino",
+  "chip": "atmega328p",
+  "released": "2009",
+  "status": "retired",
+  "summary": "The 2009 Arduino (“two thousand nine”) that added automatic power switching and, from 2009, the ATmega328 with twice the memory.",
+  "aliases": [
+    "Arduino Duemilanove",
+    "Arduino 2009"
+  ],
+  "ids": {
+    "platformio": [
+      "diecimilaatmega328"
+    ]
+  },
+  "review": {
+    "status": "draft"
+  },
+  "predecessor": "arduino-diecimila",
+  "successor": "arduino-uno",
+  "specs": {
+    "chip": {
+      "value": "Microchip (Atmel) ATmega328 (early boards: ATmega168)",
+      "source": "arduino-docs"
+    },
+    "cpu": {
+      "value": "8-bit AVR",
+      "source": "atmega328p"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "arduino-docs"
+    },
+    "ram": {
+      "value": "2 KB SRAM (1 KB on ATmega168 boards)",
+      "source": "arduino-docs"
+    },
+    "flash": {
+      "value": "32 KB (2 KB used by the bootloader)",
+      "source": "arduino-docs"
+    },
+    "eeprom": {
+      "value": "1 KB",
+      "source": "arduino-docs"
+    },
+    "gpio": {
+      "value": "14 digital I/O (6 PWM)",
+      "source": "arduino-docs"
+    },
+    "analog": {
+      "value": "6 analog inputs (10-bit)",
+      "source": "arduino-docs"
+    },
+    "io_voltage": {
+      "value": "5 V",
+      "source": "arduino-docs"
+    },
+    "input_voltage": {
+      "value": "7–12 V recommended via barrel jack, or 5 V via USB",
+      "source": "arduino-docs"
+    },
+    "usb": {
+      "value": "USB-B via FTDI FT232RL",
+      "source": "arduino-docs"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Arduino Duemilanove (retired), Arduino documentation",
+      "url": "https://docs.arduino.cc/retired/boards/arduino-duemilanove/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Supported by the AVR core as “Arduino Duemilanove or Diecimila”.",
+      "url": "https://docs.arduino.cc/software/ide/",
+      "source": "arduino-docs"
+    }
+  ],
+  "gotchas": [
+    {
+      "title": "5 V logic",
+      "text": "I/O is 5 V. Sensors and modules that run at 3.3 V (most modern ones) need level shifting on their inputs.",
+      "source": "arduino-docs"
+    }
+  ],
+  "commonsFile": "File:Arduino Duemilanove 2009b.jpg",
+  "editorial": {
+    "history": "Named for its year, the Duemilanove switched between USB and external power automatically and moved to the ATmega328 during its run, setting the memory sizes the Uno kept.",
+    "today": "Runs every Uno sketch; its FTDI USB chip is still well supported by every operating system.",
+    "source": "wikipedia"
+  },
+  "sources": [
+    {
+      "id": "arduino-docs",
+      "label": "Arduino Duemilanove, Arduino documentation (retired boards)",
+      "url": "https://docs.arduino.cc/retired/boards/arduino-duemilanove/",
+      "kind": "official"
+    },
+    {
+      "id": "atmega328p",
+      "label": "ATmega328P product page, Microchip",
+      "url": "https://www.microchip.com/en-us/product/ATmega328P",
+      "kind": "official"
+    },
+    {
+      "id": "wikipedia",
+      "label": "List of Arduino boards and compatible systems, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_Arduino_boards_and_compatible_systems",
+      "kind": "reference"
+    }
+  ],
+  "updatedAt": "2026-10-01T00:00:00.000Z"
+}

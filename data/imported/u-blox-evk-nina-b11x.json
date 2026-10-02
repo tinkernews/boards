@@ -1,0 +1,45 @@
+{
+  "slug": "u-blox-evk-nina-b11x",
+  "name": "EVK NINA-B11x",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "u-blox",
+  "chip": "nrf52832",
+  "ids": {
+    "zephyr": [
+      "ubx_evkninab1"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52832",
+      "source": "zephyr:ubx_evkninab1"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:ubx_evkninab1"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:ubx_evkninab1"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/u-blox/ubx_evkninab1/doc/index.html",
+      "source": "zephyr:ubx_evkninab1"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:ubx_evkninab1",
+      "label": "Zephyr board definition (ubx_evkninab1)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/u-blox/ubx_evkninab1/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

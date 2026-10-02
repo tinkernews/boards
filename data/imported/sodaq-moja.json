@@ -1,0 +1,53 @@
+{
+  "slug": "sodaq-moja",
+  "name": "SODAQ Moja",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sodaq",
+  "chip": "atmega328p",
+  "ids": {
+    "platformio": [
+      "sodaq_moja"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega328P",
+      "source": "platformio:sodaq_moja"
+    },
+    "clock": {
+      "value": "8 MHz",
+      "source": "platformio:sodaq_moja"
+    },
+    "upload_limits": {
+      "value": "31.5 KB flash, 2 KB RAM",
+      "source": "platformio:sodaq_moja"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "SODAQ Moja product page",
+      "url": "http://support.sodaq.com/sodaq-one/moja/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/sodaq_moja.html",
+      "source": "platformio:sodaq_moja"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:sodaq_moja",
+      "label": "PlatformIO board definition (sodaq_moja)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/sodaq_moja.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

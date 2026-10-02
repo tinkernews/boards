@@ -1,0 +1,337 @@
+{
+  "slug": "particle-argon",
+  "name": "Particle Argon",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "particle",
+  "chip": "nrf52840",
+  "aliases": [
+    "Argon"
+  ],
+  "ids": {
+    "platformio": [
+      "particle_argon"
+    ],
+    "zephyr": [
+      "particle_argon"
+    ],
+    "circuitpython": [
+      "particle_argon"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52840",
+      "source": "platformio:particle_argon"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:particle_argon"
+    },
+    "clock": {
+      "value": "64 MHz",
+      "source": "platformio:particle_argon"
+    },
+    "upload_limits": {
+      "value": "796 KB flash, 243 KB RAM",
+      "source": "platformio:particle_argon"
+    },
+    "ram": {
+      "value": "512 KB",
+      "source": "zephyr:particle_argon"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:particle_argon"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Particle Argon product page",
+      "url": "https://docs.particle.io/argon"
+    }
+  ],
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/particle/argon/doc/index.html",
+      "source": "zephyr:particle_argon"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/particle_argon/",
+      "source": "circuitpython:particle_argon"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:particle_argon",
+    "list": [
+      {
+        "pin": "P0_02",
+        "names": [
+          "ANTENNA_PCB"
+        ]
+      },
+      {
+        "pin": "P0_03",
+        "names": [
+          "A0"
+        ]
+      },
+      {
+        "pin": "P0_04",
+        "names": [
+          "A1"
+        ]
+      },
+      {
+        "pin": "P0_05",
+        "names": [
+          "VOLTAGE_MONITOR",
+          "BATTERY"
+        ]
+      },
+      {
+        "pin": "P0_06",
+        "names": [
+          "D9",
+          "TX"
+        ]
+      },
+      {
+        "pin": "P0_07",
+        "names": [
+          "ESP_HOST_WK"
+        ]
+      },
+      {
+        "pin": "P0_08",
+        "names": [
+          "D10",
+          "RX"
+        ]
+      },
+      {
+        "pin": "P0_09",
+        "names": [
+          "NFC1"
+        ]
+      },
+      {
+        "pin": "P0_10",
+        "names": [
+          "NFC2"
+        ]
+      },
+      {
+        "pin": "P0_11",
+        "names": [
+          "MODE"
+        ]
+      },
+      {
+        "pin": "P0_13",
+        "names": [
+          "RGB_LED_RED"
+        ]
+      },
+      {
+        "pin": "P0_14",
+        "names": [
+          "RGB_LED_GREEN"
+        ]
+      },
+      {
+        "pin": "P0_15",
+        "names": [
+          "RGB_LED_BLUE"
+        ]
+      },
+      {
+        "pin": "P0_16",
+        "names": [
+          "ESP_BOOT_MODE"
+        ]
+      },
+      {
+        "pin": "P0_24",
+        "names": [
+          "ESP_WIFI_EN"
+        ]
+      },
+      {
+        "pin": "P0_25",
+        "names": [
+          "ANTENNA_EXTERNAL"
+        ]
+      },
+      {
+        "pin": "P0_26",
+        "names": [
+          "D0",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "P0_27",
+        "names": [
+          "D1",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "P0_28",
+        "names": [
+          "A2"
+        ]
+      },
+      {
+        "pin": "P0_29",
+        "names": [
+          "A3"
+        ]
+      },
+      {
+        "pin": "P0_30",
+        "names": [
+          "A4"
+        ]
+      },
+      {
+        "pin": "P0_31",
+        "names": [
+          "A5"
+        ]
+      },
+      {
+        "pin": "P1_01",
+        "names": [
+          "D2"
+        ]
+      },
+      {
+        "pin": "P1_02",
+        "names": [
+          "D3"
+        ]
+      },
+      {
+        "pin": "P1_03",
+        "names": [
+          "D8"
+        ]
+      },
+      {
+        "pin": "P1_04",
+        "names": [
+          "ESP_TX"
+        ]
+      },
+      {
+        "pin": "P1_05",
+        "names": [
+          "ESP_RX"
+        ]
+      },
+      {
+        "pin": "P1_06",
+        "names": [
+          "ESP_RTS"
+        ]
+      },
+      {
+        "pin": "P1_07",
+        "names": [
+          "ESP_CTS"
+        ]
+      },
+      {
+        "pin": "P1_08",
+        "names": [
+          "D4"
+        ]
+      },
+      {
+        "pin": "P1_09",
+        "names": [
+          "CHARGE_STATUS"
+        ]
+      },
+      {
+        "pin": "P1_10",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "P1_11",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "P1_12",
+        "names": [
+          "D7",
+          "BLUE_LED",
+          "LED"
+        ]
+      },
+      {
+        "pin": "P1_13",
+        "names": [
+          "D12",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "P1_14",
+        "names": [
+          "D11",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "P1_15",
+        "names": [
+          "D13",
+          "SCK"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "platformio:particle_argon",
+      "label": "PlatformIO board definition (particle_argon)",
+      "url": "https://github.com/platformio/platform-nordicnrf52/blob/278176a7f7ffe2d001eb93eafa271c83b38222e4/boards/particle_argon.json",
+      "kind": "import",
+      "revision": "278176a7f7ffe2d001eb93eafa271c83b38222e4"
+    },
+    {
+      "id": "zephyr:particle_argon",
+      "label": "Zephyr board definition (particle_argon)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/particle/argon/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "circuitpython:particle_argon",
+      "label": "CircuitPython board definition (particle_argon)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/particle_argon.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:particle_argon",
+      "label": "CircuitPython pin definitions (particle_argon)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/nordic/boards/particle_argon/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

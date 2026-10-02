@@ -1,0 +1,59 @@
+{
+  "slug": "sg-o-airmon",
+  "name": "SG-O AirMon",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sg-o",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "sg-o_airMon"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:sg-o_airmon"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:sg-o_airmon"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:sg-o_airmon"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "SG-O AirMon product page",
+      "url": "https://github.com/SG-O/airMon"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/sg-o_airMon.html",
+      "source": "platformio:sg-o_airmon"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/sg-o_airMon.html",
+      "source": "platformio:sg-o_airmon"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:sg-o_airmon",
+      "label": "PlatformIO board definition (sg-o_airMon)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/sg-o_airMon.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T11:14:32.694Z"
+}

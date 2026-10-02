@@ -1,0 +1,44 @@
+{
+  "slug": "stmicroelectronics-nucleo-wb55rg",
+  "name": "Nucleo WB55RG",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "zephyr": [
+      "nucleo_wb55rg"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32WB55XX",
+      "source": "zephyr:nucleo_wb55rg"
+    },
+    "ram": {
+      "value": "192 KB",
+      "source": "zephyr:nucleo_wb55rg"
+    },
+    "flash": {
+      "value": "876 KB",
+      "source": "zephyr:nucleo_wb55rg"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/nucleo_wb55rg/doc/index.html",
+      "source": "zephyr:nucleo_wb55rg"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:nucleo_wb55rg",
+      "label": "Zephyr board definition (nucleo_wb55rg)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/nucleo_wb55rg/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "adafruit-feather-rp2040-rfm9x",
+  "name": "Feather RP2040 RFM9x",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "rp2040",
+  "ids": {
+    "circuitpython": [
+      "adafruit_feather_rp2040_rfm9x"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/adafruit_feather_rp2040_rfm9x/",
+      "source": "circuitpython:adafruit_feather_rp2040_rfm9x"
+    }
+  ],
+  "sources": [
+    {
+      "id": "circuitpython:adafruit_feather_rp2040_rfm9x",
+      "label": "CircuitPython board definition (adafruit_feather_rp2040_rfm9x)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/adafruit_feather_rp2040_rfm9x.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

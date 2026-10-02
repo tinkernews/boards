@@ -1,0 +1,40 @@
+{
+  "slug": "renesas-r-car-h3ulcb",
+  "name": "R-Car H3ULCB",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "renesas",
+  "ids": {
+    "zephyr": [
+      "rcar_h3ulcb"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "R8A77951",
+      "source": "zephyr:rcar_h3ulcb"
+    },
+    "ram": {
+      "value": "512 KB",
+      "source": "zephyr:rcar_h3ulcb"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/renesas/rcar_h3ulcb/doc/index.html",
+      "source": "zephyr:rcar_h3ulcb"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:rcar_h3ulcb",
+      "label": "Zephyr board definition (rcar_h3ulcb)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/renesas/rcar_h3ulcb/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

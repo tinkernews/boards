@@ -1,0 +1,44 @@
+{
+  "slug": "stmicroelectronics-stm32u5g9j-discovery-kit",
+  "name": "STM32U5G9J Discovery Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "zephyr": [
+      "stm32u5g9j_dk2"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32U5G9XX",
+      "source": "zephyr:stm32u5g9j_dk2"
+    },
+    "ram": {
+      "value": "3008 KB",
+      "source": "zephyr:stm32u5g9j_dk2"
+    },
+    "flash": {
+      "value": "4 MB",
+      "source": "zephyr:stm32u5g9j_dk2"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/stm32u5g9j_dk2/doc/index.html",
+      "source": "zephyr:stm32u5g9j_dk2"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:stm32u5g9j_dk2",
+      "label": "Zephyr board definition (stm32u5g9j_dk2)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/stm32u5g9j_dk2/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "schirmilabs-eduino-wifi",
+  "name": "Schirmilabs Eduino WiFi",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "schirmilabs",
+  "chip": "esp8266",
+  "ids": {
+    "platformio": [
+      "eduinowifi"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP8266EX",
+      "source": "platformio:eduinowifi"
+    },
+    "clock": {
+      "value": "80 MHz",
+      "source": "platformio:eduinowifi"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 80 KB RAM",
+      "source": "platformio:eduinowifi"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Schirmilabs Eduino WiFi product page",
+      "url": "https://github.com/schirmilabs/Eduino-WiFi"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif8266/eduinowifi.html",
+      "source": "platformio:eduinowifi"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:eduinowifi",
+      "label": "PlatformIO board definition (eduinowifi)",
+      "url": "https://github.com/platformio/platform-espressif8266/blob/668c2a2e4f16bd83b6c812f1ee0605c62b3ce2d2/boards/eduinowifi.json",
+      "kind": "import",
+      "revision": "668c2a2e4f16bd83b6c812f1ee0605c62b3ce2d2"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

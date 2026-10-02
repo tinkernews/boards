@@ -1,0 +1,44 @@
+{
+  "slug": "elan-em32f967",
+  "name": "ELAN EM32F967",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "elan-microelectronic",
+  "ids": {
+    "zephyr": [
+      "32f967_dv"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "EM32F967",
+      "source": "zephyr:32f967_dv"
+    },
+    "ram": {
+      "value": "272 KB",
+      "source": "zephyr:32f967_dv"
+    },
+    "flash": {
+      "value": "536 KB",
+      "source": "zephyr:32f967_dv"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/elan/32f967_dv/doc/index.html",
+      "source": "zephyr:32f967_dv"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:32f967_dv",
+      "label": "Zephyr board definition (32f967_dv)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/elan/32f967_dv/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "shenzhen-luckfox-pico-ultra",
+  "name": "Pico Ultra",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "shenzhen-luckfox",
+  "ids": {
+    "zephyr": [
+      "pico_ultra"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "RV1106",
+      "source": "zephyr:pico_ultra"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/luckfox/pico_ultra/doc/index.html",
+      "source": "zephyr:pico_ultra"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:pico_ultra",
+      "label": "Zephyr board definition (pico_ultra)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/luckfox/pico_ultra/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

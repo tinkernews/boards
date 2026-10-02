@@ -1,0 +1,168 @@
+{
+  "slug": "ngarage-feathersnow",
+  "name": "FeatherSnow",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "ngarage",
+  "chip": "atsamd21g18",
+  "ids": {
+    "circuitpython": [
+      "ndgarage_ndbit6",
+      "ndgarage_ndbit6_v2"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/ndgarage_ndbit6/",
+      "source": "circuitpython:ndgarage_ndbit6"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:ndgarage_ndbit6",
+    "list": [
+      {
+        "pin": "PA00",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "PA01",
+        "names": [
+          "D12"
+        ]
+      },
+      {
+        "pin": "PA02",
+        "names": [
+          "D18"
+        ]
+      },
+      {
+        "pin": "PA03",
+        "names": [
+          "D7"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "D13",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "D1",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "D8",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "D14"
+        ]
+      },
+      {
+        "pin": "PA08",
+        "names": [
+          "D2",
+          "TX",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PA09",
+        "names": [
+          "D9",
+          "RX",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "D15"
+        ]
+      },
+      {
+        "pin": "PA11",
+        "names": [
+          "D3"
+        ]
+      },
+      {
+        "pin": "PA14",
+        "names": [
+          "D16"
+        ]
+      },
+      {
+        "pin": "PA15",
+        "names": [
+          "D10"
+        ]
+      },
+      {
+        "pin": "PA22",
+        "names": [
+          "D4"
+        ]
+      },
+      {
+        "pin": "PA23",
+        "names": [
+          "D11",
+          "L",
+          "LED"
+        ]
+      },
+      {
+        "pin": "PA27",
+        "names": [
+          "D17"
+        ]
+      },
+      {
+        "pin": "PA28",
+        "names": [
+          "D5"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:ndgarage_ndbit6",
+      "label": "CircuitPython board definition (ndgarage_ndbit6)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/ndgarage_ndbit6.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython:ndgarage_ndbit6_v2",
+      "label": "CircuitPython board definition (ndgarage_ndbit6_v2)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/ndgarage_ndbit6_v2.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:ndgarage_ndbit6",
+      "label": "CircuitPython pin definitions (ndgarage_ndbit6)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/ndgarage_ndbit6/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

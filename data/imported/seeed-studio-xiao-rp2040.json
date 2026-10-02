@@ -1,0 +1,207 @@
+{
+  "slug": "seeed-studio-xiao-rp2040",
+  "name": "XIAO RP2040",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "seeed",
+  "chip": "rp2040",
+  "aliases": [
+    "Seeed Studio XIAO RP2040"
+  ],
+  "ids": {
+    "zephyr": [
+      "xiao_rp2040"
+    ],
+    "circuitpython": [
+      "seeeduino_xiao_rp2040"
+    ],
+    "micropython": [
+      "SEEED_XIAO_RP2040"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "RP2040",
+      "source": "zephyr:xiao_rp2040"
+    },
+    "ram": {
+      "value": "264 KB",
+      "source": "zephyr:xiao_rp2040"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:xiao_rp2040"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "XIAO RP2040 product page",
+      "url": "https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/seeed/xiao_rp2040/doc/index.html",
+      "source": "zephyr:xiao_rp2040"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/SEEED_XIAO_RP2040/",
+      "source": "micropython:seeed_xiao_rp2040"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/seeeduino_xiao_rp2040/",
+      "source": "circuitpython:seeeduino_xiao_rp2040"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:seeeduino_xiao_rp2040",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "TX",
+          "D6"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "RX",
+          "D7"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "SCK",
+          "D8"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "MOSI",
+          "D10"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "MISO",
+          "D9"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "SDA",
+          "D4"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "SCL",
+          "D5"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "NEOPIXEL_POWER"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "LED_GREEN"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "LED_RED"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "LED_BLUE",
+          "LED"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "A0",
+          "D0"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "A1",
+          "D1"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "A2",
+          "D2"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "A3",
+          "D3"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "zephyr:xiao_rp2040",
+      "label": "Zephyr board definition (xiao_rp2040)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/seeed/xiao_rp2040/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "circuitpython:seeeduino_xiao_rp2040",
+      "label": "CircuitPython board definition (seeeduino_xiao_rp2040)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/seeeduino_xiao_rp2040.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "micropython:seeed_xiao_rp2040",
+      "label": "MicroPython board definition (SEEED_XIAO_RP2040)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/rp2/boards/SEEED_XIAO_RP2040/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    },
+    {
+      "id": "circuitpython-pins:seeeduino_xiao_rp2040",
+      "label": "CircuitPython pin definitions (seeeduino_xiao_rp2040)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/seeeduino_xiao_rp2040/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

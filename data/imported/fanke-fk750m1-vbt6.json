@@ -1,0 +1,45 @@
+{
+  "slug": "fanke-fk750m1-vbt6",
+  "name": "FK750M1-VBT6",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "fanke",
+  "chip": "stm32h750",
+  "ids": {
+    "zephyr": [
+      "fk750m1_vbt6"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32H750",
+      "source": "zephyr:fk750m1_vbt6"
+    },
+    "ram": {
+      "value": "1024 KB",
+      "source": "zephyr:fk750m1_vbt6"
+    },
+    "flash": {
+      "value": "128 KB",
+      "source": "zephyr:fk750m1_vbt6"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/fanke/fk750m1_vbt6/doc/index.html",
+      "source": "zephyr:fk750m1_vbt6"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:fk750m1_vbt6",
+      "label": "Zephyr board definition (fk750m1_vbt6)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/fanke/fk750m1_vbt6/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

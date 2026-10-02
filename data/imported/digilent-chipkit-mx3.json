@@ -1,0 +1,52 @@
+{
+  "slug": "digilent-chipkit-mx3",
+  "name": "Digilent chipKIT MX3",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "digilent",
+  "ids": {
+    "platformio": [
+      "chipkit_mx3"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "32MX320F128H",
+      "source": "platformio:chipkit_mx3"
+    },
+    "clock": {
+      "value": "80 MHz",
+      "source": "platformio:chipkit_mx3"
+    },
+    "upload_limits": {
+      "value": "124 KB flash, 16 KB RAM",
+      "source": "platformio:chipkit_mx3"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Digilent chipKIT MX3 product page",
+      "url": "http://store.digilentinc.com/chipkit-mx3-microcontroller-board-with-pmod-headers/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/microchippic32/chipkit_mx3.html",
+      "source": "platformio:chipkit_mx3"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:chipkit_mx3",
+      "label": "PlatformIO board definition (chipkit_mx3)",
+      "url": "https://github.com/platformio/platform-microchippic32/blob/f6e89308da11cfe35d7534696bf01abf3f442461/boards/chipkit_mx3.json",
+      "kind": "import",
+      "revision": "f6e89308da11cfe35d7534696bf01abf3f442461"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

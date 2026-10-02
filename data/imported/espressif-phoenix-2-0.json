@@ -1,0 +1,53 @@
+{
+  "slug": "espressif-phoenix-2-0",
+  "name": "Phoenix 2.0",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "espressif",
+  "chip": "esp8266",
+  "ids": {
+    "platformio": [
+      "phoenix_v2"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP8266EX",
+      "source": "platformio:phoenix_v2"
+    },
+    "clock": {
+      "value": "80 MHz",
+      "source": "platformio:phoenix_v2"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 80 KB RAM",
+      "source": "platformio:phoenix_v2"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Phoenix 2.0 product page",
+      "url": "http://www.esp8266.com/wiki/doku.php?id=esp8266-module-family"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif8266/phoenix_v2.html",
+      "source": "platformio:phoenix_v2"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:phoenix_v2",
+      "label": "PlatformIO board definition (phoenix_v2)",
+      "url": "https://github.com/platformio/platform-espressif8266/blob/668c2a2e4f16bd83b6c812f1ee0605c62b3ce2d2/boards/phoenix_v2.json",
+      "kind": "import",
+      "revision": "668c2a2e4f16bd83b6c812f1ee0605c62b3ce2d2"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

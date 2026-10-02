@@ -1,0 +1,40 @@
+{
+  "slug": "ite-tech-it51xxx-series",
+  "name": "IT51XXX series",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "ite-tech",
+  "ids": {
+    "zephyr": [
+      "it51xxx_evb"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "IT51526AW",
+      "source": "zephyr:it51xxx_evb"
+    },
+    "ram": {
+      "value": "128 KB",
+      "source": "zephyr:it51xxx_evb"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/ite/it51xxx_evb/doc/index.html",
+      "source": "zephyr:it51xxx_evb"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:it51xxx_evb",
+      "label": "Zephyr board definition (it51xxx_evb)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/ite/it51xxx_evb/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

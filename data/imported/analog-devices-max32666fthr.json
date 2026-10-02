@@ -1,0 +1,44 @@
+{
+  "slug": "analog-devices-max32666fthr",
+  "name": "MAX32666FTHR",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "analog-devices",
+  "ids": {
+    "zephyr": [
+      "max32666fthr"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MAX32666",
+      "source": "zephyr:max32666fthr"
+    },
+    "ram": {
+      "value": "128 KB",
+      "source": "zephyr:max32666fthr"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:max32666fthr"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/adi/max32666fthr/doc/index.html",
+      "source": "zephyr:max32666fthr"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:max32666fthr",
+      "label": "Zephyr board definition (max32666fthr)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/adi/max32666fthr/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "espressif-esp-wrover-kit",
+  "name": "Espressif ESP-WROVER-KIT",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "espressif",
+  "chip": "esp32",
+  "aliases": [
+    "ESP-WROVER-KIT"
+  ],
+  "ids": {
+    "platformio": [
+      "esp-wrover-kit"
+    ],
+    "zephyr": [
+      "esp_wrover_kit"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:esp-wrover-kit"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:esp-wrover-kit"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:esp-wrover-kit"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Espressif ESP-WROVER-KIT product page",
+      "url": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32/esp-wrover-kit/index.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/esp-wrover-kit.html",
+      "source": "platformio:esp-wrover-kit"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/esp-wrover-kit.html",
+      "source": "platformio:esp-wrover-kit"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/espressif/esp_wrover_kit/doc/index.html",
+      "source": "zephyr:esp_wrover_kit"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:esp-wrover-kit",
+      "label": "PlatformIO board definition (esp-wrover-kit)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/esp-wrover-kit.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    },
+    {
+      "id": "zephyr:esp_wrover_kit",
+      "label": "Zephyr board definition (esp_wrover_kit)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/espressif/esp_wrover_kit/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

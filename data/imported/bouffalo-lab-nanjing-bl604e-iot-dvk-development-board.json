@@ -1,0 +1,40 @@
+{
+  "slug": "bouffalo-lab-nanjing-bl604e-iot-dvk-development-board",
+  "name": "BL604E IOT DVK development board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "bouffalo-lab-nanjing",
+  "ids": {
+    "zephyr": [
+      "bl604e_iot_dvk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "BL604E20Q2I",
+      "source": "zephyr:bl604e_iot_dvk"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:bl604e_iot_dvk"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/bflb/bl60x/bl604e_iot_dvk/doc/index.html",
+      "source": "zephyr:bl604e_iot_dvk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:bl604e_iot_dvk",
+      "label": "Zephyr board definition (bl604e_iot_dvk)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/bflb/bl60x/bl604e_iot_dvk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

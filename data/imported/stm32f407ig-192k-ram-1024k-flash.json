@@ -1,0 +1,56 @@
+{
+  "slug": "stm32f407ig-192k-ram-1024k-flash",
+  "name": "STM32F407IG (192k RAM. 1024k Flash)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "generic",
+  "ids": {
+    "platformio": [
+      "genericSTM32F407IGT6"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F407IGT6",
+      "source": "platformio:genericstm32f407igt6"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:genericstm32f407igt6"
+    },
+    "clock": {
+      "value": "168 MHz",
+      "source": "platformio:genericstm32f407igt6"
+    },
+    "upload_limits": {
+      "value": "1 MB flash, 128 KB RAM",
+      "source": "platformio:genericstm32f407igt6"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "STM32F407IG (192k RAM. 1024k Flash) product page",
+      "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32f407ig.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/genericSTM32F407IGT6.html",
+      "source": "platformio:genericstm32f407igt6"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:genericstm32f407igt6",
+      "label": "PlatformIO board definition (genericSTM32F407IGT6)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/genericSTM32F407IGT6.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

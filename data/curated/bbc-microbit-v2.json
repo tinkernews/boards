@@ -1,0 +1,98 @@
+{
+  "slug": "bbc-microbit-v2",
+  "name": "BBC micro:bit v2",
+  "tier": "curated",
+  "kind": "mcu",
+  "maker": "microbit",
+  "family": "BBC micro:bit",
+  "chip": "nrf52833",
+  "released": "2020-10",
+  "status": "current",
+  "summary": "The 2020 micro:bit with an nRF52833, eight times the RAM, a speaker, a microphone and a touch-sensitive logo.",
+  "aliases": [
+    "BBC micro:bit v2",
+    "micro:bit v2",
+    "micro:bit V2",
+    "microbit v2"
+  ],
+  "ids": {
+    "platformio": [
+      "bbcmicrobit_v2"
+    ],
+    "zephyr": [
+      "bbc_microbit_v2"
+    ],
+    "circuitpython": [
+      "microbit_v2"
+    ]
+  },
+  "review": {
+    "status": "draft"
+  },
+  "predecessor": "bbc-microbit-v1",
+  "specs": {
+    "chip": {
+      "value": "Nordic nRF52833",
+      "source": "microbit-hw"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4F",
+      "source": "microbit-hw"
+    },
+    "clock": {
+      "value": "64 MHz",
+      "source": "microbit-hw"
+    },
+    "ram": {
+      "value": "128 KB",
+      "source": "microbit-hw"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "microbit-hw"
+    },
+    "wireless": {
+      "value": "Bluetooth LE 5; 2.4 GHz micro:bit radio",
+      "source": "microbit-hw"
+    },
+    "usb": {
+      "value": "Micro-USB via an interface chip",
+      "source": "microbit-hw"
+    }
+  },
+  "docs": [
+    {
+      "kind": "guide",
+      "label": "micro:bit hardware, Micro:bit Educational Foundation",
+      "url": "https://tech.microbit.org/hardware/"
+    }
+  ],
+  "gotchas": [
+    {
+      "title": "Edge-connector pins are shared",
+      "text": "Several edge pins also drive the LED display and buttons; disable the display to use them as GPIO.",
+      "source": "microbit-hw"
+    }
+  ],
+  "commonsFile": "File:BBC micro bit v2.jpg",
+  "editorial": {
+    "history": "Released in October 2020, the v2 kept the same size and edge connector while adding sound, a microphone and far more memory.",
+    "today": "The standard classroom microcontroller in many countries, with MakeCode, Python and a large accessory ecosystem.",
+    "source": "microbit-hw"
+  },
+  "sources": [
+    {
+      "id": "microbit-hw",
+      "label": "micro:bit hardware, Micro:bit Educational Foundation",
+      "url": "https://tech.microbit.org/hardware/",
+      "kind": "official"
+    },
+    {
+      "id": "wikipedia",
+      "label": "Micro Bit, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Micro_Bit",
+      "kind": "reference"
+    }
+  ],
+  "updatedAt": "2026-10-01T00:00:00.000Z"
+}

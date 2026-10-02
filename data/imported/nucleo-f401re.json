@@ -1,0 +1,101 @@
+{
+  "slug": "nucleo-f401re",
+  "name": "STM32 Nucleo-F401RE",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "chip": "stm32f401re",
+  "aliases": [
+    "ST Nucleo F401RE",
+    "Nucleo F401RE"
+  ],
+  "ids": {
+    "platformio": [
+      "nucleo_f401re"
+    ],
+    "zephyr": [
+      "nucleo_f401re"
+    ],
+    "micropython": [
+      "NUCLEO_F401RE"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F401RE",
+      "source": "platformio:nucleo_f401re"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:nucleo_f401re"
+    },
+    "clock": {
+      "value": "84 MHz",
+      "source": "platformio:nucleo_f401re"
+    },
+    "upload_limits": {
+      "value": "512 KB flash, 96 KB RAM",
+      "source": "platformio:nucleo_f401re"
+    },
+    "ram": {
+      "value": "96 KB",
+      "source": "zephyr:nucleo_f401re"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:nucleo_f401re"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "STM32 Nucleo-F401RE product page",
+      "url": "https://developer.mbed.org/platforms/ST-Nucleo-F401RE/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/nucleo_f401re.html",
+      "source": "platformio:nucleo_f401re"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/nucleo_f401re/doc/index.html",
+      "source": "zephyr:nucleo_f401re"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/NUCLEO_F401RE/",
+      "source": "micropython:nucleo_f401re"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:nucleo_f401re",
+      "label": "PlatformIO board definition (nucleo_f401re)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/nucleo_f401re.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    },
+    {
+      "id": "zephyr:nucleo_f401re",
+      "label": "Zephyr board definition (nucleo_f401re)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/nucleo_f401re/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "micropython:nucleo_f401re",
+      "label": "MicroPython board definition (NUCLEO_F401RE)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/stm32/boards/NUCLEO_F401RE/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "technexion-pico-pi-i-mx7d-android-things-iot-development",
+  "name": "Pico-Pi i.MX7D - Android Things IoT Development Platform",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "technexion",
+  "ids": {
+    "zephyr": [
+      "pico_pi"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MCIMX7D",
+      "source": "zephyr:pico_pi"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:pico_pi"
+    },
+    "flash": {
+      "value": "32 KB",
+      "source": "zephyr:pico_pi"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/technexion/pico_pi/doc/index.html",
+      "source": "zephyr:pico_pi"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:pico_pi",
+      "label": "Zephyr board definition (pico_pi)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/technexion/pico_pi/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,234 @@
+{
+  "slug": "sparkfun-pro-micro-rp2040",
+  "name": "Pro Micro RP2040",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sparkfun",
+  "chip": "rp2040",
+  "aliases": [
+    "Pro Micro - RP2040"
+  ],
+  "ids": {
+    "zephyr": [
+      "sparkfun_pro_micro_rp2040"
+    ],
+    "circuitpython": [
+      "sparkfun_pro_micro_rp2040"
+    ],
+    "micropython": [
+      "SPARKFUN_PROMICRO"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "RP2040",
+      "source": "zephyr:sparkfun_pro_micro_rp2040"
+    },
+    "ram": {
+      "value": "264 KB",
+      "source": "zephyr:sparkfun_pro_micro_rp2040"
+    },
+    "flash": {
+      "value": "16 MB",
+      "source": "zephyr:sparkfun_pro_micro_rp2040"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Pro Micro RP2040 product page",
+      "url": "https://www.sparkfun.com/products/18288"
+    }
+  ],
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/sparkfun/pro_micro_rp2040/doc/index.html",
+      "source": "zephyr:sparkfun_pro_micro_rp2040"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/SPARKFUN_PROMICRO/",
+      "source": "micropython:sparkfun_promicro"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/sparkfun_pro_micro_rp2040/",
+      "source": "circuitpython:sparkfun_pro_micro_rp2040"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:sparkfun_pro_micro_rp2040",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "D0",
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "D1",
+          "RX"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "D2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "D3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "D4"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "D7"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "D8"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "D9"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "MISO",
+          "D20"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "D21"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "SCK",
+          "D22"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "MOSI",
+          "D23"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "A0",
+          "D26"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "A1",
+          "D27"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "A2",
+          "D28"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "A3",
+          "D29"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "zephyr:sparkfun_pro_micro_rp2040",
+      "label": "Zephyr board definition (sparkfun_pro_micro_rp2040)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/sparkfun/pro_micro_rp2040/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "circuitpython:sparkfun_pro_micro_rp2040",
+      "label": "CircuitPython board definition (sparkfun_pro_micro_rp2040)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/sparkfun_pro_micro_rp2040.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "micropython:sparkfun_promicro",
+      "label": "MicroPython board definition (SPARKFUN_PROMICRO)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/rp2/boards/SPARKFUN_PROMICRO/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    },
+    {
+      "id": "circuitpython-pins:sparkfun_pro_micro_rp2040",
+      "label": "CircuitPython pin definitions (sparkfun_pro_micro_rp2040)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/sparkfun_pro_micro_rp2040/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

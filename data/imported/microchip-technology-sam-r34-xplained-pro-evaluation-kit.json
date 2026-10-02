@@ -1,0 +1,44 @@
+{
+  "slug": "microchip-technology-sam-r34-xplained-pro-evaluation-kit",
+  "name": "SAM R34 Xplained Pro Evaluation Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "ids": {
+    "zephyr": [
+      "samr34_xpro"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "SAMR34J18B",
+      "source": "zephyr:samr34_xpro"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:samr34_xpro"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:samr34_xpro"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/atmel/sam0/samr34_xpro/doc/index.html",
+      "source": "zephyr:samr34_xpro"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:samr34_xpro",
+      "label": "Zephyr board definition (samr34_xpro)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/atmel/sam0/samr34_xpro/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

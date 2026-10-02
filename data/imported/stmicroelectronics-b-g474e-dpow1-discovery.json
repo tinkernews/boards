@@ -1,0 +1,44 @@
+{
+  "slug": "stmicroelectronics-b-g474e-dpow1-discovery",
+  "name": "B-G474E-DPOW1 Discovery",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "zephyr": [
+      "b_g474e_dpow1"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32G474XX",
+      "source": "zephyr:b_g474e_dpow1"
+    },
+    "ram": {
+      "value": "128 KB",
+      "source": "zephyr:b_g474e_dpow1"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:b_g474e_dpow1"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/b_g474e_dpow1/doc/index.html",
+      "source": "zephyr:b_g474e_dpow1"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:b_g474e_dpow1",
+      "label": "Zephyr board definition (b_g474e_dpow1)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/b_g474e_dpow1/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

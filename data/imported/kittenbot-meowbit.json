@@ -1,0 +1,283 @@
+{
+  "slug": "kittenbot-meowbit",
+  "name": "Meowbit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "kittenbot",
+  "ids": {
+    "circuitpython": [
+      "meowbit_v121"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/meowbit_v121/",
+      "source": "circuitpython:meowbit_v121"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:meowbit_v121",
+    "list": [
+      {
+        "pin": "PA00",
+        "names": [
+          "P0"
+        ]
+      },
+      {
+        "pin": "PA01",
+        "names": [
+          "P1"
+        ]
+      },
+      {
+        "pin": "PA02",
+        "names": [
+          "P2"
+        ]
+      },
+      {
+        "pin": "PA03",
+        "names": [
+          "RX",
+          "P12"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "P8"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "DOWN"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "UP"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "LEFT",
+          "JACK_PWREN"
+        ]
+      },
+      {
+        "pin": "PA08",
+        "names": [
+          "DISP_DC"
+        ]
+      },
+      {
+        "pin": "PA09",
+        "names": [
+          "JACK_TX"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "P7"
+        ]
+      },
+      {
+        "pin": "PA15",
+        "names": [
+          "NSS",
+          "P16"
+        ]
+      },
+      {
+        "pin": "PB00",
+        "names": [
+          "P3"
+        ]
+      },
+      {
+        "pin": "PB02",
+        "names": [
+          "RIGHT"
+        ]
+      },
+      {
+        "pin": "PB03",
+        "names": [
+          "DISP_BL",
+          "P11"
+        ]
+      },
+      {
+        "pin": "PB04",
+        "names": [
+          "LED_RED"
+        ]
+      },
+      {
+        "pin": "PB05",
+        "names": [
+          "LED_GREEN",
+          "P5"
+        ]
+      },
+      {
+        "pin": "PB06",
+        "names": [
+          "ACC_SCL",
+          "SCL",
+          "P19"
+        ]
+      },
+      {
+        "pin": "PB07",
+        "names": [
+          "ACC_SDA",
+          "SDA",
+          "P20"
+        ]
+      },
+      {
+        "pin": "PB08",
+        "names": [
+          "JACK_SND"
+        ]
+      },
+      {
+        "pin": "PB09",
+        "names": [
+          "BTNA"
+        ]
+      },
+      {
+        "pin": "PB10",
+        "names": [
+          "DISP_RST"
+        ]
+      },
+      {
+        "pin": "PB12",
+        "names": [
+          "DISP_CS"
+        ]
+      },
+      {
+        "pin": "PB13",
+        "names": [
+          "DISP_SCK"
+        ]
+      },
+      {
+        "pin": "PB14",
+        "names": [
+          "DISP_MISO"
+        ]
+      },
+      {
+        "pin": "PB15",
+        "names": [
+          "DISP_MOSI"
+        ]
+      },
+      {
+        "pin": "PC00",
+        "names": [
+          "P10"
+        ]
+      },
+      {
+        "pin": "PC01",
+        "names": [
+          "P4"
+        ]
+      },
+      {
+        "pin": "PC02",
+        "names": [
+          "LIGHT"
+        ]
+      },
+      {
+        "pin": "PC03",
+        "names": [
+          "BTNB"
+        ]
+      },
+      {
+        "pin": "PC05",
+        "names": [
+          "TEMP"
+        ]
+      },
+      {
+        "pin": "PC06",
+        "names": [
+          "TX",
+          "P9"
+        ]
+      },
+      {
+        "pin": "PC07",
+        "names": [
+          "P6"
+        ]
+      },
+      {
+        "pin": "PC10",
+        "names": [
+          "SCK",
+          "P13"
+        ]
+      },
+      {
+        "pin": "PC11",
+        "names": [
+          "MISO",
+          "P14"
+        ]
+      },
+      {
+        "pin": "PC12",
+        "names": [
+          "MOSI",
+          "P15"
+        ]
+      },
+      {
+        "pin": "PC14",
+        "names": [
+          "ACC_INT"
+        ]
+      },
+      {
+        "pin": "PC15",
+        "names": [
+          "MENU"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:meowbit_v121",
+      "label": "CircuitPython board definition (meowbit_v121)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/meowbit_v121.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:meowbit_v121",
+      "label": "CircuitPython pin definitions (meowbit_v121)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/stm/boards/meowbit_v121/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

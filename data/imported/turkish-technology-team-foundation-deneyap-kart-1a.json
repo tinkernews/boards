@@ -1,0 +1,232 @@
+{
+  "slug": "turkish-technology-team-foundation-deneyap-kart-1a",
+  "name": "Deneyap Kart 1A",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "turkish-technology-team-foundation",
+  "chip": "esp32",
+  "ids": {
+    "circuitpython": [
+      "deneyap_kart_1a",
+      "deneyap_kart_1a_v2"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/deneyap_kart_1a/",
+      "source": "circuitpython:deneyap_kart_1a"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:deneyap_kart_1a",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "D8",
+          "BOOT",
+          "GPKEY"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "TX",
+          "D2"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "D9",
+          "SDMI"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "RX",
+          "D3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "SDA",
+          "D10"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "MOSI",
+          "D7",
+          "CAMPC"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "D13",
+          "T4",
+          "SDCS"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "D12",
+          "T5",
+          "RGBLED"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "D14",
+          "T3",
+          "SDMO"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "SCL",
+          "D11"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "MISO",
+          "D6",
+          "CAMD6"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "SCK",
+          "D5",
+          "CAMD2"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "D4",
+          "SS",
+          "CAMD5"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "D1",
+          "PWM1",
+          "CAMD3"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "D0",
+          "PWM0",
+          "CAMD4"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "DAC1",
+          "CAMSC"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "DAC2",
+          "CAMD7"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "D15",
+          "T2",
+          "SDCK"
+        ]
+      },
+      {
+        "pin": "GPIO32",
+        "names": [
+          "A4",
+          "T0",
+          "CAMXC"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "A5",
+          "T1",
+          "CAMSD"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "A2",
+          "CAMD9"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "A3",
+          "CAMD8"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "A0",
+          "CAMV"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "A1",
+          "CAMH"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:deneyap_kart_1a",
+      "label": "CircuitPython board definition (deneyap_kart_1a)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/deneyap_kart_1a.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython:deneyap_kart_1a_v2",
+      "label": "CircuitPython board definition (deneyap_kart_1a_v2)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/deneyap_kart_1a_v2.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:deneyap_kart_1a",
+      "label": "CircuitPython pin definitions (deneyap_kart_1a)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/deneyap_kart_1a/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

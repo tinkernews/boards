@@ -1,0 +1,37 @@
+{
+  "slug": "mchobby-garatronic-nadhat-f405",
+  "name": "GARATRONIC_NADHAT_F405",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "mchobby",
+  "ids": {
+    "micropython": [
+      "GARATRONIC_NADHAT_F405"
+    ]
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "GARATRONIC_NADHAT_F405 product page",
+      "url": "https://shop.mchobby.be/product.php?id_product=1653"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/GARATRONIC_NADHAT_F405/",
+      "source": "micropython:garatronic_nadhat_f405"
+    }
+  ],
+  "sources": [
+    {
+      "id": "micropython:garatronic_nadhat_f405",
+      "label": "MicroPython board definition (GARATRONIC_NADHAT_F405)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/stm32/boards/GARATRONIC_NADHAT_F405/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

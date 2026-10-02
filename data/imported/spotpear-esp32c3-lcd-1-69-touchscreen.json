@@ -1,0 +1,125 @@
+{
+  "slug": "spotpear-esp32c3-lcd-1-69-touchscreen",
+  "name": "Spotpear ESP32C3 LCD 1.69 Touchscreen",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "spotpear",
+  "chip": "esp32-c3",
+  "ids": {
+    "circuitpython": [
+      "spotpear_esp32c3_lcd_1_69"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/spotpear_esp32c3_lcd_1_69/",
+      "source": "circuitpython:spotpear_esp32c3_lcd_1_69"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:spotpear_esp32c3_lcd_1_69",
+    "list": [
+      {
+        "pin": "GPIO1",
+        "names": [
+          "BUZZER"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "LCD_DC"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "LCD_CS"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "MISO"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "LCD_RST"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "BOOT",
+          "BUTTON0",
+          "TOUCH_INT"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "TOUCH_RST"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "RX",
+          "IO20"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "TX",
+          "IO21"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:spotpear_esp32c3_lcd_1_69",
+      "label": "CircuitPython board definition (spotpear_esp32c3_lcd_1_69)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/spotpear_esp32c3_lcd_1_69.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:spotpear_esp32c3_lcd_1_69",
+      "label": "CircuitPython pin definitions (spotpear_esp32c3_lcd_1_69)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/spotpear_esp32c3_lcd_1_69/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

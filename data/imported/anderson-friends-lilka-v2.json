@@ -1,0 +1,59 @@
+{
+  "slug": "anderson-friends-lilka-v2",
+  "name": "Lilka v2",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "anderson-friends",
+  "chip": "esp32-s3",
+  "ids": {
+    "platformio": [
+      "lilka_v2"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-S3",
+      "source": "platformio:lilka_v2"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:lilka_v2"
+    },
+    "upload_limits": {
+      "value": "16 MB flash, 320 KB RAM",
+      "source": "platformio:lilka_v2"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Lilka v2 product page",
+      "url": "https://github.com/and3rson/lilka"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/lilka_v2.html",
+      "source": "platformio:lilka_v2"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/lilka_v2.html",
+      "source": "platformio:lilka_v2"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:lilka_v2",
+      "label": "PlatformIO board definition (lilka_v2)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/lilka_v2.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

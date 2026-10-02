@@ -1,0 +1,205 @@
+{
+  "slug": "alorium-aloriumtech-evo-m51",
+  "name": "AloriumTech Evo M51",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "alorium",
+  "chip": "atsamd51j19",
+  "ids": {
+    "circuitpython": [
+      "aloriumtech_evo_m51"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/aloriumtech_evo_m51/",
+      "source": "circuitpython:aloriumtech_evo_m51"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:aloriumtech_evo_m51",
+    "list": [
+      {
+        "pin": "PA02",
+        "names": [
+          "A0",
+          "D14"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "A4",
+          "D18"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "A1",
+          "D15"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "A5",
+          "D19"
+        ]
+      },
+      {
+        "pin": "PA12",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PA13",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "PA14",
+        "names": [
+          "D4"
+        ]
+      },
+      {
+        "pin": "PA16",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "PA17",
+        "names": [
+          "SCK",
+          "D25"
+        ]
+      },
+      {
+        "pin": "PA18",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "PA19",
+        "names": [
+          "D9"
+        ]
+      },
+      {
+        "pin": "PA20",
+        "names": [
+          "D10"
+        ]
+      },
+      {
+        "pin": "PA21",
+        "names": [
+          "D11"
+        ]
+      },
+      {
+        "pin": "PA22",
+        "names": [
+          "D12"
+        ]
+      },
+      {
+        "pin": "PA23",
+        "names": [
+          "D13"
+        ]
+      },
+      {
+        "pin": "PB01",
+        "names": [
+          "VOLTAGE_MONITOR",
+          "BATTERY"
+        ]
+      },
+      {
+        "pin": "PB03",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "PB08",
+        "names": [
+          "A2",
+          "D16"
+        ]
+      },
+      {
+        "pin": "PB09",
+        "names": [
+          "A3",
+          "D17"
+        ]
+      },
+      {
+        "pin": "PB16",
+        "names": [
+          "D1",
+          "TX"
+        ]
+      },
+      {
+        "pin": "PB17",
+        "names": [
+          "D0",
+          "RX"
+        ]
+      },
+      {
+        "pin": "PB22",
+        "names": [
+          "MISO",
+          "D23"
+        ]
+      },
+      {
+        "pin": "PB23",
+        "names": [
+          "MOSI",
+          "D24"
+        ]
+      },
+      {
+        "pin": "PD08",
+        "names": [
+          "SCL_1"
+        ]
+      },
+      {
+        "pin": "PD09",
+        "names": [
+          "SDA_1"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:aloriumtech_evo_m51",
+      "label": "CircuitPython board definition (aloriumtech_evo_m51)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/aloriumtech_evo_m51.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:aloriumtech_evo_m51",
+      "label": "CircuitPython pin definitions (aloriumtech_evo_m51)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/aloriumtech_evo_m51/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

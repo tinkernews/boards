@@ -1,0 +1,59 @@
+{
+  "slug": "thaieasyelec-espino32",
+  "name": "ESPino32",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "thaieasyelec",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "espino32"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:espino32"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:espino32"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:espino32"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ESPino32 product page",
+      "url": "http://thaieasyelec.com/products/development-boards/espino-wifi-development-board-detail.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/espino32.html",
+      "source": "platformio:espino32"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/espino32.html",
+      "source": "platformio:espino32"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:espino32",
+      "label": "PlatformIO board definition (espino32)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/espino32.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

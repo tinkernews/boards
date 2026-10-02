@@ -1,0 +1,56 @@
+{
+  "slug": "reprapworld-minitronics-v2-0",
+  "name": "Minitronics v2.0",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "reprapworld",
+  "ids": {
+    "platformio": [
+      "minitronics20"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "SAMD21J18A",
+      "source": "platformio:minitronics20"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:minitronics20"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:minitronics20"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:minitronics20"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Minitronics v2.0 product page",
+      "url": "https://reprapworld.com/products/electronics/minitronics/minitronics_v2_0_32_bit_all_in_one_controller_board/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelsam/minitronics20.html",
+      "source": "platformio:minitronics20"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:minitronics20",
+      "label": "PlatformIO board definition (minitronics20)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/minitronics20.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

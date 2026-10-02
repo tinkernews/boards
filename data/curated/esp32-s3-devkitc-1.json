@@ -1,0 +1,141 @@
+{
+  "slug": "esp32-s3-devkitc-1",
+  "name": "ESP32-S3-DevKitC-1",
+  "tier": "curated",
+  "kind": "mcu",
+  "maker": "espressif",
+  "family": "ESP32",
+  "chip": "esp32-s3",
+  "released": "2021",
+  "status": "current",
+  "summary": "Espressif’s ESP32-S3 board: dual-core LX7 with vector instructions, native USB plus a USB-UART port, and an addressable RGB LED.",
+  "aliases": [
+    "ESP32-S3-DevKitC-1",
+    "ESP32-S3 DevKitC-1",
+    "ESP32-S3-DevKitC",
+    "ESP32 S3 DevKitC"
+  ],
+  "ids": {
+    "platformio": [
+      "esp32-s3-devkitc-1"
+    ],
+    "circuitpython": [
+      "espressif_esp32s3_devkitc_1_n8",
+      "espressif_esp32s3_devkitc_1_n8r2",
+      "espressif_esp32s3_devkitc_1_n8r8",
+      "espressif_esp32s3_devkitc_1_n16",
+      "espressif_esp32s3_devkitc_1_n32r8"
+    ],
+    "micropython": [
+      "ESP32_GENERIC_S3"
+    ]
+  },
+  "review": {
+    "status": "draft"
+  },
+  "specs": {
+    "chip": {
+      "value": "Espressif ESP32-S3 in an ESP32-S3-WROOM-1 module",
+      "source": "s3-guide"
+    },
+    "cpu": {
+      "value": "2 × Xtensa LX7, 32-bit",
+      "source": "s3-datasheet"
+    },
+    "clock": {
+      "value": "Up to 240 MHz",
+      "source": "s3-datasheet"
+    },
+    "ram": {
+      "value": "512 KB SRAM, plus 0–16 MB PSRAM depending on the module",
+      "source": "s3-datasheet"
+    },
+    "flash": {
+      "value": "8 to 32 MB depending on the module variant",
+      "source": "s3-guide"
+    },
+    "io_voltage": {
+      "value": "3.3 V",
+      "source": "s3-datasheet"
+    },
+    "wireless": {
+      "value": "2.4 GHz 802.11 b/g/n Wi-Fi; Bluetooth LE 5",
+      "source": "s3-datasheet"
+    },
+    "usb": {
+      "value": "Two USB ports: native USB (OTG) and USB-to-UART",
+      "source": "s3-guide"
+    }
+  },
+  "docs": [
+    {
+      "kind": "guide",
+      "label": "ESP32-S3-DevKitC-1 user guide, Espressif",
+      "url": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s3/esp32-s3-devkitc-1/user_guide_v1.1.html"
+    },
+    {
+      "kind": "datasheet",
+      "label": "ESP32-S3 Series datasheet",
+      "url": "https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf"
+    }
+  ],
+  "software": [
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.espressif.com/projects/esp-idf/en/stable/",
+      "source": "esp-idf"
+    },
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino core for the ESP32 by Espressif.",
+      "url": "https://docs.espressif.com/projects/arduino-esp32/en/latest/",
+      "source": "esp-arduino"
+    }
+  ],
+  "gotchas": [
+    {
+      "title": "Octal PSRAM takes GPIO35–37",
+      "text": "On modules with octal PSRAM (the R8 variants), GPIO35, 36 and 37 are used by the PSRAM and cannot be used as I/O.",
+      "source": "s3-guide"
+    },
+    {
+      "title": "Two USB ports, two serial devices",
+      "text": "Logs from the UART port and the native USB port appear as different devices; set the console output accordingly.",
+      "source": "s3-guide"
+    }
+  ],
+  "editorial": {
+    "history": "The ESP32-S3 arrived in 2021 as Espressif's dual-core chip for AI at the edge, adding vector instructions and native USB to the ESP32 recipe.",
+    "today": "The most capable mainstream ESP32 for camera, display, audio and USB projects.",
+    "source": "s3-guide"
+  },
+  "sources": [
+    {
+      "id": "s3-guide",
+      "label": "ESP32-S3-DevKitC-1 user guide, Espressif",
+      "url": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s3/esp32-s3-devkitc-1/user_guide_v1.1.html",
+      "kind": "official"
+    },
+    {
+      "id": "s3-datasheet",
+      "label": "ESP32-S3 Series datasheet, Espressif",
+      "url": "https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf",
+      "kind": "official"
+    },
+    {
+      "id": "esp-idf",
+      "label": "ESP-IDF Programming Guide, Espressif",
+      "url": "https://docs.espressif.com/projects/esp-idf/en/stable/",
+      "kind": "official"
+    },
+    {
+      "id": "esp-arduino",
+      "label": "Arduino core for the ESP32, Espressif",
+      "url": "https://docs.espressif.com/projects/arduino-esp32/en/latest/",
+      "kind": "official"
+    }
+  ],
+  "updatedAt": "2026-10-01T00:00:00.000Z"
+}

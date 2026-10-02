@@ -1,0 +1,59 @@
+{
+  "slug": "m5stack-m5stick-c",
+  "name": "M5Stick-C",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "m5stack",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "m5stick-c"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:m5stick-c"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:m5stick-c"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:m5stick-c"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "M5Stick-C product page",
+      "url": "http://www.m5stack.com"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/m5stick-c.html",
+      "source": "platformio:m5stick-c"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/m5stick-c.html",
+      "source": "platformio:m5stick-c"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:m5stick-c",
+      "label": "PlatformIO board definition (m5stick-c)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/m5stick-c.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

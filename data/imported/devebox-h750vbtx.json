@@ -1,0 +1,57 @@
+{
+  "slug": "devebox-h750vbtx",
+  "name": "DevEBox H750VBTX",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "devebox",
+  "chip": "stm32h750",
+  "ids": {
+    "platformio": [
+      "devebox_h750vbtx"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32H750",
+      "source": "platformio:devebox_h750vbtx"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M7",
+      "source": "platformio:devebox_h750vbtx"
+    },
+    "clock": {
+      "value": "480 MHz",
+      "source": "platformio:devebox_h750vbtx"
+    },
+    "upload_limits": {
+      "value": "512 KB flash, 128 KB RAM",
+      "source": "platformio:devebox_h750vbtx"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "DevEBox H750VBTX product page",
+      "url": "https://github.com/mcauser/MCUDEV_DEVEBOX_H7XX_M"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/devebox_h750vbtx.html",
+      "source": "platformio:devebox_h750vbtx"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:devebox_h750vbtx",
+      "label": "PlatformIO board definition (devebox_h750vbtx)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/devebox_h750vbtx.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

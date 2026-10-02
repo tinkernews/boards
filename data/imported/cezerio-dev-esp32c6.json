@@ -1,0 +1,244 @@
+{
+  "slug": "cezerio-dev-esp32c6",
+  "name": "cezerio dev ESP32C6",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "cezerio",
+  "chip": "esp32-c6",
+  "ids": {
+    "platformio": [
+      "cezerio_dev_esp32c6"
+    ],
+    "circuitpython": [
+      "cezerio_dev_ESP32C6"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-C6",
+      "source": "platformio:cezerio_dev_esp32c6"
+    },
+    "clock": {
+      "value": "160 MHz",
+      "source": "platformio:cezerio_dev_esp32c6"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:cezerio_dev_esp32c6"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "cezerio dev ESP32C6 product page",
+      "url": "https://cezerio.com/cezerio_dev_esp32c6"
+    }
+  ],
+  "software": [
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/cezerio_dev_esp32c6.html",
+      "source": "platformio:cezerio_dev_esp32c6"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/cezerio_dev_ESP32C6/",
+      "source": "circuitpython:cezerio_dev_esp32c6"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:cezerio_dev_esp32c6",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "IO0",
+          "A0",
+          "D0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "IO1",
+          "A1",
+          "D1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "IO2",
+          "A2",
+          "D2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "IO3",
+          "A3",
+          "D3",
+          "NEOPIXEL",
+          "RGB"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "IO4",
+          "A4",
+          "D4"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "IO5",
+          "A5",
+          "D5"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "IO6",
+          "A6",
+          "D6"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "IO7",
+          "D7",
+          "SCL",
+          "IMUSC"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "IO8",
+          "D8",
+          "SDA",
+          "IMUSD"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "IO9",
+          "D9",
+          "BUTTON",
+          "BOOT"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "IO14",
+          "D14",
+          "SS"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "IO15",
+          "D15"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "IO16",
+          "D16",
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "IO17",
+          "D17",
+          "RX"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "IO18",
+          "D18",
+          "NEOPIXEL_MATRIX"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "IO19",
+          "D19"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "IO20",
+          "D20"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "IO21",
+          "D21",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "IO22",
+          "D22",
+          "MOSI",
+          "MO"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "IO23",
+          "D23",
+          "MISO",
+          "MI"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "platformio:cezerio_dev_esp32c6",
+      "label": "PlatformIO board definition (cezerio_dev_esp32c6)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/cezerio_dev_esp32c6.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    },
+    {
+      "id": "circuitpython:cezerio_dev_esp32c6",
+      "label": "CircuitPython board definition (cezerio_dev_ESP32C6)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/cezerio_dev_ESP32C6.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:cezerio_dev_esp32c6",
+      "label": "CircuitPython pin definitions (cezerio_dev_ESP32C6)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/cezerio_dev_ESP32C6/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

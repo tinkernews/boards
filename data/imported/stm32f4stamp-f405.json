@@ -1,0 +1,57 @@
+{
+  "slug": "stm32f4stamp-f405",
+  "name": "STM32F4Stamp F405",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "generic",
+  "chip": "stm32f405",
+  "ids": {
+    "platformio": [
+      "stm32f4stamp"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F405",
+      "source": "platformio:stm32f4stamp"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:stm32f4stamp"
+    },
+    "clock": {
+      "value": "168 MHz",
+      "source": "platformio:stm32f4stamp"
+    },
+    "upload_limits": {
+      "value": "1 MB flash, 128 KB RAM",
+      "source": "platformio:stm32f4stamp"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "STM32F4Stamp F405 product page",
+      "url": "https://eleccelerator.com/stm32f4stamp-breakout-board/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/stm32f4stamp.html",
+      "source": "platformio:stm32f4stamp"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:stm32f4stamp",
+      "label": "PlatformIO board definition (stm32f4stamp)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/stm32f4stamp.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

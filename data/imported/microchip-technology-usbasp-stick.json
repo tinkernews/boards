@@ -1,0 +1,52 @@
+{
+  "slug": "microchip-technology-usbasp-stick",
+  "name": "USBasp stick",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "ids": {
+    "platformio": [
+      "usbasp"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATMEGA8",
+      "source": "platformio:usbasp"
+    },
+    "clock": {
+      "value": "12 MHz",
+      "source": "platformio:usbasp"
+    },
+    "upload_limits": {
+      "value": "8 KB flash, 1 KB RAM",
+      "source": "platformio:usbasp"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "USBasp stick product page",
+      "url": "https://www.fischl.de/usbasp/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/usbasp.html",
+      "source": "platformio:usbasp"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:usbasp",
+      "label": "PlatformIO board definition (usbasp)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/usbasp.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

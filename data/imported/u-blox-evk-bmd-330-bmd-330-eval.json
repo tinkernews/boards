@@ -1,0 +1,44 @@
+{
+  "slug": "u-blox-evk-bmd-330-bmd-330-eval",
+  "name": "EVK-BMD-330: BMD-330-EVAL",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "u-blox",
+  "ids": {
+    "zephyr": [
+      "ubx_bmd330eval"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "NRF52810",
+      "source": "zephyr:ubx_bmd330eval"
+    },
+    "ram": {
+      "value": "24 KB",
+      "source": "zephyr:ubx_bmd330eval"
+    },
+    "flash": {
+      "value": "192 KB",
+      "source": "zephyr:ubx_bmd330eval"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/u-blox/ubx_bmd330eval/doc/index.html",
+      "source": "zephyr:ubx_bmd330eval"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:ubx_bmd330eval",
+      "label": "Zephyr board definition (ubx_bmd330eval)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/u-blox/ubx_bmd330eval/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

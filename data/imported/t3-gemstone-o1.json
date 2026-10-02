@@ -1,0 +1,40 @@
+{
+  "slug": "t3-gemstone-o1",
+  "name": "T3 Gemstone O1",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "t3-gemstone",
+  "ids": {
+    "zephyr": [
+      "t3_gem_o1"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "J722S",
+      "source": "zephyr:t3_gem_o1"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:t3_gem_o1"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/t3gemstone/t3_gem_o1/doc/index.html",
+      "source": "zephyr:t3_gem_o1"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:t3_gem_o1",
+      "label": "Zephyr board definition (t3_gem_o1)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/t3gemstone/t3_gem_o1/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

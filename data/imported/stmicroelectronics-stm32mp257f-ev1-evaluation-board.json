@@ -1,0 +1,44 @@
+{
+  "slug": "stmicroelectronics-stm32mp257f-ev1-evaluation-board",
+  "name": "STM32MP257F-EV1 Evaluation Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "zephyr": [
+      "stm32mp257f_ev1"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32MP257FXX",
+      "source": "zephyr:stm32mp257f_ev1"
+    },
+    "ram": {
+      "value": "8192 KB",
+      "source": "zephyr:stm32mp257f_ev1"
+    },
+    "flash": {
+      "value": "8 MB",
+      "source": "zephyr:stm32mp257f_ev1"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/stm32mp257f_ev1/doc/index.html",
+      "source": "zephyr:stm32mp257f_ev1"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:stm32mp257f_ev1",
+      "label": "Zephyr board definition (stm32mp257f_ev1)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/stm32mp257f_ev1/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

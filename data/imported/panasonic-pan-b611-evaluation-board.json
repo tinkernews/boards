@@ -1,0 +1,44 @@
+{
+  "slug": "panasonic-pan-b611-evaluation-board",
+  "name": "PAN B611 Evaluation Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "panasonic",
+  "ids": {
+    "zephyr": [
+      "panb611evb"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "NRF54L15",
+      "source": "zephyr:panb611evb"
+    },
+    "ram": {
+      "value": "188 KB",
+      "source": "zephyr:panb611evb"
+    },
+    "flash": {
+      "value": "1.39 MB",
+      "source": "zephyr:panb611evb"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/panasonic/panb611evb/doc/index.html",
+      "source": "zephyr:panb611evb"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:panb611evb",
+      "label": "Zephyr board definition (panb611evb)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/panasonic/panb611evb/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "oddwires-iot-bus-io",
+  "name": "oddWires IoT-Bus Io",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "oddwires",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "iotbusio"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:iotbusio"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:iotbusio"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:iotbusio"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "oddWires IoT-Bus Io product page",
+      "url": "http://www.oddwires.com/iot-bus-io-esp32-processor-with-wifi-and-bluetooth/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/iotbusio.html",
+      "source": "platformio:iotbusio"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/iotbusio.html",
+      "source": "platformio:iotbusio"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:iotbusio",
+      "label": "PlatformIO board definition (iotbusio)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/iotbusio.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "wch-linkw",
+  "name": "WCH LinkW",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "wch",
+  "ids": {
+    "zephyr": [
+      "linkw"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "CH32V208",
+      "source": "zephyr:linkw"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:linkw"
+    },
+    "flash": {
+      "value": "128 KB",
+      "source": "zephyr:linkw"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/wch/linkw/doc/index.html",
+      "source": "zephyr:linkw"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:linkw",
+      "label": "Zephyr board definition (linkw)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/wch/linkw/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

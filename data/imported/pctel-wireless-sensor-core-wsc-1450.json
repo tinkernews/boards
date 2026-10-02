@@ -1,0 +1,332 @@
+{
+  "slug": "pctel-wireless-sensor-core-wsc-1450",
+  "name": "Wireless Sensor Core WSC-1450",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "pctel",
+  "chip": "nrf52840",
+  "ids": {
+    "circuitpython": [
+      "pctel_wsc_1450"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/pctel_wsc_1450/",
+      "source": "circuitpython:pctel_wsc_1450"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:pctel_wsc_1450",
+    "list": [
+      {
+        "pin": "P0_00",
+        "names": [
+          "32KHZ_XTAL1"
+        ]
+      },
+      {
+        "pin": "P0_01",
+        "names": [
+          "32KHZ_XTAL2"
+        ]
+      },
+      {
+        "pin": "P0_02",
+        "names": [
+          "BATTERY"
+        ]
+      },
+      {
+        "pin": "P0_03",
+        "names": [
+          "BOARD_ID"
+        ]
+      },
+      {
+        "pin": "P0_04",
+        "names": [
+          "INT_LIGHT_TOF"
+        ]
+      },
+      {
+        "pin": "P0_05",
+        "names": [
+          "LED_RED"
+        ]
+      },
+      {
+        "pin": "P0_06",
+        "names": [
+          "I2S_SCK"
+        ]
+      },
+      {
+        "pin": "P0_07",
+        "names": [
+          "LORA_SCLK"
+        ]
+      },
+      {
+        "pin": "P0_08",
+        "names": [
+          "I2S_WS"
+        ]
+      },
+      {
+        "pin": "P0_09",
+        "names": [
+          "NFC1"
+        ]
+      },
+      {
+        "pin": "P0_10",
+        "names": [
+          "NFC2"
+        ]
+      },
+      {
+        "pin": "P0_11",
+        "names": [
+          "LORA_MOSI"
+        ]
+      },
+      {
+        "pin": "P0_12",
+        "names": [
+          "LORA_MISO"
+        ]
+      },
+      {
+        "pin": "P0_13",
+        "names": [
+          "DEBUG_TX"
+        ]
+      },
+      {
+        "pin": "P0_14",
+        "names": [
+          "CELL_RTS"
+        ]
+      },
+      {
+        "pin": "P0_15",
+        "names": [
+          "CELL_DCD"
+        ]
+      },
+      {
+        "pin": "P0_16",
+        "names": [
+          "DEBUG_RX"
+        ]
+      },
+      {
+        "pin": "P0_17",
+        "names": [
+          "QSPI_CSN"
+        ]
+      },
+      {
+        "pin": "P0_18",
+        "names": [
+          "BT840_RESETN"
+        ]
+      },
+      {
+        "pin": "P0_19",
+        "names": [
+          "QSPI_CLK"
+        ]
+      },
+      {
+        "pin": "P0_20",
+        "names": [
+          "QSPI_IO0"
+        ]
+      },
+      {
+        "pin": "P0_21",
+        "names": [
+          "QSPI_IO1"
+        ]
+      },
+      {
+        "pin": "P0_22",
+        "names": [
+          "QSPI_IO2"
+        ]
+      },
+      {
+        "pin": "P0_23",
+        "names": [
+          "QSPI_IO3"
+        ]
+      },
+      {
+        "pin": "P0_24",
+        "names": [
+          "CELL_HW_SHUTDOWN"
+        ]
+      },
+      {
+        "pin": "P0_25",
+        "names": [
+          "I2S_SD"
+        ]
+      },
+      {
+        "pin": "P0_26",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "P0_27",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "P0_28",
+        "names": [
+          "CELL_POWER_ENABLE"
+        ]
+      },
+      {
+        "pin": "P0_29",
+        "names": [
+          "PUSH_BUTTON"
+        ]
+      },
+      {
+        "pin": "P0_30",
+        "names": [
+          "CELL_ON_OFF"
+        ]
+      },
+      {
+        "pin": "P0_31",
+        "names": [
+          "SENSOR_POWER_ENABLE"
+        ]
+      },
+      {
+        "pin": "P1_00",
+        "names": [
+          "BT840_SWO"
+        ]
+      },
+      {
+        "pin": "P1_01",
+        "names": [
+          "CELL_RX"
+        ]
+      },
+      {
+        "pin": "P1_02",
+        "names": [
+          "CELL_TX"
+        ]
+      },
+      {
+        "pin": "P1_03",
+        "names": [
+          "CELL_DSR"
+        ]
+      },
+      {
+        "pin": "P1_04",
+        "names": [
+          "CELL_DTR"
+        ]
+      },
+      {
+        "pin": "P1_05",
+        "names": [
+          "INT_ACCEL"
+        ]
+      },
+      {
+        "pin": "P1_06",
+        "names": [
+          "BOARD_ID_DISABLE"
+        ]
+      },
+      {
+        "pin": "P1_07",
+        "names": [
+          "LORA_DIO0"
+        ]
+      },
+      {
+        "pin": "P1_08",
+        "names": [
+          "CELL_CTS"
+        ]
+      },
+      {
+        "pin": "P1_09",
+        "names": [
+          "LORA_SSN"
+        ]
+      },
+      {
+        "pin": "P1_10",
+        "names": [
+          "LORA_RESETN"
+        ]
+      },
+      {
+        "pin": "P1_11",
+        "names": [
+          "BATTERY_MONITOR_ENABLE"
+        ]
+      },
+      {
+        "pin": "P1_12",
+        "names": [
+          "LORA_DIO1"
+        ]
+      },
+      {
+        "pin": "P1_13",
+        "names": [
+          "LORA_DIO2"
+        ]
+      },
+      {
+        "pin": "P1_14",
+        "names": [
+          "LORA_DIO3"
+        ]
+      },
+      {
+        "pin": "P1_15",
+        "names": [
+          "CELL_PWRMON",
+          "LORA_DIO4"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:pctel_wsc_1450",
+      "label": "CircuitPython board definition (pctel_wsc_1450)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/pctel_wsc_1450.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:pctel_wsc_1450",
+      "label": "CircuitPython pin definitions (pctel_wsc_1450)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/nordic/boards/pctel_wsc_1450/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

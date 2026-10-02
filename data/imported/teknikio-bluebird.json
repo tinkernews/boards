@@ -1,0 +1,182 @@
+{
+  "slug": "teknikio-bluebird",
+  "name": "Bluebird",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "teknikio",
+  "chip": "nrf52840",
+  "ids": {
+    "circuitpython": [
+      "teknikio_bluebird"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/teknikio_bluebird/",
+      "source": "circuitpython:teknikio_bluebird"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:teknikio_bluebird",
+    "list": [
+      {
+        "pin": "P0_02",
+        "names": [
+          "P0_02",
+          "A3",
+          "D3"
+        ]
+      },
+      {
+        "pin": "P0_03",
+        "names": [
+          "P0_03",
+          "A4",
+          "D4"
+        ]
+      },
+      {
+        "pin": "P0_04",
+        "names": [
+          "P0_04",
+          "D6",
+          "A6"
+        ]
+      },
+      {
+        "pin": "P0_05",
+        "names": [
+          "P0_05",
+          "D5",
+          "A5"
+        ]
+      },
+      {
+        "pin": "P0_06",
+        "names": [
+          "P0_06",
+          "D7"
+        ]
+      },
+      {
+        "pin": "P0_07",
+        "names": [
+          "P0_07",
+          "D11"
+        ]
+      },
+      {
+        "pin": "P0_08",
+        "names": [
+          "P0_08",
+          "D12"
+        ]
+      },
+      {
+        "pin": "P0_11",
+        "names": [
+          "P0_11",
+          "D14"
+        ]
+      },
+      {
+        "pin": "P0_12",
+        "names": [
+          "P0_12",
+          "D9"
+        ]
+      },
+      {
+        "pin": "P0_28",
+        "names": [
+          "LIGHT"
+        ]
+      },
+      {
+        "pin": "P0_29",
+        "names": [
+          "P0_29",
+          "A1",
+          "D1"
+        ]
+      },
+      {
+        "pin": "P0_30",
+        "names": [
+          "LIGHT_ENABLE"
+        ]
+      },
+      {
+        "pin": "P0_31",
+        "names": [
+          "P0_31",
+          "A2",
+          "D2"
+        ]
+      },
+      {
+        "pin": "P1_08",
+        "names": [
+          "P1_08",
+          "D13"
+        ]
+      },
+      {
+        "pin": "P1_09",
+        "names": [
+          "P1_09",
+          "D8"
+        ]
+      },
+      {
+        "pin": "P1_10",
+        "names": [
+          "ACCELEROMETER_INTERRUPT"
+        ]
+      },
+      {
+        "pin": "P1_11",
+        "names": [
+          "ACCELEROMETER_SCL"
+        ]
+      },
+      {
+        "pin": "P1_12",
+        "names": [
+          "ACCELEROMETER_SDA"
+        ]
+      },
+      {
+        "pin": "P1_14",
+        "names": [
+          "SPEAKER"
+        ]
+      },
+      {
+        "pin": "P1_15",
+        "names": [
+          "NEOPIXEL"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:teknikio_bluebird",
+      "label": "CircuitPython board definition (teknikio_bluebird)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/teknikio_bluebird.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:teknikio_bluebird",
+      "label": "CircuitPython pin definitions (teknikio_bluebird)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/nordic/boards/teknikio_bluebird/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

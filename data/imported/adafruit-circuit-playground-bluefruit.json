@@ -1,0 +1,241 @@
+{
+  "slug": "adafruit-circuit-playground-bluefruit",
+  "name": "Circuit Playground Bluefruit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "nrf52840",
+  "ids": {
+    "platformio": [
+      "adafruit_cplaynrf52840"
+    ],
+    "circuitpython": [
+      "circuitplayground_bluefruit"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52840",
+      "source": "platformio:adafruit_cplaynrf52840"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:adafruit_cplaynrf52840"
+    },
+    "clock": {
+      "value": "64 MHz",
+      "source": "platformio:adafruit_cplaynrf52840"
+    },
+    "upload_limits": {
+      "value": "796 KB flash, 243 KB RAM",
+      "source": "platformio:adafruit_cplaynrf52840"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Circuit Playground Bluefruit product page",
+      "url": "https://www.adafruit.com/product/4333"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/nordicnrf52/adafruit_cplaynrf52840.html",
+      "source": "platformio:adafruit_cplaynrf52840"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/circuitplayground_bluefruit/",
+      "source": "circuitpython:circuitplayground_bluefruit"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:circuitplayground_bluefruit",
+    "list": [
+      {
+        "pin": "P0_02",
+        "names": [
+          "A1",
+          "D6",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "P0_03",
+        "names": [
+          "A3",
+          "D10",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "P0_04",
+        "names": [
+          "A4",
+          "D3",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "P0_05",
+        "names": [
+          "A5",
+          "D2",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "P0_06",
+        "names": [
+          "POWER_SWITCH",
+          "D35"
+        ]
+      },
+      {
+        "pin": "P0_13",
+        "names": [
+          "NEOPIXEL",
+          "D8"
+        ]
+      },
+      {
+        "pin": "P0_14",
+        "names": [
+          "D1",
+          "TX"
+        ]
+      },
+      {
+        "pin": "P0_16",
+        "names": [
+          "MICROPHONE_DATA"
+        ]
+      },
+      {
+        "pin": "P0_17",
+        "names": [
+          "MICROPHONE_CLOCK"
+        ]
+      },
+      {
+        "pin": "P0_26",
+        "names": [
+          "AUDIO",
+          "D12",
+          "SPEAKER"
+        ]
+      },
+      {
+        "pin": "P0_28",
+        "names": [
+          "LIGHT",
+          "A8"
+        ]
+      },
+      {
+        "pin": "P0_29",
+        "names": [
+          "A2",
+          "D9",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "P0_30",
+        "names": [
+          "A6",
+          "D0",
+          "RX"
+        ]
+      },
+      {
+        "pin": "P0_31",
+        "names": [
+          "TEMPERATURE",
+          "A9"
+        ]
+      },
+      {
+        "pin": "P1_02",
+        "names": [
+          "BUTTON_A",
+          "D4"
+        ]
+      },
+      {
+        "pin": "P1_04",
+        "names": [
+          "SPEAKER_ENABLE"
+        ]
+      },
+      {
+        "pin": "P1_06",
+        "names": [
+          "SLIDE_SWITCH",
+          "D7"
+        ]
+      },
+      {
+        "pin": "P1_10",
+        "names": [
+          "ACCELEROMETER_SDA"
+        ]
+      },
+      {
+        "pin": "P1_12",
+        "names": [
+          "ACCELEROMETER_SCL"
+        ]
+      },
+      {
+        "pin": "P1_13",
+        "names": [
+          "ACCELEROMETER_INTERRUPT"
+        ]
+      },
+      {
+        "pin": "P1_14",
+        "names": [
+          "LED",
+          "L",
+          "D13"
+        ]
+      },
+      {
+        "pin": "P1_15",
+        "names": [
+          "BUTTON_B",
+          "D5"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "platformio:adafruit_cplaynrf52840",
+      "label": "PlatformIO board definition (adafruit_cplaynrf52840)",
+      "url": "https://github.com/platformio/platform-nordicnrf52/blob/278176a7f7ffe2d001eb93eafa271c83b38222e4/boards/adafruit_cplaynrf52840.json",
+      "kind": "import",
+      "revision": "278176a7f7ffe2d001eb93eafa271c83b38222e4"
+    },
+    {
+      "id": "circuitpython:circuitplayground_bluefruit",
+      "label": "CircuitPython board definition (circuitplayground_bluefruit)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/circuitplayground_bluefruit.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:circuitplayground_bluefruit",
+      "label": "CircuitPython pin definitions (circuitplayground_bluefruit)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/nordic/boards/circuitplayground_bluefruit/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

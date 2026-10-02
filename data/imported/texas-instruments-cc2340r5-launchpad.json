@@ -1,0 +1,44 @@
+{
+  "slug": "texas-instruments-cc2340r5-launchpad",
+  "name": "CC2340R5 LaunchPad",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "texas-instruments",
+  "ids": {
+    "zephyr": [
+      "lp_em_cc2340r5"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "CC2340R5",
+      "source": "zephyr:lp_em_cc2340r5"
+    },
+    "ram": {
+      "value": "80 KB",
+      "source": "zephyr:lp_em_cc2340r5"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:lp_em_cc2340r5"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/ti/lp_em_cc2340r5/doc/index.html",
+      "source": "zephyr:lp_em_cc2340r5"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:lp_em_cc2340r5",
+      "label": "Zephyr board definition (lp_em_cc2340r5)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/ti/lp_em_cc2340r5/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

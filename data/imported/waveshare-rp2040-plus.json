@@ -1,0 +1,68 @@
+{
+  "slug": "waveshare-rp2040-plus",
+  "name": "RP2040-Plus",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "waveshare",
+  "chip": "rp2040",
+  "ids": {
+    "zephyr": [
+      "rp2040_plus"
+    ],
+    "micropython": [
+      "WAVESHARE_RP2040_PLUS"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "RP2040",
+      "source": "zephyr:rp2040_plus"
+    },
+    "ram": {
+      "value": "264 KB",
+      "source": "zephyr:rp2040_plus"
+    },
+    "flash": {
+      "value": "4 MB",
+      "source": "zephyr:rp2040_plus"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "RP2040-Plus product page",
+      "url": "https://www.waveshare.com/rp2040-plus.htm"
+    }
+  ],
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/waveshare/rp2040_plus/doc/index.html",
+      "source": "zephyr:rp2040_plus"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/WAVESHARE_RP2040_PLUS/",
+      "source": "micropython:waveshare_rp2040_plus"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:rp2040_plus",
+      "label": "Zephyr board definition (rp2040_plus)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/waveshare/rp2040_plus/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "micropython:waveshare_rp2040_plus",
+      "label": "MicroPython board definition (WAVESHARE_RP2040_PLUS)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/rp2/boards/WAVESHARE_RP2040_PLUS/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

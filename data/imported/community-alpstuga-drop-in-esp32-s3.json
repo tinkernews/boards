@@ -1,0 +1,99 @@
+{
+  "slug": "community-alpstuga-drop-in-esp32-s3",
+  "name": "ALPSTUGA Drop-In ESP32-S3",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "community",
+  "chip": "esp32-s3",
+  "ids": {
+    "circuitpython": [
+      "ikea_alpstuga_esp32_s3"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/ikea_alpstuga_esp32_s3/",
+      "source": "circuitpython:ikea_alpstuga_esp32_s3"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:ikea_alpstuga_esp32_s3",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "BUTTON",
+          "BOOT0",
+          "D0"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "SDA",
+          "D3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "SCL",
+          "D4"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "BUTTON_1",
+          "D5"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "BUTTON_2",
+          "D6"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "BUTTON_3",
+          "D8"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "LED",
+          "D9"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "NEOPIXEL"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:ikea_alpstuga_esp32_s3",
+      "label": "CircuitPython board definition (ikea_alpstuga_esp32_s3)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/ikea_alpstuga_esp32_s3.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:ikea_alpstuga_esp32_s3",
+      "label": "CircuitPython pin definitions (ikea_alpstuga_esp32_s3)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/ikea_alpstuga_esp32_s3/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

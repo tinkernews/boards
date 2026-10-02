@@ -1,0 +1,57 @@
+{
+  "slug": "arduino-uno-r4-wifi",
+  "name": "Arduino Uno R4 WiFi",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "chip": "ra4m1",
+  "ids": {
+    "platformio": [
+      "uno_r4_wifi"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "Renesas RA4M1",
+      "source": "platformio:uno_r4_wifi"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:uno_r4_wifi"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:uno_r4_wifi"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:uno_r4_wifi"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Arduino Uno R4 WiFi product page",
+      "url": "https://docs.arduino.cc/hardware/uno-r4-wifi"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/renesas-ra/uno_r4_wifi.html",
+      "source": "platformio:uno_r4_wifi"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:uno_r4_wifi",
+      "label": "PlatformIO board definition (uno_r4_wifi)",
+      "url": "https://github.com/platformio/platform-renesas-ra/blob/7a2c1bcc52622fc8e123fc704c50b11c984a29de/boards/uno_r4_wifi.json",
+      "kind": "import",
+      "revision": "7a2c1bcc52622fc8e123fc704c50b11c984a29de"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

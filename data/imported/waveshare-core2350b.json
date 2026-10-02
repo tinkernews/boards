@@ -1,0 +1,45 @@
+{
+  "slug": "waveshare-core2350b",
+  "name": "Waveshare Core2350B",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "waveshare",
+  "chip": "rp2350",
+  "ids": {
+    "zephyr": [
+      "core2350b"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "RP2350",
+      "source": "zephyr:core2350b"
+    },
+    "ram": {
+      "value": "520 KB",
+      "source": "zephyr:core2350b"
+    },
+    "flash": {
+      "value": "16 MB",
+      "source": "zephyr:core2350b"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/waveshare/core2350b/doc/index.html",
+      "source": "zephyr:core2350b"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:core2350b",
+      "label": "Zephyr board definition (core2350b)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/waveshare/core2350b/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

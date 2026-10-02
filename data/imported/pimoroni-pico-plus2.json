@@ -1,0 +1,323 @@
+{
+  "slug": "pimoroni-pico-plus2",
+  "name": "Pimoroni Pico Plus2",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "pimoroni",
+  "chip": "rp2350",
+  "aliases": [
+    "Pico Plus2"
+  ],
+  "ids": {
+    "zephyr": [
+      "pico_plus2"
+    ],
+    "circuitpython": [
+      "pimoroni_pico_plus2"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "RP2350",
+      "source": "zephyr:pico_plus2"
+    },
+    "ram": {
+      "value": "8192 KB",
+      "source": "zephyr:pico_plus2"
+    },
+    "flash": {
+      "value": "16 MB",
+      "source": "zephyr:pico_plus2"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/pimoroni/pico_plus2/doc/index.html",
+      "source": "zephyr:pico_plus2"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/pimoroni_pico_plus2/",
+      "source": "circuitpython:pimoroni_pico_plus2"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:pimoroni_pico_plus2",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "GP0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "GP1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "GP2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "GP3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "GP4"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "GP5"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "GP6"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "GP7"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "GP8"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "GP9"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "GP10"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "GP11"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "GP12"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "GP13"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "GP14"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "GP15"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "GP16"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "GP17"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "GP18"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "GP19"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "GP20"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "GP21"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "GP22"
+        ]
+      },
+      {
+        "pin": "GPIO24",
+        "names": [
+          "VBUS_SENSE",
+          "GP24"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "LED",
+          "GP25"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "GP26"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "GP27"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "GP28"
+        ]
+      },
+      {
+        "pin": "GPIO32",
+        "names": [
+          "SPCE_MISO",
+          "MISO",
+          "GP32"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "SPCE_CS",
+          "GP33"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "SPCE_SCK",
+          "SCK",
+          "GP34"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "SPCE_MOSI",
+          "MOSI",
+          "GP35"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "SPCE_BL",
+          "GP36",
+          "TFT_BACKLIGHT"
+        ]
+      },
+      {
+        "pin": "GPIO40",
+        "names": [
+          "GP40_A0",
+          "GP40",
+          "A0"
+        ]
+      },
+      {
+        "pin": "GPIO41",
+        "names": [
+          "GP41_A1",
+          "GP41",
+          "A1"
+        ]
+      },
+      {
+        "pin": "GPIO42",
+        "names": [
+          "GP42_A2",
+          "GP42",
+          "A2"
+        ]
+      },
+      {
+        "pin": "GPIO43",
+        "names": [
+          "A3",
+          "VOLTAGE_MONITOR"
+        ]
+      },
+      {
+        "pin": "GPIO45",
+        "names": [
+          "USER_SW",
+          "BUTTON"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "zephyr:pico_plus2",
+      "label": "Zephyr board definition (pico_plus2)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/pimoroni/pico_plus2/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "circuitpython:pimoroni_pico_plus2",
+      "label": "CircuitPython board definition (pimoroni_pico_plus2)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/pimoroni_pico_plus2.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:pimoroni_pico_plus2",
+      "label": "CircuitPython pin definitions (pimoroni_pico_plus2)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/pimoroni_pico_plus2/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

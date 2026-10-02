@@ -1,0 +1,59 @@
+{
+  "slug": "ttgo-t-oi-plus-risc-v-esp32-c3",
+  "name": "TTGO T-OI PLUS RISC-V ESP32-C3",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "lilygo",
+  "chip": "esp32-c3",
+  "ids": {
+    "platformio": [
+      "ttgo-t-oi-plus"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-C3",
+      "source": "platformio:ttgo-t-oi-plus"
+    },
+    "clock": {
+      "value": "160 MHz",
+      "source": "platformio:ttgo-t-oi-plus"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:ttgo-t-oi-plus"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "TTGO T-OI PLUS RISC-V ESP32-C3 product page",
+      "url": "http://www.lilygo.cn/prod_view.aspx?TypeId=50044&Id=1361&FId=t3:50044:3"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/ttgo-t-oi-plus.html",
+      "source": "platformio:ttgo-t-oi-plus"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/ttgo-t-oi-plus.html",
+      "source": "platformio:ttgo-t-oi-plus"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:ttgo-t-oi-plus",
+      "label": "PlatformIO board definition (ttgo-t-oi-plus)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/ttgo-t-oi-plus.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

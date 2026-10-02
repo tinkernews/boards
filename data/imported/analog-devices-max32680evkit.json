@@ -1,0 +1,44 @@
+{
+  "slug": "analog-devices-max32680evkit",
+  "name": "MAX32680EVKIT",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "analog-devices",
+  "ids": {
+    "zephyr": [
+      "max32680evkit"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MAX32680",
+      "source": "zephyr:max32680evkit"
+    },
+    "ram": {
+      "value": "48 KB",
+      "source": "zephyr:max32680evkit"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:max32680evkit"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/adi/max32680evkit/doc/index.html",
+      "source": "zephyr:max32680evkit"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:max32680evkit",
+      "label": "Zephyr board definition (max32680evkit)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/adi/max32680evkit/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

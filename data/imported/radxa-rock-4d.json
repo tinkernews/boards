@@ -1,0 +1,32 @@
+{
+  "slug": "radxa-rock-4d",
+  "name": "Radxa Rock 4D",
+  "tier": "imported",
+  "kind": "sbc",
+  "maker": "radxa",
+  "released": "2024",
+  "ids": {
+    "armbian": [
+      "radxa-rock-4d"
+    ]
+  },
+  "software": [
+    {
+      "platform": "armbian",
+      "status": "supported",
+      "note": "Supported by Armbian.",
+      "url": "https://github.com/armbian/build/blob/main/config/boards/radxa-rock-4d.conf",
+      "source": "armbian:radxa-rock-4d"
+    }
+  ],
+  "sources": [
+    {
+      "id": "armbian:radxa-rock-4d",
+      "label": "Armbian board configuration (radxa-rock-4d)",
+      "url": "https://github.com/armbian/build/blob/da85daa05bd260d04dac50315d7317207fd998b3/config/boards/radxa-rock-4d.conf",
+      "kind": "import",
+      "revision": "da85daa05bd260d04dac50315d7317207fd998b3"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "seeed-studio-reterminal-e1001",
+  "name": "reTerminal E1001",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "seeed",
+  "chip": "esp32-s3",
+  "ids": {
+    "zephyr": [
+      "reterminal_e1001"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-S3",
+      "source": "zephyr:reterminal_e1001"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/seeed/reterminal_e1001/doc/index.html",
+      "source": "zephyr:reterminal_e1001"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:reterminal_e1001",
+      "label": "Zephyr board definition (reterminal_e1001)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/seeed/reterminal_e1001/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

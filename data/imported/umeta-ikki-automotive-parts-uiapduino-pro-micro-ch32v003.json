@@ -1,0 +1,44 @@
+{
+  "slug": "umeta-ikki-automotive-parts-uiapduino-pro-micro-ch32v003",
+  "name": "UIAPduino Pro Micro CH32V003",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "umeta-ikki-automotive-parts",
+  "ids": {
+    "zephyr": [
+      "uiapduino_pro_micro_ch32v003"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "CH32V003",
+      "source": "zephyr:uiapduino_pro_micro_ch32v003"
+    },
+    "ram": {
+      "value": "2 KB",
+      "source": "zephyr:uiapduino_pro_micro_ch32v003"
+    },
+    "flash": {
+      "value": "16 KB",
+      "source": "zephyr:uiapduino_pro_micro_ch32v003"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/uiap/uiapduino_pro_micro_ch32v003/doc/index.html",
+      "source": "zephyr:uiapduino_pro_micro_ch32v003"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:uiapduino_pro_micro_ch32v003",
+      "label": "Zephyr board definition (uiapduino_pro_micro_ch32v003)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/uiap/uiapduino_pro_micro_ch32v003/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

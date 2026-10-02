@@ -1,0 +1,59 @@
+{
+  "slug": "inex-openkb",
+  "name": "INEX OpenKB",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "inex",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "inex_openkb"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:inex_openkb"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:inex_openkb"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:inex_openkb"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "INEX OpenKB product page",
+      "url": "https://inex.co.th/home/product/openkb/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/inex_openkb.html",
+      "source": "platformio:inex_openkb"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/inex_openkb.html",
+      "source": "platformio:inex_openkb"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:inex_openkb",
+      "label": "PlatformIO board definition (inex_openkb)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/inex_openkb.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "arduino-opta-m4-core",
+  "name": "Arduino Opta (M4 core)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "ids": {
+    "platformio": [
+      "opta_m4"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32H747XIH6",
+      "source": "platformio:opta_m4"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:opta_m4"
+    },
+    "clock": {
+      "value": "480 MHz",
+      "source": "platformio:opta_m4"
+    },
+    "upload_limits": {
+      "value": "1 MB flash, 287.35 KB RAM",
+      "source": "platformio:opta_m4"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Arduino Opta (M4 core) product page",
+      "url": "https://www.arduino.cc/pro/hardware-arduino-opta"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/opta_m4.html",
+      "source": "platformio:opta_m4"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:opta_m4",
+      "label": "PlatformIO board definition (opta_m4)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/opta_m4.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

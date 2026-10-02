@@ -1,0 +1,30 @@
+{
+  "slug": "zephyr-native-sim",
+  "name": "Zephyr Native Sim",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "zephyr",
+  "ids": {
+    "circuitpython": [
+      "native_native_sim"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/native_native_sim/",
+      "source": "circuitpython:native_native_sim"
+    }
+  ],
+  "sources": [
+    {
+      "id": "circuitpython:native_native_sim",
+      "label": "CircuitPython board definition (native_native_sim)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/native_native_sim.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "we-proteus-ii-ev",
+  "name": "Proteus-II-EV",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "we",
+  "chip": "nrf52832",
+  "ids": {
+    "zephyr": [
+      "we_proteus2ev"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52832",
+      "source": "zephyr:we_proteus2ev"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:we_proteus2ev"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:we_proteus2ev"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/we/proteus2ev/doc/index.html",
+      "source": "zephyr:we_proteus2ev"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:we_proteus2ev",
+      "label": "Zephyr board definition (we_proteus2ev)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/we/proteus2ev/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

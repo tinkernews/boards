@@ -1,0 +1,163 @@
+{
+  "slug": "m5stack-m5stickc-esp32-pico-mini-iot",
+  "name": "M5StickC ESP32-PICO Mini IoT",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "m5stack",
+  "chip": "esp32",
+  "ids": {
+    "circuitpython": [
+      "m5stack_stick_c"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/m5stack_stick_c/",
+      "source": "circuitpython:m5stack_stick_c"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:m5stack_stick_c",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "A0",
+          "D0",
+          "PDM_MIC_CLK"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "LCD_CS"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "IR_LED"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "LED"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "LCD_CLK"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "LCD_MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "LCD_RST"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "SYS_SDA"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "SYS_SCL"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "LCD_DC"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "A26",
+          "D26"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "PMU_N_VBUSEN"
+        ]
+      },
+      {
+        "pin": "GPIO32",
+        "names": [
+          "PORTA_SDA",
+          "D32"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "PORTA_SCL",
+          "D33"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "PDM_MIC_DATA"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "SYS_INT"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "A36",
+          "D36"
+        ]
+      },
+      {
+        "pin": "GPIO37",
+        "names": [
+          "BTN_A"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "BTN_B"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:m5stack_stick_c",
+      "label": "CircuitPython board definition (m5stack_stick_c)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/m5stack_stick_c.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:m5stack_stick_c",
+      "label": "CircuitPython pin definitions (m5stack_stick_c)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/m5stack_stick_c/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

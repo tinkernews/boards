@@ -1,0 +1,84 @@
+{
+  "slug": "nordic-nrf52-dk",
+  "name": "Nordic nRF52-DK",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nordic-semiconductor",
+  "chip": "nrf52832",
+  "aliases": [
+    "nRF52 DK"
+  ],
+  "ids": {
+    "platformio": [
+      "nrf52_dk"
+    ],
+    "zephyr": [
+      "nrf52dk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52832",
+      "source": "platformio:nrf52_dk"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:nrf52_dk"
+    },
+    "clock": {
+      "value": "64 MHz",
+      "source": "platformio:nrf52_dk"
+    },
+    "upload_limits": {
+      "value": "512 KB flash, 64 KB RAM",
+      "source": "platformio:nrf52_dk"
+    },
+    "ram": {
+      "value": "24 KB",
+      "source": "zephyr:nrf52dk"
+    },
+    "flash": {
+      "value": "192 KB",
+      "source": "zephyr:nrf52dk"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Nordic nRF52-DK product page",
+      "url": "https://developer.mbed.org/platforms/Nordic-nRF52-DK/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/nordicnrf52/nrf52_dk.html",
+      "source": "platformio:nrf52_dk"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nordic/nrf52dk/doc/index.html",
+      "source": "zephyr:nrf52dk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:nrf52_dk",
+      "label": "PlatformIO board definition (nrf52_dk)",
+      "url": "https://github.com/platformio/platform-nordicnrf52/blob/278176a7f7ffe2d001eb93eafa271c83b38222e4/boards/nrf52_dk.json",
+      "kind": "import",
+      "revision": "278176a7f7ffe2d001eb93eafa271c83b38222e4"
+    },
+    {
+      "id": "zephyr:nrf52dk",
+      "label": "Zephyr board definition (nrf52dk)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nordic/nrf52dk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

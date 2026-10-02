@@ -1,0 +1,44 @@
+{
+  "slug": "nordic-semiconductor-nrf54lm20-dk",
+  "name": "nRF54LM20 DK",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nordic-semiconductor",
+  "ids": {
+    "zephyr": [
+      "nrf54lm20dk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "NRF54LM20A",
+      "source": "zephyr:nrf54lm20dk"
+    },
+    "ram": {
+      "value": "511 KB",
+      "source": "zephyr:nrf54lm20dk"
+    },
+    "flash": {
+      "value": "968 KB",
+      "source": "zephyr:nrf54lm20dk"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nordic/nrf54lm20dk/doc/index.html",
+      "source": "zephyr:nrf54lm20dk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:nrf54lm20dk",
+      "label": "Zephyr board definition (nrf54lm20dk)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nordic/nrf54lm20dk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

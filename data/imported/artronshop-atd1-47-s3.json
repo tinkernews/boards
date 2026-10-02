@@ -1,0 +1,59 @@
+{
+  "slug": "artronshop-atd1-47-s3",
+  "name": "ArtronShop ATD1.47-S3",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "artronshop",
+  "chip": "esp32-s3",
+  "ids": {
+    "platformio": [
+      "atd147_s3"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-S3",
+      "source": "platformio:atd147_s3"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:atd147_s3"
+    },
+    "upload_limits": {
+      "value": "8 MB flash, 320 KB RAM",
+      "source": "platformio:atd147_s3"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ArtronShop ATD1.47-S3 product page",
+      "url": "https://github.com/ArtronShop"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/atd147_s3.html",
+      "source": "platformio:atd147_s3"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/atd147_s3.html",
+      "source": "platformio:atd147_s3"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:atd147_s3",
+      "label": "PlatformIO board definition (atd147_s3)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/atd147_s3.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

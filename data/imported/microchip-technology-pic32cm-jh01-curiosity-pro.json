@@ -1,0 +1,44 @@
+{
+  "slug": "microchip-technology-pic32cm-jh01-curiosity-pro",
+  "name": "PIC32CM JH01 Curiosity Pro",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "ids": {
+    "zephyr": [
+      "pic32cm_jh01_cpro"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "PIC32CM5164JH01100",
+      "source": "zephyr:pic32cm_jh01_cpro"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:pic32cm_jh01_cpro"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:pic32cm_jh01_cpro"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/microchip/pic32c/pic32cm_jh01_cpro/doc/index.html",
+      "source": "zephyr:pic32cm_jh01_cpro"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:pic32cm_jh01_cpro",
+      "label": "Zephyr board definition (pic32cm_jh01_cpro)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/microchip/pic32c/pic32cm_jh01_cpro/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

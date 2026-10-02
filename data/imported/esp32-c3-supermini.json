@@ -1,0 +1,37 @@
+{
+  "slug": "esp32-c3-supermini",
+  "name": "ESP32-C3-SUPERMINI",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "generic",
+  "chip": "esp32-c3",
+  "ids": {
+    "zephyr": [
+      "esp32c3_supermini"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-C3",
+      "source": "zephyr:esp32c3_supermini"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/others/esp32c3_supermini/doc/index.html",
+      "source": "zephyr:esp32c3_supermini"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:esp32c3_supermini",
+      "label": "Zephyr board definition (esp32c3_supermini)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/others/esp32c3_supermini/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

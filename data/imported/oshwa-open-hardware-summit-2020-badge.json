@@ -1,0 +1,127 @@
+{
+  "slug": "oshwa-open-hardware-summit-2020-badge",
+  "name": "Open Hardware Summit 2020 Badge",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "oshwa",
+  "chip": "nrf52840",
+  "ids": {
+    "circuitpython": [
+      "ohs2020_badge"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/ohs2020_badge/",
+      "source": "circuitpython:ohs2020_badge"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:ohs2020_badge",
+    "list": [
+      {
+        "pin": "P0_02",
+        "names": [
+          "TFT_BACKLIGHT"
+        ]
+      },
+      {
+        "pin": "P0_03",
+        "names": [
+          "BUTTON_SW2"
+        ]
+      },
+      {
+        "pin": "P0_08",
+        "names": [
+          "TFT_DC"
+        ]
+      },
+      {
+        "pin": "P0_11",
+        "names": [
+          "TFT_SCK"
+        ]
+      },
+      {
+        "pin": "P0_12",
+        "names": [
+          "TFT_MOSI"
+        ]
+      },
+      {
+        "pin": "P0_13",
+        "names": [
+          "TFT_RESET"
+        ]
+      },
+      {
+        "pin": "P0_14",
+        "names": [
+          "TFT_CS"
+        ]
+      },
+      {
+        "pin": "P0_17",
+        "names": [
+          "BUTTON_SW3"
+        ]
+      },
+      {
+        "pin": "P0_25",
+        "names": [
+          "MICROPHONE_CLOCK"
+        ]
+      },
+      {
+        "pin": "P0_28",
+        "names": [
+          "MICROPHONE_DATA"
+        ]
+      },
+      {
+        "pin": "P0_29",
+        "names": [
+          "BUTTON_SW1"
+        ]
+      },
+      {
+        "pin": "P1_03",
+        "names": [
+          "BUTTON_SW4"
+        ]
+      },
+      {
+        "pin": "P1_14",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "P1_15",
+        "names": [
+          "SDA"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:ohs2020_badge",
+      "label": "CircuitPython board definition (ohs2020_badge)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/ohs2020_badge.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:ohs2020_badge",
+      "label": "CircuitPython pin definitions (ohs2020_badge)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/nordic/boards/ohs2020_badge/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

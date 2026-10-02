@@ -1,0 +1,125 @@
+{
+  "slug": "arduino-nano-every",
+  "name": "Arduino Nano Every",
+  "tier": "curated",
+  "kind": "mcu",
+  "maker": "arduino",
+  "family": "Arduino",
+  "chip": "atmega4809",
+  "released": "2019",
+  "status": "current",
+  "summary": "The Nano pinout with a 20 MHz ATmega4809: 48 KB of flash and 6 KB of SRAM, in a 5 g board.",
+  "aliases": [
+    "Arduino Nano Every",
+    "Nano Every"
+  ],
+  "ids": {
+    "platformio": [
+      "nano_every"
+    ]
+  },
+  "review": {
+    "status": "draft"
+  },
+  "predecessor": "arduino-nano",
+  "specs": {
+    "chip": {
+      "value": "Microchip ATmega4809",
+      "source": "arduino-docs"
+    },
+    "cpu": {
+      "value": "8-bit AVR (megaAVR 0-series)",
+      "source": "atmega4809"
+    },
+    "clock": {
+      "value": "20 MHz",
+      "source": "arduino-docs"
+    },
+    "ram": {
+      "value": "6 KB SRAM",
+      "source": "atmega4809"
+    },
+    "flash": {
+      "value": "48 KB",
+      "source": "arduino-docs"
+    },
+    "io_voltage": {
+      "value": "5 V",
+      "source": "arduino-datasheet"
+    },
+    "dimensions": {
+      "value": "45 × 18 mm, 5 g",
+      "source": "arduino-docs"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Product documentation, Arduino",
+      "url": "https://docs.arduino.cc/hardware/nano-every/"
+    },
+    {
+      "kind": "datasheet",
+      "label": "Board datasheet",
+      "url": "https://docs.arduino.cc/resources/datasheets/ABX00028-datasheet.pdf"
+    },
+    {
+      "kind": "schematic",
+      "label": "Schematics",
+      "url": "https://docs.arduino.cc/resources/schematics/ABX00028-schematics.pdf"
+    },
+    {
+      "kind": "pinout",
+      "label": "Full pinout",
+      "url": "https://docs.arduino.cc/resources/pinouts/ABX00028-full-pinout.pdf"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Official Arduino core.",
+      "url": "https://docs.arduino.cc/software/ide/",
+      "source": "arduino-docs"
+    }
+  ],
+  "gotchas": [
+    {
+      "title": "Different timers and registers",
+      "text": "The ATmega4809 is a newer AVR family; code that writes ATmega328P timer or port registers directly needs porting.",
+      "source": "atmega4809"
+    },
+    {
+      "title": "5 V logic",
+      "text": "I/O is 5 V. Sensors and modules that run at 3.3 V (most modern ones) need level shifting on their inputs.",
+      "source": "arduino-docs"
+    }
+  ],
+  "commonsFile": "File:Arduino Nano Every.png",
+  "editorial": {
+    "history": "Released in 2019 as the low-cost successor to the Nano, keeping its pinout and 5 V logic.",
+    "today": "A drop-in upgrade for Nano projects that ran out of RAM.",
+    "source": "arduino-docs"
+  },
+  "sources": [
+    {
+      "id": "arduino-docs",
+      "label": "Arduino Nano Every, Arduino documentation",
+      "url": "https://docs.arduino.cc/hardware/nano-every/",
+      "kind": "official"
+    },
+    {
+      "id": "arduino-datasheet",
+      "label": "Arduino Nano Every datasheet (ABX00028)",
+      "url": "https://docs.arduino.cc/resources/datasheets/ABX00028-datasheet.pdf",
+      "kind": "official"
+    },
+    {
+      "id": "atmega4809",
+      "label": "ATmega4809 product page, Microchip",
+      "url": "https://www.microchip.com/en-us/product/ATmega4809",
+      "kind": "official"
+    }
+  ],
+  "updatedAt": "2026-10-01T00:00:00.000Z"
+}

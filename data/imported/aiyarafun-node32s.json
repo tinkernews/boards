@@ -1,0 +1,59 @@
+{
+  "slug": "aiyarafun-node32s",
+  "name": "Node32s",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "aiyarafun",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "node32s"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:node32s"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:node32s"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:node32s"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Node32s product page",
+      "url": "http://www.ayarafun.com"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/node32s.html",
+      "source": "platformio:node32s"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/node32s.html",
+      "source": "platformio:node32s"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:node32s",
+      "label": "PlatformIO board definition (node32s)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/node32s.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

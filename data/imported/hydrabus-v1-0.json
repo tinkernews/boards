@@ -1,0 +1,37 @@
+{
+  "slug": "hydrabus-v1-0",
+  "name": "HydraBus v1.0",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "hydrabus",
+  "ids": {
+    "micropython": [
+      "HYDRABUS"
+    ]
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "HydraBus v1.0 product page",
+      "url": "https://github.com/hydrabus/hydrabus"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/HYDRABUS/",
+      "source": "micropython:hydrabus"
+    }
+  ],
+  "sources": [
+    {
+      "id": "micropython:hydrabus",
+      "label": "MicroPython board definition (HYDRABUS)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/stm32/boards/HYDRABUS/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

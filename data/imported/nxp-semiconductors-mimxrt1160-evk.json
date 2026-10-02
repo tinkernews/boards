@@ -1,0 +1,44 @@
+{
+  "slug": "nxp-semiconductors-mimxrt1160-evk",
+  "name": "MIMXRT1160-EVK",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "ids": {
+    "zephyr": [
+      "mimxrt1160_evk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MIMXRT1166",
+      "source": "zephyr:mimxrt1160_evk"
+    },
+    "ram": {
+      "value": "128 KB",
+      "source": "zephyr:mimxrt1160_evk"
+    },
+    "flash": {
+      "value": "128 KB",
+      "source": "zephyr:mimxrt1160_evk"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nxp/mimxrt1160_evk/doc/index.html",
+      "source": "zephyr:mimxrt1160_evk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:mimxrt1160_evk",
+      "label": "Zephyr board definition (mimxrt1160_evk)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nxp/mimxrt1160_evk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

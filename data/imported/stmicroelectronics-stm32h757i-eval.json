@@ -1,0 +1,44 @@
+{
+  "slug": "stmicroelectronics-stm32h757i-eval",
+  "name": "STM32H757I Eval",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "zephyr": [
+      "stm32h757i_eval"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32H757XX",
+      "source": "zephyr:stm32h757i_eval"
+    },
+    "ram": {
+      "value": "128 KB",
+      "source": "zephyr:stm32h757i_eval"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:stm32h757i_eval"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/stm32h757i_eval/doc/index.html",
+      "source": "zephyr:stm32h757i_eval"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:stm32h757i_eval",
+      "label": "Zephyr board definition (stm32h757i_eval)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/stm32h757i_eval/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

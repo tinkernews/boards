@@ -1,0 +1,76 @@
+{
+  "slug": "stmicroelectronics-st-nucleo-l011k4",
+  "name": "ST Nucleo L011K4",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "aliases": [
+    "Nucleo L011K4"
+  ],
+  "ids": {
+    "platformio": [
+      "nucleo_l011k4"
+    ],
+    "zephyr": [
+      "nucleo_l011k4"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32L011K4T6",
+      "source": "platformio:nucleo_l011k4"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:nucleo_l011k4"
+    },
+    "clock": {
+      "value": "32 MHz",
+      "source": "platformio:nucleo_l011k4"
+    },
+    "upload_limits": {
+      "value": "16 KB flash, 2 KB RAM",
+      "source": "platformio:nucleo_l011k4"
+    },
+    "ram": {
+      "value": "2 KB",
+      "source": "zephyr:nucleo_l011k4"
+    },
+    "flash": {
+      "value": "16 KB",
+      "source": "zephyr:nucleo_l011k4"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ST Nucleo L011K4 product page",
+      "url": "https://www.st.com/en/evaluation-tools/nucleo-l011k4.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/nucleo_l011k4/doc/index.html",
+      "source": "zephyr:nucleo_l011k4"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:nucleo_l011k4",
+      "label": "PlatformIO board definition (nucleo_l011k4)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/nucleo_l011k4.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    },
+    {
+      "id": "zephyr:nucleo_l011k4",
+      "label": "Zephyr board definition (nucleo_l011k4)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/nucleo_l011k4/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

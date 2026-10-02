@@ -1,0 +1,37 @@
+{
+  "slug": "phytec-phyboard-rt1170-development-kit",
+  "name": "phyBOARD-RT1170 Development Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "phytec",
+  "ids": {
+    "micropython": [
+      "PHYBOARD_RT1170"
+    ]
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "phyBOARD-RT1170 Development Kit product page",
+      "url": "https://www.phytec.com/product/phyboard-rt1170-development-kit/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/PHYBOARD_RT1170/",
+      "source": "micropython:phyboard_rt1170"
+    }
+  ],
+  "sources": [
+    {
+      "id": "micropython:phyboard_rt1170",
+      "label": "MicroPython board definition (PHYBOARD_RT1170)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/mimxrt/boards/PHYBOARD_RT1170/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

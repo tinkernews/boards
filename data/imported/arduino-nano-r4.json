@@ -1,0 +1,77 @@
+{
+  "slug": "arduino-nano-r4",
+  "name": "Arduino Nano R4",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "chip": "ra4m1",
+  "ids": {
+    "platformio": [
+      "nano_r4"
+    ],
+    "zephyr": [
+      "arduino_nano_r4"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "Renesas RA4M1",
+      "source": "platformio:nano_r4"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:nano_r4"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:nano_r4"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:nano_r4"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:arduino_nano_r4"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Arduino Nano R4 product page",
+      "url": "https://docs.arduino.cc/hardware/nano-r4/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/renesas-ra/nano_r4.html",
+      "source": "platformio:nano_r4"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/arduino/nano_r4/doc/index.html",
+      "source": "zephyr:arduino_nano_r4"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:nano_r4",
+      "label": "PlatformIO board definition (nano_r4)",
+      "url": "https://github.com/platformio/platform-renesas-ra/blob/7a2c1bcc52622fc8e123fc704c50b11c984a29de/boards/nano_r4.json",
+      "kind": "import",
+      "revision": "7a2c1bcc52622fc8e123fc704c50b11c984a29de"
+    },
+    {
+      "id": "zephyr:arduino_nano_r4",
+      "label": "Zephyr board definition (arduino_nano_r4)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/arduino/nano_r4/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

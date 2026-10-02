@@ -1,0 +1,53 @@
+{
+  "slug": "sparkfun-mega-pro-5v-16mhz",
+  "name": "SparkFun Mega Pro 5V/16MHz",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sparkfun",
+  "chip": "atmega2560",
+  "ids": {
+    "platformio": [
+      "sparkfun_megapro16MHz"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega2560",
+      "source": "platformio:sparkfun_megapro16mhz"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:sparkfun_megapro16mhz"
+    },
+    "upload_limits": {
+      "value": "248 KB flash, 8 KB RAM",
+      "source": "platformio:sparkfun_megapro16mhz"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "SparkFun Mega Pro 5V/16MHz product page",
+      "url": "https://www.sparkfun.com/products/11007"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/sparkfun_megapro16MHz.html",
+      "source": "platformio:sparkfun_megapro16mhz"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:sparkfun_megapro16mhz",
+      "label": "PlatformIO board definition (sparkfun_megapro16MHz)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/sparkfun_megapro16MHz.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

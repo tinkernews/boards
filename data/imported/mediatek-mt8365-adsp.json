@@ -1,0 +1,36 @@
+{
+  "slug": "mediatek-mt8365-adsp",
+  "name": "MT8365 ADSP",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "mediatek",
+  "ids": {
+    "zephyr": [
+      "mt8365"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MT8365",
+      "source": "zephyr:mt8365"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/mediatek/mt8365/doc/index.html",
+      "source": "zephyr:mt8365"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:mt8365",
+      "label": "Zephyr board definition (mt8365)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/mediatek/mt8365/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

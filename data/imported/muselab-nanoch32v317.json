@@ -1,0 +1,44 @@
+{
+  "slug": "muselab-nanoch32v317",
+  "name": "MuseLab nanoCH32V317",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "muselab",
+  "ids": {
+    "zephyr": [
+      "nano_ch32v317"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "CH32V317",
+      "source": "zephyr:nano_ch32v317"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:nano_ch32v317"
+    },
+    "flash": {
+      "value": "480 KB",
+      "source": "zephyr:nano_ch32v317"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/muselab/nano_ch32v317/doc/index.html",
+      "source": "zephyr:nano_ch32v317"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:nano_ch32v317",
+      "label": "Zephyr board definition (nano_ch32v317)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/muselab/nano_ch32v317/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "silicon-labs-siwx917y-module-wi-fi-6-and-bluetooth-le",
+  "name": "SiWx917Y Module Wi-Fi 6 and Bluetooth LE Explorer Kit (BRD2708A)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "silicon-labs",
+  "ids": {
+    "zephyr": [
+      "siwx917_ek2708a"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "SIWG917Y111MGABA",
+      "source": "zephyr:siwx917_ek2708a"
+    },
+    "ram": {
+      "value": "191 KB",
+      "source": "zephyr:siwx917_ek2708a"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:siwx917_ek2708a"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/silabs/explorer_kits/siwx917/doc/index.html",
+      "source": "zephyr:siwx917_ek2708a"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:siwx917_ek2708a",
+      "label": "Zephyr board definition (siwx917_ek2708a)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/silabs/explorer_kits/siwx917/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

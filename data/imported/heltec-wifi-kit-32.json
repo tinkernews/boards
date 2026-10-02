@@ -1,0 +1,75 @@
+{
+  "slug": "heltec-wifi-kit-32",
+  "name": "Heltec WiFi Kit 32",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "heltec",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "heltec_wifi_kit_32",
+      "heltec_wifi_kit_32_V3",
+      "heltec_wifi_kit_32_v2"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:heltec_wifi_kit_32"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:heltec_wifi_kit_32"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:heltec_wifi_kit_32"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Heltec WiFi Kit 32 product page",
+      "url": "http://www.heltec.cn/project/wifi-kit-32/?lang=en"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/heltec_wifi_kit_32.html",
+      "source": "platformio:heltec_wifi_kit_32"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/heltec_wifi_kit_32.html",
+      "source": "platformio:heltec_wifi_kit_32"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:heltec_wifi_kit_32",
+      "label": "PlatformIO board definition (heltec_wifi_kit_32)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/heltec_wifi_kit_32.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    },
+    {
+      "id": "platformio:heltec_wifi_kit_32_v3",
+      "label": "PlatformIO board definition (heltec_wifi_kit_32_V3)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/heltec_wifi_kit_32_V3.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    },
+    {
+      "id": "platformio:heltec_wifi_kit_32_v2",
+      "label": "PlatformIO board definition (heltec_wifi_kit_32_v2)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/heltec_wifi_kit_32_v2.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "microchip-technology-mec1501-modular-card-assy6885",
+  "name": "MEC1501 Modular card ASSY6885",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "ids": {
+    "zephyr": [
+      "mec1501modular_assy6885"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MEC1501_HSZ",
+      "source": "zephyr:mec1501modular_assy6885"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:mec1501modular_assy6885"
+    },
+    "flash": {
+      "value": "224 KB",
+      "source": "zephyr:mec1501modular_assy6885"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/microchip/mec1501modular_assy6885/doc/index.html",
+      "source": "zephyr:mec1501modular_assy6885"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:mec1501modular_assy6885",
+      "label": "Zephyr board definition (mec1501modular_assy6885)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/microchip/mec1501modular_assy6885/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

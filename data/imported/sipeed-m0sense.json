@@ -1,0 +1,44 @@
+{
+  "slug": "sipeed-m0sense",
+  "name": "Sipeed M0Sense",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sipeed",
+  "ids": {
+    "zephyr": [
+      "m0sense"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "BL702SA0Q2I",
+      "source": "zephyr:m0sense"
+    },
+    "ram": {
+      "value": "88 KB",
+      "source": "zephyr:m0sense"
+    },
+    "flash": {
+      "value": "376 KB",
+      "source": "zephyr:m0sense"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/sipeed/m0sense/doc/index.html",
+      "source": "zephyr:m0sense"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:m0sense",
+      "label": "Zephyr board definition (m0sense)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/sipeed/m0sense/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

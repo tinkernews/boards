@@ -1,0 +1,36 @@
+{
+  "slug": "renesas-starter-kit-for-rz-t2l",
+  "name": "Renesas Starter Kit+ for RZ/T2L",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "renesas",
+  "ids": {
+    "zephyr": [
+      "rzt2l_rsk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "R9A07G074M04GBG",
+      "source": "zephyr:rzt2l_rsk"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/renesas/rzt2l_rsk/doc/index.html",
+      "source": "zephyr:rzt2l_rsk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:rzt2l_rsk",
+      "label": "Zephyr board definition (rzt2l_rsk)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/renesas/rzt2l_rsk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

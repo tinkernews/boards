@@ -1,0 +1,37 @@
+{
+  "slug": "arduino-primo",
+  "name": "Primo",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "ids": {
+    "micropython": [
+      "ARDUINO_PRIMO"
+    ]
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Primo product page",
+      "url": "https://docs.arduino.cc/retired/boards/arduino-primo/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/ARDUINO_PRIMO/",
+      "source": "micropython:arduino_primo"
+    }
+  ],
+  "sources": [
+    {
+      "id": "micropython:arduino_primo",
+      "label": "MicroPython board definition (ARDUINO_PRIMO)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/nrf/boards/ARDUINO_PRIMO/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

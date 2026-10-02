@@ -1,0 +1,251 @@
+{
+  "slug": "vcc-gnd-studio-yd-esp32-s3-n16r8",
+  "name": "YD-ESP32-S3 N16R8",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "vcc-gnd-studio",
+  "chip": "esp32-s3",
+  "ids": {
+    "circuitpython": [
+      "yd_esp32_s3_n16r8"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/yd_esp32_s3_n16r8/",
+      "source": "circuitpython:yd_esp32_s3_n16r8"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:yd_esp32_s3_n16r8",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "GPIO0",
+          "BOOT"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "GPIO1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "GPIO2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "GPIO3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "GPIO4"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "GPIO5"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "GPIO6"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "GPIO7"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "GPIO8"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "GPIO9"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "GPIO10"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "GPIO11"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "GPIO12"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "GPIO13"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "GPIO14"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "GPIO15"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "GPIO16"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "GPIO17"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "GPIO18"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "GPIO21"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "GPIO35"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "GPIO36"
+        ]
+      },
+      {
+        "pin": "GPIO37",
+        "names": [
+          "GPIO37"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "GPIO38"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "GPIO39"
+        ]
+      },
+      {
+        "pin": "GPIO40",
+        "names": [
+          "GPIO40"
+        ]
+      },
+      {
+        "pin": "GPIO41",
+        "names": [
+          "GPIO41"
+        ]
+      },
+      {
+        "pin": "GPIO42",
+        "names": [
+          "GPIO42"
+        ]
+      },
+      {
+        "pin": "GPIO43",
+        "names": [
+          "GPIO43",
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO44",
+        "names": [
+          "GPIO44",
+          "RX"
+        ]
+      },
+      {
+        "pin": "GPIO45",
+        "names": [
+          "GPIO45"
+        ]
+      },
+      {
+        "pin": "GPIO46",
+        "names": [
+          "GPIO46"
+        ]
+      },
+      {
+        "pin": "GPIO47",
+        "names": [
+          "GPIO47"
+        ]
+      },
+      {
+        "pin": "GPIO48",
+        "names": [
+          "GPIO48",
+          "NEOPIXEL"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:yd_esp32_s3_n16r8",
+      "label": "CircuitPython board definition (yd_esp32_s3_n16r8)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/yd_esp32_s3_n16r8.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:yd_esp32_s3_n16r8",
+      "label": "CircuitPython pin definitions (yd_esp32_s3_n16r8)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/yd_esp32_s3_n16r8/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

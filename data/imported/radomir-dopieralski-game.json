@@ -1,0 +1,145 @@
+{
+  "slug": "radomir-dopieralski-game",
+  "name": "µGame",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "radomir-dopieralski",
+  "chip": "atsamd21g18",
+  "ids": {
+    "circuitpython": [
+      "ugame10"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/ugame10/",
+      "source": "circuitpython:ugame10"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:ugame10",
+    "list": [
+      {
+        "pin": "PA00",
+        "names": [
+          "X"
+        ]
+      },
+      {
+        "pin": "PA01",
+        "names": [
+          "O"
+        ]
+      },
+      {
+        "pin": "PA02",
+        "names": [
+          "SPEAKER"
+        ]
+      },
+      {
+        "pin": "PA03",
+        "names": [
+          "UP"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "LEFT"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "RIGHT"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "PA08",
+        "names": [
+          "CS"
+        ]
+      },
+      {
+        "pin": "PA09",
+        "names": [
+          "DC"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "BATTERY"
+        ]
+      },
+      {
+        "pin": "PA11",
+        "names": [
+          "A"
+        ]
+      },
+      {
+        "pin": "PA14",
+        "names": [
+          "B"
+        ]
+      },
+      {
+        "pin": "PA15",
+        "names": [
+          "C"
+        ]
+      },
+      {
+        "pin": "PA22",
+        "names": [
+          "DOWN"
+        ]
+      },
+      {
+        "pin": "PA23",
+        "names": [
+          "MUTE"
+        ]
+      },
+      {
+        "pin": "PA28",
+        "names": [
+          "D"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:ugame10",
+      "label": "CircuitPython board definition (ugame10)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/ugame10.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:ugame10",
+      "label": "CircuitPython pin definitions (ugame10)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/ugame10/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

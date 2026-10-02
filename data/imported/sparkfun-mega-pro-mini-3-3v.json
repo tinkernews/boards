@@ -1,0 +1,53 @@
+{
+  "slug": "sparkfun-mega-pro-mini-3-3v",
+  "name": "SparkFun Mega Pro Mini 3.3V",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sparkfun",
+  "chip": "atmega2560",
+  "ids": {
+    "platformio": [
+      "sparkfun_megamini"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega2560",
+      "source": "platformio:sparkfun_megamini"
+    },
+    "clock": {
+      "value": "8 MHz",
+      "source": "platformio:sparkfun_megamini"
+    },
+    "upload_limits": {
+      "value": "252 KB flash, 8 KB RAM",
+      "source": "platformio:sparkfun_megamini"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "SparkFun Mega Pro Mini 3.3V product page",
+      "url": "https://www.sparkfun.com/products/10743"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/sparkfun_megamini.html",
+      "source": "platformio:sparkfun_megamini"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:sparkfun_megamini",
+      "label": "PlatformIO board definition (sparkfun_megamini)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/sparkfun_megamini.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

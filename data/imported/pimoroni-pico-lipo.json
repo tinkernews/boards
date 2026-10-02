@@ -1,0 +1,38 @@
+{
+  "slug": "pimoroni-pico-lipo",
+  "name": "Pico LiPo",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "pimoroni",
+  "chip": "rp2040",
+  "ids": {
+    "micropython": [
+      "PIMORONI_PICOLIPO"
+    ]
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Pico LiPo product page",
+      "url": "https://shop.pimoroni.com/products/pimoroni-pico-lipo"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/PIMORONI_PICOLIPO/",
+      "source": "micropython:pimoroni_picolipo"
+    }
+  ],
+  "sources": [
+    {
+      "id": "micropython:pimoroni_picolipo",
+      "label": "MicroPython board definition (PIMORONI_PICOLIPO)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/rp2/boards/PIMORONI_PICOLIPO/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

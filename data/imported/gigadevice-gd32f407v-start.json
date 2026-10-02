@@ -1,0 +1,44 @@
+{
+  "slug": "gigadevice-gd32f407v-start",
+  "name": "GD32F407V-START",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "gigadevice",
+  "ids": {
+    "zephyr": [
+      "gd32f407v_start"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "GD32F407",
+      "source": "zephyr:gd32f407v_start"
+    },
+    "ram": {
+      "value": "192 KB",
+      "source": "zephyr:gd32f407v_start"
+    },
+    "flash": {
+      "value": "3 MB",
+      "source": "zephyr:gd32f407v_start"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/gd/gd32f407v_start/doc/index.html",
+      "source": "zephyr:gd32f407v_start"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:gd32f407v_start",
+      "label": "Zephyr board definition (gd32f407v_start)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/gd/gd32f407v_start/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

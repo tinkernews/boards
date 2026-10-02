@@ -1,0 +1,59 @@
+{
+  "slug": "airm2m-core-esp32c3",
+  "name": "AirM2M CORE ESP32C3",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "airm2m",
+  "chip": "esp32-c3",
+  "ids": {
+    "platformio": [
+      "airm2m_core_esp32c3"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-C3",
+      "source": "platformio:airm2m_core_esp32c3"
+    },
+    "clock": {
+      "value": "160 MHz",
+      "source": "platformio:airm2m_core_esp32c3"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:airm2m_core_esp32c3"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "AirM2M CORE ESP32C3 product page",
+      "url": "https://wiki.luatos.com/chips/esp32c3/board.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/airm2m_core_esp32c3.html",
+      "source": "platformio:airm2m_core_esp32c3"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/airm2m_core_esp32c3.html",
+      "source": "platformio:airm2m_core_esp32c3"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:airm2m_core_esp32c3",
+      "label": "PlatformIO board definition (airm2m_core_esp32c3)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/airm2m_core_esp32c3.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

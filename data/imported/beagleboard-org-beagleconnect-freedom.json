@@ -1,0 +1,44 @@
+{
+  "slug": "beagleboard-org-beagleconnect-freedom",
+  "name": "BeagleConnect Freedom",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "beagleboard",
+  "ids": {
+    "zephyr": [
+      "beagleconnect_freedom"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "CC1352P",
+      "source": "zephyr:beagleconnect_freedom"
+    },
+    "ram": {
+      "value": "144 KB",
+      "source": "zephyr:beagleconnect_freedom"
+    },
+    "flash": {
+      "value": "704 KB",
+      "source": "zephyr:beagleconnect_freedom"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/beagle/beagleconnect_freedom/doc/index.html",
+      "source": "zephyr:beagleconnect_freedom"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:beagleconnect_freedom",
+      "label": "Zephyr board definition (beagleconnect_freedom)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/beagle/beagleconnect_freedom/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "amd-zynq-ultrascale-mpsoc-apu",
+  "name": "AMD Zynq UltraScale+ MPSoC APU",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "advanced-micro-devices-amd",
+  "ids": {
+    "zephyr": [
+      "zynqmp_apu"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ZYNQMP_APU",
+      "source": "zephyr:zynqmp_apu"
+    },
+    "ram": {
+      "value": "2097152 KB",
+      "source": "zephyr:zynqmp_apu"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/amd/zynqmp_apu/doc/index.html",
+      "source": "zephyr:zynqmp_apu"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:zynqmp_apu",
+      "label": "Zephyr board definition (zynqmp_apu)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/amd/zynqmp_apu/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

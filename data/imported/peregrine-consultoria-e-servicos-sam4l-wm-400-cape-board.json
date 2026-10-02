@@ -1,0 +1,44 @@
+{
+  "slug": "peregrine-consultoria-e-servicos-sam4l-wm-400-cape-board",
+  "name": "SAM4L WM-400 Cape Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "peregrine-consultoria-e-servicos",
+  "ids": {
+    "zephyr": [
+      "sam4l_wm400_cape"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "SAM4LC4B",
+      "source": "zephyr:sam4l_wm400_cape"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:sam4l_wm400_cape"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:sam4l_wm400_cape"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/peregrine/sam4l_wm400_cape/doc/index.html",
+      "source": "zephyr:sam4l_wm400_cape"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:sam4l_wm400_cape",
+      "label": "Zephyr board definition (sam4l_wm400_cape)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/peregrine/sam4l_wm400_cape/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "dragino-nbsn95-nb-iot-sensor-node",
+  "name": "NBSN95 NB-IoT Sensor Node",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "dragino",
+  "ids": {
+    "zephyr": [
+      "dragino_nbsn95"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32L072XX",
+      "source": "zephyr:dragino_nbsn95"
+    },
+    "ram": {
+      "value": "20 KB",
+      "source": "zephyr:dragino_nbsn95"
+    },
+    "flash": {
+      "value": "192 KB",
+      "source": "zephyr:dragino_nbsn95"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/dragino/nbsn95/doc/index.html",
+      "source": "zephyr:dragino_nbsn95"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:dragino_nbsn95",
+      "label": "Zephyr board definition (dragino_nbsn95)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/dragino/nbsn95/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

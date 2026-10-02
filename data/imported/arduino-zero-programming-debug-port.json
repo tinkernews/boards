@@ -1,0 +1,57 @@
+{
+  "slug": "arduino-zero-programming-debug-port",
+  "name": "Arduino Zero (Programming/Debug Port)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "chip": "atsamd21g18",
+  "ids": {
+    "platformio": [
+      "zero"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAMD21G18",
+      "source": "platformio:zero"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:zero"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:zero"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:zero"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Arduino Zero (Programming/Debug Port) product page",
+      "url": "https://www.arduino.cc/en/Main/ArduinoBoardZero"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelsam/zero.html",
+      "source": "platformio:zero"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:zero",
+      "label": "PlatformIO board definition (zero)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/zero.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

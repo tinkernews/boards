@@ -1,0 +1,99 @@
+{
+  "slug": "adafruit-trinkey-qt2040",
+  "name": "Trinkey QT2040",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "rp2040",
+  "ids": {
+    "zephyr": [
+      "adafruit_trinkey_qt2040"
+    ],
+    "circuitpython": [
+      "adafruit_qt2040_trinkey"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "RP2040",
+      "source": "zephyr:adafruit_trinkey_qt2040"
+    },
+    "ram": {
+      "value": "264 KB",
+      "source": "zephyr:adafruit_trinkey_qt2040"
+    },
+    "flash": {
+      "value": "8 MB",
+      "source": "zephyr:adafruit_trinkey_qt2040"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/adafruit/trinkey_qt2040/doc/index.html",
+      "source": "zephyr:adafruit_trinkey_qt2040"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/adafruit_qt2040_trinkey/",
+      "source": "circuitpython:adafruit_qt2040_trinkey"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:adafruit_qt2040_trinkey",
+    "list": [
+      {
+        "pin": "GPIO12",
+        "names": [
+          "BUTTON"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "SDA",
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "SCL",
+          "RX"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "NEOPIXEL"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "zephyr:adafruit_trinkey_qt2040",
+      "label": "Zephyr board definition (adafruit_trinkey_qt2040)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/adafruit/trinkey_qt2040/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "circuitpython:adafruit_qt2040_trinkey",
+      "label": "CircuitPython board definition (adafruit_qt2040_trinkey)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/adafruit_qt2040_trinkey.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:adafruit_qt2040_trinkey",
+      "label": "CircuitPython pin definitions (adafruit_qt2040_trinkey)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/adafruit_qt2040_trinkey/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "9tripod-x3568-v4",
+  "name": "X3568 v4",
+  "tier": "imported",
+  "kind": "sbc",
+  "maker": "9tripod",
+  "released": "2024",
+  "ids": {
+    "armbian": [
+      "9tripod-x3568-v4"
+    ],
+    "linux": [
+      "arch/arm64/boot/dts/rockchip/rk3568-9tripod-x3568-v4.dts"
+    ]
+  },
+  "software": [
+    {
+      "platform": "armbian",
+      "status": "community",
+      "note": "Community-maintained in Armbian.",
+      "url": "https://github.com/armbian/build/blob/main/config/boards/9tripod-x3568-v4.csc",
+      "source": "armbian:9tripod-x3568-v4"
+    },
+    {
+      "platform": "linux-mainline",
+      "status": "supported",
+      "note": "A device tree for this board is in the mainline kernel; features may still be missing.",
+      "url": "https://github.com/torvalds/linux/blob/master/arch/arm64/boot/dts/rockchip/rk3568-9tripod-x3568-v4.dts",
+      "source": "linux:rk3568-9tripod-x3568-v4.dts"
+    }
+  ],
+  "sources": [
+    {
+      "id": "armbian:9tripod-x3568-v4",
+      "label": "Armbian board configuration (9tripod-x3568-v4)",
+      "url": "https://github.com/armbian/build/blob/da85daa05bd260d04dac50315d7317207fd998b3/config/boards/9tripod-x3568-v4.csc",
+      "kind": "import",
+      "revision": "da85daa05bd260d04dac50315d7317207fd998b3"
+    },
+    {
+      "id": "linux:rk3568-9tripod-x3568-v4.dts",
+      "label": "Linux kernel device tree (rk3568-9tripod-x3568-v4.dts)",
+      "url": "https://github.com/torvalds/linux/blob/551c722f40809618230001baccf219193e22fc5a/arch/arm64/boot/dts/rockchip/rk3568-9tripod-x3568-v4.dts",
+      "kind": "import",
+      "revision": "551c722f40809618230001baccf219193e22fc5a"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

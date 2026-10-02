@@ -1,0 +1,171 @@
+{
+  "slug": "switch-science-ble-ss-dev-board-multi-sensor",
+  "name": "BLE-SS Dev Board Multi Sensor",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "switch-science",
+  "chip": "nrf52840",
+  "ids": {
+    "circuitpython": [
+      "bless_dev_board_multi_sensor"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/bless_dev_board_multi_sensor/",
+      "source": "circuitpython:bless_dev_board_multi_sensor"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:bless_dev_board_multi_sensor",
+    "list": [
+      {
+        "pin": "P0_02",
+        "names": [
+          "D2",
+          "A0",
+          "RX"
+        ]
+      },
+      {
+        "pin": "P0_03",
+        "names": [
+          "D3",
+          "A1",
+          "TX"
+        ]
+      },
+      {
+        "pin": "P0_04",
+        "names": [
+          "D4",
+          "LED2"
+        ]
+      },
+      {
+        "pin": "P0_05",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "P0_06",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "P0_07",
+        "names": [
+          "D7",
+          "LED1"
+        ]
+      },
+      {
+        "pin": "P0_08",
+        "names": [
+          "D8"
+        ]
+      },
+      {
+        "pin": "P0_09",
+        "names": [
+          "D9"
+        ]
+      },
+      {
+        "pin": "P0_10",
+        "names": [
+          "D10"
+        ]
+      },
+      {
+        "pin": "P0_12",
+        "names": [
+          "D12",
+          "BUTTON2"
+        ]
+      },
+      {
+        "pin": "P0_13",
+        "names": [
+          "MISO"
+        ]
+      },
+      {
+        "pin": "P0_14",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "P0_15",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "P0_23",
+        "names": [
+          "D23"
+        ]
+      },
+      {
+        "pin": "P0_24",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "P0_26",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "P0_28",
+        "names": [
+          "D28"
+        ]
+      },
+      {
+        "pin": "P0_29",
+        "names": [
+          "D29"
+        ]
+      },
+      {
+        "pin": "P0_30",
+        "names": [
+          "D30"
+        ]
+      },
+      {
+        "pin": "P0_31",
+        "names": [
+          "D31",
+          "BUTTON1"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:bless_dev_board_multi_sensor",
+      "label": "CircuitPython board definition (bless_dev_board_multi_sensor)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/bless_dev_board_multi_sensor.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:bless_dev_board_multi_sensor",
+      "label": "CircuitPython pin definitions (bless_dev_board_multi_sensor)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/nordic/boards/bless_dev_board_multi_sensor/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

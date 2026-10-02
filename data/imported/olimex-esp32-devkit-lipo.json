@@ -1,0 +1,59 @@
+{
+  "slug": "olimex-esp32-devkit-lipo",
+  "name": "OLIMEX ESP32-DevKit-LiPo",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "olimex",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "esp32-devkitlipo"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:esp32-devkitlipo"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:esp32-devkitlipo"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:esp32-devkitlipo"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "OLIMEX ESP32-DevKit-LiPo product page",
+      "url": "https://www.olimex.com/Products/IoT/ESP32/ESP32-DevKit-LiPo/open-source-hardware"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/esp32-devkitlipo.html",
+      "source": "platformio:esp32-devkitlipo"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/esp32-devkitlipo.html",
+      "source": "platformio:esp32-devkitlipo"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:esp32-devkitlipo",
+      "label": "PlatformIO board definition (esp32-devkitlipo)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/esp32-devkitlipo.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

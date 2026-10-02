@@ -1,0 +1,37 @@
+{
+  "slug": "adafruit-f405-express",
+  "name": "F405 Express",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "ids": {
+    "micropython": [
+      "ADAFRUIT_F405_EXPRESS"
+    ]
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "F405 Express product page",
+      "url": "https://www.adafruit.com/product/4382"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/ADAFRUIT_F405_EXPRESS/",
+      "source": "micropython:adafruit_f405_express"
+    }
+  ],
+  "sources": [
+    {
+      "id": "micropython:adafruit_f405_express",
+      "label": "MicroPython board definition (ADAFRUIT_F405_EXPRESS)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/stm32/boards/ADAFRUIT_F405_EXPRESS/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,172 @@
+{
+  "slug": "switch-science-ssci-isp1807-micro-board",
+  "name": "SSCI ISP1807 Micro Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "switch-science",
+  "chip": "nrf52840",
+  "ids": {
+    "circuitpython": [
+      "ssci_isp1807_micro_board"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/ssci_isp1807_micro_board/",
+      "source": "circuitpython:ssci_isp1807_micro_board"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:ssci_isp1807_micro_board",
+    "list": [
+      {
+        "pin": "P0_02",
+        "names": [
+          "D18",
+          "A0"
+        ]
+      },
+      {
+        "pin": "P0_03",
+        "names": [
+          "D19",
+          "A1"
+        ]
+      },
+      {
+        "pin": "P0_04",
+        "names": [
+          "D20",
+          "A2"
+        ]
+      },
+      {
+        "pin": "P0_05",
+        "names": [
+          "D21",
+          "A3"
+        ]
+      },
+      {
+        "pin": "P0_06",
+        "names": [
+          "D15",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "P0_08",
+        "names": [
+          "D14",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "P0_09",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "P0_10",
+        "names": [
+          "D7"
+        ]
+      },
+      {
+        "pin": "P0_12",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "P0_13",
+        "names": [
+          "D16",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "P0_14",
+        "names": [
+          "D8"
+        ]
+      },
+      {
+        "pin": "P0_17",
+        "names": [
+          "D10"
+        ]
+      },
+      {
+        "pin": "P0_19",
+        "names": [
+          "D0",
+          "RX"
+        ]
+      },
+      {
+        "pin": "P0_23",
+        "names": [
+          "D3",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "P0_26",
+        "names": [
+          "D9"
+        ]
+      },
+      {
+        "pin": "P0_28",
+        "names": [
+          "D4",
+          "A4"
+        ]
+      },
+      {
+        "pin": "P0_29",
+        "names": [
+          "D2",
+          "A5",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "P0_30",
+        "names": [
+          "D1",
+          "A6",
+          "TX"
+        ]
+      },
+      {
+        "pin": "P0_31",
+        "names": [
+          "D17",
+          "LED"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:ssci_isp1807_micro_board",
+      "label": "CircuitPython board definition (ssci_isp1807_micro_board)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/ssci_isp1807_micro_board.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:ssci_isp1807_micro_board",
+      "label": "CircuitPython pin definitions (ssci_isp1807_micro_board)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/nordic/boards/ssci_isp1807_micro_board/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

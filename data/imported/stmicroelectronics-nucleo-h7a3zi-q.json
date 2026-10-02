@@ -1,0 +1,67 @@
+{
+  "slug": "stmicroelectronics-nucleo-h7a3zi-q",
+  "name": "Nucleo H7A3ZI-Q",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "zephyr": [
+      "nucleo_h7a3zi_q"
+    ],
+    "micropython": [
+      "NUCLEO_H7A3ZI_Q"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32H7A3XXQ",
+      "source": "zephyr:nucleo_h7a3zi_q"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:nucleo_h7a3zi_q"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:nucleo_h7a3zi_q"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Nucleo H7A3ZI-Q product page",
+      "url": "https://www.st.com/ja/evaluation-tools/nucleo-h7a3zi-q.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/nucleo_h7a3zi_q/doc/index.html",
+      "source": "zephyr:nucleo_h7a3zi_q"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/NUCLEO_H7A3ZI_Q/",
+      "source": "micropython:nucleo_h7a3zi_q"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:nucleo_h7a3zi_q",
+      "label": "Zephyr board definition (nucleo_h7a3zi_q)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/nucleo_h7a3zi_q/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "micropython:nucleo_h7a3zi_q",
+      "label": "MicroPython board definition (NUCLEO_H7A3ZI_Q)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/stm32/boards/NUCLEO_H7A3ZI_Q/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

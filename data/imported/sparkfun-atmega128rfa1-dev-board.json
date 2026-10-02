@@ -1,0 +1,52 @@
+{
+  "slug": "sparkfun-atmega128rfa1-dev-board",
+  "name": "SparkFun ATmega128RFA1 Dev Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sparkfun",
+  "ids": {
+    "platformio": [
+      "sparkfun_satmega128rfa1"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATMEGA128RFA1",
+      "source": "platformio:sparkfun_satmega128rfa1"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:sparkfun_satmega128rfa1"
+    },
+    "upload_limits": {
+      "value": "124 KB flash, 16 KB RAM",
+      "source": "platformio:sparkfun_satmega128rfa1"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "SparkFun ATmega128RFA1 Dev Board product page",
+      "url": "https://www.sparkfun.com/products/11197"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/sparkfun_satmega128rfa1.html",
+      "source": "platformio:sparkfun_satmega128rfa1"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:sparkfun_satmega128rfa1",
+      "label": "PlatformIO board definition (sparkfun_satmega128rfa1)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/sparkfun_satmega128rfa1.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

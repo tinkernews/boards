@@ -1,0 +1,44 @@
+{
+  "slug": "ezurio-bl54l15-dvk",
+  "name": "BL54L15 DVK",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "ezurio",
+  "ids": {
+    "zephyr": [
+      "bl54l15_dvk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "NRF54L10",
+      "source": "zephyr:bl54l15_dvk"
+    },
+    "ram": {
+      "value": "192 KB",
+      "source": "zephyr:bl54l15_dvk"
+    },
+    "flash": {
+      "value": "1012 KB",
+      "source": "zephyr:bl54l15_dvk"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/ezurio/bl54l15_dvk/doc/index.html",
+      "source": "zephyr:bl54l15_dvk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:bl54l15_dvk",
+      "label": "Zephyr board definition (bl54l15_dvk)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/ezurio/bl54l15_dvk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

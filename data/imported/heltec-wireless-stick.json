@@ -1,0 +1,59 @@
+{
+  "slug": "heltec-wireless-stick",
+  "name": "Heltec Wireless Stick",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "heltec",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "heltec_wireless_stick"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:heltec_wireless_stick"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:heltec_wireless_stick"
+    },
+    "upload_limits": {
+      "value": "8 MB flash, 320 KB RAM",
+      "source": "platformio:heltec_wireless_stick"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Heltec Wireless Stick product page",
+      "url": "http://www.heltec.cn/project/wireless-stick/?lang=en"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/heltec_wireless_stick.html",
+      "source": "platformio:heltec_wireless_stick"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/heltec_wireless_stick.html",
+      "source": "platformio:heltec_wireless_stick"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:heltec_wireless_stick",
+      "label": "PlatformIO board definition (heltec_wireless_stick)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/heltec_wireless_stick.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

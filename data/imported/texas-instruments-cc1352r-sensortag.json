@@ -1,0 +1,44 @@
+{
+  "slug": "texas-instruments-cc1352r-sensortag",
+  "name": "CC1352R SensorTag",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "texas-instruments",
+  "ids": {
+    "zephyr": [
+      "cc1352r_sensortag"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "CC1352R",
+      "source": "zephyr:cc1352r_sensortag"
+    },
+    "ram": {
+      "value": "80 KB",
+      "source": "zephyr:cc1352r_sensortag"
+    },
+    "flash": {
+      "value": "352 KB",
+      "source": "zephyr:cc1352r_sensortag"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/ti/cc1352r_sensortag/doc/index.html",
+      "source": "zephyr:cc1352r_sensortag"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:cc1352r_sensortag",
+      "label": "Zephyr board definition (cc1352r_sensortag)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/ti/cc1352r_sensortag/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

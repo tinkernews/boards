@@ -1,0 +1,52 @@
+{
+  "slug": "sanguino-atmega644-or-atmega644a-16-mhz",
+  "name": "Sanguino ATmega644 or ATmega644A (16 MHz)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sanguino",
+  "ids": {
+    "platformio": [
+      "sanguino_atmega644"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATMEGA644",
+      "source": "platformio:sanguino_atmega644"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:sanguino_atmega644"
+    },
+    "upload_limits": {
+      "value": "63 KB flash, 4 KB RAM",
+      "source": "platformio:sanguino_atmega644"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Sanguino ATmega644 or ATmega644A (16 MHz) product page",
+      "url": "https://github.com/Lauszus/Sanguino"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/sanguino_atmega644.html",
+      "source": "platformio:sanguino_atmega644"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:sanguino_atmega644",
+      "label": "PlatformIO board definition (sanguino_atmega644)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/sanguino_atmega644.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

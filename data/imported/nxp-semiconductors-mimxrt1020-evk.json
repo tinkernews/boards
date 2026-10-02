@@ -1,0 +1,249 @@
+{
+  "slug": "nxp-semiconductors-mimxrt1020-evk",
+  "name": "MIMXRT1020-EVK",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "aliases": [
+    "MIMXRT1020-EVK Eval Kit",
+    "MIMXRT1020_EVK"
+  ],
+  "ids": {
+    "zephyr": [
+      "mimxrt1020_evk"
+    ],
+    "circuitpython": [
+      "imxrt1020_evk"
+    ],
+    "micropython": [
+      "MIMXRT1020_EVK"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MIMXRT1021",
+      "source": "zephyr:mimxrt1020_evk"
+    },
+    "ram": {
+      "value": "32768 KB",
+      "source": "zephyr:mimxrt1020_evk"
+    },
+    "flash": {
+      "value": "8 MB",
+      "source": "zephyr:mimxrt1020_evk"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "MIMXRT1020-EVK product page",
+      "url": "https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/i-mx-rt1020-evaluation-kit:MIMXRT1020-EVK"
+    }
+  ],
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nxp/mimxrt1020_evk/doc/index.html",
+      "source": "zephyr:mimxrt1020_evk"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/MIMXRT1020_EVK/",
+      "source": "micropython:mimxrt1020_evk"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/imxrt1020_evk/",
+      "source": "circuitpython:imxrt1020_evk"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:imxrt1020_evk",
+    "list": [
+      {
+        "pin": "GPIO_AD_B0_04",
+        "names": [
+          "ETHERNET_RST"
+        ]
+      },
+      {
+        "pin": "GPIO_AD_B0_06",
+        "names": [
+          "FREELINK_TX"
+        ]
+      },
+      {
+        "pin": "GPIO_AD_B0_07",
+        "names": [
+          "FREELINK_RX"
+        ]
+      },
+      {
+        "pin": "GPIO_AD_B0_08",
+        "names": [
+          "ETHERNET_CLK"
+        ]
+      },
+      {
+        "pin": "GPIO_AD_B0_09",
+        "names": [
+          "ETHERNET_RXD1"
+        ]
+      },
+      {
+        "pin": "GPIO_AD_B0_10",
+        "names": [
+          "ETHERNET_RXD0"
+        ]
+      },
+      {
+        "pin": "GPIO_AD_B0_11",
+        "names": [
+          "ETHERNET_CRS_DV"
+        ]
+      },
+      {
+        "pin": "GPIO_AD_B0_12",
+        "names": [
+          "ETHERNET_RXER"
+        ]
+      },
+      {
+        "pin": "GPIO_AD_B0_13",
+        "names": [
+          "ETHERNET_TXEN"
+        ]
+      },
+      {
+        "pin": "GPIO_AD_B0_14",
+        "names": [
+          "ETHERNET_TXD0"
+        ]
+      },
+      {
+        "pin": "GPIO_AD_B0_15",
+        "names": [
+          "ETHERNET_TXD1"
+        ]
+      },
+      {
+        "pin": "GPIO_AD_B1_00",
+        "names": [
+          "AUDIO_MCLK"
+        ]
+      },
+      {
+        "pin": "GPIO_AD_B1_01",
+        "names": [
+          "AUDIO_BCLK"
+        ]
+      },
+      {
+        "pin": "GPIO_AD_B1_02",
+        "names": [
+          "AUDIO_SYNC"
+        ]
+      },
+      {
+        "pin": "GPIO_AD_B1_03",
+        "names": [
+          "AUDIO_TXD"
+        ]
+      },
+      {
+        "pin": "GPIO_AD_B1_04",
+        "names": [
+          "AUDIO_INT"
+        ]
+      },
+      {
+        "pin": "GPIO_AD_B1_05",
+        "names": [
+          "AUDIO_RXD"
+        ]
+      },
+      {
+        "pin": "GPIO_AD_B1_06",
+        "names": [
+          "ETHERNET_INT"
+        ]
+      },
+      {
+        "pin": "GPIO_AD_B1_13",
+        "names": [
+          "CAN_STBY"
+        ]
+      },
+      {
+        "pin": "GPIO_EMC_40",
+        "names": [
+          "ETHERNET_MDIO"
+        ]
+      },
+      {
+        "pin": "GPIO_EMC_41",
+        "names": [
+          "ETHERNET_MDC"
+        ]
+      },
+      {
+        "pin": "GPIO_SD_B1_00",
+        "names": [
+          "CAN_TX"
+        ]
+      },
+      {
+        "pin": "GPIO_SD_B1_01",
+        "names": [
+          "CAN_RX"
+        ]
+      },
+      {
+        "pin": "GPIO_SD_B1_02",
+        "names": [
+          "ACCELEROMETER_SCL"
+        ]
+      },
+      {
+        "pin": "GPIO_SD_B1_03",
+        "names": [
+          "ACCELEROMETER_SDA"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "zephyr:mimxrt1020_evk",
+      "label": "Zephyr board definition (mimxrt1020_evk)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nxp/mimxrt1020_evk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "circuitpython:imxrt1020_evk",
+      "label": "CircuitPython board definition (imxrt1020_evk)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/imxrt1020_evk.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "micropython:mimxrt1020_evk",
+      "label": "MicroPython board definition (MIMXRT1020_EVK)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/mimxrt/boards/MIMXRT1020_EVK/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    },
+    {
+      "id": "circuitpython-pins:imxrt1020_evk",
+      "label": "CircuitPython pin definitions (imxrt1020_evk)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/mimxrt10xx/boards/imxrt1020_evk/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

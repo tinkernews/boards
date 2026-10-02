@@ -1,0 +1,36 @@
+{
+  "slug": "stmicroelectronics-stm32h573i-dk-discovery",
+  "name": "STM32H573I-DK Discovery",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "zephyr": [
+      "stm32h573i_dk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32H573XX",
+      "source": "zephyr:stm32h573i_dk"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/stm32h573i_dk/doc/index.html",
+      "source": "zephyr:stm32h573i_dk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:stm32h573i_dk",
+      "label": "Zephyr board definition (stm32h573i_dk)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/stm32h573i_dk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

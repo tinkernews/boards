@@ -1,0 +1,78 @@
+{
+  "slug": "m5stack-stamps3",
+  "name": "M5Stack StampS3",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "m5stack",
+  "chip": "esp32-s3",
+  "aliases": [
+    "StampS3"
+  ],
+  "ids": {
+    "platformio": [
+      "m5stack-stamps3"
+    ],
+    "zephyr": [
+      "m5stack_stamps3"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-S3",
+      "source": "platformio:m5stack-stamps3"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:m5stack-stamps3"
+    },
+    "upload_limits": {
+      "value": "8 MB flash, 320 KB RAM",
+      "source": "platformio:m5stack-stamps3"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "M5Stack StampS3 product page",
+      "url": "https://docs.m5stack.com/en/core/StampS3"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/m5stack-stamps3.html",
+      "source": "platformio:m5stack-stamps3"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/m5stack-stamps3.html",
+      "source": "platformio:m5stack-stamps3"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/m5stack/m5stack_stamps3/doc/index.html",
+      "source": "zephyr:m5stack_stamps3"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:m5stack-stamps3",
+      "label": "PlatformIO board definition (m5stack-stamps3)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/m5stack-stamps3.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    },
+    {
+      "id": "zephyr:m5stack_stamps3",
+      "label": "Zephyr board definition (m5stack_stamps3)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/m5stack/m5stack_stamps3/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "university-of-sheffield-unphone-9",
+  "name": "unPhone 9",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "university-of-sheffield",
+  "chip": "esp32-s3",
+  "ids": {
+    "platformio": [
+      "unphone9"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-S3",
+      "source": "platformio:unphone9"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:unphone9"
+    },
+    "upload_limits": {
+      "value": "7.94 MB flash, 8.31 MB RAM",
+      "source": "platformio:unphone9"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "unPhone 9 product page",
+      "url": "https://unphone.net/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/unphone9.html",
+      "source": "platformio:unphone9"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/unphone9.html",
+      "source": "platformio:unphone9"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:unphone9",
+      "label": "PlatformIO board definition (unphone9)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/unphone9.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

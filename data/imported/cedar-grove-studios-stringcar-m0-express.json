@@ -1,0 +1,103 @@
+{
+  "slug": "cedar-grove-studios-stringcar-m0-express",
+  "name": "StringCar M0 Express",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "cedar-grove-studios",
+  "chip": "atsamd21g18",
+  "ids": {
+    "circuitpython": [
+      "stringcar_m0_express"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/stringcar_m0_express/",
+      "source": "circuitpython:stringcar_m0_express"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:stringcar_m0_express",
+    "list": [
+      {
+        "pin": "PA00",
+        "names": [
+          "DOTSTAR_DI"
+        ]
+      },
+      {
+        "pin": "PA01",
+        "names": [
+          "DOTSTAR_CI"
+        ]
+      },
+      {
+        "pin": "PA02",
+        "names": [
+          "VOLTAGE_MONITOR"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "MOTOR_OUT_1"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "MOTOR_OUT_2"
+        ]
+      },
+      {
+        "pin": "PA08",
+        "names": [
+          "PIEZO"
+        ]
+      },
+      {
+        "pin": "PA09",
+        "names": [
+          "SENSOR_IN"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "LED_STATUS"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:stringcar_m0_express",
+      "label": "CircuitPython board definition (stringcar_m0_express)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/stringcar_m0_express.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:stringcar_m0_express",
+      "label": "CircuitPython pin definitions (stringcar_m0_express)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/stringcar_m0_express/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

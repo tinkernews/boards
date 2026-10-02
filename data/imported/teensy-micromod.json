@@ -1,0 +1,45 @@
+{
+  "slug": "teensy-micromod",
+  "name": "Teensy MicroMod",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "pjrc",
+  "chip": "imxrt1062",
+  "ids": {
+    "zephyr": [
+      "teensymm"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "i.MX RT1062",
+      "source": "zephyr:teensymm"
+    },
+    "ram": {
+      "value": "768 KB",
+      "source": "zephyr:teensymm"
+    },
+    "flash": {
+      "value": "8 MB",
+      "source": "zephyr:teensymm"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/pjrc/teensy4/doc/index.html",
+      "source": "zephyr:teensymm"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:teensymm",
+      "label": "Zephyr board definition (teensymm)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/pjrc/teensy4/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

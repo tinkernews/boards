@@ -1,0 +1,44 @@
+{
+  "slug": "advanced-micro-devices-amd-kv260-development-board-rpu",
+  "name": "KV260 Development Board RPU Cortex-R5",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "advanced-micro-devices-amd",
+  "ids": {
+    "zephyr": [
+      "kv260_r5"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ZYNQMP_RPU",
+      "source": "zephyr:kv260_r5"
+    },
+    "ram": {
+      "value": "65536 KB",
+      "source": "zephyr:kv260_r5"
+    },
+    "flash": {
+      "value": "32 MB",
+      "source": "zephyr:kv260_r5"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/amd/kv260_r5/doc/index.html",
+      "source": "zephyr:kv260_r5"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:kv260_r5",
+      "label": "Zephyr board definition (kv260_r5)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/amd/kv260_r5/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

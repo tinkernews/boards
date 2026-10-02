@@ -1,0 +1,52 @@
+{
+  "slug": "microchip-technology-atmega3290p-pa",
+  "name": "ATmega3290P/PA",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "ids": {
+    "platformio": [
+      "ATmega3290P"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATMEGA3290P",
+      "source": "platformio:atmega3290p"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:atmega3290p"
+    },
+    "upload_limits": {
+      "value": "32 KB flash, 2 KB RAM",
+      "source": "platformio:atmega3290p"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ATmega3290P/PA product page",
+      "url": "https://www.microchip.com/wwwproducts/en/ATmega3290P"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/ATmega3290P.html",
+      "source": "platformio:atmega3290p"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:atmega3290p",
+      "label": "PlatformIO board definition (ATmega3290P)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/ATmega3290P.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

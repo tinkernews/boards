@@ -1,0 +1,36 @@
+{
+  "slug": "enclustra-mercury-xu",
+  "name": "MERCURY-XU",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "enclustra",
+  "ids": {
+    "zephyr": [
+      "mercury_xu"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ZYNQMP_RPU",
+      "source": "zephyr:mercury_xu"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/enclustra/mercury_xu/doc/index.html",
+      "source": "zephyr:mercury_xu"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:mercury_xu",
+      "label": "Zephyr board definition (mercury_xu)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/enclustra/mercury_xu/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

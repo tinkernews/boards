@@ -1,0 +1,84 @@
+{
+  "slug": "nordic-nrf52840-dk",
+  "name": "Nordic nRF52840-DK",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nordic-semiconductor",
+  "chip": "nrf52840",
+  "aliases": [
+    "nRF52840 DK"
+  ],
+  "ids": {
+    "platformio": [
+      "nrf52840_dk"
+    ],
+    "zephyr": [
+      "nrf52840dk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52840",
+      "source": "platformio:nrf52840_dk"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:nrf52840_dk"
+    },
+    "clock": {
+      "value": "64 MHz",
+      "source": "platformio:nrf52840_dk"
+    },
+    "upload_limits": {
+      "value": "1 MB flash, 256 KB RAM",
+      "source": "platformio:nrf52840_dk"
+    },
+    "ram": {
+      "value": "24 KB",
+      "source": "zephyr:nrf52840dk"
+    },
+    "flash": {
+      "value": "56 KB",
+      "source": "zephyr:nrf52840dk"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Nordic nRF52840-DK product page",
+      "url": "https://os.mbed.com/platforms/Nordic-nRF52840-DK/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/nordicnrf52/nrf52840_dk.html",
+      "source": "platformio:nrf52840_dk"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nordic/nrf52840dk/doc/index.html",
+      "source": "zephyr:nrf52840dk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:nrf52840_dk",
+      "label": "PlatformIO board definition (nrf52840_dk)",
+      "url": "https://github.com/platformio/platform-nordicnrf52/blob/278176a7f7ffe2d001eb93eafa271c83b38222e4/boards/nrf52840_dk.json",
+      "kind": "import",
+      "revision": "278176a7f7ffe2d001eb93eafa271c83b38222e4"
+    },
+    {
+      "id": "zephyr:nrf52840dk",
+      "label": "Zephyr board definition (nrf52840dk)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nordic/nrf52840dk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

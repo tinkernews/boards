@@ -1,0 +1,53 @@
+{
+  "slug": "seeed-studio-wio-link",
+  "name": "Wio Link",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "seeed",
+  "chip": "esp8266",
+  "ids": {
+    "platformio": [
+      "wio_link"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP8266EX",
+      "source": "platformio:wio_link"
+    },
+    "clock": {
+      "value": "80 MHz",
+      "source": "platformio:wio_link"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 80 KB RAM",
+      "source": "platformio:wio_link"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Wio Link product page",
+      "url": "https://www.seeedstudio.com/Wio-Link-p-2604.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif8266/wio_link.html",
+      "source": "platformio:wio_link"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:wio_link",
+      "label": "PlatformIO board definition (wio_link)",
+      "url": "https://github.com/platformio/platform-espressif8266/blob/668c2a2e4f16bd83b6c812f1ee0605c62b3ce2d2/boards/wio_link.json",
+      "kind": "import",
+      "revision": "668c2a2e4f16bd83b6c812f1ee0605c62b3ce2d2"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

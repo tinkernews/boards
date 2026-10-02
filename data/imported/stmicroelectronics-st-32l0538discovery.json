@@ -1,0 +1,47 @@
+{
+  "slug": "stmicroelectronics-st-32l0538discovery",
+  "name": "ST 32L0538DISCOVERY",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "platformio": [
+      "disco_l053c8"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32L053C8T6",
+      "source": "platformio:disco_l053c8"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:disco_l053c8"
+    },
+    "clock": {
+      "value": "32 MHz",
+      "source": "platformio:disco_l053c8"
+    },
+    "upload_limits": {
+      "value": "64 KB flash, 8 KB RAM",
+      "source": "platformio:disco_l053c8"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ST 32L0538DISCOVERY product page",
+      "url": "http://www.st.com/web/en/catalog/tools/PF260319"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:disco_l053c8",
+      "label": "PlatformIO board definition (disco_l053c8)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/disco_l053c8.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

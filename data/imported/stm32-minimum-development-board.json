@@ -1,0 +1,36 @@
+{
+  "slug": "stm32-minimum-development-board",
+  "name": "STM32 Minimum Development Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "generic",
+  "ids": {
+    "zephyr": [
+      "stm32_min_dev"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F103X8",
+      "source": "zephyr:stm32_min_dev"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/others/stm32_min_dev/doc/index.html",
+      "source": "zephyr:stm32_min_dev"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:stm32_min_dev",
+      "label": "Zephyr board definition (stm32_min_dev)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/others/stm32_min_dev/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

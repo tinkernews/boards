@@ -1,0 +1,48 @@
+{
+  "slug": "nordic-thingy-52-nrf52-pca20020",
+  "name": "Nordic Thingy:52 (nRF52-PCA20020)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nordic-semiconductor",
+  "chip": "nrf52832",
+  "ids": {
+    "platformio": [
+      "thingy_52"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52832",
+      "source": "platformio:thingy_52"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:thingy_52"
+    },
+    "clock": {
+      "value": "64 MHz",
+      "source": "platformio:thingy_52"
+    },
+    "upload_limits": {
+      "value": "512 KB flash, 64 KB RAM",
+      "source": "platformio:thingy_52"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Nordic Thingy:52 (nRF52-PCA20020) product page",
+      "url": "https://www.nordicsemi.com/Software-and-Tools/Prototyping-platforms/Nordic-Thingy-52"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:thingy_52",
+      "label": "PlatformIO board definition (thingy_52)",
+      "url": "https://github.com/platformio/platform-nordicnrf52/blob/278176a7f7ffe2d001eb93eafa271c83b38222e4/boards/thingy_52.json",
+      "kind": "import",
+      "revision": "278176a7f7ffe2d001eb93eafa271c83b38222e4"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

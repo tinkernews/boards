@@ -1,0 +1,44 @@
+{
+  "slug": "shenzhen-feikaite-swiftio",
+  "name": "SwiftIO",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "shenzhen-feikaite",
+  "ids": {
+    "zephyr": [
+      "mm_swiftio"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MIMXRT1052",
+      "source": "zephyr:mm_swiftio"
+    },
+    "ram": {
+      "value": "32768 KB",
+      "source": "zephyr:mm_swiftio"
+    },
+    "flash": {
+      "value": "8 MB",
+      "source": "zephyr:mm_swiftio"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/madmachine/mm_swiftio/doc/index.html",
+      "source": "zephyr:mm_swiftio"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:mm_swiftio",
+      "label": "Zephyr board definition (mm_swiftio)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/madmachine/mm_swiftio/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "silicon-labs-thunderboard-sense-2-sensor-to-cloud-advanced",
+  "name": "Thunderboard Sense 2 Sensor-to-Cloud Advanced IoT",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "silicon-labs",
+  "ids": {
+    "platformio": [
+      "tb_sense_12"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "EFR32MG12P432F1024",
+      "source": "platformio:tb_sense_12"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:tb_sense_12"
+    },
+    "clock": {
+      "value": "40 MHz",
+      "source": "platformio:tb_sense_12"
+    },
+    "upload_limits": {
+      "value": "1 MB flash, 256 KB RAM",
+      "source": "platformio:tb_sense_12"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Thunderboard Sense 2 Sensor-to-Cloud Advanced IoT product page",
+      "url": "https://www.silabs.com/products/development-tools/thunderboard/thunderboard-sense-two-kit"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:tb_sense_12",
+      "label": "PlatformIO board definition (tb_sense_12)",
+      "url": "https://github.com/platformio/platform-siliconlabsefm32/blob/0bc1a08b57de87366e56433c838ab83188fa419d/boards/tb_sense_12.json",
+      "kind": "import",
+      "revision": "0bc1a08b57de87366e56433c838ab83188fa419d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

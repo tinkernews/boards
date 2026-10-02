@@ -1,0 +1,44 @@
+{
+  "slug": "phytec-phyboard-pollux-i-mx8m-plus",
+  "name": "phyBOARD-Pollux i.MX8M Plus",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "phytec",
+  "ids": {
+    "zephyr": [
+      "phyboard_pollux"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MIMX8ML8",
+      "source": "zephyr:phyboard_pollux"
+    },
+    "ram": {
+      "value": "128 KB",
+      "source": "zephyr:phyboard_pollux"
+    },
+    "flash": {
+      "value": "128 KB",
+      "source": "zephyr:phyboard_pollux"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/phytec/phyboard_pollux/doc/index.html",
+      "source": "zephyr:phyboard_pollux"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:phyboard_pollux",
+      "label": "Zephyr board definition (phyboard_pollux)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/phytec/phyboard_pollux/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

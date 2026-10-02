@@ -1,0 +1,44 @@
+{
+  "slug": "microchip-technology-pic32ck-gc01-curiosity-ultra",
+  "name": "PIC32CK GC01 Curiosity Ultra",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "ids": {
+    "zephyr": [
+      "pic32ck_gc01_cult"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "PIC32CK2051GC01144",
+      "source": "zephyr:pic32ck_gc01_cult"
+    },
+    "ram": {
+      "value": "512 KB",
+      "source": "zephyr:pic32ck_gc01_cult"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:pic32ck_gc01_cult"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/microchip/pic32c/pic32ck_gc01_cult/doc/index.html",
+      "source": "zephyr:pic32ck_gc01_cult"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:pic32ck_gc01_cult",
+      "label": "Zephyr board definition (pic32ck_gc01_cult)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/microchip/pic32c/pic32ck_gc01_cult/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

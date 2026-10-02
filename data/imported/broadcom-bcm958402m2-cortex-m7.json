@@ -1,0 +1,36 @@
+{
+  "slug": "broadcom-bcm958402m2-cortex-m7",
+  "name": "BCM958402M2 (Cortex-M7)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "broadcom",
+  "ids": {
+    "zephyr": [
+      "bcm958402m2"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "BCM58402",
+      "source": "zephyr:bcm958402m2"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/brcm/bcm958402m2/doc/index.html",
+      "source": "zephyr:bcm958402m2"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:bcm958402m2",
+      "label": "Zephyr board definition (bcm958402m2)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/brcm/bcm958402m2/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "realtek-rtl8752h-evaluation-board",
+  "name": "RTL8752H Evaluation Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "realtek",
+  "ids": {
+    "zephyr": [
+      "rtl8752h_evb"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "RTL8752HJL",
+      "source": "zephyr:rtl8752h_evb"
+    },
+    "ram": {
+      "value": "57 KB",
+      "source": "zephyr:rtl8752h_evb"
+    },
+    "flash": {
+      "value": "924 KB",
+      "source": "zephyr:rtl8752h_evb"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/realtek/rtl8752h_evb/doc/index.html",
+      "source": "zephyr:rtl8752h_evb"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:rtl8752h_evb",
+      "label": "Zephyr board definition (rtl8752h_evb)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/realtek/rtl8752h_evb/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

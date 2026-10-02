@@ -1,0 +1,59 @@
+{
+  "slug": "pycom-gpy",
+  "name": "Pycom GPy",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "pycom",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "pycom_gpy"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:pycom_gpy"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:pycom_gpy"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:pycom_gpy"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Pycom GPy product page",
+      "url": "https://pycom.io/product/gpy/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/pycom_gpy.html",
+      "source": "platformio:pycom_gpy"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/pycom_gpy.html",
+      "source": "platformio:pycom_gpy"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:pycom_gpy",
+      "label": "PlatformIO board definition (pycom_gpy)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/pycom_gpy.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

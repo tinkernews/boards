@@ -1,0 +1,53 @@
+{
+  "slug": "wemos-d1-esp-wroom-02",
+  "name": "WeMos D1 ESP-WROOM-02",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "wemos",
+  "chip": "esp8266",
+  "ids": {
+    "platformio": [
+      "d1_wroom_02"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP8266EX",
+      "source": "platformio:d1_wroom_02"
+    },
+    "clock": {
+      "value": "80 MHz",
+      "source": "platformio:d1_wroom_02"
+    },
+    "upload_limits": {
+      "value": "2 MB flash, 80 KB RAM",
+      "source": "platformio:d1_wroom_02"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "WeMos D1 ESP-WROOM-02 product page",
+      "url": "https://artofcircuits.com/product/esp-wroom-02-wifi-18650-battery-charger-board"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif8266/d1_wroom_02.html",
+      "source": "platformio:d1_wroom_02"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:d1_wroom_02",
+      "label": "PlatformIO board definition (d1_wroom_02)",
+      "url": "https://github.com/platformio/platform-espressif8266/blob/668c2a2e4f16bd83b6c812f1ee0605c62b3ce2d2/boards/d1_wroom_02.json",
+      "kind": "import",
+      "revision": "668c2a2e4f16bd83b6c812f1ee0605c62b3ce2d2"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

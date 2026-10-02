@@ -1,0 +1,36 @@
+{
+  "slug": "quicklogic-qomu",
+  "name": "Qomu",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "quicklogic",
+  "ids": {
+    "zephyr": [
+      "qomu"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "QUICKLOGIC_EOS_S3",
+      "source": "zephyr:qomu"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/quicklogic/qomu/doc/index.html",
+      "source": "zephyr:qomu"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:qomu",
+      "label": "Zephyr board definition (qomu)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/quicklogic/qomu/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

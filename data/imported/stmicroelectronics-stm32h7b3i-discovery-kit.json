@@ -1,0 +1,44 @@
+{
+  "slug": "stmicroelectronics-stm32h7b3i-discovery-kit",
+  "name": "STM32H7B3I Discovery kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "zephyr": [
+      "stm32h7b3i_dk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32H7B3XXQ",
+      "source": "zephyr:stm32h7b3i_dk"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:stm32h7b3i_dk"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:stm32h7b3i_dk"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/stm32h7b3i_dk/doc/index.html",
+      "source": "zephyr:stm32h7b3i_dk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:stm32h7b3i_dk",
+      "label": "Zephyr board definition (stm32h7b3i_dk)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/stm32h7b3i_dk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

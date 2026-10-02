@@ -1,0 +1,36 @@
+{
+  "slug": "espressif-esp32-h2-devkitm",
+  "name": "ESP32-H2-DevKitM",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "espressif",
+  "ids": {
+    "zephyr": [
+      "esp32h2_devkitm"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32H2",
+      "source": "zephyr:esp32h2_devkitm"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/espressif/esp32h2_devkitm/doc/index.html",
+      "source": "zephyr:esp32h2_devkitm"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:esp32h2_devkitm",
+      "label": "Zephyr board definition (esp32h2_devkitm)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/espressif/esp32h2_devkitm/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

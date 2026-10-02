@@ -1,0 +1,47 @@
+{
+  "slug": "seeed-arch-pro",
+  "name": "Seeed Arch Pro",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "seeed",
+  "ids": {
+    "platformio": [
+      "seeedArchPro"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "LPC1768",
+      "source": "platformio:seeedarchpro"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M3",
+      "source": "platformio:seeedarchpro"
+    },
+    "clock": {
+      "value": "96 MHz",
+      "source": "platformio:seeedarchpro"
+    },
+    "upload_limits": {
+      "value": "512 KB flash, 64 KB RAM",
+      "source": "platformio:seeedarchpro"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Seeed Arch Pro product page",
+      "url": "https://developer.mbed.org/platforms/Seeeduino-Arch-Pro/"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:seeedarchpro",
+      "label": "PlatformIO board definition (seeedArchPro)",
+      "url": "https://github.com/platformio/platform-nxplpc/blob/7fe287fac83ec5cfcf8b5ec7e36d43b5a17cace8/boards/seeedArchPro.json",
+      "kind": "import",
+      "revision": "7fe287fac83ec5cfcf8b5ec7e36d43b5a17cace8"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

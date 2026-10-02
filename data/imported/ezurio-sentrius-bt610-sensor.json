@@ -1,0 +1,45 @@
+{
+  "slug": "ezurio-sentrius-bt610-sensor",
+  "name": "Sentrius BT610 Sensor",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "ezurio",
+  "chip": "nrf52840",
+  "ids": {
+    "zephyr": [
+      "bt610"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52840",
+      "source": "zephyr:bt610"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:bt610"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:bt610"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/ezurio/bt610/doc/index.html",
+      "source": "zephyr:bt610"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:bt610",
+      "label": "Zephyr board definition (bt610)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/ezurio/bt610/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,175 @@
+{
+  "slug": "electronic-cats-escornabot-makech",
+  "name": "Escornabot Makech",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "electronic-cats",
+  "chip": "atsamd21g18",
+  "ids": {
+    "circuitpython": [
+      "escornabot_makech"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/escornabot_makech/",
+      "source": "circuitpython:escornabot_makech"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:escornabot_makech",
+    "list": [
+      {
+        "pin": "PA00",
+        "names": [
+          "D0",
+          "TX"
+        ]
+      },
+      {
+        "pin": "PA01",
+        "names": [
+          "D1",
+          "RX"
+        ]
+      },
+      {
+        "pin": "PA02",
+        "names": [
+          "A0",
+          "LED"
+        ]
+      },
+      {
+        "pin": "PA03",
+        "names": [
+          "A4"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "A1"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "A2"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "D7"
+        ]
+      },
+      {
+        "pin": "PA08",
+        "names": [
+          "D11",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PA09",
+        "names": [
+          "D12",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "A3"
+        ]
+      },
+      {
+        "pin": "PA11",
+        "names": [
+          "D3"
+        ]
+      },
+      {
+        "pin": "PA12",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "PA13",
+        "names": [
+          "D13",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "PA15",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "PA16",
+        "names": [
+          "D10"
+        ]
+      },
+      {
+        "pin": "PA17",
+        "names": [
+          "D9"
+        ]
+      },
+      {
+        "pin": "PA18",
+        "names": [
+          "D8"
+        ]
+      },
+      {
+        "pin": "PA22",
+        "names": [
+          "D2"
+        ]
+      },
+      {
+        "pin": "PA27",
+        "names": [
+          "D4"
+        ]
+      },
+      {
+        "pin": "PA28",
+        "names": [
+          "D5"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:escornabot_makech",
+      "label": "CircuitPython board definition (escornabot_makech)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/escornabot_makech.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:escornabot_makech",
+      "label": "CircuitPython pin definitions (escornabot_makech)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/escornabot_makech/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

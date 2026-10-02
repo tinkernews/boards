@@ -1,0 +1,59 @@
+{
+  "slug": "onehorse-esp32-dev-module",
+  "name": "Onehorse ESP32 Dev Module",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "onehorse",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "onehorse32dev"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:onehorse32dev"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:onehorse32dev"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:onehorse32dev"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Onehorse ESP32 Dev Module product page",
+      "url": "https://www.tindie.com/products/onehorse/esp32-development-board/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/onehorse32dev.html",
+      "source": "platformio:onehorse32dev"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/onehorse32dev.html",
+      "source": "platformio:onehorse32dev"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:onehorse32dev",
+      "label": "PlatformIO board definition (onehorse32dev)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/onehorse32dev.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "stm32f103vd-64k-ram-384k-flash",
+  "name": "STM32F103VD (64k RAM. 384k Flash)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "generic",
+  "ids": {
+    "platformio": [
+      "genericSTM32F103VD"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F103VDT6",
+      "source": "platformio:genericstm32f103vd"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M3",
+      "source": "platformio:genericstm32f103vd"
+    },
+    "clock": {
+      "value": "72 MHz",
+      "source": "platformio:genericstm32f103vd"
+    },
+    "upload_limits": {
+      "value": "384 KB flash, 64 KB RAM",
+      "source": "platformio:genericstm32f103vd"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "STM32F103VD (64k RAM. 384k Flash) product page",
+      "url": "http://www.st.com/en/microcontrollers/stm32f103vd.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/genericSTM32F103VD.html",
+      "source": "platformio:genericstm32f103vd"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:genericstm32f103vd",
+      "label": "PlatformIO board definition (genericSTM32F103VD)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/genericSTM32F103VD.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

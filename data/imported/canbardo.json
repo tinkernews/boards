@@ -1,0 +1,44 @@
+{
+  "slug": "canbardo",
+  "name": "CANbardo",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "generic",
+  "ids": {
+    "zephyr": [
+      "canbardo"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "SAME70N20B",
+      "source": "zephyr:canbardo"
+    },
+    "ram": {
+      "value": "384 KB",
+      "source": "zephyr:canbardo"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:canbardo"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/others/canbardo/doc/index.html",
+      "source": "zephyr:canbardo"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:canbardo",
+      "label": "Zephyr board definition (canbardo)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/others/canbardo/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

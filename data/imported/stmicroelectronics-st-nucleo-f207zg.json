@@ -1,0 +1,83 @@
+{
+  "slug": "stmicroelectronics-st-nucleo-f207zg",
+  "name": "ST Nucleo F207ZG",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "aliases": [
+    "Nucleo F207ZG"
+  ],
+  "ids": {
+    "platformio": [
+      "nucleo_f207zg"
+    ],
+    "zephyr": [
+      "nucleo_f207zg"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F207ZGT6",
+      "source": "platformio:nucleo_f207zg"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M3",
+      "source": "platformio:nucleo_f207zg"
+    },
+    "clock": {
+      "value": "120 MHz",
+      "source": "platformio:nucleo_f207zg"
+    },
+    "upload_limits": {
+      "value": "1 MB flash, 128 KB RAM",
+      "source": "platformio:nucleo_f207zg"
+    },
+    "ram": {
+      "value": "128 KB",
+      "source": "zephyr:nucleo_f207zg"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:nucleo_f207zg"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ST Nucleo F207ZG product page",
+      "url": "https://developer.mbed.org/platforms/ST-Nucleo-F207ZG/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/nucleo_f207zg.html",
+      "source": "platformio:nucleo_f207zg"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/nucleo_f207zg/doc/index.html",
+      "source": "zephyr:nucleo_f207zg"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:nucleo_f207zg",
+      "label": "PlatformIO board definition (nucleo_f207zg)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/nucleo_f207zg.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    },
+    {
+      "id": "zephyr:nucleo_f207zg",
+      "label": "Zephyr board definition (nucleo_f207zg)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/nucleo_f207zg/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

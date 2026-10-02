@@ -1,0 +1,37 @@
+{
+  "slug": "renesas-ek-ra6m1",
+  "name": "EK-RA6M1",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "renesas",
+  "ids": {
+    "micropython": [
+      "EK_RA6M1"
+    ]
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "EK-RA6M1 product page",
+      "url": "https://www.renesas.com/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ek-ra6m1-evaluation-kit-ra6m1-mcu-group"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/EK_RA6M1/",
+      "source": "micropython:ek_ra6m1"
+    }
+  ],
+  "sources": [
+    {
+      "id": "micropython:ek_ra6m1",
+      "label": "MicroPython board definition (EK_RA6M1)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/renesas-ra/boards/EK_RA6M1/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

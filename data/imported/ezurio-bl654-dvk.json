@@ -1,0 +1,37 @@
+{
+  "slug": "ezurio-bl654-dvk",
+  "name": "BL654 DVK",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "ezurio",
+  "chip": "nrf52840",
+  "ids": {
+    "zephyr": [
+      "bl654_dvk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52840",
+      "source": "zephyr:bl654_dvk"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/ezurio/bl654_dvk/doc/index.html",
+      "source": "zephyr:bl654_dvk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:bl654_dvk",
+      "label": "Zephyr board definition (bl654_dvk)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/ezurio/bl654_dvk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

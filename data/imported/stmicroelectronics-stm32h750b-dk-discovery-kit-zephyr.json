@@ -1,0 +1,30 @@
+{
+  "slug": "stmicroelectronics-stm32h750b-dk-discovery-kit-zephyr",
+  "name": "STM32H750B-DK Discovery Kit (Zephyr)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "circuitpython": [
+      "st_stm32h750b_dk"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/st_stm32h750b_dk/",
+      "source": "circuitpython:st_stm32h750b_dk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "circuitpython:st_stm32h750b_dk",
+      "label": "CircuitPython board definition (st_stm32h750b_dk)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/st_stm32h750b_dk.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

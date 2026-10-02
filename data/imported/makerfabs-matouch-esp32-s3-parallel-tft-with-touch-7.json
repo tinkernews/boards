@@ -1,0 +1,147 @@
+{
+  "slug": "makerfabs-matouch-esp32-s3-parallel-tft-with-touch-7",
+  "name": "MaTouch ESP32-S3 Parallel TFT with Touch 7“",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "makerfabs",
+  "chip": "esp32-s3",
+  "ids": {
+    "circuitpython": [
+      "makerfabs_tft7"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/makerfabs_tft7/",
+      "source": "circuitpython:makerfabs_tft7"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:makerfabs_tft7",
+    "list": [
+      {
+        "pin": "GPIO1",
+        "names": [
+          "BUTTON"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "I2S_WORD_SELECT"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "TFT_BACKLIGHT"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "SDIO_CMD"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "SDIO_CLK"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "SDIO_D0"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "GPIO19",
+          "I2S_DATA"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "GPIO20",
+          "I2S_BIT_CLOCK"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "TOUCH_RESET"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "hsync"
+        ]
+      },
+      {
+        "pin": "GPIO40",
+        "names": [
+          "de"
+        ]
+      },
+      {
+        "pin": "GPIO41",
+        "names": [
+          "vsync"
+        ]
+      },
+      {
+        "pin": "GPIO42",
+        "names": [
+          "dclk"
+        ]
+      },
+      {
+        "pin": "GPIO43",
+        "names": [
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO44",
+        "names": [
+          "RX"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:makerfabs_tft7",
+      "label": "CircuitPython board definition (makerfabs_tft7)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/makerfabs_tft7.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:makerfabs_tft7",
+      "label": "CircuitPython pin definitions (makerfabs_tft7)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/makerfabs_tft7/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

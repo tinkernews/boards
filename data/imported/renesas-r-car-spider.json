@@ -1,0 +1,36 @@
+{
+  "slug": "renesas-r-car-spider",
+  "name": "R-Car Spider",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "renesas",
+  "ids": {
+    "zephyr": [
+      "rcar_spider_s4"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "R8A779F0",
+      "source": "zephyr:rcar_spider_s4"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/renesas/rcar_spider_s4/doc/index.html",
+      "source": "zephyr:rcar_spider_s4"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:rcar_spider_s4",
+      "label": "Zephyr board definition (rcar_spider_s4)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/renesas/rcar_spider_s4/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

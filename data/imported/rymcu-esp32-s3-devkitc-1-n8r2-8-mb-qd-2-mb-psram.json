@@ -1,0 +1,59 @@
+{
+  "slug": "rymcu-esp32-s3-devkitc-1-n8r2-8-mb-qd-2-mb-psram",
+  "name": "RYMCU ESP32-S3-DevKitC-1-N8R2 (8 MB QD, 2 MB PSRAM)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "rymcu",
+  "chip": "esp32-s3",
+  "ids": {
+    "platformio": [
+      "rymcu-esp32-s3-devkitc-1"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-S3",
+      "source": "platformio:rymcu-esp32-s3-devkitc-1"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:rymcu-esp32-s3-devkitc-1"
+    },
+    "upload_limits": {
+      "value": "8 MB flash, 320 KB RAM",
+      "source": "platformio:rymcu-esp32-s3-devkitc-1"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "RYMCU ESP32-S3-DevKitC-1-N8R2 (8 MB QD, 2 MB PSRAM) product page",
+      "url": "https://rymcu.com/products"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/rymcu-esp32-s3-devkitc-1.html",
+      "source": "platformio:rymcu-esp32-s3-devkitc-1"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/rymcu-esp32-s3-devkitc-1.html",
+      "source": "platformio:rymcu-esp32-s3-devkitc-1"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:rymcu-esp32-s3-devkitc-1",
+      "label": "PlatformIO board definition (rymcu-esp32-s3-devkitc-1)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/rymcu-esp32-s3-devkitc-1.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

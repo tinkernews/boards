@@ -1,0 +1,40 @@
+{
+  "slug": "ai-thinker-aipi-eyes-s2-multi-functional-development-board",
+  "name": "AiPi-Eyes-S2 Multi-Functional Development Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "ai-thinker",
+  "ids": {
+    "zephyr": [
+      "aipi_eyes_s2"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "BL618M05Q2I",
+      "source": "zephyr:aipi_eyes_s2"
+    },
+    "ram": {
+      "value": "480 KB",
+      "source": "zephyr:aipi_eyes_s2"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/aithinker/aipi_eyes_s2/doc/index.html",
+      "source": "zephyr:aipi_eyes_s2"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:aipi_eyes_s2",
+      "label": "Zephyr board definition (aipi_eyes_s2)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/aithinker/aipi_eyes_s2/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

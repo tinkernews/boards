@@ -1,0 +1,36 @@
+{
+  "slug": "stm32-mini-f401",
+  "name": "STM32 Mini F401",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "generic",
+  "ids": {
+    "zephyr": [
+      "stm32f401_mini"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F401XC",
+      "source": "zephyr:stm32f401_mini"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/others/stm32f401_mini/doc/index.html",
+      "source": "zephyr:stm32f401_mini"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:stm32f401_mini",
+      "label": "Zephyr board definition (stm32f401_mini)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/others/stm32f401_mini/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

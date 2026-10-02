@@ -1,0 +1,32 @@
+{
+  "slug": "macchiatobin-ds",
+  "name": "Macchiatobin DS",
+  "tier": "imported",
+  "kind": "sbc",
+  "maker": "generic",
+  "released": "2017",
+  "ids": {
+    "armbian": [
+      "macchiatobin-doubleshot"
+    ]
+  },
+  "software": [
+    {
+      "platform": "armbian",
+      "status": "dropped",
+      "note": "End of support in Armbian.",
+      "url": "https://github.com/armbian/build/blob/main/config/boards/macchiatobin-doubleshot.eos",
+      "source": "armbian:macchiatobin-doubleshot"
+    }
+  ],
+  "sources": [
+    {
+      "id": "armbian:macchiatobin-doubleshot",
+      "label": "Armbian board configuration (macchiatobin-doubleshot)",
+      "url": "https://github.com/armbian/build/blob/da85daa05bd260d04dac50315d7317207fd998b3/config/boards/macchiatobin-doubleshot.eos",
+      "kind": "import",
+      "revision": "da85daa05bd260d04dac50315d7317207fd998b3"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

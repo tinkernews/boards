@@ -1,0 +1,59 @@
+{
+  "slug": "doit-espduino32",
+  "name": "DOIT ESPduino32",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "doit",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "esp32doit-espduino"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:esp32doit-espduino"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:esp32doit-espduino"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:esp32doit-espduino"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "DOIT ESPduino32 product page",
+      "url": "http://www.doit.am/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/esp32doit-espduino.html",
+      "source": "platformio:esp32doit-espduino"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/esp32doit-espduino.html",
+      "source": "platformio:esp32doit-espduino"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:esp32doit-espduino",
+      "label": "PlatformIO board definition (esp32doit-espduino)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/esp32doit-espduino.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

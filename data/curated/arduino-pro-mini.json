@@ -1,0 +1,109 @@
+{
+  "slug": "arduino-pro-mini",
+  "name": "Arduino Pro Mini",
+  "tier": "curated",
+  "kind": "mcu",
+  "maker": "arduino",
+  "family": "Arduino",
+  "chip": "atmega328p",
+  "released": "2008",
+  "status": "retired",
+  "summary": "The minimal ATmega328 board with no USB chip, in 5 V/16 MHz and 3.3 V/8 MHz versions, designed by SparkFun for permanent installs.",
+  "aliases": [
+    "Arduino Pro Mini",
+    "Pro Mini"
+  ],
+  "ids": {
+    "platformio": [
+      "pro16MHzatmega328",
+      "pro8MHzatmega328"
+    ]
+  },
+  "review": {
+    "status": "draft"
+  },
+  "specs": {
+    "chip": {
+      "value": "Microchip ATmega328 (early boards: ATmega168)",
+      "source": "arduino-docs"
+    },
+    "cpu": {
+      "value": "8-bit AVR",
+      "source": "atmega328p"
+    },
+    "clock": {
+      "value": "16 MHz (5 V version) or 8 MHz (3.3 V version)",
+      "source": "arduino-docs"
+    },
+    "ram": {
+      "value": "2 KB SRAM",
+      "source": "atmega328p"
+    },
+    "flash": {
+      "value": "32 KB",
+      "source": "atmega328p"
+    },
+    "io_voltage": {
+      "value": "5 V or 3.3 V, by version",
+      "source": "arduino-docs"
+    },
+    "usb": {
+      "value": "None; program through a 6-pin FTDI-style serial adapter",
+      "source": "arduino-docs"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Arduino Pro Mini (retired), Arduino documentation",
+      "url": "https://docs.arduino.cc/retired/boards/arduino-pro-mini/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Official Arduino core.",
+      "url": "https://docs.arduino.cc/software/ide/",
+      "source": "arduino-docs"
+    }
+  ],
+  "gotchas": [
+    {
+      "title": "Pick the right clock in the IDE",
+      "text": "Selecting 16 MHz for a 3.3 V/8 MHz board (or the reverse) uploads fine but runs every timing at the wrong speed and breaks serial.",
+      "source": "arduino-docs"
+    }
+  ],
+  "power": {
+    "rows": [],
+    "note": "With no USB chip and a small regulator, a Pro Mini with its power LED and regulator removed can sleep at microamps, which makes it a classic for battery sensors."
+  },
+  "commonsFile": "File:Arduino Pro Mini.jpg",
+  "editorial": {
+    "history": "Designed by SparkFun, the Pro Mini stripped the Arduino down to the microcontroller, a regulator and a crystal for builds where USB would only waste space and power.",
+    "today": "Still widely cloned and a strong choice for coin-cell or AA-powered sensor nodes.",
+    "source": "wikipedia"
+  },
+  "sources": [
+    {
+      "id": "arduino-docs",
+      "label": "Arduino Pro Mini, Arduino documentation (retired boards)",
+      "url": "https://docs.arduino.cc/retired/boards/arduino-pro-mini/",
+      "kind": "official"
+    },
+    {
+      "id": "atmega328p",
+      "label": "ATmega328P product page, Microchip",
+      "url": "https://www.microchip.com/en-us/product/ATmega328P",
+      "kind": "official"
+    },
+    {
+      "id": "wikipedia",
+      "label": "List of Arduino boards and compatible systems, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_Arduino_boards_and_compatible_systems",
+      "kind": "reference"
+    }
+  ],
+  "updatedAt": "2026-10-01T00:00:00.000Z"
+}

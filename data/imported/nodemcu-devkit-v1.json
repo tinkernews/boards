@@ -1,0 +1,86 @@
+{
+  "slug": "nodemcu-devkit-v1",
+  "name": "NodeMCU DevKit 1.0 (ESP8266)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nodemcu",
+  "chip": "esp8266",
+  "aliases": [
+    "NodeMCU 0.9 (ESP-12 Module)",
+    "ESP8266"
+  ],
+  "ids": {
+    "platformio": [
+      "nodemcu",
+      "nodemcuv2"
+    ],
+    "micropython": [
+      "ESP8266_GENERIC"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP8266EX",
+      "source": "platformio:nodemcu"
+    },
+    "clock": {
+      "value": "80 MHz",
+      "source": "platformio:nodemcu"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 80 KB RAM",
+      "source": "platformio:nodemcu"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "NodeMCU DevKit 1.0 (ESP8266) product page",
+      "url": "http://www.nodemcu.com/"
+    },
+    {
+      "kind": "product",
+      "label": "NodeMCU DevKit 1.0 (ESP8266) product page",
+      "url": "https://www.espressif.com/en/products/modules"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif8266/nodemcu.html",
+      "source": "platformio:nodemcu"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/ESP8266_GENERIC/",
+      "source": "micropython:esp8266_generic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:nodemcu",
+      "label": "PlatformIO board definition (nodemcu)",
+      "url": "https://github.com/platformio/platform-espressif8266/blob/668c2a2e4f16bd83b6c812f1ee0605c62b3ce2d2/boards/nodemcu.json",
+      "kind": "import",
+      "revision": "668c2a2e4f16bd83b6c812f1ee0605c62b3ce2d2"
+    },
+    {
+      "id": "platformio:nodemcuv2",
+      "label": "PlatformIO board definition (nodemcuv2)",
+      "url": "https://github.com/platformio/platform-espressif8266/blob/668c2a2e4f16bd83b6c812f1ee0605c62b3ce2d2/boards/nodemcuv2.json",
+      "kind": "import",
+      "revision": "668c2a2e4f16bd83b6c812f1ee0605c62b3ce2d2"
+    },
+    {
+      "id": "micropython:esp8266_generic",
+      "label": "MicroPython board definition (ESP8266_GENERIC)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/esp8266/boards/ESP8266_GENERIC/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

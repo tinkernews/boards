@@ -1,0 +1,149 @@
+{
+  "slug": "keithp-com-snekboard",
+  "name": "Snekboard",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "keithp-com",
+  "chip": "atsamd21g18",
+  "ids": {
+    "circuitpython": [
+      "snekboard"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/snekboard/",
+      "source": "circuitpython:snekboard"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:snekboard",
+    "list": [
+      {
+        "pin": "PA06",
+        "names": [
+          "A3"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "A4"
+        ]
+      },
+      {
+        "pin": "PA08",
+        "names": [
+          "A5",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "PA09",
+        "names": [
+          "A6",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "A7"
+        ]
+      },
+      {
+        "pin": "PA11",
+        "names": [
+          "A8"
+        ]
+      },
+      {
+        "pin": "PA12",
+        "names": [
+          "POWER1"
+        ]
+      },
+      {
+        "pin": "PA13",
+        "names": [
+          "POWER2"
+        ]
+      },
+      {
+        "pin": "PA16",
+        "names": [
+          "DIR1"
+        ]
+      },
+      {
+        "pin": "PA17",
+        "names": [
+          "DIR2"
+        ]
+      },
+      {
+        "pin": "PA18",
+        "names": [
+          "POWER3"
+        ]
+      },
+      {
+        "pin": "PA19",
+        "names": [
+          "POWER4"
+        ]
+      },
+      {
+        "pin": "PA20",
+        "names": [
+          "DIR3"
+        ]
+      },
+      {
+        "pin": "PA21",
+        "names": [
+          "DIR4"
+        ]
+      },
+      {
+        "pin": "PB08",
+        "names": [
+          "A1",
+          "RX"
+        ]
+      },
+      {
+        "pin": "PB09",
+        "names": [
+          "A2",
+          "TX"
+        ]
+      },
+      {
+        "pin": "PB11",
+        "names": [
+          "NEOPIXEL"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:snekboard",
+      "label": "CircuitPython board definition (snekboard)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/snekboard.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:snekboard",
+      "label": "CircuitPython pin definitions (snekboard)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/snekboard/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "toradex-ag-i-mx-7-computer-on-module-colibri-imx7",
+  "name": "i.MX 7 Computer on Module - Colibri iMX7",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "toradex-ag",
+  "ids": {
+    "zephyr": [
+      "colibri_imx7d"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MCIMX7D",
+      "source": "zephyr:colibri_imx7d"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:colibri_imx7d"
+    },
+    "flash": {
+      "value": "32 KB",
+      "source": "zephyr:colibri_imx7d"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/toradex/colibri_imx7d/doc/index.html",
+      "source": "zephyr:colibri_imx7d"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:colibri_imx7d",
+      "label": "Zephyr board definition (colibri_imx7d)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/toradex/colibri_imx7d/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

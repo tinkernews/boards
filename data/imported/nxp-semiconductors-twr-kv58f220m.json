@@ -1,0 +1,44 @@
+{
+  "slug": "nxp-semiconductors-twr-kv58f220m",
+  "name": "TWR-KV58F220M",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "ids": {
+    "zephyr": [
+      "twr_kv58f220m"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MKV58F24",
+      "source": "zephyr:twr_kv58f220m"
+    },
+    "ram": {
+      "value": "128 KB",
+      "source": "zephyr:twr_kv58f220m"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:twr_kv58f220m"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nxp/twr_kv58f220m/doc/index.html",
+      "source": "zephyr:twr_kv58f220m"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:twr_kv58f220m",
+      "label": "Zephyr board definition (twr_kv58f220m)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nxp/twr_kv58f220m/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

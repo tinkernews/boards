@@ -1,0 +1,59 @@
+{
+  "slug": "espressif-esp32-pico-devkitm-2",
+  "name": "Espressif ESP32-PICO-DevKitM-2",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "espressif",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "esp32-pico-devkitm-2"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:esp32-pico-devkitm-2"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:esp32-pico-devkitm-2"
+    },
+    "upload_limits": {
+      "value": "8 MB flash, 320 KB RAM",
+      "source": "platformio:esp32-pico-devkitm-2"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Espressif ESP32-PICO-DevKitM-2 product page",
+      "url": "https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-pico-devkitm-2.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/esp32-pico-devkitm-2.html",
+      "source": "platformio:esp32-pico-devkitm-2"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/esp32-pico-devkitm-2.html",
+      "source": "platformio:esp32-pico-devkitm-2"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:esp32-pico-devkitm-2",
+      "label": "PlatformIO board definition (esp32-pico-devkitm-2)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/esp32-pico-devkitm-2.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "stmicroelectronics-nucleo-g491re",
+  "name": "Nucleo G491RE",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "platformio": [
+      "nucleo_g491re"
+    ],
+    "zephyr": [
+      "nucleo_g491re"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32G491RET6",
+      "source": "platformio:nucleo_g491re"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:nucleo_g491re"
+    },
+    "clock": {
+      "value": "170 MHz",
+      "source": "platformio:nucleo_g491re"
+    },
+    "upload_limits": {
+      "value": "512 KB flash, 112 KB RAM",
+      "source": "platformio:nucleo_g491re"
+    },
+    "ram": {
+      "value": "112 KB",
+      "source": "zephyr:nucleo_g491re"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:nucleo_g491re"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Nucleo G491RE product page",
+      "url": "https://www.st.com/en/evaluation-tools/nucleo-g491re.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/nucleo_g491re/doc/index.html",
+      "source": "zephyr:nucleo_g491re"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:nucleo_g491re",
+      "label": "PlatformIO board definition (nucleo_g491re)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/nucleo_g491re.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    },
+    {
+      "id": "zephyr:nucleo_g491re",
+      "label": "Zephyr board definition (nucleo_g491re)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/nucleo_g491re/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

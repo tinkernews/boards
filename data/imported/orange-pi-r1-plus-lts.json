@@ -1,0 +1,49 @@
+{
+  "slug": "orange-pi-r1-plus-lts",
+  "name": "Orange Pi R1 Plus LTS",
+  "tier": "imported",
+  "kind": "sbc",
+  "maker": "orange-pi",
+  "released": "2021",
+  "ids": {
+    "armbian": [
+      "orangepi-r1plus-lts"
+    ],
+    "linux": [
+      "arch/arm64/boot/dts/rockchip/rk3328-orangepi-r1-plus-lts.dts"
+    ]
+  },
+  "software": [
+    {
+      "platform": "armbian",
+      "status": "community",
+      "note": "Community-maintained in Armbian.",
+      "url": "https://github.com/armbian/build/blob/main/config/boards/orangepi-r1plus-lts.csc",
+      "source": "armbian:orangepi-r1plus-lts"
+    },
+    {
+      "platform": "linux-mainline",
+      "status": "supported",
+      "note": "A device tree for this board is in the mainline kernel; features may still be missing.",
+      "url": "https://github.com/torvalds/linux/blob/master/arch/arm64/boot/dts/rockchip/rk3328-orangepi-r1-plus-lts.dts",
+      "source": "linux:rk3328-orangepi-r1-plus-lts.dts"
+    }
+  ],
+  "sources": [
+    {
+      "id": "armbian:orangepi-r1plus-lts",
+      "label": "Armbian board configuration (orangepi-r1plus-lts)",
+      "url": "https://github.com/armbian/build/blob/da85daa05bd260d04dac50315d7317207fd998b3/config/boards/orangepi-r1plus-lts.csc",
+      "kind": "import",
+      "revision": "da85daa05bd260d04dac50315d7317207fd998b3"
+    },
+    {
+      "id": "linux:rk3328-orangepi-r1-plus-lts.dts",
+      "label": "Linux kernel device tree (rk3328-orangepi-r1-plus-lts.dts)",
+      "url": "https://github.com/torvalds/linux/blob/551c722f40809618230001baccf219193e22fc5a/arch/arm64/boot/dts/rockchip/rk3328-orangepi-r1-plus-lts.dts",
+      "kind": "import",
+      "revision": "551c722f40809618230001baccf219193e22fc5a"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,204 @@
+{
+  "slug": "nullbits-bit-c-pro",
+  "name": "Bit-C PRO",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nullbits",
+  "chip": "rp2040",
+  "ids": {
+    "circuitpython": [
+      "nullbits_bit_c_pro"
+    ],
+    "micropython": [
+      "NULLBITS_BIT_C_PRO"
+    ]
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Bit-C PRO product page",
+      "url": "https://nullbits.co/bit-c-pro"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/NULLBITS_BIT_C_PRO/",
+      "source": "micropython:nullbits_bit_c_pro"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/nullbits_bit_c_pro/",
+      "source": "circuitpython:nullbits_bit_c_pro"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:nullbits_bit_c_pro",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "D0",
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "D1",
+          "RX"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "D2",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "D3",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "D4"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "D7"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "D8"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "D9"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "LED_RED"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "LED_GREEN"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "LED_BLUE",
+          "LED"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "MISO",
+          "D20"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "D21"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "SCK",
+          "D22"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "MOSI",
+          "D23"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "A0",
+          "D26"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "A1",
+          "D27"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "A2",
+          "D28"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "A3",
+          "D29"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:nullbits_bit_c_pro",
+      "label": "CircuitPython board definition (nullbits_bit_c_pro)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/nullbits_bit_c_pro.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "micropython:nullbits_bit_c_pro",
+      "label": "MicroPython board definition (NULLBITS_BIT_C_PRO)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/rp2/boards/NULLBITS_BIT_C_PRO/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    },
+    {
+      "id": "circuitpython-pins:nullbits_bit_c_pro",
+      "label": "CircuitPython pin definitions (nullbits_bit_c_pro)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/nullbits_bit_c_pro/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

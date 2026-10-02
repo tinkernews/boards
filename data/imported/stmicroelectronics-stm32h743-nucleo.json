@@ -1,0 +1,535 @@
+{
+  "slug": "stmicroelectronics-stm32h743-nucleo",
+  "name": "STM32H743 Nucleo",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "circuitpython": [
+      "nucleo_h743zi_2"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/nucleo_h743zi_2/",
+      "source": "circuitpython:nucleo_h743zi_2"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:nucleo_h743zi_2",
+    "list": [
+      {
+        "pin": "PA00",
+        "names": [
+          "D32"
+        ]
+      },
+      {
+        "pin": "PA03",
+        "names": [
+          "A0"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "D24"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "D13",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "D12",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "PA15",
+        "names": [
+          "D20"
+        ]
+      },
+      {
+        "pin": "PB00",
+        "names": [
+          "D33",
+          "LED1"
+        ]
+      },
+      {
+        "pin": "PB01",
+        "names": [
+          "A3"
+        ]
+      },
+      {
+        "pin": "PB02",
+        "names": [
+          "D27",
+          "D72"
+        ]
+      },
+      {
+        "pin": "PB03",
+        "names": [
+          "D23"
+        ]
+      },
+      {
+        "pin": "PB04",
+        "names": [
+          "D25"
+        ]
+      },
+      {
+        "pin": "PB05",
+        "names": [
+          "D11",
+          "D22",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "PB06",
+        "names": [
+          "D1",
+          "TX"
+        ]
+      },
+      {
+        "pin": "PB07",
+        "names": [
+          "D0",
+          "RX"
+        ]
+      },
+      {
+        "pin": "PB08",
+        "names": [
+          "D15",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "PB09",
+        "names": [
+          "D14",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PB10",
+        "names": [
+          "D36"
+        ]
+      },
+      {
+        "pin": "PB11",
+        "names": [
+          "D35"
+        ]
+      },
+      {
+        "pin": "PB12",
+        "names": [
+          "D19"
+        ]
+      },
+      {
+        "pin": "PB13",
+        "names": [
+          "D18"
+        ]
+      },
+      {
+        "pin": "PB14",
+        "names": [
+          "LED3"
+        ]
+      },
+      {
+        "pin": "PB15",
+        "names": [
+          "D17"
+        ]
+      },
+      {
+        "pin": "PC00",
+        "names": [
+          "A1"
+        ]
+      },
+      {
+        "pin": "PC02",
+        "names": [
+          "A4"
+        ]
+      },
+      {
+        "pin": "PC03",
+        "names": [
+          "A2"
+        ]
+      },
+      {
+        "pin": "PC06",
+        "names": [
+          "D16"
+        ]
+      },
+      {
+        "pin": "PC07",
+        "names": [
+          "D21"
+        ]
+      },
+      {
+        "pin": "PC08",
+        "names": [
+          "D43"
+        ]
+      },
+      {
+        "pin": "PC09",
+        "names": [
+          "D44"
+        ]
+      },
+      {
+        "pin": "PC10",
+        "names": [
+          "D45"
+        ]
+      },
+      {
+        "pin": "PC11",
+        "names": [
+          "D46"
+        ]
+      },
+      {
+        "pin": "PC12",
+        "names": [
+          "D47"
+        ]
+      },
+      {
+        "pin": "PC13",
+        "names": [
+          "SW"
+        ]
+      },
+      {
+        "pin": "PD00",
+        "names": [
+          "D67"
+        ]
+      },
+      {
+        "pin": "PD01",
+        "names": [
+          "D66"
+        ]
+      },
+      {
+        "pin": "PD02",
+        "names": [
+          "D48"
+        ]
+      },
+      {
+        "pin": "PD03",
+        "names": [
+          "D55"
+        ]
+      },
+      {
+        "pin": "PD04",
+        "names": [
+          "D54"
+        ]
+      },
+      {
+        "pin": "PD05",
+        "names": [
+          "D53"
+        ]
+      },
+      {
+        "pin": "PD06",
+        "names": [
+          "D52"
+        ]
+      },
+      {
+        "pin": "PD07",
+        "names": [
+          "D51"
+        ]
+      },
+      {
+        "pin": "PD11",
+        "names": [
+          "D30"
+        ]
+      },
+      {
+        "pin": "PD12",
+        "names": [
+          "D29"
+        ]
+      },
+      {
+        "pin": "PD13",
+        "names": [
+          "D28"
+        ]
+      },
+      {
+        "pin": "PD14",
+        "names": [
+          "D10"
+        ]
+      },
+      {
+        "pin": "PD15",
+        "names": [
+          "D9"
+        ]
+      },
+      {
+        "pin": "PE00",
+        "names": [
+          "D34",
+          "D71"
+        ]
+      },
+      {
+        "pin": "PE01",
+        "names": [
+          "LED2"
+        ]
+      },
+      {
+        "pin": "PE02",
+        "names": [
+          "D31",
+          "D56"
+        ]
+      },
+      {
+        "pin": "PE03",
+        "names": [
+          "D60"
+        ]
+      },
+      {
+        "pin": "PE04",
+        "names": [
+          "D57"
+        ]
+      },
+      {
+        "pin": "PE05",
+        "names": [
+          "D58"
+        ]
+      },
+      {
+        "pin": "PE06",
+        "names": [
+          "D38",
+          "D59"
+        ]
+      },
+      {
+        "pin": "PE07",
+        "names": [
+          "D41"
+        ]
+      },
+      {
+        "pin": "PE08",
+        "names": [
+          "D42"
+        ]
+      },
+      {
+        "pin": "PE09",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "PE10",
+        "names": [
+          "D40"
+        ]
+      },
+      {
+        "pin": "PE11",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "PE12",
+        "names": [
+          "D39"
+        ]
+      },
+      {
+        "pin": "PE13",
+        "names": [
+          "D3"
+        ]
+      },
+      {
+        "pin": "PE14",
+        "names": [
+          "D4"
+        ]
+      },
+      {
+        "pin": "PE15",
+        "names": [
+          "D37"
+        ]
+      },
+      {
+        "pin": "PF00",
+        "names": [
+          "D68"
+        ]
+      },
+      {
+        "pin": "PF01",
+        "names": [
+          "D69"
+        ]
+      },
+      {
+        "pin": "PF02",
+        "names": [
+          "D70"
+        ]
+      },
+      {
+        "pin": "PF03",
+        "names": [
+          "D8"
+        ]
+      },
+      {
+        "pin": "PF04",
+        "names": [
+          "A6"
+        ]
+      },
+      {
+        "pin": "PF05",
+        "names": [
+          "A7"
+        ]
+      },
+      {
+        "pin": "PF06",
+        "names": [
+          "A8"
+        ]
+      },
+      {
+        "pin": "PF07",
+        "names": [
+          "D62"
+        ]
+      },
+      {
+        "pin": "PF08",
+        "names": [
+          "D61"
+        ]
+      },
+      {
+        "pin": "PF09",
+        "names": [
+          "D63"
+        ]
+      },
+      {
+        "pin": "PF10",
+        "names": [
+          "A5"
+        ]
+      },
+      {
+        "pin": "PG00",
+        "names": [
+          "D65"
+        ]
+      },
+      {
+        "pin": "PG01",
+        "names": [
+          "D64"
+        ]
+      },
+      {
+        "pin": "PG02",
+        "names": [
+          "D49"
+        ]
+      },
+      {
+        "pin": "PG03",
+        "names": [
+          "D50"
+        ]
+      },
+      {
+        "pin": "PG06",
+        "names": [
+          "D26"
+        ]
+      },
+      {
+        "pin": "PG12",
+        "names": [
+          "D7"
+        ]
+      },
+      {
+        "pin": "PG14",
+        "names": [
+          "D2"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:nucleo_h743zi_2",
+      "label": "CircuitPython board definition (nucleo_h743zi_2)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/nucleo_h743zi_2.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:nucleo_h743zi_2",
+      "label": "CircuitPython pin definitions (nucleo_h743zi_2)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/stm/boards/nucleo_h743zi_2/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

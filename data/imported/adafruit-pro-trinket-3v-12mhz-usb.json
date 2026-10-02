@@ -1,0 +1,53 @@
+{
+  "slug": "adafruit-pro-trinket-3v-12mhz-usb",
+  "name": "Adafruit Pro Trinket 3V/12MHz (USB)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "atmega328p",
+  "ids": {
+    "platformio": [
+      "protrinket3"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega328P",
+      "source": "platformio:protrinket3"
+    },
+    "clock": {
+      "value": "12 MHz",
+      "source": "platformio:protrinket3"
+    },
+    "upload_limits": {
+      "value": "28 KB flash, 2 KB RAM",
+      "source": "platformio:protrinket3"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Adafruit Pro Trinket 3V/12MHz (USB) product page",
+      "url": "http://www.adafruit.com/products/2010"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/protrinket3.html",
+      "source": "platformio:protrinket3"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:protrinket3",
+      "label": "PlatformIO board definition (protrinket3)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/protrinket3.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

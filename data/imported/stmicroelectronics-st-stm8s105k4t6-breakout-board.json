@@ -1,0 +1,52 @@
+{
+  "slug": "stmicroelectronics-st-stm8s105k4t6-breakout-board",
+  "name": "ST STM8S105K4T6 Breakout Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "platformio": [
+      "stm8sblack"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM8S105K4T6",
+      "source": "platformio:stm8sblack"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:stm8sblack"
+    },
+    "upload_limits": {
+      "value": "16 KB flash, 2 KB RAM",
+      "source": "platformio:stm8sblack"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ST STM8S105K4T6 Breakout Board product page",
+      "url": "https://github.com/TG9541/stm8ef/wiki/Breakout-Boards#stm8s105k4t6-breakout-board"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm8/stm8sblack.html",
+      "source": "platformio:stm8sblack"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:stm8sblack",
+      "label": "PlatformIO board definition (stm8sblack)",
+      "url": "https://github.com/platformio/platform-ststm8/blob/c6af4c1dde4024905613b08dac13a591894ea79f/boards/stm8sblack.json",
+      "kind": "import",
+      "revision": "c6af4c1dde4024905613b08dac13a591894ea79f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

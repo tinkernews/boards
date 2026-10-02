@@ -1,0 +1,44 @@
+{
+  "slug": "nxp-semiconductors-frdm-mcxw71",
+  "name": "FRDM-MCXW71",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "ids": {
+    "zephyr": [
+      "frdm_mcxw71"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MCXW716C",
+      "source": "zephyr:frdm_mcxw71"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:frdm_mcxw71"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:frdm_mcxw71"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nxp/frdm_mcxw71/doc/index.html",
+      "source": "zephyr:frdm_mcxw71"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:frdm_mcxw71",
+      "label": "Zephyr board definition (frdm_mcxw71)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nxp/frdm_mcxw71/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

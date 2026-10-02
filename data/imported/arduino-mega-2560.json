@@ -1,0 +1,56 @@
+{
+  "slug": "arduino-mega-2560",
+  "name": "Arduino Mega 2560",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "chip": "atmega2560",
+  "aliases": [
+    "Arduino Mega or Mega 2560 ATmega2560 (Mega 2560)"
+  ],
+  "ids": {
+    "platformio": [
+      "megaatmega2560"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega2560",
+      "source": "platformio:megaatmega2560"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:megaatmega2560"
+    },
+    "upload_limits": {
+      "value": "248 KB flash, 8 KB RAM",
+      "source": "platformio:megaatmega2560"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Arduino Mega 2560 product page",
+      "url": "https://www.arduino.cc/en/Main/ArduinoBoardMega2560"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/megaatmega2560.html",
+      "source": "platformio:megaatmega2560"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:megaatmega2560",
+      "label": "PlatformIO board definition (megaatmega2560)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/megaatmega2560.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,76 @@
+{
+  "slug": "stmicroelectronics-stm32373c-eval",
+  "name": "STM32373C-EVAL",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "aliases": [
+    "STM32373C Evaluation"
+  ],
+  "ids": {
+    "platformio": [
+      "eval_f373vc"
+    ],
+    "zephyr": [
+      "stm32373c_eval"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F373VCT6",
+      "source": "platformio:eval_f373vc"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:eval_f373vc"
+    },
+    "clock": {
+      "value": "72 MHz",
+      "source": "platformio:eval_f373vc"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:eval_f373vc"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:stm32373c_eval"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:stm32373c_eval"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "STM32373C-EVAL product page",
+      "url": "https://www.st.com/en/evaluation-tools/stm32373c-eval.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/stm32373c_eval/doc/index.html",
+      "source": "zephyr:stm32373c_eval"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:eval_f373vc",
+      "label": "PlatformIO board definition (eval_f373vc)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/eval_f373vc.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    },
+    {
+      "id": "zephyr:stm32373c_eval",
+      "label": "Zephyr board definition (stm32373c_eval)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/stm32373c_eval/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

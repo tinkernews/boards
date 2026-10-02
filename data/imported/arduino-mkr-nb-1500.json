@@ -1,0 +1,57 @@
+{
+  "slug": "arduino-mkr-nb-1500",
+  "name": "Arduino MKR NB 1500",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "chip": "atsamd21g18",
+  "ids": {
+    "platformio": [
+      "mkrnb1500"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAMD21G18",
+      "source": "platformio:mkrnb1500"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:mkrnb1500"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:mkrnb1500"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:mkrnb1500"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Arduino MKR NB 1500 product page",
+      "url": "https://store.arduino.cc/arduino-mkr-nb-1500"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelsam/mkrnb1500.html",
+      "source": "platformio:mkrnb1500"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:mkrnb1500",
+      "label": "PlatformIO board definition (mkrnb1500)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/mkrnb1500.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

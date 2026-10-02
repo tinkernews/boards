@@ -1,0 +1,76 @@
+{
+  "slug": "stmicroelectronics-st-nucleo-h745zi-q",
+  "name": "ST Nucleo H745ZI-Q",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "aliases": [
+    "Nucleo H745ZI-Q"
+  ],
+  "ids": {
+    "platformio": [
+      "nucleo_h745zi_q"
+    ],
+    "zephyr": [
+      "nucleo_h745zi_q"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32H745ZIT6",
+      "source": "platformio:nucleo_h745zi_q"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M7",
+      "source": "platformio:nucleo_h745zi_q"
+    },
+    "clock": {
+      "value": "480 MHz",
+      "source": "platformio:nucleo_h745zi_q"
+    },
+    "upload_limits": {
+      "value": "1 MB flash, 512 KB RAM",
+      "source": "platformio:nucleo_h745zi_q"
+    },
+    "ram": {
+      "value": "128 KB",
+      "source": "zephyr:nucleo_h745zi_q"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:nucleo_h745zi_q"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ST Nucleo H745ZI-Q product page",
+      "url": "https://www.st.com/en/evaluation-tools/nucleo-h745zi-q.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/nucleo_h745zi_q/doc/index.html",
+      "source": "zephyr:nucleo_h745zi_q"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:nucleo_h745zi_q",
+      "label": "PlatformIO board definition (nucleo_h745zi_q)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/nucleo_h745zi_q.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    },
+    {
+      "id": "zephyr:nucleo_h745zi_q",
+      "label": "Zephyr board definition (nucleo_h745zi_q)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/nucleo_h745zi_q/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

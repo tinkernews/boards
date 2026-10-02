@@ -1,0 +1,44 @@
+{
+  "slug": "digilent-arty",
+  "name": "Arty",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "digilent",
+  "ids": {
+    "zephyr": [
+      "arty_a7"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "DESIGNSTART_FPGA_CORTEX_M1",
+      "source": "zephyr:arty_a7"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:arty_a7"
+    },
+    "flash": {
+      "value": "64 KB",
+      "source": "zephyr:arty_a7"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/digilent/arty_a7/doc/index.html",
+      "source": "zephyr:arty_a7"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:arty_a7",
+      "label": "Zephyr board definition (arty_a7)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/digilent/arty_a7/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

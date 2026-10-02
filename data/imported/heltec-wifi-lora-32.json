@@ -1,0 +1,411 @@
+{
+  "slug": "heltec-wifi-lora-32",
+  "name": "Heltec WiFi LoRa 32",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "heltec",
+  "chip": "esp32",
+  "aliases": [
+    "WiFi LoRa 32 (V2)",
+    "WiFi LoRa 32 V3"
+  ],
+  "ids": {
+    "platformio": [
+      "heltec_wifi_lora_32",
+      "heltec_wifi_lora_32_V2",
+      "heltec_wifi_lora_32_V3"
+    ],
+    "zephyr": [
+      "heltec_wifi_lora32_v2",
+      "heltec_wifi_lora32_v3"
+    ],
+    "circuitpython": [
+      "heltec_esp32s3_wifi_lora_v3"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:heltec_wifi_lora_32"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:heltec_wifi_lora_32"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:heltec_wifi_lora_32"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Heltec WiFi LoRa 32 product page",
+      "url": "http://www.heltec.cn"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/heltec_wifi_lora_32.html",
+      "source": "platformio:heltec_wifi_lora_32"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/heltec_wifi_lora_32.html",
+      "source": "platformio:heltec_wifi_lora_32"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/heltec/heltec_wifi_lora32_v2/doc/index.html",
+      "source": "zephyr:heltec_wifi_lora32_v2"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/heltec_esp32s3_wifi_lora_v3/",
+      "source": "circuitpython:heltec_esp32s3_wifi_lora_v3"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:heltec_esp32s3_wifi_lora_v3",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "IO0",
+          "GPIO0",
+          "USER_BUTTON"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "IO1",
+          "GPIO1",
+          "BAT_ADC",
+          "TOUCH1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "IO2",
+          "GPIO2",
+          "TOUCH2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "IO3",
+          "GPIO3",
+          "TOUCH3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "IO4",
+          "GPIO4",
+          "TOUCH4"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "IO5",
+          "GPIO5",
+          "TOUCH5"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "IO6",
+          "GPIO6",
+          "TOUCH6"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "IO7",
+          "GPIO7",
+          "TOUCH7"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "IO8",
+          "LORA_NSS"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "IO9",
+          "LORA_SCK"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "IO10",
+          "LORA_MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "IO11",
+          "LORA_MISO"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "IO12",
+          "LORA_RST"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "IO13",
+          "LORA_BUSY"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "IO14"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "IO15"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "IO16"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "IO17",
+          "OLED_SDA"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "IO18",
+          "OLED_SCL"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "IO19",
+          "GPIO19",
+          "ADC2_CH9A"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "IO20",
+          "GPIO20",
+          "ADC1_CH9B"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "IO21",
+          "GPIO21",
+          "OLED_RST"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "GPIO26"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "GPIO33"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "GPIO34"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "IO35",
+          "GPIO35",
+          "LED"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "IO36",
+          "GPIO36"
+        ]
+      },
+      {
+        "pin": "GPIO37",
+        "names": [
+          "IO37",
+          "GPIO37"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "IO38",
+          "GPIO38"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "IO39",
+          "GPIO39"
+        ]
+      },
+      {
+        "pin": "GPIO40",
+        "names": [
+          "IO40",
+          "GPIO40"
+        ]
+      },
+      {
+        "pin": "GPIO41",
+        "names": [
+          "IO41",
+          "GPIO41"
+        ]
+      },
+      {
+        "pin": "GPIO42",
+        "names": [
+          "IO42",
+          "GPIO42"
+        ]
+      },
+      {
+        "pin": "GPIO43",
+        "names": [
+          "IO43",
+          "GPIO43"
+        ]
+      },
+      {
+        "pin": "GPIO44",
+        "names": [
+          "IO44",
+          "GPIO44"
+        ]
+      },
+      {
+        "pin": "GPIO45",
+        "names": [
+          "IO45",
+          "GPIO45"
+        ]
+      },
+      {
+        "pin": "GPIO46",
+        "names": [
+          "IO46",
+          "GPIO46"
+        ]
+      },
+      {
+        "pin": "GPIO47",
+        "names": [
+          "IO47",
+          "GPIO47"
+        ]
+      },
+      {
+        "pin": "GPIO48",
+        "names": [
+          "IO48",
+          "GPIO48"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "platformio:heltec_wifi_lora_32",
+      "label": "PlatformIO board definition (heltec_wifi_lora_32)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/heltec_wifi_lora_32.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    },
+    {
+      "id": "platformio:heltec_wifi_lora_32_v2",
+      "label": "PlatformIO board definition (heltec_wifi_lora_32_V2)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/heltec_wifi_lora_32_V2.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    },
+    {
+      "id": "platformio:heltec_wifi_lora_32_v3",
+      "label": "PlatformIO board definition (heltec_wifi_lora_32_V3)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/heltec_wifi_lora_32_V3.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    },
+    {
+      "id": "zephyr:heltec_wifi_lora32_v2",
+      "label": "Zephyr board definition (heltec_wifi_lora32_v2)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/heltec/heltec_wifi_lora32_v2/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "zephyr:heltec_wifi_lora32_v3",
+      "label": "Zephyr board definition (heltec_wifi_lora32_v3)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/heltec/heltec_wifi_lora32_v3/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "circuitpython:heltec_esp32s3_wifi_lora_v3",
+      "label": "CircuitPython board definition (heltec_esp32s3_wifi_lora_v3)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/heltec_esp32s3_wifi_lora_v3.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:heltec_esp32s3_wifi_lora_v3",
+      "label": "CircuitPython pin definitions (heltec_esp32s3_wifi_lora_v3)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/heltec_esp32s3_wifi_lora_v3/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

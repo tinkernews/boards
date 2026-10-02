@@ -1,0 +1,45 @@
+{
+  "slug": "circuit-dojo-nrf9160-feather",
+  "name": "nRF9160 Feather",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "circuit-dojo",
+  "chip": "nrf9160",
+  "ids": {
+    "zephyr": [
+      "circuitdojo_feather"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF9160",
+      "source": "zephyr:circuitdojo_feather"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:circuitdojo_feather"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:circuitdojo_feather"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/circuitdojo/feather/doc/index.html",
+      "source": "zephyr:circuitdojo_feather"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:circuitdojo_feather",
+      "label": "Zephyr board definition (circuitdojo_feather)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/circuitdojo/feather/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

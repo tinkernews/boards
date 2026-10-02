@@ -1,0 +1,37 @@
+{
+  "slug": "nordic-semiconductor-pca10056",
+  "name": "pca10056",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nordic-semiconductor",
+  "ids": {
+    "micropython": [
+      "PCA10056"
+    ]
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "pca10056 product page",
+      "url": "https://www.nordicsemi.com/Products/Development-hardware/nRF52840-DK"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/PCA10056/",
+      "source": "micropython:pca10056"
+    }
+  ],
+  "sources": [
+    {
+      "id": "micropython:pca10056",
+      "label": "MicroPython board definition (PCA10056)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/nrf/boards/PCA10056/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

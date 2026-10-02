@@ -1,0 +1,223 @@
+{
+  "slug": "proves-kit-rp2040-v4",
+  "name": "PROVES Kit RP2040 V4",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "proves-kit",
+  "chip": "rp2040",
+  "ids": {
+    "circuitpython": [
+      "proveskit_rp2040_v4"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/proveskit_rp2040_v4/",
+      "source": "circuitpython:proveskit_rp2040_v4"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:proveskit_rp2040_v4",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "RX"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "I2C1_SDA"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "I2C1_SCL"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "I2C0_SDA"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "I2C0_SCL"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "PC"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "VS"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "SPI0_MISO"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "SPI0_CS0"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "SPI0_SCK"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "SPI0_MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "D2"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "D3"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "D4"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "D7"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "D8"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "D9"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "RF1_RST"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "WDT_WDI"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "RF1_IO4"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "RF1_IO0"
+        ]
+      },
+      {
+        "pin": "GPIO24",
+        "names": [
+          "NEOPIX"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "HS"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "SPI0_CS1"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "NEO_PWR"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "SPI0_CS2"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "D0"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:proveskit_rp2040_v4",
+      "label": "CircuitPython board definition (proveskit_rp2040_v4)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/proveskit_rp2040_v4.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:proveskit_rp2040_v4",
+      "label": "CircuitPython pin definitions (proveskit_rp2040_v4)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/proveskit_rp2040_v4/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

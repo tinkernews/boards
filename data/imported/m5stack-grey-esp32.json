@@ -1,0 +1,59 @@
+{
+  "slug": "m5stack-grey-esp32",
+  "name": "M5Stack GREY ESP32",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "m5stack",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "m5stack-grey"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:m5stack-grey"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:m5stack-grey"
+    },
+    "upload_limits": {
+      "value": "16 MB flash, 520 KB RAM",
+      "source": "platformio:m5stack-grey"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "M5Stack GREY ESP32 product page",
+      "url": "http://www.m5stack.com"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/m5stack-grey.html",
+      "source": "platformio:m5stack-grey"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/m5stack-grey.html",
+      "source": "platformio:m5stack-grey"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:m5stack-grey",
+      "label": "PlatformIO board definition (m5stack-grey)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/m5stack-grey.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

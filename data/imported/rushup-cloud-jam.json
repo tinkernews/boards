@@ -1,0 +1,48 @@
+{
+  "slug": "rushup-cloud-jam",
+  "name": "RushUp Cloud-JAM",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "rushup",
+  "chip": "stm32f401re",
+  "ids": {
+    "platformio": [
+      "cloud_jam"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F401RE",
+      "source": "platformio:cloud_jam"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:cloud_jam"
+    },
+    "clock": {
+      "value": "84 MHz",
+      "source": "platformio:cloud_jam"
+    },
+    "upload_limits": {
+      "value": "512 KB flash, 96 KB RAM",
+      "source": "platformio:cloud_jam"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "RushUp Cloud-JAM product page",
+      "url": "https://developer.mbed.org/platforms/ST-Nucleo-F401RE/"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:cloud_jam",
+      "label": "PlatformIO board definition (cloud_jam)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/cloud_jam.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

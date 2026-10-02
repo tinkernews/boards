@@ -1,0 +1,44 @@
+{
+  "slug": "nxp-semiconductors-vmu-rt1170",
+  "name": "VMU RT1170",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "ids": {
+    "zephyr": [
+      "vmu_rt1170"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MIMXRT1176",
+      "source": "zephyr:vmu_rt1170"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:vmu_rt1170"
+    },
+    "flash": {
+      "value": "64 MB",
+      "source": "zephyr:vmu_rt1170"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nxp/vmu_rt1170/doc/index.html",
+      "source": "zephyr:vmu_rt1170"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:vmu_rt1170",
+      "label": "Zephyr board definition (vmu_rt1170)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nxp/vmu_rt1170/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

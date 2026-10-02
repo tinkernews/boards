@@ -1,0 +1,57 @@
+{
+  "slug": "nordic-nrf51-dongle-pca10031",
+  "name": "Nordic nRF51 Dongle (PCA10031)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nordic-semiconductor",
+  "chip": "nrf51822",
+  "ids": {
+    "platformio": [
+      "nrf51_dongle"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF51822",
+      "source": "platformio:nrf51_dongle"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0",
+      "source": "platformio:nrf51_dongle"
+    },
+    "clock": {
+      "value": "32 MHz",
+      "source": "platformio:nrf51_dongle"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:nrf51_dongle"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Nordic nRF51 Dongle (PCA10031) product page",
+      "url": "https://www.nordicsemi.com/Products/Development-hardware/nRF51-Dongle"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/nordicnrf51/nrf51_dongle.html",
+      "source": "platformio:nrf51_dongle"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:nrf51_dongle",
+      "label": "PlatformIO board definition (nrf51_dongle)",
+      "url": "https://github.com/platformio/platform-nordicnrf51/blob/521963027651adfb1cd631d98767251dee254354/boards/nrf51_dongle.json",
+      "kind": "import",
+      "revision": "521963027651adfb1cd631d98767251dee254354"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

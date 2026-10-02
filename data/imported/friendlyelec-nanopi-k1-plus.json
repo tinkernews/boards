@@ -1,0 +1,32 @@
+{
+  "slug": "friendlyelec-nanopi-k1-plus",
+  "name": "NanoPi K1 Plus",
+  "tier": "imported",
+  "kind": "sbc",
+  "maker": "friendlyelec",
+  "released": "2018",
+  "ids": {
+    "armbian": [
+      "nanopik1plus"
+    ]
+  },
+  "software": [
+    {
+      "platform": "armbian",
+      "status": "supported",
+      "note": "Supported by Armbian.",
+      "url": "https://github.com/armbian/build/blob/main/config/boards/nanopik1plus.conf",
+      "source": "armbian:nanopik1plus"
+    }
+  ],
+  "sources": [
+    {
+      "id": "armbian:nanopik1plus",
+      "label": "Armbian board configuration (nanopik1plus)",
+      "url": "https://github.com/armbian/build/blob/da85daa05bd260d04dac50315d7317207fd998b3/config/boards/nanopik1plus.conf",
+      "kind": "import",
+      "revision": "da85daa05bd260d04dac50315d7317207fd998b3"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

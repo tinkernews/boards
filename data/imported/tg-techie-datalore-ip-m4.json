@@ -1,0 +1,31 @@
+{
+  "slug": "tg-techie-datalore-ip-m4",
+  "name": "Datalore-IP-M4",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "tg-techie",
+  "chip": "atsamd51j19",
+  "ids": {
+    "circuitpython": [
+      "datalore_ip_m4"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/datalore_ip_m4/",
+      "source": "circuitpython:datalore_ip_m4"
+    }
+  ],
+  "sources": [
+    {
+      "id": "circuitpython:datalore_ip_m4",
+      "label": "CircuitPython board definition (datalore_ip_m4)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/datalore_ip_m4.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

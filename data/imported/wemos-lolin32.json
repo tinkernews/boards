@@ -1,0 +1,249 @@
+{
+  "slug": "wemos-lolin32",
+  "name": "WEMOS LOLIN32",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "wemos",
+  "chip": "esp32",
+  "aliases": [
+    "LOLIN32"
+  ],
+  "ids": {
+    "platformio": [
+      "lolin32"
+    ],
+    "circuitpython": [
+      "wemos_lolin32_lite"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:lolin32"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:lolin32"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:lolin32"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "WEMOS LOLIN32 product page",
+      "url": "https://wiki.wemos.cc/products:lolin32:lolin32"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/lolin32.html",
+      "source": "platformio:lolin32"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/lolin32.html",
+      "source": "platformio:lolin32"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/wemos_lolin32_lite/",
+      "source": "circuitpython:wemos_lolin32_lite"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:wemos_lolin32_lite",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "IO0",
+          "R11",
+          "BOOT"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "IO2",
+          "R12"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "IO4",
+          "R10"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "IO5"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "IO12",
+          "R15"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "IO13",
+          "R14"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "IO14",
+          "R16"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "IO15",
+          "R13"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "IO16"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "IO17"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "IO18"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "IO19"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "IO22",
+          "LED"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "IO23"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "IO25",
+          "DAC1",
+          "R6"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "IO26",
+          "DAC2",
+          "R7"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "IO27"
+        ]
+      },
+      {
+        "pin": "GPIO32",
+        "names": [
+          "IO32",
+          "A1_4",
+          "R9"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "IO33",
+          "A1_5",
+          "R8"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "IO34",
+          "A1_6",
+          "R4"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "IO35",
+          "A1_7",
+          "R5"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "VP"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "VN"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "platformio:lolin32",
+      "label": "PlatformIO board definition (lolin32)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/lolin32.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    },
+    {
+      "id": "circuitpython:wemos_lolin32_lite",
+      "label": "CircuitPython board definition (wemos_lolin32_lite)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/wemos_lolin32_lite.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:wemos_lolin32_lite",
+      "label": "CircuitPython pin definitions (wemos_lolin32_lite)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/wemos_lolin32_lite/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

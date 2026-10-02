@@ -1,0 +1,49 @@
+{
+  "slug": "bananapi-bpi-f3",
+  "name": "BananaPi BPI-F3",
+  "tier": "imported",
+  "kind": "sbc",
+  "maker": "banana-pi",
+  "released": "2024",
+  "ids": {
+    "armbian": [
+      "bananapif3"
+    ],
+    "linux": [
+      "arch/riscv/boot/dts/spacemit/k1-bananapi-f3.dts"
+    ]
+  },
+  "software": [
+    {
+      "platform": "armbian",
+      "status": "supported",
+      "note": "Supported by Armbian.",
+      "url": "https://github.com/armbian/build/blob/main/config/boards/bananapif3.conf",
+      "source": "armbian:bananapif3"
+    },
+    {
+      "platform": "linux-mainline",
+      "status": "supported",
+      "note": "A device tree for this board is in the mainline kernel; features may still be missing.",
+      "url": "https://github.com/torvalds/linux/blob/master/arch/riscv/boot/dts/spacemit/k1-bananapi-f3.dts",
+      "source": "linux:k1-bananapi-f3.dts"
+    }
+  ],
+  "sources": [
+    {
+      "id": "armbian:bananapif3",
+      "label": "Armbian board configuration (bananapif3)",
+      "url": "https://github.com/armbian/build/blob/da85daa05bd260d04dac50315d7317207fd998b3/config/boards/bananapif3.conf",
+      "kind": "import",
+      "revision": "da85daa05bd260d04dac50315d7317207fd998b3"
+    },
+    {
+      "id": "linux:k1-bananapi-f3.dts",
+      "label": "Linux kernel device tree (k1-bananapi-f3.dts)",
+      "url": "https://github.com/torvalds/linux/blob/551c722f40809618230001baccf219193e22fc5a/arch/riscv/boot/dts/spacemit/k1-bananapi-f3.dts",
+      "kind": "import",
+      "revision": "551c722f40809618230001baccf219193e22fc5a"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

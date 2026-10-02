@@ -1,0 +1,309 @@
+{
+  "slug": "atelier-du-maker-adm-52840-breakout-board-for-holyiot-18010",
+  "name": "ADM_52840 Breakout board for Holyiot_18010",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "atelier-du-maker",
+  "chip": "nrf52840",
+  "ids": {
+    "circuitpython": [
+      "ADM_B_NRF52840_1"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/ADM_B_NRF52840_1/",
+      "source": "circuitpython:adm_b_nrf52840_1"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:adm_b_nrf52840_1",
+    "list": [
+      {
+        "pin": "P0_02",
+        "names": [
+          "P1_10",
+          "P0_02"
+        ]
+      },
+      {
+        "pin": "P0_03",
+        "names": [
+          "P0_03"
+        ]
+      },
+      {
+        "pin": "P0_04",
+        "names": [
+          "P0_04"
+        ]
+      },
+      {
+        "pin": "P0_05",
+        "names": [
+          "P0_05"
+        ]
+      },
+      {
+        "pin": "P0_06",
+        "names": [
+          "P0_06"
+        ]
+      },
+      {
+        "pin": "P0_07",
+        "names": [
+          "P0_07"
+        ]
+      },
+      {
+        "pin": "P0_08",
+        "names": [
+          "P0_08"
+        ]
+      },
+      {
+        "pin": "P0_09",
+        "names": [
+          "P0_09"
+        ]
+      },
+      {
+        "pin": "P0_10",
+        "names": [
+          "P0_10"
+        ]
+      },
+      {
+        "pin": "P0_11",
+        "names": [
+          "P0_11"
+        ]
+      },
+      {
+        "pin": "P0_12",
+        "names": [
+          "P0_12"
+        ]
+      },
+      {
+        "pin": "P0_13",
+        "names": [
+          "P0_13"
+        ]
+      },
+      {
+        "pin": "P0_14",
+        "names": [
+          "P0_14"
+        ]
+      },
+      {
+        "pin": "P0_15",
+        "names": [
+          "P0_15"
+        ]
+      },
+      {
+        "pin": "P0_16",
+        "names": [
+          "P0_16"
+        ]
+      },
+      {
+        "pin": "P0_17",
+        "names": [
+          "P0_17"
+        ]
+      },
+      {
+        "pin": "P0_18",
+        "names": [
+          "P0_18"
+        ]
+      },
+      {
+        "pin": "P0_19",
+        "names": [
+          "P0_19"
+        ]
+      },
+      {
+        "pin": "P0_20",
+        "names": [
+          "P0_20"
+        ]
+      },
+      {
+        "pin": "P0_21",
+        "names": [
+          "P0_21"
+        ]
+      },
+      {
+        "pin": "P0_22",
+        "names": [
+          "P0_22"
+        ]
+      },
+      {
+        "pin": "P0_23",
+        "names": [
+          "P0_23"
+        ]
+      },
+      {
+        "pin": "P0_24",
+        "names": [
+          "P0_24"
+        ]
+      },
+      {
+        "pin": "P0_25",
+        "names": [
+          "P0_25"
+        ]
+      },
+      {
+        "pin": "P0_26",
+        "names": [
+          "P0_26"
+        ]
+      },
+      {
+        "pin": "P0_28",
+        "names": [
+          "P0_28",
+          "P0_27"
+        ]
+      },
+      {
+        "pin": "P0_29",
+        "names": [
+          "P0_29"
+        ]
+      },
+      {
+        "pin": "P0_30",
+        "names": [
+          "P0_30"
+        ]
+      },
+      {
+        "pin": "P0_31",
+        "names": [
+          "P0_31"
+        ]
+      },
+      {
+        "pin": "P1_00",
+        "names": [
+          "P1_00"
+        ]
+      },
+      {
+        "pin": "P1_01",
+        "names": [
+          "P1_01"
+        ]
+      },
+      {
+        "pin": "P1_02",
+        "names": [
+          "P1_02"
+        ]
+      },
+      {
+        "pin": "P1_03",
+        "names": [
+          "P1_03"
+        ]
+      },
+      {
+        "pin": "P1_04",
+        "names": [
+          "P1_04"
+        ]
+      },
+      {
+        "pin": "P1_05",
+        "names": [
+          "P1_05"
+        ]
+      },
+      {
+        "pin": "P1_06",
+        "names": [
+          "P1_06"
+        ]
+      },
+      {
+        "pin": "P1_07",
+        "names": [
+          "P1_07"
+        ]
+      },
+      {
+        "pin": "P1_08",
+        "names": [
+          "P1_08"
+        ]
+      },
+      {
+        "pin": "P1_09",
+        "names": [
+          "P1_09"
+        ]
+      },
+      {
+        "pin": "P1_11",
+        "names": [
+          "P1_11"
+        ]
+      },
+      {
+        "pin": "P1_12",
+        "names": [
+          "P1_12"
+        ]
+      },
+      {
+        "pin": "P1_13",
+        "names": [
+          "P1_13"
+        ]
+      },
+      {
+        "pin": "P1_14",
+        "names": [
+          "P1_14"
+        ]
+      },
+      {
+        "pin": "P1_15",
+        "names": [
+          "P1_15"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:adm_b_nrf52840_1",
+      "label": "CircuitPython board definition (ADM_B_NRF52840_1)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/ADM_B_NRF52840_1.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:adm_b_nrf52840_1",
+      "label": "CircuitPython pin definitions (ADM_B_NRF52840_1)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/nordic/boards/ADM_B_NRF52840_1/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

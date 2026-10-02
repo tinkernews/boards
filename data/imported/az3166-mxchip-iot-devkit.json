@@ -1,0 +1,36 @@
+{
+  "slug": "az3166-mxchip-iot-devkit",
+  "name": "AZ3166 MXChip IoT DevKit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "mxchip",
+  "ids": {
+    "zephyr": [
+      "az3166_iotdevkit"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F412RX",
+      "source": "zephyr:az3166_iotdevkit"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/mxchip/az3166_iotdevkit/doc/index.html",
+      "source": "zephyr:az3166_iotdevkit"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:az3166_iotdevkit",
+      "label": "Zephyr board definition (az3166_iotdevkit)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/mxchip/az3166_iotdevkit/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

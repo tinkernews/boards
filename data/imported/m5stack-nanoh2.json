@@ -1,0 +1,37 @@
+{
+  "slug": "m5stack-nanoh2",
+  "name": "NanoH2",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "m5stack",
+  "ids": {
+    "micropython": [
+      "M5STACK_NANOH2"
+    ]
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "NanoH2 product page",
+      "url": "https://shop.m5stack.com/products/m5stack-nanoh2-dev-kit-esp32-h2"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/M5STACK_NANOH2/",
+      "source": "micropython:m5stack_nanoh2"
+    }
+  ],
+  "sources": [
+    {
+      "id": "micropython:m5stack_nanoh2",
+      "label": "MicroPython board definition (M5STACK_NANOH2)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/esp32/boards/M5STACK_NANOH2/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "gaisler-generic-leon3",
+  "name": "Generic LEON3",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "gaisler",
+  "ids": {
+    "zephyr": [
+      "generic_leon3"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "LEON3",
+      "source": "zephyr:generic_leon3"
+    },
+    "ram": {
+      "value": "4096 KB",
+      "source": "zephyr:generic_leon3"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:generic_leon3"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/gaisler/generic_leon3/doc/index.html",
+      "source": "zephyr:generic_leon3"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:generic_leon3",
+      "label": "Zephyr board definition (generic_leon3)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/gaisler/generic_leon3/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "nordic-semiconductor-pca10090",
+  "name": "pca10090",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nordic-semiconductor",
+  "ids": {
+    "micropython": [
+      "PCA10090"
+    ]
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "pca10090 product page",
+      "url": "https://www.nordicsemi.com/Products/Development-hardware/nrf9160-dk"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/PCA10090/",
+      "source": "micropython:pca10090"
+    }
+  ],
+  "sources": [
+    {
+      "id": "micropython:pca10090",
+      "label": "MicroPython board definition (PCA10090)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/nrf/boards/PCA10090/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

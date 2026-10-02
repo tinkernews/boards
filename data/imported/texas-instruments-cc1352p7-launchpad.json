@@ -1,0 +1,44 @@
+{
+  "slug": "texas-instruments-cc1352p7-launchpad",
+  "name": "CC1352P7 LaunchPad",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "texas-instruments",
+  "ids": {
+    "zephyr": [
+      "cc1352p7_lp"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "CC1352P7",
+      "source": "zephyr:cc1352p7_lp"
+    },
+    "ram": {
+      "value": "144 KB",
+      "source": "zephyr:cc1352p7_lp"
+    },
+    "flash": {
+      "value": "704 KB",
+      "source": "zephyr:cc1352p7_lp"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/ti/cc1352p7_launchpad/doc/index.html",
+      "source": "zephyr:cc1352p7_lp"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:cc1352p7_lp",
+      "label": "Zephyr board definition (cc1352p7_lp)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/ti/cc1352p7_launchpad/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,218 @@
+{
+  "slug": "pimoroni-inky-frame-7-3-pico-w-aboard",
+  "name": "Inky Frame 7.3\" (Pico W Aboard)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "pimoroni",
+  "chip": "rp2040",
+  "ids": {
+    "circuitpython": [
+      "pimoroni_inky_frame_7_3"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/pimoroni_inky_frame_7_3/",
+      "source": "circuitpython:pimoroni_inky_frame_7_3"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:pimoroni_inky_frame_7_3",
+    "list": [
+      {
+        "pin": "CYW0",
+        "names": [
+          "PICO_LED"
+        ]
+      },
+      {
+        "pin": "CYW1",
+        "names": [
+          "SMPS_MODE"
+        ]
+      },
+      {
+        "pin": "CYW2",
+        "names": [
+          "VBUS_SENSE"
+        ]
+      },
+      {
+        "pin": "GPIO0",
+        "names": [
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "RX"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "HOLD_SYS_EN"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "I2C_INT"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "LED_ACT",
+          "LED"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "LED_CONN"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "BUTTON_CLK"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "BUTTON_LATCH"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "BUTTON_OUT"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "LED_A"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "LED_B"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "LED_C"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "LED_D"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "LED_E"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "MISO"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "INKY_CS"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "SCLK"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "SD_DAT1"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "SD_DAT2"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "SD_CS"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "A0"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "INKY_RES"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "INKY_DC"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:pimoroni_inky_frame_7_3",
+      "label": "CircuitPython board definition (pimoroni_inky_frame_7_3)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/pimoroni_inky_frame_7_3.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:pimoroni_inky_frame_7_3",
+      "label": "CircuitPython pin definitions (pimoroni_inky_frame_7_3)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/pimoroni_inky_frame_7_3/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

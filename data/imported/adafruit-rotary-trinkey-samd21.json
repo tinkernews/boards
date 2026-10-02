@@ -1,0 +1,73 @@
+{
+  "slug": "adafruit-rotary-trinkey-samd21",
+  "name": "Rotary Trinkey - SAMD21",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "atsamd21g18",
+  "ids": {
+    "circuitpython": [
+      "adafruit_rotary_trinkey_m0"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/adafruit_rotary_trinkey_m0/",
+      "source": "circuitpython:adafruit_rotary_trinkey_m0"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:adafruit_rotary_trinkey_m0",
+    "list": [
+      {
+        "pin": "PA00",
+        "names": [
+          "ROTB"
+        ]
+      },
+      {
+        "pin": "PA01",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "ROTA"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "TOUCH"
+        ]
+      },
+      {
+        "pin": "PA27",
+        "names": [
+          "SWITCH"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:adafruit_rotary_trinkey_m0",
+      "label": "CircuitPython board definition (adafruit_rotary_trinkey_m0)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/adafruit_rotary_trinkey_m0.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:adafruit_rotary_trinkey_m0",
+      "label": "CircuitPython pin definitions (adafruit_rotary_trinkey_m0)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/adafruit_rotary_trinkey_m0/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

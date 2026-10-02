@@ -1,0 +1,70 @@
+{
+  "slug": "nxp-semiconductors-mimxrt1064-evk",
+  "name": "MIMXRT1064-EVK",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "aliases": [
+    "MIMXRT1064_EVK"
+  ],
+  "ids": {
+    "zephyr": [
+      "mimxrt1064_evk"
+    ],
+    "micropython": [
+      "MIMXRT1064_EVK"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MIMXRT1064",
+      "source": "zephyr:mimxrt1064_evk"
+    },
+    "ram": {
+      "value": "32768 KB",
+      "source": "zephyr:mimxrt1064_evk"
+    },
+    "flash": {
+      "value": "4 MB",
+      "source": "zephyr:mimxrt1064_evk"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "MIMXRT1064-EVK product page",
+      "url": "https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/i-mx-rt1064-evaluation-kit:MIMXRT1064-EVK"
+    }
+  ],
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nxp/mimxrt1064_evk/doc/index.html",
+      "source": "zephyr:mimxrt1064_evk"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/MIMXRT1064_EVK/",
+      "source": "micropython:mimxrt1064_evk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:mimxrt1064_evk",
+      "label": "Zephyr board definition (mimxrt1064_evk)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nxp/mimxrt1064_evk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "micropython:mimxrt1064_evk",
+      "label": "MicroPython board definition (MIMXRT1064_EVK)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/mimxrt/boards/MIMXRT1064_EVK/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

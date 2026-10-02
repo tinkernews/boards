@@ -1,0 +1,40 @@
+{
+  "slug": "aries-v3-0-development-board",
+  "name": "ARIES v3.0 Development Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "centre-for-development-of-advanced-computing-c-dac",
+  "ids": {
+    "zephyr": [
+      "aries_v3"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "THEJAS32",
+      "source": "zephyr:aries_v3"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:aries_v3"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/cdac/aries_v3/doc/index.html",
+      "source": "zephyr:aries_v3"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:aries_v3",
+      "label": "Zephyr board definition (aries_v3)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/cdac/aries_v3/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "renesas-da14695-development-kit-usb",
+  "name": "DA14695 Development Kit USB",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "renesas",
+  "ids": {
+    "zephyr": [
+      "da14695_dk_usb"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "DA14695",
+      "source": "zephyr:da14695_dk_usb"
+    },
+    "ram": {
+      "value": "512 KB",
+      "source": "zephyr:da14695_dk_usb"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/renesas/da14695_dk_usb/doc/index.html",
+      "source": "zephyr:da14695_dk_usb"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:da14695_dk_usb",
+      "label": "Zephyr board definition (da14695_dk_usb)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/renesas/da14695_dk_usb/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "xilinx-arty-fpga-dev-kit",
+  "name": "Arty FPGA Dev Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "xilinx",
+  "ids": {
+    "platformio": [
+      "e310-arty"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "FE310",
+      "source": "platformio:e310-arty"
+    },
+    "clock": {
+      "value": "450 MHz",
+      "source": "platformio:e310-arty"
+    },
+    "upload_limits": {
+      "value": "16 MB flash, 256 MB RAM",
+      "source": "platformio:e310-arty"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Arty FPGA Dev Kit product page",
+      "url": "https://store.digilentinc.com/arty-a7-artix-7-fpga-development-board-for-makers-and-hobbyists/"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:e310-arty",
+      "label": "PlatformIO board definition (e310-arty)",
+      "url": "https://github.com/platformio/platform-sifive/blob/062e2eb4704e012bbd73a8f9d1e366486a0e41e4/boards/e310-arty.json",
+      "kind": "import",
+      "revision": "062e2eb4704e012bbd73a8f9d1e366486a0e41e4"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

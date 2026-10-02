@@ -1,0 +1,84 @@
+{
+  "slug": "olimex-stm32-h103",
+  "name": "Olimex STM32-H103",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "olimex",
+  "chip": "stm32f103cb",
+  "aliases": [
+    "OLIMEX-STM32-H103"
+  ],
+  "ids": {
+    "platformio": [
+      "olimex_f103"
+    ],
+    "zephyr": [
+      "olimex_stm32_h103"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F103CB / RB",
+      "source": "platformio:olimex_f103"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M3",
+      "source": "platformio:olimex_f103"
+    },
+    "clock": {
+      "value": "72 MHz",
+      "source": "platformio:olimex_f103"
+    },
+    "upload_limits": {
+      "value": "128 KB flash, 20 KB RAM",
+      "source": "platformio:olimex_f103"
+    },
+    "ram": {
+      "value": "20 KB",
+      "source": "zephyr:olimex_stm32_h103"
+    },
+    "flash": {
+      "value": "128 KB",
+      "source": "zephyr:olimex_stm32_h103"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Olimex STM32-H103 product page",
+      "url": "https://www.olimex.com/Products/ARM/ST/STM32-H103/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/olimex_f103.html",
+      "source": "platformio:olimex_f103"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/olimex/stm32_h103/doc/index.html",
+      "source": "zephyr:olimex_stm32_h103"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:olimex_f103",
+      "label": "PlatformIO board definition (olimex_f103)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/olimex_f103.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    },
+    {
+      "id": "zephyr:olimex_stm32_h103",
+      "label": "Zephyr board definition (olimex_stm32_h103)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/olimex/stm32_h103/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

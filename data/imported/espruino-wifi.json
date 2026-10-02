@@ -1,0 +1,216 @@
+{
+  "slug": "espruino-wifi",
+  "name": "Espruino WiFi",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "espruino",
+  "ids": {
+    "circuitpython": [
+      "espruino_wifi"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/espruino_wifi/",
+      "source": "circuitpython:espruino_wifi"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:espruino_wifi",
+    "list": [
+      {
+        "pin": "PA00",
+        "names": [
+          "A0"
+        ]
+      },
+      {
+        "pin": "PA01",
+        "names": [
+          "A1"
+        ]
+      },
+      {
+        "pin": "PA02",
+        "names": [
+          "ESP_RX"
+        ]
+      },
+      {
+        "pin": "PA03",
+        "names": [
+          "ESP_TX"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "A4"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "A5"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "A6"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "A7"
+        ]
+      },
+      {
+        "pin": "PA08",
+        "names": [
+          "A8"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "A10"
+        ]
+      },
+      {
+        "pin": "PA13",
+        "names": [
+          "ESP_GPIO0"
+        ]
+      },
+      {
+        "pin": "PA14",
+        "names": [
+          "ESP_CHPD"
+        ]
+      },
+      {
+        "pin": "PA15",
+        "names": [
+          "ESP_GPIO13"
+        ]
+      },
+      {
+        "pin": "PB00",
+        "names": [
+          "B0"
+        ]
+      },
+      {
+        "pin": "PB01",
+        "names": [
+          "B1"
+        ]
+      },
+      {
+        "pin": "PB02",
+        "names": [
+          "LED1"
+        ]
+      },
+      {
+        "pin": "PB03",
+        "names": [
+          "B3"
+        ]
+      },
+      {
+        "pin": "PB04",
+        "names": [
+          "B4"
+        ]
+      },
+      {
+        "pin": "PB05",
+        "names": [
+          "B5"
+        ]
+      },
+      {
+        "pin": "PB06",
+        "names": [
+          "B6"
+        ]
+      },
+      {
+        "pin": "PB07",
+        "names": [
+          "B7"
+        ]
+      },
+      {
+        "pin": "PB08",
+        "names": [
+          "B8"
+        ]
+      },
+      {
+        "pin": "PB09",
+        "names": [
+          "B9"
+        ]
+      },
+      {
+        "pin": "PB10",
+        "names": [
+          "B10"
+        ]
+      },
+      {
+        "pin": "PB12",
+        "names": [
+          "LED2"
+        ]
+      },
+      {
+        "pin": "PB13",
+        "names": [
+          "B13"
+        ]
+      },
+      {
+        "pin": "PB14",
+        "names": [
+          "B14"
+        ]
+      },
+      {
+        "pin": "PB15",
+        "names": [
+          "B15"
+        ]
+      },
+      {
+        "pin": "PC13",
+        "names": [
+          "BTN"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:espruino_wifi",
+      "label": "CircuitPython board definition (espruino_wifi)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/espruino_wifi.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:espruino_wifi",
+      "label": "CircuitPython pin definitions (espruino_wifi)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/stm/boards/espruino_wifi/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

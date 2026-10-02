@@ -1,0 +1,169 @@
+{
+  "slug": "lilygo-t-watch-2020-v3",
+  "name": "T-Watch 2020 V3",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "lilygo",
+  "chip": "esp32",
+  "ids": {
+    "circuitpython": [
+      "lilygo_twatch_2020_v3"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/lilygo_twatch_2020_v3/",
+      "source": "circuitpython:lilygo_twatch_2020_v3"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:lilygo_twatch_2020_v3",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "PDM_CLK"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "PDM_DATA"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "VIBRATE"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "LCD_CS"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "IR_LED"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "TOUCH_RST"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "LCD_BRIGHTNESS"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "LCD_CLK"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "LCD_MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "TOUCH_SDA"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "I2S_WS"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "I2S_SCK"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "LCD_DC"
+        ]
+      },
+      {
+        "pin": "GPIO32",
+        "names": [
+          "TOUCH_SCL"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "I2S_OUT"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "AXP202_INT"
+        ]
+      },
+      {
+        "pin": "GPIO37",
+        "names": [
+          "PCF8563_INT"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "TOUCH_INT"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "BMA423_INT"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:lilygo_twatch_2020_v3",
+      "label": "CircuitPython board definition (lilygo_twatch_2020_v3)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/lilygo_twatch_2020_v3.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:lilygo_twatch_2020_v3",
+      "label": "CircuitPython pin definitions (lilygo_twatch_2020_v3)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/lilygo_twatch_2020_v3/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

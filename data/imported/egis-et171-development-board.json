@@ -1,0 +1,40 @@
+{
+  "slug": "egis-et171-development-board",
+  "name": "ET171 Development Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "egis",
+  "ids": {
+    "zephyr": [
+      "egis_et171"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ET171",
+      "source": "zephyr:egis_et171"
+    },
+    "ram": {
+      "value": "384 KB",
+      "source": "zephyr:egis_et171"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/egis/egis_et171/doc/index.html",
+      "source": "zephyr:egis_et171"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:egis_et171",
+      "label": "Zephyr board definition (egis_et171)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/egis/egis_et171/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

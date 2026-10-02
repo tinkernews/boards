@@ -1,0 +1,52 @@
+{
+  "slug": "microchip-technology-atmega88-a",
+  "name": "ATmega88/A",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "ids": {
+    "platformio": [
+      "ATmega88"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATMEGA88",
+      "source": "platformio:atmega88"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:atmega88"
+    },
+    "upload_limits": {
+      "value": "8 KB flash, 1 KB RAM",
+      "source": "platformio:atmega88"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ATmega88/A product page",
+      "url": "https://www.microchip.com/wwwproducts/en/ATmega88"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/ATmega88.html",
+      "source": "platformio:atmega88"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:atmega88",
+      "label": "PlatformIO board definition (ATmega88)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/ATmega88.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

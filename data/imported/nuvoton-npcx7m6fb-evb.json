@@ -1,0 +1,44 @@
+{
+  "slug": "nuvoton-npcx7m6fb-evb",
+  "name": "NPCX7M6FB_EVB",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nuvoton",
+  "ids": {
+    "zephyr": [
+      "npcx7m6fb_evb"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "NPCX7M6FB",
+      "source": "zephyr:npcx7m6fb_evb"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:npcx7m6fb_evb"
+    },
+    "flash": {
+      "value": "192 KB",
+      "source": "zephyr:npcx7m6fb_evb"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nuvoton/npcx7m6fb_evb/doc/index.html",
+      "source": "zephyr:npcx7m6fb_evb"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:npcx7m6fb_evb",
+      "label": "Zephyr board definition (npcx7m6fb_evb)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nuvoton/npcx7m6fb_evb/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

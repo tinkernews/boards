@@ -1,0 +1,110 @@
+{
+  "slug": "seeed-studio-xiao-esp32s3",
+  "name": "Seeed Studio XIAO ESP32S3",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "seeed",
+  "chip": "esp32-s3",
+  "aliases": [
+    "XIAO ESP32S3"
+  ],
+  "ids": {
+    "platformio": [
+      "seeed_xiao_esp32s3"
+    ],
+    "zephyr": [
+      "xiao_esp32s3"
+    ],
+    "circuitpython": [
+      "seeed_xiao_esp32s3"
+    ],
+    "micropython": [
+      "SEEED_XIAO_ESP32S3"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-S3",
+      "source": "platformio:seeed_xiao_esp32s3"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:seeed_xiao_esp32s3"
+    },
+    "upload_limits": {
+      "value": "8 MB flash, 320 KB RAM",
+      "source": "platformio:seeed_xiao_esp32s3"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Seeed Studio XIAO ESP32S3 product page",
+      "url": "https://www.seeedstudio.com/XIAO-ESP32S3-p-5627.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/seeed_xiao_esp32s3.html",
+      "source": "platformio:seeed_xiao_esp32s3"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/seeed_xiao_esp32s3.html",
+      "source": "platformio:seeed_xiao_esp32s3"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/seeed/xiao_esp32s3/doc/index.html",
+      "source": "zephyr:xiao_esp32s3"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/SEEED_XIAO_ESP32S3/",
+      "source": "micropython:seeed_xiao_esp32s3"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/seeed_xiao_esp32s3/",
+      "source": "circuitpython:seeed_xiao_esp32s3"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:seeed_xiao_esp32s3",
+      "label": "PlatformIO board definition (seeed_xiao_esp32s3)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/seeed_xiao_esp32s3.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    },
+    {
+      "id": "zephyr:xiao_esp32s3",
+      "label": "Zephyr board definition (xiao_esp32s3)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/seeed/xiao_esp32s3/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "circuitpython:seeed_xiao_esp32s3",
+      "label": "CircuitPython board definition (seeed_xiao_esp32s3)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/seeed_xiao_esp32s3.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "micropython:seeed_xiao_esp32s3",
+      "label": "MicroPython board definition (SEEED_XIAO_ESP32S3)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/esp32/boards/SEEED_XIAO_ESP32S3/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

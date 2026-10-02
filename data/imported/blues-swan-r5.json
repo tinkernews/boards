@@ -1,0 +1,56 @@
+{
+  "slug": "blues-swan-r5",
+  "name": "Blues Swan R5",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "blues",
+  "ids": {
+    "platformio": [
+      "blues_swan_r5"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32L4R5ZIY6",
+      "source": "platformio:blues_swan_r5"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:blues_swan_r5"
+    },
+    "clock": {
+      "value": "120 MHz",
+      "source": "platformio:blues_swan_r5"
+    },
+    "upload_limits": {
+      "value": "2 MB flash, 640 KB RAM",
+      "source": "platformio:blues_swan_r5"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Blues Swan R5 product page",
+      "url": "https://blues.com/products/swan/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/blues_swan_r5.html",
+      "source": "platformio:blues_swan_r5"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:blues_swan_r5",
+      "label": "PlatformIO board definition (blues_swan_r5)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/blues_swan_r5.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

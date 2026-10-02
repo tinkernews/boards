@@ -1,0 +1,86 @@
+{
+  "slug": "makerdiary-imx-rt1011-nano-kit",
+  "name": "iMX RT1011 Nano Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "makerdiary",
+  "ids": {
+    "circuitpython": [
+      "makerdiary_imxrt1011_nanokit"
+    ],
+    "micropython": [
+      "MAKERDIARY_RT1011_NANO_KIT"
+    ]
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "iMX RT1011 Nano Kit product page",
+      "url": "https://makerdiary.com/products/imxrt1011-nanokit"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/MAKERDIARY_RT1011_NANO_KIT/",
+      "source": "micropython:makerdiary_rt1011_nano_kit"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/makerdiary_imxrt1011_nanokit/",
+      "source": "circuitpython:makerdiary_imxrt1011_nanokit"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:makerdiary_imxrt1011_nanokit",
+    "list": [
+      {
+        "pin": "GPIO_04",
+        "names": [
+          "I2S_DATA",
+          "I2S_DOUT"
+        ]
+      },
+      {
+        "pin": "GPIO_06",
+        "names": [
+          "I2S_WORD_SELECT",
+          "I2S_WSEL"
+        ]
+      },
+      {
+        "pin": "GPIO_07",
+        "names": [
+          "I2S_BIT_CLOCK",
+          "I2S_BCLK"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:makerdiary_imxrt1011_nanokit",
+      "label": "CircuitPython board definition (makerdiary_imxrt1011_nanokit)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/makerdiary_imxrt1011_nanokit.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "micropython:makerdiary_rt1011_nano_kit",
+      "label": "MicroPython board definition (MAKERDIARY_RT1011_NANO_KIT)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/mimxrt/boards/MAKERDIARY_RT1011_NANO_KIT/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    },
+    {
+      "id": "circuitpython-pins:makerdiary_imxrt1011_nanokit",
+      "label": "CircuitPython pin definitions (makerdiary_imxrt1011_nanokit)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/mimxrt10xx/boards/makerdiary_imxrt1011_nanokit/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "renesas-rz-v2h-evaluation-board-kit",
+  "name": "RZ/V2H Evaluation Board Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "renesas",
+  "ids": {
+    "zephyr": [
+      "rzv2h_evk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "R9A09G057H44GBG",
+      "source": "zephyr:rzv2h_evk"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/renesas/rzv2h_evk/doc/index.html",
+      "source": "zephyr:rzv2h_evk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:rzv2h_evk",
+      "label": "Zephyr board definition (rzv2h_evk)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/renesas/rzv2h_evk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

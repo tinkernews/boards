@@ -1,0 +1,195 @@
+{
+  "slug": "radomir-dopieralski-pewpew",
+  "name": "PewPew",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "radomir-dopieralski",
+  "chip": "atsamd21g18",
+  "ids": {
+    "circuitpython": [
+      "pewpew10"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/pewpew10/",
+      "source": "circuitpython:pewpew10"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:pewpew10",
+    "list": [
+      {
+        "pin": "PA00",
+        "names": [
+          "P3",
+          "SDA",
+          "TX"
+        ]
+      },
+      {
+        "pin": "PA01",
+        "names": [
+          "P4",
+          "SCL",
+          "RX"
+        ]
+      },
+      {
+        "pin": "PA02",
+        "names": [
+          "P5",
+          "DAC"
+        ]
+      },
+      {
+        "pin": "PA03",
+        "names": [
+          "P6"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "P7",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "_R1"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "_C5"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "_C3"
+        ]
+      },
+      {
+        "pin": "PA08",
+        "names": [
+          "_BUTTONS"
+        ]
+      },
+      {
+        "pin": "PA09",
+        "names": [
+          "_R4"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "_C8"
+        ]
+      },
+      {
+        "pin": "PA11",
+        "names": [
+          "_R2"
+        ]
+      },
+      {
+        "pin": "PA14",
+        "names": [
+          "_C2"
+        ]
+      },
+      {
+        "pin": "PA15",
+        "names": [
+          "_C1"
+        ]
+      },
+      {
+        "pin": "PA16",
+        "names": [
+          "_R5"
+        ]
+      },
+      {
+        "pin": "PA17",
+        "names": [
+          "_R7"
+        ]
+      },
+      {
+        "pin": "PA18",
+        "names": [
+          "_C7"
+        ]
+      },
+      {
+        "pin": "PA19",
+        "names": [
+          "_C6"
+        ]
+      },
+      {
+        "pin": "PA22",
+        "names": [
+          "_R8"
+        ]
+      },
+      {
+        "pin": "PA23",
+        "names": [
+          "_C4"
+        ]
+      },
+      {
+        "pin": "PA27",
+        "names": [
+          "_R6"
+        ]
+      },
+      {
+        "pin": "PA28",
+        "names": [
+          "_R3"
+        ]
+      },
+      {
+        "pin": "PA30",
+        "names": [
+          "P1",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "PA31",
+        "names": [
+          "P2",
+          "SCK"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:pewpew10",
+      "label": "CircuitPython board definition (pewpew10)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/pewpew10.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:pewpew10",
+      "label": "CircuitPython pin definitions (pewpew10)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/pewpew10/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "embedfire-lubancat-4",
+  "name": "LubanCat 4",
+  "tier": "imported",
+  "kind": "sbc",
+  "maker": "embedfire",
+  "released": "2024",
+  "ids": {
+    "armbian": [
+      "lubancat-4"
+    ],
+    "linux": [
+      "arch/arm64/boot/dts/rockchip/rk3588s-lubancat-4.dts"
+    ]
+  },
+  "software": [
+    {
+      "platform": "armbian",
+      "status": "community",
+      "note": "Community-maintained in Armbian.",
+      "url": "https://github.com/armbian/build/blob/main/config/boards/lubancat-4.csc",
+      "source": "armbian:lubancat-4"
+    },
+    {
+      "platform": "linux-mainline",
+      "status": "supported",
+      "note": "A device tree for this board is in the mainline kernel; features may still be missing.",
+      "url": "https://github.com/torvalds/linux/blob/master/arch/arm64/boot/dts/rockchip/rk3588s-lubancat-4.dts",
+      "source": "linux:rk3588s-lubancat-4.dts"
+    }
+  ],
+  "sources": [
+    {
+      "id": "armbian:lubancat-4",
+      "label": "Armbian board configuration (lubancat-4)",
+      "url": "https://github.com/armbian/build/blob/da85daa05bd260d04dac50315d7317207fd998b3/config/boards/lubancat-4.csc",
+      "kind": "import",
+      "revision": "da85daa05bd260d04dac50315d7317207fd998b3"
+    },
+    {
+      "id": "linux:rk3588s-lubancat-4.dts",
+      "label": "Linux kernel device tree (rk3588s-lubancat-4.dts)",
+      "url": "https://github.com/torvalds/linux/blob/551c722f40809618230001baccf219193e22fc5a/arch/arm64/boot/dts/rockchip/rk3588s-lubancat-4.dts",
+      "kind": "import",
+      "revision": "551c722f40809618230001baccf219193e22fc5a"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

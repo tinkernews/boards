@@ -1,0 +1,71 @@
+{
+  "slug": "microchip-technology-sam-d21-xplained-pro-evaluation-kit",
+  "name": "SAM D21 Xplained Pro Evaluation Kit",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "chip": "atsamd21g18",
+  "aliases": [
+    "SAMD21 Xplained Pro"
+  ],
+  "ids": {
+    "zephyr": [
+      "samd21_xpro"
+    ],
+    "micropython": [
+      "SAMD21_XPLAINED_PRO"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAMD21G18",
+      "source": "zephyr:samd21_xpro"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:samd21_xpro"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:samd21_xpro"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "SAM D21 Xplained Pro Evaluation Kit product page",
+      "url": "https://www.microchip.com/en-us/development-tool/atsamd21-xpro"
+    }
+  ],
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/atmel/sam0/samd21_xpro/doc/index.html",
+      "source": "zephyr:samd21_xpro"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/SAMD21_XPLAINED_PRO/",
+      "source": "micropython:samd21_xplained_pro"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:samd21_xpro",
+      "label": "Zephyr board definition (samd21_xpro)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/atmel/sam0/samd21_xpro/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "micropython:samd21_xplained_pro",
+      "label": "MicroPython board definition (SAMD21_XPLAINED_PRO)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/samd/boards/SAMD21_XPLAINED_PRO/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "ttgo-t1",
+  "name": "TTGO T1",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "lilygo",
+  "chip": "esp32",
+  "ids": {
+    "platformio": [
+      "ttgo-t1"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:ttgo-t1"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:ttgo-t1"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:ttgo-t1"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "TTGO T1 product page",
+      "url": "https://github.com/LilyGO/ESP32-TTGO-T1"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/ttgo-t1.html",
+      "source": "platformio:ttgo-t1"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/ttgo-t1.html",
+      "source": "platformio:ttgo-t1"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:ttgo-t1",
+      "label": "PlatformIO board definition (ttgo-t1)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/ttgo-t1.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

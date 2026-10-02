@@ -1,0 +1,44 @@
+{
+  "slug": "focaltech-ft9001-evaluation-board",
+  "name": "FocalTech FT9001 Evaluation Board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "focaltech-systems-co-ltd",
+  "ids": {
+    "zephyr": [
+      "ft9001_eval"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "FT9001",
+      "source": "zephyr:ft9001_eval"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:ft9001_eval"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:ft9001_eval"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/focaltech/ft9001_eval/doc/index.html",
+      "source": "zephyr:ft9001_eval"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:ft9001_eval",
+      "label": "Zephyr board definition (ft9001_eval)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/focaltech/ft9001_eval/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

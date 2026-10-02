@@ -1,0 +1,40 @@
+{
+  "slug": "radxa-rock-3b",
+  "name": "Radxa ROCK 3B",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "radxa",
+  "ids": {
+    "zephyr": [
+      "rock_3b"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "RK3568",
+      "source": "zephyr:rock_3b"
+    },
+    "ram": {
+      "value": "1024 KB",
+      "source": "zephyr:rock_3b"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/radxa/rock_3b/doc/index.html",
+      "source": "zephyr:rock_3b"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:rock_3b",
+      "label": "Zephyr board definition (rock_3b)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/radxa/rock_3b/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

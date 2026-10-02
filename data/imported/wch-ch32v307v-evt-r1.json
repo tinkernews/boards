@@ -1,0 +1,44 @@
+{
+  "slug": "wch-ch32v307v-evt-r1",
+  "name": "WCH CH32V307V-EVT-R1",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "wch",
+  "ids": {
+    "zephyr": [
+      "ch32v307v_evt_r1"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "CH32V307",
+      "source": "zephyr:ch32v307v_evt_r1"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:ch32v307v_evt_r1"
+    },
+    "flash": {
+      "value": "480 KB",
+      "source": "zephyr:ch32v307v_evt_r1"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/wch/ch32v307v_evt_r1/doc/index.html",
+      "source": "zephyr:ch32v307v_evt_r1"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:ch32v307v_evt_r1",
+      "label": "Zephyr board definition (ch32v307v_evt_r1)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/wch/ch32v307v_evt_r1/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "machdyne-werkzeug",
+  "name": "Werkzeug",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "machdyne",
+  "chip": "rp2040",
+  "ids": {
+    "micropython": [
+      "MACHDYNE_WERKZEUG"
+    ]
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Werkzeug product page",
+      "url": "https://machdyne.com/product/werkzeug-multi-tool/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/MACHDYNE_WERKZEUG/",
+      "source": "micropython:machdyne_werkzeug"
+    }
+  ],
+  "sources": [
+    {
+      "id": "micropython:machdyne_werkzeug",
+      "label": "MicroPython board definition (MACHDYNE_WERKZEUG)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/rp2/boards/MACHDYNE_WERKZEUG/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

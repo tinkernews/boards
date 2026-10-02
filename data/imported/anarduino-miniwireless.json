@@ -1,0 +1,53 @@
+{
+  "slug": "anarduino-miniwireless",
+  "name": "Anarduino MiniWireless",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "anarduino",
+  "chip": "atmega328p",
+  "ids": {
+    "platformio": [
+      "miniwireless"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega328P",
+      "source": "platformio:miniwireless"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:miniwireless"
+    },
+    "upload_limits": {
+      "value": "31.5 KB flash, 2 KB RAM",
+      "source": "platformio:miniwireless"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Anarduino MiniWireless product page",
+      "url": "http://www.anarduino.com/miniwireless/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/miniwireless.html",
+      "source": "platformio:miniwireless"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:miniwireless",
+      "label": "PlatformIO board definition (miniwireless)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/miniwireless.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

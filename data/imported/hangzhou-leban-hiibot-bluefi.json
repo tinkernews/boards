@@ -1,0 +1,372 @@
+{
+  "slug": "hangzhou-leban-hiibot-bluefi",
+  "name": "HiiBot BlueFi",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "hangzhou-leban",
+  "chip": "nrf52840",
+  "ids": {
+    "circuitpython": [
+      "hiibot_bluefi"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/hiibot_bluefi/",
+      "source": "circuitpython:hiibot_bluefi"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:hiibot_bluefi",
+    "list": [
+      {
+        "pin": "P0_00",
+        "names": [
+          "P19",
+          "D19",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "P0_01",
+        "names": [
+          "P16",
+          "D16"
+        ]
+      },
+      {
+        "pin": "P0_02",
+        "names": [
+          "P1",
+          "D1",
+          "A1",
+          "TX"
+        ]
+      },
+      {
+        "pin": "P0_03",
+        "names": [
+          "P4",
+          "D4",
+          "A4"
+        ]
+      },
+      {
+        "pin": "P0_04",
+        "names": [
+          "P14",
+          "D14",
+          "A5",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "P0_05",
+        "names": [
+          "P25",
+          "D25",
+          "TFT_CS"
+        ]
+      },
+      {
+        "pin": "P0_06",
+        "names": [
+          "P13",
+          "D13",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "P0_07",
+        "names": [
+          "P23",
+          "D23",
+          "TFT_SCK"
+        ]
+      },
+      {
+        "pin": "P0_08",
+        "names": [
+          "P6",
+          "D6"
+        ]
+      },
+      {
+        "pin": "P0_09",
+        "names": [
+          "P21",
+          "D21",
+          "MICROPHONE_CLOCK"
+        ]
+      },
+      {
+        "pin": "P0_10",
+        "names": [
+          "P22",
+          "D22",
+          "MICROPHONE_DATA"
+        ]
+      },
+      {
+        "pin": "P0_11",
+        "names": [
+          "P41",
+          "D41",
+          "SENSORS_SCL"
+        ]
+      },
+      {
+        "pin": "P0_12",
+        "names": [
+          "P42",
+          "D42",
+          "SENSORS_SDA"
+        ]
+      },
+      {
+        "pin": "P0_13",
+        "names": [
+          "P40",
+          "D40",
+          "WIFI_PWR"
+        ]
+      },
+      {
+        "pin": "P0_14",
+        "names": [
+          "P43",
+          "D43",
+          "IMU_IRQ",
+          "ACCELEROMETER_INTERRUPT"
+        ]
+      },
+      {
+        "pin": "P0_15",
+        "names": [
+          "P37",
+          "D37",
+          "WIFI_BUSY"
+        ]
+      },
+      {
+        "pin": "P0_16",
+        "names": [
+          "P12",
+          "D12"
+        ]
+      },
+      {
+        "pin": "P0_17",
+        "names": [
+          "P35",
+          "D35",
+          "WIFI_MISO"
+        ]
+      },
+      {
+        "pin": "P0_19",
+        "names": [
+          "P10",
+          "D10"
+        ]
+      },
+      {
+        "pin": "P0_20",
+        "names": [
+          "P36",
+          "D36",
+          "WIFI_MOSI"
+        ]
+      },
+      {
+        "pin": "P0_21",
+        "names": [
+          "P9",
+          "D9"
+        ]
+      },
+      {
+        "pin": "P0_22",
+        "names": [
+          "P34",
+          "D34",
+          "WIFI_SCK"
+        ]
+      },
+      {
+        "pin": "P0_23",
+        "names": [
+          "P8",
+          "D8"
+        ]
+      },
+      {
+        "pin": "P0_24",
+        "names": [
+          "P38",
+          "D38",
+          "WIFI_CS"
+        ]
+      },
+      {
+        "pin": "P0_25",
+        "names": [
+          "P7",
+          "D7"
+        ]
+      },
+      {
+        "pin": "P0_26",
+        "names": [
+          "P15",
+          "D15",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "P0_27",
+        "names": [
+          "P26",
+          "D26",
+          "TFT_DC"
+        ]
+      },
+      {
+        "pin": "P0_28",
+        "names": [
+          "P0",
+          "D0",
+          "A0",
+          "RX"
+        ]
+      },
+      {
+        "pin": "P0_29",
+        "names": [
+          "P2",
+          "D2",
+          "A2"
+        ]
+      },
+      {
+        "pin": "P0_30",
+        "names": [
+          "P3",
+          "D3",
+          "A3"
+        ]
+      },
+      {
+        "pin": "P0_31",
+        "names": [
+          "P20",
+          "D20",
+          "A6",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "P1_00",
+        "names": [
+          "P39",
+          "D39",
+          "WIFI_RESET"
+        ]
+      },
+      {
+        "pin": "P1_07",
+        "names": [
+          "P5",
+          "D5",
+          "BUTTON_A"
+        ]
+      },
+      {
+        "pin": "P1_08",
+        "names": [
+          "P24",
+          "D24",
+          "TFT_MOSI"
+        ]
+      },
+      {
+        "pin": "P1_09",
+        "names": [
+          "P11",
+          "D11",
+          "BUTTON_B"
+        ]
+      },
+      {
+        "pin": "P1_10",
+        "names": [
+          "P18",
+          "D18",
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "P1_11",
+        "names": [
+          "P45",
+          "D45",
+          "SPEAKER_ENABLE"
+        ]
+      },
+      {
+        "pin": "P1_12",
+        "names": [
+          "P17",
+          "D17",
+          "LED",
+          "REDLED"
+        ]
+      },
+      {
+        "pin": "P1_13",
+        "names": [
+          "P27",
+          "D27",
+          "TFT_RESET",
+          "TFT_BACKLIGHT"
+        ]
+      },
+      {
+        "pin": "P1_14",
+        "names": [
+          "P44",
+          "D44",
+          "WHITELED"
+        ]
+      },
+      {
+        "pin": "P1_15",
+        "names": [
+          "P46",
+          "D46",
+          "SPEAKER",
+          "AUDIO"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:hiibot_bluefi",
+      "label": "CircuitPython board definition (hiibot_bluefi)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/hiibot_bluefi.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:hiibot_bluefi",
+      "label": "CircuitPython pin definitions (hiibot_bluefi)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/nordic/boards/hiibot_bluefi/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

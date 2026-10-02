@@ -1,0 +1,106 @@
+{
+  "slug": "stm32-blue-pill",
+  "name": "STM32 Blue Pill",
+  "tier": "curated",
+  "kind": "mcu",
+  "maker": "generic",
+  "family": "STM32",
+  "chip": "stm32f103c8",
+  "released": "2015",
+  "status": "current",
+  "summary": "The ubiquitous unbranded STM32F103C8 board: a 72 MHz Cortex-M3 for a couple of dollars, with well-known quirks.",
+  "aliases": [
+    "Blue Pill",
+    "STM32 Blue Pill",
+    "STM32F103C8T6 Blue Pill",
+    "Bluepill"
+  ],
+  "ids": {
+    "platformio": [
+      "bluepill_f103c8",
+      "bluepill_f103c8_128k"
+    ]
+  },
+  "review": {
+    "status": "draft"
+  },
+  "specs": {
+    "chip": {
+      "value": "STMicroelectronics STM32F103C8 (often a clone or relabelled part)",
+      "source": "stm32-base"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M3",
+      "source": "stm32f103c8"
+    },
+    "clock": {
+      "value": "72 MHz",
+      "source": "stm32f103c8"
+    },
+    "ram": {
+      "value": "20 KB SRAM",
+      "source": "stm32f103c8"
+    },
+    "flash": {
+      "value": "64 KB (many chips have 128 KB usable)",
+      "source": "stm32-base"
+    },
+    "io_voltage": {
+      "value": "3.3 V (some pins 5 V tolerant)",
+      "source": "stm32f103c8"
+    },
+    "usb": {
+      "value": "Micro-USB to the chip’s USB device peripheral",
+      "source": "stm32-base"
+    }
+  },
+  "docs": [
+    {
+      "kind": "guide",
+      "label": "STM32F103C8T6 Blue Pill, STM32-base",
+      "url": "https://stm32-base.org/boards/STM32F103C8T6-Blue-Pill.html"
+    },
+    {
+      "kind": "datasheet",
+      "label": "STM32F103C8 product page and datasheet, STMicroelectronics",
+      "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32f103c8.html"
+    }
+  ],
+  "gotchas": [
+    {
+      "title": "Wrong USB pull-up resistor",
+      "text": "Many boards fit a 10 kΩ pull-up on USB D+ instead of 1.5 kΩ, which makes USB unreliable on some hosts.",
+      "source": "stm32-base"
+    },
+    {
+      "title": "Counterfeit chips",
+      "text": "Cheap boards often carry clone chips (CKS32, CS32 and others) that differ in subtle ways and may fail ST's programming tools.",
+      "source": "stm32-base"
+    },
+    {
+      "title": "No USB bootloader out of the box",
+      "text": "The STM32F103 has no USB DFU in ROM; first programming needs a serial adapter or an ST-LINK.",
+      "source": "stm32-base"
+    }
+  ],
+  "editorial": {
+    "history": "Sold by many Chinese vendors from about 2015, the Blue Pill made 32-bit Arm affordable for hobbyists, helped by the community STM32duino core.",
+    "today": "Still cheap, but the WeAct Black Pill (STM32F411) and RP2040 boards avoid most of its quirks for similar money.",
+    "source": "stm32-base"
+  },
+  "sources": [
+    {
+      "id": "stm32-base",
+      "label": "STM32F103C8T6 Blue Pill, STM32-base",
+      "url": "https://stm32-base.org/boards/STM32F103C8T6-Blue-Pill.html",
+      "kind": "reference"
+    },
+    {
+      "id": "stm32f103c8",
+      "label": "STM32F103C8 product page, STMicroelectronics",
+      "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32f103c8.html",
+      "kind": "official"
+    }
+  ],
+  "updatedAt": "2026-10-01T00:00:00.000Z"
+}

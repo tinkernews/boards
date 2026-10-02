@@ -1,0 +1,31 @@
+{
+  "slug": "quadbit-upico",
+  "name": "uPico",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "quadbit",
+  "chip": "rp2040",
+  "ids": {
+    "circuitpython": [
+      "upico"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/upico/",
+      "source": "circuitpython:upico"
+    }
+  ],
+  "sources": [
+    {
+      "id": "circuitpython:upico",
+      "label": "CircuitPython board definition (upico)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/upico.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

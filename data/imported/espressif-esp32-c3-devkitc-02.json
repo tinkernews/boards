@@ -1,0 +1,59 @@
+{
+  "slug": "espressif-esp32-c3-devkitc-02",
+  "name": "Espressif ESP32-C3-DevKitC-02",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "espressif",
+  "chip": "esp32-c3",
+  "ids": {
+    "platformio": [
+      "esp32-c3-devkitc-02"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-C3",
+      "source": "platformio:esp32-c3-devkitc-02"
+    },
+    "clock": {
+      "value": "160 MHz",
+      "source": "platformio:esp32-c3-devkitc-02"
+    },
+    "upload_limits": {
+      "value": "4 MB flash, 320 KB RAM",
+      "source": "platformio:esp32-c3-devkitc-02"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Espressif ESP32-C3-DevKitC-02 product page",
+      "url": "https://docs.espressif.com/projects/esp-idf/en/latest/esp32c3/hw-reference/esp32c3/user-guide-devkitc-02.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/esp32-c3-devkitc-02.html",
+      "source": "platformio:esp32-c3-devkitc-02"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/esp32-c3-devkitc-02.html",
+      "source": "platformio:esp32-c3-devkitc-02"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:esp32-c3-devkitc-02",
+      "label": "PlatformIO board definition (esp32-c3-devkitc-02)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/esp32-c3-devkitc-02.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

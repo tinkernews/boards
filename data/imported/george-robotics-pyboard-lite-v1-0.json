@@ -1,0 +1,37 @@
+{
+  "slug": "george-robotics-pyboard-lite-v1-0",
+  "name": "Pyboard Lite v1.0",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "george-robotics",
+  "ids": {
+    "micropython": [
+      "PYBLITEV10"
+    ]
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Pyboard Lite v1.0 product page",
+      "url": "https://store.micropython.org/product/PYBLITEv1.0"
+    }
+  ],
+  "software": [
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/PYBLITEV10/",
+      "source": "micropython:pyblitev10"
+    }
+  ],
+  "sources": [
+    {
+      "id": "micropython:pyblitev10",
+      "label": "MicroPython board definition (PYBLITEV10)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/stm32/boards/PYBLITEV10/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

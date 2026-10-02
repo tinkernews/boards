@@ -1,0 +1,59 @@
+{
+  "slug": "aventen-s3-sync",
+  "name": "Aventen S3 Sync",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "aventen",
+  "chip": "esp32-s3",
+  "ids": {
+    "platformio": [
+      "aventen_s3_sync"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-S3",
+      "source": "platformio:aventen_s3_sync"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:aventen_s3_sync"
+    },
+    "upload_limits": {
+      "value": "16 MB flash, 320 KB RAM",
+      "source": "platformio:aventen_s3_sync"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Aventen S3 Sync product page",
+      "url": "https://www.linkedin.com/company/aventen/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/aventen_s3_sync.html",
+      "source": "platformio:aventen_s3_sync"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/aventen_s3_sync.html",
+      "source": "platformio:aventen_s3_sync"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:aventen_s3_sync",
+      "label": "PlatformIO board definition (aventen_s3_sync)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/aventen_s3_sync.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

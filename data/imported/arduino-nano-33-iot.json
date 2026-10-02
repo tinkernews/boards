@@ -1,0 +1,252 @@
+{
+  "slug": "arduino-nano-33-iot",
+  "name": "NANO 33 IoT",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arduino",
+  "chip": "atsamd21g18",
+  "aliases": [
+    "Arduino Nano 33 IOT"
+  ],
+  "ids": {
+    "platformio": [
+      "nano_33_iot"
+    ],
+    "zephyr": [
+      "arduino_nano_33_iot"
+    ],
+    "circuitpython": [
+      "arduino_nano_33_iot"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAMD21G18",
+      "source": "platformio:nano_33_iot"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:nano_33_iot"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:nano_33_iot"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:nano_33_iot"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:arduino_nano_33_iot"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:arduino_nano_33_iot"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "NANO 33 IoT product page",
+      "url": "https://store.arduino.cc/nano-33-iot"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelsam/nano_33_iot.html",
+      "source": "platformio:nano_33_iot"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/arduino/nano_33_iot/doc/index.html",
+      "source": "zephyr:arduino_nano_33_iot"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/arduino_nano_33_iot/",
+      "source": "circuitpython:arduino_nano_33_iot"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:arduino_nano_33_iot",
+    "list": [
+      {
+        "pin": "PA02",
+        "names": [
+          "A0"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "D7"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "D4"
+        ]
+      },
+      {
+        "pin": "PA09",
+        "names": [
+          "A6"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "A3"
+        ]
+      },
+      {
+        "pin": "PA11",
+        "names": [
+          "A2"
+        ]
+      },
+      {
+        "pin": "PA16",
+        "names": [
+          "D11",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "PA17",
+        "names": [
+          "D13",
+          "SCK",
+          "LED"
+        ]
+      },
+      {
+        "pin": "PA18",
+        "names": [
+          "D8"
+        ]
+      },
+      {
+        "pin": "PA19",
+        "names": [
+          "D12",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "PA20",
+        "names": [
+          "D9"
+        ]
+      },
+      {
+        "pin": "PA21",
+        "names": [
+          "D10"
+        ]
+      },
+      {
+        "pin": "PB02",
+        "names": [
+          "A1"
+        ]
+      },
+      {
+        "pin": "PB03",
+        "names": [
+          "A7"
+        ]
+      },
+      {
+        "pin": "PB08",
+        "names": [
+          "A4",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PB09",
+        "names": [
+          "A5",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "PB10",
+        "names": [
+          "D2"
+        ]
+      },
+      {
+        "pin": "PB11",
+        "names": [
+          "D3"
+        ]
+      },
+      {
+        "pin": "PB22",
+        "names": [
+          "D1",
+          "TX"
+        ]
+      },
+      {
+        "pin": "PB23",
+        "names": [
+          "D0",
+          "RX"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "platformio:nano_33_iot",
+      "label": "PlatformIO board definition (nano_33_iot)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/nano_33_iot.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    },
+    {
+      "id": "zephyr:arduino_nano_33_iot",
+      "label": "Zephyr board definition (arduino_nano_33_iot)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/arduino/nano_33_iot/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "circuitpython:arduino_nano_33_iot",
+      "label": "CircuitPython board definition (arduino_nano_33_iot)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/arduino_nano_33_iot.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:arduino_nano_33_iot",
+      "label": "CircuitPython pin definitions (arduino_nano_33_iot)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/arduino_nano_33_iot/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

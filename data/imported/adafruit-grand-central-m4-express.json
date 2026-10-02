@@ -1,0 +1,85 @@
+{
+  "slug": "adafruit-grand-central-m4-express",
+  "name": "Grand Central M4 Express",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "atsamd51j19",
+  "ids": {
+    "zephyr": [
+      "adafruit_grand_central_m4_express"
+    ],
+    "circuitpython": [
+      "grandcentral_m4_express"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAMD51J19",
+      "source": "zephyr:adafruit_grand_central_m4_express"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:adafruit_grand_central_m4_express"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:adafruit_grand_central_m4_express"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/adafruit/grand_central_m4_express/doc/index.html",
+      "source": "zephyr:adafruit_grand_central_m4_express"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/grandcentral_m4_express/",
+      "source": "circuitpython:grandcentral_m4_express"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:grandcentral_m4_express",
+    "list": [
+      {
+        "pin": "PA20",
+        "names": [
+          "SDIO_COMMAND"
+        ]
+      },
+      {
+        "pin": "PA21",
+        "names": [
+          "SDIO_CLOCK"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "zephyr:adafruit_grand_central_m4_express",
+      "label": "Zephyr board definition (adafruit_grand_central_m4_express)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/adafruit/grand_central_m4_express/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "circuitpython:grandcentral_m4_express",
+      "label": "CircuitPython board definition (grandcentral_m4_express)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/grandcentral_m4_express.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:grandcentral_m4_express",
+      "label": "CircuitPython pin definitions (grandcentral_m4_express)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/grandcentral_m4_express/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

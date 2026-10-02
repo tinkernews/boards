@@ -1,0 +1,117 @@
+{
+  "slug": "oak-development-cp-sapling-m0",
+  "name": "CP Sapling M0",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "oak-development",
+  "chip": "atsamd21g18",
+  "ids": {
+    "circuitpython": [
+      "cp_sapling_m0",
+      "cp_sapling_m0_revb"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/cp_sapling_m0/",
+      "source": "circuitpython:cp_sapling_m0"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:cp_sapling_m0",
+    "list": [
+      {
+        "pin": "PA00",
+        "names": [
+          "D10",
+          "A4"
+        ]
+      },
+      {
+        "pin": "PA01",
+        "names": [
+          "D11",
+          "A5"
+        ]
+      },
+      {
+        "pin": "PA08",
+        "names": [
+          "D5",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PA09",
+        "names": [
+          "D4",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "PA15",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "PA17",
+        "names": [
+          "D1",
+          "A1",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "PA18",
+        "names": [
+          "D2",
+          "A2",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "PA19",
+        "names": [
+          "D3",
+          "A3",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "PA22",
+        "names": [
+          "D0",
+          "A0",
+          "SS"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:cp_sapling_m0",
+      "label": "CircuitPython board definition (cp_sapling_m0)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/cp_sapling_m0.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython:cp_sapling_m0_revb",
+      "label": "CircuitPython board definition (cp_sapling_m0_revb)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/cp_sapling_m0_revb.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:cp_sapling_m0",
+      "label": "CircuitPython pin definitions (cp_sapling_m0)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/cp_sapling_m0/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

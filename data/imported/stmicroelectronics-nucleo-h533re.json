@@ -1,0 +1,44 @@
+{
+  "slug": "stmicroelectronics-nucleo-h533re",
+  "name": "Nucleo H533RE",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "zephyr": [
+      "nucleo_h533re"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32H533XX",
+      "source": "zephyr:nucleo_h533re"
+    },
+    "ram": {
+      "value": "128 KB",
+      "source": "zephyr:nucleo_h533re"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:nucleo_h533re"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/nucleo_h533re/doc/index.html",
+      "source": "zephyr:nucleo_h533re"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:nucleo_h533re",
+      "label": "Zephyr board definition (nucleo_h533re)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/nucleo_h533re/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

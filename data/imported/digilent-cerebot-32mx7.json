@@ -1,0 +1,52 @@
+{
+  "slug": "digilent-cerebot-32mx7",
+  "name": "Digilent Cerebot 32MX7",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "digilent",
+  "ids": {
+    "platformio": [
+      "cerebot32mx7"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "32MX795F512L",
+      "source": "platformio:cerebot32mx7"
+    },
+    "clock": {
+      "value": "80 MHz",
+      "source": "platformio:cerebot32mx7"
+    },
+    "upload_limits": {
+      "value": "508 KB flash, 128 KB RAM",
+      "source": "platformio:cerebot32mx7"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Digilent Cerebot 32MX7 product page",
+      "url": "http://www.microchip.com/Developmenttools/ProductDetails.aspx?PartNO=TDGL004"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/microchippic32/cerebot32mx7.html",
+      "source": "platformio:cerebot32mx7"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:cerebot32mx7",
+      "label": "PlatformIO board definition (cerebot32mx7)",
+      "url": "https://github.com/platformio/platform-microchippic32/blob/f6e89308da11cfe35d7534696bf01abf3f442461/boards/cerebot32mx7.json",
+      "kind": "import",
+      "revision": "f6e89308da11cfe35d7534696bf01abf3f442461"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

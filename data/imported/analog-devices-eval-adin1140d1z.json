@@ -1,0 +1,44 @@
+{
+  "slug": "analog-devices-eval-adin1140d1z",
+  "name": "EVAL-ADIN1140D1Z",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "analog-devices",
+  "ids": {
+    "zephyr": [
+      "adi_eval_adin1140d1z"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MAX32690",
+      "source": "zephyr:adi_eval_adin1140d1z"
+    },
+    "ram": {
+      "value": "128 KB",
+      "source": "zephyr:adi_eval_adin1140d1z"
+    },
+    "flash": {
+      "value": "3 MB",
+      "source": "zephyr:adi_eval_adin1140d1z"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/adi/eval_adin1140d1z/doc/index.html",
+      "source": "zephyr:adi_eval_adin1140d1z"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:adi_eval_adin1140d1z",
+      "label": "Zephyr board definition (adi_eval_adin1140d1z)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/adi/eval_adin1140d1z/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

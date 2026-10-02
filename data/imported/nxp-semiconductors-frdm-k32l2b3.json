@@ -1,0 +1,44 @@
+{
+  "slug": "nxp-semiconductors-frdm-k32l2b3",
+  "name": "FRDM-K32L2B3",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "ids": {
+    "zephyr": [
+      "frdm_k32l2b3"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "K32L2B31A",
+      "source": "zephyr:frdm_k32l2b3"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:frdm_k32l2b3"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:frdm_k32l2b3"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nxp/frdm_k32l2b3/doc/index.html",
+      "source": "zephyr:frdm_k32l2b3"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:frdm_k32l2b3",
+      "label": "Zephyr board definition (frdm_k32l2b3)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nxp/frdm_k32l2b3/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

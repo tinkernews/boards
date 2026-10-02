@@ -1,0 +1,235 @@
+{
+  "slug": "m5stack-cardputer-m5stamps3-powered-mini-computer-microros",
+  "name": "M5Stack CardPuter - M5StampS3 powered mini computer (MicroROS)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "m5stack",
+  "chip": "esp32-s3",
+  "ids": {
+    "circuitpython": [
+      "m5stack_cardputer_ros"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/m5stack_cardputer_ros/",
+      "source": "circuitpython:m5stack_cardputer_ros"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:m5stack_cardputer_ros",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "BUTTON",
+          "BOOT0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "TX",
+          "PORTA1",
+          "D1",
+          "G1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "RX",
+          "PORTA2",
+          "D2",
+          "G2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "KB_COL_2"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "KB_COL_3"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "KB_COL_4"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "KB_COL_5"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "KB_COL_6"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "KB_A_0"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "KB_A_1"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "BAT_ADC"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "KB_A_2"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "SD_CS"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "KB_COL_0"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "SD_MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "KB_COL_1"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "TFT_RST",
+          "TFT_RESET"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "TFT_DC",
+          "TFT_RS"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "TFT_MOSI",
+          "TFT_DATA"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "TFT_SCK"
+        ]
+      },
+      {
+        "pin": "GPIO37",
+        "names": [
+          "TFT_CS"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "TFT_BACKLIGHT",
+          "TFT_BL"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "SD_MISO"
+        ]
+      },
+      {
+        "pin": "GPIO40",
+        "names": [
+          "SD_SCK"
+        ]
+      },
+      {
+        "pin": "GPIO41",
+        "names": [
+          "I2S_BIT_CLOCK"
+        ]
+      },
+      {
+        "pin": "GPIO42",
+        "names": [
+          "I2S_DATA"
+        ]
+      },
+      {
+        "pin": "GPIO43",
+        "names": [
+          "I2S_WORD_SELECT",
+          "MIC_CLK"
+        ]
+      },
+      {
+        "pin": "GPIO44",
+        "names": [
+          "IR_TX"
+        ]
+      },
+      {
+        "pin": "GPIO46",
+        "names": [
+          "MIC_DATA"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:m5stack_cardputer_ros",
+      "label": "CircuitPython board definition (m5stack_cardputer_ros)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/m5stack_cardputer_ros.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:m5stack_cardputer_ros",
+      "label": "CircuitPython pin definitions (m5stack_cardputer_ros)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/m5stack_cardputer_ros/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

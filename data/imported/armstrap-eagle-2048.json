@@ -1,0 +1,47 @@
+{
+  "slug": "armstrap-eagle-2048",
+  "name": "Armstrap Eagle 2048",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "armstrap",
+  "ids": {
+    "platformio": [
+      "armstrap_eagle2048"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F427VIT6",
+      "source": "platformio:armstrap_eagle2048"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:armstrap_eagle2048"
+    },
+    "clock": {
+      "value": "168 MHz",
+      "source": "platformio:armstrap_eagle2048"
+    },
+    "upload_limits": {
+      "value": "1.99 MB flash, 256 KB RAM",
+      "source": "platformio:armstrap_eagle2048"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Armstrap Eagle 2048 product page",
+      "url": "http://docs.armstrap.org/en/latest/hardware-overview.html"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:armstrap_eagle2048",
+      "label": "PlatformIO board definition (armstrap_eagle2048)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/armstrap_eagle2048.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

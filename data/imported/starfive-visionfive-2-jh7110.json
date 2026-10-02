@@ -1,0 +1,36 @@
+{
+  "slug": "starfive-visionfive-2-jh7110",
+  "name": "VisionFive 2 JH7110",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "starfive",
+  "ids": {
+    "zephyr": [
+      "visionfive2"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "JH7110",
+      "source": "zephyr:visionfive2"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/starfive/visionfive2/doc/index.html",
+      "source": "zephyr:visionfive2"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:visionfive2",
+      "label": "Zephyr board definition (visionfive2)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/starfive/visionfive2/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

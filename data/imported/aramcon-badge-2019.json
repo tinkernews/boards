@@ -1,0 +1,163 @@
+{
+  "slug": "aramcon-badge-2019",
+  "name": "ARAMCON Badge 2019",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "aramcon-badge-team",
+  "chip": "nrf52840",
+  "ids": {
+    "circuitpython": [
+      "aramcon_badge_2019"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/aramcon_badge_2019/",
+      "source": "circuitpython:aramcon_badge_2019"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:aramcon_badge_2019",
+    "list": [
+      {
+        "pin": "P0_00",
+        "names": [
+          "SND_RESET"
+        ]
+      },
+      {
+        "pin": "P0_01",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "P0_02",
+        "names": [
+          "LEFT_BUTTON"
+        ]
+      },
+      {
+        "pin": "P0_03",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "P0_06",
+        "names": [
+          "DISP_RESET"
+        ]
+      },
+      {
+        "pin": "P0_07",
+        "names": [
+          "DISP_CS"
+        ]
+      },
+      {
+        "pin": "P0_08",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "P0_12",
+        "names": [
+          "DISP_DC"
+        ]
+      },
+      {
+        "pin": "P0_13",
+        "names": [
+          "SND_DREQ"
+        ]
+      },
+      {
+        "pin": "P0_17",
+        "names": [
+          "VIBRATION_MOTOR"
+        ]
+      },
+      {
+        "pin": "P0_24",
+        "names": [
+          "SND_XDCS"
+        ]
+      },
+      {
+        "pin": "P0_26",
+        "names": [
+          "DISP_BUSY"
+        ]
+      },
+      {
+        "pin": "P0_28",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "P0_29",
+        "names": [
+          "MIDDLE_BUTTON"
+        ]
+      },
+      {
+        "pin": "P0_30",
+        "names": [
+          "BATTERY_SENSE"
+        ]
+      },
+      {
+        "pin": "P0_31",
+        "names": [
+          "RIGHT_BUTTON"
+        ]
+      },
+      {
+        "pin": "P1_09",
+        "names": [
+          "MISO"
+        ]
+      },
+      {
+        "pin": "P1_10",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "P1_11",
+        "names": [
+          "LED"
+        ]
+      },
+      {
+        "pin": "P1_13",
+        "names": [
+          "SND_CS"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:aramcon_badge_2019",
+      "label": "CircuitPython board definition (aramcon_badge_2019)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/aramcon_badge_2019.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:aramcon_badge_2019",
+      "label": "CircuitPython pin definitions (aramcon_badge_2019)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/nordic/boards/aramcon_badge_2019/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

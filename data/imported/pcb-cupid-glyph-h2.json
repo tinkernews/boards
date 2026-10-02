@@ -1,0 +1,204 @@
+{
+  "slug": "pcb-cupid-glyph-h2",
+  "name": "Glyph-H2",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "pcb-cupid",
+  "aliases": [
+    "Pcbcupid GLYPH H2"
+  ],
+  "ids": {
+    "zephyr": [
+      "glyph_h2"
+    ],
+    "circuitpython": [
+      "pcbcupid_glyph_h2"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32H2",
+      "source": "zephyr:glyph_h2"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/pcbcupid/glyph_h2/doc/index.html",
+      "source": "zephyr:glyph_h2"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/pcbcupid_glyph_h2/",
+      "source": "circuitpython:pcbcupid_glyph_h2"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:pcbcupid_glyph_h2",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "LED",
+          "IO0",
+          "D0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "IO1",
+          "A1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "IO2",
+          "A2",
+          "MTMS"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "IO3",
+          "A3",
+          "MTDO"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "IO4",
+          "SDA",
+          "MTCK"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "IO5",
+          "SCL",
+          "MTDI"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "IO8",
+          "D8"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "BOOT",
+          "IO9",
+          "D9"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "IO10",
+          "D10"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "IO11",
+          "SCK"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "IO12",
+          "D12"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "IO13",
+          "D13"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "IO14",
+          "D14"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "IO22",
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "IO23",
+          "RX"
+        ]
+      },
+      {
+        "pin": "GPIO24",
+        "names": [
+          "IO24",
+          "TX"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "IO25",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "IO26"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "IO27"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "zephyr:glyph_h2",
+      "label": "Zephyr board definition (glyph_h2)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/pcbcupid/glyph_h2/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "circuitpython:pcbcupid_glyph_h2",
+      "label": "CircuitPython board definition (pcbcupid_glyph_h2)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/pcbcupid_glyph_h2.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:pcbcupid_glyph_h2",
+      "label": "CircuitPython pin definitions (pcbcupid_glyph_h2)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/pcbcupid_glyph_h2/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

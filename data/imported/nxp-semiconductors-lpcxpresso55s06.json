@@ -1,0 +1,44 @@
+{
+  "slug": "nxp-semiconductors-lpcxpresso55s06",
+  "name": "LPCXpresso55S06",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nxp",
+  "ids": {
+    "zephyr": [
+      "lpcxpresso55s06"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "LPC55S06",
+      "source": "zephyr:lpcxpresso55s06"
+    },
+    "ram": {
+      "value": "96 KB",
+      "source": "zephyr:lpcxpresso55s06"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:lpcxpresso55s06"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nxp/lpcxpresso55s06/doc/index.html",
+      "source": "zephyr:lpcxpresso55s06"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:lpcxpresso55s06",
+      "label": "Zephyr board definition (lpcxpresso55s06)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nxp/lpcxpresso55s06/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

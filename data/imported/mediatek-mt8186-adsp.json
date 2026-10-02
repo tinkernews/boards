@@ -1,0 +1,36 @@
+{
+  "slug": "mediatek-mt8186-adsp",
+  "name": "MT8186 ADSP",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "mediatek",
+  "ids": {
+    "zephyr": [
+      "mt8186"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MT8186",
+      "source": "zephyr:mt8186"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/mediatek/mt8186/doc/index.html",
+      "source": "zephyr:mt8186"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:mt8186",
+      "label": "Zephyr board definition (mt8186)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/mediatek/mt8186/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

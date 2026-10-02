@@ -1,0 +1,44 @@
+{
+  "slug": "iar-systems-ab-stm32f429ii-aca",
+  "name": "STM32F429II-ACA",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "iar-systems-ab",
+  "ids": {
+    "zephyr": [
+      "stm32f429ii_aca"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F429XX",
+      "source": "zephyr:stm32f429ii_aca"
+    },
+    "ram": {
+      "value": "192 KB",
+      "source": "zephyr:stm32f429ii_aca"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:stm32f429ii_aca"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/iar/stm32f429ii_aca/doc/index.html",
+      "source": "zephyr:stm32f429ii_aca"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:stm32f429ii_aca",
+      "label": "Zephyr board definition (stm32f429ii_aca)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/iar/stm32f429ii_aca/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

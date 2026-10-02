@@ -1,0 +1,336 @@
+{
+  "slug": "sparkfun-micromod-samd51-processor",
+  "name": "MicroMod SAMD51 Processor",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sparkfun",
+  "chip": "atsamd51j19",
+  "ids": {
+    "circuitpython": [
+      "sparkfun_samd51_micromod"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/sparkfun_samd51_micromod/",
+      "source": "circuitpython:sparkfun_samd51_micromod"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:sparkfun_samd51_micromod",
+    "list": [
+      {
+        "pin": "PA02",
+        "names": [
+          "A0"
+        ]
+      },
+      {
+        "pin": "PA04",
+        "names": [
+          "SPI_COPI",
+          "SPI_MOSI",
+          "COPI",
+          "MOSI",
+          "LED_DAT"
+        ]
+      },
+      {
+        "pin": "PA05",
+        "names": [
+          "SPI_SCK",
+          "SCK",
+          "LED_CLK"
+        ]
+      },
+      {
+        "pin": "PA06",
+        "names": [
+          "SPI_CIPO",
+          "SPI_MISO",
+          "CIPO",
+          "MISO"
+        ]
+      },
+      {
+        "pin": "PA07",
+        "names": [
+          "SPI_CS",
+          "CS"
+        ]
+      },
+      {
+        "pin": "PA12",
+        "names": [
+          "UART_TX2",
+          "I2C_SCL1"
+        ]
+      },
+      {
+        "pin": "PA13",
+        "names": [
+          "UART_RX2",
+          "I2C_SDA1"
+        ]
+      },
+      {
+        "pin": "PA14",
+        "names": [
+          "G8"
+        ]
+      },
+      {
+        "pin": "PA15",
+        "names": [
+          "G9",
+          "ADC_DM"
+        ]
+      },
+      {
+        "pin": "PA16",
+        "names": [
+          "I2C_SCL",
+          "SCL"
+        ]
+      },
+      {
+        "pin": "PA17",
+        "names": [
+          "I2C_SDA",
+          "SDA"
+        ]
+      },
+      {
+        "pin": "PA18",
+        "names": [
+          "I2C_INT"
+        ]
+      },
+      {
+        "pin": "PA19",
+        "names": [
+          "P3V3_EN"
+        ]
+      },
+      {
+        "pin": "PA20",
+        "names": [
+          "AUD_LRCLK",
+          "I2S_WS",
+          "PCM_SYNC",
+          "PDM_DATA"
+        ]
+      },
+      {
+        "pin": "PA21",
+        "names": [
+          "AUD_OUT",
+          "I2S_OUT",
+          "PCM_OUT",
+          "CAM_MCLK"
+        ]
+      },
+      {
+        "pin": "PA22",
+        "names": [
+          "AUD_IN",
+          "I2S_IN",
+          "PCM_IN",
+          "CAM_PCLK"
+        ]
+      },
+      {
+        "pin": "PA23",
+        "names": [
+          "LED"
+        ]
+      },
+      {
+        "pin": "PA24",
+        "names": [
+          "USB_DM"
+        ]
+      },
+      {
+        "pin": "PA25",
+        "names": [
+          "USB_DP"
+        ]
+      },
+      {
+        "pin": "PA27",
+        "names": [
+          "G11",
+          "HOST_ENABLE"
+        ]
+      },
+      {
+        "pin": "PA30",
+        "names": [
+          "SWCLK"
+        ]
+      },
+      {
+        "pin": "PA31",
+        "names": [
+          "SWDIO"
+        ]
+      },
+      {
+        "pin": "PB00",
+        "names": [
+          "UART_RTS1",
+          "A1"
+        ]
+      },
+      {
+        "pin": "PB01",
+        "names": [
+          "UART_CTS1",
+          "PWM0"
+        ]
+      },
+      {
+        "pin": "PB02",
+        "names": [
+          "PWM1"
+        ]
+      },
+      {
+        "pin": "PB03",
+        "names": [
+          "BATT_VIN3"
+        ]
+      },
+      {
+        "pin": "PB04",
+        "names": [
+          "D0"
+        ]
+      },
+      {
+        "pin": "PB05",
+        "names": [
+          "D1",
+          "CAM_TRIG"
+        ]
+      },
+      {
+        "pin": "PB06",
+        "names": [
+          "G0",
+          "BUS0"
+        ]
+      },
+      {
+        "pin": "PB07",
+        "names": [
+          "G1",
+          "BUS1"
+        ]
+      },
+      {
+        "pin": "PB08",
+        "names": [
+          "G2",
+          "BUS2"
+        ]
+      },
+      {
+        "pin": "PB09",
+        "names": [
+          "G3",
+          "BUS3"
+        ]
+      },
+      {
+        "pin": "PB10",
+        "names": [
+          "G4",
+          "BUS4"
+        ]
+      },
+      {
+        "pin": "PB11",
+        "names": [
+          "G5",
+          "BUS5"
+        ]
+      },
+      {
+        "pin": "PB12",
+        "names": [
+          "G6",
+          "BUS6"
+        ]
+      },
+      {
+        "pin": "PB13",
+        "names": [
+          "G7",
+          "BUS7"
+        ]
+      },
+      {
+        "pin": "PB14",
+        "names": [
+          "CAN_TX"
+        ]
+      },
+      {
+        "pin": "PB15",
+        "names": [
+          "CAN_RX"
+        ]
+      },
+      {
+        "pin": "PB16",
+        "names": [
+          "AUD_BCLK",
+          "I2S_SCK",
+          "PCM_CLK",
+          "PDM_CLK"
+        ]
+      },
+      {
+        "pin": "PB17",
+        "names": [
+          "AUD_MCLK"
+        ]
+      },
+      {
+        "pin": "PB30",
+        "names": [
+          "UART_RX1",
+          "RX"
+        ]
+      },
+      {
+        "pin": "PB31",
+        "names": [
+          "UART_TX1",
+          "TX"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:sparkfun_samd51_micromod",
+      "label": "CircuitPython board definition (sparkfun_samd51_micromod)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/sparkfun_samd51_micromod.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:sparkfun_samd51_micromod",
+      "label": "CircuitPython pin definitions (sparkfun_samd51_micromod)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/sparkfun_samd51_micromod/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

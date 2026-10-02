@@ -1,0 +1,40 @@
+{
+  "slug": "arm-mps3-fpga-corstone-fvp",
+  "name": "MPS3 FPGA/Corstone FVP",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "arm",
+  "ids": {
+    "zephyr": [
+      "mps3"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "AN536",
+      "source": "zephyr:mps3"
+    },
+    "ram": {
+      "value": "512 KB",
+      "source": "zephyr:mps3"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/arm/mps3/doc/index.html",
+      "source": "zephyr:mps3"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:mps3",
+      "label": "Zephyr board definition (mps3)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/arm/mps3/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

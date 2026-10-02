@@ -1,0 +1,40 @@
+{
+  "slug": "bliiot-armxy-bl350-am62x-m4",
+  "name": "BLIIoT ARMxy BL350 AM62x M4",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "bliiot",
+  "ids": {
+    "zephyr": [
+      "am62x_m4_bl350"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "AM6254",
+      "source": "zephyr:am62x_m4_bl350"
+    },
+    "ram": {
+      "value": "192 KB",
+      "source": "zephyr:am62x_m4_bl350"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/bliiot/am62x_m4_bl350/doc/index.html",
+      "source": "zephyr:am62x_m4_bl350"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:am62x_m4_bl350",
+      "label": "Zephyr board definition (am62x_m4_bl350)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/bliiot/am62x_m4_bl350/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

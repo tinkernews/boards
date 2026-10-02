@@ -1,0 +1,40 @@
+{
+  "slug": "ite-tech-it82xx2-series",
+  "name": "IT82XX2 series",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "ite-tech",
+  "ids": {
+    "zephyr": [
+      "it82xx2_evb"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "IT82202AX",
+      "source": "zephyr:it82xx2_evb"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:it82xx2_evb"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/ite/it82xx2_evb/doc/index.html",
+      "source": "zephyr:it82xx2_evb"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:it82xx2_evb",
+      "label": "Zephyr board definition (it82xx2_evb)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/ite/it82xx2_evb/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "esp32c3-luatos-core",
+  "name": "ESP32C3_LUATOS_CORE",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "luatos-team",
+  "chip": "esp32-c3",
+  "ids": {
+    "zephyr": [
+      "esp32c3_luatos_core"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32-C3",
+      "source": "zephyr:esp32c3_luatos_core"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/luatos/esp32c3_luatos_core/doc/index.html",
+      "source": "zephyr:esp32c3_luatos_core"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:esp32c3_luatos_core",
+      "label": "Zephyr board definition (esp32c3_luatos_core)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/luatos/esp32c3_luatos_core/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

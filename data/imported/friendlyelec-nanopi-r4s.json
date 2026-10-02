@@ -1,0 +1,32 @@
+{
+  "slug": "friendlyelec-nanopi-r4s",
+  "name": "NanoPi R4S",
+  "tier": "imported",
+  "kind": "sbc",
+  "maker": "friendlyelec",
+  "released": "2020",
+  "ids": {
+    "armbian": [
+      "nanopi-r4s"
+    ]
+  },
+  "software": [
+    {
+      "platform": "armbian",
+      "status": "supported",
+      "note": "Supported by Armbian.",
+      "url": "https://github.com/armbian/build/blob/main/config/boards/nanopi-r4s.conf",
+      "source": "armbian:nanopi-r4s"
+    }
+  ],
+  "sources": [
+    {
+      "id": "armbian:nanopi-r4s",
+      "label": "Armbian board configuration (nanopi-r4s)",
+      "url": "https://github.com/armbian/build/blob/da85daa05bd260d04dac50315d7317207fd998b3/config/boards/nanopi-r4s.conf",
+      "kind": "import",
+      "revision": "da85daa05bd260d04dac50315d7317207fd998b3"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "analog-devices-eval-adin2111evb-evaluation-board",
+  "name": "EVAL-ADIN2111EVB Evaluation board",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "analog-devices",
+  "ids": {
+    "zephyr": [
+      "adi_eval_adin2111ebz"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32L4S5XX",
+      "source": "zephyr:adi_eval_adin2111ebz"
+    },
+    "ram": {
+      "value": "192 KB",
+      "source": "zephyr:adi_eval_adin2111ebz"
+    },
+    "flash": {
+      "value": "2 MB",
+      "source": "zephyr:adi_eval_adin2111ebz"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/adi/eval_adin2111ebz/doc/index.html",
+      "source": "zephyr:adi_eval_adin2111ebz"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:adi_eval_adin2111ebz",
+      "label": "Zephyr board definition (adi_eval_adin2111ebz)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/adi/eval_adin2111ebz/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

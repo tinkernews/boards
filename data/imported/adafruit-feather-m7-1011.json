@@ -1,0 +1,30 @@
+{
+  "slug": "adafruit-feather-m7-1011",
+  "name": "Feather M7 1011",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "ids": {
+    "circuitpython": [
+      "feather_m7_1011"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/feather_m7_1011/",
+      "source": "circuitpython:feather_m7_1011"
+    }
+  ],
+  "sources": [
+    {
+      "id": "circuitpython:feather_m7_1011",
+      "label": "CircuitPython board definition (feather_m7_1011)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/feather_m7_1011.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

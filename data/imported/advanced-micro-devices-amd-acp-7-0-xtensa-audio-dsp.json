@@ -1,0 +1,36 @@
+{
+  "slug": "advanced-micro-devices-amd-acp-7-0-xtensa-audio-dsp",
+  "name": "ACP 7.0 Xtensa Audio DSP",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "advanced-micro-devices-amd",
+  "ids": {
+    "zephyr": [
+      "acp_7_0_adsp"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ACP_7_0",
+      "source": "zephyr:acp_7_0_adsp"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/amd/acp_7_0_adsp/doc/index.html",
+      "source": "zephyr:acp_7_0_adsp"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:acp_7_0_adsp",
+      "label": "Zephyr board definition (acp_7_0_adsp)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/amd/acp_7_0_adsp/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

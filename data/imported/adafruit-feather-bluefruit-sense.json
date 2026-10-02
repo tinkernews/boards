@@ -1,0 +1,280 @@
+{
+  "slug": "adafruit-feather-bluefruit-sense",
+  "name": "Adafruit Feather Bluefruit Sense",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "nrf52840",
+  "aliases": [
+    "Feather Bluefruit Sense"
+  ],
+  "ids": {
+    "platformio": [
+      "adafruit_feather_nrf52840_sense"
+    ],
+    "circuitpython": [
+      "feather_bluefruit_sense"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52840",
+      "source": "platformio:adafruit_feather_nrf52840_sense"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:adafruit_feather_nrf52840_sense"
+    },
+    "clock": {
+      "value": "64 MHz",
+      "source": "platformio:adafruit_feather_nrf52840_sense"
+    },
+    "upload_limits": {
+      "value": "796 KB flash, 243 KB RAM",
+      "source": "platformio:adafruit_feather_nrf52840_sense"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Adafruit Feather Bluefruit Sense product page",
+      "url": "https://www.adafruit.com/product/4516"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/nordicnrf52/adafruit_feather_nrf52840_sense.html",
+      "source": "platformio:adafruit_feather_nrf52840_sense"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/feather_bluefruit_sense/",
+      "source": "circuitpython:feather_bluefruit_sense"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:feather_bluefruit_sense",
+    "list": [
+      {
+        "pin": "P0_00",
+        "names": [
+          "MICROPHONE_DATA"
+        ]
+      },
+      {
+        "pin": "P0_01",
+        "names": [
+          "MICROPHONE_CLOCK"
+        ]
+      },
+      {
+        "pin": "P0_02",
+        "names": [
+          "A4"
+        ]
+      },
+      {
+        "pin": "P0_03",
+        "names": [
+          "A5"
+        ]
+      },
+      {
+        "pin": "P0_04",
+        "names": [
+          "A0"
+        ]
+      },
+      {
+        "pin": "P0_05",
+        "names": [
+          "A1"
+        ]
+      },
+      {
+        "pin": "P0_06",
+        "names": [
+          "D11"
+        ]
+      },
+      {
+        "pin": "P0_07",
+        "names": [
+          "D6"
+        ]
+      },
+      {
+        "pin": "P0_08",
+        "names": [
+          "D12"
+        ]
+      },
+      {
+        "pin": "P0_09",
+        "names": [
+          "NFC1"
+        ]
+      },
+      {
+        "pin": "P0_10",
+        "names": [
+          "NFC2",
+          "D2"
+        ]
+      },
+      {
+        "pin": "P0_11",
+        "names": [
+          "SCL"
+        ]
+      },
+      {
+        "pin": "P0_12",
+        "names": [
+          "SDA"
+        ]
+      },
+      {
+        "pin": "P0_13",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "P0_14",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "P0_15",
+        "names": [
+          "MISO"
+        ]
+      },
+      {
+        "pin": "P0_16",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "P0_24",
+        "names": [
+          "RX"
+        ]
+      },
+      {
+        "pin": "P0_25",
+        "names": [
+          "TX"
+        ]
+      },
+      {
+        "pin": "P0_26",
+        "names": [
+          "D9"
+        ]
+      },
+      {
+        "pin": "P0_27",
+        "names": [
+          "D10"
+        ]
+      },
+      {
+        "pin": "P0_28",
+        "names": [
+          "A3"
+        ]
+      },
+      {
+        "pin": "P0_29",
+        "names": [
+          "VOLTAGE_MONITOR",
+          "BATTERY"
+        ]
+      },
+      {
+        "pin": "P0_30",
+        "names": [
+          "A2"
+        ]
+      },
+      {
+        "pin": "P0_31",
+        "names": [
+          "AREF"
+        ]
+      },
+      {
+        "pin": "P1_00",
+        "names": [
+          "PROXIMITY_LIGHT_INTERRUPT"
+        ]
+      },
+      {
+        "pin": "P1_02",
+        "names": [
+          "SWITCH"
+        ]
+      },
+      {
+        "pin": "P1_08",
+        "names": [
+          "D5"
+        ]
+      },
+      {
+        "pin": "P1_09",
+        "names": [
+          "D13",
+          "L",
+          "LED",
+          "RED_LED"
+        ]
+      },
+      {
+        "pin": "P1_10",
+        "names": [
+          "BLUE_LED"
+        ]
+      },
+      {
+        "pin": "P1_11",
+        "names": [
+          "D3",
+          "ACCELEROMETER_GYRO_INTERRUPT"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "platformio:adafruit_feather_nrf52840_sense",
+      "label": "PlatformIO board definition (adafruit_feather_nrf52840_sense)",
+      "url": "https://github.com/platformio/platform-nordicnrf52/blob/278176a7f7ffe2d001eb93eafa271c83b38222e4/boards/adafruit_feather_nrf52840_sense.json",
+      "kind": "import",
+      "revision": "278176a7f7ffe2d001eb93eafa271c83b38222e4"
+    },
+    {
+      "id": "circuitpython:feather_bluefruit_sense",
+      "label": "CircuitPython board definition (feather_bluefruit_sense)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/feather_bluefruit_sense.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:feather_bluefruit_sense",
+      "label": "CircuitPython pin definitions (feather_bluefruit_sense)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/nordic/boards/feather_bluefruit_sense/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

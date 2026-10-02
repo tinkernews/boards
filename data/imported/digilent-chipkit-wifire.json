@@ -1,0 +1,52 @@
+{
+  "slug": "digilent-chipkit-wifire",
+  "name": "Digilent chipKIT WiFire",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "digilent",
+  "ids": {
+    "platformio": [
+      "chipkit_wifire"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "32MZ2048ECG100",
+      "source": "platformio:chipkit_wifire"
+    },
+    "clock": {
+      "value": "200 MHz",
+      "source": "platformio:chipkit_wifire"
+    },
+    "upload_limits": {
+      "value": "1.98 MB flash, 512 KB RAM",
+      "source": "platformio:chipkit_wifire"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Digilent chipKIT WiFire product page",
+      "url": "http://store.digilentinc.com/chipkit-wi-fire-wifi-enabled-mz-microcontroller-board/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/microchippic32/chipkit_wifire.html",
+      "source": "platformio:chipkit_wifire"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:chipkit_wifire",
+      "label": "PlatformIO board definition (chipkit_wifire)",
+      "url": "https://github.com/platformio/platform-microchippic32/blob/f6e89308da11cfe35d7534696bf01abf3f442461/boards/chipkit_wifire.json",
+      "kind": "import",
+      "revision": "f6e89308da11cfe35d7534696bf01abf3f442461"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "itead-sonoff-s20",
+  "name": "Sonoff S20",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "itead",
+  "chip": "esp8266",
+  "ids": {
+    "platformio": [
+      "sonoff_s20"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP8266EX",
+      "source": "platformio:sonoff_s20"
+    },
+    "clock": {
+      "value": "80 MHz",
+      "source": "platformio:sonoff_s20"
+    },
+    "upload_limits": {
+      "value": "1 MB flash, 80 KB RAM",
+      "source": "platformio:sonoff_s20"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Sonoff S20 product page",
+      "url": "https://www.itead.cc/smart-socket.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif8266/sonoff_s20.html",
+      "source": "platformio:sonoff_s20"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:sonoff_s20",
+      "label": "PlatformIO board definition (sonoff_s20)",
+      "url": "https://github.com/platformio/platform-espressif8266/blob/668c2a2e4f16bd83b6c812f1ee0605c62b3ce2d2/boards/sonoff_s20.json",
+      "kind": "import",
+      "revision": "668c2a2e4f16bd83b6c812f1ee0605c62b3ce2d2"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

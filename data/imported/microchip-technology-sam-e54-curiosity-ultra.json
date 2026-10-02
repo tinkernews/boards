@@ -1,0 +1,44 @@
+{
+  "slug": "microchip-technology-sam-e54-curiosity-ultra",
+  "name": "SAM E54 Curiosity Ultra",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "ids": {
+    "zephyr": [
+      "sam_e54_cult"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAME54P20A",
+      "source": "zephyr:sam_e54_cult"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:sam_e54_cult"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:sam_e54_cult"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/microchip/sam/sam_e54_cult/doc/index.html",
+      "source": "zephyr:sam_e54_cult"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:sam_e54_cult",
+      "label": "Zephyr board definition (sam_e54_cult)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/microchip/sam/sam_e54_cult/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

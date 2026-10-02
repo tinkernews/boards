@@ -1,0 +1,143 @@
+{
+  "slug": "bh-dynamics-dynalora-usb",
+  "name": "DynaLoRa-USB",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "bh-dynamics",
+  "chip": "atsamd21g18",
+  "ids": {
+    "circuitpython": [
+      "dynalora_usb"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/dynalora_usb/",
+      "source": "circuitpython:dynalora_usb"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:dynalora_usb",
+    "list": [
+      {
+        "pin": "PA00",
+        "names": [
+          "D0",
+          "A0",
+          "SDA",
+          "TX",
+          "MOSI1"
+        ]
+      },
+      {
+        "pin": "PA01",
+        "names": [
+          "D1",
+          "A1",
+          "SCL",
+          "RX",
+          "SCK1"
+        ]
+      },
+      {
+        "pin": "PA02",
+        "names": [
+          "D2",
+          "A2",
+          "MISO1"
+        ]
+      },
+      {
+        "pin": "PA03",
+        "names": [
+          "SD_CS"
+        ]
+      },
+      {
+        "pin": "PA09",
+        "names": [
+          "RADIO_INT"
+        ]
+      },
+      {
+        "pin": "PA10",
+        "names": [
+          "RADIO_RESET"
+        ]
+      },
+      {
+        "pin": "PA11",
+        "names": [
+          "RADIO_CS"
+        ]
+      },
+      {
+        "pin": "PA15",
+        "names": [
+          "BUTTON"
+        ]
+      },
+      {
+        "pin": "PA16",
+        "names": [
+          "MOSI"
+        ]
+      },
+      {
+        "pin": "PA17",
+        "names": [
+          "SCK"
+        ]
+      },
+      {
+        "pin": "PA18",
+        "names": [
+          "MISO"
+        ]
+      },
+      {
+        "pin": "PA19",
+        "names": [
+          "NEOPIXEL"
+        ]
+      },
+      {
+        "pin": "PA27",
+        "names": [
+          "LED"
+        ]
+      },
+      {
+        "pin": "PA30",
+        "names": [
+          "D3"
+        ]
+      },
+      {
+        "pin": "PA31",
+        "names": [
+          "D4"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:dynalora_usb",
+      "label": "CircuitPython board definition (dynalora_usb)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/dynalora_usb.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:dynalora_usb",
+      "label": "CircuitPython pin definitions (dynalora_usb)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/atmel-samd/boards/dynalora_usb/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

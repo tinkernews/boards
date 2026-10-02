@@ -1,0 +1,388 @@
+{
+  "slug": "weact-rp2350b-core",
+  "name": "WeAct RP2350B Core",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "weact",
+  "chip": "rp2350",
+  "aliases": [
+    "WeAct Studio RP2350B Core",
+    "RP2350B Core"
+  ],
+  "ids": {
+    "zephyr": [
+      "rp2350b_core"
+    ],
+    "circuitpython": [
+      "weact_studio_rp2350b_core"
+    ],
+    "micropython": [
+      "WEACTSTUDIO_RP2350B_CORE"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "RP2350",
+      "source": "zephyr:rp2350b_core"
+    },
+    "ram": {
+      "value": "520 KB",
+      "source": "zephyr:rp2350b_core"
+    },
+    "flash": {
+      "value": "4 MB",
+      "source": "zephyr:rp2350b_core"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "WeAct RP2350B Core product page",
+      "url": "https://github.com/WeActStudio/WeActStudio.RP2350BCoreBoard"
+    }
+  ],
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/weact/rp2350b_core/doc/index.html",
+      "source": "zephyr:rp2350b_core"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/WEACTSTUDIO_RP2350B_CORE/",
+      "source": "micropython:weactstudio_rp2350b_core"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/weact_studio_rp2350b_core/",
+      "source": "circuitpython:weact_studio_rp2350b_core"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:weact_studio_rp2350b_core",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "GP0"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "GP1"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "GP2"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "GP3"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "GP4"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "GP5"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "GP6"
+        ]
+      },
+      {
+        "pin": "GPIO7",
+        "names": [
+          "GP7"
+        ]
+      },
+      {
+        "pin": "GPIO8",
+        "names": [
+          "GP8"
+        ]
+      },
+      {
+        "pin": "GPIO9",
+        "names": [
+          "GP9"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "GP10"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "GP11"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "GP12"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "GP13"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "GP14"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "GP15"
+        ]
+      },
+      {
+        "pin": "GPIO16",
+        "names": [
+          "GP16"
+        ]
+      },
+      {
+        "pin": "GPIO17",
+        "names": [
+          "GP17"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "GP18"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "GP19"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "GP20"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "GP21"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "GP22"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "GP23"
+        ]
+      },
+      {
+        "pin": "GPIO24",
+        "names": [
+          "GP24"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "GP25"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "GP26"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "GP27"
+        ]
+      },
+      {
+        "pin": "GPIO28",
+        "names": [
+          "GP28"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "GP29"
+        ]
+      },
+      {
+        "pin": "GPIO30",
+        "names": [
+          "GP30"
+        ]
+      },
+      {
+        "pin": "GPIO31",
+        "names": [
+          "GP31"
+        ]
+      },
+      {
+        "pin": "GPIO32",
+        "names": [
+          "GP32"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "GP33"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "GP34"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "GP35"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "GP36"
+        ]
+      },
+      {
+        "pin": "GPIO37",
+        "names": [
+          "GP37"
+        ]
+      },
+      {
+        "pin": "GPIO38",
+        "names": [
+          "GP38"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "GP39"
+        ]
+      },
+      {
+        "pin": "GPIO40",
+        "names": [
+          "GP40"
+        ]
+      },
+      {
+        "pin": "GPIO41",
+        "names": [
+          "GP41"
+        ]
+      },
+      {
+        "pin": "GPIO42",
+        "names": [
+          "GP42"
+        ]
+      },
+      {
+        "pin": "GPIO43",
+        "names": [
+          "GP43"
+        ]
+      },
+      {
+        "pin": "GPIO44",
+        "names": [
+          "GP44"
+        ]
+      },
+      {
+        "pin": "GPIO45",
+        "names": [
+          "GP45"
+        ]
+      },
+      {
+        "pin": "GPIO46",
+        "names": [
+          "GP46"
+        ]
+      },
+      {
+        "pin": "GPIO47",
+        "names": [
+          "GP47"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "zephyr:rp2350b_core",
+      "label": "Zephyr board definition (rp2350b_core)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/weact/rp2350b_core/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "circuitpython:weact_studio_rp2350b_core",
+      "label": "CircuitPython board definition (weact_studio_rp2350b_core)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/weact_studio_rp2350b_core.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "micropython:weactstudio_rp2350b_core",
+      "label": "MicroPython board definition (WEACTSTUDIO_RP2350B_CORE)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/rp2/boards/WEACTSTUDIO_RP2350B_CORE/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    },
+    {
+      "id": "circuitpython-pins:weact_studio_rp2350b_core",
+      "label": "CircuitPython pin definitions (weact_studio_rp2350b_core)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/weact_studio_rp2350b_core/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

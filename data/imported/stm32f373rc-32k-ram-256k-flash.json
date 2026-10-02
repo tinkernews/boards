@@ -1,0 +1,47 @@
+{
+  "slug": "stm32f373rc-32k-ram-256k-flash",
+  "name": "STM32F373RC (32k RAM. 256k Flash)",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "generic",
+  "ids": {
+    "platformio": [
+      "genericSTM32F373RC"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F373RCT6",
+      "source": "platformio:genericstm32f373rc"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:genericstm32f373rc"
+    },
+    "clock": {
+      "value": "72 MHz",
+      "source": "platformio:genericstm32f373rc"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:genericstm32f373rc"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "STM32F373RC (32k RAM. 256k Flash) product page",
+      "url": "https://www.st.com/en/microcontrollers/stm32f373rc.html"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:genericstm32f373rc",
+      "label": "PlatformIO board definition (genericSTM32F373RC)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/genericSTM32F373RC.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

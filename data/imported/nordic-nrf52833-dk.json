@@ -1,0 +1,77 @@
+{
+  "slug": "nordic-nrf52833-dk",
+  "name": "Nordic nRF52833-DK",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "nordic-semiconductor",
+  "chip": "nrf52833",
+  "aliases": [
+    "nRF52833 DK"
+  ],
+  "ids": {
+    "platformio": [
+      "nrf52833_dk"
+    ],
+    "zephyr": [
+      "nrf52833dk"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52833",
+      "source": "platformio:nrf52833_dk"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:nrf52833_dk"
+    },
+    "clock": {
+      "value": "64 MHz",
+      "source": "platformio:nrf52833_dk"
+    },
+    "upload_limits": {
+      "value": "512 KB flash, 128 KB RAM",
+      "source": "platformio:nrf52833_dk"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:nrf52833dk"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:nrf52833dk"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Nordic nRF52833-DK product page",
+      "url": "https://www.nordicsemi.com/Products/Development-hardware/nrf52833-dk"
+    }
+  ],
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/nordic/nrf52833dk/doc/index.html",
+      "source": "zephyr:nrf52833dk"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:nrf52833_dk",
+      "label": "PlatformIO board definition (nrf52833_dk)",
+      "url": "https://github.com/platformio/platform-nordicnrf52/blob/278176a7f7ffe2d001eb93eafa271c83b38222e4/boards/nrf52833_dk.json",
+      "kind": "import",
+      "revision": "278176a7f7ffe2d001eb93eafa271c83b38222e4"
+    },
+    {
+      "id": "zephyr:nrf52833dk",
+      "label": "Zephyr board definition (nrf52833dk)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/nordic/nrf52833dk/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "gimasi-tuino-096",
+  "name": "Tuino 096",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "gimasi",
+  "chip": "atsamd21g18",
+  "ids": {
+    "platformio": [
+      "tuinozero96"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAMD21G18",
+      "source": "platformio:tuinozero96"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:tuinozero96"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:tuinozero96"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:tuinozero96"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Tuino 096 product page",
+      "url": "http://www.gimasi.ch/productions-platforms/tuino096/"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelsam/tuinozero96.html",
+      "source": "platformio:tuinozero96"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:tuinozero96",
+      "label": "PlatformIO board definition (tuinozero96)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/tuinozero96.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

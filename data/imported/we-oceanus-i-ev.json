@@ -1,0 +1,83 @@
+{
+  "slug": "we-oceanus-i-ev",
+  "name": "WE Oceanus-I EV",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "we",
+  "aliases": [
+    "Oceanus-I EV"
+  ],
+  "ids": {
+    "platformio": [
+      "we_oceanus1_ev"
+    ],
+    "zephyr": [
+      "we_oceanus1ev"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32WLE5CCU6 ",
+      "source": "platformio:we_oceanus1_ev"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:we_oceanus1_ev"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:we_oceanus1_ev"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 64 KB RAM",
+      "source": "platformio:we_oceanus1_ev"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:we_oceanus1ev"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:we_oceanus1ev"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "WE Oceanus-I EV product page",
+      "url": "https://www.we-online.com/en/components/products/OCEANUS-I"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/we_oceanus1_ev.html",
+      "source": "platformio:we_oceanus1_ev"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/we/oceanus1ev/doc/index.html",
+      "source": "zephyr:we_oceanus1ev"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:we_oceanus1_ev",
+      "label": "PlatformIO board definition (we_oceanus1_ev)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/we_oceanus1_ev.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    },
+    {
+      "id": "zephyr:we_oceanus1ev",
+      "label": "Zephyr board definition (we_oceanus1ev)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/we/oceanus1ev/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T11:14:32.694Z"
+}

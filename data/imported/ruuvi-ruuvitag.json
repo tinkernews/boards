@@ -1,0 +1,45 @@
+{
+  "slug": "ruuvi-ruuvitag",
+  "name": "RuuviTag",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "ruuvi",
+  "chip": "nrf52832",
+  "ids": {
+    "zephyr": [
+      "ruuvi_ruuvitag"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52832",
+      "source": "zephyr:ruuvi_ruuvitag"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:ruuvi_ruuvitag"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:ruuvi_ruuvitag"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/ruuvi/ruuvitag/doc/index.html",
+      "source": "zephyr:ruuvi_ruuvitag"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:ruuvi_ruuvitag",
+      "label": "Zephyr board definition (ruuvi_ruuvitag)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/ruuvi/ruuvitag/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

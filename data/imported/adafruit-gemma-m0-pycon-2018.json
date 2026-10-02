@@ -1,0 +1,31 @@
+{
+  "slug": "adafruit-gemma-m0-pycon-2018",
+  "name": "Gemma M0 PyCon 2018",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "adafruit",
+  "chip": "atsamd21g18",
+  "ids": {
+    "circuitpython": [
+      "gemma_m0_pycon2018"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/gemma_m0_pycon2018/",
+      "source": "circuitpython:gemma_m0_pycon2018"
+    }
+  ],
+  "sources": [
+    {
+      "id": "circuitpython:gemma_m0_pycon2018",
+      "label": "CircuitPython board definition (gemma_m0_pycon2018)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/gemma_m0_pycon2018.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

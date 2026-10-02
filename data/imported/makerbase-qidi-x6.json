@@ -1,0 +1,32 @@
+{
+  "slug": "makerbase-qidi-x6",
+  "name": "Qidi-x6",
+  "tier": "imported",
+  "kind": "sbc",
+  "maker": "makerbase",
+  "released": "2025",
+  "ids": {
+    "armbian": [
+      "qidi-x6"
+    ]
+  },
+  "software": [
+    {
+      "platform": "armbian",
+      "status": "supported",
+      "note": "Supported by Armbian.",
+      "url": "https://github.com/armbian/build/blob/main/config/boards/qidi-x6.conf",
+      "source": "armbian:qidi-x6"
+    }
+  ],
+  "sources": [
+    {
+      "id": "armbian:qidi-x6",
+      "label": "Armbian board configuration (qidi-x6)",
+      "url": "https://github.com/armbian/build/blob/da85daa05bd260d04dac50315d7317207fd998b3/config/boards/qidi-x6.conf",
+      "kind": "import",
+      "revision": "da85daa05bd260d04dac50315d7317207fd998b3"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

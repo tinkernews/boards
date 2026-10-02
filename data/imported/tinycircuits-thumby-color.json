@@ -1,0 +1,145 @@
+{
+  "slug": "tinycircuits-thumby-color",
+  "name": "Thumby Color",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "tinycircuits",
+  "chip": "rp2350",
+  "ids": {
+    "circuitpython": [
+      "tinycircuits_thumby_color"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/tinycircuits_thumby_color/",
+      "source": "circuitpython:tinycircuits_thumby_color"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:tinycircuits_thumby_color",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "BUTTON_LEFT"
+        ]
+      },
+      {
+        "pin": "GPIO1",
+        "names": [
+          "BUTTON_UP"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "BUTTON_RIGHT"
+        ]
+      },
+      {
+        "pin": "GPIO3",
+        "names": [
+          "BUTTON_DOWN"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "RUMBLE"
+        ]
+      },
+      {
+        "pin": "GPIO6",
+        "names": [
+          "BUTTON_BUMPER_LEFT"
+        ]
+      },
+      {
+        "pin": "GPIO10",
+        "names": [
+          "LED_G"
+        ]
+      },
+      {
+        "pin": "GPIO11",
+        "names": [
+          "LED_R"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "LED_B"
+        ]
+      },
+      {
+        "pin": "GPIO20",
+        "names": [
+          "SPEAKER_ENABLE"
+        ]
+      },
+      {
+        "pin": "GPIO21",
+        "names": [
+          "BUTTON_A"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "BUTTON_BUMPER_RIGHT"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "SPEAKER"
+        ]
+      },
+      {
+        "pin": "GPIO24",
+        "names": [
+          "CHARGE_STAT"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "BUTTON_B"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "BUTTON_MENU"
+        ]
+      },
+      {
+        "pin": "GPIO29",
+        "names": [
+          "VOLTAGE_MONITOR"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:tinycircuits_thumby_color",
+      "label": "CircuitPython board definition (tinycircuits_thumby_color)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/tinycircuits_thumby_color.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:tinycircuits_thumby_color",
+      "label": "CircuitPython pin definitions (tinycircuits_thumby_color)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/raspberrypi/boards/tinycircuits_thumby_color/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

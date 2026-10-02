@@ -1,0 +1,53 @@
+{
+  "slug": "sparkfun-microview",
+  "name": "SparkFun MicroView",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "sparkfun",
+  "chip": "atmega328p",
+  "ids": {
+    "platformio": [
+      "uview"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATmega328P",
+      "source": "platformio:uview"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:uview"
+    },
+    "upload_limits": {
+      "value": "31.5 KB flash, 2 KB RAM",
+      "source": "platformio:uview"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "SparkFun MicroView product page",
+      "url": "https://www.sparkfun.com/products/12923"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/uview.html",
+      "source": "platformio:uview"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:uview",
+      "label": "PlatformIO board definition (uview)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/uview.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

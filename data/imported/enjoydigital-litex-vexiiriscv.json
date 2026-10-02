@@ -1,0 +1,40 @@
+{
+  "slug": "enjoydigital-litex-vexiiriscv",
+  "name": "LiteX VexiiRiscv",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "enjoydigital",
+  "ids": {
+    "zephyr": [
+      "litex_vexiiriscv"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "LITEX_VEXIIRISCV",
+      "source": "zephyr:litex_vexiiriscv"
+    },
+    "ram": {
+      "value": "262144 KB",
+      "source": "zephyr:litex_vexiiriscv"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/enjoydigital/litex_vexiiriscv/doc/index.html",
+      "source": "zephyr:litex_vexiiriscv"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:litex_vexiiriscv",
+      "label": "Zephyr board definition (litex_vexiiriscv)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/enjoydigital/litex_vexiiriscv/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

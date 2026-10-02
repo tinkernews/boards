@@ -1,0 +1,52 @@
+{
+  "slug": "microchip-technology-atmega8-a",
+  "name": "ATmega8/A",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "microchip",
+  "ids": {
+    "platformio": [
+      "ATmega8"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATMEGA8",
+      "source": "platformio:atmega8"
+    },
+    "clock": {
+      "value": "16 MHz",
+      "source": "platformio:atmega8"
+    },
+    "upload_limits": {
+      "value": "8 KB flash, 1 KB RAM",
+      "source": "platformio:atmega8"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ATmega8/A product page",
+      "url": "https://www.microchip.com/wwwproducts/en/ATmega8"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelavr/ATmega8.html",
+      "source": "platformio:atmega8"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:atmega8",
+      "label": "PlatformIO board definition (ATmega8)",
+      "url": "https://github.com/platformio/platform-atmelavr/blob/5da4930a978700ecc9bffcf56c5fbeb930c25611/boards/ATmega8.json",
+      "kind": "import",
+      "revision": "5da4930a978700ecc9bffcf56c5fbeb930c25611"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

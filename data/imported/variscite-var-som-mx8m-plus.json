@@ -1,0 +1,40 @@
+{
+  "slug": "variscite-var-som-mx8m-plus",
+  "name": "VAR-SOM-MX8M-PLUS",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "variscite",
+  "ids": {
+    "zephyr": [
+      "imx8mp_var_som"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MIMX8ML8",
+      "source": "zephyr:imx8mp_var_som"
+    },
+    "ram": {
+      "value": "1024 KB",
+      "source": "zephyr:imx8mp_var_som"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/variscite/imx8mp_var_som/doc/index.html",
+      "source": "zephyr:imx8mp_var_som"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:imx8mp_var_som",
+      "label": "Zephyr board definition (imx8mp_var_som)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/variscite/imx8mp_var_som/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

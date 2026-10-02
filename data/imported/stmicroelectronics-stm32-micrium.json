@@ -1,0 +1,44 @@
+{
+  "slug": "stmicroelectronics-stm32-micrium",
+  "name": "STM32-MICRIUM",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "zephyr": [
+      "stm32_micrium"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F107XC",
+      "source": "zephyr:stm32_micrium"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:stm32_micrium"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:stm32_micrium"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/stm32_micrium/doc/index.html",
+      "source": "zephyr:stm32_micrium"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:stm32_micrium",
+      "label": "Zephyr board definition (stm32_micrium)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/stm32_micrium/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

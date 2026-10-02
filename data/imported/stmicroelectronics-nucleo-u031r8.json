@@ -1,0 +1,44 @@
+{
+  "slug": "stmicroelectronics-nucleo-u031r8",
+  "name": "Nucleo U031R8",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "zephyr": [
+      "nucleo_u031r8"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32U031XX",
+      "source": "zephyr:nucleo_u031r8"
+    },
+    "ram": {
+      "value": "8 KB",
+      "source": "zephyr:nucleo_u031r8"
+    },
+    "flash": {
+      "value": "64 KB",
+      "source": "zephyr:nucleo_u031r8"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/nucleo_u031r8/doc/index.html",
+      "source": "zephyr:nucleo_u031r8"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:nucleo_u031r8",
+      "label": "Zephyr board definition (nucleo_u031r8)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/nucleo_u031r8/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

@@ -1,0 +1,67 @@
+{
+  "slug": "stmicroelectronics-nucleo-l4a6zg",
+  "name": "Nucleo L4A6ZG",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "stmicroelectronics",
+  "ids": {
+    "zephyr": [
+      "nucleo_l4a6zg"
+    ],
+    "micropython": [
+      "NUCLEO_L4A6ZG"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32L4A6XX",
+      "source": "zephyr:nucleo_l4a6zg"
+    },
+    "ram": {
+      "value": "256 KB",
+      "source": "zephyr:nucleo_l4a6zg"
+    },
+    "flash": {
+      "value": "1 MB",
+      "source": "zephyr:nucleo_l4a6zg"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Nucleo L4A6ZG product page",
+      "url": "https://www.st.com/en/evaluation-tools/nucleo-l4a6zg.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/st/nucleo_l4a6zg/doc/index.html",
+      "source": "zephyr:nucleo_l4a6zg"
+    },
+    {
+      "platform": "micropython",
+      "status": "supported",
+      "url": "https://micropython.org/download/NUCLEO_L4A6ZG/",
+      "source": "micropython:nucleo_l4a6zg"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:nucleo_l4a6zg",
+      "label": "Zephyr board definition (nucleo_l4a6zg)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/st/nucleo_l4a6zg/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "micropython:nucleo_l4a6zg",
+      "label": "MicroPython board definition (NUCLEO_L4A6ZG)",
+      "url": "https://github.com/micropython/micropython/blob/19e685eca906a5a602135a485976253e705297d0/ports/stm32/boards/NUCLEO_L4A6ZG/board.json",
+      "kind": "import",
+      "revision": "19e685eca906a5a602135a485976253e705297d0"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

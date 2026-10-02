@@ -1,0 +1,40 @@
+{
+  "slug": "phytec-phyboard-nash-i-mx93",
+  "name": "phyBOARD-Nash i.MX93",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "phytec",
+  "ids": {
+    "zephyr": [
+      "phyboard_nash"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "MIMX9352",
+      "source": "zephyr:phyboard_nash"
+    },
+    "ram": {
+      "value": "1024 KB",
+      "source": "zephyr:phyboard_nash"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/phytec/phyboard_nash/doc/index.html",
+      "source": "zephyr:phyboard_nash"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:phyboard_nash",
+      "label": "Zephyr board definition (phyboard_nash)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/phytec/phyboard_nash/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

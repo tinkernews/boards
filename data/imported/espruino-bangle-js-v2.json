@@ -1,0 +1,205 @@
+{
+  "slug": "espruino-bangle-js-v2",
+  "name": "Espruino Bangle.js v2",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "espruino",
+  "chip": "nrf52840",
+  "ids": {
+    "circuitpython": [
+      "espruino_banglejs2"
+    ]
+  },
+  "software": [
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/espruino_banglejs2/",
+      "source": "circuitpython:espruino_banglejs2"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:espruino_banglejs2",
+    "list": [
+      {
+        "pin": "P0_02",
+        "names": [
+          "PRESSURE_SCL"
+        ]
+      },
+      {
+        "pin": "P0_03",
+        "names": [
+          "VOLTAGE_MONITOR"
+        ]
+      },
+      {
+        "pin": "P0_05",
+        "names": [
+          "MEMLCD_CS"
+        ]
+      },
+      {
+        "pin": "P0_06",
+        "names": [
+          "MEMLCD_EXTCOMIN"
+        ]
+      },
+      {
+        "pin": "P0_07",
+        "names": [
+          "MEMLCD_DISP"
+        ]
+      },
+      {
+        "pin": "P0_08",
+        "names": [
+          "BACKLIGHT"
+        ]
+      },
+      {
+        "pin": "P0_17",
+        "names": [
+          "BUTTON"
+        ]
+      },
+      {
+        "pin": "P0_19",
+        "names": [
+          "VIBRATE"
+        ]
+      },
+      {
+        "pin": "P0_21",
+        "names": [
+          "HRM_POWER"
+        ]
+      },
+      {
+        "pin": "P0_22",
+        "names": [
+          "HRM_INT"
+        ]
+      },
+      {
+        "pin": "P0_23",
+        "names": [
+          "CHARGE_PORT"
+        ]
+      },
+      {
+        "pin": "P0_24",
+        "names": [
+          "HRM_SDA"
+        ]
+      },
+      {
+        "pin": "P0_25",
+        "names": [
+          "CHARGE_COMPLETE"
+        ]
+      },
+      {
+        "pin": "P0_26",
+        "names": [
+          "MEMLCD_SCK"
+        ]
+      },
+      {
+        "pin": "P0_27",
+        "names": [
+          "MEMLCD_MOSI"
+        ]
+      },
+      {
+        "pin": "P0_29",
+        "names": [
+          "GPS_POWER"
+        ]
+      },
+      {
+        "pin": "P0_30",
+        "names": [
+          "GPS_TX"
+        ]
+      },
+      {
+        "pin": "P0_31",
+        "names": [
+          "GPS_RX"
+        ]
+      },
+      {
+        "pin": "P1_00",
+        "names": [
+          "HRM_SCL"
+        ]
+      },
+      {
+        "pin": "P1_01",
+        "names": [
+          "TOUCH_SDA"
+        ]
+      },
+      {
+        "pin": "P1_02",
+        "names": [
+          "TOUCH_SCL"
+        ]
+      },
+      {
+        "pin": "P1_03",
+        "names": [
+          "TOUCH_INT"
+        ]
+      },
+      {
+        "pin": "P1_04",
+        "names": [
+          "ACCEL_SDA"
+        ]
+      },
+      {
+        "pin": "P1_05",
+        "names": [
+          "ACCEL_SCL"
+        ]
+      },
+      {
+        "pin": "P1_10",
+        "names": [
+          "COMPASS_SDA"
+        ]
+      },
+      {
+        "pin": "P1_11",
+        "names": [
+          "COMPASS_SCL"
+        ]
+      },
+      {
+        "pin": "P1_13",
+        "names": [
+          "PRESSURE_SDA"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "circuitpython:espruino_banglejs2",
+      "label": "CircuitPython board definition (espruino_banglejs2)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/espruino_banglejs2.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:espruino_banglejs2",
+      "label": "CircuitPython pin definitions (espruino_banglejs2)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/nordic/boards/espruino_banglejs2/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

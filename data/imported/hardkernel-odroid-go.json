@@ -1,0 +1,235 @@
+{
+  "slug": "hardkernel-odroid-go",
+  "name": "ODROID-GO",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "hardkernel",
+  "chip": "esp32",
+  "aliases": [
+    "ODROID Go"
+  ],
+  "ids": {
+    "platformio": [
+      "odroid_esp32"
+    ],
+    "zephyr": [
+      "odroid_go"
+    ],
+    "circuitpython": [
+      "hardkernel_odroid_go"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ESP32",
+      "source": "platformio:odroid_esp32"
+    },
+    "clock": {
+      "value": "240 MHz",
+      "source": "platformio:odroid_esp32"
+    },
+    "upload_limits": {
+      "value": "16 MB flash, 320 KB RAM",
+      "source": "platformio:odroid_esp32"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "ODROID-GO product page",
+      "url": "https://www.hardkernel.com/main/products/prdt_info.php?g_code=G152875062626"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/odroid_esp32.html",
+      "source": "platformio:odroid_esp32"
+    },
+    {
+      "platform": "esp-idf",
+      "status": "supported",
+      "url": "https://docs.platformio.org/en/latest/boards/espressif32/odroid_esp32.html",
+      "source": "platformio:odroid_esp32"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/hardkernel/odroid_go/doc/index.html",
+      "source": "zephyr:odroid_go"
+    },
+    {
+      "platform": "circuitpython",
+      "status": "supported",
+      "url": "https://circuitpython.org/board/hardkernel_odroid_go/",
+      "source": "circuitpython:hardkernel_odroid_go"
+    }
+  ],
+  "pins": {
+    "source": "circuitpython-pins:hardkernel_odroid_go",
+    "list": [
+      {
+        "pin": "GPIO0",
+        "names": [
+          "BTN_VOLUME"
+        ]
+      },
+      {
+        "pin": "GPIO2",
+        "names": [
+          "LED"
+        ]
+      },
+      {
+        "pin": "GPIO4",
+        "names": [
+          "EXT5"
+        ]
+      },
+      {
+        "pin": "GPIO5",
+        "names": [
+          "LCD_CS"
+        ]
+      },
+      {
+        "pin": "GPIO12",
+        "names": [
+          "EXT3"
+        ]
+      },
+      {
+        "pin": "GPIO13",
+        "names": [
+          "BTN_MENU"
+        ]
+      },
+      {
+        "pin": "GPIO14",
+        "names": [
+          "BACKLIGHT_PWM"
+        ]
+      },
+      {
+        "pin": "GPIO15",
+        "names": [
+          "EXT4"
+        ]
+      },
+      {
+        "pin": "GPIO18",
+        "names": [
+          "SCK",
+          "EXT2"
+        ]
+      },
+      {
+        "pin": "GPIO19",
+        "names": [
+          "MISO",
+          "EXT7"
+        ]
+      },
+      {
+        "pin": "GPIO22",
+        "names": [
+          "SD_CS"
+        ]
+      },
+      {
+        "pin": "GPIO23",
+        "names": [
+          "MOSI",
+          "EXT8"
+        ]
+      },
+      {
+        "pin": "GPIO25",
+        "names": [
+          "SPEAKER_IN_M"
+        ]
+      },
+      {
+        "pin": "GPIO26",
+        "names": [
+          "SPEAKER_IN_P"
+        ]
+      },
+      {
+        "pin": "GPIO27",
+        "names": [
+          "BTN_SELECT"
+        ]
+      },
+      {
+        "pin": "GPIO32",
+        "names": [
+          "BTN_A"
+        ]
+      },
+      {
+        "pin": "GPIO33",
+        "names": [
+          "BTN_B"
+        ]
+      },
+      {
+        "pin": "GPIO34",
+        "names": [
+          "BTN_AXIS_X"
+        ]
+      },
+      {
+        "pin": "GPIO35",
+        "names": [
+          "BTN_AXIS_Y"
+        ]
+      },
+      {
+        "pin": "GPIO36",
+        "names": [
+          "BATTERY"
+        ]
+      },
+      {
+        "pin": "GPIO39",
+        "names": [
+          "BTN_START"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "platformio:odroid_esp32",
+      "label": "PlatformIO board definition (odroid_esp32)",
+      "url": "https://github.com/platformio/platform-espressif32/blob/1152c8f69146ca0c20ab772264606b3cc61ec67c/boards/odroid_esp32.json",
+      "kind": "import",
+      "revision": "1152c8f69146ca0c20ab772264606b3cc61ec67c"
+    },
+    {
+      "id": "zephyr:odroid_go",
+      "label": "Zephyr board definition (odroid_go)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/hardkernel/odroid_go/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    },
+    {
+      "id": "circuitpython:hardkernel_odroid_go",
+      "label": "CircuitPython board definition (hardkernel_odroid_go)",
+      "url": "https://github.com/adafruit/circuitpython-org/blob/83b54473a1bd1a83a97f8706106ea8fe290d4be8/_board/hardkernel_odroid_go.md",
+      "kind": "import",
+      "revision": "83b54473a1bd1a83a97f8706106ea8fe290d4be8"
+    },
+    {
+      "id": "circuitpython-pins:hardkernel_odroid_go",
+      "label": "CircuitPython pin definitions (hardkernel_odroid_go)",
+      "url": "https://github.com/adafruit/circuitpython/blob/395b187017baa922e6729fc9958bc3ba27f9522f/ports/espressif/boards/hardkernel_odroid_go/pins.c",
+      "kind": "import",
+      "revision": "395b187017baa922e6729fc9958bc3ba27f9522f"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

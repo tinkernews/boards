@@ -1,0 +1,56 @@
+{
+  "slug": "demo-f030f4",
+  "name": "Demo F030F4",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "generic",
+  "ids": {
+    "platformio": [
+      "demo_f030f4"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "STM32F030F4P6",
+      "source": "platformio:demo_f030f4"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0",
+      "source": "platformio:demo_f030f4"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:demo_f030f4"
+    },
+    "upload_limits": {
+      "value": "16 KB flash, 4 KB RAM",
+      "source": "platformio:demo_f030f4"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Demo F030F4 product page",
+      "url": "https://www.hotmcu.com/stm32f030f4p6-minimum-systerm-boardcortexm0-p-208.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/ststm32/demo_f030f4.html",
+      "source": "platformio:demo_f030f4"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:demo_f030f4",
+      "label": "PlatformIO board definition (demo_f030f4)",
+      "url": "https://github.com/platformio/platform-ststm32/blob/c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e/boards/demo_f030f4.json",
+      "kind": "import",
+      "revision": "c7fe5b923c22b9d0bf3304cc1a1fdbe9963f822e"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

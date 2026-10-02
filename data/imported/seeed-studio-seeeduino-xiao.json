@@ -1,0 +1,81 @@
+{
+  "slug": "seeed-studio-seeeduino-xiao",
+  "name": "Seeeduino XIAO",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "seeed",
+  "chip": "atsamd21g18",
+  "ids": {
+    "platformio": [
+      "seeed_xiao"
+    ],
+    "zephyr": [
+      "seeeduino_xiao"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "ATSAMD21G18",
+      "source": "platformio:seeed_xiao"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M0+",
+      "source": "platformio:seeed_xiao"
+    },
+    "clock": {
+      "value": "48 MHz",
+      "source": "platformio:seeed_xiao"
+    },
+    "upload_limits": {
+      "value": "256 KB flash, 32 KB RAM",
+      "source": "platformio:seeed_xiao"
+    },
+    "ram": {
+      "value": "32 KB",
+      "source": "zephyr:seeeduino_xiao"
+    },
+    "flash": {
+      "value": "256 KB",
+      "source": "zephyr:seeeduino_xiao"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Seeeduino XIAO product page",
+      "url": "https://www.seeedstudio.com/Seeeduino-XIAO-Arduino-Microcontroller-SAMD21-Cortex-M0+-p-4426.html"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/atmelsam/seeed_xiao.html",
+      "source": "platformio:seeed_xiao"
+    },
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/seeed/seeeduino_xiao/doc/index.html",
+      "source": "zephyr:seeeduino_xiao"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:seeed_xiao",
+      "label": "PlatformIO board definition (seeed_xiao)",
+      "url": "https://github.com/platformio/platform-atmelsam/blob/602ea25c3004480f11280d7eba58063aa62a05e7/boards/seeed_xiao.json",
+      "kind": "import",
+      "revision": "602ea25c3004480f11280d7eba58063aa62a05e7"
+    },
+    {
+      "id": "zephyr:seeeduino_xiao",
+      "label": "Zephyr board definition (seeeduino_xiao)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/seeed/seeeduino_xiao/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

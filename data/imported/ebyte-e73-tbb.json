@@ -1,0 +1,45 @@
+{
+  "slug": "ebyte-e73-tbb",
+  "name": "E73-TBB",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "ebyte",
+  "chip": "nrf52832",
+  "ids": {
+    "zephyr": [
+      "ebyte_e73_tbb"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52832",
+      "source": "zephyr:ebyte_e73_tbb"
+    },
+    "ram": {
+      "value": "64 KB",
+      "source": "zephyr:ebyte_e73_tbb"
+    },
+    "flash": {
+      "value": "512 KB",
+      "source": "zephyr:ebyte_e73_tbb"
+    }
+  },
+  "software": [
+    {
+      "platform": "zephyr",
+      "status": "supported",
+      "url": "https://docs.zephyrproject.org/latest/boards/ebyte/e73_tbb/doc/index.html",
+      "source": "zephyr:ebyte_e73_tbb"
+    }
+  ],
+  "sources": [
+    {
+      "id": "zephyr:ebyte_e73_tbb",
+      "label": "Zephyr board definition (ebyte_e73_tbb)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/blob/3c61a12bdd8b2975b9180abcb80779ad3724a40d/boards/ebyte/e73_tbb/board.yml",
+      "kind": "import",
+      "revision": "3c61a12bdd8b2975b9180abcb80779ad3724a40d"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}

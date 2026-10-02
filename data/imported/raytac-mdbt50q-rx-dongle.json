@@ -1,0 +1,57 @@
+{
+  "slug": "raytac-mdbt50q-rx-dongle",
+  "name": "Raytac MDBT50Q-RX Dongle",
+  "tier": "imported",
+  "kind": "mcu",
+  "maker": "raytac",
+  "chip": "nrf52840",
+  "ids": {
+    "platformio": [
+      "raytac_mdbt50q_rx"
+    ]
+  },
+  "specs": {
+    "chip": {
+      "value": "nRF52840",
+      "source": "platformio:raytac_mdbt50q_rx"
+    },
+    "cpu": {
+      "value": "Arm Cortex-M4",
+      "source": "platformio:raytac_mdbt50q_rx"
+    },
+    "clock": {
+      "value": "64 MHz",
+      "source": "platformio:raytac_mdbt50q_rx"
+    },
+    "upload_limits": {
+      "value": "796 KB flash, 243 KB RAM",
+      "source": "platformio:raytac_mdbt50q_rx"
+    }
+  },
+  "docs": [
+    {
+      "kind": "product",
+      "label": "Raytac MDBT50Q-RX Dongle product page",
+      "url": "https://www.raytac.com/product/ins.php?index_id=89"
+    }
+  ],
+  "software": [
+    {
+      "platform": "arduino",
+      "status": "supported",
+      "note": "Arduino framework available through PlatformIO.",
+      "url": "https://docs.platformio.org/en/latest/boards/nordicnrf52/raytac_mdbt50q_rx.html",
+      "source": "platformio:raytac_mdbt50q_rx"
+    }
+  ],
+  "sources": [
+    {
+      "id": "platformio:raytac_mdbt50q_rx",
+      "label": "PlatformIO board definition (raytac_mdbt50q_rx)",
+      "url": "https://github.com/platformio/platform-nordicnrf52/blob/278176a7f7ffe2d001eb93eafa271c83b38222e4/boards/raytac_mdbt50q_rx.json",
+      "kind": "import",
+      "revision": "278176a7f7ffe2d001eb93eafa271c83b38222e4"
+    }
+  ],
+  "updatedAt": "2026-10-01T10:59:00.593Z"
+}
