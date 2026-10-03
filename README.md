@@ -8,6 +8,13 @@ alternate names like `SDA`, `NEOPIXEL`, `TX`), and its **software support status
 This is the dataset behind the [TinkerNews boards explorer](https://www.tinkernews.com/boards) —
 free to use under CC BY 4.0 in your own tools, configs, and projects.
 
+**Human-readable companion references:** the interactive
+[ESP32 DevKit V1 pinout](https://tinkernews.github.io/esp32-pinout/) (38-pin,
+safe-GPIO + strapping warnings) and
+[ESP32-C3 SuperMini pinout](https://tinkernews.github.io/esp32-c3-supermini-pinout/)
+live here as browsable pages — plus five free calculators at
+[tinkernews.github.io/tools](https://tinkernews.github.io/tools/).
+
 ## What's inside
 
 | | |
